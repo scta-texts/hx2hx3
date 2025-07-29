@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="182"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b61067"><!-- l1d47q3 -->
+            <head xml:id="hx2hx3-b61067-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-b61067-Hd1e101" type="question-title">Utrum Deus possit dispensare in praeceptis decalogi</head>
+            <p xml:id="hx2hx3-b61067-d1e104">
+      <!--182.xml-->
+               <cb ed="#P" n="b"/>
+               <!-- line coord order error -->
+               <lb ed="#P" n="72"/>QVAESTIQTERTIA.
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e115">
+               <lb ed="#P" n="73"/>IVxta hoc ergo quia Deus praecipit 
+      immolatio<lb ed="#P" n="74" break="no"/>nem Isaac. Quod videtur esse contra 
+      prace<lb ed="#P" n="75" break="no"/>ptum illud, Non occides. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e124">
+               <lb ed="#P" n="76"/>Quaeritur, vtrum Deus possit dispensare in 
+      prae<lb ed="#P" n="77" break="no"/>ceptis Decalogit=, 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e132">
+               <lb ed="#P" n="78"/>Et arguitur, quod sic. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e137">
+               <lb ed="#P" n="79"/>Quia Deus praecepit immolationem Isace 
+      <lb ed="#P" n="80"/>quod videtur contracontra illud praeceptum, Non 
+      <lb ed="#P" n="81"/>occides: &amp; praecepit Dsee ducere vxorem 
+      forni<lb ed="#P" n="82" break="no"/>cariam. Quod videtur esse contra illud preceptum, 
+      <lb ed="#P" n="83"/>Non Moecaberis. Et Hebraeis praecepit spoliare 
+      <lb ed="#P" n="84"/>gpptios: quod videtur esse contra illud 
+      praece<lb ed="#P" n="85" break="no"/>ptum, Non furtum facies. Sed ista non 
+      praecepis<lb ed="#P" n="86" break="no"/>set, nisi in dictis praeceptis dispensare potuisset.
+      <lb ed="#P" n="70"/>
+               <!-- line coord order error -->Ergo, &amp;c. 
+      <lb ed="#P" n="71"/>
+               <!-- line coord error -->
+            </p>
+            <p xml:id="hx2hx3-b61067-d1e165">
+               <lb ed="#P" n="87"/>Contra. Praecepta Decalogi continent 
+      iusti<lb ed="#P" n="88" break="no"/>tiam diuinam. Sed Deus non posset dispensare contra 
+      <lb ed="#P" n="89"/>iustitiam suam: quia ipsum se negare non potest. 
+      <lb ed="#P" n="90"/>ergo, &amp;c, 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e176">
+               <lb ed="#P" n="91"/>Respondeo. Venerabilis Doctor sanctus 
+      Tho<lb ed="#P" n="92" break="no"/>mas de Aquino videtur secundum verba exteriora 
+      <lb ed="#P" n="93"/>tenere in tertio sententiarum, &amp; in prima secundae 
+      <lb ed="#P" n="94"/>oppositum eius quod dicit in isto loco. Vt ergo 
+      <lb ed="#P" n="95"/>ista quaestio melius possit explanari, 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e189">
+               <lb ed="#P" n="96"/>Primo videndum est, quid importat 
+      dispensa<lb ed="#P" n="97" break="no"/>Secundo ostendendum est in generali, quae 
+      prae<lb ed="#P" n="98" break="no"/>cepta sint dispensabilia, &amp; quae non. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e198">
+               <lb ed="#P" n="99"/>Tertio videndum est, vtrum in praeceptis 
+      De<lb ed="#P" n="100" break="no"/>calogi possit esse dispensatio: per quod soluetur 
+      <lb ed="#P" n="101"/>quaestio praesens. Et supposito quod non propiie 
+      <lb ed="#P" n="102"/>cadat dispensatio in dictis praeceptis, videndum est 
+      <lb ed="#P" n="103"/>quomodo intelligatur illud verbum quod 
+      commu<lb ed="#P" n="104" break="no"/>niter dieitur: &amp; hoc ponitur a sancto Thoma, 
+      sci<lb ed="#P" n="105" break="no"/>licet quod praecepta secundae tabulae sunt 
+      dispensa<lb ed="#P" n="106" break="no"/>bilia, non autem praecepta primae. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e219">
+               <lb ed="#P" n="107"/>ARTICVLVS PRIMVS. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e224">
+               <lb ed="#P" n="108"/>QVantum ergo ad primum, sciendum est 
+      <lb ed="#P" n="109"/>quod dispensatio praecepti, &amp; interpretatio 
+      <lb ed="#P" n="110"/>multum differunt, accipiendo vtrumque proprie 
+      <lb ed="#P" n="111"/>&amp; stricte. Nam dispensatio videtur imnportare 
+      di<lb ed="#P" n="112" break="no"/>lationem praecepti, siue amotionem obligationis 
+      <lb ed="#P" n="113"/>qua praeceptum obligat, qua obligatione 
+      ammo<lb ed="#P" n="114" break="no"/>ta, res quae praecipitur, relinquitur naturae, quae 
+      <lb ed="#P" n="115"/>rei potest conuenire absque praecepto. 
+      Interpre<lb ed="#P" n="116" break="no"/>tatio autem proprie, est dare intellectum 
+      praece<lb ed="#P" n="117" break="no"/>ti, manente eius obligatione: ita quod proprie 
+      <lb ed="#P" n="118"/>loquendo, interpretari praeceptum, non est tollere 
+      <lb ed="#P" n="119"/>obligationem eius: sed est dare intellectum 
+      ratio<lb ed="#P" n="120" break="no"/>nabilem precipientis. Verbi gratia praeceptum est 
+      <lb ed="#P" n="121"/>ieiunare in quadragesima: proprie dispensare in 
+      <lb ed="#P" n="122"/>tali praecepto, est tollere obligationem istius prae 
+      <lb ed="#P" n="123"/>cepti quoad ad istum: ex causa tamen rationali 
+      <lb ed="#P" n="124"/>quae dispensationem faciat rationabilem, qua 
+      <lb ed="#P" n="125"/>obligatione ablata res de selicita est huic. Interpres 
+      <lb ed="#P" n="126"/>tari vero rale praeceptum, est vt si dicatur, quod 
+      <lb ed="#P" n="127"/>infirmi non sunt obligati ad illud praeceptum: hoc 
+      <lb ed="#P" n="128"/>enim, scilicet quod infirmus, &amp; precipne 
+      graui<lb ed="#P" n="129" break="no"/>ter non ieiunet in quadragesima, non est tollere 
+      <lb ed="#P" n="130"/>obligationem praecepti: quia nunquam tales 
+      obli<lb ed="#P" n="131" break="no"/>gauit preceptum: imo est dare intellectum 
+      praece<lb ed="#P" n="132" break="no"/>pti 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e281">
+               <lb ed="#P" n="133"/>Vlterius sciendum est, quod dispensatio 
+      prae<lb ed="#P" n="134" break="no"/>cepti, &amp; remotio simpliciter dicta, differunt: quia 
+      <lb ed="#P" n="135"/>remotio absoluta praeceptiidem est quod simplici¬ 
+      <!--183.xml-->
+      <pb ed="#P" n="183"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ter, &amp; quantum ad omnes generaliter amouere 
+      <lb ed="#P" n="2"/>obligationem praecepti. Sed dispensario est 
+      amo<lb ed="#P" n="3" break="no"/>tio illius obligationis ad determinatam personam, 
+      <lb ed="#P" n="4"/>&amp; ex causa rationabili, manente obligatione 
+      quo<lb ed="#P" n="5" break="no"/>ad communitatem. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e307">
+               <lb ed="#P" n="6"/>Et sic habemus tria circa praeeeptum per 
+      ordi<lb ed="#P" n="7" break="no"/>nem se habentia, scilicet remotionem, quae est 
+      <lb ed="#P" n="8"/>simpliciter &amp; generaliter tollere obligationem 
+      <lb ed="#P" n="9"/>praecenti quoad omnes. Hispensationem, quae est 
+      <lb ed="#P" n="10"/>tollere dictam obligationem quo ad hunc. Et 
+      in<lb ed="#P" n="11" break="no"/>torpretationem que dat intellectum praecepto, &amp; 
+      ex<lb ed="#P" n="12" break="no"/>ponit quid per praeceptum, intelligatur: nec eius 
+      <lb ed="#P" n="13"/>obligationem tollit etiam quo ad hunc. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e327">
+               <lb ed="#P" n="14"/>Notandum est etiam vlterius, quod 
+      interpreta<lb ed="#P" n="15" break="no"/>tio quandoque pertinet ad omnes indifferenter: 
+      <lb ed="#P" n="16"/>quandoque pertinet tantum ad superiores. Ad 
+      om<lb ed="#P" n="17" break="no"/>nes, si cut in valde manifestis: sicut manifestum est 
+      <lb ed="#P" n="18"/>Ecclesiam nunquam obligasse grauiter infirmum 
+      <lb ed="#P" n="19"/>ad ieiunandum Quo ad superiorem, sicut in 
+      du<lb ed="#P" n="20" break="no"/>biis. Sicut quod homo non multum grauiter 
+      infir<lb ed="#P" n="21" break="no"/>mus, comedat carnes in quadragesima: in talibus 
+      <lb ed="#P" n="22"/>enim declarare pertinet ad superiorem. Et tales 
+      <lb ed="#P" n="23"/>declarationes vocantur quandoque 
+      dispensatio<lb ed="#P" n="24" break="no"/>nes: non quia per eas directe tollatur obligatio 
+      <lb ed="#P" n="25"/>praecepti secundum rem, sed secundum apparentiam 
+      <lb ed="#P" n="26"/>inquantum conscientia dubitantis est obligata 
+      quous<lb ed="#P" n="27" break="no"/>que declaretur. Sic ergo ex praemissis habemus 
+      <lb ed="#P" n="28"/>quid est dispensatio, scilicet, Relaxatio praecepti siue 
+      <lb ed="#P" n="29"/>amotio obligationis praecepti facti ex rationabili 
+      <lb ed="#P" n="30"/>causa. Et sic patet primum principale. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e366">
+               <lb ed="#P" n="31"/>ARTICVLVS SECVNVA. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e372">
+               <lb ed="#P" n="32"/>QVantum ad secundum principale, sciendum 
+      <lb ed="#P" n="33"/>primo est, quantum ad praecepta negatiua 
+      <lb ed="#P" n="34"/>in quibus aliqua mala prohibentur, quod quaedam 
+      <lb ed="#P" n="35"/>de se ita mala, quod prohibentur quia mala sunt. 
+      <lb ed="#P" n="36"/>Sicut furtum, &amp; consimilia. Quaedam autem sunt 
+      <lb ed="#P" n="37"/>mala tantum, quia prohibita: ita quod quantum 
+      <lb ed="#P" n="38"/>est de se non essent mala, si non esserit prohibita. 
+      <lb ed="#P" n="39"/>Sicur comedere carnes in sexta feria, vel in 
+      quadra<lb ed="#P" n="40" break="no"/>gesima: si enim hoc non esset prohibitum, hoc de 
+      <lb ed="#P" n="41"/>se non esset malum. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e396">
+               <lb ed="#P" n="42"/>Vlterius sciendum est, quod eorum quae de se 
+      <lb ed="#P" n="43"/>sunt mala, quaedam sunt ita mala, quod in nullo 
+      <lb ed="#P" n="44"/>casu postunt esse bona, sicut odire Deum, &amp; 
+      ino<lb ed="#P" n="45" break="no"/>bedientia, &amp; consimilia, quae in nullo casu possunt 
+      <lb ed="#P" n="46"/>esse bona, 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e409">
+               <lb ed="#P" n="47"/>Est autem sciendum, quod non est idem 
+      obe<lb ed="#P" n="48" break="no"/>dire, &amp; inobedientem esse. Quia non obedire, 
+      di<lb ed="#P" n="49" break="no"/>cit negationem obedientiae, quae quandoque 
+      po<lb ed="#P" n="50" break="no"/>test esse licita respectu alicuius: vt quando 
+      debi<lb ed="#P" n="51" break="no"/>tum obediendi tali est ammotum. Inobedientia 
+      au<lb ed="#P" n="52" break="no"/>tem importat subtractionem obedientiae debitae, 
+      <lb ed="#P" n="53"/>quae licite fieri non potest: vt scilicet manente 
+      de<lb ed="#P" n="54" break="no"/>bito obediendi, non obediatur. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e429">
+               <lb ed="#P" n="55"/>Alia sunt ita mala, quod communiter &amp; 
+      regu<lb ed="#P" n="56" break="no"/>lariter sunt mala. In casu tamen speciali possunt 
+      <lb ed="#P" n="57"/>esse bona. Sicut occisio innocentis communiter 
+      <lb ed="#P" n="58"/>est mala: sed in easu propter ordinem aliquem 
+      <lb ed="#P" n="59"/>superiorem manifestandum, scilicet propter 
+      ordi<lb ed="#P" n="60" break="no"/>nem gratiae, posset esse bona. Et similiter 
+      cencu<lb ed="#P" n="61" break="no"/>bitus extra matrimonium est malus communiter: 
+      <lb ed="#P" n="62"/>sed in casu, scilicet propter manifestationem 
+      ali<lb ed="#P" n="63" break="no"/>cuius magni euentus circa statum gratiae, potest 
+      <lb ed="#P" n="64"/>esse bonus. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e453">
+               <lb ed="#P" n="65"/>His ergo praemissis, dicendum est quantum ad 
+      <lb ed="#P" n="66"/>istum secundum articulum, quod omnia 
+      praece<lb ed="#P" n="67" break="no"/>pta negatiua quibus prohibentur illa quae non sunt 
+      <lb ed="#P" n="68"/>mala, nisi quia prohibita, sunt dispensabilia vel a 
+      <!--183.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>Deo, vel a homine, secundum quod illa statuta 
+      <lb ed="#P" n="70"/>sunt a Deo, vel ab homine. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e473">
+               <lb ed="#P" n="71"/>Similiter illa praecepta quihus prohibentur illa 
+      <lb ed="#P" n="72"/>quae de se, vt communiter dicitur, sunt mala, 
+      pos<lb ed="#P" n="73" break="no"/>sunt tamen in casu esse bona, sunt dispensabilia in 
+      <lb ed="#P" n="74"/>illo casu inquo possunt bene fieri, ammnota 
+      obli<lb ed="#P" n="75" break="no"/>gatione praecepti. Et tatio huius est: quia illa 
+      pro<lb ed="#P" n="76" break="no"/>hibita quae possunt bene &amp; licite fieri, ablata 
+      obli<lb ed="#P" n="77" break="no"/>gatione praecepti, sunt dispensabilia: quia 
+      dispen<lb ed="#P" n="78" break="no"/>sare nihil aliud est, quam facere licitum, ammo. 
+      <lb ed="#P" n="79"/>ta obligatione praecepti, id quod non erat licitum, 
+      <lb ed="#P" n="80"/>solum propter obligationem praecepti. Sed illa 
+      <lb ed="#P" n="81"/>quae de se non sunt mala, sed tantum propter 
+      ob<lb ed="#P" n="82" break="no"/>ligationem precepri, ammota obligatione 
+      praece<lb ed="#P" n="83" break="no"/>pti, possnnt fieri bene &amp; licite. 
+      <lb ed="#P" n="84"/>Similiter id quod in calu potest non esse malum 
+      <lb ed="#P" n="85"/>ablata obligatione praecepti, in tali casu potest 
+      <lb ed="#P" n="86"/>fieri bene &amp; licite. Ergo praecepta quihus talia 
+      <lb ed="#P" n="87"/>prohibentur, sunt dispensabilia. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e513">
+               <lb ed="#P" n="88"/>Alia vero praecepta negatiua quibus talia 
+      pro<lb ed="#P" n="89" break="no"/>hibentur quae sic de se sunt mala, quod in nullo 
+      <lb ed="#P" n="90"/>casu possunt esse bona, vel non mala: sicut pr 
+      aece<lb ed="#P" n="91" break="no"/>ptum de non obediendo Deo, sunt omnino a 
+      quo<lb ed="#P" n="92" break="no"/>cumque indispensabilia. Et ratio huius est. Quia 
+      <lb ed="#P" n="93"/>illud quod nullo modo potest esse bonum, non 
+      po<lb ed="#P" n="94" break="no"/>test absolui ab obligatione praecepti prohibentis, 
+      <lb ed="#P" n="95"/>quia de tali dictat lex naturalis menti, imprelsa, 
+      <lb ed="#P" n="96"/>quod nullo modo est faciendum. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e535">
+               <lb ed="#P" n="97"/>Quod dictamen est praeceptum menti 
+      impres<lb ed="#P" n="98" break="no"/>sum. Nec potest hoc non dictare, nisi careat 
+      debi<lb ed="#P" n="99" break="no"/>to vsu rationis. Sed illud praeceptum pronibitum 
+      <lb ed="#P" n="100"/>quo prolibetur id quod non potest absolui ab 
+      o<lb ed="#P" n="101" break="no"/>bligatione praecepti, vt ablata obligatione 
+      prae<lb ed="#P" n="102" break="no"/>cepti licite fiat, est indispensabile. Et hoc satis 
+      pa<lb ed="#P" n="103" break="no"/>tet ex dictis Ergo talia praecepta quibus 
+      prohi<lb ed="#P" n="104" break="no"/>bentur talia, quae nullo modo possunt esse bona, 
+      <lb ed="#P" n="105"/>vel licita, sunt omnino indispensabilia, &amp; a Deo, 
+      <lb ed="#P" n="106"/>&amp; ab homine. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e559">
+               <lb ed="#P" n="107"/>Quantum vero ad praecepta affirmatiua, 
+      scien<lb ed="#P" n="108" break="no"/>dum est, quod quaedam sunt praecepta quibus 
+      prae<lb ed="#P" n="109" break="no"/>cipiuntur quaedam bona, quorum opposita 
+      pos<lb ed="#P" n="110" break="no"/>sunt esse absolute bona, &amp; licita, sicut 
+      praecen<lb ed="#P" n="111" break="no"/>tum de dicendo tales Psalmos in Ecclesis. Quius 
+      <lb ed="#P" n="112"/>oppositum, puta non dicere tales Psalmos, potesr 
+      <lb ed="#P" n="113"/>esse non malum. Sed quaedam alia ad laudem Dci 
+      <lb ed="#P" n="114"/>pertinentia recitare: polset esse bonum &amp; 
+      lici<lb ed="#P" n="115" break="no"/>tum, si non esset de hoc praeceptum Ecclesiae. 
+      <lb ed="#P" n="116"/>Quaedam sunt bona, quorum opposita 
+      communi<lb ed="#P" n="117" break="no"/>ter &amp; regulariter non pbssunt esse hona: sed ta. 
+      <lb ed="#P" n="118"/>men in casu possunt esse bona, sicut est cohabitatio 
+      <lb ed="#P" n="119"/>viri &amp; vroris, parentis &amp; prolis, praecipue 
+      quan<lb ed="#P" n="120" break="no"/>diu proles indiget educatione. Ista autem sunt 
+      ta<lb ed="#P" n="121" break="no"/>lia, quorum opposita sunt communster &amp; 
+      regula<lb ed="#P" n="122" break="no"/>riter mala, tamnen in casu possunt esse bona, 
+      pro<lb ed="#P" n="123" break="no"/>pter aliquod magnum ostendendum circastatum 
+      <lb ed="#P" n="124"/>pratiae. Sicut patet de Abraam qui eiecit Agat vna 
+      <lb ed="#P" n="125"/>cum Hismaele filio suo de mandato Domint. Et 
+      <lb ed="#P" n="126"/>talia praeceptam affirmatiua sunt dispensabilia: quia 
+      <lb ed="#P" n="127"/>eorum opposita vel simpliciter, vel in easu, 
+      pos<lb ed="#P" n="128" break="no"/>sunt esse bona ablata obligatione praecepti. 
+      Quae<lb ed="#P" n="129" break="no"/>dam autem sunt praecepta affirmatiua quibus talia 
+      <lb ed="#P" n="130"/>praecipiuntur, quorum opposita nullo modo 
+      pos<lb ed="#P" n="131" break="no"/>sunt esse bona: sicut diligere Deum, vel exhibere 
+      <lb ed="#P" n="132"/>debitum obsequium manente debito obsequendi: 
+      <lb ed="#P" n="133"/>quorum opposita nullo modo possunt esse hona. 
+      <lb ed="#P" n="134"/>Et talia praecepta a nullo sunt dispensabilia: 
+      <lb ed="#P" n="135"/>Quia cum opposita eorum nullo modo possunt 
+      es<lb ed="#P" n="136" break="no"/>se hona, vel licita, non possunt non cadere sub 
+      <lb ed="#P" n="137"/>obligatione praecepti, saltem praecepti impressi in 
+      <lb ed="#P" n="138"/>mente. Sicut etiam dictum elt de praeceptis pro¬ 
+      <!--184.xml-->
+      <pb ed="#P" n="184"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>hibitiuis, quorum opposita nullo modo possunt 
+      <lb ed="#P" n="2"/>esse bona. Et sic patet de secundo, quae praecepta 
+      <lb ed="#P" n="3"/>sunt dispensabilia, &amp; quae non, &amp; hoc in 
+      gene<lb ed="#P" n="4" break="no"/>rali. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e646">
+               <lb ed="#P" n="5"/>ARTICVLVSTERIIVS. 
+      <lb ed="#P" n="6"/>Quantum ad tertium, vtrum scilicet praecepta 
+      <lb ed="#P" n="7"/>Decalogi sint dispensabilia. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e655">
+               <lb ed="#P" n="8"/>Dicendum est, quod ad praecepta Decalogi 
+      <lb ed="#P" n="9"/>aliqua pertinent dupliciter. Vno modo primo &amp; 
+      <lb ed="#P" n="10"/>per se &amp; directe: &amp; quantum ad talia praecepta 
+      <lb ed="#P" n="11"/>Decalogi sunt indispensibilia a quocumque. Alia 
+      <lb ed="#P" n="12"/>autem pertinent ad praecepta Decalogi 
+      secunda<lb ed="#P" n="13" break="no"/>rio &amp; per quandam deductionem, &amp; in istis cadit 
+      <lb ed="#P" n="14"/>dispensatio. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e673">
+               <lb ed="#P" n="15"/>Ad cuius euidentiam sciendum est, quod 
+      ali<lb ed="#P" n="16" break="no"/>quem non habere ordinem quem habet ad 
+      proxi<lb ed="#P" n="17" break="no"/>mum, vel aliam creaturam, est aliud ab eo quod 
+      <lb ed="#P" n="18"/>est inordinate se habere ad proximum. Quia non 
+      <lb ed="#P" n="19"/>habete talem ordinem, puta non habere ordinem 
+      <lb ed="#P" n="20"/>ad proximum secundum obedientiam, vel 
+      secun<lb ed="#P" n="21" break="no"/>dum hoc quod est velle conseruationem vitae suae, 
+      <lb ed="#P" n="22"/>dicit puram negationem talis ordinis, absque 
+      de<lb ed="#P" n="23" break="no"/>bito fine, non includendo deb tum habendi talem 
+      <lb ed="#P" n="24"/>ordinem. Sed inordinate se habere ad proximum, 
+      <lb ed="#P" n="25"/>dicit priuationem ordinis debiti in esse: siue etiam 
+      <lb ed="#P" n="26"/>oppositum ordinis debiti in esse. Nunc autem, vt 
+      <lb ed="#P" n="27"/>est dictum supra, nontenere ordine debitum, vel 
+      <lb ed="#P" n="28"/>oppositum debiti ordinis facere, manente debito 
+      <lb ed="#P" n="29"/>illius ordinis, no potest aliquo modo bene fieri. Sed 
+      <lb ed="#P" n="30"/>non habere talem ordinem ad proximum, puta 
+      se<lb ed="#P" n="31" break="no"/>cundum obedientiam, ablato debito 
+      habendita<lb ed="#P" n="32" break="no"/>lem ordinem, potest bene fieri. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e716">
+               <lb ed="#P" n="33"/>vlterius sciendum est, quod praecepta 
+      Decalo<lb ed="#P" n="34" break="no"/>gi non sunt de hoc, quod ad tale habeatur talis 
+      or<lb ed="#P" n="35" break="no"/>do, vel ad talem, quantum ad ea quae pertinet 
+      di<lb ed="#P" n="36" break="no"/>recte ad praecepta Decalogi: nisi forte in 
+      praece<lb ed="#P" n="37" break="no"/>ptis primae tabulae, in quibus praecipitur ordo ad 
+      <lb ed="#P" n="38"/>Deum qui non potest esse non debitus: sicut in 
+      <lb ed="#P" n="39"/>quarto articulo ex ponetur. Sed sunt de hoc quod 
+      <lb ed="#P" n="40"/>manente debito talis, vel talis ordinis, homo non 
+      <lb ed="#P" n="41"/>habet se in ordine, vel in debito, vel inferendo 
+      <lb ed="#P" n="42"/>malum quod tenetur, &amp; debet non inferre: vel 
+      sub<lb ed="#P" n="43" break="no"/>trahiendo bonum quod debent impendere 
+      ma<lb ed="#P" n="44" break="no"/>nente debito impedendi. Vnde quando dicitur: 
+      <lb ed="#P" n="45"/>Non occides, non est sensus quod nullum 
+      homi<lb ed="#P" n="46" break="no"/>nem occidas: sed non committas occisionem 
+      in<lb ed="#P" n="47" break="no"/>debitam vel iniuriam. Similiter quando dicitur: 
+      <lb ed="#P" n="48"/>Honora patrem tuum, &amp;c. est sensus. Impende 
+      <lb ed="#P" n="49"/>obsequium deb tum illis quibus obligatus es, 
+      ma<lb ed="#P" n="50" break="no"/>nente debito obsequendi, &amp; sic de aliis. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e758">
+               <lb ed="#P" n="51"/>Ex his potest ostendi, quod precepta Decalogl, 
+      <lb ed="#P" n="52"/>quantum ad ea quae directe, peruinent ad dicta 
+      <lb ed="#P" n="53"/>praecepta, sunt indispensabilia. Quia, vt ex dictia 
+      <lb ed="#P" n="54"/>patet, illa praecepta sunt indispensabilia quibus 
+      <lb ed="#P" n="55"/>talia praecipiuntur, siue affirmatiue, siue 
+      negati<lb ed="#P" n="56" break="no"/>ue, quorum opposita nullo modo possunt bene, 
+      <lb ed="#P" n="57"/>vel licite fieri. Sed praecepta Decalogi sunt huius, 
+      <lb ed="#P" n="58"/>modi. Ergo, &amp;c. Maior patet. Minor etiam 
+      faci<lb ed="#P" n="59" break="no"/>liter potest declarari ex dictis: quia quod homo ie 
+      <lb ed="#P" n="60"/>habeat inordinate vel inferendo nocumentum 
+      <lb ed="#P" n="61"/>quod non debet inferre, vel subtrahendo bonum 
+      <lb ed="#P" n="62"/>quod debet impendere manente debito talis 
+      ordi<lb ed="#P" n="63" break="no"/>nis, nullo modo potest bene sieri. Sed precepta 
+      <lb ed="#P" n="64"/>Decalogi sunt de hoc, quod homonon se habeat 
+      <lb ed="#P" n="65"/>inordinate vel indebite dictis modis. Ergo opposita 
+      <lb ed="#P" n="66"/>eorum quae praecipiuntur praecetstis Decalogi 
+      nul<lb ed="#P" n="67" break="no"/>lo modo possunt bene fieri, &amp; sic patet minor. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e797">
+               <lb ed="#P" n="68"/>Sunt autem quaedam alia quie ad dicta praece¬ 
+      <!--184.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>pta directe non pertinent, sed per quandam 
+      redu<lb ed="#P" n="70" break="no"/>ctionem &amp; determinationem: verbi gratia ad 
+      ip<lb ed="#P" n="71" break="no"/>sum praeceptum Decalogi, Non occides, pertinet 
+      <lb ed="#P" n="72"/>non committere iniustam occisionem. Sed quod 
+      <lb ed="#P" n="73"/>occisio talis, vel talis hominis, puta innocentis. vel 
+      <lb ed="#P" n="74"/>illius qui non est fur, vel homicida sit oecisio 
+      iniu<lb ed="#P" n="75" break="no"/>sta: hoc directe non pertinet ad praecepta 
+      Decalo<lb ed="#P" n="76" break="no"/>gi, sed est quaedam determinatio illius praecepti 
+      <lb ed="#P" n="77"/>Decalogis vel secundum dictamen legis naturae 
+      <lb ed="#P" n="78"/>impressae menti, quae dictat innocentem non 
+      de<lb ed="#P" n="79" break="no"/>bere occidi, vel secundum statum diuinum: quia 
+      <lb ed="#P" n="80"/>statuit iustum &amp; innocentem ne interficias: vel 
+      <lb ed="#P" n="81"/>lecundum statutum humanum, vt si in aliqua 
+      com<lb ed="#P" n="82" break="no"/>munitate statuatur, quod hoc dato quod sit 
+      per<lb ed="#P" n="83" break="no"/>iurus, vel fornicator, non occidatur nisi fur, 
+      vel<lb ed="#P" n="84" break="no"/>homicida, vel reus laesae maiestatis, vel aliquid 
+      ta<lb ed="#P" n="85" break="no"/>le. Similiter ad praeceptum Decalogi directe 
+      per<lb ed="#P" n="86" break="no"/>tinet, quod debitum obsequium, vel debita 
+      obe<lb ed="#P" n="87" break="no"/>dientia exhibeatur, manente debtto 
+      obediendi<lb ed="#P" n="88" break="no"/>Sed quod tali, vel de tali debeatur talis 
+      obe<lb ed="#P" n="89" break="no"/>dientia, est quaedam deductio ex illo, vel ex statuto 
+      <lb ed="#P" n="90"/>diuino, vt quod proprie illi qui est eius vicarius 
+      <lb ed="#P" n="91"/>exhibeatur obedientia: vel ex statuto humano, vt 
+      <lb ed="#P" n="92"/>quod in Ecclesia sint aliqui archidiaconi, vel 
+      ab<lb ed="#P" n="93" break="no"/>bates, vel priores quibus talis obedientia 
+      debea<lb ed="#P" n="94" break="no"/>tur. In talibus, secundario ad Decalogum 
+      perti<lb ed="#P" n="95" break="no"/>nentibus, potest fieri dispensatio, vel a Deo, vel ab 
+      <lb ed="#P" n="96"/>hiomine: secundum quod talis determninatio fit 
+      <lb ed="#P" n="97"/>vel statuto diumo, vel statuto humano. Cuius ratio 
+      <lb ed="#P" n="98"/>est. Quia eorum opposita possunt esse vel 
+      simplici<lb ed="#P" n="99" break="no"/>ter, vel in casubona. Simpliciter, sicut comedere 
+      <lb ed="#P" n="100"/>carnes sexta feria moderate; nullum malum esset, 
+      <lb ed="#P" n="101"/>vel posset esse bonum, si prohibitum non esset. In 
+      <lb ed="#P" n="102"/>casu autem, sicut occisio innocentis propter 
+      ma<lb ed="#P" n="103" break="no"/>nifestandum aliquid circa statum gratiae, potest 
+      <lb ed="#P" n="104"/>esse in casu bona. Causa autem quare opposita 
+      <lb ed="#P" n="105"/>eorum quae continentur directe in praeceptis 
+      De<lb ed="#P" n="106" break="no"/>calogi non possunt esse bona in aliquo casu. 
+      Qp<lb ed="#P" n="107" break="no"/>posita tamen praeceptorum determinantium, &amp; 
+      <lb ed="#P" n="108"/>deductorum ex iis, possunt esse bona in casu, vel 
+      <lb ed="#P" n="109"/>simpliciter est ista. Quia sicut impossibile est, quod 
+      <lb ed="#P" n="110"/>a cursu separetur motus, propter quod 
+      impossibi<lb ed="#P" n="111" break="no"/>le est, quod ista duo simul stent, scilicet quod 
+      ali<lb ed="#P" n="112" break="no"/>quis currat, nec moueatur: possibile est tamen 
+      <lb ed="#P" n="113"/>quod vtrumque separetur a subiecto cui insuntv 
+      <lb ed="#P" n="114"/>quia ille qui currit, absolute potest non currere, &amp; 
+      <lb ed="#P" n="115"/>non moueri: etiam ita ab eo quod est ordinate &amp; 
+      <lb ed="#P" n="116"/>debite se habere, inseparabile est bonum: &amp; ab eo 
+      <lb ed="#P" n="117"/>quod est inordinate se habere, inseparabile est 
+      ma<lb ed="#P" n="118" break="no"/>lum: ita quod ista duo non start simul, scilicet 
+      <lb ed="#P" n="119"/>quod aliquis debite se habeat, &amp; non se habeat 
+      be<lb ed="#P" n="120" break="no"/>ne: vel quod indebite se habeat, &amp; non se habeat 
+      <lb ed="#P" n="121"/>male. Et ideo impossibile est, quod in aliquo 
+      ca<lb ed="#P" n="122" break="no"/>su, oppositum debiti vel ordinati sit bonum: ita 
+      <lb ed="#P" n="123"/>quod impossibile est quod ista duo stent, scilicet, 
+      <lb ed="#P" n="124"/>quod aliquis inordinate se habeat, &amp; quod se 
+      <lb ed="#P" n="125"/>habeat bene. Sed bene a tali persona potest 
+      sepa<lb ed="#P" n="126" break="no"/>rari talis ordo, vel debitum habendi talem 
+      ordi<lb ed="#P" n="127" break="no"/>nem, puta a tali persona potest separari ordo 
+      obe<lb ed="#P" n="128" break="no"/>dientiae ad talem personam, puta episcopum, ver 
+      <lb ed="#P" n="129"/>Abbatem, &amp; per consequens a suo non obedire, 
+      <lb ed="#P" n="130"/>ablato illo ordine, potest separari, &amp; inordinatum 
+      <lb ed="#P" n="131"/>esse, &amp; malum esse, &amp; potest esse bonum suum 
+      <lb ed="#P" n="132"/>non obedire. Et quia ea quae pertinent ad 
+      praece<lb ed="#P" n="133" break="no"/>bta Decalogi directe, sunt debite, &amp; ordinate se 
+      <lb ed="#P" n="134"/>habere &amp; cauere indebitum &amp; inordinatum: ideo 
+      <lb ed="#P" n="135"/>impossibile est quod eorum opposita in aliquo 
+      ca<lb ed="#P" n="136" break="no"/>su sint bona. Quia vero praecepta secundaria 
+      con<lb ed="#P" n="137" break="no"/>stituunt indeterminato, tale debitum vel 
+      indebi<lb ed="#P" n="138" break="no"/>tum, ordinatum, vel inordinatum, ad determina¬ 
+      <!--185.xml-->
+      <pb ed="#P" n="185"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tas materias a quibus vel simpliciter, vel in casu se¬A 
+      <lb ed="#P" n="2"/>parabiles sinnt, sicut debitum obediendi Episcopo, est 
+      <lb ed="#P" n="3"/>separabile a persona hac vel ab illa. Ideo opposita 
+      <lb ed="#P" n="4"/>eorum quae talibus praecipiuntur, possunt esse vel 
+      <lb ed="#P" n="5"/>communiter, vel in casu bona: &amp; ideo possunt esse 
+      <lb ed="#P" n="6"/>vel simpliciter reuocabilia, vel dispensabilia, &amp; sic 
+      <lb ed="#P" n="7"/>ppatet de tertio principali. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e979">
+               <lb ed="#P" n="8"/>ARTICVLVS QVARTVA. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e984">
+               <lb ed="#P" n="9"/>QVantum ad quartum, scilicet quomodo 
+      de<lb ed="#P" n="10" break="no"/>beat istud verbum commune intelligi, quod 
+      <lb ed="#P" n="11"/>scilicet praecepta primae tabulae sunt 
+      indispensabi<lb ed="#P" n="12" break="no"/>lia 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e995">
+               <lb ed="#P" n="13"/>Difficultatem habet ex hoc quod supra 
+      osten<lb ed="#P" n="14" break="no"/>sum est, quod omnia praecepta decalogi, quantum 
+      <lb ed="#P" n="15"/>ad omnia quae directe ad ipsa pertinent, sunt 
+      in<lb ed="#P" n="16" break="no"/>dispensabilia. Si autem loquamur de his per quae 
+      <lb ed="#P" n="17"/>determinantur, videtur prima fronte quod ita sint 
+      <lb ed="#P" n="18"/>dispensabilia, vel reuocabilia primae tabulae, sicut 
+      <lb ed="#P" n="19"/>secundae: quia hoc quod est reddere obsequium 
+      <lb ed="#P" n="20"/>debitum proximo, pertinet ad illud praeceptum; 
+      <lb ed="#P" n="21"/>Honora Patrem tuum, &amp;c. Et sic determinatur per 
+      <lb ed="#P" n="22"/>hoc quod est subuenire Patri, vel exibere 
+      obe<lb ed="#P" n="23" break="no"/>dientiam Episcopo, vel Abbati: ita etiam hoc quod 
+      <lb ed="#P" n="24"/>est exhibere debitum famulatum Deo, quod 
+      per<lb ed="#P" n="25" break="no"/>tinet ad illud praeceptum: Memento vt diem 
+      saba<lb ed="#P" n="26" break="no"/>bati, &amp;c. Est determinabile per hoc quod est 
+      ex<lb ed="#P" n="27" break="no"/>hibere famulatum talibus sacrificiis, vel hostiis: vel 
+      <lb ed="#P" n="28"/>tali, &amp; tali die colere eum, puta die sabbati: vel 
+      <lb ed="#P" n="29"/>alio, &amp; sicut illa per que determinatur praeceptum 
+      <lb ed="#P" n="30"/>illud: honora Patrem, &amp;c. Scilicet subuenire Patri, 
+      <lb ed="#P" n="31"/>vel obedire Episcopo, vel Abbati, sunt 
+      dispensa<lb ed="#P" n="32" break="no"/>bilia: &amp; a Deo, vel ab homine secundum quod 
+      ta<lb ed="#P" n="33" break="no"/>les determinationes sunt statuto diuino, vel 
+      huma<lb ed="#P" n="34" break="no"/>no. Ita etiam illa quibus determinatur illud 
+      prae<lb ed="#P" n="35" break="no"/>ceptum. Memento vt dies sabbati &amp;c. Quod 
+      per<lb ed="#P" n="36" break="no"/>tinet ad primam tabulam, sunt dispensabilia &amp; re. 
+      <lb ed="#P" n="37"/>uocabilia, vel a Deo, vel ab homine: secundum 
+      <lb ed="#P" n="38"/>quod tales determinationes fiunt statuto diuino, 
+      <lb ed="#P" n="39"/>vel humano, sicut patet de seruitio quod 
+      impende<lb ed="#P" n="40" break="no"/>batur Deo in lege veteri secundum sacrificia in 
+      di<lb ed="#P" n="41" break="no"/>cta lege instituta quod sunt reuocata, quantum ad 
+      <lb ed="#P" n="42"/>diem est reuocatum quod sabbatum non colatur 
+      <lb ed="#P" n="43"/>&amp; modo etiam Deus posset dispensare cum 
+      ali<lb ed="#P" n="44" break="no"/>quo, quod non teneretur audire missam, vel 
+      reci<lb ed="#P" n="45" break="no"/>pere hoc vel illud Sacramentum, in quorum vsu 
+      <lb ed="#P" n="46"/>ei in noua sege famulatur. Cum ergo tam in 
+      pri<lb ed="#P" n="47" break="no"/>ma tabula, quam in secunda, illa quae directe 
+      per<lb ed="#P" n="48" break="no"/>tinent ad determinationes praedictorum 
+      precepto<lb ed="#P" n="49" break="no"/>rum, hinc &amp; inde sint dispensabilia. Quare 
+      prae<lb ed="#P" n="50" break="no"/>cepta primae tabulae magis dieuntur dispensabilia. 
+      <lb ed="#P" n="51"/>quam secundae. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1083">
+               <lb ed="#P" n="52"/>Ad huius euidentiam sciendum est, quod cum 
+      <lb ed="#P" n="53"/>per praecepta decalogi, &amp; etiam per alia praecepta 
+      <lb ed="#P" n="54"/>ex eis deducta, homo ordinetur ad Deum &amp; ad 
+      <lb ed="#P" n="55"/>proximum. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1094">
+               <lb ed="#P" n="56"/>Circa dictum ordinem est considerare duo. 
+      <lb ed="#P" n="57"/>Quia primo potest considerari ipse ordo in 
+      gene<lb ed="#P" n="58" break="no"/>rali &amp; secundum se, vt scilicet debitus ordo 
+      ser<lb ed="#P" n="59" break="no"/>uetur, manente debito habendi: puta quod exhi. 
+      <lb ed="#P" n="60"/>beatur debitum obsequium, vel debita 
+      obedien<lb ed="#P" n="61" break="no"/>tia. Et quantum ad ista, nec in praeceptis 
+      pri<lb ed="#P" n="62" break="no"/>mae tabulae, nec in praeceptis secunde, cadit dispen 
+      <lb ed="#P" n="63"/>satio, vt dictum est. Etiam quia directe ista 
+      perti<lb ed="#P" n="64" break="no"/>nent ad praecepta Decalogi, &amp; in prima &amp; 
+      secun<lb ed="#P" n="65" break="no"/>da tabula: ideo generaliter dictum est supra, quod 
+      <lb ed="#P" n="66"/>praecepta Decalogi, quantum ad illa quae directe 
+      <lb ed="#P" n="67"/>pertinent ad dicta praecepta, sunt 
+      indispensabi<lb ed="#P" n="68" break="no"/>lia.
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1125">
+      <!--185.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>Aliud quod est ibi considerare, est determina. 
+      <lb ed="#P" n="70"/>tio talis ordinis ad determinatam materiam. Ist: 
+      <lb ed="#P" n="71"/>autem determinatio etiam potest intelligi, vel 
+      <lb ed="#P" n="72"/>quantum ad personas ad quas habendus est 
+      or<lb ed="#P" n="73" break="no"/>do, vel quantum ad ea quae secundum 
+      talemor<lb ed="#P" n="74" break="no"/>dinem impendenda sunt tali personae. Verbtaratia, 
+      <lb ed="#P" n="75"/>hoc quod est obsequiundebitum impendere, 
+      determi<lb ed="#P" n="76" break="no"/>natur quantum ad pes sonas ad quas ordo obsequn 
+      <lb ed="#P" n="77"/>est habendus: vt ad Patrem, Dpiscopum, vel Ab. 
+      <lb ed="#P" n="78"/>batem, vel aliquid tale. Quantum autem ad ea 
+      <lb ed="#P" n="79"/>secundum quae secundum talem ordinem sunt 
+      <lb ed="#P" n="80"/>impendenda: vt scilicet Patri impendatur vcl 
+      ho<lb ed="#P" n="81" break="no"/>nor, vel subsidium rei temporalis, vel consolauo, 
+      <lb ed="#P" n="82"/>vel aliquid tale. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1162">
+               <lb ed="#P" n="83"/>Et similiter potest deduci de praeceptis 
+      negati<lb ed="#P" n="84" break="no"/>uis. Verbi gratia hoc quod est non inferre poenam, 
+      <lb ed="#P" n="85"/>vel nocumentum alteri, quantum ad personas 
+      de<lb ed="#P" n="86" break="no"/>terminatur, &amp; quantum ad nocumentum: vel 
+      <lb ed="#P" n="87"/>quantum ad illum qui grauia non commiserit, 
+      si<lb ed="#P" n="88" break="no"/>cut fit inlege humana quae permittit leuia absque 
+      <lb ed="#P" n="89"/>poena quantum ad non inferendam quod non 
+      infe<lb ed="#P" n="90" break="no"/>rat mortem, vel alapam, vel fsagellum. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1182">
+               <lb ed="#P" n="91"/>Dispensatio ergo in his quae pertinent ad 
+      de<lb ed="#P" n="92" break="no"/>terminationem dictorum praeceptorum, quantum 
+      <lb ed="#P" n="93"/>ad personas ad quas habendus est ordo, 
+      differen<lb ed="#P" n="94" break="no"/>ter se habet tam in his que pertinent ad 
+      primanta<lb ed="#P" n="95" break="no"/>bulam, &amp; ad secundam. Nam in his quae pertinent 
+      <lb ed="#P" n="96"/>ad primam tabulam, sicut praecepta quae pertinent 
+      <lb ed="#P" n="97"/>ad ipsum ordinem, secundum se sunt indispen 
+      sa<lb ed="#P" n="98" break="no"/>bilia. Ita etiam &amp; illa quae pertinent ad 
+      dutermi<lb ed="#P" n="99" break="no"/>nationem dicti ordinis, quantum ad illum ad 
+      <lb ed="#P" n="100"/>quem habendus est ordo, sunt indispensabilia. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1206">
+               <lb ed="#P" n="101"/>Vnde sicut non potest di spensari, quod non 
+      ex<lb ed="#P" n="102" break="no"/>hibeatur debita obedientia Deo, quod pert iner 
+      <lb ed="#P" n="103"/>ad ipsum ordinem secundum se: sicut &amp; 
+      exhibe<lb ed="#P" n="104" break="no"/>tur &amp; debita obedientia homini. Ita non potest 
+      <lb ed="#P" n="105"/>dispensari quin debitum sit, exhibere 
+      obedien<lb ed="#P" n="106" break="no"/>tiam Deo, siue quin obedientia ad Deum sit 
+      debi<lb ed="#P" n="107" break="no"/>ta, &amp; reuerentia, &amp; famulatus. In his autem quae 
+      <lb ed="#P" n="108"/>pertinent ad determinationem dicti ordinis 
+      con<lb ed="#P" n="109" break="no"/>tenti insecunda tabula, quantum ad personas a 
+      <lb ed="#P" n="110"/>quibus habet determinari, sunt dispensabilia. 
+      Li<lb ed="#P" n="111" break="no"/>cet enim exhibere debitum obsequium Patri, vel 
+      <lb ed="#P" n="112"/>tali praelato, manente debito habendi talem 
+      oidi<lb ed="#P" n="113" break="no"/>nem, sit indispensabile: nec oppositum possit 
+      es<lb ed="#P" n="114" break="no"/>se bonum. Tamen determinatio huius ordinis ad 
+      <lb ed="#P" n="115"/>Patrem, vel praelatum est dispensabile: quia ita 
+      <lb ed="#P" n="116"/>non est necessarium quod obsequtum sit debitum 
+      <lb ed="#P" n="117"/>Patri, vel obedientia tali prael ato, quod tale 
+      ob<lb ed="#P" n="118" break="no"/>sequium non possit fieri non debitum, vel talis 
+      o<lb ed="#P" n="119" break="no"/>bedientia non debita, ex causa ardua. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1251">
+               <lb ed="#P" n="120"/>Similiter in praeceptis prohibitiuis, licet non 
+      <lb ed="#P" n="121"/>inferre debitum nocumentum sit in dispensabile 
+      <lb ed="#P" n="122"/>manente hoc quod indebitum sit inferre: tamen 
+      i<lb ed="#P" n="123" break="no"/>stud non inferre non oportet quod sit ita 
+      necessa<lb ed="#P" n="124" break="no"/>rio indebitum, quod nullo modo inferre possit 
+      <lb ed="#P" n="125"/>esse debitum. Sicut inferre mortem innocenti 
+      pro<lb ed="#P" n="126" break="no"/>pter manifestationem gratiae: vt patet in Isaac, 
+      <lb ed="#P" n="127"/>quem pater de mandato Dei voluit, occidere nec 
+      <lb ed="#P" n="128"/>peccauit. Et rationem huius assignat sanctusT 
+      ho<lb ed="#P" n="129" break="no"/>ma, in loco isto. Quia sicut in effectibus natur 
+      ali<lb ed="#P" n="130" break="no"/>bus impossibile est, quod alicuid habeat aliquam 
+      <lb ed="#P" n="131"/>entitatem, uisi habeat secundum illum ordinem ad 
+      pri<lb ed="#P" n="132" break="no"/>mom causam quae est Deus: potest tamen habere 
+      <lb ed="#P" n="133"/>entitate absque hoc quod habeat ordinem ad 
+      ali<lb ed="#P" n="134" break="no"/>quam causam secunda. Ita etiam in actibus 
+      mora<lb ed="#P" n="135" break="no"/>libus, impossibile est, quod sit bonitas nisi habeat 
+      <lb ed="#P" n="136"/>ordinem ad primam causam, &amp; ad vltimum 
+      fi<lb ed="#P" n="137" break="no"/>nem qui est Deus. Potest tamen esse bonitas in 
+      a<lb ed="#P" n="138" break="no"/>ctu morali, ablato ordine quem natus est habere 
+      <!--186.xml-->
+      <pb ed="#P" n="186"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ad proximum, vel quancumque creaturam: ita 
+      <lb ed="#P" n="2"/>quod homo possit absolui a debito obsequendi 
+      <lb ed="#P" n="3"/>cuiceunque homini, vel a debito non inferendi 
+      no<lb ed="#P" n="4" break="no"/>cumentum innocenti: non tamen potest absolui 
+      <lb ed="#P" n="5"/>a debito obsequendi Deo, vel a debito non 
+      in<lb ed="#P" n="6" break="no"/>ferendi irreuerentiam Deo, vel aliquid tale. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1314">
+               <lb ed="#P" n="7"/>Quantum ergo ad hoc, est intelligendum verbum illud 
+      <lb ed="#P" n="8"/>quod precepta primae tabule sunt indispem sabilia, &amp; 
+      <lb ed="#P" n="9"/>praecepta secunde sunt dispensabilia quantum 
+      sci<lb ed="#P" n="10" break="no"/>licet ad determinationem talem dicti ordinis ad 
+      <lb ed="#P" n="11"/>personas ad quas habendus est ordo. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1327">
+               <lb ed="#P" n="12"/>Quantum vero ad ea quae homo debet 
+      impen<lb ed="#P" n="13" break="no"/>dere eis ad quos habendus est talis ordo, vt quod 
+      <lb ed="#P" n="14"/>ex obsequio quod debeo Patri, exhibeam pecu. 
+      <lb ed="#P" n="15"/>hiam. Vel bladum, vel consolationem, vel 
+      hono<lb ed="#P" n="16" break="no"/>rem: &amp; ex famulatu quem debeo Deo, ex hibeam 
+      <lb ed="#P" n="17"/>tale sacrificium, vel tale, puta tantum haedum, vel 
+      <lb ed="#P" n="18"/>agnum: praecepta pertinentia ad vtramque 
+      tabu<lb ed="#P" n="19" break="no"/>lam, sunt dispensabilia. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1347">
+               <lb ed="#P" n="20"/>Cuius ratio in generali est, cumtalia quae extalior. 
+      <lb ed="#P" n="21"/>dine sunt impendeda, prout accipiuntur inspeciali, 
+      <lb ed="#P" n="22"/>sint multa cum quibus possit saluari dictus 
+      ordo<lb ed="#P" n="23" break="no"/>non est necessarium quod fiat determinatio ad 
+      i<lb ed="#P" n="24" break="no"/>sta, vel ad illa specialiter: sed secundum 
+      diuersi<lb ed="#P" n="25" break="no"/>tatem temporum, locorum, &amp; personarum 
+      exhi<lb ed="#P" n="26" break="no"/>bentium, possunt mutari per reuocationem, &amp; 
+      <lb ed="#P" n="27"/>per dispensationem, si etiam specialiter 
+      descen<lb ed="#P" n="28" break="no"/>damus ad Deum. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1369">
+               <lb ed="#P" n="29"/>Ratio quare determinatio quae est ad Deum 
+      <lb ed="#P" n="30"/>ad quem habendus est ordo est indispensabilis: 
+      <lb ed="#P" n="31"/>determinatio autem, quantum ad ea quae ei 
+      im<lb ed="#P" n="32" break="no"/>pendenda sunt, est dispensabilis, est ista, quod 
+      sci<lb ed="#P" n="33" break="no"/>licet licet necessarium sit, quod omnis homo in 
+      a<lb ed="#P" n="34" break="no"/>ctibus habeat ordinem ad Deum, si debeant esse 
+      <lb ed="#P" n="35"/>boni: non tamen est necessarium quod habeat 
+      i<lb ed="#P" n="36" break="no"/>stum ordinem mediante hac re determinata, vel 
+      il<lb ed="#P" n="37" break="no"/>la. Puta mediante oblatione candele, vel hoedi, vel 
+      <lb ed="#P" n="38"/>agni: sed potest indifferenter mediante hoc vel 
+      il<lb ed="#P" n="39" break="no"/>los bene &amp; sancte ferri in Deum. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1395">
+               <lb ed="#P" n="40"/>Et sic patet de quarto: Quare dicitur, scilicet 
+      <lb ed="#P" n="41"/>quod praecepta prime tabulae sunt indispensabilia. 
+      <lb ed="#P" n="42"/>Praecepta autem secundae tabulae sunt 
+      dispensabi<lb ed="#P" n="43" break="no"/>lia. Quia hoc non intelligitur de primis praeceptis 
+      <lb ed="#P" n="44"/>Decalogi quae directe pertinent ad ipsum ordine, 
+      <lb ed="#P" n="45"/>quem homo debet habere ad Deum quae 
+      hincin<lb ed="#P" n="46" break="no"/>de sunt indispensabilia. Nec de praeceptis 
+      perti<lb ed="#P" n="47" break="no"/>nentibus ad determinationem dicti ordinis, 
+      quan<lb ed="#P" n="48" break="no"/>tum ad ea quae impendenda sunt personis ad quas 
+      <lb ed="#P" n="49"/>habendus est ordo. Sed intelligitur vt dictum est 
+      <lb ed="#P" n="50"/>de his quae pertinent ad determinationemidicti 
+      or<lb ed="#P" n="51" break="no"/>dinis, quantum ad eos ad quos habendus est ordoa 
+      <lb ed="#P" n="52"/>vt patet ex dictis. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1427">
+               <lb ed="#P" n="53"/>Ex his etiam patet quod in dictis sancti 
+      Tho<lb ed="#P" n="54" break="no"/>mae bene intellectis, non est contrarietas. Nam 
+      <lb ed="#P" n="55"/>quando dicit hic, quod praecepta Decalogi, 
+      quan<lb ed="#P" n="56" break="no"/>tum ad secundam tabulam sunt dispensabilia, non 
+      <lb ed="#P" n="57"/>intelligit quantum ad ea quae directe &amp; primo 
+      ca<lb ed="#P" n="58" break="no"/>dunt sub praeceptis secundae tabulae quae pertinent 
+      <lb ed="#P" n="59"/>ad ipsum ordinem secundum se, quo debet 
+      ordi<lb ed="#P" n="60" break="no"/>nate se habere. Sed intelligit quantum ad ea quae 
+      <lb ed="#P" n="61"/>secundario pertinent ad dicta praecepta, 
+      secun<lb ed="#P" n="62" break="no"/>dum quandam determinationem ad 
+      determina<lb ed="#P" n="63" break="no"/>tam materiam, siue quantum ad personas ad quas 
+      <lb ed="#P" n="64"/>habendus est ordo, siue quantum ad ea quae 
+      tali<lb ed="#P" n="65" break="no"/>bus, ex tali ordine sunt impendenda. Quando 
+      <lb ed="#P" n="66"/>vero dicit in tertio, &amp; in prima secundae, quod 
+      <lb ed="#P" n="67"/>omnia praecepta Decalogi sunt indispensabilia, 
+      <lb ed="#P" n="68"/>intelligit quantum ad illa quae primo &amp; directe 
+      <lb ed="#P" n="69"/>pertinent ad dicta praecepta quae dictum ordinem 
+      <lb ed="#P" n="70"/>lecundum se important: sicut ipse exponit in se¬ 
+      <!--186.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>cunda secundae. Quidam autem saluant eum per 
+      <lb ed="#P" n="72"/>hoc quod hic accipit dispensationem pio 
+      inter<lb ed="#P" n="73" break="no"/>praetatione, quod non videtur mihi verum. Cum 
+      <lb ed="#P" n="74"/>dicat praecepta secundae tabulae esse dispensabilia: 
+      <lb ed="#P" n="75"/>primae vero non: cum tamen vtraque sunt 
+      inter<lb ed="#P" n="76" break="no"/>pretabilia, &amp; ideo similitudo praemissa, iudicio 
+      <lb ed="#P" n="77"/>meo melior est. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1488">
+               <lb ed="#P" n="78"/>Ad illas instantias de Isaac &amp; Oseedicendum 
+      <lb ed="#P" n="79"/>est, quod de hoc non probatur, quod praecepta 
+      de<lb ed="#P" n="80" break="no"/>calogi sint dispensabilia, quantum ad id quod 
+      pri<lb ed="#P" n="81" break="no"/>mo &amp; directe pertinent ad illa precepta: sed 
+      quan<lb ed="#P" n="82" break="no"/>tum ad illam determinationem que est ad illos: ad 
+      <lb ed="#P" n="83"/>quos habendus est ordo praedictus. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1504">
+               <lb ed="#P" n="84"/>Ad illud autem de spoliatione figpptiorum 
+      po<lb ed="#P" n="85" break="no"/>test dici, quod ibi nonfuit aliqua dispensatio. Quia 
+      <lb ed="#P" n="86"/>illa spoliatio non fuit illatio nocumenti, sed fuit 
+      ac<lb ed="#P" n="87" break="no"/>ceptio sui: quia illa quae ipsi acceperunt, erant sua, 
+      <lb ed="#P" n="88"/>vel ratione laboris quem in aedificando passi 
+      fue<lb ed="#P" n="89" break="no"/>rant, vel ratione donationis factae a vero Domino, 
+      <lb ed="#P" n="90"/>scilicet a Deo qui est principaliter Dominus 
+      om<lb ed="#P" n="91" break="no"/>nium, &amp; cum mandato illa bona acceperunt. 
+      </p>
+            <p xml:id="hx2hx3-b61067-d1e1524">
+               <lb ed="#P" n="92"/>Sciendum quoque est, quod aliquando mala 
+      <lb ed="#P" n="93"/>esi voluntas hominis idem volentis, quod 
+      <lb ed="#P" n="94"/>Deus vult fieri, &amp;c. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

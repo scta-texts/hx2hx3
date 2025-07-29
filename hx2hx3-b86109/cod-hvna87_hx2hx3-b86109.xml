@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="255"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b86109"><!-- l2d18q1 -->
+            <head xml:id="hx2hx3-b86109-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b86109-Hd1e101" type="question-title">Utrum sint aliquae inchoationes formarum in materia quae sint rationes seminales</head>
+            <p xml:id="hx2hx3-b86109-d1e104">
+               <lb ed="#P" n="84"/>In eodem quoque paradise mulierem 
+      for<lb ed="#P" n="85" break="no"/>mauit Deui de substantiae viri sicut 
+      <lb ed="#P" n="86"/>post plantarum, &amp;c. 
+    </p>
+            <p xml:id="hx2hx3-b86109-d1e113">
+               <lb ed="#P" n="87"/>Distinctio decima octaua. 
+      <lb ed="#P" n="88"/>QVAESTIO PRIMA.
+    </p>
+            <p xml:id="hx2hx3-b86109-d1e120">
+               <lb ed="#P" n="89"/>Svper decimam octauam distinctionem. 
+      <lb ed="#P" n="90"/>Quaeritur vtrum sint aliquae in choationes 
+      for<lb ed="#P" n="91" break="no"/>marum in materia, quae sint rationes seminales: 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e130">
+               <lb ed="#P" n="92"/>Et arguitur quod sic. Quia secundum 
+      Phi<lb ed="#P" n="93" break="no"/>losophum secundo Physicorum. Naturalia 
+      diffe<lb ed="#P" n="94" break="no"/>runt in hoc ab artificialibus, quia naturalia habent 
+      <lb ed="#P" n="95"/>in se principium sui motus inon sic artificialia. Sed 
+      <lb ed="#P" n="96"/>hoc non esset nisi esset aliqua inchoatio forma in 
+      <lb ed="#P" n="97"/>materia, cooperans agenti exteriori. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e146">
+               <lb ed="#P" n="98"/>Si dicatur quod omnia naturalia habent 
+      prin<lb ed="#P" n="99" break="no"/>cipium intra, vel actiuum, vel passiuum, quod est 
+      <lb ed="#P" n="100"/>subiectum, siue materia: sed non oportet quod 
+      <lb ed="#P" n="101"/>semper habeant principium actiuum: &amp; ideo non 
+      <lb ed="#P" n="102"/>oportet ponere formam coagentem. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e159">
+               <lb ed="#P" n="103"/>Contra. Quia tunc non staret differentia 
+      Phi<lb ed="#P" n="104" break="no"/>losophi: quia etiam artificialia habent prine pium 
+      <lb ed="#P" n="105"/>passiuum intra. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e168">
+               <lb ed="#P" n="106"/>Si dicatur quod naturalia differunt ab eo, quia 
+      <lb ed="#P" n="107"/>in principio passiuo naturalium est inclinatio &amp; 
+      <lb ed="#P" n="108"/>habilitas ad formam, non sic in artificialibus. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e177">
+               <lb ed="#P" n="109"/>Non valet. Tum quia in subiecto artificiati 
+      <lb ed="#P" n="110"/>est aliqua habilitas ad formam artificialem: 
+      alio<lb ed="#P" n="111" break="no"/>quin aeque fieret. statua de terra, sicut de cupro. 
+      <lb ed="#P" n="112"/>Tum quia Philosophus non ponit differentiam 
+      <lb ed="#P" n="113"/>in aliter, &amp; aliter habere principium motus: sed 
+      <lb ed="#P" n="114"/>in hoc quod est habere prinicipium motus intra &amp; 
+      <lb ed="#P" n="115"/>non habere. Et ideo oportet ponere naturalia 
+      <lb ed="#P" n="116"/>habere aliquod principium motus intra, quod 
+      sim<lb ed="#P" n="117" break="no"/>pliciter non habent artificialia: &amp; istud principium 
+      <lb ed="#P" n="118"/>non videtur esse nisi principium actiuum, cum 
+      ar<lb ed="#P" n="119" break="no"/>tificialia habeant passiuum. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e203">
+               <lb ed="#P" n="120"/>Praeterea, si nihil formae proexistit in materia. 
+      <lb ed="#P" n="121"/>sequitur quod forma fiat ex nihilo. Sed quod fit 
+      <lb ed="#P" n="122"/>ex nihilo creatur. Ergo forma creatur ab agente 
+      <lb ed="#P" n="123"/>naturali: quod est inconueniens. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e215">
+               <lb ed="#P" n="124"/>Si dicatur quod forma non fit, &amp; ideo non fit 
+      <lb ed="#P" n="125"/>ex aliquo, nec ex nihilo: sed compositum est quod 
+      <lb ed="#P" n="126"/>fit: &amp; illud fit ex aliquo sui praeexistente, scilicet 
+      <lb ed="#P" n="127"/>ex materia praeexistente, &amp; forma de nouo 
+      indu<lb ed="#P" n="128" break="no"/>cta. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e228">
+               <lb ed="#P" n="129"/>Contra. Quia sicut in naturalibus non fit 
+      <lb ed="#P" n="130"/>forma, puta non fit albedo, sed album. Ita est in 
+      <lb ed="#P" n="131"/>spiritualibus, non fit gratia, sed gratum. Quia 
+      <lb ed="#P" n="132"/>gratia non est illud quod est: sed quo aliquid est 
+      <lb ed="#P" n="133"/>gratum: Et tamen gratia ut creari quia ni¬ 
+      <!--256.xml-->
+      <pb ed="#P" n="256"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>hil eius praeexistit. Ergo &amp; forma naturalis 
+      dice<lb ed="#P" n="2" break="no"/>retur creari, si nihil eius praeexistit: dato quod 
+      <lb ed="#P" n="3"/>proprie forma non fiat. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e254">
+               <lb ed="#P" n="4"/>Praeterea, philosophus vult quod sola anima 
+      <lb ed="#P" n="5"/>intellectiua est ab extra, &amp; aliae formae ab intra. 
+      <lb ed="#P" n="6"/>Sed si nihil aliarum formarum praeexisteretin 
+      ma<lb ed="#P" n="7" break="no"/>teria tunc omnes formae aliae aequaliter essent ab 
+      <lb ed="#P" n="8"/>extra sicut anima rationalis. Ergo oportet aliquid 
+      <lb ed="#P" n="9"/>formarum naturalium praeexistere in materia. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e270">
+               <lb ed="#P" n="10"/>Praete ea, aut differt educi de porentia 
+      mate<lb ed="#P" n="11" break="no"/>riae &amp; induci in matetiam, aut non. Si non. 
+      Se<lb ed="#P" n="12" break="no"/>quitur quod cum anima rationalis dicatur induci 
+      <lb ed="#P" n="13"/>in materiam, quod etiam dicetur educi de 
+      poten<lb ed="#P" n="14" break="no"/>tia materiae, quod est falsum. Si differunt hoc non 
+      <lb ed="#P" n="15"/>videtur nisi quia illarum formarum quae 
+      aeducun<lb ed="#P" n="16" break="no"/>tur de potentia materiae, aliquid praeexistat 
+      inma<lb ed="#P" n="17" break="no"/>teria Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e290">
+               <lb ed="#P" n="18"/>Contra. Simplex aut totaliter necesse est esse 
+      <lb ed="#P" n="19"/>vbi est; aut nihil eius erit ibi. Sed forma est 
+      sim<lb ed="#P" n="20" break="no"/>pler. Ergo aut totaliter praexistit in materia, aut 
+      <lb ed="#P" n="21"/>nihil eius. Non totaliter. Quia hoc esset 
+      pone<lb ed="#P" n="22" break="no"/>re latitationem formarum. Ergo nihil formae 
+      <lb ed="#P" n="23"/>praeexistit in materia antequam agens moueat 
+      ma<lb ed="#P" n="24" break="no"/>teriam ad formam. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e308">
+               <lb ed="#P" n="25"/>Respondeo. Hic sunt tria facienda. 
+      <lb ed="#P" n="26"/>Primum est videre, vtrum sit ponere aliquam 
+      <lb ed="#P" n="27"/>inchoationem formarum. 
+      <lb ed="#P" n="28"/>Secundum est quid sit educi de potentia 
+      ma<lb ed="#P" n="29" break="no"/>teriae. 
+      <lb ed="#P" n="30"/>Tertium est videre quae sint rationes 
+      semi<lb ed="#P" n="31" break="no"/>nales. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e327">
+               <lb ed="#P" n="32"/>ARTICVLVS PRIMVS. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e332">
+               <lb ed="#P" n="33"/>Qvantum ad primum sunt duae opiniones. 
+      Pri<lb ed="#P" n="34" break="no"/>ma est: quod in materia sunt essentiae 
+      om<lb ed="#P" n="35" break="no"/>nium formarum quae aeducuntur de potentia 
+      ma<lb ed="#P" n="36" break="no"/>teriae, ita quod illae essentiae antequam peragens 
+      <lb ed="#P" n="37"/>naturale reducantur in actum, sunt ibi secundum 
+      <lb ed="#P" n="38"/>modum potentalem, &amp; cooperantur, vt dicunt 
+      <lb ed="#P" n="39"/>agenti naturali ad suam reductionem in actum. 
+      <lb ed="#P" n="40"/>Ita quod illud quod ante generationem est 
+      inma<lb ed="#P" n="41" break="no"/>teria, &amp; illud quod est ibi eductum primo, non 
+      <lb ed="#P" n="42"/>differunt realiter quantum ad essentiam, siue 
+      <lb ed="#P" n="43"/>quantum ad realitatem essentiae quae semper est 
+      <lb ed="#P" n="44"/>in materia: sed differunt quantum ad modum, 
+      si<lb ed="#P" n="45" break="no"/>ue quantum ad realitatem modi. Licet autem 
+      <lb ed="#P" n="46"/>ipsi forte adducant aliqua motiua alia a 
+      rationi<lb ed="#P" n="47" break="no"/>bus supra positis: tamen rationes supra positae 
+      vi<lb ed="#P" n="48" break="no"/>dentur esse potissimae apud communitatem hanc 
+      <lb ed="#P" n="49"/>positionem tenentium. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e371">
+               <lb ed="#P" n="50"/>Hanc autem positionem intendo reprobare 
+      <lb ed="#P" n="51"/>quantum ad duo. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e378">
+               <lb ed="#P" n="52"/>Primo quantum ad hoc quod ponit 
+      inchoa<lb ed="#P" n="53" break="no"/>tionem. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e385">
+               <lb ed="#P" n="54"/>Secundo, quantum ad hoc quod ponit illam 
+      <lb ed="#P" n="55"/>inchoationem cooperari agenti extrinseco ad 
+      <lb ed="#P" n="56"/>suam eductionem. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e394">
+               <lb ed="#P" n="57"/>Primum intendo reprobare duabus rationibus: 
+      <lb ed="#P" n="58"/>&amp; vna auctoritate Philosophi. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e402">
+               <lb ed="#P" n="59"/>Prima ratio talis est: sicut se habet potentia ad 
+      <lb ed="#P" n="60"/>modum actus: ita se habet actus simpliciter ad 
+      mo<lb ed="#P" n="61" break="no"/>dum purae potentiae simpliciter. Sed pura 
+      poten<lb ed="#P" n="62" break="no"/>tia non potest habere modum actus. Ergo nec 
+      il<lb ed="#P" n="63" break="no"/>lud quod est actus simpliciter per essentiam suam 
+      <lb ed="#P" n="64"/>potest habere modum purae potentiae. Sed forma 
+      <lb ed="#P" n="65"/>omnis, est per essentiam suam quidam actus 
+      Er<lb ed="#P" n="66" break="no"/>go nulla forma potest habere modum purae 
+      poten<lb ed="#P" n="67" break="no"/>nae: ita quod sit in rerum natura, &amp; habeat 
+      mo<lb ed="#P" n="68" break="no"/>dum purae potentiae. Illud autem quod non habet 
+      <!--256.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>modum purae potentiae semper oportet, quamdiu 
+      <lb ed="#P" n="70"/>est in rerum natura, habere modum actus. Quia 
+      <lb ed="#P" n="71"/>immediate omnia diuiduntur in actum &amp; 
+      poten<lb ed="#P" n="72" break="no"/>tiam. Et similiter omnis modus, in modum actus, 
+      <lb ed="#P" n="73"/>&amp; modum potentiae. Ergo oportet quod omnia 
+      <lb ed="#P" n="74"/>forma, quamdiu manet eius essentia, habeat 
+      mo<lb ed="#P" n="75" break="no"/>dum actus. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e446">
+               <lb ed="#P" n="76"/>Ex his autem possunt concludi quatuor 
+      incon<lb ed="#P" n="77" break="no"/>uenientia contra dictam positionem. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e453">
+               <lb ed="#P" n="78"/>Primum est quod falsum est quod ipsi dicunt, 
+      <lb ed="#P" n="79"/>scilicet quod essentia formae sit in rerum natura, 
+      <lb ed="#P" n="80"/>&amp; non habeat modum actus. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e462">
+               <lb ed="#P" n="81"/>Secundum est. Cum forma non habeat 
+      mo<lb ed="#P" n="82" break="no"/>dum actus nisi vel per hoc quod est forma 
+      subsi<lb ed="#P" n="83" break="no"/>stens, vel per hoc quod dat esse tale, vel tale, 
+      pu<lb ed="#P" n="84" break="no"/>ta esse equum, vel bouem, vel album &amp; nigrum: 
+      <lb ed="#P" n="85"/>&amp; formae naturales non subsistant, sed debet esse 
+      <lb ed="#P" n="86"/>tale vel tale. Necesse est essentias formarum 
+      na<lb ed="#P" n="87" break="no"/>turalium quanidiu sunt, dare esse tale vel tale. 
+      <lb ed="#P" n="88"/>Quia aliter non habent modum actus: quod cum, 
+      <lb ed="#P" n="89"/>vt probatum est, necesse est eas habere. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e484">
+               <lb ed="#P" n="90"/>Et sic sequitur quod formae naturales quas 
+      ip<lb ed="#P" n="91" break="no"/>si ponunt in materia ante generationem: debent 
+      <lb ed="#P" n="92"/>esse tale vel tale ante generationem. Et ita aer 
+      <lb ed="#P" n="93"/>ante generationem ignis, est ignis: &amp; 
+      composi<lb ed="#P" n="94" break="no"/>tum ex materia equi ex illa inchoatione equi, est 
+      <lb ed="#P" n="95"/>equus: ante generationem equi. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e500">
+               <lb ed="#P" n="96"/>Et vniuersaliter cum quodlibet in istis 
+      inferiori<lb ed="#P" n="97" break="no"/>bus sit in potentia, vel propinqua vel remota, ad 
+      <lb ed="#P" n="98"/>quodlibet aliud: sequitur quod quodlibet, est 
+      <lb ed="#P" n="99"/>quodlibet, ignis, est terra est bos, &amp; multa 
+      absur<lb ed="#P" n="100" break="no"/>da sequuntur. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e514">
+               <lb ed="#P" n="101"/>Tertium est quod cum illud quod differtab 
+      <lb ed="#P" n="102"/>alio, sicut imperfectum &amp; potentiale, differt ab 
+      <lb ed="#P" n="103"/>actuali &amp; perfecto, &amp; gradus in eadem essentia se 
+      <lb ed="#P" n="104"/>habeat ad iliud sicut remissum &amp; intensum. Quia 
+      <lb ed="#P" n="105"/>gradus in eadem essentia specie, &amp; multo plus 
+      <lb ed="#P" n="106"/>eadem essentia numero, facit tantum differentiam 
+      <lb ed="#P" n="107"/>intensi &amp; remissi. S equitur quod omnis forma 
+      <lb ed="#P" n="108"/>recipiat magis &amp; minus. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e534">
+               <lb ed="#P" n="109"/>Quartum est, quodomnis generatio erit 
+      inten<lb ed="#P" n="110" break="no"/>sio formae praecedentis: ex quo omnis forma 
+      se<lb ed="#P" n="111" break="no"/>cundum esse rem issum praecedit. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e543">
+               <lb ed="#P" n="112"/>Secunda ratio principalis talis est, si in 
+      mate<lb ed="#P" n="113" break="no"/>ria sunt tales inchoationes formarum, oportet esse 
+      <lb ed="#P" n="114"/>inteadem parte materiae tot essentias formarum 
+      di<lb ed="#P" n="115" break="no"/>uersas numero, quot differentia realiter numero 
+      <lb ed="#P" n="116"/>possunt fieri de eadem parte materiae. Et hoc 
+      pa<lb ed="#P" n="117" break="no"/>tet. Quia cum differentia vniuscuiusque ex 
+      diffe<lb ed="#P" n="118" break="no"/>rentia, siue diuersitate suorum principiorum 
+      in<lb ed="#P" n="119" break="no"/>trinsecorum dependeat essentialiter, &amp; illa quae 
+      <lb ed="#P" n="120"/>generatur ex eadem materia successiue non 
+      diffe<lb ed="#P" n="121" break="no"/>rant penes materiam: oportet quod differant 
+      pe<lb ed="#P" n="122" break="no"/>nes diuersas formas essentialiter diue sas. Sed de 
+      <lb ed="#P" n="123"/>eadem parte possunt infinita fieri differentia 
+      nu<lb ed="#P" n="124" break="no"/>mero: &amp; realiter differentia. Nam secundum 
+      <lb ed="#P" n="125"/>Philosophum, in generalibus &amp; corruptibilibus: 
+      <lb ed="#P" n="126"/>non redit idem numero¬ 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e578">
+               <lb ed="#P" n="127"/>Quod autem infinita possint fieri successiue de 
+      <lb ed="#P" n="128"/>eadem parte materiae, satis patet. Quia dato quod 
+      <lb ed="#P" n="129"/>generatio &amp; corruptio non duret in infinitum, 
+      ta<lb ed="#P" n="130" break="no"/>men posset durare in infinitum. Hoc autem 
+      da<lb ed="#P" n="131" break="no"/>to, sequeretur quod de eadem parte materiae 
+      par<lb ed="#P" n="132" break="no"/>te materiae infiniti equi vel lapides, possent 
+      gene<lb ed="#P" n="133" break="no"/>rari, ita quod corrupto equo, generatur herba: &amp; 
+      <lb ed="#P" n="134"/>ex hoc menstruum equi, &amp; ex hoc iterum equus, 
+      <lb ed="#P" n="135"/>&amp; sic in infinitum. Ergo in eadem parte materiae 
+      <lb ed="#P" n="136"/>oportet esse infinitas essentias formarum, 
+      differen<lb ed="#P" n="137" break="no"/>tes numero. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e604">
+               <lb ed="#P" n="138"/>Si dicatur quod non. Quia omnes aequi erunt 
+      <!--257.xml-->
+      <pb ed="#P" n="257"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>vnum quantum ad essentiam formae, nec differant 
+      <lb ed="#P" n="2"/>realiter quantum ad realitatem essentiae: sed 
+      <lb ed="#P" n="3"/>quantum ad realitatem modi Tunc sequitur quod 
+      <lb ed="#P" n="4"/>vnus equus essentialiter, erunt plures equi 
+      moda<lb ed="#P" n="5" break="no"/>les quod est derisio. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e626">
+               <lb ed="#P" n="6"/>Si dicatur, quod essentia non facit equum sed 
+      <lb ed="#P" n="7"/>modus. Quia essentia formae cum materia non 
+      fa<lb ed="#P" n="8" break="no"/>cit equum simpliciter, sed modus. Nihil est quia 
+      <lb ed="#P" n="9"/>ptobatum est supra, formam naturalem non posse 
+      <lb ed="#P" n="10"/>esse in rerum natuta quantuim ad essentiam: &amp; non 
+      <lb ed="#P" n="11"/>habere modum actus. Imo necessario ipsa 
+      essen<lb ed="#P" n="12" break="no"/>tia formae siue forma per suam essentiam. Dat esse 
+      <lb ed="#P" n="13"/>tale, puta equum vel aliquid tale. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e647">
+               <lb ed="#P" n="14"/>Secundo, quia saltem sequetur quod equus 
+      <lb ed="#P" n="15"/>primo generatus, &amp; equus secundo, vel tertio 
+      ge<lb ed="#P" n="16" break="no"/>neratus non differant essentialiter, sed 
+      modali<lb ed="#P" n="17" break="no"/>ter. Sicut enim vere potest dici quod equus primo 
+      <lb ed="#P" n="18"/>generatus &amp; equus secundo generatus de eadem 
+      <lb ed="#P" n="19"/>materia succe ssiue existente sub diuersis formis non 
+      <lb ed="#P" n="20"/>differunr materialiter. Ita etiam equus primo 
+      ge<lb ed="#P" n="21" break="no"/>nitus: &amp; equus secundo genitus non differrent 
+      <lb ed="#P" n="22"/>quantum ad essentiam formae: sed quantum ad 
+      <lb ed="#P" n="23"/>modum. Vnde tantum modaliter differrent. 
+      Au<lb ed="#P" n="24" break="no"/>ctoritas etiam expressa Phylosophi.. Metaph. 
+      ex<lb ed="#P" n="25" break="no"/>presse est ad hoc, qui vult quod non fit forma: 
+      <lb ed="#P" n="26"/>sed compositum. Quia omne quod fit, fit ex 
+      <lb ed="#P" n="27"/>aliquo sui praeexistente, &amp; quia nihil formae 
+      prae<lb ed="#P" n="28" break="no"/>existit: vult ipse quod forma non fit, &amp; 
+      manife<lb ed="#P" n="29" break="no"/>stum est ipsum velle, quod nihil de essentia formae 
+      <lb ed="#P" n="30"/>praeexistit ante gencrationem. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e686">
+               <lb ed="#P" n="31"/>Quantum autem ad illud quod ista positio 
+      po<lb ed="#P" n="32" break="no"/>nit, scilicet quod illa inchoatio cooperetur 
+      agen<lb ed="#P" n="33" break="no"/>ti exteriori est mirabile dictu. Quia secundum 
+      <lb ed="#P" n="34"/>eos quidquid fit est idem essentialiter cum 
+      <lb ed="#P" n="35"/>ipsa inchoatione: &amp; sic ipsa inchoatio faciet 
+      seip<lb ed="#P" n="36" break="no"/>sam esse quasi intensam. Sicut si poneretur quod 
+      <lb ed="#P" n="37"/>calor remissus faceret se intensum: quod est satis 
+      <lb ed="#P" n="38"/>absurdius quam ponere quod idem sit potenria 
+      <lb ed="#P" n="39"/>actiua, &amp; passiua respectu eiusdem Nam illi 
+      po<lb ed="#P" n="40" break="no"/>nunt, essentialiter differre potentiam actiuam a 
+      <lb ed="#P" n="41"/>perfectione quae per actionem acquiritur. Sed 
+      <lb ed="#P" n="42"/>isti ponunt quod essentialiter est idem potentia 
+      <lb ed="#P" n="43"/>actiua, &amp; perfectio causata ab ea quod est 
+      absur<lb ed="#P" n="44" break="no"/>dissimum. Quia hoc est quod idem producat seip 
+      <lb ed="#P" n="45"/>sum vtsit: &amp; sic patet de primo. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e721">
+               <lb ed="#P" n="46"/>ARTICVLVS SECVNDVS.
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e726">
+               <lb ed="#P" n="47"/>QVantum ad secundum sciendum quod sunt 
+      <lb ed="#P" n="48"/>tres opiniones. Vna est quae dicit quod 
+      for<lb ed="#P" n="49" break="no"/>mam educi de potentia materiae, est materiam 
+      <lb ed="#P" n="50"/>conuerti in formam: quod probant sic quia 
+      ante<lb ed="#P" n="51" break="no"/>quam forma sit in materia, materia est in 
+      poten<lb ed="#P" n="52" break="no"/>tia ad formam. Sed post quam materia adepta est 
+      <lb ed="#P" n="53"/>formam, non est amplius materia in potentia ad 
+      <lb ed="#P" n="54"/>formam. Non ergo manet potentia: per quam 
+      <lb ed="#P" n="55"/>materia erat in potentia ad formam. Sed 
+      poten<lb ed="#P" n="56" break="no"/>tia per quam materia est in potentia ad formam, 
+      <lb ed="#P" n="57"/>est sua essentia ipsa, scilicet materia. Ergo forma 
+      <lb ed="#P" n="58"/>adepta, non manet essentia materiae siue non 
+      ma<lb ed="#P" n="59" break="no"/>net materia. Sed hoc non esset, nisi materia 
+      con<lb ed="#P" n="60" break="no"/>uerteretur in forma.m Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e759">
+               <lb ed="#P" n="61"/>Iste autem positio adeo est improbabilis quod 
+      <lb ed="#P" n="62"/>omnes repudianteam: &amp; a multis reprobatum est. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e766">
+               <lb ed="#P" n="63"/>Contra hanc fufficiat adducere vnam rationem 
+      <lb ed="#P" n="64"/>talem. Quia si ita est quod materia conuertatur in 
+      <lb ed="#P" n="65"/>formam, non manet materia quantum ad essena 
+      <lb ed="#P" n="66"/>tiam suam distincta a forma &amp; qua ratione 
+      con<lb ed="#P" n="67" break="no"/>uertetur matcria in formam vt educatur de 
+      po<lb ed="#P" n="68" break="no"/>tentia materiae, eadem ratione conuertetur 
+      <lb ed="#P" n="69"/>substantia quae est subiectum actidentis 
+      <!--257.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>in formam accidentalem, vt forma 
+      acciden<lb ed="#P" n="71" break="no"/>talis eddueatur de potentia subiecti, &amp; sic in 
+      <lb ed="#P" n="72"/>rebus naturalibus nom erit compositio realis ex 
+      ma<lb ed="#P" n="73" break="no"/>teria &amp; forma, nec ex subiecto &amp; aceidente quia 
+      <lb ed="#P" n="74"/>conuersum non manet in se, licer possit dici 
+      ma<lb ed="#P" n="75" break="no"/>nere quasi virtute: sicut anima sensitiua dicitur 
+      <lb ed="#P" n="76"/>manere in rationali. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e804">
+               <lb ed="#P" n="77"/>Sequitur etiam quod semel materia conuersa in 
+      <lb ed="#P" n="78"/>formam: quod deinceps vna forma conuertatur 
+      <lb ed="#P" n="79"/>in aliam. Ea quo postquam semel conuersa est 
+      <lb ed="#P" n="80"/>non manet amplius. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e815">
+               <lb ed="#P" n="81"/>Si dicatur quod forna iterum resoluitur in 
+      ma<lb ed="#P" n="82" break="no"/>teriam, &amp; viceuersa conuertitur in eam. Quaero 
+      <lb ed="#P" n="83"/>in vltimo instanti in qua forma resoluta est in 
+      ma<lb ed="#P" n="84" break="no"/>teriam: &amp; in qua materia habet primo esse post 
+      <lb ed="#P" n="85"/>resolutionem formae. Vtrum tunc sit aliqua 
+      for<lb ed="#P" n="86" break="no"/>ma in ea: vel vtrum sit conuersa in aliquam 
+      for<lb ed="#P" n="87" break="no"/>mam. Non potest dici quod sit tunc conutrsa in 
+      <lb ed="#P" n="88"/>aliquam formam. Quia tunc primo est post 
+      reso<lb ed="#P" n="89" break="no"/>lutionem: quando autem est conuersa, iam non 
+      <lb ed="#P" n="90"/>est: nec etiam forma resoluta manet tunc, vt de 
+      <lb ed="#P" n="91"/>se patet. Ergo tunc naturaliter erit materia per se 
+      <lb ed="#P" n="92"/>absque aliqua forma. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e844">
+               <lb ed="#P" n="93"/>Quod autem ista positio sit contra mentem 
+      <lb ed="#P" n="94"/>Aristotelis, patet. Quia ille motus vel mutatio 
+      <lb ed="#P" n="95"/>qua conuertitur materia in formam: aut habet 
+      <lb ed="#P" n="96"/>subiectum aut non, si non. Hoc est contra 
+      men<lb ed="#P" n="97" break="no"/>tem Aristotelis qui vult in omni transmuratione 
+      <lb ed="#P" n="98"/>esse aliquod subiectum coramune quod stat cum 
+      <lb ed="#P" n="99"/>vtroque termino: hoc est etiam contra naturam 
+      <lb ed="#P" n="100"/>res quod transmutatio naturalis non habeat 
+      sub<lb ed="#P" n="101" break="no"/>iectum. Quia tunc actio creaturae non 
+      praesup<lb ed="#P" n="102" break="no"/>poneret subiectum. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e868">
+               <lb ed="#P" n="103"/>Si autem ponatur talis conuersio habere 
+      sub<lb ed="#P" n="104" break="no"/>iectum. Tunc quero quod est illud subiectum: 
+      <lb ed="#P" n="105"/>aut est materia, aut forma, aut compositum; aur 
+      <lb ed="#P" n="106"/>aliquid aliud. Non materiai quia illa est 
+      termi<lb ed="#P" n="107" break="no"/>nus a quo &amp; non manet: subiectum autem 
+      com<lb ed="#P" n="108" break="no"/>mune manet Nec forma: quia illa est terminus 
+      <lb ed="#P" n="109"/>ad quem. Nec compositum, quia compositum 
+      <lb ed="#P" n="110"/>includit formam quae nec est subiectum, nec 
+      <lb ed="#P" n="111"/>pars subiecti. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e890">
+               <lb ed="#P" n="112"/>Item etiam secundum eos, sequitur non esse 
+      <lb ed="#P" n="113"/>compositum: quia materia non stat cum forma, 
+      <lb ed="#P" n="114"/>vt possit ex vtoque esse aliquid compositum. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e899">
+               <lb ed="#P" n="115"/>Item etiam compositum ex termino a quo, &amp; 
+      <lb ed="#P" n="116"/>termino ad quem non potest poni subiectum 
+      <lb ed="#P" n="117"/>commune vtique termino. Quia termini non 
+      <lb ed="#P" n="118"/>sunt compossibiles. Nec etiam aliquid aliud: 
+      <lb ed="#P" n="119"/>qusa illud esset inferius quam materia: &amp; 
+      mate<lb ed="#P" n="120" break="no"/>ria haberet subiectum quod informaret, quae 
+      om<lb ed="#P" n="121" break="no"/>nia sunt absurdissima. Et ideo videtur mihi quod 
+      <lb ed="#P" n="122"/>hoc quod dicitur sit falsius quam quod 
+      opor<lb ed="#P" n="123" break="no"/>teat improbare. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e922">
+               <lb ed="#P" n="124"/>Motiuum autem eorum, parum valer. Nam 
+      <lb ed="#P" n="125"/>quando dicant quod materia antequam habeat 
+      <lb ed="#P" n="126"/>forna:est inpotentia ad forma: dico quod verum 
+      <lb ed="#P" n="127"/>est. Sed esse in potentia ad formam vltra naturam 
+      <lb ed="#P" n="128"/>potentiae importat carentiam formae. Vnde 
+      mate<lb ed="#P" n="129" break="no"/>riam esse in potentia ad formam, est materiam 
+      ha<lb ed="#P" n="130" break="no"/>bere habilitatem ad formam habendam qua caret. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e940">
+               <lb ed="#P" n="131"/>Et quando dicitur quod quando habet 
+      for<lb ed="#P" n="132" break="no"/>mam non est in potentia ad formam: verum est, 
+      <lb ed="#P" n="133"/>&amp; ex hoc non sequitut quod tollatur pontentia 
+      <lb ed="#P" n="134"/>quae prius erat quantum ad essentiam potentiae. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e951">
+               <lb ed="#P" n="135"/>Nam dicimus de rebus factis quod actus est in 
+      <lb ed="#P" n="136"/>in propria potentia: sed hoc totum esse in poten 
+      <lb ed="#P" n="137"/>tia non manet. Quia non manet carentia siue 
+      pri<lb ed="#P" n="138" break="no"/>uatio formae inmateria. Vnde idem est ac si 
+      dica<lb ed="#P" n="139" break="no"/>tur quod manet potentia priuata.
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e964">
+      <!--258.xml-->
+               <pb ed="#P" n="258"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Secunda opinio est, quod educi de potentia 
+      <lb ed="#P" n="2"/>materiae, est aliquid fieri per transmutationem 
+      <lb ed="#P" n="3"/>materiae a forma contraria, in formam 
+      contra<lb ed="#P" n="4" break="no"/>riam. Sicut quando aliquid fit per calefactionem, 
+      <lb ed="#P" n="5"/>vel frigefactionem, vel consimilem 
+      transmuta<lb ed="#P" n="6" break="no"/>tionem: &amp; ideo dicunt quod formae non habentes 
+      <lb ed="#P" n="7"/>contrarium, sicut lumen, &amp; species intelligibilis, 
+      <lb ed="#P" n="8"/>&amp; consimilia non educuntur de potestate subiecti. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e990">
+               <lb ed="#P" n="9"/>Sed haec ratio videtur parum valere. Quia 
+      pro<lb ed="#P" n="10" break="no"/>pter hoc videtur dictum formam educi de 
+      poten<lb ed="#P" n="11" break="no"/>tia materiae, quia forma est aliquo modo in 
+      po<lb ed="#P" n="12" break="no"/>tentia materiae. Sed contrarium formae 
+      praeexi<lb ed="#P" n="13" break="no"/>stere in materia, vt motus ad formam incipiat ab 
+      <lb ed="#P" n="14"/>eius coutrario non ponit plus formam esse in 
+      po<lb ed="#P" n="15" break="no"/>tentia materiae, quam si eius contrarium materiae 
+      <lb ed="#P" n="16"/>non inesset: imo minus plus enim videtur 
+      con<lb ed="#P" n="17" break="no"/>trarium formae excludere formam a materia, 
+      <lb ed="#P" n="18"/>quam priuationem solam. Quia talis priuatio 
+      <lb ed="#P" n="19"/>formae posset accipi quae non totaliter 
+      exclude<lb ed="#P" n="20" break="no"/>ret formam. Quia priuatio formae secundum esse 
+      <lb ed="#P" n="21"/>intensum non totaliter excludit formam. Et hoc 
+      <lb ed="#P" n="22"/>dico quantum ad formas quae recipiunt magis &amp; 
+      <lb ed="#P" n="23"/>minus. Ergo non videtur quod educi formam de 
+      <lb ed="#P" n="24"/>potentia materiae sit rem per transmutationem a 
+      <lb ed="#P" n="25"/>contrario in contrarium fieri. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1029">
+               <lb ed="#P" n="26"/>Item etiam formam educi de potentia 
+      mate<lb ed="#P" n="27" break="no"/>riae, dictum est per oppositum ad formam venire 
+      <lb ed="#P" n="28"/>ab extra &amp; creari. Sed ea quae non fiunt per 
+      trans<lb ed="#P" n="29" break="no"/>matationem a contrario in contrarium, quia 
+      scili<lb ed="#P" n="30" break="no"/>cet non habent contrarium sicut lumen, &amp; 
+      spe<lb ed="#P" n="31" break="no"/>cies intelligibilis, non plus creantur quam alia: 
+      <lb ed="#P" n="32"/>nec plus sunt ab extta quam alia Imo plus videntur 
+      <lb ed="#P" n="33"/>esse ab intra quam alia, inquantum nullum 
+      po<lb ed="#P" n="34" break="no"/>sitiuum eis repugnans ponitur in: materia. Ergo 
+      <lb ed="#P" n="35"/>educi non est fieri dicto modo, 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1054">
+               <lb ed="#P" n="36"/>Et ideo est tertia opinio quae ponit quod 
+      edu<lb ed="#P" n="37" break="no"/>ci de porentia materiae. Vno modo est formam in 
+      <lb ed="#P" n="38"/>esse &amp; fieri dependere a materia: ita quod nec 
+      <lb ed="#P" n="39"/>esse, nec fieri competat formae proprie: sed alicui 
+      <lb ed="#P" n="40"/>composito ex subiecto &amp; forma. Et dicitur educi 
+      <lb ed="#P" n="41"/>de potentia materiae: quia in potentia passiua 
+      <lb ed="#P" n="42"/>materiae, siue in ipsa materia passiue, est quod 
+      <lb ed="#P" n="43"/>talis forma vadat ad esse, &amp; non aliter; ita quod 
+      <lb ed="#P" n="44"/>sicut dicimus quod in sole est illuminare actiue, 
+      <lb ed="#P" n="45"/>quia ab eo actiue dependet lumen: &amp; etiam 
+      dici<lb ed="#P" n="46" break="no"/>mus quod in potentia materiae est forma: quia in 
+      <lb ed="#P" n="47"/>potentia eius passiua est quod talis forma ducatur 
+      <lb ed="#P" n="48"/>ad esse: &amp; de potentia eius passiua dependet, 
+      <lb ed="#P" n="49"/>quod forma pertingat ad esse. Quia etiam fieri 
+      <lb ed="#P" n="50"/>talis formae non est eius, sed compositi ex ipsa &amp; 
+      <lb ed="#P" n="51"/>materia. Ideo dicitur educi de potentia materiae. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1091">
+               <lb ed="#P" n="52"/>Est autem sciendum quod duplex est potentia. 
+      <lb ed="#P" n="53"/>scilicet potentia obedientialis secundum quam 
+      <lb ed="#P" n="54"/>fit de non grato, gratum: vel de trnnco vitulus. 
+      <lb ed="#P" n="55"/>Et haec potentia non est aliud quam subiectum 
+      <lb ed="#P" n="56"/>aliquod secundum quod est aptum moueri, vel 
+      <lb ed="#P" n="57"/>reduci in actu ab agente non requirente 
+      dispositio<lb ed="#P" n="58" break="no"/>nes naturales in subiecto quale agens est Deus, 
+      <lb ed="#P" n="59"/>Vnde talia educuntur de potentia obedientiali 
+      si<lb ed="#P" n="60" break="no"/>cut gratia, &amp; vitulus si fieret de trunco. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1113">
+               <lb ed="#P" n="61"/>Alia dicitur potentia naturalis, scilicet 
+      poten<lb ed="#P" n="62" break="no"/>tia alicuius subiecti secundum quod est mobile ab 
+      <lb ed="#P" n="63"/>agente requirente dispositiones naturales puta 
+      <lb ed="#P" n="64"/>calidum, vel frigidum: humidum, vel siccum, 
+      <lb ed="#P" n="65"/>vel aliquid tale. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1126">
+               <lb ed="#P" n="66"/>Alio modo minus vsitato dicitur educi de 
+      po<lb ed="#P" n="67" break="no"/>tentia materiae, educi actiue a potentiis actiuis 
+      col<lb ed="#P" n="68" break="no"/>latis rebus materialibus, &amp; corporalibus: non 
+      <lb ed="#P" n="69"/>autem quod educi de potentia materiae ponat 
+      <lb ed="#P" n="70"/>principium actiuum in materia in quam inducitur 
+      <!--258.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>forma. Et sit educi de potentia materia nihil aliud 
+      <lb ed="#P" n="72"/>est quam produci a principio actiuo collato alicuirei 
+      <lb ed="#P" n="73"/>materiali. Et secundum istum modum facile esset 
+      <lb ed="#P" n="74"/>ostendere quae formae educantur de potentia 
+      ma<lb ed="#P" n="75" break="no"/>teriae: &amp; quae non. Quia ille secundum hoc 
+      edu<lb ed="#P" n="76" break="no"/>cuntur quae possunt effici ab aliqua virtute 
+      corpo<lb ed="#P" n="77" break="no"/>rali: quae autem non possunt sic fieri non 
+      edu<lb ed="#P" n="78" break="no"/>cuntur. Quod autem dicantur formae effici, vel 
+      <lb ed="#P" n="79"/>educi minus proprie dictum est. Imo magis debet 
+      <lb ed="#P" n="80"/>dici compositum fieri, vel educi secundum 
+      for<lb ed="#P" n="81" break="no"/>mam. Sicut &amp; compositum est illud quod proprie 
+      <lb ed="#P" n="82"/>habet esse secundum formam: sicut homo habet 
+      <lb ed="#P" n="83"/>esse album secundum albedinem. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1172">
+               <lb ed="#P" n="84"/>Quidam autem dicunt quod educi est illam 
+      in<lb ed="#P" n="85" break="no"/>choationem de qua dictum est deducere ad esse. 
+      <lb ed="#P" n="86"/>sed quia talem inchoationem esse est supra 
+      im<lb ed="#P" n="87" break="no"/>probatum: ideo praetermitto. Et sic patet de 
+      se<lb ed="#P" n="88" break="no"/>cundo. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1185">
+               <lb ed="#P" n="89"/>ARTICVLVS TERTIVS.
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1191">
+               <lb ed="#P" n="90"/>Qvantum ad tertium. Sciendum quod de 
+      <lb ed="#P" n="91"/>rationibus seminalibus sunt plures 
+      opinio<lb ed="#P" n="92" break="no"/>nes. Nam quidam dicunt quod rationes 
+      semina<lb ed="#P" n="93" break="no"/>les sunt dictae inchoationes. Sed hoc supra 
+      repro<lb ed="#P" n="94" break="no"/>batum est. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1204">
+               <lb ed="#P" n="95"/>Alii dicunt quod rationes seminales sunt non 
+      <lb ed="#P" n="96"/>potentiae actiuae &amp; passiuae perfecte: sed quaedam 
+      <lb ed="#P" n="97"/>potentiae imperfectae. Quia vt dicunt, semen 
+      res<lb ed="#P" n="98" break="no"/>pectu eius a quo semen descendit, habet 
+      poten<lb ed="#P" n="99" break="no"/>tiam quandam imperfectam. Illud autem a quo 
+      <lb ed="#P" n="100"/>descendit semen, puta bos, vel equus, habet 
+      po<lb ed="#P" n="101" break="no"/>tentiam perfectam: &amp; sic volunt quod in istis 
+      re<lb ed="#P" n="102" break="no"/>bus generabilibus praeter potentias actiuas &amp; 
+      pas<lb ed="#P" n="103" break="no"/>siuas nobis notas, sint quaedam potentiae actiuae 
+      <lb ed="#P" n="104"/>imperfecte. Ita quod praeter potentiam 
+      calefa<lb ed="#P" n="105" break="no"/>ctiuam nobis notam, ignis habet quandam aliam 
+      <lb ed="#P" n="106"/>porentiam actiuam imperfectam: &amp; haec est 
+      ra<lb ed="#P" n="107" break="no"/>tio seminalis in igne. Ita quod volunt quod ratio 
+      <lb ed="#P" n="108"/>seminalis est potentia actiua: quia semen est ex 
+      <lb ed="#P" n="109"/>parte agentis. Et quod est imperfecta: quia 
+      poten<lb ed="#P" n="110" break="no"/>tia seminis est imperfecta respectu potentiae eius 
+      <lb ed="#P" n="111"/>a quo descendit. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1243">
+               <lb ed="#P" n="112"/>Istud autem ficticium videtur. Quia in rebus 
+      <lb ed="#P" n="113"/>sensibilibus nobis notis, apponere quasdam 
+      po<lb ed="#P" n="114" break="no"/>tentias vel operationes imperfectas quas 
+      expersen<lb ed="#P" n="115" break="no"/>tia nulla docet, est valde ficticium. Sed tales 
+      po<lb ed="#P" n="116" break="no"/>tentias esse propter potentias actiuas, &amp; passiuas, 
+      <lb ed="#P" n="117"/>perfectus secundum genus suum ad 
+      calefacien<lb ed="#P" n="118" break="no"/>dum, vel frigefaciendum, &amp; comfimilia nulla 
+      <lb ed="#P" n="119"/>experientia docet. Ergo videtur esse quoddam 
+      <lb ed="#P" n="120"/>ficticium. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1265">
+               <lb ed="#P" n="121"/>Motiuum autem penitus nihil valet. quia in 
+      <lb ed="#P" n="122"/>locutionibus Methaphoricis sufficit aliqualis 
+      simi<lb ed="#P" n="123" break="no"/>litudo: nec requiritur similitudo per omnem 
+      mo<lb ed="#P" n="124" break="no"/>dum. Talis autem similitudo inuenitur hic. Nam 
+      <lb ed="#P" n="125"/>sicut virtus se minis est deriuata ab alio a quo 
+      <lb ed="#P" n="126"/>habet virtutem agendi: ita etiam virtutes actiuae 
+      <lb ed="#P" n="127"/>&amp; passiuae rerum naturalium, sunt quaedam 
+      vir<lb ed="#P" n="128" break="no"/>tutes deriuate ab alio a quo naturalia habent 
+      vir<lb ed="#P" n="129" break="no"/>tutem, &amp; hoc sufficit. Et dato quod requireretur 
+      <lb ed="#P" n="130"/>similitudo quantum ad imperfectionem virtutis: 
+      <lb ed="#P" n="131"/>sufficit ad hoc quod virtutes omnes rerum 
+      natura<lb ed="#P" n="132" break="no"/>lium sint imperfectae vel non perfectae respectu 
+      <lb ed="#P" n="133"/>eius a quo descendunt &amp; sic est hic. quia respectu 
+      <lb ed="#P" n="134"/>Dei a quo descendunt omnes sunt imperfectae. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1298">
+               <lb ed="#P" n="135"/>Quod autem dicitur quod semen se tenet ex 
+      <lb ed="#P" n="136"/>parte agentis, dico quod licet magis propriae 
+      se<lb ed="#P" n="137" break="no"/>men dicatur quod est ex parte maris: tamen etiam 
+      <lb ed="#P" n="138"/>semen dici potest illud quod a matre ministratur. 
+      <!--259.xml-->
+      <pb ed="#P" n="259"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>vnde &amp; in seminibus aliorum viuentium in 
+      qui<lb ed="#P" n="2" break="no"/>bus non est distinctio, semen habet virtutem 
+      acti<lb ed="#P" n="3" break="no"/>uam &amp; etiam passiuuam: licet secundum 
+      diuer<lb ed="#P" n="4" break="no"/>sas partes, vt placet quibusdam. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1324">
+               <lb ed="#P" n="5"/>Alii dicunt, quod rationes seminales sunt non 
+      <lb ed="#P" n="6"/>potentiae actiuae &amp; passiuae. Quia ille remanebunt 
+      <lb ed="#P" n="7"/>post diem iudicii, nec tamen remanebunt 
+      ratio<lb ed="#P" n="8" break="no"/>nes seminales vt dicunt: sed vt dicunt, sunt 
+      habi<lb ed="#P" n="9" break="no"/>tudines &amp; respectus istarum potentiarum. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1338">
+               <lb ed="#P" n="10"/>Sed istud est manifeste falsum. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1343">
+               <lb ed="#P" n="11"/>Primo, quia secundum beatum Augustinum, 
+      <lb ed="#P" n="12"/>qui primo introduxir istas rationes seminales, sunt 
+      <lb ed="#P" n="13"/>illa per quae siue secundum quae oriuntur omnia 
+      <lb ed="#P" n="14"/>quae oriuntur naturaliter. Talia autem non 
+      pos<lb ed="#P" n="15" break="no"/>sunt esse respectus siue habitudines. Quia 
+      respe<lb ed="#P" n="16" break="no"/>ctus vel habitudines, non sunt principia per quae 
+      <lb ed="#P" n="17"/>res oriuntur. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1361">
+               <lb ed="#P" n="18"/>Secundo, quia positis fundamentia 
+      relatio<lb ed="#P" n="19" break="no"/>num, impossibile est relationes non esse. Si ergo 
+      <lb ed="#P" n="20"/>post diem iudicii permanerent potentiae actiuae &amp; 
+      <lb ed="#P" n="21"/>passiuae: relinquitur quod etiam remanebunt 
+      ha<lb ed="#P" n="22" break="no"/>bitudines siue relationes earum. Et ideo ista 
+      opi<lb ed="#P" n="23" break="no"/>nio nulla est. Motiuum autem parum valet. Quia 
+      <lb ed="#P" n="24"/>licet remaneant potentiae actiuae &amp; passiuae, 
+      quan<lb ed="#P" n="25" break="no"/>tum ad aliqua post diem iudicii: non tamen 
+      ma<lb ed="#P" n="26" break="no"/>nent secundum illam dispositionem, secundum 
+      <lb ed="#P" n="27"/>quam possunt exire in actum agendi, &amp; patiendi, 
+      <lb ed="#P" n="28"/>nisi forte quantum ad aliquam: &amp; ideo non 
+      ma<lb ed="#P" n="29" break="no"/>net perfecte ratio rationis seminalis. Quia ratio 
+      <lb ed="#P" n="30"/>feminalis importat potentiam, secundum illam 
+      <lb ed="#P" n="31"/>dispositionem, secundum quam nata est exire in 
+      <lb ed="#P" n="32"/>actum: &amp; quia sic non manet. Ideo non dicitur 
+      <lb ed="#P" n="33"/>simpliciter ratio seminalis manere. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1398">
+               <lb ed="#P" n="34"/>Tertia opinio est quae ponit rationes seminales, 
+      <lb ed="#P" n="35"/>esse potentias actiuas &amp; passiuas collatas rebus 
+      na<lb ed="#P" n="36" break="no"/>tural bus. Et haec videtur esse vera, &amp; esse 
+      secun<lb ed="#P" n="37" break="no"/>dum mentem Aug. quia ad prebandum quod 
+      <lb ed="#P" n="38"/>opera magorum in aegypto processerint secundum 
+      <lb ed="#P" n="39"/>rationes seminales: dicit quod rebus istis collatae 
+      <lb ed="#P" n="40"/>sunt rationes secundum quas ea quae qua si sunt 
+      oc<lb ed="#P" n="41" break="no"/>culta, prodeunt in actu. Ea autem per quae res 
+      <lb ed="#P" n="42"/>reducuntur de potentia in actum: sunt potentiae 
+      <lb ed="#P" n="43"/>actiuae &amp; passiuae. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1422">
+               <lb ed="#P" n="44"/>Et si quis vellet vocare inchoationes 
+      forma<lb ed="#P" n="45" break="no"/>rum, tales habilitates ad formas, &amp; tales 
+      poten<lb ed="#P" n="46" break="no"/>tias collatas rebus quae sunt virrutes actiuae in 
+      agen<lb ed="#P" n="47" break="no"/>tibus, passiuae, in patientibus, posset poni 
+      inchoa<lb ed="#P" n="48" break="no"/>tio formarum: non autem ponendo quod aliquid 
+      <lb ed="#P" n="49"/>essentiae formae sit in materia ante generationem. 
+      <lb ed="#P" n="50"/>Et sic patet ad quaestionem. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1440">
+               <lb ed="#P" n="51"/>Ad primum in oppositum. Dicendum, quod 
+      <lb ed="#P" n="52"/>mtentio Phylosophi est, non quod naturalia 
+      ha<lb ed="#P" n="53" break="no"/>beant principium intra, &amp; artificialia nullum 
+      prin<lb ed="#P" n="54" break="no"/>cipium intra habeant: nec etiam est intentio sua 
+      <lb ed="#P" n="55"/>quod omnia naturalia habeant principium acti. 
+      <lb ed="#P" n="56"/>uum intra: &amp; per hoc differant ab artificialibus. 
+      <lb ed="#P" n="57"/>Sed illa differentia secundum Phhlosophum est 
+      <lb ed="#P" n="58"/>accipienda cum reduplicatione. Quia 
+      natura<lb ed="#P" n="59" break="no"/>lia secundum quod naturalia, habent principium 
+      <lb ed="#P" n="60"/>sui motus intra, siue actiuum siue passiuum: quod 
+      <lb ed="#P" n="61"/>quidem principium oportet esse naturam quae est 
+      <lb ed="#P" n="62"/>materia, vel naturam quae est forma naturalis. Ita 
+      <lb ed="#P" n="63"/>quod non est aliquod ens naturale, secundum 
+      <lb ed="#P" n="64"/>quod ibi Phylosophus loquiur de naturali: in quo 
+      <lb ed="#P" n="65"/>non sit principium alicuius motus, vel passiuum, 
+      <lb ed="#P" n="66"/>vel actiuum, secundum quod naturale. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1478">
+               <lb ed="#P" n="67"/>In artificialibus autem dato quod sit aliquod 
+      <lb ed="#P" n="68"/>principium motus quod sit intrinsecum ipsi 
+      arti<lb ed="#P" n="69" break="no"/>ficiato. Non tamen hoc conuenit ei inquantum 
+      <lb ed="#P" n="70"/>est artificiatum. Qtuia ineo quod ad formam at¬ 
+      <!--259.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>tificialem mouetur: nec ai, nec forma 
+      artificia<lb ed="#P" n="72" break="no"/>lis est ratio passiua ipsius motus. Imo quaedam 
+      <lb ed="#P" n="73"/>dispositio naturalis quam praesupponit ars: sicut 
+      <lb ed="#P" n="74"/>impressio sigili praesupponit mollitiem 
+      natura<lb ed="#P" n="75" break="no"/>lem cerae, &amp; dolatio, praesupponit scindibslitatem 
+      <lb ed="#P" n="76"/>ligni. In hoc ergo differunt naturalia, ab 
+      artificia<lb ed="#P" n="77" break="no"/>libus. Quia naturalia, in eo quod naturalia, 
+      ha<lb ed="#P" n="78" break="no"/>bent aliquod principium motus intra: siue 
+      acti<lb ed="#P" n="79" break="no"/>uum, siue passiuum, siue vtrumque. 
+      Artificia<lb ed="#P" n="80" break="no"/>lia autem inquantum artificialia non habent. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1515">
+               <lb ed="#P" n="81"/>Et si dicatur contra hoc. Quia cum motus 
+      <lb ed="#P" n="82"/>qui est ad formam artificiati, habeat principium 
+      <lb ed="#P" n="83"/>naturale intra: saltem principium passiuum 
+      natu<lb ed="#P" n="84" break="no"/>rale. Tunc, videtur quod motus ad formam 
+      ar<lb ed="#P" n="85" break="no"/>tificialem sit naturalis: cum habeat principium 
+      <lb ed="#P" n="86"/>naturale intra. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1531">
+               <lb ed="#P" n="87"/>Et ad hoc potest diei quod omnis motus ad 
+      <lb ed="#P" n="88"/>formam artificialem, ex parte subiecti est aliquo 
+      <lb ed="#P" n="89"/>modo naturalis. Sicut naturalius est ligno 
+      scin<lb ed="#P" n="90" break="no"/>di, quam liquefieri. Sed ex parte agenuis: non 
+      <lb ed="#P" n="91"/>habet rationem motus naturalis. Quia non est 
+      <lb ed="#P" n="92"/>ab agente ex necassitate naturae determinato ad 
+      <lb ed="#P" n="93"/>agendum. Et ideo non dicitur simpliciter 
+      natu<lb ed="#P" n="94" break="no"/>ralis. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1551">
+               <lb ed="#P" n="95"/>Vel potest dici. Quod Aristoteles non ponit 
+      <lb ed="#P" n="96"/>ibi differentiam inter motum naturalem: &amp; 
+      arti<lb ed="#P" n="97" break="no"/>ficialem. Quia positis principiis actiuis 
+      extrinse<lb ed="#P" n="98" break="no"/>cis hinc, &amp; inde: adhuc potest dari differentia 
+      <lb ed="#P" n="99"/>poenes modum agendi. Quia vnus est ab 
+      agen<lb ed="#P" n="100" break="no"/>te non necessatio determinato ad vnum, in cuius 
+      <lb ed="#P" n="101"/>potestate est agere vel non agere. Alius vero est 
+      <lb ed="#P" n="102"/>ab agente de necessitate determinato ad vnum, 
+      <lb ed="#P" n="103"/>secundum quod ipse distinguit in secundo 
+      perier<lb ed="#P" n="104" break="no"/>menias, potestates naturales a rationalibus. Sed 
+      <lb ed="#P" n="105"/>ponit <sic>ib</sic> differentiam inter naturalem rem, &amp; 
+      ar<lb ed="#P" n="106" break="no"/>tificialem, quarum vna in eo quod talis habet 
+      prin<lb ed="#P" n="107" break="no"/>cipium alicuius motus in se: &amp; alia non¬ 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1584">
+               <lb ed="#P" n="108"/>Ad secundum dicendum, quod nec forma fit: 
+      <lb ed="#P" n="109"/>sed est illud quo aliquid fit talei Et si improprie 
+      <lb ed="#P" n="110"/>diceretur fieri, non deberet dici ipsam fieri ex 
+      ali<lb ed="#P" n="111" break="no"/>quo in subiecto: quia nulla forma habet materiam. 
+      <lb ed="#P" n="112"/>Nec etiam partes essentiales realiter diuersas, nisi 
+      <lb ed="#P" n="113"/>sint formae quantae per accidens: ex quibus fiant. 
+      <lb ed="#P" n="114"/>Vnde dicere formam vel aliquod simpliciter fieri, 
+      <lb ed="#P" n="115"/>vel esse ex aliquo: est ignorare propriam 
+      vo<lb ed="#P" n="116" break="no"/>cem. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1606">
+               <lb ed="#P" n="117"/>Dicendum ergo quod forma non fit proprie. 
+      <lb ed="#P" n="118"/>Sed compositum: &amp; illud fit ex aliquo sui 
+      praeexi<lb ed="#P" n="119" break="no"/>stente, scilicet ex materia, vt ex parte 
+      praeexi<lb ed="#P" n="120" break="no"/>stente 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1618">
+               <lb ed="#P" n="121"/>Ad instantiam quae inducitur de gratia, 
+      dicen<lb ed="#P" n="122" break="no"/>dum, quod productio gratiae qua scilicet aliquid 
+      <lb ed="#P" n="123"/>fit gratum, non habet proprie rationem 
+      creatio<lb ed="#P" n="124" break="no"/>nis &amp; parte facti: licet sit quaedam productio 
+      super<lb ed="#P" n="125" break="no"/>naturalis. Sed ex parte agentis. Nam gratum 
+      <lb ed="#P" n="126"/>non fit ex nihilo praesupposito: imo fit ex 
+      subie<lb ed="#P" n="127" break="no"/>cto praesupposito, gratia superueniente. Sed ex 
+      <lb ed="#P" n="128"/>parte agentis est quoddammodo ex nihilo, 
+      inquan<lb ed="#P" n="129" break="no"/>tum est ab agente quod nihil praesupponit in 
+      vir<lb ed="#P" n="130" break="no"/>tutecuius agat. Vnde sicut sanatio quae fit a 
+      me<lb ed="#P" n="131" break="no"/>dicina diceretur meditatio: ita productio quae est 
+      <lb ed="#P" n="132"/>a solo tali agente scilicet a solo primo, est 
+      crea<lb ed="#P" n="133" break="no"/>tio. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1649">
+               <lb ed="#P" n="134"/>Ad tertium dicendum, quod formam esse ab 
+      <lb ed="#P" n="135"/>extra potest duplicitet intelligi. Vno modo ex 
+      <lb ed="#P" n="136"/>parte agentis, vt dicatur ab extra: quia est ab 
+      agen<lb ed="#P" n="137" break="no"/>te, quod est extra totum genus rerum creatarum, 
+      <lb ed="#P" n="138"/>&amp; non solum quia est extra subiectum formae. Et 
+      <lb ed="#P" n="139"/>sic dicuntur ab extra: quae sunt a solo Creatore 
+      si<lb ed="#P" n="140" break="no"/>eut anima; eratia, &amp; consihules. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1667">
+      <!--260.xml-->
+               <pb ed="#P" n="260"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Aliomodo dicuntur formae ese ab extia per 
+      <lb ed="#P" n="2"/>comparationem ad agens. Quia scilicet forma 
+      <lb ed="#P" n="3"/>est ab agente quod nonest in eodem subiectocum 
+      <lb ed="#P" n="4"/>forma: &amp; isto modo omnes formae naturales 
+      sal<lb ed="#P" n="5" break="no"/>tem substantiales sunt ab extra: nec aliaqua isto 
+      mo<lb ed="#P" n="6" break="no"/>do est ab intra secundum mentem Phylosophi. 
+      <lb ed="#P" n="7"/>Quia saltem subiectum formae substantialis quod 
+      <lb ed="#P" n="8"/>est potentia pura: non potest se mouere ad eam. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1693">
+               <lb ed="#P" n="9"/>Ex parte autem formae, forma dicitur ab 
+      ex<lb ed="#P" n="10" break="no"/>tra quae est vel nata est esse per se sine materia: vel 
+      <lb ed="#P" n="11"/>subiecto in quo fit. Nam formam esse intra 
+      ma<lb ed="#P" n="12" break="no"/>teriam, vel extra, non est accipiendum secundum 
+      <lb ed="#P" n="13"/>situm; sed secundum esse in aliquo vt in subiecto. 
+      <lb ed="#P" n="14"/>Illa autem forma dicitur ab intra quae nec est: 
+      <lb ed="#P" n="15"/>nec nata est esse, nisi vt in subiecto. Et quia sola 
+      <lb ed="#P" n="16"/>anima rationalis est isto modo nata esse scilicet 
+      si<lb ed="#P" n="17" break="no"/>ne hoc quod fit in materia: non autem aliae formae 
+      <lb ed="#P" n="18"/>naturales. Ideo sola anima rationalis dicitur esse 
+      <lb ed="#P" n="19"/>ab extra, &amp; aliae ab intra: quia non possunt esse 
+      ni<lb ed="#P" n="20" break="no"/>si in materia. Non autem quia aliquid earum 
+      prae<lb ed="#P" n="21" break="no"/>cedat generationem in materia. 
+      </p>
+            <p xml:id="hx2hx3-b86109-d1e1724">
+               <lb ed="#P" n="22"/>Ad quartum dicendum, quod eductio addit 
+      <lb ed="#P" n="23"/>super inductionem dependentiam formae a 
+      mate<lb ed="#P" n="24" break="no"/>ria, siue subiecto in quo est, &amp; in esse &amp; in fieri: 
+      <lb ed="#P" n="25"/>sicut expositum est in principali solutione. Et quia 
+      <lb ed="#P" n="26"/>sola anima rationalis non habet sic dependere: 
+      <lb ed="#P" n="27"/>ideo ipsa sola non educitur de potentia materiae. 
+      <lb ed="#P" n="28"/>Aliae autem quae dicuntur educi, dependent, &amp; 
+      <lb ed="#P" n="29"/>hoc est eas educi, non autem quod aliquid ipsius 
+      <lb ed="#P" n="30"/>essentiae formae praecudat in materia, 
+      generatio<lb ed="#P" n="31" break="no"/>nem ipsius compositi. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

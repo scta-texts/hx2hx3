@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="333"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c12463"><!-- l4d6q2 -->
+            <head xml:id="hx2hx3-c12463-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-c12463-Hd1e101" type="question-title">Utrum in baptizato requiratur intentio et fides baptismi</head>
+            <p xml:id="hx2hx3-c12463-d1e104">
+               <lb ed="#P" n="108"/>QVAESTIO SECVNDA. 
+      <lb ed="#P" n="109"/>SEecundo. Quaeritur vtrum in baptizato 
+      re<lb ed="#P" n="110" break="no"/>quiratur intentio &amp; fides baptismi. 
+      </p>
+            <p xml:id="hx2hx3-c12463-d1e113">
+               <lb ed="#P" n="111"/>Ad quod dicendum, quod baptizatus aut est 
+      <lb ed="#P" n="112"/>puer. Et sic in eo non requiritur intentio, vel 
+      fi<lb ed="#P" n="113" break="no"/>des, sed sufficit fides Ecclesiae, aut est adultus, &amp; 
+      <lb ed="#P" n="114"/>sic requiritur in eo fides, &amp; intentio baptismi. 
+      </p>
+            <p xml:id="hx2hx3-c12463-d1e124">
+               <lb ed="#P" n="115"/>Ad cuius euidentiam, sciendum quod duplex 
+      <lb ed="#P" n="116"/>sacramenti effectus vnus, scilicet qui est 
+      sacra<lb ed="#P" n="117" break="no"/>mentum &amp; res, scilicet character: alius qui est res 
+      <lb ed="#P" n="118"/>tantum, scilicet gratia &amp; virtutes, similiter 
+      inten<lb ed="#P" n="119" break="no"/>tio baptizandi potest esse duplex: vna, scilicet qua 
+      <lb ed="#P" n="120"/>intendit id quod datur ab Ecclesis in baptismo, &amp; 
+      <lb ed="#P" n="121"/>non plus. Alia qua cum hoc intendi: vtuere 
+      se<lb ed="#P" n="122" break="no"/>cundum praecepta Ecclesiae &amp; cotugere vitam 
+      <lb ed="#P" n="123"/>suam. Ille qui intendit recipere baptusmum, 
+      pri<lb ed="#P" n="124" break="no"/>mo modo recipit characterem tantum. Qui vero 
+      <lb ed="#P" n="125"/>intendit, secundo modo recipit &amp; characterem 
+      <lb ed="#P" n="126"/>&amp; gratiam &amp; virtutes, quod potest probari sic: 
+      <lb ed="#P" n="127"/>quia mobile in tantum mouetur inquantum 
+      subii<lb ed="#P" n="128" break="no"/>citur actioni agentis, vt ferrum subiicitur igni in 
+      <lb ed="#P" n="129"/>profundo vt liquefactibile: non autem vt 
+      illumi<lb ed="#P" n="130" break="no"/>nabile. Et ideo in profundo non illuminatur sed 
+      <lb ed="#P" n="131"/>calefit: sed in adulto subiectio eius ad actionem 
+      <!--334.xml-->
+      <pb ed="#P" n="334"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>baptiszantis est per in tentionom, vt patet er 
+      <lb ed="#P" n="2"/>hoc quod si aliquis violenter agat in hominem, 
+      <lb ed="#P" n="3"/>non agit in eum vt homo, sed vt est corpus 
+      quod<lb ed="#P" n="4" break="no"/>dam: nec homo subiicit se tali actioni vel agenti, 
+      <lb ed="#P" n="5"/>vthomo est: sedvt est res quaedam. Ergo 
+      homosecuu<lb ed="#P" n="6" break="no"/>dum quod intendit baprizari, secundum hoc recipit 
+      <lb ed="#P" n="7"/>effectus baptismi. Et ideo si intendit per 
+      baptis<lb ed="#P" n="8" break="no"/>mum tantum recipere quod datur ab Ecclesia 
+      <lb ed="#P" n="9"/>ni baptismo, &amp; cum hoc intendit viuere 
+      se<lb ed="#P" n="10" break="no"/>cundum praecepta christiane religionis, &amp; 
+      corri<lb ed="#P" n="11" break="no"/>gere vitam suam, tunc non solum recipit 
+      sacra<lb ed="#P" n="12" break="no"/>mentum &amp; characterem, sed etiam gratiam &amp; 
+      vir<lb ed="#P" n="13" break="no"/>tutes. 
+      </p>
+            <p xml:id="hx2hx3-c12463-d1e199">
+               <lb ed="#P" n="14"/>Si autem quaeratur vtrum qui baptisatur 
+      ioco<lb ed="#P" n="15" break="no"/>se, sit baptizatus. 
+      </p>
+            <p xml:id="hx2hx3-c12463-d1e206">
+               <lb ed="#P" n="16"/>Dicendum, quod aut intendit per dictum 
+      io<lb ed="#P" n="17" break="no"/>cum nihil recipere, &amp; sic non est baptizatus, aut 
+      <lb ed="#P" n="18"/>intendit per baptismum recipere illud bonum 
+      <lb ed="#P" n="19"/>quod datur ab Ecclesia, tunc dicitur quod 
+      reci<lb ed="#P" n="20" break="no"/>pit illud bonum quod confertur in baptismo. 
+      Pri<lb ed="#P" n="21" break="no"/>mo modo non est baptizatus. Secundo modo sic. 
+      <lb ed="#P" n="22"/>Vnde legitur inEcclesiastica historia de quodam 
+      <lb ed="#P" n="23"/>iaculatore Neronis qui fuit baptizatus ludendo 
+      <lb ed="#P" n="24"/>qui postmodum Domino suo coram eo confessus 
+      <lb ed="#P" n="25"/>est firmissime fidem Christi. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

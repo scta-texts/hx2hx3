@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="323"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c08903"><!-- l4d3q3 -->
+            <head xml:id="hx2hx3-c08903-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-c08903-Hd1e101" type="question-title">De materia, utrum sit aqua simplex</head>
+            <p xml:id="hx2hx3-c08903-d1e104">
+               <lb ed="#P" n="45"/>Quare in aquae tantum, ffar. 
+      <lb ed="#P" n="46"/>Celebratur autem hoc sacramentum 
+      tan<lb ed="#P" n="47" break="no"/>tae in aqua, non in aliquo liquore vt 
+      Chri<lb ed="#P" n="48" break="no"/>stur aent. Visi quir regeneratur fuerit 
+      <lb ed="#P" n="49"/>ex agua, &amp;r. 
+      </p>
+            <p xml:id="hx2hx3-c08903-d1e117">
+               <lb ed="#P" n="50"/>QVAESTIO TERTIA. 
+      <lb ed="#P" n="51"/>TErtio. Quaeritur de materia vtrum sit aqua 
+      <lb ed="#P" n="52"/>simplex. 
+      </p>
+            <p xml:id="hx2hx3-c08903-d1e126">
+               <lb ed="#P" n="53"/>Et dicendum quod sic causa autem 
+      principa<lb ed="#P" n="54" break="no"/>lis est institutio Christi: quia si voluisset 
+      instituis<lb ed="#P" n="55" break="no"/>fet in alia materia. Ratio autem istius 
+      instituo<lb ed="#P" n="56" break="no"/>nis sumitur ex tribus. 
+      </p>
+            <p xml:id="hx2hx3-c08903-d1e138">
+               <lb ed="#P" n="57"/>Primo ex ratione sacramenti sic: quia cum 
+      <lb ed="#P" n="58"/>baptismus sit quaedam regeneratio in vitam 
+      spiri<lb ed="#P" n="59" break="no"/>tualem, illa materia est conuenientior baptismo 
+      <lb ed="#P" n="60"/>quae magis conuenit generationi viuentium: 
+      hu<lb ed="#P" n="61" break="no"/>iusmodi autem est aqua. Ergo, &amp;c. Minor 
+      de<lb ed="#P" n="62" break="no"/>claratur quia viuentia a principio sunt mollia &amp; 
+      <lb ed="#P" n="63"/>humida quae sunt conditiones aquae. 
+      </p>
+            <p xml:id="hx2hx3-c08903-d1e156">
+               <lb ed="#P" n="64"/>Secundo ex effectu sacramenti sic: quia cum 
+      <lb ed="#P" n="65"/>effectus huius sacramenti sit ablatio peocati, refri¬ 
+      <!--323.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>geratio concupiscentiae, illuminatio per fidem &amp; 
+      <lb ed="#P" n="67"/>gloriam: illa materia magis conuenit baptismo 
+      <lb ed="#P" n="68"/>quae magis illa significati huiusmodi est aqua quae 
+      <lb ed="#P" n="69"/>est ablutiua, refrigeratiua &amp; transperani. Ergo, 
+      <lb ed="#P" n="70"/>&amp;caetera. 
+      </p>
+            <p xml:id="hx2hx3-c08903-d1e178">
+               <lb ed="#P" n="71"/>Tertio ex necessitate sacramenti sie: quia cum 
+      <lb ed="#P" n="72"/>istud sacramentum sit maxime necessarium debet 
+      <lb ed="#P" n="73"/>habere materiam magis communem, &amp; maxime 
+      <lb ed="#P" n="74"/>possibilem haberi: sed aqua est huiusmodi. 
+      </p>
+            <p xml:id="hx2hx3-c08903-d1e189">
+               <lb ed="#P" n="75"/>Norandum est autem quod dato quod in 
+      ali<lb ed="#P" n="76" break="no"/>qua alia materia inueniatur aliqua conduio 
+      perti<lb ed="#P" n="77" break="no"/>nens ad baptismum magis quam in qua: tamen 
+      om<lb ed="#P" n="78" break="no"/>nia conuenientia ad baptismum simul magis 
+      in<lb ed="#P" n="79" break="no"/>ueniuntur in aqua quam in aliqua alia materia. 
+      </p>
+            <p xml:id="hx2hx3-c08903-d1e202">
+               <lb ed="#P" n="80"/>Sciendum est etiam, quod aqua quae est 
+      ma<lb ed="#P" n="81" break="no"/>teria baptismi non est omne quod vocatur 
+      no<lb ed="#P" n="82" break="no"/>mine aquae, vt aqua roseacea vel aliquid tale: sed 
+      <lb ed="#P" n="83"/>aqua simplicis elementi. Vnde si fiat ralis 
+      per<lb ed="#P" n="84" break="no"/>mixtio quae tollit speciem simplicis elementi: in 
+      <lb ed="#P" n="85"/>tali liquore non fit baptismus. Si autem fiat talis 
+      <lb ed="#P" n="86"/>permixtio, quod non tollat speciem aquae, in tali 
+      <lb ed="#P" n="87"/>liquore fiet baptismus. Signum autem quo 
+      po<lb ed="#P" n="88" break="no"/>test perpendi vtrum sit aqua vel non: 
+      acci<lb ed="#P" n="89" break="no"/>piendum est vt dicunt doctores ex raritate eius 
+      <lb ed="#P" n="90"/>vel densstare, sicut etiam species in quibusdam 
+      <lb ed="#P" n="91"/>deprehenditur ex figura. Vnde si talis permiatio 
+      <lb ed="#P" n="92"/>fiat, quod illud permixtum omni modo quo aqua 
+      <lb ed="#P" n="93"/>habeat dissolui a calido &amp; congelari a frigido: 
+      ta<lb ed="#P" n="94" break="no"/>lis permixtio non videtur tollere speciem aquae. 
+      <lb ed="#P" n="95"/>Dico autem omni modo sicut aqua: quia aliqua 
+      <lb ed="#P" n="96"/>coagulationem habent quam non habet aqua, 
+      <lb ed="#P" n="97"/>sicut patet de lacte, quia quandoque a calidio 
+      co<lb ed="#P" n="98" break="no"/>agulatur. Si autem aliter fiat permixtio non 
+      ha<lb ed="#P" n="99" break="no"/>bens similem coagulationem &amp; dissolutionem 
+      si<lb ed="#P" n="100" break="no"/>eut aqua: non manet species aquae. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

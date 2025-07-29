@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="278"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b94168"><!-- l2d30q3 -->
+            <head xml:id="hx2hx3-b94168-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-b94168-Hd1e101" type="question-title">Utrum semen sit de superfluo alimenti</head>
+            <p xml:id="hx2hx3-b94168-d1e104">
+               <lb ed="#P" n="54"/>QVASTIO TERTIA.
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e109">
+               <lb ed="#P" n="55"/>DEinde queritur vtrum semen sit de superfluo 
+      <lb ed="#P" n="56"/>alimenum. Et arguitur quod non. Quia diiu, 
+      <lb ed="#P" n="57"/>non attinet patii nisi quantum ad illud quod 
+      ac<lb ed="#P" n="58" break="no"/>cipit ab eo. Sed si superfluum alimenti est sement 
+      <lb ed="#P" n="59"/>tunc filius nihil haberet a patre, sed magis a 
+      por<lb ed="#P" n="60" break="no"/>co, vel boue a quo tractum est alimentum. Ergo 
+      <lb ed="#P" n="61"/>si semen esset de superfluo alimenti, filius non at. 
+      <lb ed="#P" n="62"/>tinet patri: sed magis porco, vel boui. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e129">
+               <lb ed="#P" n="63"/>Praeterea contingit aliquem magis assimilari 
+      <lb ed="#P" n="64"/>auo quam patri. Sed hoc non esset nisi aliquid 
+      <lb ed="#P" n="65"/>de substantia aui fuisset in patre: nec hoc posser esse 
+      <lb ed="#P" n="66"/>nisi semen de quo formatur fetus esset de 
+      sub<lb ed="#P" n="67" break="no"/>stentia patris. Ergo semen non est de superfluo 
+      <lb ed="#P" n="68"/>alimenti, sed de substantia generantis.
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e146">
+      <!--278.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>Praeterea secundum beatum Augustinum 
+      om<lb ed="#P" n="70" break="no"/>nes fuerunt in Adam excepto Christo secundum 
+      <lb ed="#P" n="71"/>rationem seminalemo, &amp; secundum corpulentam 
+      <lb ed="#P" n="72"/>substantiam Cristus fuit aurem ineo solum 
+      secun<lb ed="#P" n="73" break="no"/>dum corpulentam substantiam. Sed heo non 
+      pos<lb ed="#P" n="74" break="no"/>set esse, nisi de substantia patris tormaretur proles: 
+      <lb ed="#P" n="75"/>ita quod de substantia Adae formati fuerunt filij 
+      <lb ed="#P" n="76"/>sui, &amp; de substantia filiorum alij filij. Ergo 
+      pro<lb ed="#P" n="77" break="no"/>le semper formatur de substantia patris. Sed 
+      <lb ed="#P" n="78"/>hoc non posset esse si semen. esset de superfluo 
+      <lb ed="#P" n="79"/>alimenti: &amp; non de substantia patris. Ergo, 
+      <lb ed="#P" n="80"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e179">
+               <lb ed="#P" n="81"/>In contrarium est Philosophus qui probat per 
+      <lb ed="#P" n="82"/>tria signa semen esse de superstuo alimenti. 
+      Pri<lb ed="#P" n="83" break="no"/>mum est quia semen habet determinatum locum e 
+      <lb ed="#P" n="84"/>in corpore sicut aliae superfluitates naturales. Ea 
+      <lb ed="#P" n="85"/>autem quae resoluuntur a substantia corporis, non 
+      <lb ed="#P" n="86"/>sic: sicut patet de sudoribus &amp; vaporibus quae 
+      so<lb ed="#P" n="87" break="no"/>luuntur a corpore. Secundum est quod homo 
+      al<lb ed="#P" n="88" break="no"/>leuiatur per emissionem seminis. Nullus autem 
+      <lb ed="#P" n="89"/>alleuiatur per hoc quod aliquid de eius substantia 
+      <lb ed="#P" n="90"/>resoluitur. Tertium est, quia magna animalia &amp; 
+      <lb ed="#P" n="91"/>pinguia minus abundant in semine quam alia: 
+      cu<lb ed="#P" n="92" break="no"/>ius oppositum deberet esse, si de substantia eius a 
+      <lb ed="#P" n="93"/>quo semen resoluitur, ipsum semen resolueretur. 
+      <lb ed="#P" n="94"/>Quia a maiori corpore nata est fieri maior 
+      resolu<lb ed="#P" n="95" break="no"/>tio. Si autem ratio quaeratur cur talia parum 
+      abun<lb ed="#P" n="96" break="no"/>dant in semine, est quia toto alimento indigent 
+      <lb ed="#P" n="97"/>&amp; quasi totum alimentum in eis conuertitur in 
+      <lb ed="#P" n="98"/>substantiam nutriti. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e221">
+               <lb ed="#P" n="99"/>Respondeo. Circa istam quaestionem est 
+      opi<lb ed="#P" n="100" break="no"/>nio quaedamquae dicit quod semen resoluitur de 
+      <lb ed="#P" n="101"/>substantia generantis: &amp; de illo semine (vt 
+      di<lb ed="#P" n="102" break="no"/>cunt) formatur fetus: nec aliquid transit in 
+      veri<lb ed="#P" n="103" break="no"/>tatem naturae humanae in fetu nisi illud 
+      semen<lb ed="#P" n="104" break="no"/>Haec sunt tria dicta scilicet quod semen resoluitur 
+      <lb ed="#P" n="105"/>de substantia generantis Et quod semen conuertitur 
+      <lb ed="#P" n="106"/>in materiam fetus: ita quod fetus de semine 
+      forme<lb ed="#P" n="107" break="no"/>turmaterialiter. Et quod nihil aliud conuertatur 
+      <lb ed="#P" n="108"/>in veritatem naturae humanae in fetu. quae omnia 
+      <lb ed="#P" n="109"/>tria sunt falsa. Et falsiras quidem tenij ostensa est 
+      <lb ed="#P" n="110"/>in praecedendi qua stione. Nunc restat ostendere 
+      <lb ed="#P" n="111"/>prima duo esse falsa. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e252">
+               <lb ed="#P" n="112"/>Primo ergo ostendendum est, falsum esse 
+      <lb ed="#P" n="113"/>quod semen sit de substantia generantis. Et hoc 
+      <lb ed="#P" n="114"/>ostenditur duplici ratione Philosophi. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e261">
+               <lb ed="#P" n="115"/>Prima talis est. Omne quod est in homines 
+      <lb ed="#P" n="116"/>aut est per accidens, vt sanies vulnerum quae est 
+      <lb ed="#P" n="117"/>praeter intentionem naturae: aut est per se 
+      mten<lb ed="#P" n="118" break="no"/>tum. Si est per se intentum; aut est pars: aut 
+      su<lb ed="#P" n="119" break="no"/>perfsuum alimenti, cum quo etiam potest 
+      connu<lb ed="#P" n="120" break="no"/>merari alimentum. Et si est pars, aut 
+      hetheroge<lb ed="#P" n="121" break="no"/>nea: aut homogenea. Sed semen non est in 
+      cor<lb ed="#P" n="122" break="no"/>pore hominis vel alterius animalis, per accidens 
+      <lb ed="#P" n="123"/>&amp; praeter intentionem naturae: cum in omnibus 
+      <lb ed="#P" n="124"/>perfectis inueniatur, &amp; sit necessarium ad 
+      conser<lb ed="#P" n="125" break="no"/>uationem speciei. Nec potest dici quod sit pars 
+      <lb ed="#P" n="126"/>hetherogenea: sicut pes vel nianus, vt de so 
+      <lb ed="#P" n="127"/>patet. Nec etiam pars homogenea, vt caro vel 
+      <lb ed="#P" n="128"/>os: ex quibus componuntur partes hetherogencae. 
+      <lb ed="#P" n="129"/>Quia manus, vel pes, vel partes tales 
+      noncom<lb ed="#P" n="130" break="no"/>ponuntu ex semine: vt de se patet. Ergo 
+      relinqui<lb ed="#P" n="131" break="no"/>tur quod pertineat ad alimentum: nec potest 
+      per<lb ed="#P" n="132" break="no"/>tinere ad alimentum nisi sit aliquid superfluum de 
+      <lb ed="#P" n="133"/>alimento quod emittitur. Oportet ergo ponere 
+      <lb ed="#P" n="134"/>quod semen sit de superfluo alimenti. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e307">
+               <lb ed="#P" n="135"/>Secunda ratio est. Quia si semen resoluitun 
+      <lb ed="#P" n="136"/>de substantia generantis; aut retinet virtutem 
+      <lb ed="#P" n="137"/>speciei; aut non: led recedit a virtute naturae &amp; 
+      <lb ed="#P" n="138"/>speciei, sicut sudores &amp; vapores. Si dicaturquod 
+      <!--279.xml-->
+      <pb ed="#P" n="279"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>recedit a virtute speciei. Contra. Quia illi non 
+      <lb ed="#P" n="2"/>conuenit agere ad generationem similis in specie 
+      <lb ed="#P" n="3"/>quod recedit a virture speciei. Sed semen agit ad 
+      <lb ed="#P" n="4"/>generationem alicuius similis in specie cum illo a quo 
+      <lb ed="#P" n="5"/>semen resoluitur. Ergo seme non resoluitur de 
+      sub<lb ed="#P" n="6" break="no"/>stantia generantis: sicut illud quod recedit a 
+      virtu<lb ed="#P" n="7" break="no"/>te speciei, &amp; quod speciei virtutem amitrat. Si 
+      au<lb ed="#P" n="8" break="no"/>tem dicatur quod semen resoluitur retinens 
+      vir<lb ed="#P" n="9" break="no"/>tutem eandem cum illo a quo resoluitur: tunc 
+      <lb ed="#P" n="10"/>quaero, aut semen resoluitur ab vna parte: aut ab 
+      <lb ed="#P" n="11"/>omnibus: non ab vna. Quia sic non sufficeret ad 
+      <lb ed="#P" n="12"/>generandum alias partes: nec adhuc de eo fierent 
+      <lb ed="#P" n="13"/>omnes partes. Si de omnibus, ita quod aliqua 
+      <lb ed="#P" n="14"/>portio rescindatur a carne &amp; ab osse, &amp; sic de aliis: 
+      <lb ed="#P" n="15"/>&amp; portio quaelibet resecata remaneat viua, &amp; 
+      <lb ed="#P" n="16"/>ex illis formetur foetus. Contra. Quia illa quae 
+      <lb ed="#P" n="17"/>sic generantur non habent generationem per 
+      <lb ed="#P" n="18"/>transmutationem materiae ad vnam formam 
+      <lb ed="#P" n="19"/>per diuisionem viuentis quod prius erat 
+      v<lb ed="#P" n="20" break="no"/>num, &amp; per diuisionem fit plura: sicut apparet 
+      <lb ed="#P" n="21"/>in plantis &amp; animalibus annulosis quae diuisa 
+      <lb ed="#P" n="22"/>viuunt. Talis autem modus generationis non est 
+      <lb ed="#P" n="23"/>in eis quae generantur ex semine. Ergo, &amp;c. Item 
+      <lb ed="#P" n="24"/>ad sensum patet semen non esse compositum ex 
+      <lb ed="#P" n="25"/>carne &amp; osse &amp; consimilibus. Vnde iste modus 
+      <lb ed="#P" n="26"/>est aperte contra sensum. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e382">
+               <lb ed="#P" n="27"/>Secundo ostendendum est secundum non 
+      ha<lb ed="#P" n="28" break="no"/>bere veritatem. Hoc autem patet sic. Quia 
+      quid<lb ed="#P" n="29" break="no"/>quid sit de spiritualibus incorporalibus: saltem 
+      <lb ed="#P" n="30"/>oportet esse quod illud quod agit, &amp; illud quod 
+      pa<lb ed="#P" n="31" break="no"/>titur, sint diuersarum conditionum. Quia illud per 
+      <lb ed="#P" n="32"/>quod conuenit alicui agere: &amp; illud per quod 
+      con<lb ed="#P" n="33" break="no"/>uenit alicui pati, oportet esse diuersarum 
+      conditio<lb ed="#P" n="34" break="no"/>num. Sicut videmus quod ignire conuenit alicui 
+      <lb ed="#P" n="35"/>inquantum est ignis in actu: &amp; igniri inquantum 
+      <lb ed="#P" n="36"/>est ignis in potentia, puta inquantum est talis 
+      dis<lb ed="#P" n="37" break="no"/>positionis, vt lignum siccum, vel aliquid 
+      consimi<lb ed="#P" n="38" break="no"/>le. Sed in generatione foetus semen vini est 
+      acti<lb ed="#P" n="39" break="no"/>uum. Ergo cum semen viri sit vniforme in toto: 
+      <lb ed="#P" n="40"/>oportet dare illud quod sit passiuum de quo 
+      mate<lb ed="#P" n="41" break="no"/>rialiter fiat foetus. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e417">
+               <lb ed="#P" n="42"/>Si dicatur quod imo in semine viri sunt 
+      diuer<lb ed="#P" n="43" break="no"/>sae partes diuersarum conditionum, puta quidam 
+      <lb ed="#P" n="44"/>spiritus inclusus: &amp; ille agit, &amp; alia pars patitur. 
+      <lb ed="#P" n="45"/>Nihil est. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e428">
+               <lb ed="#P" n="46"/>Primo. Quia licet forte aliquae partes seminis 
+      <lb ed="#P" n="47"/>sint magis subtiles &amp; rarae quam aliae: tamen non 
+      <lb ed="#P" n="48"/>est ibi tanta diuersitas quae sufficiat ad hoc quod 
+      <lb ed="#P" n="49"/>vnum agat in reliquum. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e439">
+               <lb ed="#P" n="50"/>Secundo. Quia si in semine viri est agens &amp; 
+      <lb ed="#P" n="51"/>patiens ad generationem humanam, cum ista 
+      suf<lb ed="#P" n="52" break="no"/>ficiant, superflua videtur distinctio maris &amp; 
+      femi<lb ed="#P" n="53" break="no"/>nae: quae propter hoc requiruntur, vt vnum 
+      mini<lb ed="#P" n="54" break="no"/>stret actiuum, &amp; reliqua passiuum. Vnde &amp; in 
+      <lb ed="#P" n="55"/>illis viuentibus in quibus in vno potest inueniri 
+      <lb ed="#P" n="56"/>agens &amp; passum, sicut in semine plantarum: non 
+      <lb ed="#P" n="57"/>est distinctio sexus. Nec est contra id quod dictum 
+      <lb ed="#P" n="58"/>est, quod diuersae sunt dispsitiones agentis &amp; passi: 
+      <lb ed="#P" n="59"/>quia in semine talium inueniuntur partes differentes 
+      <lb ed="#P" n="60"/>quibus cooperatur agens extrinsecum. Si dicitur 
+      <lb ed="#P" n="61"/>quod distinctio maris &amp; feminae requiritur 
+      pro<lb ed="#P" n="62" break="no"/>pter locum generationis, qui non potest esse in 
+      ma<lb ed="#P" n="63" break="no"/>re. Nihil est. Quia cum natura non deficiat in 
+      <lb ed="#P" n="64"/>necessariis; si in solo mare potuisset esse agens &amp; 
+      <lb ed="#P" n="65"/>patiens: natura in mare prouidisset de loco 
+      gene<lb ed="#P" n="66" break="no"/>tationis 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e478">
+               <lb ed="#P" n="67"/>Et ideo est alia opinio quae ponit quod semen 
+      <lb ed="#P" n="68"/>de superfluo est alimenti, quando iam est 
+      vltima<lb ed="#P" n="69" break="no"/>te dispositum ad hoc quod conuertatur in camnem 
+      <!--279.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>vel inos: &amp; sic de alis membris. Quia 
+      alimen<lb ed="#P" n="71" break="no"/>tum sic digestum, &amp; sic dispositum iam habet 
+      vir<lb ed="#P" n="72" break="no"/>tutem speciei &amp; naturae ad quam tendit: non 
+      qui<lb ed="#P" n="73" break="no"/>dem determinatae huius partis, sed magis torius: 
+      <lb ed="#P" n="74"/>ita quod in tali est rotum in virtute. Quia adhuc 
+      <lb ed="#P" n="75"/>nondum accepit formam pertis determinatae 
+      ip<lb ed="#P" n="76" break="no"/>sius corporis: &amp; propter hoc mouet ad totum 
+      for<lb ed="#P" n="77" break="no"/>mandum. Et haec opinio potest concludi ex 
+      prae<lb ed="#P" n="78" break="no"/>dictis, &amp; mihi magis placet. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e511">
+               <lb ed="#P" n="79"/>Ad primum ergo in oppositum dicendum, 
+      <lb ed="#P" n="80"/>quod filius totum accepit a patre sicut ab agente. 
+      <lb ed="#P" n="81"/>Nam materiam accipit ab eo, non quidem 
+      mate<lb ed="#P" n="82" break="no"/>riam quae fuit sub forma patris: sed aliam 
+      mate<lb ed="#P" n="83" break="no"/>riam quam pater mouet ad formam filij. Et 
+      for<lb ed="#P" n="84" break="no"/>mam similiter habet ab eo, sicut ab agente, vel 
+      for<lb ed="#P" n="85" break="no"/>mam essentialiter inducendo actiue: sicut est in 
+      <lb ed="#P" n="86"/>alijs animalibus ab homine, vel ad formam 
+      orga<lb ed="#P" n="87" break="no"/>nizando &amp; disponendo, sicut accidit in 
+      homine<lb ed="#P" n="88" break="no"/>Sicut &amp; ignis generatus habet esse suum ab igne 
+      <lb ed="#P" n="89"/>generante, sicut ab efficiente: licet in igne 
+      gene<lb ed="#P" n="90" break="no"/>rato nihil sit quod fuerit sub forma ignis 
+      generan<lb ed="#P" n="91" break="no"/>tis. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e543">
+               <lb ed="#P" n="92"/>Ad secundum dicendum, quod quia virtus 
+      pa<lb ed="#P" n="93" break="no"/>tris aliquo modo manet in filio, sicut virtus causae 
+      <lb ed="#P" n="94"/>maner aliquo modo in effectu: inquantum 
+      effe<lb ed="#P" n="95" break="no"/>ctum sibi assimilat, &amp; impressio facta ab agtrte 
+      <lb ed="#P" n="96"/>manet in effectu. Et ex hoc contingit quod pater 
+      <lb ed="#P" n="97"/>assimilat filium non sibi qui generat: sed patri suo 
+      <lb ed="#P" n="98"/>cuius virtus remansit in ipso. Ex hoc contingit quod 
+      <lb ed="#P" n="99"/>nepos magis assimilarur auo, scilicet patri patris 
+      <lb ed="#P" n="100"/>sui: quam suo patri immediate. Hoc ergo 
+      con<lb ed="#P" n="101" break="no"/>tingit nonex hoc quod illud quod fuit naturaliter 
+      <lb ed="#P" n="102"/>in patre si postea in filio: sed propter hoc quod 
+      vir<lb ed="#P" n="103" break="no"/>tus patris non manet in filio, nisi inquantum 
+      im<lb ed="#P" n="104" break="no"/>pressio patris manet in filio quae est virtus filij. Est 
+      <lb ed="#P" n="105"/>enim virturpatris vt efficientis, &amp; filij vt subiecti 
+      <lb ed="#P" n="106"/>per quam postea filius agit. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e578">
+               <lb ed="#P" n="107"/>Sed non videtur ratio, quare filius agens per 
+      <lb ed="#P" n="108"/>illam virtutem magis possit assimilare filium suum 
+      <lb ed="#P" n="109"/>suo patri quam sibi ipsi qui est pater immediatus 
+      <lb ed="#P" n="110"/>sui filii. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e589">
+               <lb ed="#P" n="111"/>Et ad hoc dicendum quod contingit 
+      quando<lb ed="#P" n="112" break="no"/>que propter aliquod extrinsecum impediens, quod 
+      <lb ed="#P" n="113"/>virtus Patris non attingat ad inducendum 
+      confi<lb ed="#P" n="114" break="no"/>milem figuram in exterioribus filio sicut pater 
+      <lb ed="#P" n="115"/>habet. Quantum tamen ad intentionem inducit 
+      <lb ed="#P" n="116"/>similem complexionem complexioni patris. Quia 
+      <lb ed="#P" n="117"/>virtus semuinis magis prouenit ex virtute digestiua 
+      <lb ed="#P" n="118"/>interiori, quam ex dispositione exteriori 
+      membro<lb ed="#P" n="119" break="no"/>rum. Ideo virtus existens in semine filii similem 
+      <lb ed="#P" n="120"/>motionem faciet, sicut semen patris. Et ideo si 
+      <lb ed="#P" n="121"/>non occurrat impedimentum in formatione ipsius 
+      <lb ed="#P" n="122"/>generantis, fiet similis filius, non patri 
+      immedia<lb ed="#P" n="123" break="no"/>to: sed auo cui virtus interior patris assimilatur: 
+      <lb ed="#P" n="124"/>licet similitudo in figura exterior fuerit impedita 
+      <lb ed="#P" n="125"/>per accidens. Et haec videtur causa quare 
+      aliquan<lb ed="#P" n="126" break="no"/>do aliquis magis assimilatur auo, quam patri 
+      im<lb ed="#P" n="127" break="no"/>mediato. 
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e628">
+               <lb ed="#P" n="128"/>Ad tertium dicendum, quod esse in Adam 
+      se<lb ed="#P" n="129" break="no"/>cundum corpulentam substantiam non est 
+      habe<lb ed="#P" n="130" break="no"/>re pro corporis materia aliquamportionem 
+      corpo<lb ed="#P" n="131" break="no"/>ris Adae. Sed in Adam dicitur aliquis esse 
+      secun<lb ed="#P" n="132" break="no"/>dum corpulentam substantiam: ex hoc quod 
+      vir<lb ed="#P" n="133" break="no"/>tus digestiua mulieris praeparat materiam ex qun 
+      <lb ed="#P" n="134"/>formatur corpus ipsius foetus. Sed secundum 
+      ratio<lb ed="#P" n="135" break="no"/>nem seminalem dicitur aliquis in Adam: ex hoc 
+      <lb ed="#P" n="136"/>quod virtus seminis virilis descendens ab Adam 
+      <lb ed="#P" n="137"/>medinte vel immediate format torpus ipsius fet: 
+      <lb ed="#P" n="138"/>tur.
+      </p>
+            <p xml:id="hx2hx3-b94168-d1e654">
+      <!--280.xml-->
+               <pb ed="#P" n="280"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Et quia virtus digestiua beatae virginis 
+      praepa<lb ed="#P" n="2" break="no"/>rauit materiam de qua formatum est corpus Chri. 
+      <lb ed="#P" n="3"/>stia sed virtus virilis seminis non formauit illud, 
+      <lb ed="#P" n="4"/>sed tantum virtus Spiritus sancti. Ideo dicitur 
+      <lb ed="#P" n="5"/>quod Christus fuit in Adam secundum 
+      corpulen<lb ed="#P" n="6" break="no"/>tam substantiam: non secundum rationem 
+      semi<lb ed="#P" n="7" break="no"/>nalem. Non est autem hoc dictum propter hoc 
+      <!--280.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="8"/>quod aliqua portio eamnis, vel alicuius alterius 
+      <lb ed="#P" n="9"/>partis, vel aliquid resolutum de substantia alicuius 
+      <lb ed="#P" n="10"/>parentis prioris, cesserit in materiam corpotir 
+      <lb ed="#P" n="11"/>Christi: vel quod proles formetur de aliqua parte 
+      <lb ed="#P" n="12"/>substantiae Patris. Et haec de secundo sufficiant 
+      <lb ed="#P" n="13"/>ad laudem Dei Creatous optimi.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

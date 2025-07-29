@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="91"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b29741"><!-- l1d17q3 -->
+            <head xml:id="hx2hx3-b29741-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-b29741-Hd1e101" type="question-title">Utrum charitas detur secundum capacitatem naturalium</head>
+            <p xml:id="hx2hx3-b29741-d1e104">
+               <lb ed="#P" n="27"/>QVAESTIOTERIIA. 
+      <lb ed="#P" n="28"/>TErtio quaeritur vtrum charitas detur 
+      secun<lb ed="#P" n="29" break="no"/>dum capacitatem naturalium. 
+      </p>
+            <p xml:id="hx2hx3-b29741-d1e113">
+               <lb ed="#P" n="30"/>Respondeo hic, primo ponenda est solutio 
+      <lb ed="#P" n="31"/>quam credo veram. Secundo, ponetur difficultar 
+      <lb ed="#P" n="32"/>quae videtur obuiare dictae solutioni. Tertio, 
+      po<lb ed="#P" n="33" break="no"/>netur quaedam insufficiens solutio dictae 
+      difficul<lb ed="#P" n="34" break="no"/>tatis &amp; illius solutionis reprobatio. Quarto, 
+      po<lb ed="#P" n="35" break="no"/>netur solutio quancredo veram. 
+      </p>
+            <p xml:id="hx2hx3-b29741-d1e129">
+               <lb ed="#P" n="36"/>Ad euidentiam primi, sciendum quod cum 
+      <lb ed="#P" n="37"/>vnumquodque trahat mensuram ex suis causis: 
+      <lb ed="#P" n="38"/>chatitas potest trahere mensuram suam secundum 
+      <lb ed="#P" n="39"/>quam dicatur magna vel parua, vel ex parte 
+      cau<lb ed="#P" n="40" break="no"/>sae efficientis quae est Deus: Et accipiendo sic men. 
+      <lb ed="#P" n="41"/>suram charitatis, vnusquisque habet plus vel 
+      mi<lb ed="#P" n="42" break="no"/>nus de charitate secundum quod Deus vult ei 
+      in<lb ed="#P" n="43" break="no"/>fundere plus vel minus: vel ex parte finis, &amp; sic 
+      <lb ed="#P" n="44"/>plus vel minus datur alicui de charitate, secundum 
+      <lb ed="#P" n="45"/>quod per charitatem ordinatur ad nobiliurem vel 
+      <lb ed="#P" n="46"/>minus nobilem finem. Charitatis autem dupler 
+      <lb ed="#P" n="47"/>est finis, vnus communis &amp; per se qui 
+      respicitom<lb ed="#P" n="48" break="no"/>nem charitatem, &amp; haec est beatitudo: &amp; poenes 
+      <lb ed="#P" n="49"/>ralem finendicitur aliquis habere plus vel minus 
+      <lb ed="#P" n="50"/>de charitate, secundum quod est praedestinatus ad 
+      <lb ed="#P" n="51"/>habendum maiorem vel minorem beatitudinem, 
+      <lb ed="#P" n="52"/>Alius autem est finis specialis aliquorum respectu, 
+      <lb ed="#P" n="53"/>cuius finis gratia &amp; charitas &amp; si non sit medium 
+      <lb ed="#P" n="54"/>vel dispositio necessitatis, est tamen medium 
+      con<lb ed="#P" n="55" break="no"/>ruitatis, quia scilicet non est congruum talia 
+      in<lb ed="#P" n="56" break="no"/>esse non habenti charitatem: &amp; sic ordinabitur 
+      <lb ed="#P" n="57"/>charitas naturae humanae in Christo ad vnionem 
+      <lb ed="#P" n="58"/>terbi, &amp; charitas vel gratia Beatae Virginis ad hoc 
+      <lb ed="#P" n="59"/>quod esset mater Dei, &amp; gratia Beati loannis ad 
+      <lb ed="#P" n="60"/>hoc vt esset Praecursor. Et sic datur maior charitas 
+      <lb ed="#P" n="61"/>ei qui ad nobiliorem finem ordinatur. Vel potest 
+      <lb ed="#P" n="62"/>accipi mensura charitatis ex parte formae, &amp; sic 
+      <lb ed="#P" n="63"/>non trahit charitas mensuram ab alio a se, quia 
+      <lb ed="#P" n="64"/>ipsa est forma: a se autem absolute &amp; secundum 
+      <lb ed="#P" n="65"/>se accepta non potess habere diuersitatem cum sit 
+      <lb ed="#P" n="66"/>forma vnius speciei specialissimae, vt ad nunc 
+      sun<lb ed="#P" n="67" break="no"/>ponitur: nec possit variari secundum diuerses 
+      <lb ed="#P" n="68"/>gradus specifieos. Potest etiam aceipi ex parte ma¬ 
+      <!--91.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>tersae &amp; subiecti in quo accipitur, secundum 
+      <lb ed="#P" n="70"/>quod subiectum est magis vel minus capax 
+      chari<lb ed="#P" n="71" break="no"/>tatis. In subiecto autem recipiente charitatem 
+      <lb ed="#P" n="72"/>potest attendi duplex capacitas respectu 
+      chari<lb ed="#P" n="73" break="no"/>tatis. Vna est potentia receptiua in qua sicut in 
+      <lb ed="#P" n="74"/>subiecto recipitur charitas, &amp; haec est sola essentia 
+      <lb ed="#P" n="75"/>vel potentia voluntatis in qua immediate est 
+      cha<lb ed="#P" n="76" break="no"/>ritas. Alia capacitas est dignitas vel congruitas 
+      ha<lb ed="#P" n="77" break="no"/>bendi, quae attenditur secundum dispositionem 
+      <lb ed="#P" n="78"/>meritoriam, secundum quam aliquis facit se 
+      di<lb ed="#P" n="79" break="no"/>gnum vel congruum habere charitatem. Et quia 
+      <lb ed="#P" n="80"/>in homine adulto requiritur quod se disponat ad 
+      <lb ed="#P" n="81"/>charitatem, faciendo se congruum ad habendum 
+      <lb ed="#P" n="82"/>eam per suum meritum, ideo attenditur mensura 
+      <lb ed="#P" n="83"/>charitatis secundum talem dispositionem merito 
+      <lb ed="#P" n="84"/>riam. Et quia homo indisponendo se ad 
+      charita<lb ed="#P" n="85" break="no"/>tem, eleuat se supra suam naturam, cum charitai 
+      <lb ed="#P" n="86"/>donum sit excedens facultatem naturie; Ideo 
+      di<lb ed="#P" n="87" break="no"/>citur conatus: quia homo conatur se leuare ad 
+      <lb ed="#P" n="88"/>Deum sicut potest. Et de hoc est tota difficultas, 
+      <lb ed="#P" n="89"/>utrum scilicet charitas detur secundum maiorem 
+      <lb ed="#P" n="90"/>vel minorem conatum, vel secundum 
+      quantita<lb ed="#P" n="91" break="no"/>tem naturalium. 
+      </p>
+            <p xml:id="hx2hx3-b29741-d1e258">
+               <lb ed="#P" n="92"/>Et quantum ad hoc dicendum, quod charita. 
+      <lb ed="#P" n="93"/>non datur secundum capacitatem natutalium 
+      ab<lb ed="#P" n="94" break="no"/>solute acceptorum, sed in ordine ad conatum 
+      mo<lb ed="#P" n="95" break="no"/>do quo exponetur statim. Quantum ergo ad 
+      co<lb ed="#P" n="96" break="no"/>natum dicendum quod magnitudo conatus potest 
+      <lb ed="#P" n="97"/>dupliciter accipi; scilicet quantum ad 
+      difficulta<lb ed="#P" n="98" break="no"/>tem, vt dicatur maior conatus maior difficultas 
+      <lb ed="#P" n="99"/>tendendi in Deum: Et secundum talem maiorem 
+      <lb ed="#P" n="100"/>conatum non oportet absolute quod detur maior 
+      <lb ed="#P" n="101"/>charitas, quia eontingit quod aliquis patitur maio. 
+      <lb ed="#P" n="102"/>rem difficultatem tendendo in Deum amore satis 
+      <lb ed="#P" n="103"/>remisso, quam alius tendendo amore intenso: &amp; 
+      <lb ed="#P" n="104"/>tamen constat quod ille qui remisso amore tendit 
+      <lb ed="#P" n="105"/>in Deum, non est ita bene dispositus ad 
+      charita<lb ed="#P" n="106" break="no"/>tem, sicut ille qui tendit amore intenso: tamen 
+      <lb ed="#P" n="107"/>caeteris paribus vbi est maior talis conatus est 
+      ma<lb ed="#P" n="108" break="no"/>ior dispositio ad charitatem: quia vbi eaetera sunt 
+      <lb ed="#P" n="109"/>peria, non videtur maior esse diffieultas in vno 
+      <lb ed="#P" n="110"/>quam in alio, nisi quod eleuet se ad perfectiorem 
+      <lb ed="#P" n="111"/>actum. Alio modo potest aecipi magnitudo 
+      co<lb ed="#P" n="112" break="no"/>natus quantum ad intensionem actus, vt scilicet 
+      <lb ed="#P" n="113"/>dicatur maior conatus maior tendentia in Deum 
+      <lb ed="#P" n="114"/>per amorem magis intensum: Et sic infaillibiliter 
+      <lb ed="#P" n="115"/>sequitur quod secundum quantitatem talis 
+      eona<lb ed="#P" n="116" break="no"/>tus detur maior vel minor chatitas, quia qui 
+      ma<lb ed="#P" n="117" break="no"/>iori amore tendit in Deum maiorem charitatem 
+      <lb ed="#P" n="118"/>accipit: &amp; quia dispositio natura facit aliquo 
+      mo<lb ed="#P" n="119" break="no"/>do quod talis conatus sit maior vel minor, 
+      inquan<lb ed="#P" n="120" break="no"/>tum per bonam dispositionem naturalium fit 
+      ho<lb ed="#P" n="121" break="no"/>mo imagis potens consurgendi inDeum, secundum 
+      <lb ed="#P" n="122"/>actus qui sunt in potestate naturae: ideo 
+      dispositi<lb ed="#P" n="123" break="no"/>ue contingit quod secundum naturalia meliora 
+      di<lb ed="#P" n="124" break="no"/>tur maior charitas, quando scilicet homo 
+      secun<lb ed="#P" n="125" break="no"/>dum torum posse suum tendit in Deum. Non 
+      ta<lb ed="#P" n="126" break="no"/>men est necessarium vniuersaliter quod secundum 
+      <lb ed="#P" n="127"/>meliora naturalia detur maior charitas: quia nec 
+      <lb ed="#P" n="128"/>oportet quod homo in vtendo naturalihus toto 
+      <lb ed="#P" n="129"/>posse suo tendat in Deum. Ex his etiam potest 
+      pa<lb ed="#P" n="130" break="no"/>tere quod non bene dicunt illi qui ponunt quod 
+      <lb ed="#P" n="131"/>duobus habentibus inaequalia naturalia, si conatus 
+      <lb ed="#P" n="132"/>vnius tantum excedat naturam suam quantum 
+      co<lb ed="#P" n="133" break="no"/>natus alterius excedit naturam suam, quod datus 
+      <lb ed="#P" n="134"/>eis aequalis chatitas: quia stante hinothiesi, amor 
+      <lb ed="#P" n="135"/>habentis peiora naturalia non esset ita intensus, 
+      si<lb ed="#P" n="136" break="no"/>cut amor habentis naturalia meliora: quia si esset 
+      <lb ed="#P" n="137"/>aequaliter intensus, tune habens peiora naturalia, 
+      <lb ed="#P" n="138"/>plus excederet suam naturam quam habens hona: 
+      <!--92.xml-->
+      <pb ed="#P" n="92"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>&amp; sic sequeretur quod daretur aequalis charitas 
+      <lb ed="#P" n="2"/>habendi intensum amorem &amp; habenti remissum, 
+      <lb ed="#P" n="3"/>quod est inconueniens, &amp; hoc sit dictum de 
+      pri<lb ed="#P" n="4" break="no"/>mo. 
+      </p>
+            <p xml:id="hx2hx3-b29741-d1e377">
+               <lb ed="#P" n="5"/>Quantum ad secundum sciendum, quod 
+      se<lb ed="#P" n="6" break="no"/>cundum praemissa insurgit difficultas: quia 
+      vide<lb ed="#P" n="7" break="no"/>tur sequi quod nunquam homo habeat tantam 
+      <lb ed="#P" n="8"/>charitatem sicut infimus angelus: quia 
+      supponi<lb ed="#P" n="9" break="no"/>tur quod angeli in sua conuersione ad Deum vsi 
+      <lb ed="#P" n="10"/>sunt suis naturalibus secundum totum posse suum: 
+      <lb ed="#P" n="11"/>Constat autem quod infimus angelus habet 
+      me<lb ed="#P" n="12" break="no"/>liora naturalia quocunque homine: Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b29741-d1e397">
+               <lb ed="#P" n="13"/>Quantum ad tertium sciendum, quod quidam 
+      <lb ed="#P" n="14"/>dicunt quod si charitas daretur homini tantum 
+      at<lb ed="#P" n="15" break="no"/>tendendo ad conatum vel meritum hominis, 
+      nun<lb ed="#P" n="16" break="no"/>quam charitas hominis adaequaretur charitati 
+      an<lb ed="#P" n="17" break="no"/>geli. Sed quia in merito hominis non attenditur 
+      <lb ed="#P" n="18"/>tantum conatus proprius, sed etiam meritum 
+      Chri<lb ed="#P" n="19" break="no"/>sti: ideo meritum christi adiunctum conatui 
+      ho<lb ed="#P" n="20" break="no"/>minis reddit eum dispositum ad aequalem 
+      charita<lb ed="#P" n="21" break="no"/>tem cum angelo, vel maiorem. Istud autem 
+      di<lb ed="#P" n="22" break="no"/>ctum videtur mihi falsum: quia vt communiter 
+      <lb ed="#P" n="23"/>tenetur, si homo perstitisset in statu innocetiae, non 
+      <lb ed="#P" n="24"/>fuisset Christus incarnatus, nec per consequens 
+      <lb ed="#P" n="25"/>meritum Christi fuisset communicatum naturae 
+      <lb ed="#P" n="26"/>humanae: &amp; secundum hoc sequeretur quod 
+      ho<lb ed="#P" n="27" break="no"/>mo in statu innocentiae nec per vnum nec per 
+      plu<lb ed="#P" n="28" break="no"/>res conatus attigisset tantam charitatem, sicut 
+      <lb ed="#P" n="29"/>communiter homines sancti attingunt in statu 
+      na<lb ed="#P" n="30" break="no"/>turae lapsae: nec homines tunc attigissent ad 
+      chari<lb ed="#P" n="31" break="no"/>tatem angelorum. Hoc autem est inconueniens. 
+      <lb ed="#P" n="32"/>Primo, quia inconueniens videtur quod dignitas 
+      <lb ed="#P" n="33"/>hominis communiter fuisset minor in statu naturae 
+      <lb ed="#P" n="34"/>integra quam in statu naturae lapsae. Secundo, 
+      <lb ed="#P" n="35"/>quia secundum authores dictae positionis, charitas 
+      <lb ed="#P" n="36"/>potest augeri in infinitum quantum est de se. Cum 
+      <lb ed="#P" n="37"/>ergo charitas in statu innocentiae, &amp; charitas 
+      ali<lb ed="#P" n="38" break="no"/>cuius sancti in statu naturae lapsae sint eiusdem 
+      ra<lb ed="#P" n="39" break="no"/>tionis, sequeretur quod quandoque charitas in 
+      <lb ed="#P" n="40"/>statu innocentiae, ad charitatem cuiuscunque 
+      san<lb ed="#P" n="41" break="no"/>cti in statu naturae lapsae non potuisset attingere, 
+      <lb ed="#P" n="42"/>puta ad charitatem Petri &amp; Pauli de quibus 
+      con<lb ed="#P" n="43" break="no"/>stat quod habuerunt maiorem charitatem &amp; quod 
+      <lb ed="#P" n="44"/>habent nunc maiorem gloriam multis angelis. Et 
+      <lb ed="#P" n="45"/>ideo videtur mihi quod dictum commune est 
+      pre<lb ed="#P" n="46" break="no"/>ferendum isti dicto speciali: videlicet quod licet 
+      <lb ed="#P" n="47"/>homo vno conatu non attingat ad tantam 
+      charita<lb ed="#P" n="48" break="no"/>tem, ad quantam attingit angelus vno conatu; 
+      ta<lb ed="#P" n="49" break="no"/>men homo pluribus conatibus potest attingere ad 
+      <lb ed="#P" n="50"/>tantam charitatem, ad quantam attingit angelus 
+      <lb ed="#P" n="51"/>vno conatu: maxime loquendo de conatu qui 
+      prae<lb ed="#P" n="52" break="no"/>supponit charitatem, &amp; meretur eius augmentum, 
+      <lb ed="#P" n="53"/>quia cum charitas saltem viae tamen in angelo 
+      <lb ed="#P" n="54"/>quam in homine fit eiusdem rationis, &amp; actus 
+      eli<lb ed="#P" n="55" break="no"/>citus a tali habitu qui est ipse conatus videtur esse 
+      <lb ed="#P" n="56"/>eiusdem rationis: &amp; dato quod talis actus semel 
+      <lb ed="#P" n="57"/>elicitus cum aequali charitate possit esse perfectior 
+      <lb ed="#P" n="58"/>in angelo quam in homine stante aequali 
+      charita<lb ed="#P" n="59" break="no"/>te, propter perfectiora naturalia; tamen ita 
+      fre<lb ed="#P" n="60" break="no"/>quenter posset elici ab homine ex totis viribus suis 
+      <lb ed="#P" n="61"/>quod per multos actus successiue attinget ad 
+      tan<lb ed="#P" n="62" break="no"/>tum augmentum charitatis, quod eliceret 
+      perfe<lb ed="#P" n="63" break="no"/>ectiorem actum quam Angelus posset attingere 
+      <lb ed="#P" n="64"/>vno conatu. 
+      </p>
+            <p xml:id="hx2hx3-b29741-d1e512">
+               <lb ed="#P" n="65"/>Sed contra hoc obiiciunt quidam sic: quia si 
+      <lb ed="#P" n="66"/>homo conaretur vno actu secundum totum posse 
+      <lb ed="#P" n="67"/>naturae suae, ille conatus esset tantus in virtute 
+      <lb ed="#P" n="68"/>quantum omnes conatus qui possent esse in 
+      ali<lb ed="#P" n="69" break="no"/>quo vno homine: Sed si homo secundum totum 
+      <lb ed="#P" n="70"/>posse naturae suae conaretur vno actu, &amp; similiter 
+      <!--92.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>angelus, ille conatus hominis non aequaretur vni 
+      <lb ed="#P" n="72"/>conatui angeli, sicut nec natura adaequaretur 
+      na<lb ed="#P" n="73" break="no"/>turae: Ergo plures imo omnes conatus possibiles 
+      <lb ed="#P" n="74"/>in vno homine non possent adaequare vnum 
+      cona<lb ed="#P" n="75" break="no"/>tum angeli. Et ad hoc dicendum, quod totum 
+      <lb ed="#P" n="76"/>posse naturae potest accipi dupliciter. Vno modo 
+      <lb ed="#P" n="77"/>pro totalitate simul existente, vt sit sensus quod si 
+      <lb ed="#P" n="78"/>homo conetur secundum totum posse quo simul 
+      <lb ed="#P" n="79"/>&amp; vno actu aliquid potest, ille conatus tantum 
+      <lb ed="#P" n="80"/>habet quantum omnes conatus possibiles esse 
+      suc<lb ed="#P" n="81" break="no"/>cessiue in vno homine: &amp; sic maior est falsa: quia 
+      <lb ed="#P" n="82"/>multo plus potest homo successiue per plures 
+      a<lb ed="#P" n="83" break="no"/>ctus, quam possit vno actu, quantumcunque 
+      nit<lb ed="#P" n="84" break="no"/>tatur illum actum toto posse suo elicere, quod 
+      pa<lb ed="#P" n="85" break="no"/>tet: quia ponamus quod homo toto posse nittatur 
+      <lb ed="#P" n="86"/>in conuertendo se ad Deum: tunc aut poterit 
+      pro<lb ed="#P" n="87" break="no"/>ficere vltra aut non: si non, tunc charitas non 
+      pos<lb ed="#P" n="88" break="no"/>set augeri in infinitum, quod est contra eos. si sic: 
+      <lb ed="#P" n="89"/>Ergo conatus qui est secundum illud quod potest 
+      <lb ed="#P" n="90"/>homo simul, non adaequat omnes conatus quos 
+      <lb ed="#P" n="91"/>potest homo successiue. Alio modo potest accipi 
+      <lb ed="#P" n="92"/>totum posse, non tantum simul, sed etiam 
+      se<lb ed="#P" n="93" break="no"/>cundum successionem; vt sit sensum quod si 
+      ho<lb ed="#P" n="94" break="no"/>mo conaretur secundum totum posse suum 
+      facien<lb ed="#P" n="95" break="no"/>do non solum quicquid potest simul, sed etiam 
+      <lb ed="#P" n="96"/>quicquid potest successiue in illo conatu: tunc 
+      ta<lb ed="#P" n="97" break="no"/>lis conatus adaequaret omnes conatus in virtute 
+      <lb ed="#P" n="98"/>possibiles in homine: Dicendum quod secundum 
+      <lb ed="#P" n="99"/>hunc sensum vera est maior sed minor est falsa: 
+      <lb ed="#P" n="100"/>quia licet natura humana sit inferior natura 
+      ange<lb ed="#P" n="101" break="no"/>lica, non tamen quicquid potest natura humana 
+      <lb ed="#P" n="102"/>successiue est inferius eo quod potest natura 
+      ange<lb ed="#P" n="103" break="no"/>lica simul, &amp; praecipue quantum ad ea in quibus 
+      <lb ed="#P" n="104"/>sunt eiusdem rationis: sicut est charitas. 
+      </p>
+            <p xml:id="hx2hx3-b29741-d1e606">
+               <lb ed="#P" n="105"/>Vtrum autem charstas cognoscatur 
+      certitudi<lb ed="#P" n="106" break="no"/>naliter ab habente, &amp; vtrum sit ex charitate 
+      dili<lb ed="#P" n="107" break="no"/>genda, ad nunc dimitto propter alia quae sunt 
+      <lb ed="#P" n="108"/>grauiora. 
+      </p>
+            <p xml:id="hx2hx3-b29741-d1e617">
+               <lb ed="#P" n="109"/>Vt autem certius fiat quod diximus 
+      authori<lb ed="#P" n="110" break="no"/>tate confirmamus quod Spiritus santus 
+      <lb ed="#P" n="111"/>magis ac minus, &amp;c. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

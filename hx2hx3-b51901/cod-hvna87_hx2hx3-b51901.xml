@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="156"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b51901"><!-- l1d39q2 -->
+            <head xml:id="hx2hx3-b51901-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b51901-Hd1e101" type="question-title">Utrum omnia subsint providentiae dei</head>
+            <p xml:id="hx2hx3-b51901-d1e104">
+      <!--156.xml-->
+               <pb ed="#P" n="156"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>QVAESTIO SECVNDA. 
+      <lb ed="#P" n="2"/>Deinde quaeritur, vtrum omnia subsint 
+      <lb ed="#P" n="3"/>prouidentiae Dei? 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e120">
+               <lb ed="#P" n="4"/>ET arguitur, quod non, quia ea quae de 
+      ne<lb ed="#P" n="5" break="no"/>cessitate sunt determinata ad suos finies, &amp; 
+      <lb ed="#P" n="6"/>suos effectus non indigent prouidentia, quia ex 
+      <lb ed="#P" n="7"/>quo a suo fine non possunt defficere, non indigent 
+      <lb ed="#P" n="8"/>prouisione. Sed in vniuerso sunt multa talia. Ergo, 
+      <lb ed="#P" n="9"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e136">
+               <lb ed="#P" n="10"/>Praeterea illa quae deficiunta suo bono non sunt 
+      <lb ed="#P" n="11"/>sub prouidentia illius qui est optimus prouisor, 
+      <lb ed="#P" n="12"/>sed in vniuerso sunt multa talia. Cum ergo Deus 
+      <lb ed="#P" n="13"/>sit optimus prouisor, non cadunt sub eius 
+      proui<lb ed="#P" n="14" break="no"/>dentia. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e150">
+               <lb ed="#P" n="15"/>Praeterea, nullum ceasuale est prouisum, sed 
+      <lb ed="#P" n="16"/>multa fiunt a casu. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e157">
+               <lb ed="#P" n="17"/>Praeterea illi actus in quibus fiunt plura mala 
+      <lb ed="#P" n="18"/>quam bona, non eadunt sub prouidentia Dei, 
+      <lb ed="#P" n="19"/>cum sit optimus &amp; potentissimus, sed in actibus 
+      <lb ed="#P" n="20"/>humanis sunt plura mala quam bona, Ergo, 
+      <lb ed="#P" n="21"/>&amp; cuet. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e170">
+               <lb ed="#P" n="22"/>Contra, dicitur in libro sapientiae quod 
+      aequali<lb ed="#P" n="23" break="no"/>ter est sibi cura de omnibus. Ergo videtur quod 
+      <lb ed="#P" n="24"/>qualiter omnia cadunt sub prouidentia eius.
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e179">
+               <lb ed="#P" n="25"/>Respondeo, hic sunt quatuor declaranda. 
+      Pri<lb ed="#P" n="26" break="no"/>mum quid sit prouidentia. 
+      <lb ed="#P" n="27"/>Secundo vtrum Deo conueniat. 
+      <lb ed="#P" n="28"/>Tetrum vtrum sit de omnibus. Quarto vtrum 
+      <lb ed="#P" n="29"/>fit aequaliter de omnbus. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e192">
+               <lb ed="#P" n="30"/>ACIICVLVS PRIMVS.
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e197">
+               <lb ed="#P" n="31"/>QVantum ad sprimum, sciendum est: quod 
+      <lb ed="#P" n="32"/>licet aliqui dicant quod prouidentia sit 
+      pro<lb ed="#P" n="33" break="no"/>ositum conferendi vnicuique illud per quod 
+      di<lb ed="#P" n="34" break="no"/>citur assequi suum finem. Non credo tame quod 
+      <lb ed="#P" n="35"/>hoc sit accipiendum proprie &amp; essentialiter 
+      lo<lb ed="#P" n="36" break="no"/>quendo de proposito &amp; prouidentia, quia 
+      propo<lb ed="#P" n="37" break="no"/>situm proprie dictum pertinet ad voluntatem, 
+      <lb ed="#P" n="38"/>prouidentia autem proprie dicta pertinet ad 
+      in<lb ed="#P" n="39" break="no"/>tellectum: quia prouidentia est pars prudentiae 
+      <lb ed="#P" n="40"/>quae pertinet ad intellectum, tum quia ipsum 
+      no<lb ed="#P" n="41" break="no"/>men prouidentiae importat actum intellectus 
+      es<lb ed="#P" n="42" break="no"/>sentialiter: cum nihil aliud iit quam procul 
+      vi<lb ed="#P" n="43" break="no"/>dentia. Videntia autem est gactus intellectus. 
+      <lb ed="#P" n="44"/>ldeo, &amp;ci 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e231">
+               <lb ed="#P" n="45"/>Ad euidentiam ergo prouidentiae est 
+      scien<lb ed="#P" n="46" break="no"/>dum, quod quando aliquis princeps vult 
+      institue<lb ed="#P" n="47" break="no"/>re aliquam communitatem. Primo est voluntas, 
+      <lb ed="#P" n="48"/>qua vult communitatem instituere, &amp; bonum 
+      <lb ed="#P" n="49"/>illi communitati communicare. Secundo, est 
+      <lb ed="#P" n="50"/>cogitare quales partes illi toti, siue illi 
+      com<lb ed="#P" n="51" break="no"/>munitati conferat, vt quod quosdam. in 
+      ordi<lb ed="#P" n="52" break="no"/>ne ad bonum totius faciat milites, quosdam 
+      mer<lb ed="#P" n="53" break="no"/>catores, &amp; sic de aliis. Et hoc vocatur dispositio. 
+      <lb ed="#P" n="54"/>Vnde &amp; ordo partium in toto, dispositio quaedam 
+      <lb ed="#P" n="55"/>eorum vocatur, propter quod excogitatio 
+      artifi<lb ed="#P" n="56" break="no"/>cis, de hoc dispositio vocatur. Vlterius vero 
+      exco<lb ed="#P" n="57" break="no"/>gitatio qua arti fex excogitat quid cuilibet 
+      confe<lb ed="#P" n="58" break="no"/>rendum sit ad asiequendum suum hinem, vt quoo 
+      <lb ed="#P" n="59"/>miles habeat arma, &amp; quod mercator, merces, &amp; 
+      <lb ed="#P" n="60"/>sic de aliis dicitur quidem prouidentia. Vnde &amp; 
+      <lb ed="#P" n="61"/>illi quibus in communitate aliqua, incumbunt 
+      ta<lb ed="#P" n="62" break="no"/>lia ministrare prouisiores dicuntur, 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e273">
+               <lb ed="#P" n="63"/>Sed collatio actualis &amp; motio partium sic 
+      ordi<lb ed="#P" n="64" break="no"/>natam in finem, secundum eis collata: vocatur 
+      gu<lb ed="#P" n="65" break="no"/>bernatio. Et sic patet de primo scilicet quid est 
+      <!--156.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>prouidentia, sedlicet praeordinatio intellectus 
+      diui<lb ed="#P" n="67" break="no"/>ni de his quae conferenda sunt rebus ad exequen 
+      <lb ed="#P" n="68"/>dum suos fines. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e293">
+               <lb ed="#P" n="69"/>ARITICVLVS SECVNDVS. 
+      <lb ed="#P" n="70"/>QVantum ad secundum sciendum quod quidam 
+      <lb ed="#P" n="71"/>antiqui philosophi circa hoc errauerunt, 
+      di<lb ed="#P" n="72" break="no"/>centes omnia esse a casu. Et illas vtilitates quae in 
+      <lb ed="#P" n="73"/>rebus apparent secundum quod vna iuuat aliam, &amp; 
+      <lb ed="#P" n="74"/>secundum quod vna pars est vtilis alii, vel etiam 
+      <lb ed="#P" n="75"/>ipsi toti, atrribuebant soli necessitati materiae, vel 
+      <lb ed="#P" n="76"/>necessitati materiae &amp; agentis non intendentis 
+      fi<lb ed="#P" n="77" break="no"/>nem: hoc autem est impossibile, vt probat 
+      philo<lb ed="#P" n="78" break="no"/>sophus, secundo phisieorum cum casualia eueniant 
+      <lb ed="#P" n="79"/>vt in paucioribus. Tales autem vtilitates eueniunt 
+      <lb ed="#P" n="80"/>in pluribus. Ideo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e322">
+               <lb ed="#P" n="81"/>Et ideo dicendum est, quod Deus habet 
+      proui<lb ed="#P" n="82" break="no"/>dentiam de rebus; quia Deus est causa agens per 
+      <lb ed="#P" n="83"/>voluntatem &amp; per intellectum, &amp; est causa 
+      om<lb ed="#P" n="84" break="no"/>nium quae sunt in rebus in sua singulari existentia, 
+      <lb ed="#P" n="85"/>&amp; per consequens per intellectum &amp; 
+      volunta<lb ed="#P" n="86" break="no"/>tem, est causa eorum quae conferuntur rebus ad 
+      <lb ed="#P" n="87"/>consequendum suos fines. Sed quia est causa per 
+      <lb ed="#P" n="88"/>intellectum &amp; voluntatem eorum quae 
+      conferun<lb ed="#P" n="89" break="no"/>tur rebus ad consequendum suos fines, vt autem 
+      <lb ed="#P" n="90"/>conferat eis talia habet precognitionem de 
+      tali<lb ed="#P" n="91" break="no"/>bus conferendis. Talis autom praecognitio est 
+      pro<lb ed="#P" n="92" break="no"/>uidentia. Et ideo oportet dicere quod Deus de 
+      re<lb ed="#P" n="93" break="no"/>bus habet prouidentiam. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e353">
+               <lb ed="#P" n="94"/>ARTICVLVS TERTIVS.
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e358">
+               <lb ed="#P" n="95"/>QVantum ad tertium, vtrum scilicet 
+      proui<lb ed="#P" n="96" break="no"/>dentia Dei se extendar ad omnia. 
+      <lb ed="#P" n="97"/>Fuerunt duo errores contrarii, vnus fuit quod 
+      <lb ed="#P" n="98"/>nullum necessarium subest prouidentiae ditiinae 
+      <lb ed="#P" n="99"/>cum necessaria non indigeant prouisore eo quoo 
+      <lb ed="#P" n="100"/>non possunt deficere in suo fine, siue a suis 
+      opera<lb ed="#P" n="101" break="no"/>tionibus eis conuenientibus necessario. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e377">
+               <lb ed="#P" n="102"/>Alii autem ineiderunt in oppositum errorem 
+      <lb ed="#P" n="103"/>dicentes, quod nullum contingens cadit sub Dei 
+      <lb ed="#P" n="104"/>prouidentia, quia enim si contingens posset non 
+      <lb ed="#P" n="105"/>euenire, Dei prouidentia polset falli, quod est 
+      in<lb ed="#P" n="106" break="no"/>eonueniens. Vterque autem error potest per vnam 
+      <lb ed="#P" n="107"/>rationem excludi, quia cum Deus sit causa 
+      om<lb ed="#P" n="108" break="no"/>niu in sua existentia reali, sic &amp; agens per 
+      intelle<lb ed="#P" n="109" break="no"/>ctum &amp; voluntatem, oportet quod omnium 
+      quae<lb ed="#P" n="110" break="no"/>cumque sunt, &amp; fiunt, quantum ad omnia quae 
+      <lb ed="#P" n="111"/>sunt in eis, praeexistat apud intellectum diuinum 
+      <lb ed="#P" n="112"/>praeordinatio, &amp; praecognitio omnium illorum 
+      <lb ed="#P" n="113"/>quibuscumque res potest impediri a suo fine, vel 
+      <lb ed="#P" n="114"/>promoueri ad ipsumi. Hoc autem est habere 
+      pro<lb ed="#P" n="115" break="no"/>uidentiam de omnibus, ideo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e410">
+               <lb ed="#P" n="116"/>Ad illud quod inducitur pro primo errore. 
+      Di<lb ed="#P" n="117" break="no"/>cendum, quod ad dictam rationem potest dici 
+      se<lb ed="#P" n="118" break="no"/>cundum Catholicos, quod illa quae absolute 
+      ha<lb ed="#P" n="119" break="no"/>bent necessitantem essendi, ita quod nullo modo 
+      <lb ed="#P" n="120"/>possunt non esse: talia non indigent prouilore. 
+      Ta<lb ed="#P" n="121" break="no"/>lis autem necessitas non est sn aliqua creatura, quia 
+      <lb ed="#P" n="122"/>creaturarum esse absolute non est necessarium, 
+      <lb ed="#P" n="123"/>sed supposito quod sit, necesse est quod habeant 
+      <lb ed="#P" n="124"/>talem aptitudinem adinuicem, tale autem 
+      neces<lb ed="#P" n="125" break="no"/>sarium, indiget prouisore dante sibi esse, &amp; dante 
+      <lb ed="#P" n="126"/>sibi talem habitudinem ad talem finem. Ita 
+      sol<lb ed="#P" n="127" break="no"/>uendo, ad formam argumenti potest dici, quod 
+      <lb ed="#P" n="128"/>non posse deficere a fine, est dupliciter. Vno 
+      mo<lb ed="#P" n="129" break="no"/>do, quia non potest non esse, nec potest existens 
+      <lb ed="#P" n="130"/>deficere a fine. Alio modo quod licet possic non 
+      <lb ed="#P" n="131"/>esse tamen quando est, non potest deficere, a fine, 
+      <!--157.xml-->
+      <pb ed="#P" n="157"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Primum non indiget prouisore. Illud tamen quod 
+      <lb ed="#P" n="2"/>secundo mo. lo non potest deficere a fine habet 
+      ne<lb ed="#P" n="3" break="no"/>cessario prouisorem. Secundum autem philoso. 
+      <lb ed="#P" n="4"/>phos dato quod aliqua essent a Deo necessario 
+      <lb ed="#P" n="5"/>producta ab aeterno, adhuc indigerent prouisore: 
+      <lb ed="#P" n="6"/>quia vnumquodque intantum indiget prouilore, 
+      <lb ed="#P" n="7"/>inquantum indiget causa agente per intellectum 
+      <lb ed="#P" n="8"/>conferentem ei ea quibns assequitur finem; sed 
+      <lb ed="#P" n="9"/>omnia alia a Deo quantumcunque ponantur ne 
+      <lb ed="#P" n="10"/>cessario producta, indipent causa diuina agente 
+      <lb ed="#P" n="11"/>per intellectum conferentem eis illa media 
+      necessa<lb ed="#P" n="12" break="no"/>ria ad assequendum fines suos Ergo, &amp; caet. Vnde 
+      <lb ed="#P" n="13"/>snfficit quod habeant causam suae necessitatis, ad 
+      <lb ed="#P" n="14"/>hoc quod indigeant prouisore, &amp; quod sit causi 
+      <lb ed="#P" n="15"/>per intellectum, &amp; voluntatem. Ad aliam 
+      ratio<lb ed="#P" n="16" break="no"/>nem pater ex dictis in praecedenti quaestione, vbi 
+      <lb ed="#P" n="17"/>ostensum est quod infallibilitas scientiae diuinae 
+      <lb ed="#P" n="18"/>stat cum cotingentia rerum, &amp; per consequens, cu 
+      <lb ed="#P" n="19"/>infallibilitate suae prouidentiae, potest stare 
+      contin<lb ed="#P" n="20" break="no"/>gentia prouisorum secundum se, &amp; absolute 
+      ac<lb ed="#P" n="21" break="no"/>cep orum. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e499">
+               <lb ed="#P" n="22"/>ARTICVLVS QVARTVS. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e504">
+               <lb ed="#P" n="23"/>QVantum autem ad quartum, scilicet  vtrum 
+      <lb ed="#P" n="24"/>prouidentia sit aequaliter de omnibus r 
+      <lb ed="#P" n="25"/>Elt sciendum quod modus quo Deus prouidet 
+      <lb ed="#P" n="26"/>rebus, potest accipi vel ex parte prouidentis, vel 
+      <lb ed="#P" n="27"/>cu parte eius cui fit prouisio. Si modus accipiatur 
+      <lb ed="#P" n="28"/>ex parte Dei prouidentis, vt quaeratur, vtrum 
+      mo<lb ed="#P" n="29" break="no"/>dus ipsius Dei, scilicet eius scientia qua prouidet 
+      <lb ed="#P" n="30"/>omnibus, sit aequalis, dicendum est quod sic: quia 
+      <lb ed="#P" n="31"/>eadem &amp; aequali scientia omnibus prouidet. 
+      Siau<lb ed="#P" n="32" break="no"/>tem modus accipiatur ex parte rerum 
+      quibuspro<lb ed="#P" n="33" break="no"/>uidet, vt quaeratur vtrum eosdem modos, &amp; easdem 
+      <lb ed="#P" n="34"/>conditiones ex sua prouidentia conferat rebus, ita 
+      <lb ed="#P" n="35"/>quod accipiatur non modus prouidendi, sed 
+      mo<lb ed="#P" n="36" break="no"/>dus rebus prouisis collatus, dicendum est, quod 
+      <lb ed="#P" n="37"/>etiam, hoc fuit error quorundam qui posuerunt 
+      <lb ed="#P" n="38"/>isto modo aequaliter prouideri omnibus, ponentes 
+      <lb ed="#P" n="39"/>omnia bona, &amp; mala, in quibuscunque sint, 
+      ordi<lb ed="#P" n="40" break="no"/>nari per poenam &amp; priemium, vnde dicebant 
+      pec<lb ed="#P" n="41" break="no"/>catum esse, occidere animalia bruta innocentia; 
+      <lb ed="#P" n="42"/>nisi facerent aliquod malum. Haec autem positio 
+      <lb ed="#P" n="43"/>est erronea: quia poena &amp; praemium solis debetur 
+      <lb ed="#P" n="44"/>illis quae habent dominium sui actus. Omnia 
+      au<lb ed="#P" n="45" break="no"/>tem non sunt talia: sed solum illa quae habent 
+      in<lb ed="#P" n="46" break="no"/>tellectum, Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e559">
+               <lb ed="#P" n="47"/>Et ideo dicendum est, quod accipiendo 
+      mo<lb ed="#P" n="48" break="no"/>dum ex parte rerum quibus prouidetur, Deus non 
+      <lb ed="#P" n="49"/>aequaliter prouidet omnibus; quia ad bonum 
+      pro<lb ed="#P" n="50" break="no"/>uisorem pertinet prouidere vnicuique secundum 
+      <lb ed="#P" n="51"/>quod exigit eius eonditio. Sed rerum prouisarum 
+      <lb ed="#P" n="52"/>conditiones non sunt aequales nec eaedem; ergo ad 
+      <lb ed="#P" n="53"/>bonam prouisionem Dei pertinet, quod 
+      diuersi<lb ed="#P" n="54" break="no"/>mode prouideat diuersis: ita quod quibus 
+      pro<lb ed="#P" n="55" break="no"/>uidet de principils naturalibus determinatis de 
+      <lb ed="#P" n="56"/>necessitate ad vnum malum naturae, vt mors, 
+      re<lb ed="#P" n="57" break="no"/>compensatur per nutrimentum hominis. In 
+      ha<lb ed="#P" n="58" break="no"/>bentibus au en dominium sui actus malum culpae 
+      <lb ed="#P" n="59"/>recompensatur per bonum punientis iustitiae. 
+      Vn<lb ed="#P" n="60" break="no"/>de &amp; eis conferuntur &amp; dantur praecepta, 
+      prohi<lb ed="#P" n="61" break="no"/>bitiones, promissiones, &amp; comminationes ad 
+      con<lb ed="#P" n="62" break="no"/>sequendum finem, &amp; ne ab eo deuient. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e596">
+               <lb ed="#P" n="63"/>Ad primum, patuit in secundo articulo. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e602">
+               <lb ed="#P" n="64"/>Ad secundum dicendum, quod illa quae 
+      de<lb ed="#P" n="65" break="no"/>ficiunta fine quem prouidet eis, illa inquantum 
+      <lb ed="#P" n="66"/>huiusmodi, omnino subsunt prouidentiae illius 
+      <lb ed="#P" n="67"/>qui omnia impedimenta potest excludere a suo 
+      <lb ed="#P" n="68"/>effectu si prouidit ea ad illum finem intallibiliter 
+      <!--157.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>tendere. De illis autem quae quandoque deficiunt 
+      <lb ed="#P" n="70"/>a suo fine, &amp; cuisu suo, Deus prouidit isto modo 
+      <lb ed="#P" n="71"/>quod tenderent; ita quod deficere possent: nec 
+      <lb ed="#P" n="72"/>tamen ita deficere possunt, quin perueniant ad 
+      <lb ed="#P" n="73"/>aliquem finem: talia inquam sunt diuina 
+      proui<lb ed="#P" n="74" break="no"/>dentiae. Vnde ad rmnorem, dic endum est quod 
+      <lb ed="#P" n="75"/>non deficiunt a cursu suo modo quo Deus eis pro¬. 
+      <lb ed="#P" n="76"/>uidit. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e637">
+               <lb ed="#P" n="77"/>Ad tertium dicendum quod illa quae sunt 
+      ea<lb ed="#P" n="78" break="no"/>sualia, vel fortuita, quoad causas inferiores, non 
+      <lb ed="#P" n="79"/>sunt casualia quoad Deum: imo prouisa: sicut 
+      <lb ed="#P" n="80"/>ponitur exemplum de seruis missis ab aliquo 
+      do<lb ed="#P" n="81" break="no"/>mino ad eundem locum, ita quod vnus ignorat 
+      <lb ed="#P" n="82"/>de alio: per comparationem ad Dominum hoc 
+      <lb ed="#P" n="83"/>ordinantem non est casuale, sed per 
+      compatatio<lb ed="#P" n="84" break="no"/>nem ad illos seruos esset casuale: sic etiam per 
+      con<lb ed="#P" n="85" break="no"/>parationem ad Deum nihil est casuale, sed omnia 
+      <lb ed="#P" n="86"/>sunt prouisa, licet per comparationem ad causas 
+      <lb ed="#P" n="87"/>inferiores, possunt esse casualia. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e663">
+               <lb ed="#P" n="88"/>Ad quartum dicendum in actibus humanis 
+      mo<lb ed="#P" n="89" break="no"/>ralibus per comparationem ad hominem vt 
+      com<lb ed="#P" n="90" break="no"/>muniter ponitur, inueniuntur plura mala quam 
+      <lb ed="#P" n="91"/>bona, &amp; hoc propter diuersitatem appetituum, 
+      <lb ed="#P" n="92"/>&amp; etiam cognitionum, quorum appetituum, vnus 
+      <lb ed="#P" n="93"/>frequenter repugnat alteri, &amp; propter hoc, 
+      dici<lb ed="#P" n="94" break="no"/>tur quod malum potest fieri multis modis, scilicet 
+      <lb ed="#P" n="95"/>quacumque determinata circunstantia deficiente. 
+      <lb ed="#P" n="96"/>Honum autem fit tantum vno modo, scilicet 
+      om<lb ed="#P" n="97" break="no"/>nibus circunstantiis concurrentibus, nec tamen 
+      <lb ed="#P" n="98"/>sequitur, quod actus hominum non cadant sub 
+      <lb ed="#P" n="99"/>Dei prouidentia. Vnde dicendum ad maiorem, 
+      <lb ed="#P" n="100"/>quod illi actus in quibus inueniuntur plura mala 
+      <lb ed="#P" n="101"/>quam bona: tam per comparationem ad causam 
+      <lb ed="#P" n="102"/>inferiorendeficiente, quam per comparationem 
+      <lb ed="#P" n="103"/>ad Deum ordinantem, non cadunt sub 
+      proui<lb ed="#P" n="104" break="no"/>dentia diuina, si qui actus tales possent esse. Et 
+      <lb ed="#P" n="105"/>quando dicitur in minori: quod in actibus 
+      huma<lb ed="#P" n="106" break="no"/>nis sunt plura mala quam bona. 
+      </p>
+            <p xml:id="hx2hx3-b51901-d1e707">
+               <lb ed="#P" n="107"/>Dicendum quod licet per comparationem ad 
+      <lb ed="#P" n="108"/>homines deficientes sint in actibus humanis plura 
+      <lb ed="#P" n="109"/>mala quam bona; quia vt in pluribus deficiunt: 
+      <lb ed="#P" n="110"/>non tamen in actibus eorum, &amp; per 
+      comparatio<lb ed="#P" n="111" break="no"/>nem ad bona quae ipsi faciunt, &amp; per 
+      comparatio<lb ed="#P" n="112" break="no"/>nem ad Deum mala eorum ordinantem, sunt in 
+      <lb ed="#P" n="113"/>actibus humanis plura mala quam bona, quia nul. 
+      <lb ed="#P" n="114"/>lum malum est in eis, quod non ordinetur per 
+      di<lb ed="#P" n="115" break="no"/>uinam prouidentiam vt inde eliciatur bonum: 
+      <lb ed="#P" n="116"/>sicut persecutio tyranm, est occasio patientiae 
+      <lb ed="#P" n="117"/>martris, &amp; eadem persecutio culpalis ordinatur 
+      <lb ed="#P" n="118"/>per poenam iustitiae iustam ad bonum. Et sic per 
+      <lb ed="#P" n="119"/>comparationem ad Deum ordinantem 
+      inueniun<lb ed="#P" n="120" break="no"/>tur plura bona quam mali in eis quae fiunt circa 
+      <lb ed="#P" n="121"/>hominem, vel ab homine, vel a Deo actus 
+      homi<lb ed="#P" n="122" break="no"/>nis ordinante. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

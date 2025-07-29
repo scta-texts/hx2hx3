@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="351"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c18413"><!-- l4d10q2 -->
+            <head xml:id="hx2hx3-c18413-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-c18413-Hd1e101" type="question-title">An angelus naturaliter possit videre corpus christi in sacramento altaris</head>
+            <p xml:id="hx2hx3-c18413-d1e104">
+               <lb ed="#P" n="28"/>QVAASTIO SECVNDAE
+      </p>
+            <p xml:id="hx2hx3-c18413-d1e109">
+               <lb ed="#P" n="29"/>SEcundo. Quaeritur an Angelus naturaliter 
+      pos<lb ed="#P" n="30" break="no"/>sit videre corpus christi in sacramento 
+      alta<lb ed="#P" n="31" break="no"/>ris. 
+      </p>
+            <p xml:id="hx2hx3-c18413-d1e118">
+               <lb ed="#P" n="32"/>Quod enim ponitur de hoc communiter quod 
+      <lb ed="#P" n="33"/>non, potest habere difficultatem ex hoc, quia 
+      po<lb ed="#P" n="34" break="no"/>nimus quod sicut sensu intuitiue apprebendimus 
+      <lb ed="#P" n="35"/>colores &amp; alia sensibilia: ita Angelus intultiue 
+      in<lb ed="#P" n="36" break="no"/>tellectu videt quamlibet substantiam creatam &amp; 
+      <lb ed="#P" n="37"/>naturalem in se. Constat autem quod illud quod 
+      <lb ed="#P" n="38"/>intuitiue videt aliquid in sensibilibus, potest etiam 
+      <lb ed="#P" n="39"/>naturaliter eius absentiam videre si desit, sicut si 
+      <lb ed="#P" n="40"/>possim videre albedinem praesentem, possum etiam 
+      <lb ed="#P" n="41"/>apprehendere eius absentiam si desit. Qum ergo 
+      <lb ed="#P" n="42"/>Angelus intuitiue videat substantiam panis 
+      exi<lb ed="#P" n="43" break="no"/>stentem sub accidentibus quando est, potest etiam 
+      <lb ed="#P" n="44"/>videre, quod est ibi corpus christi. Ad hoc 
+      di<lb ed="#P" n="45" break="no"/>cendum, quod ad hoc quod Angelus possit 
+      vide<lb ed="#P" n="46" break="no"/>re naturaliter corpus christi esse sub sacramento 
+      <lb ed="#P" n="47"/>altaris duo requiruntur. Primum est, quod videat 
+      <lb ed="#P" n="48"/>ibi absentiam substantiae panis. Secundum est, 
+      <lb ed="#P" n="49"/>squod videat ibi corpus christi esse vt prius videbat 
+      <lb ed="#P" n="50"/>substantiam panis. Dico ergo, quod Angelus 
+      <lb ed="#P" n="51"/>videt absentiam substantiae panis esse ibi, sicut 
+      <lb ed="#P" n="52"/>videbat intuitiue ante conuersionem, substantiam 
+      <lb ed="#P" n="53"/>panis esse ibi, sicut etiam videns album &amp; nigrum 
+      <lb ed="#P" n="54"/>potest videre priuationem eorum. Sed quod ipsa 
+      <lb ed="#P" n="55"/>substantia panis conuertatur in corpus christi non 
+      <lb ed="#P" n="56"/>potest videre: nec per consequens potest videre 
+      <lb ed="#P" n="57"/>quod ibi sit corpus christi sacramentaliter, sicut si 
+      <lb ed="#P" n="58"/>ruie vidente columnam Deus amoueret eam 
+      tota<lb ed="#P" n="59" break="no"/>liter, bene viderem quod esset amota &amp; eius 
+      ab<lb ed="#P" n="60" break="no"/>sentiam: sed quid factum esset de ea non video, 
+      <lb ed="#P" n="61"/>siue ne cirem. Et ideo alterum praedictorum quae 
+      <lb ed="#P" n="62"/>requiruntur ad hoc quod corpus christi, sit ibi 
+      vi<lb ed="#P" n="63" break="no"/>det solum Angelus. Et ideo non potest videre, 
+      <lb ed="#P" n="64"/>quod corpus christi, sit sacramentaliter in sacra. 
+      <lb ed="#P" n="65"/>mento altaris. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

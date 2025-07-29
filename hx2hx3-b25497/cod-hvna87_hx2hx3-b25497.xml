@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="78"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b25497"><!-- l1d12q2 -->
+            <head xml:id="hx2hx3-b25497-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b25497-Hd1e101" type="question-title">Utrum Spiritus Sanctus magis vel plenius sit a Patre quam a Filio</head>
+            <p xml:id="hx2hx3-b25497-d1e104">
+               <lb ed="#P" n="92"/>QVAESTIO SECVNDA. 
+      <lb ed="#P" n="93"/>IVxta hoc quaeritur vtrum Spiritus sanctus 
+      ma<lb ed="#P" n="94" break="no"/>gis ves plenius sit a Patre quam a Filio. Et 
+      ar<lb ed="#P" n="95" break="no"/>guitur quod sic: quia propter quod 
+      vnumquod<lb ed="#P" n="96" break="no"/>que tale, &amp; illud magis: Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b25497-d1e117">
+               <lb ed="#P" n="97"/>In contrarium. Est Magister.
+      </p>
+            <p xml:id="hx2hx3-b25497-d1e122">
+               <lb ed="#P" n="98"/>Respondeo dicendum, quod Spiritus sanctus 
+      <lb ed="#P" n="99"/>non est magis vel plenius ab vno quam ab alio: 
+      <lb ed="#P" n="100"/>quia quandocunque aliqua duo agunt per eandem 
+      <lb ed="#P" n="101"/>virtutem numero quam vtrumque aeque perfecte 
+      <lb ed="#P" n="102"/>habet, aequaliter conuenit vtrique actio elicita abi 
+      <lb ed="#P" n="103"/>illa virtute: quia quod aliquod agens non agat ita 
+      <lb ed="#P" n="104"/>perfecte sicut aliud, hoc non est nisi vel quia 
+      ha<lb ed="#P" n="105" break="no"/>bet minorem virtutem, vel saltem quia eandem 
+      <lb ed="#P" n="106"/>virtutem participant: participat tamen &amp; habet 
+      <lb ed="#P" n="107"/>eam minus perfecte. Sed Pater &amp; Filius spirant 
+      <lb ed="#P" n="108"/>per eandem virtutem numero, quam Pater 
+      com<lb ed="#P" n="109" break="no"/>mnunicat Filio, &amp; aeque perfecte habet eam Filius 
+      <lb ed="#P" n="110"/>sicut Pater, imo quilibet eorum habet eam &amp; 
+      <lb ed="#P" n="111"/>aeque perfecte sicut ambo: Ergo aeque pefecte 
+      spi<lb ed="#P" n="112" break="no"/>rat vnus eorum quicunque sit ille: sicut &amp; vnus, 
+      <lb ed="#P" n="113"/>sie ambo. 
+      </p>
+            <p xml:id="hx2hx3-b25497-d1e160">
+               <lb ed="#P" n="114"/>Ad rationem in oppositum dicendum, quod 
+      <lb ed="#P" n="115"/>lllud non tenet in agentibus vniuocis 
+      participan<lb ed="#P" n="116" break="no"/>tibus siue habentibus eandem formam aeque 
+      per<lb ed="#P" n="117" break="no"/>fecte, quia non oportet quod ignis generans 
+      ca<lb ed="#P" n="118" break="no"/>sefaciat magis quam ignis generatus postquam 
+      <lb ed="#P" n="119"/>est generatus, &amp; habet esse completum suae 
+      spe<lb ed="#P" n="120" break="no"/>cies; sed hoc habet locum in formis diuersorum 
+      <lb ed="#P" n="121"/>gsaduum, in quibus vel eadem forma specie 
+      <lb ed="#P" n="122"/>quae ratione dispositionis diuer sarum rationum 
+      <lb ed="#P" n="123"/>secundum esse: magis &amp; minus perfectum, est in 
+      <lb ed="#P" n="124"/>diuersis sicut calor in igne &amp; in aliis, vel propter 
+      <lb ed="#P" n="125"/>hoc quod illa forma diuersificatur specie in diuer. 
+      <lb ed="#P" n="126"/>sis; &amp; tamen in ea largo modo recipitur no, 
+      <lb ed="#P" n="127"/>men eius quod est magis &amp; minus sicut patet de 
+      <lb ed="#P" n="128"/>cognitione principiorum, &amp; cognitione 
+      conclu<lb ed="#P" n="129" break="no"/>sionum. Nunc autem in diuinis Filius habet a 
+      Pa<lb ed="#P" n="130" break="no"/>tre quod spiret, sicut communicante ab agente 
+      <lb ed="#P" n="131"/>uniuoco eandem virtutem numero, aeque 
+      perfe<lb ed="#P" n="132" break="no"/>cte sicut habet Pater; ideo ibi illa propositio non 
+      <lb ed="#P" n="133"/>habet locum. 
+      </p>
+            <p xml:id="hx2hx3-b25497-d1e206">
+               <lb ed="#P" n="134"/>Iuxta hoc quaeritur de immediatione, sed quia 
+      <lb ed="#P" n="135"/>leue est transeo.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

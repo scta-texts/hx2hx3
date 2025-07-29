@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="300"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c01343"><!-- l3d10q1 -->
+            <head xml:id="hx2hx3-c01343-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-c01343-Hd1e101" type="question-title">Utrum Christus secundum homo sit persona</head>
+            <p xml:id="hx2hx3-c01343-d1e104">
+               <lb ed="#P" n="112"/>Vtrum Christus sit creatura, siue creatus 
+      <lb ed="#P" n="113"/>vel factus 
+      </p>
+            <p xml:id="hx2hx3-c01343-d1e111">
+               <lb ed="#P" n="114"/>Solet etiam quaeri vtrum debeat simpliciter 
+      <lb ed="#P" n="115"/>dici atque concedi Christum esse factum 
+      <lb ed="#P" n="116"/>vel creatum, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c01343-d1e120">
+               <lb ed="#P" n="117"/>Distinctio decima 
+      <lb ed="#P" n="118"/>QVAESTIO VNICA 
+      </p>
+            <p xml:id="hx2hx3-c01343-d1e128">
+               <lb ed="#P" n="119"/>SVper decimam distinctionem queritur vtrum 
+      Chri<lb ed="#P" n="120" break="no"/>stus secundum quod homo; sit persona. 
+      </p>
+            <p xml:id="hx2hx3-c01343-d1e135">
+               <lb ed="#P" n="121"/>Et arguitur quod sic. Quia Christus 
+      secun<lb ed="#P" n="122" break="no"/>dum quod homo est animal. Et esse animal est 
+      <lb ed="#P" n="123"/>esse aliquid. Ergo Christus secundum quod 
+      ho<lb ed="#P" n="124" break="no"/>mo, est aliquid. Sed non potest esse aliquid, nisi 
+      <lb ed="#P" n="125"/>aliquid subsistens; &amp; non potest esse aliquid 
+      sub<lb ed="#P" n="126" break="no"/>sistens, nisi suppositum: &amp; per consequens 
+      sup<lb ed="#P" n="127" break="no"/>positum naturae intellectualis. Sed tale est 
+      perso<lb ed="#P" n="128" break="no"/>na. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c01343-d1e155">
+               <lb ed="#P" n="129"/>Contra, si Christus secundum quod homo est 
+      <lb ed="#P" n="130"/>persona: &amp; non potest esse persona, nisi diuina, 
+      <lb ed="#P" n="131"/>&amp; Deus. Sed haec est falsa, christus secundum 
+      <lb ed="#P" n="132"/>quod homo est Deus. Ergo. 
+      </p>
+            <p xml:id="hx2hx3-c01343-d1e166">
+               <lb ed="#P" n="133"/>
+               <sic>Respondo</sic> Primo praesupponendum est quod 
+      <!--301.xml-->
+      <pb ed="#P" n="301"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>reduplicatio quandoque potest accipi 
+      materiali<lb ed="#P" n="2" break="no"/>ter: &amp; turc tantum denotat vnitatem praedicari 
+      <lb ed="#P" n="3"/>cum subsecto: vt sidicdtim, homo secundum illud 
+      <lb ed="#P" n="4"/>secunduni quod est animal, habet quod sit homo: 
+      <lb ed="#P" n="5"/>quia idem est essentialiter animal &amp; homo 
+      Qua<lb ed="#P" n="6" break="no"/>doque vero accipitur formaliter: &amp; tunc 
+      denora<lb ed="#P" n="7" break="no"/>tur in subsecto secundum quod causa, &amp; ratio 
+      <lb ed="#P" n="8"/>quare sibi insit praedicatum. Et hoc dupliciter. 
+      <lb ed="#P" n="9"/>Quia quandoque Iy secundum reduplicat 
+      tau<lb ed="#P" n="10" break="no"/>sam remotam, &amp; quasi antecedentem causam 
+      pro<lb ed="#P" n="11" break="no"/>priam: sicut si dicam quod Christus secundum quod 
+      <lb ed="#P" n="12"/>homo, est praedestinatus: quia causa &amp; ratio 
+      prae<lb ed="#P" n="13" break="no"/>cisa huius praedicati, quod est esse praedestinatum, 
+      <lb ed="#P" n="14"/>non est esse homo: quia tunc omnis homo esset 
+      <lb ed="#P" n="15"/>praedestinatus, quod falsum est: sed est causa 
+      re<lb ed="#P" n="16" break="no"/>mota sui, antec edens causam propriam: quia 
+      <lb ed="#P" n="17"/>nullus potest esse praedestinatus, nisi habeat 
+      natu<lb ed="#P" n="18" break="no"/>ram intellectualem creatam. Quandoque vero 
+      <lb ed="#P" n="19"/>l secundum quod reduplicat causam 
+      immedia<lb ed="#P" n="20" break="no"/>tam, de necessitate inferentem praedicatum: sicut 
+      <lb ed="#P" n="21"/>homo secundum quod homo est risibilis. 
+      </p>
+            <p xml:id="hx2hx3-c01343-d1e225">
+               <lb ed="#P" n="22"/>Secundo, supponendum est quod quando 
+      <lb ed="#P" n="23"/>aliqua reduplicatio ponitur ad aliquem 
+      termi<lb ed="#P" n="24" break="no"/>num, facit terminum teneri formaliter. Vnde 
+      <lb ed="#P" n="25"/>quando dicitur iste secundum quod hiomo est 
+      hu<lb ed="#P" n="26" break="no"/>iusmodi; puta risibilis, vel aliquid tale: homo ibi 
+      <lb ed="#P" n="27"/>tenetur formaliter: non quia homo ibi supponat 
+      <lb ed="#P" n="28"/>pro humanitate in recto; imo supponit pro 
+      ha<lb ed="#P" n="29" break="no"/>bente: sed quia non supponit pro ipso habente, 
+      <lb ed="#P" n="30"/>prout est aliquid in se, siue quoddam subsistens 
+      <lb ed="#P" n="31"/>inse. Secundum enim quod est habens talem 
+      na<lb ed="#P" n="32" break="no"/>turam, puta humanam, non dicitur formaliter 
+      te<lb ed="#P" n="33" break="no"/>neri: vt alias ostensum fuit supra. Vnde 
+      quan<lb ed="#P" n="34" break="no"/>do dicitur, iste secundum quod homo talis; 
+      de<lb ed="#P" n="35" break="no"/>notatur quod hoc quod est habere humanam 
+      na<lb ed="#P" n="36" break="no"/>turam, sit causa vel propinqua vel remota ipsius 
+      <lb ed="#P" n="37"/>praedicari: quando ly secundum quod accipitur 
+      <lb ed="#P" n="38"/>pro nota perseitatis, vt aliquo modo exponetur in 
+      <lb ed="#P" n="39"/>quaestione sequenti. Vnde idem est dictum, 
+      ho<lb ed="#P" n="40" break="no"/>mo secundum quod homo; ac si dicatur, per hoc 
+      <lb ed="#P" n="41"/>quod est habens humanitatem. 
+      </p>
+            <p xml:id="hx2hx3-c01343-d1e271">
+               <lb ed="#P" n="42"/>His praemissis ad quaestionem dicendum. Si 
+      <lb ed="#P" n="43"/>accipiatur ly secundum quod materialiter: ita 
+      <lb ed="#P" n="44"/>quod denotet identitatem essentialem praedicati 
+      <lb ed="#P" n="45"/>ad subiectum; sub hoc sensu, Christus secundum 
+      <lb ed="#P" n="46"/>quod homo est Deus, vel persona; id, est 
+      quan<lb ed="#P" n="47" break="no"/>tum ad illud suppositum quod habet naturam 
+      <lb ed="#P" n="48"/>humanam; est idem essentaliter cum persona, 
+      si<lb ed="#P" n="49" break="no"/>ue cum supposito habente Deitatem; ita quod 
+      <lb ed="#P" n="50"/>denotet vnum esse essentialiter suppositum 
+      ha<lb ed="#P" n="51" break="no"/>bens humanitatem &amp; deitatem; tunc esset vera: 
+      <lb ed="#P" n="52"/>sed iste sensus est improprius. Si autem ly 
+      secun<lb ed="#P" n="53" break="no"/>dum quod accipiatur formaliter, ita quod 
+      deno<lb ed="#P" n="54" break="no"/>tet causam praedicati in subiecto, vt sit sensus quod 
+      <lb ed="#P" n="55"/>hoc quod est habere humanitatem sit causa, vel 
+      <lb ed="#P" n="56"/>ratio quod praedicatum, scilicet persona, vel Deus, 
+      <lb ed="#P" n="57"/>insit huic quod est Christus: tunc est falsa: siue ly 
+      <lb ed="#P" n="58"/>secundum quod dicat causam remotam: sicut 
+      di<lb ed="#P" n="59" break="no"/>citur quod Christus secundum quod homo est 
+      <lb ed="#P" n="60"/>praedestinatus: siue causam praecisam. Quia 
+      Chri<lb ed="#P" n="61" break="no"/>stus per hoc quod habet humanitatem, non habet 
+      <lb ed="#P" n="62"/>quod sit Deus, vel persona, vel subsistentia, nec 
+      <lb ed="#P" n="63"/>sicut per causam remotam, nec sicut per causam 
+      <lb ed="#P" n="64"/>propinquam: &amp; iste est proprius sensus. Et ideo 
+      <lb ed="#P" n="65"/>simpliciter loquendo iste locutiones Christus 
+      se<lb ed="#P" n="66" break="no"/>cundum quod hiomo est, Deus, vel persona, sunt 
+      <lb ed="#P" n="67"/>simplicit er falsae. 
+      </p>
+            <p xml:id="hx2hx3-c01343-d1e331">
+               <lb ed="#P" n="68"/>Ad rationem in oppositum dicendum quod 
+      <lb ed="#P" n="69"/>haec est vera, Christus secundum quod homo est 
+      <lb ed="#P" n="70"/>animal: &amp; quod animal stat ibi pro subsistente 
+      <!--301.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>hibente animalitatem: non tamen stat pro 
+      subsi<lb ed="#P" n="72" break="no"/>stente secundum se &amp; absolute: vt possit dici 
+      <lb ed="#P" n="73"/>quod secundum quod homo sit simpliciier 
+      subsi<lb ed="#P" n="74" break="no"/>stens: sed tamen secundum quod homo est 
+      subss<lb ed="#P" n="75" break="no"/>stens habens animalitatem. Nec per hoc 
+      denota<lb ed="#P" n="76" break="no"/>tur quod habere humanitatem sit causa, vel rano 
+      <lb ed="#P" n="77"/>quod fit simpliciter subsistens: sed quod est 
+      subsi<lb ed="#P" n="78" break="no"/>stens habens humanitatem. Ex hoc ipso quod est 
+      <lb ed="#P" n="79"/>habens humanitatem est habens animalitatem. 
+      <lb ed="#P" n="80"/>vel aliter stat ibi pro fubsistente, non absolure, 
+      <lb ed="#P" n="81"/>sed secunndum quod est habens animalitatem. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

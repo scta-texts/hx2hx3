@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="79"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b25865"><!-- l1d13q2 -->
+            <head xml:id="hx2hx3-b25865-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b25865-Hd1e101" type="question-title">Utrum in divinis sint plures processiones realiter distinctae</head>
+            <p xml:id="hx2hx3-b25865-d1e104">
+               <lb ed="#P" n="95"/>QVAESTIO SECVNDA.
+      </p>
+            <p xml:id="hx2hx3-b25865-d1e109">
+               <lb ed="#P" n="96"/>SEcundo quaeritur vtrum in diuinis sint plures 
+      <lb ed="#P" n="97"/>processiones realiter distinctae. Et arguitur 
+      <lb ed="#P" n="98"/>quod non, quia in diuinis non est diffinctio nisi 
+      <lb ed="#P" n="99"/>per opppositionem relatiuam: Sed generatio &amp; 
+      <lb ed="#P" n="100"/>spiratio non important oppositionem originis 
+      re<lb ed="#P" n="101" break="no"/>latiuam cum non se habet vt producere &amp; 
+      produ<lb ed="#P" n="102" break="no"/>ci vel, vt producens &amp; productum: Ergo, &amp;c. 
+      <lb ed="#P" n="103"/>Praeterea spirare &amp; generare indiuinis non 
+      distin<lb ed="#P" n="104" break="no"/>guitur realiter, praecipue secundum illos qui 
+      po<lb ed="#P" n="105" break="no"/>nunt, quod paternitas &amp; spiratio actiua non sunt 
+      <lb ed="#P" n="106"/>duae res: Ergo a simili nec generati nec spirari 
+      di<lb ed="#P" n="107" break="no"/>stinguitur realiter: &amp; per consequens processio. 
+      <lb ed="#P" n="108"/>nes siue accipiantur passiue, siue actiue non 
+      distin<lb ed="#P" n="109" break="no"/>guuntur realiter. 
+      </p>
+            <p xml:id="hx2hx3-b25865-d1e142">
+               <lb ed="#P" n="110"/>Contra, generari &amp; spirari dicunt processio 
+      <lb ed="#P" n="111"/>nes: Sed ista sunt distincta realiter, alioquin 
+      ge<lb ed="#P" n="112" break="no"/>nitus &amp; spiratus non essent duae personae realiter 
+      <lb ed="#P" n="113"/>distinctae: Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b25865-d1e154">
+               <lb ed="#P" n="114"/>Respondeo, hic sunt quatuor facienda. Trimo 
+      <lb ed="#P" n="115"/>ponendae sunt positiones insufficientes &amp; earum 
+      re<lb ed="#P" n="116" break="no"/>prrobationes. Secundo ponetur determinatus 
+      in<lb ed="#P" n="117" break="no"/>tellectus quaestionis. Tertio ponetur positio quam 
+      <lb ed="#P" n="118"/>credo veram. Quarto ponetur eius impugnatio &amp; 
+      <lb ed="#P" n="119"/>impugnationis solutio. 
+      </p>
+            <p xml:id="hx2hx3-b25865-d1e170">
+               <lb ed="#P" n="120"/>Quantum ad primum sciendum, quod secun. 
+      <lb ed="#P" n="121"/>dum quosdam processiones puta generatio &amp; 
+      spi<lb ed="#P" n="122" break="no"/>ratio sunt realiter distinctae, quia sunt in 
+      supposi<lb ed="#P" n="123" break="no"/>tis realiter distinctis: &amp; rationem assignant, quia 
+      <lb ed="#P" n="124"/>sicut se habet vnum suppesitum ad plures naturas 
+      <lb ed="#P" n="125"/>increaturis, ita se habet vna natura ad plura 
+      sup<lb ed="#P" n="126" break="no"/>posita in diuinis: &amp; est quantum ad hoc 
+      similitu<lb ed="#P" n="127" break="no"/>do, quod sicut vna natura in diuinis in tribus 
+      sun<lb ed="#P" n="128" break="no"/>positis non habet nisi vnum esse, ita vnum 
+      suppo<lb ed="#P" n="129" break="no"/>situm in creaturis non habet nisi vnicum esse, liccl 
+      <lb ed="#P" n="130"/>habeat plures naturas: vnde quantum ad 
+      mita<lb ed="#P" n="131" break="no"/>tem essendi est similitudo vtrobique, lieet 
+      quan<lb ed="#P" n="132" break="no"/>tum ad hoc quod in diuinis cum vnitate naturae 
+      <!--80.xml-->
+      <pb ed="#P" n="80"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sit pluralitas suppositorum &amp; in creaturis cum 
+      vni<lb ed="#P" n="2" break="no"/>tate suppositi sit pluralitas naturarum contrario 
+      <lb ed="#P" n="3"/>modo se habeant. Sed non obstante vnitate 
+      essen<lb ed="#P" n="4" break="no"/>di in eodem sunposito creato possunt esse diuersae 
+      <lb ed="#P" n="5"/>relationes disparatae propter diuersitatem 
+      natura<lb ed="#P" n="6" break="no"/>rum in quibus fundantur. Ergo indiuinis e 
+      con<lb ed="#P" n="7" break="no"/>trario in vna &amp; eadem essentia poterunt fundari 
+      <lb ed="#P" n="8"/>pluires relationes separatae propter distincta 
+      sup<lb ed="#P" n="9" break="no"/>posita in quibus sunt. Vnde licet tales relationes 
+      <lb ed="#P" n="10"/>disparatae non habeant oppositionem: quia tamen 
+      <lb ed="#P" n="11"/>sunt in suppositis distinctis per oppositionem, 
+      e<lb ed="#P" n="12" break="no"/>runt distinctae: plures autem similes non possunt 
+      <lb ed="#P" n="13"/>esse propter vnitatem essendi, sicut nec in 
+      suppo<lb ed="#P" n="14" break="no"/>sito creato, Ista autem positio in multis deficit: 
+      <lb ed="#P" n="15"/>primo quia non reddit causam quare plus habeat 
+      <lb ed="#P" n="16"/>distingui generari &amp; spirari, quam generare &amp; 
+      <lb ed="#P" n="17"/>spirare: &amp; si dicant quod hoc ideo est quia 
+      gene<lb ed="#P" n="18" break="no"/>rari &amp; spirari sunt in diuersis suppositis: non sic 
+      <lb ed="#P" n="19"/>generare &amp; spirare, nihil est quod quaeram, cum 
+      <lb ed="#P" n="20"/>secundum eos hinc inde generatio &amp; spiratio sint 
+      <lb ed="#P" n="21"/>relationes disparatae. Vnde habent generari &amp; 
+      <lb ed="#P" n="22"/>spirari quod sint in diuersis suppositis, nec possunt 
+      <lb ed="#P" n="23"/>esse in eodem supposito plusquam generare &amp; 
+      spi<lb ed="#P" n="24" break="no"/>rare. Secundo, quia cum secundum Anselmum 
+      <lb ed="#P" n="25"/>persona producens communicet personae 
+      produ<lb ed="#P" n="26" break="no"/>ctae omneid in quo ei non opponitur: si persona 
+      <lb ed="#P" n="27"/>Edii, secundum quod genitus, nullo modo habet. 
+      <lb ed="#P" n="28"/>oppositionem ad Spiritum sanctum, sed tantum 
+      <lb ed="#P" n="29"/>disparationem, vt isti dicunt: sequitur quod 
+      Fi<lb ed="#P" n="30" break="no"/>lius communicabit Spiritui sancto generari, &amp; 
+      <lb ed="#P" n="31"/>sic generari non distinguetur a spirari. Si enim 
+      <lb ed="#P" n="32"/>nullam oppositionem habent generari &amp; spirari, 
+      <lb ed="#P" n="33"/>sicut nec spirare ad generari, non videtur quin 
+      si<lb ed="#P" n="34" break="no"/>cut spirare potest esse cum generare &amp; generari, 
+      <lb ed="#P" n="35"/>ita etiam generari possit esse cum spirare &amp; 
+      spira<lb ed="#P" n="36" break="no"/>ri. Tertio, quia vbi idem tam absolutum quam 
+      <lb ed="#P" n="37"/>relatum potest stare cum oppositis: ex hoc quod 
+      <lb ed="#P" n="38"/>aliquid ponitur esse cum vno oppositorum, non 
+      <lb ed="#P" n="39"/>impeditur esse cum alio, nisi per se habeat aliquo 
+      <lb ed="#P" n="40"/>modo oppositionem ad ipsum. Sed sic est in 
+      di<lb ed="#P" n="41" break="no"/>uinis. Ergo ex hoc quod aliquid in diuinis ponitur 
+      <lb ed="#P" n="42"/>esse cum alio oppositorum non impeditur esse cum 
+      <lb ed="#P" n="43"/>altero. Ergo ex hoc quod generari ponitur esse 
+      <lb ed="#P" n="44"/>cum spirare, non impeditur posse stare cum 
+      spi<lb ed="#P" n="45" break="no"/>rari, si generare nullam habeat oppositionem ad 
+      <lb ed="#P" n="46"/>spirari. Ergo falsum est dicere quod per hoc 
+      di<lb ed="#P" n="47" break="no"/>stinguatur genenari a spirari propter hoc solum 
+      <lb ed="#P" n="48"/>quod iungitur suo opposito, scilicet ei quod est 
+      <lb ed="#P" n="49"/>spirare in subiecto opposito quod est spirans. 
+      <lb ed="#P" n="50"/>Quarto, quia falsum est quod supponitur, scilicet 
+      <lb ed="#P" n="51"/>quod in creanturis non est nisi vnieus actus essendi 
+      <lb ed="#P" n="52"/>in vno supposito: imo tot sunt esse in vno 
+      suppo<lb ed="#P" n="53" break="no"/>sito quot sunt essentiae, saltem loquendo de 
+      essen<lb ed="#P" n="54" break="no"/>tiis quae sunt formae vel accidentales vel 
+      substan<lb ed="#P" n="55" break="no"/>tiales e Et hoc alias satis ostendi licet non sit nisi 
+      <lb ed="#P" n="56"/>vnum esse substantiale. Quinto, quia auctores 
+      <lb ed="#P" n="57"/>istius positionis pluries supra dixerunt quod in 
+      re<lb ed="#P" n="58" break="no"/>lationibus disparatis non inuenitur distinctio, nisi 
+      <lb ed="#P" n="59"/>secundum esse: &amp; ideo vt ipsi pluries diaerunt 
+      ta<lb ed="#P" n="60" break="no"/>les non distinguunt in diuinis. Nunc dicunt 
+      oppo<lb ed="#P" n="61" break="no"/>situm. Sexto, quia si sic se habent diuersa 
+      suppo<lb ed="#P" n="62" break="no"/>sita diuina ad distinguendum relationes in 
+      vnita<lb ed="#P" n="63" break="no"/>te essentiae sicut in creaturis diuersae essentiae, ad 
+      <lb ed="#P" n="64"/>distinguendum relationes in vno supposito: tuno 
+      <lb ed="#P" n="65"/>sicut impossibile est in creaturis vnam &amp; eandem 
+      <lb ed="#P" n="66"/>relationem numero fundari super plures naturas 
+      <lb ed="#P" n="67"/>in aliquo supposito creato, ita impossibile esset 
+      in<lb ed="#P" n="68" break="no"/>uenire eandem relationem numero in pluribus. 
+      <lb ed="#P" n="69"/>suppositi diuinis. Hoc autem manifeste 
+      appa<lb ed="#P" n="70" break="no"/>ret falsum de communi spiratione. Ergo non est 
+      <!--80.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>vetum quod sic se habeant in diuinis supposita 
+      di<lb ed="#P" n="72" break="no"/>uersa ad distinguendum relationes in eodem 
+      sup<lb ed="#P" n="73" break="no"/>posito creato in quo tamen fundatur primo 
+      prae<lb ed="#P" n="74" break="no"/>dicta nositio: vnde mihi videtur satis 
+      improbabi<lb ed="#P" n="75" break="no"/>lis. Alii aliter assignant rationem dictae 
+      distin<lb ed="#P" n="76" break="no"/>ctionis, &amp; dicunt quod dicta distinctio potest 
+      at<lb ed="#P" n="77" break="no"/>tendi, vel penes terminos, vel penes oppositionem, 
+      <lb ed="#P" n="78"/>si accipiatur penes terminos, tunc non accipietur 
+      <lb ed="#P" n="79"/>distinctio processionum secundum rationem 
+      mo<lb ed="#P" n="80" break="no"/>tus, quia proccssiones diuinae non habent ratio. 
+      <lb ed="#P" n="81"/>nem motus, sed operationis: operationes autem 
+      <lb ed="#P" n="82"/>non distinguutur penes terminos sed 
+      penesprinci<lb ed="#P" n="83" break="no"/>pia, &amp; ideo processiones distinguutur penes 
+      ter<lb ed="#P" n="84" break="no"/>minos prout sunt relationes: &amp; hoc rationabiliter, 
+      <lb ed="#P" n="85"/>quia esse relationis est ad aliud se habere: cum 
+      er<lb ed="#P" n="86" break="no"/>go generatio &amp; spiratio sint ad alium &amp; 
+      aliumter<lb ed="#P" n="87" break="no"/>minum, scilicet ad genitum &amp; spiratum, ideo 
+      o<lb ed="#P" n="88" break="no"/>portet generationem &amp; spirationem distingui. 
+      Se<lb ed="#P" n="89" break="no"/>cundum etiam oppositiones distinguntur dictae 
+      <lb ed="#P" n="90"/>processiones, vt dicunt, quia in diuinis quae se 
+      ha<lb ed="#P" n="91" break="no"/>bent vt principium &amp; principiatum distinguutur 
+      <lb ed="#P" n="92"/>per oppositionem relatiuam &amp; sic se habent 
+      pro<lb ed="#P" n="93" break="no"/>cessiones: Ergo, &amp;c. Maior patet. Minor 
+      pro<lb ed="#P" n="94" break="no"/>batur primo, quia illa quae essentialiter 
+      ordinan<lb ed="#P" n="95" break="no"/>tur, ita quod vnum supponit alterum &amp; none 
+      con<lb ed="#P" n="96" break="no"/>uerso illud quod praesupponitur est principium 
+      al<lb ed="#P" n="97" break="no"/>terius quod ipsum praesupponit. Sed sic est de 
+      ge<lb ed="#P" n="98" break="no"/>neratione &amp; spiratione. Ergo, &amp;c. Secundo, 
+      <lb ed="#P" n="99"/>quia quidquid est principium principii est 
+      princi<lb ed="#P" n="100" break="no"/>pium principiati, sicut quidquid est causa causae 
+      <lb ed="#P" n="101"/>est causa causati. Sed generatio est principium 
+      Fi<lb ed="#P" n="102" break="no"/>lii, cum producatur per generationem. Ergo 
+      ge<lb ed="#P" n="103" break="no"/>neratio est etiam principium spirationis cuius 
+      Fi<lb ed="#P" n="104" break="no"/>lius est principium. Tertio, quia illa quae habent 
+      <lb ed="#P" n="105"/>ordinem originis, se habent sicut principium &amp; 
+      <lb ed="#P" n="106"/>principiatum: sic est de generatione &amp; spiratione, 
+      <lb ed="#P" n="107"/>cum constet spirationem supponere generationem 
+      <lb ed="#P" n="108"/>&amp; non e conuerso. Ergo, &amp;c. Ista positio 
+      quan<lb ed="#P" n="109" break="no"/>tum ad vtrumque quod dicit deficit, nam 
+      quan<lb ed="#P" n="110" break="no"/>tum ad primum, quando dicunt quod distinctio 
+      <lb ed="#P" n="111"/>relationum est accipienda penes terminos ad quos, 
+      <lb ed="#P" n="112"/>est intelligendum de relationibus disparatis, sicut 
+      <lb ed="#P" n="113"/>patet quod Filiatio &amp; similitudo differunt penes 
+      <lb ed="#P" n="114"/>terminos ad quos sunt: relatiue autem opposita 
+      <lb ed="#P" n="115"/>quae ad se inuicem referuntur non oportet quod 
+      <lb ed="#P" n="116"/>distinguantur penes terminos alios a se ad quos 
+      <lb ed="#P" n="117"/>sunt, quia per se ipsa habent oppositionem, &amp; per 
+      <lb ed="#P" n="118"/>consequens se ipsis sunt distincta quantum ad esse 
+      <lb ed="#P" n="119"/>relatiuum. Sed secundum auctores huius 
+      positio<lb ed="#P" n="120" break="no"/>nis in diuinis no est realis distinctio per 
+      oppositio<lb ed="#P" n="121" break="no"/>nem relatiuam. Ergo ista via non sufficientem causam 
+      <lb ed="#P" n="122"/>assignat distinctionis realis inter generationem &amp; 
+      <lb ed="#P" n="123"/>spirationem, de quali distinctione nunc loquimur a 
+      <lb ed="#P" n="124"/>Hoc etiam patet nam secundum magnos, &amp; 
+      se<lb ed="#P" n="125" break="no"/>cundum etiam istos generare siue paternitas &amp; 
+      con<lb ed="#P" n="126" break="no"/>munis spiratio non sunt diuersae res, nec sunt 
+      rea<lb ed="#P" n="127" break="no"/>liter diuersa quaedam: &amp; constat tamen quod sunt 
+      <lb ed="#P" n="128"/>ad diuersos terminos. Ista etiam positio non plus 
+      <lb ed="#P" n="129"/>dat causam distinctionis inter generari &amp; spirari, 
+      <lb ed="#P" n="130"/>quam inter generare &amp; spirare: &amp; tamen eonstat 
+      <lb ed="#P" n="131"/>quod differunt illa &amp; ista: quia vt dictum est 
+      ge<lb ed="#P" n="132" break="no"/>nerare &amp; spirare non sunt duae res, sicut generari 
+      <lb ed="#P" n="133"/>&amp; spirari sunt. Secundum etiam dictum deficit. 
+      <lb ed="#P" n="134"/>Primo, quia in diuinis illud quod est principium 
+      <lb ed="#P" n="135"/>alicuius, sicut suppositum dicitur principium actus 
+      <lb ed="#P" n="136"/>eliciti ab ipso, non distinguitur ab eo realiter, 
+      <lb ed="#P" n="137"/>Non enim suppositum spirans differt realiter ab 
+      <lb ed="#P" n="138"/>ipso spirare, qui est actus ab eo elicitus: &amp; ideo 
+      <lb ed="#P" n="139"/>licet aliquo modo Filius sit principium spirationis 
+      <lb ed="#P" n="140"/>actiuae dictae; non tamen oportet quod realiter 
+      <!--81.xml-->
+      <pb ed="#P" n="81"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>distinguatur ab ea, &amp; sic non videtur sufficere 
+      pre<lb ed="#P" n="2" break="no"/>dicta ratio. Item generatio saltem passiue dicta 
+      <lb ed="#P" n="3"/>non est principium Filii, imo est ipse Filius. Ergo 
+      <lb ed="#P" n="4"/>ed probandum distinctionem inter generari &amp; 
+      spi<lb ed="#P" n="5" break="no"/>rari nihil valet ista deductio, quando dicitur, 
+      quid<lb ed="#P" n="6" break="no"/>quid est principium principii, &amp;c. Item illae 
+      ratio<lb ed="#P" n="7" break="no"/>nes quae non ostendunt quomodo diuersimode 
+      ac<lb ed="#P" n="8" break="no"/>cipitur principium &amp; principiatum necessario 
+      rea<lb ed="#P" n="9" break="no"/>liter differunt, nec aliquam differentiam ponunt 
+      <lb ed="#P" n="10"/>Inter processsones prout accipiuntur actiue &amp; 
+      pas<lb ed="#P" n="11" break="no"/>siue: &amp; ideo insufficientet dicust. 
+      </p>
+            <p xml:id="hx2hx3-b25865-d1e545">
+               <lb ed="#P" n="12"/>Nunc restat ponere positionem quam credo 
+      <lb ed="#P" n="13"/>veram, ad cuius maiorem euidentiam. Primo po. 
+      <lb ed="#P" n="14"/>nendae sunt quaedam distinctiones. Secundo 
+      ac<lb ed="#P" n="15" break="no"/>cipientur conclusiones probandae per ordinem, 
+      <lb ed="#P" n="16"/>Tertio probabuntur. Prima distinctio est quod 
+      <lb ed="#P" n="17"/>principium in diuinis dicitur dupliciter, scilicet 
+      <lb ed="#P" n="18"/>suppositum producens &amp; forma qua agit, quam ad 
+      <lb ed="#P" n="19"/>nunc suppono esse ipsam essentiam. Secunda 
+      di<lb ed="#P" n="20" break="no"/>stinctio est quod sine sic, siue sic accipiatur 
+      prin<lb ed="#P" n="21" break="no"/>cipium, potest accipi principium, vel respectu 
+      <lb ed="#P" n="22"/>actus eliciti, &amp; sic accipitur secundum rationem 
+      <lb ed="#P" n="23"/>actus intelligendi; vel respectu producti per talem 
+      <lb ed="#P" n="24"/>actum, sicut Pater vel essentia potest dici 
+      princi<lb ed="#P" n="25" break="no"/>pium actus eliciti qui est generare, &amp; filii qui per 
+      <lb ed="#P" n="26"/>generationem producitur: &amp; ex hoo etiam 
+      sequi<lb ed="#P" n="27" break="no"/>tur. Tertia scilicet, quod aliquid dupliciter est 
+      <lb ed="#P" n="28"/>ab alio; vel sicut productum est a producente; vel 
+      <lb ed="#P" n="29"/>sicut operatio elicita est ab operante. Quarta, 
+      di<lb ed="#P" n="30" break="no"/>stinctio est quod generatio &amp; spiratio possunt ac. 
+      <lb ed="#P" n="31"/>cipidiuersimode; vel ita quod ambae accipiantur 
+      <lb ed="#P" n="32"/>actiue vt gencrare &amp; spirare; vel ambae 
+      accipian<lb ed="#P" n="33" break="no"/>tur passiue: vt generari &amp; spirari: vel vna 
+      acci<lb ed="#P" n="34" break="no"/>piatur actiue, &amp; alia passiue, &amp; hoc dupliciter: 
+      v<lb ed="#P" n="35" break="no"/>nomodo quod generatio accipiatur actiue, &amp; 
+      spi<lb ed="#P" n="36" break="no"/>ratio passiue: sicut generare &amp; spirari; alio modo e 
+      <lb ed="#P" n="37"/>conuerso, sicut generari &amp; spirare. 
+      </p>
+            <p xml:id="hx2hx3-b25865-d1e604">
+               <lb ed="#P" n="38"/>Quantum ad secundum intendo probare sex 
+      <lb ed="#P" n="39"/>conclusiones. Prima est, quod ea quae sunt in 
+      di<lb ed="#P" n="40" break="no"/>hiinis in eodem supposito non sunt diuersae res, nec 
+      <lb ed="#P" n="41"/>realiter abinuicem diuersa, licet extrinsece 
+      pos<lb ed="#P" n="42" break="no"/>sint importare aliquam diuersitatem realem. Sex 
+      <lb ed="#P" n="43"/>cunda est, quod in diu inis non potest esse 
+      distin<lb ed="#P" n="44" break="no"/>ctio realis, nisi per relationes oppositas. Tertia est, 
+      <lb ed="#P" n="45"/>quod spirare &amp; generare non differunt realiter sio 
+      <lb ed="#P" n="46"/>quod sint abinuicem diuersae res. Quarta, quod 
+      <lb ed="#P" n="47"/>generari &amp; spirare similiter non differunt re 
+      ab<lb ed="#P" n="48" break="no"/>inuicem. Quinta est, quod generari &amp; spirari 
+      dif<lb ed="#P" n="49" break="no"/>ferunt realiter abinuicem. Sexta est, quod 
+      genc<lb ed="#P" n="50" break="no"/>raret &amp; spirari differunt realiter. Primam 
+      conclu<lb ed="#P" n="51" break="no"/>sionem probo tripliciter. Primo, quia cum omnc 
+      <lb ed="#P" n="52"/>quod est in diuinis sit subsistens, quia nihil est ibi 
+      <lb ed="#P" n="53"/>inhaerens secundum rem: alioquin esset ibi 
+      com<lb ed="#P" n="54" break="no"/>positio: oportet quod indiuinis vbi sunt dare duo 
+      <lb ed="#P" n="55"/>diuersa realiter, ita quod vnum realiter non est 
+      <lb ed="#P" n="56"/>alterum, oportet quod sint duo diuersa 
+      subsisten<lb ed="#P" n="57" break="no"/>tia. Sed duo diuersa subsistentia quorum vnum 
+      <lb ed="#P" n="58"/>subsistens non est aliud subsistens, sunt duo 
+      di<lb ed="#P" n="59" break="no"/>uersa supposita, &amp; per consequens ea quae sunt 
+      <lb ed="#P" n="60"/>ibi vnius suppositi non possunt esse diuersae res. 
+      <lb ed="#P" n="61"/>Secundo, quia quae sunt in eodem supposito 
+      prae<lb ed="#P" n="62" break="no"/>ditantur de se inuicem in concreto. Sed in diui. 
+      <lb ed="#P" n="63"/>nis quae pradicantur de se inuicem in concreto 
+      <lb ed="#P" n="64"/>praedicantur &amp; in abstracto. Sed quae 
+      praedican<lb ed="#P" n="65" break="no"/>tur de se inuicem in abstracto non sunt diuersae 
+      <lb ed="#P" n="66"/>res. Ergo, &amp;c. Vnde sicut Pater spirans est, ita 
+      <lb ed="#P" n="67"/>paternitas est realiter ipsaspiratio communis. Ters 
+      <lb ed="#P" n="68"/>tio, quia sicut se habet essentia ad tres personas 
+      <lb ed="#P" n="69"/>&amp; earum relationes, quibus est communis: sta se 
+      <lb ed="#P" n="70"/>habet communis spiratio ad personas, &amp; relauo¬ 
+      <!--81.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>nes earum quibus est communis. Sed essentia non 
+      <lb ed="#P" n="72"/>ponit in numerum realem cum personis &amp; earum 
+      <lb ed="#P" n="73"/>relationibus. Ergo nec similiter spiratio 
+      commu<lb ed="#P" n="74" break="no"/>nis est res diuersa Patre vel Filio, vel etiam a 
+      pa<lb ed="#P" n="75" break="no"/>ternitate &amp; filiatione. Secundam conclusionem, 
+      <lb ed="#P" n="76"/>scilicet quod nulla est distinctio in diuinis, nili per 
+      <lb ed="#P" n="77"/>relationes oppositas originis, probo dupliciter 
+      <lb ed="#P" n="78"/>Primo, quia illa quae sunt incomprehensibilia in 
+      <lb ed="#P" n="79"/>eodem supposito hoc eis conuenit in quantum 
+      ha<lb ed="#P" n="80" break="no"/>bent oppositionem, vel in quantum naturam 
+      ali<lb ed="#P" n="81" break="no"/>cuius oppositionis aliquo modo includunt. Vnde 
+      <lb ed="#P" n="82"/>etiam formae quae sunt simul incompossibilei, hoc 
+      <lb ed="#P" n="83"/>habent in quantum aliquo modo includunt 
+      natu<lb ed="#P" n="84" break="no"/>ram priuationis &amp; habitus. Sed sicut supra 
+      osten<lb ed="#P" n="85" break="no"/>sum est quod quaecunque in diuinis distinguuntur 
+      <lb ed="#P" n="86"/>realiter oportet quod pertineant ad diuersa 
+      sup<lb ed="#P" n="87" break="no"/>posita, nec potest esse quod sint in eodem 
+      suppo<lb ed="#P" n="88" break="no"/>sito. Ergo oportet quod ea quae realiter distinguum. 
+      <lb ed="#P" n="89"/>tur in diuinis, distinguantur per oppositionem 
+      ali<lb ed="#P" n="90" break="no"/>quam. Sed ibi non potest esse oppositio, nisi per 
+      <lb ed="#P" n="91"/>relationes originis: Ergo, &amp;c. Secundo sic: quia 
+      <lb ed="#P" n="92"/>llla quae in omnibus conueniunt in quibus non 
+      op<lb ed="#P" n="93" break="no"/>ponuntur non possunt differre nisi in iis in quibus 
+      <lb ed="#P" n="94"/>opponuntur, quod patet per Anselmum qui dicit 
+      <lb ed="#P" n="95"/>quod persona quaelibet producens productae 
+      on<lb ed="#P" n="96" break="no"/>ponitur: Ergo supposita diuina non possunt 
+      dif<lb ed="#P" n="97" break="no"/>ferre in aliquo nisi per oppositionem, &amp; sic idem 
+      <lb ed="#P" n="98"/>quod prius: in eodem enim supposito non potest 
+      <lb ed="#P" n="99"/>ibi esse disferentia realis vt dictum est. Tertia &amp; 
+      <lb ed="#P" n="100"/>quarta conclusio satis faciliter patent, quia cum 
+      <lb ed="#P" n="101"/>spirare sit in eodem supposito cum generare &amp; ge: 
+      <lb ed="#P" n="102"/>nerari, non habet oppositionem relatiuam ad ea, 
+      <lb ed="#P" n="103"/>nec per consequens distinguitur realiter ab eis. 
+      <lb ed="#P" n="104"/>Ad cuius euidentiam, quomodo scilicet sit hoc 
+      <lb ed="#P" n="105"/>quod spirare non habet oppositionem ad generare 
+      <lb ed="#P" n="106"/>&amp; generari: sciendum quod sicut supradictum 
+      <lb ed="#P" n="107"/>est, de ratione spirati est quod spiretur ab aliquo 
+      <lb ed="#P" n="108"/>producto: ita quod impossibile est vel in humanis 
+      <lb ed="#P" n="109"/>vel in diuinis quod productio aliqua modum 
+      vo<lb ed="#P" n="110" break="no"/>luntatis habeat quae non supponat aliam 
+      produ<lb ed="#P" n="111" break="no"/>ctionem alicuius ante producti etiam in quantum 
+      <lb ed="#P" n="112"/>huiusmodi, secundum quod ipse spiratus velur 
+      <lb ed="#P" n="113"/>habens modum voluntatis producatur, quicquid 
+      <lb ed="#P" n="114"/>autem est a genito, necelsario est generante me 
+      <lb ed="#P" n="115"/>diante in quantum est a genito. Ex iis potest 
+      for<lb ed="#P" n="116" break="no"/>mari talis ratio: Illa actio nullam repugnantiam 
+      <lb ed="#P" n="117"/>habet ad generantem &amp; genitum per quam 
+      pro<lb ed="#P" n="118" break="no"/>ducitur illud de cuius ratione est produci a 
+      gene<lb ed="#P" n="119" break="no"/>rante &amp; genito, &amp; hoc patet: Sed spirare est 
+      hu<lb ed="#P" n="120" break="no"/>iusmodi, quia per actionem spirandi scilicet 
+      spi<lb ed="#P" n="121" break="no"/>rare producitur spiratus de cuius ratione est 
+      pro<lb ed="#P" n="122" break="no"/>duci a generante &amp; genito, quia de ratione sua elt 
+      <lb ed="#P" n="123"/>vt dictum est produci ab aliquo producto, nec 
+      po<lb ed="#P" n="124" break="no"/>test esse ab aliquo producto nisi a genito: &amp; per 
+      <lb ed="#P" n="125"/>consequens oportet etiam quod sit a generante 
+      <lb ed="#P" n="126"/>etiam in quantum huiusmodi saltam mediate, 
+      <lb ed="#P" n="127"/>Ergo spirare non repugnat ei quod est generare 
+      <lb ed="#P" n="128"/>vel generari. Quinta etiam conclusio &amp; sexta de 
+      <lb ed="#P" n="129"/>facili patent: quia quae includunt oppositionem 
+      <lb ed="#P" n="130"/>relatiuam in diuinis sunt adinuicem realiter du 
+      <lb ed="#P" n="131"/>stincta: Sed generari &amp; spirari sunt eiusmodi: 
+      <lb ed="#P" n="132"/>Ergo, &amp;c. Probatio minoris, quia illa quae ita se 
+      <lb ed="#P" n="133"/>habent in diuinis quodivnum est per se ab alio, 
+      si<lb ed="#P" n="134" break="no"/>cut productum a producente habet oppositionem 
+      <lb ed="#P" n="135"/>relatiuam: Sed sic se habet aliquo modo 
+      genera<lb ed="#P" n="136" break="no"/>ri &amp; spirari, quia de ratione spirati est quod sit 
+      <lb ed="#P" n="137"/>productus ab aliquo alio producto quod in diui. 
+      <lb ed="#P" n="138"/>nis non potest esse nisi genitus: Ergo, &amp;c. Dico 
+      <lb ed="#P" n="139"/>autem quod per se: quia licet Ffilius sit a Patre 
+      spi<lb ed="#P" n="140" break="no"/>rante productus, hoc tamen ei accidit eo mous 
+      <!--82.xml-->
+      <pb ed="#P" n="82"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quo accidere potest esse in diuinis, quia scilicet 
+      <lb ed="#P" n="2"/>non est de sua ratione quod producatur a spirato 
+      <lb ed="#P" n="3"/>vel spirante: quia posito per impossibile quod 
+      Pa<lb ed="#P" n="4" break="no"/>ter non spiraret, adhuc potest intelligi generares 
+      <lb ed="#P" n="5"/>sede conuerso non posset, quia cumde ratione 
+      spi<lb ed="#P" n="6" break="no"/>rati sit quod sit productus a producto per 
+      genera<lb ed="#P" n="7" break="no"/>tionem, non posset intelligi pater spirare nisi 
+      prae<lb ed="#P" n="8" break="no"/>intelligeretur generare: nam quod est a genito 
+      si<lb ed="#P" n="9" break="no"/>cut productum a producente est etiam necessario 
+      <lb ed="#P" n="10"/>a generante: Et ideo spirari &amp; spiratus habent 
+      op<lb ed="#P" n="11" break="no"/>positionem relatiuam &amp; ad generari &amp; ad genc. 
+      <lb ed="#P" n="12"/>rare: spirare autem non, quia non est ab eis nisi 
+      <lb ed="#P" n="13"/>sicut actus elicitus dicitur esse a supposito 
+      operan<lb ed="#P" n="14" break="no"/>te. Ex his patet quod sunt in diuersis suppositis 
+      <lb ed="#P" n="15"/>nec possunt esse in eodem supposito plusquam 
+      ge<lb ed="#P" n="16" break="no"/>nerare &amp; spirare. Ex his etiam possunt saluari 
+      quae<lb ed="#P" n="17" break="no"/>dam dicta contraria quae de hoc dicuntur. Solet 
+      <lb ed="#P" n="18"/>enim dici quod distinguuntur dictae processiones, 
+      <lb ed="#P" n="19"/>quia vna est per modu intellectus &amp; alia per 
+      mo<lb ed="#P" n="20" break="no"/>dum voluntatis: sic quod praecise in vna 
+      commu<lb ed="#P" n="21" break="no"/>nicetur quod pertinet ad intellectum tantum, &amp; 
+      <lb ed="#P" n="22"/>in alia quod pertinet ad voluntatem tantum. Sed 
+      <lb ed="#P" n="23"/>hoc accipitur per comparationem ad ordinem 
+      pro<lb ed="#P" n="24" break="no"/>ductionum inquantum productum per 
+      spiratio<lb ed="#P" n="25" break="no"/>nem habet de sua ratione quod sit, productum a 
+      <lb ed="#P" n="26"/>producto peractum dicendi; &amp; sic necessario 
+      ha<lb ed="#P" n="27" break="no"/>bet ordinem ad verbum dictum, sicut 
+      quodam<lb ed="#P" n="28" break="no"/>modo velle habet ordinem ad intelligere, vbi 
+      vel<lb ed="#P" n="29" break="no"/>le &amp; intelligere differunt realiter. Et fioc etiam est 
+      <lb ed="#P" n="30"/>seciindum illud quod quidam dicunt,, quod 
+      diffe<lb ed="#P" n="31" break="no"/>runt penes ordinem aliquo modo sicut velle &amp; 
+      in<lb ed="#P" n="32" break="no"/>telligere. Vel etiam hoc accipitur per 
+      compara<lb ed="#P" n="33" break="no"/>tionem ad supposita agentia: quia scilicet habens 
+      <lb ed="#P" n="34"/>modum voluntatis est ille qui producitur a duoa 
+      <lb ed="#P" n="35"/>bus, sed ille qui producitur ab vno habet modum 
+      <lb ed="#P" n="36"/>natura siue intellectus: ita tamen quod produci a 
+      <lb ed="#P" n="37"/>duobus vt supra fuit dictum, non sufficeret nisi in 
+      <lb ed="#P" n="38"/>quantum hoc includitur spiratum esse a genito. 
+      <lb ed="#P" n="39"/>Solet etiam dici quod distinguuntur sicut eorum 
+      <lb ed="#P" n="40"/>termini: termini autem distinguuntur inquantum 
+      <lb ed="#P" n="41"/>vnus est ab alio, scilicet spiratus a genito: quia 
+      spi<lb ed="#P" n="42" break="no"/>rari &amp; spiratus, &amp; generari &amp; genitus idem sunt, 
+      <lb ed="#P" n="43"/>&amp; eodem modo distinguutur. Quantum ad 
+      quar<lb ed="#P" n="44" break="no"/>tum sciendum, quod solet contra ista obiici. 
+      Pri<lb ed="#P" n="45" break="no"/>mo quod cum voluntas &amp; intellectus in diuinis 
+      <lb ed="#P" n="46"/>sola ratione differant, non potest ibi sumi 
+      distin<lb ed="#P" n="47" break="no"/>ctio realis penes modum voluntatis &amp; intellectus. 
+      <lb ed="#P" n="48"/>Secundo, quod nec ordo valet, quia in diuinis 
+      in<lb ed="#P" n="49" break="no"/>ter velle &amp; intelligere non est ordo realis, nec per 
+      <lb ed="#P" n="50"/>consequens talis ordo facit distinctionem realem. 
+      <lb ed="#P" n="51"/>Tertio, quod etiam produci a duobus non valet 
+      <lb ed="#P" n="52"/>ad distinctionem, quia hoc se habet ad Spiritum 
+      <lb ed="#P" n="53"/>sanctum per accidens, quia Spiritus sanctus non 
+      <lb ed="#P" n="54"/>producitur a Patre &amp; Filio inquantum plures sunt 
+      <lb ed="#P" n="55"/>sed inquantum vnum. Nec eciam penes terminos 
+      <lb ed="#P" n="56"/>potest accipi ibi distinctio, quia terminus penes 
+      <lb ed="#P" n="57"/>quem accipitur distinctio in motibus est natura 
+      <lb ed="#P" n="58"/>communicata per motum: indiuinis autem in 
+      qui<lb ed="#P" n="59" break="no"/>bus processiones secundum quendam modum 
+      in<lb ed="#P" n="60" break="no"/>telligendi accipiuntur quasi via &amp; motus non 
+      com<lb ed="#P" n="61" break="no"/>municatur nisi vna natura: Ergo si distinctio 
+      acci<lb ed="#P" n="62" break="no"/>peretur penes terminum non esset nisi vna 
+      proces<lb ed="#P" n="63" break="no"/>sio. Ista autem sunt satis friuola &amp; communia. 
+      </p>
+            <p xml:id="hx2hx3-b25865-d1e977">
+               <lb ed="#P" n="64"/>Ad primum ergo dicendum, quod in diuinis 
+      <lb ed="#P" n="65"/>non dicitur esse distinctio penes modum 
+      volunta<lb ed="#P" n="66" break="no"/>tis &amp; intellectus ex hoc quod ibi intellectus &amp; 
+      vo<lb ed="#P" n="67" break="no"/>luntas, vel velle &amp; intelligere re differunt; vel 
+      e<lb ed="#P" n="68" break="no"/>tiam quod aliquis modus absolutus eorum disferat 
+      <lb ed="#P" n="69"/>re sicut ponebant illi qui ponebant ibi differentias 
+      <lb ed="#P" n="70"/>per expressionem &amp; impressionem: sed ex hoc quod 
+      <!--82.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>suppositum emanans ab alio supposito producto 
+      <lb ed="#P" n="72"/>habet modum &amp; similitudinem cum velle in eis in 
+      <lb ed="#P" n="73"/>quibus differt re velle &amp; intelligere: quia 
+      intali<lb ed="#P" n="74" break="no"/>bus velle est causatum realiter ab intelligere 
+      all<lb ed="#P" n="75" break="no"/>quo modo. Ex hoc autem quod emanat a 
+      produ<lb ed="#P" n="76" break="no"/>cto, necessario distinguitur ab illo &amp; ab eius 
+      pro<lb ed="#P" n="77" break="no"/>ductione, &amp; eius emanatio passiue dicta differt a 
+      <lb ed="#P" n="78"/>productione illius a quo producitur modo quo 
+      ex<lb ed="#P" n="79" break="no"/>positum est. Et sic habere modum voluntatis &amp; 
+      <lb ed="#P" n="80"/>modum intellectus non est differre sola ratione 
+      si<lb ed="#P" n="81" break="no"/>cut differunt intellectus &amp; voluntas, imo etiam 
+      <lb ed="#P" n="82"/>differre re quia includit oppositionem relatiuam. 
+      <lb ed="#P" n="83"/>Ad secundum patet per idem, quia licet indiuinis 
+      <lb ed="#P" n="84"/>non sit ordo realis inter velle &amp; intelligere; tamen 
+      <lb ed="#P" n="85"/>inter habens modum intellectus &amp; modum 
+      vo<lb ed="#P" n="86" break="no"/>luntatis modo quo expositum est, est ordo realis, in 
+      <lb ed="#P" n="87"/>quantum de ratione vnius est quod sit ab alib, sicut 
+      <lb ed="#P" n="88"/>de ratione velle est quod sit ab intelligere realiter 
+      <lb ed="#P" n="89"/>in illis in quibus realiter velle &amp; intelligere 
+      diffe<lb ed="#P" n="90" break="no"/>runt. Ad tertium potest patere ex dictis superius: 
+      <lb ed="#P" n="91"/>quia Spiritus sanctus procedit a Patre &amp; Filio non 
+      <lb ed="#P" n="92"/>solum in quantum sunt vnum in vi spiratiua, seo 
+      <lb ed="#P" n="93"/>etiam inquantum sunt plures in supposito. Ad 
+      <lb ed="#P" n="94"/>quartum dicendum, quod ipsi accipiunt filsum; 
+      <lb ed="#P" n="95"/>quia alii non dicunt quod accipiatur ibi distinctio 
+      <lb ed="#P" n="96"/>penes terminos, sed quod processiones 
+      distin<lb ed="#P" n="97" break="no"/>guantur sicut termini: hoc autem multum differt: 
+      <lb ed="#P" n="98"/>Nam ponere quod distinguantur penes terminos 
+      <lb ed="#P" n="99"/>est ponere quod termini sint causa vel ratio 
+      distin<lb ed="#P" n="100" break="no"/>ctionis: ponere autem quod distinguantur sicut 
+      ter<lb ed="#P" n="101" break="no"/>mini, est ponere quod tam ipsae quam earum 
+      ter<lb ed="#P" n="102" break="no"/>mini habent similem rationem distinctionis, non 
+      <lb ed="#P" n="103"/>autem quod vnum sit ratio distinguendi alterum. 
+      <lb ed="#P" n="104"/>Et secundum rem vere sic est; nam processiones 
+      <lb ed="#P" n="105"/>passiue aeceptae sunt idemre quod spiratum&amp; gea 
+      <lb ed="#P" n="106"/>nitum, vel spiratus &amp; genitus &amp; similem rationem 
+      <lb ed="#P" n="107"/>distinctionis habent, scilicet inquantum implicant 
+      <lb ed="#P" n="108"/>oppositionem relatiuam. Secundo deficiunt: quia 
+      <lb ed="#P" n="109"/>dato quod ponerentur processionos distingui 
+      pe<lb ed="#P" n="110" break="no"/>nes terminos secundum modum intelligendi 
+      po<lb ed="#P" n="111" break="no"/>potest dici quod motus vel illa quae per modum 
+      <lb ed="#P" n="112"/>motus se habent non solum distinguuntur penes 
+      <lb ed="#P" n="113"/>terminum, qui est forma communicata per 
+      mo<lb ed="#P" n="114" break="no"/>tum, sed etiam penes terminum qui est 
+      supposi<lb ed="#P" n="115" break="no"/>tum: quia non solum habetur diuersitas in 
+      moti<lb ed="#P" n="116" break="no"/>bus in quantum terminantur ad diuersas formas 
+      <lb ed="#P" n="117"/>specie, sicut est de calefactione &amp; dealbatione siue 
+      <lb ed="#P" n="118"/>in eodem supposito siue in diuersis inueniantur: 
+      <lb ed="#P" n="119"/>imo habetur aliquando diuersitas in motibus 
+      pe<lb ed="#P" n="120" break="no"/>nes eandem formam specie secundum quod 
+      com<lb ed="#P" n="121" break="no"/>municatur diuersis suppositis, sicut patet de 
+      cale<lb ed="#P" n="122" break="no"/>factione Socratis &amp; Platonis. Et si dicatur quod 
+      <lb ed="#P" n="123"/>talia non differunt specie, sicut generatio, &amp; 
+      cor<lb ed="#P" n="124" break="no"/>ruptio quae videntur habere differentiam quasi 
+      se<lb ed="#P" n="125" break="no"/>cundum speciem, quia proprie in diuinis non est 
+      <lb ed="#P" n="126"/>differentia secundum speciem: Dicendum quod 
+      <lb ed="#P" n="127"/>si possibile esset in creaturis quod eadem forma 
+      nu<lb ed="#P" n="128" break="no"/>mero conmmunicaretur diuersis suppositis, ita quod 
+      <lb ed="#P" n="129"/>in ipsa communicatione constituerentur supposita, 
+      <lb ed="#P" n="130"/>&amp; consequerentur diuersas proprietates 
+      indiui<lb ed="#P" n="131" break="no"/>duales differentes specie: tales communicationes 
+      <lb ed="#P" n="132"/>licet ex parte formae communieatae non differrent 
+      <lb ed="#P" n="133"/>specie, tamen ex parte proprietatum 
+      constituen<lb ed="#P" n="134" break="no"/>tium suppositum habitarum per talem 
+      communi<lb ed="#P" n="135" break="no"/>cationem distinguerentur tales communicationes 
+      <lb ed="#P" n="136"/>aliquo modo specie. Et sic in diuinis licet ex parte 
+      <lb ed="#P" n="137"/>formae communicatae non accipiatur differentia 
+      <lb ed="#P" n="138"/>secundum speciem, vel quasi secundum speciem. 
+      <lb ed="#P" n="139"/>in emanationibus: tamen ex parte proprietatum 
+      <lb ed="#P" n="140"/>quae ex talibus emanationibus innascuntur acci¬ 
+      <!--83.xml-->
+      <pb ed="#P" n="83"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>pitur talis differentia secundum speciem. Et hoc 
+      <lb ed="#P" n="2"/>est accipere penes terminos, in qulntum tales 
+      pro<lb ed="#P" n="3" break="no"/>prietates sunt ipsa supposita. Vel posset breuiter 
+      <lb ed="#P" n="4"/>dici quod in motibus dicentibus aliquid 
+      absolu<lb ed="#P" n="5" break="no"/>tum, verum est quod terminus penes quem 
+      distin<lb ed="#P" n="6" break="no"/>guitur est aliqua forma absoluta communicata, 
+      <lb ed="#P" n="7"/>Sed processiones diuinae non sunt tales, imo sunt 
+      <lb ed="#P" n="8"/>relationes: &amp; ideo instantia non valet. Vtrum 
+      <lb ed="#P" n="9"/>Spiritus sanctus debeat dici ingenitus, quia facise 
+      <lb ed="#P" n="10"/>est, praetermmrto. 
+      </p>
+            <p xml:id="hx2hx3-b25865-d1e1179">
+               <lb ed="#P" n="11"/>Praeterea diligenter annotandum est quod 
+      pe<lb ed="#P" n="12" break="no"/>mina est processio Spiritus sancti, aeterna 
+      videli<lb ed="#P" n="13" break="no"/>cet quae ineffabilis est, &amp;c. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

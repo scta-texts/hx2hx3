@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="316"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c06572"><!-- l4d1q7 -->
+            <head xml:id="hx2hx3-c06572-Hd1e99">Quaestio 7</head>
+            <head xml:id="hx2hx3-c06572-Hd1e101" type="question-title">De effectu et cessatione circumcisionis</head>
+            <p xml:id="hx2hx3-c06572-d1e104">
+               <lb ed="#P" n="72"/>QVAESTIO SEPTIMA 
+      <lb ed="#P" n="73"/>SEptimo quaeritur de effectu, &amp; cessatione 
+      cir<lb ed="#P" n="74" break="no"/>cuncifionis. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e113">
+               <lb ed="#P" n="75"/>Circa quod sciendum quod Magister videtur 
+      <lb ed="#P" n="76"/>fuisse istius opinionis, quod auferebat culpam 
+      ori<lb ed="#P" n="77" break="no"/>ginalem: sed non conferebat gratiam. Hoc tamen 
+      <lb ed="#P" n="78"/>non tenetur modo: sed tenetur quod faciebat 
+      <lb ed="#P" n="79"/>vtrumque modo quo dicetur. Quod autem 
+      aufer<lb ed="#P" n="80" break="no"/>ret culpam probatur sic. Quia aliquid in cultu 
+      di<lb ed="#P" n="81" break="no"/>uino fieri: quod significet aliquid falsum est 
+      val<lb ed="#P" n="82" break="no"/>de superstitiosum, propter quod illud quod vere 
+      <lb ed="#P" n="83"/>est sacramentum, &amp; ad veram protestationem 
+      <lb ed="#P" n="84"/>pertinens non significat nisi verum. Sed 
+      circunci<lb ed="#P" n="85" break="no"/>sio erat huiusmodi. Ergo non signifitabat nisi verum: 
+      <lb ed="#P" n="86"/>sed significabat ablationem peccati vt dictum est, 
+      <lb ed="#P" n="87"/>Ergo, &amp;c. Quod autem conferret gratiam sic 
+      pa<lb ed="#P" n="88" break="no"/>tet. Peccatum enim originale formaliter loquene &amp; 
+      <lb ed="#P" n="89"/>do nihil aliud est quam carentia iustitiae originalis 
+      <lb ed="#P" n="90"/>cum debito habendi: quod quidem debitum 
+      ha<lb ed="#P" n="91" break="no"/>bendi inest paruulo ex hoc quod traducitur a 
+      vir<lb ed="#P" n="92" break="no"/>tute generatiua traducta ab Adam. Et ideo in 
+      om<lb ed="#P" n="93" break="no"/>nibus illis inest talis culpa quae descendit via 
+      ge<lb ed="#P" n="94" break="no"/>nerationis naturalis ab Adam mediate vel 
+      imme<lb ed="#P" n="95" break="no"/>diate: ergo ablatio culpae originalis potest attendi 
+      <lb ed="#P" n="96"/>vel quantum ad hoc quod est carentia quaedam: 
+      <lb ed="#P" n="97"/>vel quantum ad hod quod est ibi debitum 
+      haben<lb ed="#P" n="98" break="no"/>di. Quantum ergo ad hoc quod est ibi carentia 
+      <lb ed="#P" n="99"/>quaedam, non potest auferri nisi per gratiam: quia 
+      <lb ed="#P" n="100"/>impossibile est auferri priuationem nisi per 
+      ali<lb ed="#P" n="101" break="no"/>quid positiuum: licet enim aliquod positiuum 
+      pos<lb ed="#P" n="102" break="no"/>sit auferri non causando aliquod positiuum, 
+      scili<lb ed="#P" n="103" break="no"/>cet, subtrahendo influentiam agentis: sicut pater 
+      <lb ed="#P" n="104"/>de ablatione luminis in aere ad absentiam solis; 
+      <lb ed="#P" n="105"/>priuatio tamen nullo modo potest auferri nisi 
+      po<lb ed="#P" n="106" break="no"/>nendo positiuum. Sed secundum cursum 
+      com<lb ed="#P" n="107" break="no"/>munem illud positiuum per quod aufertur 
+      priua<lb ed="#P" n="108" break="no"/>tio quam importat peccatum originale, vel 
+      pecca<lb ed="#P" n="109" break="no"/>tum actuale mortale, non est nisi gratia: quia nulli 
+      <lb ed="#P" n="110"/>confertur iustitia originalis. Ergo culpa 
+      origina<lb ed="#P" n="111" break="no"/>lis quantum ad hoc quod est priuatio quaedam non 
+      <lb ed="#P" n="112"/>aufertur nisi per gratiam. Licet enim Deus 
+      abso<lb ed="#P" n="113" break="no"/>lute posset carentiam illam auferre conferendo 
+      <lb ed="#P" n="114"/>aliud quam gratiam, puta iustitiam originalem: 
+      <lb ed="#P" n="115"/>tamen non potest auferre illud priuatiuum, vt 
+      <lb ed="#P" n="116"/>est carentia quaedam, nisi conferendo aliquod 
+      po<lb ed="#P" n="117" break="no"/>sitiuum quicquid sit illud: &amp; illud secundum 
+      cur<lb ed="#P" n="118" break="no"/>sum communem non est nisi gratia: quia illud 
+      de<lb ed="#P" n="119" break="no"/>bitum non potest auferri nisi vel per hoc quod 
+      il<lb ed="#P" n="120" break="no"/>lud quod est debitum haberi habeatur: quia illud 
+      <lb ed="#P" n="121"/>recuperatur, vel per aliquid aequiualens, vel plus 
+      <lb ed="#P" n="122"/>valens confertur. Sed prima duo secundum 
+      cur<lb ed="#P" n="123" break="no"/>sum communem non habent locum: Ergo opus 
+      <lb ed="#P" n="124"/>quod illud debitum auferatur per eollationem 
+      <lb ed="#P" n="125"/>alicuius aequiualentis: hoc autem non est nisi gra 
+      <lb ed="#P" n="126"/>tia: ergo, &amp;c. Et sic patet quod circuncisio 
+      aufere<lb ed="#P" n="127" break="no"/>bat culpam, &amp; conferebat gratiam. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e230">
+               <lb ed="#P" n="128"/>Notandum tamen quod aliquod sacramentum, 
+      <lb ed="#P" n="129"/>conferre gratiam potest dupliciter intelligi. Vno 
+      <lb ed="#P" n="130"/>modo vt sit causa gratiae propter quam gratia sit: 
+      <lb ed="#P" n="131"/>causando, scilicet, in anima aliquam dispositionem 
+      <lb ed="#P" n="132"/>ad gratiam. Et sic sacramenta nouae legis conferunt 
+      <lb ed="#P" n="133"/>gratiam. Secundo modo vt causa sine qua non: ita 
+      <lb ed="#P" n="134"/>quod ex quadam pactione diuina recipiens 
+      sacra<lb ed="#P" n="135" break="no"/>mentum recipiat a Deo gratiam, &amp; si in nullo 
+      co<lb ed="#P" n="136" break="no"/>opererur per motum liberi arbitrii. Et sic 
+      sacra<lb ed="#P" n="137" break="no"/>menta legis veteris neutro modo conferebant 
+      gra<lb ed="#P" n="138" break="no"/>tiam: ita quod ex parte operis operati aliquid 
+      <!--317.xml-->
+      <pb ed="#P" n="317"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>fieret in anima cxercentis sacramentum praeter 
+      il<lb ed="#P" n="2" break="no"/>lud quod eius deuotio merebatur. Sed operans 
+      <lb ed="#P" n="3"/>ex deuotione sua poterat mereri gratiam. Et hoc 
+      <lb ed="#P" n="4"/>est quod communiter dicitur, quod opus 
+      opera<lb ed="#P" n="5" break="no"/>tum ibi nihil faciebat, idest, ipsum sacramentum in 
+      <lb ed="#P" n="6"/>quo homo exercebatur: sed opus operans, idest, 
+      <lb ed="#P" n="7"/>deuotio operantis. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e279">
+               <lb ed="#P" n="8"/>Si autem quaeratur vtrum conferret 
+      characte<lb ed="#P" n="9" break="no"/>rem dicendum, quod non. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e286">
+               <lb ed="#P" n="10"/>Primo. Quia inquantum character est 
+      distin<lb ed="#P" n="11" break="no"/>ctiuum non requirebatur tunc: quia tunc 
+      popu<lb ed="#P" n="12" break="no"/>lus fidelis multiplicabatur carnaliter: &amp; ita 
+      suffi<lb ed="#P" n="13" break="no"/>ciebat distinctiuum factum exterius in carne per 
+      <lb ed="#P" n="14"/>circuncisionem. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e299">
+               <lb ed="#P" n="15"/>Secundo. Quia character qui imprimitur in 
+      <lb ed="#P" n="16"/>anima est quaedam dispositio ad pratiami &amp; 
+      sacra<lb ed="#P" n="17" break="no"/>mentum eam imprimens est causa ad gratiam: 
+      sa<lb ed="#P" n="18" break="no"/>cramenta autem veteris legis non conferebant 
+      <lb ed="#P" n="19"/>gtatiam. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e312">
+               <lb ed="#P" n="20"/>Tertio. Quia character, impressus est quaedam 
+      <lb ed="#P" n="21"/>potentia spiritualis exercendi actiue vel passiue, 
+      <lb ed="#P" n="22"/>alios actus Hierarchicos in Ecclesia, sicut 
+      chara<lb ed="#P" n="23" break="no"/>cter baptismalis est quo aliquis efficitur potens 
+      re<lb ed="#P" n="24" break="no"/>cipere effectus aliorum sacramentorum: &amp; 
+      cha<lb ed="#P" n="25" break="no"/>racter ordinis est potestas min strandi 
+      sacramen<lb ed="#P" n="26" break="no"/>ta conferentia gratiam, tales autem actus non 
+      e<lb ed="#P" n="27" break="no"/>rant tempore illo: ideo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e332">
+               <lb ed="#P" n="28"/>Si autem quaeratur vtrum debuerit cessare, 
+      di<lb ed="#P" n="29" break="no"/>cendum quod sic. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e339">
+               <lb ed="#P" n="30"/>Ad cuius eu dentiam sciendum, quod tria 
+      e<lb ed="#P" n="31" break="no"/>rant genera praeceptorum in veteri lege, scilicet 
+      <lb ed="#P" n="32"/>moralia, cerimonialia &amp; iudicialia. Moralia sunt 
+      <lb ed="#P" n="33"/>illa quae ratio recta dictat in ordine, vel ad ipsum 
+      <lb ed="#P" n="34"/>proximum: vt quod emendandum sit passo 
+      iniu<lb ed="#P" n="35" break="no"/>riam: vel in ordine ad Deum vt quod Deus sit 
+      <lb ed="#P" n="36"/>honorandus &amp; colendus. Cerim enialia vero 
+      di<lb ed="#P" n="37" break="no"/>cuntur determinationes quaedam dictorum 
+      prae<lb ed="#P" n="38" break="no"/>ceptorum &amp; obseruationum circa cultum 
+      diui<lb ed="#P" n="39" break="no"/>num: vt quod Deus debeat coli talibus sacrificiis 
+      <lb ed="#P" n="40"/>puta oblatione talis animalis vel tanta, vel aliquo 
+      <lb ed="#P" n="41"/>tali. Iudicialia vero sunt determinationes 
+      dicto<lb ed="#P" n="42" break="no"/>rum praeceptorum in his quae sunt ad proximum, 
+      <lb ed="#P" n="43"/>vel in his quae pertinent ad punitionem eorum qui 
+      <lb ed="#P" n="44"/>aliquid forte faciebant contra cultum Dei. Et 
+      di<lb ed="#P" n="45" break="no"/>cebantur iudicialia, quia secundum ea videbatur 
+      <lb ed="#P" n="46"/>populus: verbi gratia quod fur ouis redderet 
+      qua<lb ed="#P" n="47" break="no"/>tuor, vel aliquiditale. Modo praecepta moralia 
+      <lb ed="#P" n="48"/>semper manent, quia semper tenetur homo ad 
+      il<lb ed="#P" n="49" break="no"/>lud quod ratio dictat. Praecepta autem iudicialia 
+      <lb ed="#P" n="50"/>quantum ad hoc non manent quod aliquis 
+      obli<lb ed="#P" n="51" break="no"/>getur eis, vt ostendatur illa lex non obligaretem. 
+      <lb ed="#P" n="52"/>pore Euangelii. Possunt tamen statui ex causa 
+      ra<lb ed="#P" n="53" break="no"/>tionab ili ab illis qui praesunt populo christiano: 
+      si<lb ed="#P" n="54" break="no"/>cut quod soluantur decime ministris Dei, vel 
+      ali<lb ed="#P" n="55" break="no"/>quid tale. Praecopta vero cerimonialia, quae 
+      scili<lb ed="#P" n="56" break="no"/>cet erant quaedam protestationes in cultu diuino 
+      <lb ed="#P" n="57"/>de fide Christi futuri &amp; passuri: nec manent, nec 
+      <lb ed="#P" n="58"/>post promulgationem Euangelii licet tenere ea. 
+      <lb ed="#P" n="59"/>Et ratio huius est, quia in cultu diuino nullum 
+      si<lb ed="#P" n="60" break="no"/>gnum falsum debet esse: sed si ea quae pertinebant 
+      <lb ed="#P" n="61"/>ad praecepta cerimonialia seruarentur modo, 
+      si<lb ed="#P" n="62" break="no"/>guificerent falsum: ergo modo non licet seruare 
+      <lb ed="#P" n="63"/>ea, nec secundum ea Deum colere. Maior patet 
+      <lb ed="#P" n="64"/>ex dictis. Minor probatur, quia omnia illa quae 
+      <lb ed="#P" n="65"/>modo significarent ea quae sunt facta circa 
+      passio<lb ed="#P" n="66" break="no"/>nem Christi vt fiend a in posterum essent fassa, sed 
+      <lb ed="#P" n="67"/>omnia praecepta cerimonialia veteris legis 
+      signifi<lb ed="#P" n="68" break="no"/>cabant ea quae gesta sunt circa passionem Christi, 
+      <lb ed="#P" n="69"/>&amp; ipsum Christum vt futura. Ergo, &amp;c. Cum 
+      er<lb ed="#P" n="70" break="no"/>go circuncisio pertineat ad cerimonalia, quia erat 
+      <!--317.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>sacramentum veteris legis, circuncisio debuit 
+      ces<lb ed="#P" n="72" break="no"/>sare: circuncisio enim significabat Christum 
+      pas<lb ed="#P" n="73" break="no"/>surum. Vnde notandum quod legalia vsque ad 
+      <lb ed="#P" n="74"/>passionem Christi fuerunt viuat vt infra dicetur: a 
+      <lb ed="#P" n="75"/>passione autem vsque ad promulgarionem 
+      Euan<lb ed="#P" n="76" break="no"/>gelii fuerunt mortua: quia nihil proderant ad 
+      sa<lb ed="#P" n="77" break="no"/>lutem: non tamen mortifera, quia non 
+      pecca<lb ed="#P" n="78" break="no"/>bant illi qui obseruabant ea non intentione quod 
+      <lb ed="#P" n="79"/>quaererent salutem in eis: sed vt ostenderentur 
+      <lb ed="#P" n="80"/>quandoque fuisse bona ad cauendum offensa 
+      Iu<lb ed="#P" n="81" break="no"/>deorum nouiter conuersorum: qui non poterant 
+      <lb ed="#P" n="82"/>ita cito instrui quomodo legalia deberent cessare: 
+      <lb ed="#P" n="83"/>sed post promulgationem Euangelii fuerunt 
+      mor<lb ed="#P" n="84" break="no"/>tua &amp; mortifera: quia postquam nota est veritas 
+      <lb ed="#P" n="85"/>Euangelii quicumque obseruant ea peccant 
+      mo<lb ed="#P" n="86" break="no"/>taliter, quta inducunt superstitionem mendosam 
+      <lb ed="#P" n="87"/>in cultu diuino. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e472">
+               <lb ed="#P" n="88"/>Si autem quaeratur, quare pueri dicantur 
+      ma<lb ed="#P" n="89" break="no"/>gis saluari in fide parentumquam in charitatercum 
+      <lb ed="#P" n="90"/>charitas valeat plus quam fides. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e481">
+               <lb ed="#P" n="91"/>Dicendum quod licet charitas plus valeat ad 
+      <lb ed="#P" n="92"/>salutem propriam quam fides non tamen ad 
+      salu<lb ed="#P" n="93" break="no"/>tem alienam. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e490">
+               <lb ed="#P" n="94"/>Ad euius euidentiam est sciendum, quod 
+      pa<lb ed="#P" n="95" break="no"/>rentes in quorum fide dicebantur paruuli saluari, 
+      <lb ed="#P" n="96"/>non dicebantur aliquid operari ad salutem pueri 
+      <lb ed="#P" n="97"/>per modum meriti, quasi meretentur aliquid 
+      pue<lb ed="#P" n="98" break="no"/>ro: sed dicebantur aliquid facere ad salutem 
+      pue<lb ed="#P" n="99" break="no"/>ri, nquantum quoddammodo applicabant 
+      virtu<lb ed="#P" n="100" break="no"/>tem Christi passuri ad puerum. 
+      </p>
+            <p xml:id="hx2hx3-c06572-d1e508">
+               <lb ed="#P" n="101"/>Hic autem faciebant inquantum habebant 
+      <lb ed="#P" n="102"/>actualem intentionem referendi puerum ad 
+      futu<lb ed="#P" n="103" break="no"/>rum redemptorem intendentes, scilicet quod esset 
+      <lb ed="#P" n="104"/>particeps redemptionis futurae. Ex his potest 
+      fa<lb ed="#P" n="105" break="no"/>ciliter formari talis ratio. Illud plus valebat ad 
+      <lb ed="#P" n="106"/>salutem pueri in lege naturae quod erat magis 
+      ne<lb ed="#P" n="107" break="no"/>cessarium ad applicandum virtutem Christi ad 
+      <lb ed="#P" n="108"/>puerum praedicto modo. Sed ad hoc magis erat 
+      <lb ed="#P" n="109"/>necessaria fides quam charitas. Ergo, &amp;c. 
+      Ma<lb ed="#P" n="110" break="no"/>ior patet ex dictis: Minor probatur. Quia nullus 
+      <lb ed="#P" n="111"/>intenderet applicare talem virtutem nisi erederet 
+      <lb ed="#P" n="112"/>aliquid de ea. Sed bene charitate possct aliquis 
+      <lb ed="#P" n="113"/>intendere talem applicationem: ergo fides qua 
+      <lb ed="#P" n="114"/>creditur ipse redemptor est magis necessaria quam 
+      <lb ed="#P" n="115"/>chatitas ad salutem pueri: 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

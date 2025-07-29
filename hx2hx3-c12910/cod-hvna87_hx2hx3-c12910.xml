@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="335"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c12910"><!-- l4d6q4 -->
+            <head xml:id="hx2hx3-c12910-Hd1e99">Quaestio 4</head>
+            <head xml:id="hx2hx3-c12910-Hd1e101" type="question-title">Utrum baptismus possit reiterari</head>
+            <p xml:id="hx2hx3-c12910-d1e104">
+               <lb ed="#P" n="5"/>QVAESTIO QVARTA. 
+      <lb ed="#P" n="6"/>Qvarto quaeritur vtrum baptismus possit 
+      rei<lb ed="#P" n="7" break="no"/>terari. 
+      </p>
+            <p xml:id="hx2hx3-c12910-d1e113">
+               <lb ed="#P" n="8"/>Ad quod dicendum quod non: quod potest 
+      <lb ed="#P" n="9"/>ostendi ex effectu baptismi qui est duplex. Vnus, 
+      <lb ed="#P" n="10"/>scilicet priuatiuns qui est tollere culpam: &amp; 
+      a<lb ed="#P" n="11" break="no"/>lius positiuus. Et hic est duplex. Primus est 
+      pro<lb ed="#P" n="12" break="no"/>prius effectus sacramenti, scilicet character. 
+      Se<lb ed="#P" n="13" break="no"/>cundus conuenit non solum baptismo: sed etiam 
+      <lb ed="#P" n="14"/>alijs sacramentis: quia attingitur ab alijs 
+      sacra<lb ed="#P" n="15" break="no"/>mentis, scilicet conferre gratiam &amp; virtutes. 
+      <lb ed="#P" n="16"/>Quod autem baptismus non debeat iterari potest 
+      <lb ed="#P" n="17"/>ostendi ex parte effectus priuatiui dupliciter. 
+      </p>
+            <p xml:id="hx2hx3-c12910-d1e137">
+               <lb ed="#P" n="18"/>Primo, quia quando malum vel morbus ad 
+      <lb ed="#P" n="19"/>quem ordinatur medicina nom ost iterabile nec 
+      me<lb ed="#P" n="20" break="no"/>dicina debet esse iterabilis. Sed peccatum 
+      origi<lb ed="#P" n="21" break="no"/>nale contra quod principaliter ordinatur 
+      baptis<lb ed="#P" n="22" break="no"/>mus non est iterabile. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12910-d1e151">
+               <lb ed="#P" n="23"/>Secundo, quia illud non faciendum in 
+      eccle<lb ed="#P" n="24" break="no"/>sia quod daret frequentius incentiuum 
+      peccand<lb ed="#P" n="25" break="no"/>Sed hoc fieret iterando baptismum, quia in 
+      bap<lb ed="#P" n="26" break="no"/>tismo remittuntur omnia peccata quantum ad 
+      <lb ed="#P" n="27"/>culpam &amp; poenam sine exteriori confessiono Et si 
+      <lb ed="#P" n="28"/>sic iteraretur daretur occasio multis multa mala 
+      <lb ed="#P" n="29"/>faciendi. 
+      </p>
+            <p xml:id="hx2hx3-c12910-d1e169">
+               <lb ed="#P" n="30"/>Ex parte etiam primi effectus positiui 
+      baptis<lb ed="#P" n="31" break="no"/>mi, qui est conferre characterem ostenditur idem 
+      <lb ed="#P" n="32"/>sic, quia quando proprius effectus sacramenti non 
+      <lb ed="#P" n="33"/>est iterabilis, nec sacramentum. Sed collatio 
+      cha<lb ed="#P" n="34" break="no"/>racteris baptismalis qui est proprius effectus 
+      bap<lb ed="#P" n="35" break="no"/>tismi non est iterabilis, quia nunquam deletur. 
+      <lb ed="#P" n="36"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12910-d1e187">
+               <lb ed="#P" n="37"/>Ex parte autem secundi effectus qui est 
+      con<lb ed="#P" n="38" break="no"/>ferre gratiam ostenditur sic, quia propter illum 
+      <lb ed="#P" n="39"/>effectum qui potest per alia sacramenta suppleri 
+      <lb ed="#P" n="40"/>non debet iterari baptismus: sed collatio gratiae 
+      <lb ed="#P" n="41"/>potest fieri per alia sacramenta, quia per 
+      poeniten<lb ed="#P" n="42" break="no"/>tiam &amp; quaecumque alia cum displicentia tamen 
+      <lb ed="#P" n="43"/>peccati, conferuntur gratia &amp; virtutes. Ergo, 
+      <lb ed="#P" n="44"/>&amp;c. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

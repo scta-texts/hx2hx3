@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="353"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c19150"><!-- l4d11q2 -->
+            <head xml:id="hx2hx3-c19150-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-c19150-Hd1e101" type="question-title">Utrum conveniens materia huius sacramenti sit panis et vinum</head>
+            <p xml:id="hx2hx3-c19150-d1e104">
+               <lb ed="#P" n="62"/>Sub alia autem specie tribus de 
+      <lb ed="#P" n="63"/>tausss, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c19150-d1e111">
+               <lb ed="#P" n="64"/>QVAESTIO SECVNDA
+      </p>
+            <p xml:id="hx2hx3-c19150-d1e116">
+               <lb ed="#P" n="65"/>SEcundo quaeritur. vtrum conueniens 
+      ma<lb ed="#P" n="66" break="no"/>teria huius sacramenti sit panis &amp; vinum.
+      </p>
+            <p xml:id="hx2hx3-c19150-d1e124">
+      <!--353.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>Dicendum, quod sic: &amp; ex parte vsus: &amp; ex 
+      <lb ed="#P" n="68"/>parte significationis: &amp; ex parte effectus qui fiunt 
+      <lb ed="#P" n="69"/>nobis, vt patet in scriptis sancti Thomae. Est 
+      au<lb ed="#P" n="70" break="no"/>tem intelligendum, quod materia huius 
+      sacra<lb ed="#P" n="71" break="no"/>menti potest considerari vel quantum ad 
+      quiddi<lb ed="#P" n="72" break="no"/>tatem, vel quantum ad quantitatem, vel quautum 
+      <lb ed="#P" n="73"/>ad qualitatem. Quantum ad quidditatem 
+      requi<lb ed="#P" n="74" break="no"/>ritur panis compositus ex aqua &amp; farina tritici. 
+      Li<lb ed="#P" n="75" break="no"/>vet enim spelta sit conueniens cum tritico, non est 
+      <lb ed="#P" n="76"/>tamen certum vtrum sit eiusdem speciei cum 
+      tri<lb ed="#P" n="77" break="no"/>tico, quod pater sic, quia ille panis requiritur pro 
+      <lb ed="#P" n="78"/>materia huius sacramenti quantum ad 
+      quiddita<lb ed="#P" n="79" break="no"/>tem panis quae est eiusdem speciei cum pane in 
+      <lb ed="#P" n="80"/>quo Christus corfecit: sed nullus panis est ralis 
+      <lb ed="#P" n="81"/>nisi sit de grano eiusdem speciei cum tritico vt 
+      pa<lb ed="#P" n="82" break="no"/>tet, &amp; aqua, quia si fieret ex farina tritici &amp; 
+      la<lb ed="#P" n="83" break="no"/>cte, velo anguine vel aliquo alio liquore mutaretur 
+      <lb ed="#P" n="84"/>species panis: ergo oportet, quodmateria huius 
+      sa<lb ed="#P" n="85" break="no"/>cramenti quantum ad corpus sit panis 
+      composi<lb ed="#P" n="86" break="no"/>tus ex aqua &amp; farina tritici. Ex hoc patet vlterius, 
+      <lb ed="#P" n="87"/>quod si eum grano tritici commisceantur alia 
+      gra<lb ed="#P" n="88" break="no"/>na si fiat ralis commirtio, quod mutet farinam 
+      pa<lb ed="#P" n="89" break="no"/>nis triticei, non erit conueniens materia, nec 
+      po<lb ed="#P" n="90" break="no"/>terit consecrari in ea. Si vero non mutet speciem 
+      <lb ed="#P" n="91"/>panis triticei erit conueniens materia. 
+      </p>
+            <p xml:id="hx2hx3-c19150-d1e185">
+               <lb ed="#P" n="92"/>Quantum vero ad Sanguinem requiritur in 
+      <lb ed="#P" n="93"/>hoc sacramento pro materia vinum de vite, sicint 
+      <lb ed="#P" n="94"/>Christus in tali vino confecit aliter non 
+      consecra<lb ed="#P" n="95" break="no"/>retur. Ex quo vlterius patet, quod si ponarur in 
+      <lb ed="#P" n="96"/>vino tantum de aqua, quod mutetur species vini, 
+      <lb ed="#P" n="97"/>non erit materia conueniens. 
+      </p>
+            <p xml:id="hx2hx3-c19150-d1e201">
+               <lb ed="#P" n="98"/>Quantum autem ad quantitatem panis &amp; 
+      vi<lb ed="#P" n="99" break="no"/>ni aliud est de necessitate sacramenti aliud de 
+      de<lb ed="#P" n="100" break="no"/>centia. Quantum autem est de necessitate 
+      sacra<lb ed="#P" n="101" break="no"/>menti nulla est detetminata quantitas, quia 
+      tan<lb ed="#P" n="102" break="no"/>tum potest consecrare quantum potest 
+      demon<lb ed="#P" n="103" break="no"/>strare ad sensum. Cuius ratio est quia quantitas 
+      <lb ed="#P" n="104"/>materiae &amp; formae sacramenti debet accipi 
+      secun<lb ed="#P" n="105" break="no"/>dum telationem ad finem: sed finis huius 
+      sacra<lb ed="#P" n="106" break="no"/>mentiest ad refectionem &amp; pastum fidelium: sed 
+      <lb ed="#P" n="107"/>pastus &amp; refectio fidelium non est determinatus. 
+      <lb ed="#P" n="108"/>Ergo, &amp;c. Et si dicatur, quod qui faceret in 
+      ma<lb ed="#P" n="109" break="no"/>gna quantitate non videtur intendere, quod 
+      fa<lb ed="#P" n="110" break="no"/>cit Ecclesia. Et per conseques videretur quod non 
+      <lb ed="#P" n="111"/>consecret. Non valet, quia quod aliquis intendar 
+      <lb ed="#P" n="112"/>facere, quod facit Ecclesia contingit dupliciter. 
+      <lb ed="#P" n="113"/>Vno modo quantum ad perficiendum 
+      sacramen<lb ed="#P" n="114" break="no"/>tum. Et hoc est quod intendit consecrare. Et hoc 
+      <lb ed="#P" n="115"/>requiritur de necessitate ad sactamentum, aliter 
+      <lb ed="#P" n="116"/>non consecraret. Ilio modo quo, ad bonum 
+      spi<lb ed="#P" n="117" break="no"/>ritualem sine quo ad meritum quod inde 
+      sequitur<lb ed="#P" n="118" break="no"/>&amp; hoc est cumdeuotione &amp; reuerentia sumere 
+      si<lb ed="#P" n="119" break="no"/>ue consecrare sacramentum: &amp; istud non est de 
+      <lb ed="#P" n="120"/>necessitate sacramenti: licet ergo talis vt videtur, 
+      <lb ed="#P" n="121"/>videtur, quod non intendat facere quod faciat 
+      <lb ed="#P" n="122"/>Ecclesia isto vltimo modo, tamen oportet, quod 
+      <lb ed="#P" n="123"/>intendat facere quod facit Ecclesia primo medos 
+      <lb ed="#P" n="124"/>&amp; istud sufficit ad consecrandum. Quantum aurem 
+      <lb ed="#P" n="125"/>ad decentiam sacramenti est conueniens, quod 
+      <lb ed="#P" n="126"/>accipiatur congrua quantitas. 
+      </p>
+            <p xml:id="hx2hx3-c19150-d1e266">
+               <lb ed="#P" n="127"/>Quantum ad qualitatem materiae huius 
+      sacra<lb ed="#P" n="128" break="no"/>menti quantum est de necessitate sacramenti non 
+      <lb ed="#P" n="129"/>refert vtrum materia sit quadrata vel rotunda, vel 
+      <lb ed="#P" n="130"/>vtrum panis sit aximus vel fermentatus: quia 
+      dum<lb ed="#P" n="131" break="no"/>modo maneat forma panis triticei &amp; vini semper 
+      <lb ed="#P" n="132"/>potest confici: sed quantum est de essentia 
+      sacra<lb ed="#P" n="133" break="no"/>menti si facit quod facit praua intentione &amp; 
+      per<lb ed="#P" n="134" break="no"/>uersa, puta si intenderet consecrare in aximo vt 
+      <lb ed="#P" n="135"/>seruaret legalia, vel in fermentato vt faceret 
+      <lb ed="#P" n="136"/>contra praeceptum Ecclesiae, vel vt induceret ne¬ 
+      <!--354.xml-->
+      <pb ed="#P" n="354"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>uum ritum in Ecelesia peccaret mortaliter, tamen, 
+      <lb ed="#P" n="2"/>conficeret: sed si hoc faceret non peruersa 
+      inten<lb ed="#P" n="3" break="no"/>tione vt dictum est, sed in detestarionem alicius 
+      <lb ed="#P" n="4"/>haeresis sicut in detestationem erroris 
+      Nazareo<lb ed="#P" n="5" break="no"/>tum quandoque fuit celebratum in fermentato, 
+      <lb ed="#P" n="6"/>forte non peccaret. Est etiam aduertendum, quod 
+      <lb ed="#P" n="7"/>aqua apponenda est in vino in hoc sacramento ad 
+      <lb ed="#P" n="8"/>significandum populum Christi Sanguine 
+      re<lb ed="#P" n="9" break="no"/>demptum: sine qua tamen verum esset 
+      sacra<lb ed="#P" n="10" break="no"/>mentum, quia manente illa materia in qua 
+      Chri<lb ed="#P" n="11" break="no"/>stus confecit, semper conficitur: sed vinum est 
+      <lb ed="#P" n="12"/>huiusmodi. Sed tamen qui scienter aquam omit. 
+      <lb ed="#P" n="13"/>teret grauiter peccaret. Notandum etiam, quod 
+      <lb ed="#P" n="14"/>secundum Innocentium tertium, si post 
+      consecra<lb ed="#P" n="15" break="no"/>tionem corporis percipitur aquam esse in calice 
+      <lb ed="#P" n="16"/>vel nihil, si adhuc non sumpsit Hostiam, Hostia 
+      <lb ed="#P" n="17"/>ponenda est ad partem &amp; de nouo est 
+      celebran<lb ed="#P" n="18" break="no"/>dum &amp; ministrandum, si etiam iam sumpsit 
+      Ho<lb ed="#P" n="19" break="no"/>stiam, iterum similiter debet ministrare. Si etiam 
+      <lb ed="#P" n="20"/>non solum sumpsit Hostiam sed etiam aquam 
+      exi<lb ed="#P" n="21" break="no"/>stentem in calice, adhuc idem est faciendum, 
+      <lb ed="#P" n="22"/>quia talis licet post assumptionem aquae non sit 
+      ie<lb ed="#P" n="23" break="no"/>iunus, tamen minus malum est, quod non 
+      iciu<lb ed="#P" n="24" break="no"/>nus accipiat quam quod sacramentum maneat 
+      <lb ed="#P" n="25"/>imperfectum. Nam in casu necessitatis hoc 
+      sacra<lb ed="#P" n="26" break="no"/>mentum accipi potest a non ieiuno. Hic autem 
+      <lb ed="#P" n="27"/>est casus necessitatis, scilicet perficiendi hoc 
+      sa<lb ed="#P" n="28" break="no"/>cramentum. Nota de hac materia in tertia parte 
+      <lb ed="#P" n="29"/>sancti Thomae, vbi ponit hunc casum. 
+      </p>
+            <p xml:id="hx2hx3-c19150-d1e360">
+               <lb ed="#P" n="30"/>Notandum etiam, quod triplex est ratio 
+      qun<lb ed="#P" n="31" break="no"/>re datur laicis solum sub specie panis. Prima ne 
+      <lb ed="#P" n="32"/>crederetur totum non esse sub vtraque specie. 
+      Se<lb ed="#P" n="33" break="no"/>cunda ne Sanguis effunderetur. Tertia quia in 
+      <lb ed="#P" n="34"/>veteri lege in omni sacrificio erat libamen de quo 
+      <lb ed="#P" n="35"/>nihil habebant offerentes, licet haberent de 
+      sa<lb ed="#P" n="36" break="no"/>crificio: sed per libamen significatur Sanguis 
+      <lb ed="#P" n="37"/>Christi, per sacrificium corpus eius: ideo recte 
+      in<lb ed="#P" n="38" break="no"/>stituit Eccllesia vt sub specie panis daretur tantum 
+      <lb ed="#P" n="39"/>assistentibus: &amp; quod Sacerdos assumeret sub 
+      <lb ed="#P" n="40"/>vtraque specie. Aliae rationes &amp;bonae assignantur 
+      <lb ed="#P" n="41"/>in littera. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

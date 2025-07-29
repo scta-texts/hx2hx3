@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#HerveusNatalis">Herveus Natalis</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2025-07-29">July 29, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="30"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hx2hx3-a09831"><!-- l1d2q4 -->
+        <head xml:id="hx2hx3-a09831-Hd1e99">Quaestio 4</head>
+        <head xml:id="hx2hx3-a09831-Hd1e101" type="question-title">Utrum in divinis sit pluralitas personarum</head>
+        <p xml:id="hx2hx3-a09831-d1e104">
+          <lb ed="#P" n="115"/>Distinctio secunda. 
+          <lb ed="#P" n="116"/>QVAESTIOQVARIAT. 
+        </p>
+        <p xml:id="hx2hx3-a09831-d1e111">
+          <lb ed="#P" n="117"/>Vtrum in diuinus sit pluralitas personarum 
+        </p>
+        <p xml:id="hx2hx3-a09831-d1e116">
+          <lb ed="#P" n="118"/>ET arguitur quod non, quia sicut se habet ra¬. 
+          <lb ed="#P" n="119"/>tio ad differentia rationis, ita res ad 
+          differen<lb ed="#P" n="120" break="no"/>tiam realem. Sed non potest esse quod aliqua sint 
+          <lb ed="#P" n="121"/>idem &amp; diuersa ratione per id quod est vnum 
+          ra<lb ed="#P" n="122" break="no"/>tione: Ergo nec aliqua possunt esse idem realiter 
+          <lb ed="#P" n="123"/>&amp; distincta per illud quod est idem re. Sed 
+          essen<lb ed="#P" n="124" break="no"/>tia &amp; relatio in diuinis sunt idem re: Ergo 
+          impossi<lb ed="#P" n="125" break="no"/>bile est, vt videtur, esse in diuinis plures personas 
+          <lb ed="#P" n="126"/>quae sunt vnum re per essentiam &amp; plures re per 
+          re<lb ed="#P" n="127" break="no"/>lationem. 
+        </p>
+        <p xml:id="hx2hx3-a09831-d1e141">
+          <lb ed="#P" n="128"/>In contrarium est fides.
+        </p>
+        <p xml:id="hx2hx3-a09831-d1e146">
+          <lb ed="#P" n="129"/>Respondeo. Trinitatem personarum esse in 
+          di<lb ed="#P" n="130" break="no"/>uinia cum vnitate simplicissima essentiae, firmi 
+          ssime<lb ed="#P" n="131" break="no"/>tenendum est: Sed vtrum hoc habeat teneri sola 
+          <lb ed="#P" n="132"/>fide an demonstn rari possit, forte propter diuersita 
+          <lb ed="#P" n="133"/>tem opinionum posset esse dubium. Nam quidar 
+          <lb ed="#P" n="134"/>dicunt hioc posse demonstrari, sad dialectice. Sed 
+          <!--31.xml-->
+          <pb ed="#P" n="31"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>istud est vanum, quia dicere quod aliquid 
+          dernon<lb ed="#P" n="2" break="no"/>firatur dialectice, idem est ac si ponatur quod 
+          de<lb ed="#P" n="3" break="no"/>monstratio, syllogismus sit dialecticus; hoc autem 
+          <lb ed="#P" n="4"/>est idem ac si ponatur, idem esse homo &amp; albus &amp; 
+          <lb ed="#P" n="5"/>niger; si syllogismus est totum in modo ad 
+          demon<lb ed="#P" n="6" break="no"/>stratiuum &amp; dialecticum; vel ponere quod idem 
+          <lb ed="#P" n="7"/>animal sit bos &amp; homo, si pontur syllogismus 
+          <lb ed="#P" n="8"/>esse genus. Et ideo alii contrarium ponunt quod 
+          <lb ed="#P" n="9"/>Trinitas potest demonstrari ita bene sicut corpus 
+          <lb ed="#P" n="10"/>generatum ex contrariis esse corruptibile. Hoc 
+          au<lb ed="#P" n="11" break="no"/>tem etiam est mirabile, quia ad credendum 
+          Tri<lb ed="#P" n="12" break="no"/>nitatem non esset necessaria fides, &amp; possent ea 
+          <lb ed="#P" n="13"/>quae sunt nidei efficaciter infidelibus demonstrari; 
+          <lb ed="#P" n="14"/>Debilitas etiam rationum quas inducunt 
+          manife<lb ed="#P" n="15" break="no"/>sse ostendit ipsos nihil dicere. Dicunt enim quod 
+          <lb ed="#P" n="16"/>quia omnis operatio necessaria terminatur ad 
+          ali<lb ed="#P" n="17" break="no"/>quod operatum seuproductum, ideo oportet duas 
+          <lb ed="#P" n="18"/>operationes scilicet intelligere &amp; velle terminari 
+          <lb ed="#P" n="19"/>adduo operata seup oducta, scilicet ad Verbum &amp; 
+          <lb ed="#P" n="20"/>Spiritum sanctum. Et dicunt quod haec ratio ita 
+          <lb ed="#P" n="21"/>bene concludit sicut quaecunque demonstratio in 
+          <lb ed="#P" n="22"/>naturalibus. Sed hoc est mirabile. Primo quia 
+          <lb ed="#P" n="23"/>cum in diuinis intelligere &amp; velle sit vna operatio 
+          <lb ed="#P" n="24"/>secundum rem &amp; sint idemi re, si secundum 
+          opera<lb ed="#P" n="25" break="no"/>tiones deberent realiter plurificari operata vel 
+          <lb ed="#P" n="26"/>producta, tunc realiter non erit nisi vnum produ 
+          <lb ed="#P" n="27"/>ctum in diuins. Si dicatur quod generatio &amp; 
+          spi<lb ed="#P" n="28" break="no"/>ratio non lunt vnum re, &amp; ideo &amp;c. Nihil est, 
+          <lb ed="#P" n="29"/>quia licet intelligere &amp; velle esse in diuinis possit 
+          <lb ed="#P" n="30"/>demonstrari, non tamen generationem &amp; 
+          spira<lb ed="#P" n="31" break="no"/>tionem esse ibi potest demonstrari. Secundo quia 
+          <lb ed="#P" n="32"/>vt infra ostendetur, intelligere &amp; velle formaliter 
+          <lb ed="#P" n="33"/>non significant aliquid producere, alioquin 
+          im<lb ed="#P" n="34" break="no"/>possibile esset ea conuenire non producenti aliquid 
+          <lb ed="#P" n="35"/>effectiue. Et sic spiritus sanctus non intellexisset 
+          <lb ed="#P" n="36"/>nec voluisset ab aeterno. Nec valet quia non est ibi 
+          <lb ed="#P" n="37"/>cum respectu, quia producere effectiue non potest 
+          <lb ed="#P" n="38"/>esse nisi cum respectu, sicut impossibile est spirare 
+          <lb ed="#P" n="39"/>esse nisi cum respectu, ita esset &amp; de intelligere, si 
+          <lb ed="#P" n="40"/>vere diceret idem quod nliquid producere 
+          effecti<lb ed="#P" n="41" break="no"/>ue. Tertio quia secundum August. Inter 
+          Trini<lb ed="#P" n="42" break="no"/>tatem &amp; eius imaginem in creatura existentem 
+          <lb ed="#P" n="43"/>plus est de dissimilitudine quamde similitudine; 
+          <lb ed="#P" n="44"/>vbi autem plus est de dissimilitudine quam de 
+          simi<lb ed="#P" n="45" break="no"/>litudine male potest vnum demonstrari per aliud 
+          <lb ed="#P" n="46"/>ex vi talis similitudinis: Ergosatis male potest 
+          de<lb ed="#P" n="47" break="no"/>monstrari Trinitas personarum ex imagine, per 
+          <lb ed="#P" n="48"/>quam tamen omnes sancti maxime nituntur 
+          Tri<lb ed="#P" n="49" break="no"/>nitatem inuestigare. Alii dicunt quod Tiinitas 
+          <lb ed="#P" n="50"/>demonstrari non potest, sed bene potest ostendi 
+          <lb ed="#P" n="51"/>illa quae sequuntur ad ea quae dieimus in diuinis &amp; 
+          <lb ed="#P" n="52"/>fide tenemus de Trinitate &amp; aliis, non esse 
+          impos<lb ed="#P" n="53" break="no"/>sibilia, cum ea quae sunt fidei constet essu uera, &amp; 
+          <lb ed="#P" n="54"/>ex vero non possit sequi impossibile. Sed nec hoc 
+          <lb ed="#P" n="55"/>aliquid valet, si intendunt quod possumusdemon 
+          <lb ed="#P" n="56"/>stratiue probare quod ea quae sunt fidei sunt vera, 
+          <lb ed="#P" n="57"/>vel saltem possibilia, cuius contrarium ostensum 
+          <lb ed="#P" n="58"/>est supra. Secundo quia non videtur quod sit 
+          ali<lb ed="#P" n="59" break="no"/>cui magis euidens illa quae sequuntur ad ea quae 
+          <lb ed="#P" n="60"/>ponit sides non esse falsa vel impossibilia, quam ea 
+          <lb ed="#P" n="61"/>quiae nonit fides esse vera: ad verum autem non 
+          po<lb ed="#P" n="62" break="no"/>test tequi falsum vel impossibile: Sed ea que sunt 
+          <lb ed="#P" n="63"/>fidei esse vera non constat nobis demonstratiue, sed 
+          <lb ed="#P" n="64"/>sola fide tenemus pro certo ea esse vera &amp; ea quae 
+          <lb ed="#P" n="65"/>ad ipla sequuntur; licet persuasio aliqua 
+          probabi<lb ed="#P" n="66" break="no"/>lis possit ad ea adduci: Ergo &amp;c. Et ideo non 
+          vide<lb ed="#P" n="67" break="no"/>tur quod de Trinitate personarum vel alio articulo 
+          <lb ed="#P" n="68"/>fidei possit haberi demonstratio, sed sola certitudo 
+          <lb ed="#P" n="69"/>adhaesionis fidei &amp; aliqua persuasio: per suasio 
+          an<lb ed="#P" n="70" break="no"/>tem potest adduci ex parte intellectus &amp; voluntatis 
+          <!--31.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="71"/>quorum operationes perfectae ponuntut in diuiuu, 
+          <lb ed="#P" n="72"/>&amp; hoc sic: Deus intelligit se, &amp; intelligendo se 
+          in<lb ed="#P" n="73" break="no"/>telligit. Et alia: licet omnino idem sit ibi 
+          apprehen<lb ed="#P" n="74" break="no"/>dens &amp; apprehensum, non est tamen minus vete 
+          <lb ed="#P" n="75"/>apprehendens &amp; apprehensum ibi quam vbi haec 
+          <lb ed="#P" n="76"/>sunt diuersa, sed potius verius: Et ideo quod hic 
+          <lb ed="#P" n="77"/>communicatur vbi sunt diueisa, communicatur 
+          <lb ed="#P" n="78"/>etiam vbi sunt idem nisi repugnet maiestati: sed 
+          <lb ed="#P" n="79"/>vbi haec sunt diuersa, patet quod apprehensum 
+          <lb ed="#P" n="80"/>gignit ex se similitudinem in apprehendente, &amp; 
+          <lb ed="#P" n="81"/>apprehendens gignit ex se amorem in apprehenlo, 
+          <lb ed="#P" n="82"/>quasi appreliensum det apprehendenti suam 
+          spe<lb ed="#P" n="83" break="no"/>ciem, &amp; apprehendens quasi inuicem 
+          deprehen<lb ed="#P" n="84" break="no"/>dens dat apprehenso amorem. Ergo &amp; in Deo vbi 
+          <lb ed="#P" n="85"/>haec sunt idem ab ipso in quantum apprehensus 
+          <lb ed="#P" n="86"/>procedit genita similitudo, &amp; ab ipso in quantum 
+          <lb ed="#P" n="87"/>apprehendens est principium amoris procedentis, 
+          <lb ed="#P" n="88"/>&amp; in quantum apprehensus est principium prolise 
+          <lb ed="#P" n="89"/>Et sic sunt tres personae distinctae penes vnicum 
+          a<lb ed="#P" n="90" break="no"/>ctum specie &amp; numero. Vel breuius sic, quia 
+          o<lb ed="#P" n="91" break="no"/>perationes intellectus &amp; voluntatis in diuinis pn 
+          <lb ed="#P" n="92"/>nuntur perfectae, operationes aurem enrum non 
+          <lb ed="#P" n="93"/>sunt perfectae nisi erminentur ad aliquid 
+          produ<lb ed="#P" n="94" break="no"/>ctum intra quod ex parte intellectus est verbum 
+          <lb ed="#P" n="95"/>ex parte autem voluntatis est amor spiritus: 
+          haec<lb ed="#P" n="96" break="no"/>autem persuasio est, non demonstratio. Quidam 
+          <lb ed="#P" n="97"/>autem impugnant istam persuasionem, quia non 
+          <lb ed="#P" n="98"/>est motus voluntatis ad intra, nam bonum &amp; 
+          ma<lb ed="#P" n="99" break="no"/>lum sunt in rebus; verum &amp; falsum in int ellectu. 
+          <lb ed="#P" n="100"/>Sed hoc nihil est, quia sicut res est in intellectu per 
+          <lb ed="#P" n="101"/>suam similitudinem, &amp; in voluntate per amorem, 
+          <lb ed="#P" n="102"/>&amp; sicut amare terminatur ad rem extra sicut ad 
+          <lb ed="#P" n="103"/>obiectum amatum, ita etiam inteilligere ad rem 
+          <lb ed="#P" n="104"/>intellectam. Nam primum obiectum intellectus 
+          <lb ed="#P" n="105"/>non est verum, sed ens, quod quandoque est intra 
+          <lb ed="#P" n="106"/>quando intelligit se vel habitus suos; quandoque 
+          <lb ed="#P" n="107"/>extra, quando intelligit res ab eo diuersas. Et 
+          si<lb ed="#P" n="108" break="no"/>militer etiam est de voluntate, quia quande que 
+          <lb ed="#P" n="109"/>vult illud quod est in ea realiter, vt quand o vult 
+          <lb ed="#P" n="110"/>se; quandoque vero id quod est extra, vt quando 
+          <lb ed="#P" n="111"/>tult balneum vel aliquid tale. Quomodo autem 
+          <lb ed="#P" n="112"/>stet cum hoc quod intelligere est motus ad 
+          ani<lb ed="#P" n="113" break="no"/>mam, velle motus ab anima ad res, alias 
+          declara<lb ed="#P" n="114" break="no"/>bitur. Quomodo autem possint esse plures 
+          perso<lb ed="#P" n="115" break="no"/>nae realiter differentes in vnitate realis essentiae. 
+          Di<lb ed="#P" n="116" break="no"/>cunt quidam quod propter hoc est quod in Deo, 
+          <lb ed="#P" n="117"/>idem est essentia &amp; esse, nec potest communicari 
+          <lb ed="#P" n="118"/>eadem essentia quin communicetur secundum, 
+          <lb ed="#P" n="119"/>idem esse numero: non sic est in creaturis, de quo 
+          <lb ed="#P" n="120"/>breuiter transeo; tum quia non est multum 
+          cer<lb ed="#P" n="121" break="no"/>tum quod in creaturis differunt re, esse &amp; essentia 
+          <lb ed="#P" n="122"/>tum quia si ita esset non videtur quod essentia 
+          ma<lb ed="#P" n="123" break="no"/>gis haber et plurificari per esse quam e conuerso, 
+          <lb ed="#P" n="124"/>imo magis videtur e eonuerso quod esse non 
+          plu<lb ed="#P" n="125" break="no"/>rificetur nisi per plurificationem illius in quo 
+          reci<lb ed="#P" n="126" break="no"/>pitur; tum quia dito quod essentia plurificaretur 
+          <lb ed="#P" n="127"/>in creaturis per esse, &amp; quod suppositum includit 
+          <lb ed="#P" n="128"/>vltra essentiam ipsum esse, &amp; quod propter diuersa 
+          <lb ed="#P" n="129"/>esse in creaturis sint diuersae essentiae in diuersis 
+          <lb ed="#P" n="130"/>suppositis, remanet adhuc eadem difficultas 
+          quo<lb ed="#P" n="131" break="no"/>modo in eodem esse numero sint plura supposita 
+          <lb ed="#P" n="132"/>realiter differentia. Et idco omissis de his diuersis 
+          <lb ed="#P" n="133"/>dictis, credo quod recurrendum est ad 
+          infinita<lb ed="#P" n="134" break="no"/>tem diuinae perfectionis, qua scilicet infinitas 
+          per<lb ed="#P" n="135" break="no"/>fectionis diuinae sicut est ratio quud eadem 
+          essen<lb ed="#P" n="136" break="no"/>tia numeio est voluntas &amp; intellectus &amp; iustitia &amp; 
+          <lb ed="#P" n="137"/>sapientia, quae increaturis non possunt esse vna 
+          es<lb ed="#P" n="138" break="no"/>sentia fimpliciter propter earum limitationem: ita 
+          <lb ed="#P" n="139"/>eadem infinitas est ratio quare eadem essenti &amp; 
+          <lb ed="#P" n="140"/>idem esse absollitum sint plures oppositarelatio¬ 
+          <!--32.xml-->
+          <pb ed="#P" n="32"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>nes, &amp; per eonsequens vppositae res relatiuae; &amp; 
+          <lb ed="#P" n="2"/>quia quaelibet res in diuinis est res subsistens, ideo 
+          <lb ed="#P" n="3"/>oportet quod sint tria subsistentia re relatiuam 
+          diuer<lb ed="#P" n="4" break="no"/>sa, siue distincta. Et si arguas quod sicut essentia 
+          <lb ed="#P" n="5"/>diuina est infinita, ita &amp; relatio: &amp; per consequens 
+          <lb ed="#P" n="6"/>sicut essentia Dei propter ifinitatem suam est tres 
+          <lb ed="#P" n="7"/>relationes, ita quaelibet relatio erit omnes. Dicen 
+          <lb ed="#P" n="8"/>dum est quod non oportet ad hoc quod quaelibet 
+          <lb ed="#P" n="9"/>relatio sit infinita quantum ad id quod realiter est, 
+          <lb ed="#P" n="10"/>sit omnes tres relationes; sed sussicit quod sit 
+          rea<lb ed="#P" n="11" break="no"/>liter id quod est illae tres relationes: &amp; sic est, nam 
+          <lb ed="#P" n="12"/>quaelibet est essentia diuina realiter, qua essentia 
+          <lb ed="#P" n="13"/>est omnes relationes, Causa autem quare vna 
+          re<lb ed="#P" n="14" break="no"/>lationum non recipit immediate praedicationem 
+          <lb ed="#P" n="15"/>alterius, est oppositio quae non permittit vnum 
+          <lb ed="#P" n="16"/>praedicari de alio: essentia autem nulli eorum 
+          op<lb ed="#P" n="17" break="no"/>ponitur, &amp; ideo de qualibet praedicatur 
+          immedia<lb ed="#P" n="18" break="no"/>te, ita quod essentia est paternitas; paternitas 
+          au<lb ed="#P" n="19" break="no"/>tem non est filiatio: tamen paternitas est id 
+          abso<lb ed="#P" n="20" break="no"/>lutum quod est filiatio. 
+        </p>
+        <p xml:id="hx2hx3-a09831-d1e526">
+          <lb ed="#P" n="21"/>Ad rationem in oppositum dicendum, quod per 
+          <lb ed="#P" n="22"/>id quod est vnum ratione vno modo, est differens 
+          <lb ed="#P" n="23"/>ratione alio modo: possunt enim aliqua esse eadem 
+          <lb ed="#P" n="24"/>ratione &amp;differre ratione: sicut homo &amp; equus per 
+          <lb ed="#P" n="25"/>animas suas in quantum vterque conuenit in 
+          ra<lb ed="#P" n="26" break="no"/>tione animae sensitiuae, tales sunt aliquo modo 
+          v<lb ed="#P" n="27" break="no"/>num ratione, scilicet ratione communi animalis, 
+          <lb ed="#P" n="28"/>sed per easdem animas differunt ratione secundum 
+          <lb ed="#P" n="29"/>suias rationes speciales; ita quod id in quo 
+          dirfe<lb ed="#P" n="30" break="no"/>riint ratione, est aliquo modo vnum ratione. Ita 
+          <lb ed="#P" n="31"/>etiam essentia &amp; relatio inter se ad inuicem sunt 
+          <lb ed="#P" n="32"/>vnum, non tamen in ordine ad tertium sic sunt re 
+          <lb ed="#P" n="33"/>oonuertibiliter, quod cum quocunque vnum 
+          eo<lb ed="#P" n="34" break="no"/>rum habeat identitatem realem &amp; reliquum, quia 
+          <lb ed="#P" n="35"/>essentia habet identitatem realem secundum 
+          ra<lb ed="#P" n="36" break="no"/>tionem suam cum filiatione &amp; paternitate, non sic 
+          <lb ed="#P" n="37"/>parernitas cum filiatione. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

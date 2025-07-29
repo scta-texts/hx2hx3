@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="239"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b80515"><!-- l2d13q1 -->
+            <head xml:id="hx2hx3-b80515-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b80515-Hd1e101" type="question-title">Utrum informitas materiae praecesserit eius formationem</head>
+            <p xml:id="hx2hx3-b80515-d1e104">
+               <lb ed="#P" n="90"/>Prima autem distinctioni operatio fuit 
+      <lb ed="#P" n="91"/>fermatio lutis, sicut ostendit 
+      scri<lb ed="#P" n="92" break="no"/>ptura, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e113">
+               <lb ed="#P" n="93"/>Distinctio decima tertia. 
+      <lb ed="#P" n="94"/>QVAESTIO PRIMA.
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e120">
+               <lb ed="#P" n="95"/>Svper distinctionem decimam tertiam.
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e126">
+               <lb ed="#P" n="96"/>Quaeritur vtrum informitas materiae 
+      praeces<lb ed="#P" n="97" break="no"/>serit eius formationem. Et arguitur quod sic, quia 
+      <lb ed="#P" n="98"/>si informitas materiae non praecesserit eius 
+      forma<lb ed="#P" n="99" break="no"/>tionem, hoc est, quia materia quia non potest fieri 
+      si<lb ed="#P" n="100" break="no"/>ne forma. Sod hoc est falsum, virtute diuina 
+      ma<lb ed="#P" n="101" break="no"/>teria potest fieri fine forma. Ergo, &amp;c. Maior 
+      <lb ed="#P" n="102"/>supponitur. Minor probatur tripliciter. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e144">
+               <lb ed="#P" n="103"/>Primo, quia Deus potest facere materiam 
+      fi<lb ed="#P" n="104" break="no"/>ne eo quod non est eius causa efficiens vel formalis. 
+      <lb ed="#P" n="105"/>Quia istae causae sunt praecipuae de necessitate esse 
+      <lb ed="#P" n="106"/>rerum cum materia. Sed furma non est eausa 
+      ef<lb ed="#P" n="107" break="no"/>ficiens materiae, vt de se patet. Nec etiam causa 
+      <lb ed="#P" n="108"/>formalis: quia forma non est causa formalis 
+      mate<lb ed="#P" n="109" break="no"/>riae, sed compositi; nec etiam causa materialis, vt 
+      <lb ed="#P" n="110"/>de se patet. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e164">
+               <lb ed="#P" n="111"/>Secundo, probatur eadem minor sic, illud 
+      <lb ed="#P" n="112"/>quod ordine naturae praecedit formam potest 
+      vir<lb ed="#P" n="113" break="no"/>tute diuina fieri sine forma: quia virtute diuina 
+      <lb ed="#P" n="114"/>prius potest absolui a posteriori. Sed secundum 
+      <lb ed="#P" n="115"/>beatum Augustinum materia in formis praecedit 
+      <lb ed="#P" n="116"/>formam ordine naturae. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e180">
+               <lb ed="#P" n="117"/>Tertio, sic, quia Deus potest facere materiam 
+      <lb ed="#P" n="118"/>sine illis a quibus non dependet. Sed materia non 
+      <lb ed="#P" n="119"/>dependet ab aliqua forma, quia est indifferens ad 
+      <lb ed="#P" n="120"/>quamcumque, &amp; potest stare cum qualibet: quod 
+      <lb ed="#P" n="121"/>tamen non esset verum si ab aliqua dependeret. Er. 
+      <lb ed="#P" n="122"/>go, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e196">
+               <lb ed="#P" n="123"/>Contra. Dicitur Genes.1. quod in 
+      princi<lb ed="#P" n="124" break="no"/>pio creauit Deus coelum &amp; terram. Sed cuelum &amp; 
+      <lb ed="#P" n="125"/>terra non dicunt materiam informem, sed 
+      forma<lb ed="#P" n="126" break="no"/>tam. Ergo informitas materiae non praecessit eiur 
+      <lb ed="#P" n="127"/>formationem. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e209">
+               <lb ed="#P" n="128"/>Respondeo. Primo, distinguendum est de 
+      in<lb ed="#P" n="129" break="no"/>formitate materiae: quae tripliciter potest intelligi. 
+      <lb ed="#P" n="130"/>Primo, quod sit idem quod carentia omnis 
+      <lb ed="#P" n="131"/>formae. 
+      <lb ed="#P" n="132"/>Secundo, quod sit idem quod carentia 
+      distin<lb ed="#P" n="133" break="no"/>ctae forme substantialis, puta formae terrae vel aquae 
+      <lb ed="#P" n="134"/>&amp; sic de aliis non tamen sit earentia omnis formae. 
+      <lb ed="#P" n="135"/>Imo illa informis materia intelligatur quoddam 
+      <!--240.xml-->
+      <pb ed="#P" n="240"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>compositum ex materia quadam &amp; forma 
+      corpo<lb ed="#P" n="2" break="no"/>reitatis confusa: ex cuius diuersis partibus sunt 
+      fa<lb ed="#P" n="3" break="no"/>cta diuersa corpora. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e243">
+               <lb ed="#P" n="4"/>Tertio modo, potest accipi informitas materiae 
+      <lb ed="#P" n="5"/>non pro carentia distinctarum formarum 
+      substan<lb ed="#P" n="6" break="no"/>tialium: sed pro carentia cuiusdam formositatis 
+      ac<lb ed="#P" n="7" break="no"/>cidentalis, scilicet pro carentia aliquarum 
+      qualita<lb ed="#P" n="8" break="no"/>tum, &amp; alicuius ornatus. Prioritas autem quam 
+      <lb ed="#P" n="9"/>importat ly praecedere quando quaeritur vtrum 
+      in<lb ed="#P" n="10" break="no"/>formitas materiae praecesserit formationem eius 
+      <lb ed="#P" n="11"/>potest accipi, vel secundum ordinem naturae, vel 
+      <lb ed="#P" n="12"/>secundum ordinem temporis. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e265">
+               <lb ed="#P" n="13"/>His praemissis descendendo ad quaestionem, 
+      <lb ed="#P" n="14"/>dicunt omnes quod si accipiatur informitas 
+      mate<lb ed="#P" n="15" break="no"/>riae pro  carentia omnis formae: informitas sic 
+      ac<lb ed="#P" n="16" break="no"/>cepta praecessit formationem ordine naturae, 
+      in<lb ed="#P" n="17" break="no"/>quantum prius est intelligere materiam vt 
+      quan<lb ed="#P" n="18" break="no"/>dam rem formabilem, quam vt formatam in 
+      <lb ed="#P" n="19"/>actu: sed ordine temporis nullus ponit talem 
+      in<lb ed="#P" n="20" break="no"/>formitatem praecessisse de facto: tamen in hoc 
+      <lb ed="#P" n="21"/>doctores differunt quantum ad posse fieri. Nam 
+      <lb ed="#P" n="22"/>quidam ponunt quod Deus posset facere 
+      mate<lb ed="#P" n="23" break="no"/>riam sine omni forma. Et hoc declarant, quia 
+      <lb ed="#P" n="24"/>vt dicunt, materia habet tria esse. Scilicet 
+      simpli<lb ed="#P" n="25" break="no"/>citer in quantum est effectus Dei, &amp; esse 
+      capaci<lb ed="#P" n="26" break="no"/>tatem formarum, &amp; esse fulcimentum 
+      compo<lb ed="#P" n="27" break="no"/>siti. Modo dicunt, quod primum esse habet 
+      ma<lb ed="#P" n="28" break="no"/>teria non a forma, sed a Deo. Secundum autem 
+      <lb ed="#P" n="29"/>habet a seipsa. Tertium, habet a forma. Et ideo 
+      <lb ed="#P" n="30"/>quantum ad prima duo esse potest fieri a Deo sine 
+      <lb ed="#P" n="31"/>forma. Sed quantum ad tertium non: &amp; hoc 
+      <lb ed="#P" n="32"/>probant per rationes supra inductas ad 
+      princi<lb ed="#P" n="33" break="no"/>pale. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e313">
+               <lb ed="#P" n="34"/>Sed ista positio in multis deficit. 
+      <lb ed="#P" n="35"/>Primo quia esse simpliciter materiae, &amp; esse 
+      <lb ed="#P" n="36"/>capacitatem formarum, non differunt re: sicut 
+      <lb ed="#P" n="37"/>nec ens &amp; homo in Sorte. Sed ea quae non 
+      diffe<lb ed="#P" n="38" break="no"/>runt re non reducuntur in diuersas causas realiter: 
+      <lb ed="#P" n="39"/>ita quod vnum realiter causetur ab vna causa, &amp; 
+      <lb ed="#P" n="40"/>aliud ab alia. Illud enim quod est causa entis in 
+      <lb ed="#P" n="41"/>sorte, est etiam causa hominis, quia ista non 
+      di<lb ed="#P" n="42" break="no"/>stinguuntur in esse reali &amp; fieri: sed tantum in 
+      <lb ed="#P" n="43"/>esse rationis. Ergo esse simpliclter, &amp; esse 
+      capa<lb ed="#P" n="44" break="no"/>citatem formae, habet materia a Deo effectiue. 
+      <lb ed="#P" n="45"/>Sed seipsa est ens &amp; capacitas essentialiter, sic. 
+      <lb ed="#P" n="46"/>Scilicet quod non est dare aliquod principium 
+      <lb ed="#P" n="47"/>intrinsecum praeter suam essentiam, quo sit, vel 
+      <lb ed="#P" n="48"/>quo sit capacitas: licet oporteat dare aliquid 
+      con<lb ed="#P" n="49" break="no"/>iunctum ei, scilicet formam sine qua non potest 
+      <lb ed="#P" n="50"/>esse: vt iam ostendetur. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e352">
+               <lb ed="#P" n="51"/>Secundo deficit in hoc quod facit 
+      differen<lb ed="#P" n="52" break="no"/>tiam inter capacitatem formae &amp; fulcimentum 
+      <lb ed="#P" n="53"/>composita. Quia fulcimentum compositi nihil 
+      <lb ed="#P" n="54"/>aliud est quam esse partem materialem compositi 
+      <lb ed="#P" n="55"/>actu vel aptitudine. Esse autem partem compositi 
+      <lb ed="#P" n="56"/>materialem actu vel aptitudine, nihil est aliud 
+      <lb ed="#P" n="57"/>quam esse capacitatem formae, vt ex ea cum 
+      for<lb ed="#P" n="58" break="no"/>ma resultet compositum: &amp; sic idem est realiter 
+      <lb ed="#P" n="59"/>vnum quod aliud. Et per consequens, si non potest 
+      <lb ed="#P" n="60"/>esse quantum ad hoc quod est esse fulcimentum 
+      <lb ed="#P" n="61"/>compositi sine forma: nec etiam quantum ad hoc, 
+      <lb ed="#P" n="62"/>quod est esse capacitatem formarum. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e381">
+               <lb ed="#P" n="63"/>Item fulcimentum compositi accipitur, aut 
+      <lb ed="#P" n="64"/>pro eo quod est actu esse partem compositi: aut 
+      <lb ed="#P" n="65"/>pro eo quod est esse partem compositi aptitudine. 
+      <lb ed="#P" n="66"/>Si primo modo, dicere quod Deus non potest 
+      <lb ed="#P" n="67"/>facere materiam vt est fulcimentum compositi: 
+      <lb ed="#P" n="68"/>est dicere quod Deus non potest facere materiam, 
+      <lb ed="#P" n="69"/>vt partem actu ipsius compositi sine forma. 
+      Si<lb ed="#P" n="70" break="no"/>militer etiam quod Deus non posset facere sub¬ 
+      <!--240.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>iectum idem actu, vt partem actu compositi ea 
+      <lb ed="#P" n="72"/>subiecto &amp; accidente separabili sine illo 
+      acciden<lb ed="#P" n="73" break="no"/>te: impossibile enim esset quod Deus faceret 
+      ho<lb ed="#P" n="74" break="no"/>minem partem in actu compositi, ex homine &amp; 
+      <lb ed="#P" n="75"/>albedine: sine albedine. Ergo secundum hoc non 
+      <lb ed="#P" n="76"/>plus dependet materia a forma substantiali, quam 
+      <lb ed="#P" n="77"/>subiectum in actu ab accidente separabili. Si autem 
+      <lb ed="#P" n="78"/>accipiatur secundo modo fulcimentum 
+      compo<lb ed="#P" n="79" break="no"/>siti, pro eo quod est esse partem compositi 
+      secun<lb ed="#P" n="80" break="no"/>dum aptitudinem: constat quod hoc conuenit 
+      <lb ed="#P" n="81"/>materiae per essentiam suam. Nec potest esse 
+      ca<lb ed="#P" n="82" break="no"/>pacitas formae, quin sit sic fulcimentum 
+      composi<lb ed="#P" n="83" break="no"/>ti. Vnde talia videntur mihi satis vana: ideo 
+      di<lb ed="#P" n="84" break="no"/>mittenda. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e436">
+               <lb ed="#P" n="85"/>Et ideo magis videtur esse tenendum cum alia 
+      <lb ed="#P" n="86"/>opinione quae dicit quod nulla virtute potest 
+      ma<lb ed="#P" n="87" break="no"/>teria fieri vel esse in rerum natura sine forma: &amp; 
+      <lb ed="#P" n="88"/>hoc potest ostendi ex natura rei &amp; ex dictis eorum 
+      <lb ed="#P" n="89"/>qui ponunt contrarium. Ex natura rei primo si 
+      <lb ed="#P" n="90"/>ponatur esse differre re ab essentia. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e453">
+               <lb ed="#P" n="91"/>Ad cuius euidentiam, praesupponenda sunt 
+      <lb ed="#P" n="92"/>duo. Primum est quod si esse differt ab assentia, 
+      <lb ed="#P" n="93"/>oportet ponere quod illud in quo immediate, &amp; 
+      <lb ed="#P" n="94"/>in per se subiecto recipitur esse: sit ipsa forma: 
+      <lb ed="#P" n="95"/>sicut &amp; figura se habet ad quantitatem: ita quod 
+      <lb ed="#P" n="96"/>sola forma per se nata est facere vnum cum esse 
+      <lb ed="#P" n="97"/>sicut propria potentia cum proprio actu 
+      composi<lb ed="#P" n="98" break="no"/>tio autem vel materie habet esse vniri per formam. 
+      <lb ed="#P" n="99"/>Secundum quod praesupponendum est, quod non 
+      <lb ed="#P" n="100"/>omne illud quod Deus potest separare ab aliquo, 
+      <lb ed="#P" n="101"/>potest indifferenter cuicumque alii vnire: alioquin 
+      <lb ed="#P" n="102"/>posset vnire quantitatem Angelo, &amp; facere quod 
+      <lb ed="#P" n="103"/>Angelus esset corpus. Ratio est, quia quando 
+      se<lb ed="#P" n="104" break="no"/>cundum essentialem &amp; per se ordinem 
+      ordinan<lb ed="#P" n="105" break="no"/>tur ad inuicem aliqua duo vt actus &amp; potentia, 
+      <lb ed="#P" n="106"/>habitudo immediata ad aliam potentiam 
+      repu<lb ed="#P" n="107" break="no"/>gnat tali: sicut repugnat vni illarum potentiarum 
+      <lb ed="#P" n="108"/>esse aliam. Vnde ita repugnat figurae informarae 
+      <lb ed="#P" n="109"/>immediate substantiam non quantam: sicut 
+      re<lb ed="#P" n="110" break="no"/>pugnat quantitati esse substantiam, quod quidem 
+      <lb ed="#P" n="111"/>nulla virtute fieri potest quod quantitas sit 
+      sub<lb ed="#P" n="112" break="no"/>stantia. Et ex hoc secundo habetur quod si esse, re 
+      <lb ed="#P" n="113"/>differt ab essentia, non potest quacumque virtute 
+      <lb ed="#P" n="114"/>fieri quod recipiatur immediate in aliquo, nisi 
+      <lb ed="#P" n="115"/>illud sit forma. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e510">
+               <lb ed="#P" n="116"/>Ex his potest sic argui. Materia non potest esse 
+      <lb ed="#P" n="117"/>in rerum natura fine actu essendi: &amp; hoc patet. 
+      <lb ed="#P" n="118"/>Quia sicut impossibile est aliquid album esse nisi 
+      <lb ed="#P" n="119"/>albedine: ita quod hoc non potest fieri 
+      quacum<lb ed="#P" n="120" break="no"/>siue virtute: ita impossibile est aliquid esse in 
+      re<lb ed="#P" n="121" break="no"/>rum natura existens sine actu essendi, siue 
+      existen<lb ed="#P" n="122" break="no"/>di. Sed materia non potest habere esse sine 
+      for<lb ed="#P" n="123" break="no"/>ma, si esse differt ab essentia: &amp; hoc patet ex 
+      <lb ed="#P" n="124"/>praesuppositis. Quia impossibile est si esse differt 
+      <lb ed="#P" n="125"/>ab essentia: ita quod quacumque virtute hoc non 
+      <lb ed="#P" n="126"/>potest fieri. Ergo &amp;c. Si autem ponatur quod 
+      <lb ed="#P" n="127"/>esse non differat re ab esse, adhuc sequitur idem. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e539">
+               <lb ed="#P" n="128"/>Ad cuius euidentiam primo 
+      praesupponen<lb ed="#P" n="129" break="no"/>dum est quod nulla res quacumque virtute potest 
+      <lb ed="#P" n="130"/>esse extra in actu, nisi ponatur habere actum quo 
+      <lb ed="#P" n="131"/>formaliter aliquid natum est esse simpliciter in 
+      <lb ed="#P" n="132"/>actu: omnis enim potentia, siue actiua, siue 
+      pas<lb ed="#P" n="133" break="no"/>siua respicit aliquem actum quo effectus 
+      forma<lb ed="#P" n="134" break="no"/>liter habeat esse. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e557">
+               <lb ed="#P" n="135"/>Vlterius, ratio formae est ista, quod est quidam 
+      <lb ed="#P" n="136"/>actus quo aliquid natum esse actu: sed vlterius 
+      <lb ed="#P" n="137"/>ratio formae substantialis, est quo aliquid natum 
+      <lb ed="#P" n="138"/>est esse actu simpliciter. Et si aliquis actus virtute 
+      <lb ed="#P" n="139"/>Dei possit esse in rerum natura sine substantia, 
+      <lb ed="#P" n="140"/>sicut est de quantitate in sacramento altaris: ta¬ 
+      <!--241.xml-->
+      <pb ed="#P" n="241"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>men ex aptitudine nullus actus habet quod 
+      pos<lb ed="#P" n="2" break="no"/>sit simpliciter habere esse nisi sit actus 
+      substantia<lb ed="#P" n="3" break="no"/>lis vel habens ipsum. Nihil etiam potest esse in 
+      <lb ed="#P" n="4"/>actu in rerum qualitercumque sine actu, 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e588">
+               <lb ed="#P" n="5"/>Ex hiis arguitur sic, sicut vnumquodque se 
+      ha<lb ed="#P" n="6" break="no"/>bet ad hoc quod sit actus vel includat actum: ita 
+      <lb ed="#P" n="7"/>se habet ad hoc quod possit esse actu in rerum 
+      na<lb ed="#P" n="8" break="no"/>tura. Sed materia, nec est actus, nec partem sui 
+      <lb ed="#P" n="9"/>actum includit. Ergo materia per se solam sine 
+      <lb ed="#P" n="10"/>omni forna non potest esse in actu. Vnde 
+      vide<lb ed="#P" n="11" break="no"/>tur quod aequalis potentia sit facere materiam esse 
+      <lb ed="#P" n="12"/>actu per se solam, &amp; facere quod pura potentia sit 
+      <lb ed="#P" n="13"/>quidam actus. Quod quacumque virtute fieri 
+      <lb ed="#P" n="14"/>non potest: quia contradictoria implicat. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e612">
+               <lb ed="#P" n="15"/>Hoc etiam probatur ex dicto ponentium 
+      op<lb ed="#P" n="16" break="no"/>positum. Quia ipsi ponunt quod virtute diuina 
+      <lb ed="#P" n="17"/>non potest aliquid fieri nisi saltem aptum natum 
+      <lb ed="#P" n="18"/>sit habere aliquam potentiam per quam aliquam 
+      <lb ed="#P" n="19"/>operationem natum sit exercere. Et hoc dicunt 
+      <lb ed="#P" n="20"/>in illa quaestione in qua volunt probare quod non 
+      <lb ed="#P" n="21"/>possit assumi aliqua natura in vnitate persone 
+      di<lb ed="#P" n="22" break="no"/>uinae, nisi habeat potentiam operatiuam 
+      eleuabi<lb ed="#P" n="23" break="no"/>lem. Sed impossibile est imaginari quam 
+      opera<lb ed="#P" n="24" break="no"/>tionem possit habere vel exercere illud quod est 
+      <lb ed="#P" n="25"/>sola materia carens omni forma. Ergo &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e639">
+               <lb ed="#P" n="26"/>Si autem accipiatur in formitas materiae 
+      secun<lb ed="#P" n="27" break="no"/>do modo, seilicet corpus quoddam habens 
+      quan<lb ed="#P" n="28" break="no"/>dam in materia formam informantem totam 
+      ma<lb ed="#P" n="29" break="no"/>teriam corporalem: &amp; quod post de illo fuerint 
+      <lb ed="#P" n="30"/>facta distincta corpora, puta diuersa elementa, 
+      <lb ed="#P" n="31"/>hoc semper est impossibile. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e655">
+               <lb ed="#P" n="32"/>Primo quia quando generatum fuit 
+      elemen<lb ed="#P" n="33" break="no"/>tum ex praedicto corpore, puta ignis vel aer: aut 
+      <lb ed="#P" n="34"/>fuit generatum ex illo corpore corrupto: aut ex 
+      <lb ed="#P" n="35"/>illo manente. Si primo modo sequitur quod illud 
+      <lb ed="#P" n="36"/>corpus erat secundum suas qualitates contrarium 
+      <lb ed="#P" n="37"/>elemento generato ex eo. Et per consequens 
+      <lb ed="#P" n="38"/>quod erat elementum aliud, vel corpus mixtum: 
+      <lb ed="#P" n="39"/>&amp; sic habebat formam determinatam. Si 
+      secun<lb ed="#P" n="40" break="no"/>do modo sequitur quod aliae formae aduenientes 
+      <lb ed="#P" n="41"/>erant accidentia, quia illa forma corporeitatis 
+      fa<lb ed="#P" n="42" break="no"/>cit ens simpliciter; tum quia forma substantialis; 
+      <lb ed="#P" n="43"/>tum quia per eam est illud corpus substantia 
+      in<lb ed="#P" n="44" break="no"/>generabilis &amp; incorruptibilis: &amp; perfectum 
+      ele<lb ed="#P" n="45" break="no"/>mentum habens. Talis ergo infirmitas non est 
+      <lb ed="#P" n="46"/>ponenda. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e690">
+               <lb ed="#P" n="47"/>Secundo, quia si elementa a principio 
+      fue<lb ed="#P" n="48" break="no"/>runt generata ex illo corpore, ita possent 
+      elemen<lb ed="#P" n="49" break="no"/>ta resolui in ipsum: &amp; ssc inueniretur adhuc apud 
+      <lb ed="#P" n="50"/>nos aliquod corpus quod nec esset corpus coeleste, 
+      <lb ed="#P" n="51"/>nec elementum, nec mixtum ex elementis, quod 
+      <lb ed="#P" n="52"/>falsum est, quia nulla experientia hoc docet. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e706">
+               <lb ed="#P" n="53"/>Si autem informitas accipitur tertio modo 
+      <lb ed="#P" n="54"/>pro scilicet carentia cuiusdam formositatis 
+      acciden<lb ed="#P" n="55" break="no"/>talis ita quod dicatur primo fuisse creata materia 
+      <lb ed="#P" n="56"/>informis, id est corpora coelestia &amp; elementa 
+      ca<lb ed="#P" n="57" break="no"/>catentia aliquibus virtutibus actiuis &amp; passiuis, &amp; 
+      <lb ed="#P" n="58"/>aliquo ornatu quem modo habent, hoc satis 
+      pro<lb ed="#P" n="59" break="no"/>babile est. Cum enim Daus daturus sit soli, vt 
+      <lb ed="#P" n="60"/>promittit scriptura maiorem claritatem post 
+      iudi<lb ed="#P" n="61" break="no"/>cium quam modo habeat, non est inconueniens si 
+      <lb ed="#P" n="62"/>corpora caelestia &amp; elementa fecerit a principio 
+      <lb ed="#P" n="63"/>cum carentia aliquorum accidentium quae non 
+      <lb ed="#P" n="64"/>habent vel cum eisdem accidentibus remissis. 
+      <lb ed="#P" n="65"/>Quod autem elementa potuerunt fieri sine ornatu 
+      <lb ed="#P" n="66"/>plantarum &amp; animalium quae in ipsis surt: 
+      mo<lb ed="#P" n="67" break="no"/>do nonest dubium. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e741">
+               <lb ed="#P" n="68"/>Ad primum ergo: quo probatur quod 
+      simpli<lb ed="#P" n="69" break="no"/>citer materia potuit fieri carens omni forma 
+      di<lb ed="#P" n="70" break="no"/>cendum per interemptionem minoris. 
+      <!--241.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Ad primum autem quo probatur illa minot 
+      <lb ed="#P" n="72"/>dicendum, quod dato quod forma non sit causa 
+      <lb ed="#P" n="73"/>materiae propriae:atamen est causa compositi sino 
+      <lb ed="#P" n="74"/>quo non potest fieri materia. Qtuod impossibile 
+      <lb ed="#P" n="75"/>est materiam sieri nisi vt partem composui ex 
+      po<lb ed="#P" n="76" break="no"/>tentia &amp; actu substantiali. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e767">
+               <lb ed="#P" n="77"/>vel potest dici quod dato quod formae non sit 
+      <lb ed="#P" n="78"/>causa materiae per modum quo est causa 
+      compo<lb ed="#P" n="79" break="no"/>siti, vt scilicet sit pars materiae i est tamen causa 
+      <lb ed="#P" n="80"/>materiae, vt terminans eius potentialitatem; 
+      <lb ed="#P" n="81"/>ita quod materia &amp; forma sint sibi inuicem 
+      cau<lb ed="#P" n="82" break="no"/>sae. Materia inquantum est quid substractum 
+      sub<lb ed="#P" n="83" break="no"/>stentans formam: &amp; forma materiae inquantum 
+      <lb ed="#P" n="84"/>est terminans eius potentialitatem. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e788">
+               <lb ed="#P" n="85"/>Ad secundum dicendum quod mator 
+      intelligen<lb ed="#P" n="86" break="no"/>da est quando prius natura in nullo dependet a 
+      <lb ed="#P" n="87"/>posteriore. Sic autem non est in proposito. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e797">
+               <lb ed="#P" n="88"/>Vel potest dici, quod etiam materia vno 
+      mo<lb ed="#P" n="89" break="no"/>do est prior forma inquantum sustentatur in 
+      <lb ed="#P" n="90"/>materia: &amp; e conuerso, forma est prior materis, 
+      <lb ed="#P" n="91"/>inquantum primum est intelligere formam 
+      dan<lb ed="#P" n="92" break="no"/>tem esse materiae, quam materia sit in rerum 
+      <lb ed="#P" n="93"/>natura. 
+      </p>
+            <p xml:id="hx2hx3-b80515-d1e813">
+               <lb ed="#P" n="94"/>Ad tertium dicendum quod licer materia quae 
+      <lb ed="#P" n="95"/>potest stare cum diuersis formis non dependeat 
+      <lb ed="#P" n="96"/>determinate ex aliqua illarum determinate: tamen 
+      <lb ed="#P" n="97"/>indeterminate dependet ex hac vel illa. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="77"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b25198"><!-- l1d12q1 -->
+            <head xml:id="hx2hx3-b25198-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b25198-Hd1e101" type="question-title">Utrum generatio sit prior processione</head>
+            <p xml:id="hx2hx3-b25198-d1e104">
+               <lb ed="#P" n="108"/>Item quaeritur cum Apiruins sanctnaa scarti 
+      <lb ed="#P" n="109"/>procedat QATIlio; 
+      <lb ed="#P" n="110"/>Vtrum pnus viel mnagus. 
+      </p>
+            <p xml:id="hx2hx3-b25198-d1e113">
+               <lb ed="#P" n="111"/>Distinctio duodecima.
+      <lb ed="#P" n="112"/>QVAESTIO PRIMA 
+      </p>
+            <p xml:id="hx2hx3-b25198-d1e120">
+               <lb ed="#P" n="113"/>CIrca duodecimam distinctionem. Primo 
+      <lb ed="#P" n="114"/>quaeritur vtrum generatio sit prior 
+      proces<lb ed="#P" n="115" break="no"/>sione. Et arguitur quod sic: quia productum per 
+      <lb ed="#P" n="116"/>generationem est principium spirationis ceu 
+      pro<lb ed="#P" n="117" break="no"/>cessionis: ergo videtur quod tam generatio quam 
+      <lb ed="#P" n="118"/>productum per ipsam sit prior processione. 
+      </p>
+            <p xml:id="hx2hx3-b25198-d1e137">
+               <lb ed="#P" n="119"/>Contra: in diuinis nihil est prius aut poste. 
+      <lb ed="#P" n="120"/>rius. 
+      </p>
+            <p xml:id="hx2hx3-b25198-d1e144">
+               <lb ed="#P" n="121"/>Respondeo primo: ponenda est responio in. 
+      <lb ed="#P" n="122"/>sufficiens cum sua improbatione. Secundo 
+      po<lb ed="#P" n="123" break="no"/>netur positio quam credo veram. Tertio 
+      pone<lb ed="#P" n="124" break="no"/>tur eius impugnatio. Quarto impug nationis 
+      so<lb ed="#P" n="125" break="no"/>lutio, 
+      </p>
+            <p xml:id="hx2hx3-b25198-d1e157">
+               <lb ed="#P" n="126"/>Quantum ad primum, dicunt quidam quod 
+      <lb ed="#P" n="127"/>generatio &amp; processio secundum rem loquendo 
+      <lb ed="#P" n="128"/>non habent prius &amp; posterius: Sed bene, est ibi 
+      <lb ed="#P" n="129"/>prius &amp; posterius secundum rationem 
+      intelligen<lb ed="#P" n="130" break="no"/>di, siue secundum nostrum modum intelligendi. 
+      </p>
+            <p xml:id="hx2hx3-b25198-d1e170">
+               <lb ed="#P" n="131"/>Primum declarant: quia tales productiones 
+      <lb ed="#P" n="132"/>possunt considerati vel quantum ad absoluta; vel 
+      <!--78.xml-->
+      <pb ed="#P" n="78"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quantum ad hoc quod relationes sunt: Quantum 
+      <lb ed="#P" n="2"/>ad absoluta, non est ibi distinctio realisi cum idem 
+      <lb ed="#P" n="3"/>numero absolutum sit in omnibus: vel possunt 
+      con<lb ed="#P" n="4" break="no"/>siderari quantum ad hoc quod relationes sunt: &amp;c 
+      <lb ed="#P" n="5"/>sic etiam non est ibi posteritas vel prioritas, quia 
+      <lb ed="#P" n="6"/>vt dicunt prius &amp; posterius secundum rem, 
+      requi<lb ed="#P" n="7" break="no"/>rit distinctionem realem: Sed sicut dicunt, in 
+      di<lb ed="#P" n="8" break="no"/>uinia relationes disparatae non distinguunt. Ergo 
+      <lb ed="#P" n="9"/>non potest ibi inueniri prius vel posterius. 
+      Mino<lb ed="#P" n="10" break="no"/>rem probant quia relatio disparata non distinguit 
+      <lb ed="#P" n="11"/>nisi secundum esse, &amp; secundum esse nulla est 
+      di<lb ed="#P" n="12" break="no"/>stinctio an diuinis. Ista autem positio nulla est: 
+      <lb ed="#P" n="13"/>quia dato quod relationes non sint distinctiuae &amp; 
+      <lb ed="#P" n="14"/>non distinguant secundum quod disparatae sunt: 
+      <lb ed="#P" n="15"/>tamen non est dubium quod sint in diuinis realiter 
+      <lb ed="#P" n="16"/>distinctae: ergo propter defectum distinctionis 
+      <lb ed="#P" n="17"/>non repugnat eis habere ordinem prioris &amp; poste. 
+      <lb ed="#P" n="18"/>rioris. Nam quando dicitur quod ordo realis 
+      re<lb ed="#P" n="19" break="no"/>quirit distinctionem realem, verum est quod 
+      re<lb ed="#P" n="20" break="no"/>quirit distinctionem realem ordinatorum sic quod 
+      <lb ed="#P" n="21"/>sint distincta: non autem quod distinguant. 
+      </p>
+            <p xml:id="hx2hx3-b25198-d1e229">
+               <lb ed="#P" n="22"/>Quantum ad secundum sciendum, quod 
+      pro<lb ed="#P" n="23" break="no"/>eessio &amp; generatio, &amp; quaecunque alia quae sunt 
+      <lb ed="#P" n="24"/>in diuinis: quantum ad absolutum in quo 
+      fun<lb ed="#P" n="25" break="no"/>dantur,, nullum possunt habere ordinem realem: 
+      <lb ed="#P" n="26"/>quia illud fundamentum est vnicum &amp; 
+      simpli<lb ed="#P" n="27" break="no"/>cissimum: quantum etiam ad relationes, non 
+      <lb ed="#P" n="28"/>potest ibi esse ordo realis prioris &amp; posterioris; 
+      <lb ed="#P" n="29"/>non solum in relationibus oppositis de quibus 
+      <lb ed="#P" n="30"/>constat, sed nec etiam in disparatis, quia etiam 
+      <lb ed="#P" n="31"/>in disparatis non potest esse vna relatio 
+      poste<lb ed="#P" n="32" break="no"/>rior alifi nisi ratione fundamenti, quando 
+      scili<lb ed="#P" n="33" break="no"/>cet vnum est posterius fundamentum alio;: vel in 
+      <lb ed="#P" n="34"/>vtroque extremorum, vel saltem in altero: quia 
+      <lb ed="#P" n="35"/>positis fundamentis sufficientibus. relationis, 
+      ne<lb ed="#P" n="36" break="no"/>cessario ponitur relatio: Sed vt dictum est in 
+      fun<lb ed="#P" n="37" break="no"/>damento generationis &amp; spirationis non potest 
+      <lb ed="#P" n="38"/>esse prius &amp; posterius, nec quantum ad id quod 
+      <lb ed="#P" n="39"/>est in se, nec quantum ad hoc quod est esse fundaa 
+      <lb ed="#P" n="40"/>mentum relationum istarum, cum essentia diuina 
+      <lb ed="#P" n="41"/>&amp; sola &amp; sua naturali proprietate &amp; immutabili 
+      <lb ed="#P" n="42"/>necessitate, sit fundamentum vtriusque: Ergo, 
+      <lb ed="#P" n="43"/>&amp;c. Secundum tamen rationem intelligendi 
+      po<lb ed="#P" n="44" break="no"/>test ibi esse prius &amp; posterius: &amp; quantum ad 
+      rela<lb ed="#P" n="45" break="no"/>tiones oppositas, &amp; quantum ad disparatas: 
+      quan<lb ed="#P" n="46" break="no"/>tum quidem ad oppositas relationes, non 
+      acci<lb ed="#P" n="47" break="no"/>piendo eas secundum quod relationes oppositae 
+      <lb ed="#P" n="48"/>sunt, sed secundum quod propriotates sunt consti, 
+      <lb ed="#P" n="49"/>tutiuae: vel accipiendo vnam, pro proprietate 
+      con<lb ed="#P" n="50" break="no"/>stitutiua: &amp; aliam pro relatione. Nam nroprietas 
+      <lb ed="#P" n="51"/>constitutiua personae producentis, est 
+      priorsecun<lb ed="#P" n="52" break="no"/>dum rationem intelligendi quam persona 
+      produ<lb ed="#P" n="53" break="no"/>cta, vel eius proprietas vel relatio: quantum 
+      au<lb ed="#P" n="54" break="no"/>tem ad disparatas, secundum quandam 
+      similitu<lb ed="#P" n="55" break="no"/>dinem ad creaturam in qua productio illius quod 
+      <lb ed="#P" n="56"/>producitur ab aliquo producto est posterior 
+      pro<lb ed="#P" n="57" break="no"/>ductione illius a quo producitur, &amp; illud quod est 
+      <lb ed="#P" n="58"/>voluntatis est posterius eo quod est intellectus. 
+      </p>
+            <p xml:id="hx2hx3-b25198-d1e312">
+               <lb ed="#P" n="59"/>Hoc autem impugnatur sic: quia relatiua &amp; 
+      <lb ed="#P" n="60"/>per consequens relationes sunt simul natura, 
+      du<lb ed="#P" n="61" break="no"/>ratione, &amp; intellectu. Ergo vna non praecedit 
+      a<lb ed="#P" n="62" break="no"/>liam secundum rationem intelligendi: siue 
+      secun<lb ed="#P" n="63" break="no"/>dum intellectum. Et ad hoc dicunt quidam quod 
+      <lb ed="#P" n="64"/>licet vna relatio non sit prior alia intellectu, ta. 
+      <lb ed="#P" n="65"/>men fundamentum ielationis secundum id quod 
+      <lb ed="#P" n="66"/>est, &amp; secundum quod subest relationi: potest esse 
+      <lb ed="#P" n="67"/>ptius in vno relatiuorum, quam in alio. Sed istud 
+      <lb ed="#P" n="68"/>non videtur valere: quia non agitur de prioritate 
+      <lb ed="#P" n="69"/>absoluti, vel fundamenti relationum: sed ipsarum 
+      <lb ed="#P" n="70"/>selationum: Et ideo melius dicitur vt supra, scili¬ 
+      <!--78.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>cet quod in oppositis, relatio producentis non vt 
+      <lb ed="#P" n="72"/>
+               <!-- line coord error -->
+               <lb ed="#P" n="73"/>relatio: sed vt proprietas constitutiua: est prior 
+      se<lb ed="#P" n="74" break="no"/>cundum rationem aliam relatione ipsius producti; 
+      <lb ed="#P" n="75"/>siue accipiatur vt relatio, siue vt proprietas 
+      consti<lb ed="#P" n="76" break="no"/>tutiua ipsius producti. In relationibus etiam 
+      dis<lb ed="#P" n="77" break="no"/>paratis, potest esse prius &amp; posterius secundum 
+      ra<lb ed="#P" n="78" break="no"/>tionem intelligendi, vt relationes disparatae sunt: 
+      <lb ed="#P" n="79"/>quia in talibus vna non est de intellectu alterius. 
+      <lb ed="#P" n="80"/>Vtrum autem generatio vel filiatio, &amp; spiratio 
+      pas<lb ed="#P" n="81" break="no"/>siua, siue generari &amp; spirari sint tantum disparatae, 
+      <lb ed="#P" n="82"/>vel sint aliquo modo oppositae, patebit in sequenti 
+      <lb ed="#P" n="83"/>distinctione. 
+      </p>
+            <p xml:id="hx2hx3-b25198-d1e376">
+               <lb ed="#P" n="84"/>Ad rationem in oppositum dicendum quod in 
+      <lb ed="#P" n="85"/>diuinis saltem secundum rem principium 
+      produ<lb ed="#P" n="86" break="no"/>cens scilicet suppositum producens, non est in 
+      a<lb ed="#P" n="87" break="no"/>liquo secundum rem prius producto, nec per 
+      con<lb ed="#P" n="88" break="no"/>sequens productio illius producti quod producit 
+      <lb ed="#P" n="89"/>aliud, est prior productione qua illud productum 
+      <lb ed="#P" n="90"/>est nroducens, quia nec producens nec productio 
+      <lb ed="#P" n="91"/>est prior producto. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

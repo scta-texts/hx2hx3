@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="58"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b18744"><!-- l1d8q1 -->
+            <head xml:id="hx2hx3-b18744-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b18744-Hd1e101" type="question-title">Utrum esse sit proprium deo</head>
+            <p xml:id="hx2hx3-b18744-d1e104">
+               <lb ed="#P" n="43"/>Nunc de veritate fiue proprietate atque 
+      <lb ed="#P" n="44"/>simplicitate Diuihde naturae, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e111">
+               <lb ed="#P" n="45"/>Distinctio prima. 
+      <lb ed="#P" n="46"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e118">
+               <lb ed="#P" n="47"/>CIrca istam distinctionem quaeritur detribus 
+      <lb ed="#P" n="48"/>scilicet de esse Dei: de eius simplicitate: &amp; 
+      <lb ed="#P" n="49"/>de eius vnitate: de aeternitate autem infra 
+      quaere<lb ed="#P" n="50" break="no"/>tur: primo ergo quaeritur vtrum esse sit proprium 
+      <lb ed="#P" n="51"/>Deo. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e132">
+               <lb ed="#P" n="52"/>Et arguitur quod non: quia aliis conuenit: 
+      <lb ed="#P" n="53"/>ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e139">
+               <lb ed="#P" n="54"/>Contra Exod. tertio, qui est, misit me ad vos: 
+      <lb ed="#P" n="55"/>ergo qui est erit proprium nomen Dei. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e146">
+               <lb ed="#P" n="56"/>Respondeo:circa istam quaestionem tria sunt 
+      <lb ed="#P" n="57"/>facienda: primum est ostendere quid importat hoc 
+      <lb ed="#P" n="58"/>nomen esse; secundum est ostendere quomodo 
+      <lb ed="#P" n="59"/>conueniat Deo quod sit esse per essentiam; tertio, 
+      <lb ed="#P" n="60"/>soluitur ad quaestionem. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e159">
+               <lb ed="#P" n="61"/>Quantum ergo ad primum dicunt quidam quod 
+      <lb ed="#P" n="62"/>esse est actus entis secundum quod ens: ita quod 
+      <lb ed="#P" n="63"/>esse dicit ipsum actum: essentia autem dicit 
+      sub<lb ed="#P" n="64" break="no"/>iectum huius actus: ens autem dicit compositum 
+      <lb ed="#P" n="65"/>ga vtroque &amp; hoc concretiue: sed entitas dicit ip¬ 
+      <!--58.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>sum compositum abstracte, sicut humanitas dicit 
+      <lb ed="#P" n="67"/>ipsum compositum abstracte quod dicir hoc 
+      no<lb ed="#P" n="68" break="no"/>men homo concrete. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e183">
+               <lb ed="#P" n="69"/>Hoc autem non videtur verum siue esse disferat 
+      <lb ed="#P" n="70"/>ab essentia siue non: saltem quantum ad istud 
+      vl<lb ed="#P" n="71" break="no"/>timum. Nam existentia &amp; entitas videntur idem &amp; 
+      <lb ed="#P" n="72"/>dicere per modum nominis abstracti quod dicit 
+      <lb ed="#P" n="73"/>esse &amp; existere per modum verbi: sed secundum 
+      <lb ed="#P" n="74"/>istos esse &amp; existere non dicit ipsum aggregatum; 
+      <lb ed="#P" n="75"/>ergo nec entitas. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e201">
+               <lb ed="#P" n="76"/>Et ideo, dicendum aliter quod si esse differat ab 
+      <lb ed="#P" n="77"/>essentia tunc esse dicit actum essentiae &amp; essentia 
+      <lb ed="#P" n="78"/>dicit eius subiectum in abstracto: ens vero dicit &amp; 
+      <lb ed="#P" n="79"/>ipsam essentiam &amp; ipsum esse in concreto. Nam 
+      <lb ed="#P" n="80"/>ponentes secundum esse differre ab essentia: Et 
+      <lb ed="#P" n="81"/>ens est nomen &amp; accipitur ab esse essentiae; quod 
+      <lb ed="#P" n="82"/>est idem cum essentia: &amp; ens est parricipium &amp; 
+      <lb ed="#P" n="83"/>accipitur ab actu existendi: ita quod sicut album 
+      <lb ed="#P" n="84"/>significat formaliter albedinem &amp; ex modo signi 
+      <lb ed="#P" n="85"/>ficandi importat subiectum: Ita ens participium 
+      <lb ed="#P" n="86"/>importat formaliter actum existendi, &amp; ex modo 
+      <lb ed="#P" n="87"/>significandi importat subiectumeius: secundum 
+      <lb ed="#P" n="88"/>autem eos qui ponunt quod esse non dicit rem 
+      di<lb ed="#P" n="89" break="no"/>uersam ab essentia, ita quod sit quidam actus 
+      su<lb ed="#P" n="90" break="no"/>peradditus esse, idem est quod habete essentiam 
+      <lb ed="#P" n="91"/>ita quod modo significandi verbali vltra 
+      essen<lb ed="#P" n="92" break="no"/>tiam importat habitudinem alicuius habentis, 
+      es<lb ed="#P" n="93" break="no"/>sentia vero dicit illud quod ens est: Ens vero dicin 
+      <lb ed="#P" n="94"/>habens essentiam: siuc habeat hanc essentiam vt 
+      <lb ed="#P" n="95"/>totum habet partem, siue eam habeat vt subiectu 
+      <lb ed="#P" n="96"/>habet formam inhaerentem vt totum. sicut homo 
+      <lb ed="#P" n="97"/>dicitur animatus &amp; habens animam vt parter lut 
+      <lb ed="#P" n="98"/>sed vt aliquid diuersum ab eo quantum ad 
+      essen<lb ed="#P" n="99" break="no"/>tiam: sed tamem sibi coniunctum per inhaerentiam: 
+      <lb ed="#P" n="100"/>&amp; hoc sufficiat ad praesens quantum ad istum 
+      ar<lb ed="#P" n="101" break="no"/>ticulum: quia locutus sum diffuse de hoc alibi. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e261">
+               <lb ed="#P" n="102"/>Quantum ad secundum articulum sciendum 
+      <lb ed="#P" n="103"/>quod omnes ponunt solum Deum csse suum esse, 
+      <lb ed="#P" n="104"/>per essentiam: ad cuius euidentiam sciendum 
+      <lb ed="#P" n="105"/>quod siue ponatur in creatura esse &amp; essentiam 
+      re<lb ed="#P" n="106" break="no"/>differre: siue non: in Deo tamen hoc esse rion 
+      <lb ed="#P" n="107"/>potest propter suam primitatem in causando, 
+      <lb ed="#P" n="108"/>quia tunc eius esse haberet causam subiectiuam &amp; 
+      <lb ed="#P" n="109"/>per consequens effectiuam, quia ex diuersis re non 
+      <lb ed="#P" n="110"/>potest fieri vnum nisi per aliquam causam 
+      esfecti<lb ed="#P" n="111" break="no"/>uam: &amp; propter suam summam simplicitatem de 
+      <lb ed="#P" n="112"/>qua post agetur quae nullam compositionem rea 
+      <lb ed="#P" n="113"/>lem patitur vt infra patebit. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e290">
+               <lb ed="#P" n="114"/>Secundum autem eos qui ponunt quod in 
+      crea<lb ed="#P" n="115" break="no"/>tura differt re esse ab essentia, dicitur Deus esse 
+      <lb ed="#P" n="116"/>suum esse per essentiam: quia suum esse est suae 
+      <lb ed="#P" n="117"/>essentia quod non conuenit aliis a Deo secundum 
+      <lb ed="#P" n="118"/>alios. Secundum autem eos qui ponunt quod esse 
+      <lb ed="#P" n="119"/>&amp; essentia non differunt nisi penes modum 
+      signi<lb ed="#P" n="120" break="no"/>ficandi secundum modum verbi &amp; modum 
+      nomi<lb ed="#P" n="121" break="no"/>nis etiam soli Deo aliquo modo conuenit quod sit 
+      <lb ed="#P" n="122"/>suum esse per essentiam. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e312">
+               <lb ed="#P" n="123"/>Ad cuius euidentiam sciendum quod sicut 
+      su<lb ed="#P" n="124" break="no"/>pradictum est: esse ex modo significandi verbali 
+      <lb ed="#P" n="125"/>timportat habitudinem alicuius habentis 
+      essen<lb ed="#P" n="126" break="no"/>tiam: vnde idem est quod habere essentiam 
+      acci<lb ed="#P" n="127" break="no"/>piendo terminum formaliter &amp; quantum ad 
+      si<lb ed="#P" n="128" break="no"/>gnificatum ad modum significandi, &amp; sic dicitur 
+      <lb ed="#P" n="129"/>esse existentiae: accipiendo vero actum essendi 
+      <lb ed="#P" n="130"/>prout transit in vim nominis secundum quod 
+      dici<lb ed="#P" n="131" break="no"/>mus quod esse est quidam actus: tunc non stat pro 
+      <lb ed="#P" n="132"/>ipso habere formaliter, sed pro actu habito &amp; 
+      di<lb ed="#P" n="133" break="no"/>citur esse essentiae. Cum ergo in omni creatura 
+      <lb ed="#P" n="134"/>sint plures essentiae accipiendo per oreaturam 
+      sub<lb ed="#P" n="135" break="no"/>stantias particulares quibus in sunt aliquae proprie¬ 
+      <!--59.xml-->
+      <pb ed="#P" n="59"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tates diuersae a suis essentiis, quarum essentiarum 
+      <lb ed="#P" n="2"/>vna habet aliam nec est illa quam habet: ideo in 
+      <lb ed="#P" n="3"/>ereaturis substantia etiam in concreto accepta, non 
+      <lb ed="#P" n="4"/>est suum esse essentiae: Quia non est sua essentia: 
+      <lb ed="#P" n="5"/>nec etiam est idem esse existentiae &amp; essentiae 
+      tota<lb ed="#P" n="6" break="no"/>liter propter implicatum modum signifieandi 
+      ver<lb ed="#P" n="7" break="no"/>balem, quia in ereaturis non idem est habere 
+      es<lb ed="#P" n="8" break="no"/>sentiam, &amp; esse essentiam illam: sicut non est idem 
+      <lb ed="#P" n="9"/>habere albedinem &amp; esse albedinem. Deus autem 
+      <lb ed="#P" n="10"/>per oppositum est vtroque modo idem cum suo 
+      <lb ed="#P" n="11"/>e sse: quia ipse est sua essentia: &amp; suum esse 
+      essen<lb ed="#P" n="12" break="no"/>tiae: in ipso etiam estidem esse essentiam &amp; habere 
+      <lb ed="#P" n="13"/>ilsam: vnde in Deo idem est esse diuinitatem &amp; 
+      <lb ed="#P" n="14"/>habere diuinitatem, &amp; hoc sufficiat de secundo. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e380">
+               <lb ed="#P" n="15"/>Quantum autem ad tertium, dicunt quidam 
+      <lb ed="#P" n="16"/>quod soli Deo counenit esse simpliciter, quod sic 
+      <lb ed="#P" n="17"/>probant, quia quandocunque aliquid dicitur de 
+      <lb ed="#P" n="18"/>duobus, de vno per prius: &amp; de alio ner 
+      poste<lb ed="#P" n="19" break="no"/>rius sicut est in analogicis; quando accipitur per 
+      <lb ed="#P" n="20"/>se, stat pro eo de quo dicitur prius, vt patet de 
+      en<lb ed="#P" n="21" break="no"/>te respectu substantiae &amp; aceidentis. Sed esse 
+      di<lb ed="#P" n="22" break="no"/>citur analogice de Deo &amp; creatura ita quod per 
+      <lb ed="#P" n="23"/>prius dicitur de Deo, per posterius de creatura, &amp; 
+      <lb ed="#P" n="24"/>ideo esse simpliciter acceptum soli Deo 
+      conue<lb ed="#P" n="25" break="no"/>nit. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e406">
+               <lb ed="#P" n="26"/>ltem ad idem fortificando quod dictum est, 
+      <lb ed="#P" n="27"/>quando aliquid dicitur de duobus in quorum vno 
+      <lb ed="#P" n="28"/>inuenitur diminute; in alio autem perfecte &amp; 
+      <lb ed="#P" n="29"/>simpliciter; per se acceptum stat tantum pro illo 
+      <lb ed="#P" n="30"/>in quo complete &amp; simpliciter inuenitur: sed esse 
+      <lb ed="#P" n="31"/>creaturae respectu esse diuini se habet sicut pars 
+      <lb ed="#P" n="32"/>respectu totius, cum esse diuinum comprehendat 
+      <lb ed="#P" n="33"/>omnem perfectionem essendi, non sic esse 
+      creatu<lb ed="#P" n="34" break="no"/>rae: &amp; sicut impurum respectu puri, ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e428">
+               <lb ed="#P" n="35"/>Sed hoc non videtur bene dictum, primno, quio 
+      <lb ed="#P" n="36"/>eodem modo quaecunquede Deo dicuntur &amp; 
+      crea<lb ed="#P" n="37" break="no"/>tura simpliciter &amp; per se accepta, soli Deo 
+      conue<lb ed="#P" n="38" break="no"/>nirent: quia non folum de esse sed etiam de omni 
+      <lb ed="#P" n="39"/>eeo quod de Deo &amp; creatura dicitur verum est, 
+      <lb ed="#P" n="40"/>quod conuenit vtrique analogice &amp; per prius 
+      <lb ed="#P" n="41"/>conuenit Deo quantum ad rem significatam, 
+      <lb ed="#P" n="42"/>quam creaturae: &amp; diminute conuenit creaturae 
+      <lb ed="#P" n="43"/>respectu Dei. Hoc autem videtur inconueniens, 
+      <lb ed="#P" n="44"/>videlicet quod cognoscere, viuere, &amp; 
+      intellige<lb ed="#P" n="45" break="no"/>re, &amp; haec omnia per se accepta sine determina 
+      <lb ed="#P" n="46"/>tione contrahente soli Deo conueniant, quia tunc 
+      <lb ed="#P" n="47"/>istae omnes popositiones, homo viuit, homo 
+      intel<lb ed="#P" n="48" break="no"/>sigit, &amp; similia de virtute sermonis essent falsae, 
+      <lb ed="#P" n="49"/>nisi adderetur aliqua determinatio contrahens ad 
+      <lb ed="#P" n="50"/>viuere &amp; intelligere; &amp; sic dealiis. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e466">
+               <lb ed="#P" n="51"/>aecundo, videtur hoc inconueniens: quia 
+      <lb ed="#P" n="52"/>semper proptium infert illud cuius est proprium, 
+      <lb ed="#P" n="53"/>sicut risibile semper infert hominem: vnde 
+      sequi<lb ed="#P" n="54" break="no"/>tur, hoc est risibile, ergo est homo. Si ergo esse 
+      <lb ed="#P" n="55"/>ubsolute acceptum est proprium Deo, semper 
+      in<lb ed="#P" n="56" break="no"/>ferret Deum: &amp; sic sequitur hoc est vere &amp; 
+      pro<lb ed="#P" n="57" break="no"/>prie ens: ergo est Deus: quod est inconueuiens. Nam 
+      <lb ed="#P" n="58"/>absque aliqua determinatione adiecta cuilibet 
+      <lb ed="#P" n="59"/>supposito conuenit esse: cum secundum istos esse 
+      <lb ed="#P" n="60"/>sit proprietas suppositi generaliter dicti, quia in 
+      <lb ed="#P" n="61"/>hoc vt dicunt differt a natura est; quia natura est 
+      <lb ed="#P" n="62"/>quo aliquid est: suppositum autem proprie est quod 
+      <lb ed="#P" n="63"/>est. Si autem inueniatur in aliquo dicto autentico 
+      <lb ed="#P" n="64"/>quod esse simpliciter soli Deo conuenit. 
+      Distin<lb ed="#P" n="65" break="no"/>guendum est de simpliciter: quia vno modo 
+      ac<lb ed="#P" n="66" break="no"/>cipitur pro vniuersaliter: &amp; est sensus quod soli 
+      <lb ed="#P" n="67"/>Deo conuenit esse simpliciter. Primum habere 
+      <lb ed="#P" n="68"/>vniuer saliter omnem perfectionem essendi: alio 
+      <lb ed="#P" n="69"/>modo simpliciter idem est quod absolute &amp; sine 
+      <lb ed="#P" n="70"/>determinatione adiuncta: &amp; sic esse simpliciter 
+      <!--59.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Primo modo conuenit soli Dec. Secundo modo 
+      <lb ed="#P" n="72"/>non: quia multa sunt quibus conuenit vere esse 
+      <lb ed="#P" n="73"/>nulla additione facta. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e523">
+               <lb ed="#P" n="74"/>Ad primum ergo in contrarium dicendum quod 
+      <lb ed="#P" n="75"/>ad hoc quod aliquis terminus communis per se 
+      ac<lb ed="#P" n="76" break="no"/>ceptus stet pro altero sub se contento, non susficit 
+      <lb ed="#P" n="77"/>quod res significata per terminum per prius &amp; per. 
+      <lb ed="#P" n="78"/>fectiori modo in vno quam in alio inueniatur, fiut 
+      <lb ed="#P" n="79"/>accipiatur prius causalitate siue: aliter eorpus per se 
+      <lb ed="#P" n="80"/>acceptum staret tantum pro corpore coelesti quod 
+      <lb ed="#P" n="81"/>est causa aliorum; siue accipiatur prius tempore 
+      <lb ed="#P" n="82"/>Alioquin dies per se acceptus staret proprimo die 
+      <lb ed="#P" n="83"/>siue etiam sit prius dignitate, alioquin animal 
+      <lb ed="#P" n="84"/>per se acceptum tantum staret pro homine: sed 
+      <lb ed="#P" n="85"/>oportet quod illi cui per posterius conuenit non 
+      <lb ed="#P" n="86"/>conueniat nisi improprie, vel secundum aliquam 
+      <lb ed="#P" n="87"/>similitudinem; vel tecundum quandam 
+      habitudi<lb ed="#P" n="88" break="no"/>nem ad primum ita quod ter minus formaliter &amp; 
+      <lb ed="#P" n="89"/>proptie, ipsum primum significet, sicut ens non 
+      <lb ed="#P" n="90"/>dicitur proprie de accidente: vnde accidens non 
+      <lb ed="#P" n="91"/>est proprie quod est, vel ensi sed est quo ens est 
+      <lb ed="#P" n="92"/>tale, vel tale: &amp; similiter herba non est proptie 
+      <lb ed="#P" n="93"/>sana: sed sanefactiua. Sanum enim proptie est 
+      tan<lb ed="#P" n="94" break="no"/>tum illud quod habet sanitatem formaliter 
+      inhae<lb ed="#P" n="95" break="no"/>tentem. Sic autem non est in proposito: quia esse 
+      <lb ed="#P" n="96"/>non est impositum ad significandum proprie solum 
+      <lb ed="#P" n="97"/>esse diuinum, imo est impositum ad signicandum vel 
+      <lb ed="#P" n="98"/>actum cuiscunque essentiae, secundum illos qui ronut 
+      <lb ed="#P" n="99"/>quod differat ab essentia: vel ad significandum 
+      <lb ed="#P" n="100"/>habere essentiam absolute secundum illos qui 
+      po<lb ed="#P" n="101" break="no"/>nunt quod non dicit rem additam ad ellentiam: 
+      <lb ed="#P" n="102"/>&amp; ideo non est soli Deo proprium quando 
+      acci<lb ed="#P" n="103" break="no"/>pitur absolute &amp; absquedeterminatione. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e591">
+               <lb ed="#P" n="104"/>Ad secundum dicendum, quod aliud est 
+      ali<lb ed="#P" n="105" break="no"/>quid diminute participare rationem termini, &amp; 
+      <lb ed="#P" n="106"/>asiud est ipsum habere diminutam entitatem 
+      si<lb ed="#P" n="107" break="no"/>ghiificatam per terminum respectu alterius. Sicut 
+      <lb ed="#P" n="108"/>vermis habet diminutam entitatem in animalitate 
+      <lb ed="#P" n="109"/>respectu hominis: sed non habet diminute 
+      ratio<lb ed="#P" n="110" break="no"/>nem huius termini animalis: quia animal non est 
+      <lb ed="#P" n="111"/>impositum ad significandum nobilissimum 
+      ani<lb ed="#P" n="112" break="no"/>mal: sed generaliter hoc quod habet animam 
+      <lb ed="#P" n="113"/>sensitiuam: &amp; ideo quidquid habet animam 
+      sen<lb ed="#P" n="114" break="no"/>sitiuam simpliciter est anima, licet vnum animal 
+      <lb ed="#P" n="115"/>sit perfectius alio: Sed animal putum diminute 
+      <lb ed="#P" n="116"/>participat rationem huius termini animal, quia 
+      a<lb ed="#P" n="117" break="no"/>nimal non fuit impositum ad significandum 
+      pictu<lb ed="#P" n="118" break="no"/>ram quancunque: sed propter quandam 
+      similitu<lb ed="#P" n="119" break="no"/>dinem transsatum est ad hoc: sic autem non est in 
+      <lb ed="#P" n="120"/>proposito quia esse non fuit impositum ad 
+      signin<lb ed="#P" n="121" break="no"/>candum perfectiffimum esse, sed ad significandum 
+      <lb ed="#P" n="122"/>generaliter habere essentiam, vel actum essendi, 
+      <lb ed="#P" n="123"/>&amp; ideo cuicunque hoc conuenit proprie &amp; 
+      sim<lb ed="#P" n="124" break="no"/>pliciter potest dici esse: Et sic creatura potest dici 
+      <lb ed="#P" n="125"/>simpliciter esse: dicendum est ergo quod licet 
+      crea<lb ed="#P" n="126" break="no"/>tura sit ens diminutum respectu Dei, non tamen 
+      <lb ed="#P" n="127"/>diminute participat rationem huius termini ens 
+      <lb ed="#P" n="128"/>siue rationem ad quam significandam 
+      principali<lb ed="#P" n="129" break="no"/>ter fuit iste terminus ens impositum. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e650">
+               <lb ed="#P" n="130"/>Ad quaestionem ergo aliter est dicendum: 
+      vide<lb ed="#P" n="131" break="no"/>licet quod differt quaererevtrum este proprie 
+      com<lb ed="#P" n="132" break="no"/>petar Deo, &amp; differt quarere vtrum esse sit proprium 
+      <lb ed="#P" n="133"/>Dei. Quod si quaeratur vtrum esse proprie 
+      compe<lb ed="#P" n="134" break="no"/>tat Deo, fiue conuenire propriae accipitur pro 
+      con<lb ed="#P" n="135" break="no"/>uenire non metaphorice vel diminute quantum ad 
+      <lb ed="#P" n="136"/>rationem termini: siue accipiatur pro eo quod est 
+      <lb ed="#P" n="137"/>habere purum esse sine aliqua potentialitatis 
+      ad<lb ed="#P" n="138" break="no"/>mixtione: constat quod sic: quia esse conuenis 
+      <lb ed="#P" n="139"/>Deo non metaphoricevt magis infra patebit, 
+      quo<lb ed="#P" n="140" break="no"/>ntam quaeretur vtru aliquid de Deo propne dlea¬ 
+      <!--60.xml-->
+      <pb ed="#P" n="60"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tur: &amp; constat etiam quod in eo nulla est 
+      compo<lb ed="#P" n="2" break="no"/>sitio quae possit facere smpuritatem in eius esse: si 
+      <lb ed="#P" n="3"/>autem quaetatur vtrum esse absolute dictum soli 
+      <lb ed="#P" n="4"/>Deo conueniat: ita quod sit sib proprium 
+      dicen<lb ed="#P" n="5" break="no"/>dum quod non, quia aliis conuenit, nisi addatur 
+      <lb ed="#P" n="6"/>aliqua determ inatio ratione cuius denotetur 
+      sta<lb ed="#P" n="7" break="no"/>re pro esse diuino: sicut hoc quod dico esse 
+      pu<lb ed="#P" n="8" break="no"/>rum vel esse vniuersaliter perfectum: sic enimi esse 
+      <lb ed="#P" n="9"/>non solum conuenit Deo proprie: i mo etiam est 
+      <lb ed="#P" n="10"/>ei proprium per dicta, patet ad rationes. 
+      <lb ed="#P" n="11"/>lusta hoc solet quaeri.
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e707">
+               <lb ed="#P" n="12"/>Vtrum Deus sit esse omnium: &amp; quia constat 
+      <lb ed="#P" n="13"/>quod est esse causale omnium non autem esse 
+      for<lb ed="#P" n="14" break="no"/>male inhaerens omnibus ideo praetermiito. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e716">
+               <lb ed="#P" n="15"/>Solet etiam quaeri vtrum inter omnia nominat 
+      <lb ed="#P" n="16"/>diuina esse ens sit primum &amp; tenetur 
+      communi<lb ed="#P" n="17" break="no"/>ter quod sic: Primo, quia primum, quod cadit 
+      <lb ed="#P" n="18"/>in conceptione illectus est ens: &amp; ideo 
+      nul<lb ed="#P" n="19" break="no"/>lum nomen potest conuenire per prius re vel 
+      ratio<lb ed="#P" n="20" break="no"/>ne Deo vel cuicunque alii quam ens. 
+      </p>
+            <p xml:id="hx2hx3-b18744-d1e733">
+               <lb ed="#P" n="21"/>Secundo, quia quantum ad Deum specialiter) 
+      <lb ed="#P" n="22"/>dicitur quod esse eius principale nomen sit: quia 
+      <lb ed="#P" n="23"/>esse subsistens scilicet illud cui conuenit quod sit 
+      <lb ed="#P" n="24"/>suum esse, importat ex ratione sua omnem 
+      pleni<lb ed="#P" n="25" break="no"/>tudinem essendi. Alia autem, non sit important 
+      <lb ed="#P" n="26"/>ex ratione sua hoc: licet ex re significata hoc ei 
+      <lb ed="#P" n="27"/>conueniat. Et ideo esse tale dicitur potissimum 
+      <lb ed="#P" n="28"/>Dei. Vnde autem habeant quod esse purum sub. 
+      <lb ed="#P" n="29"/>sistens importat omnem plenitudinem essendi: 
+      <lb ed="#P" n="30"/>potest accipi ex aliis que alibidizi: ideo haec 
+      per<lb ed="#P" n="31" break="no"/>transeo. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

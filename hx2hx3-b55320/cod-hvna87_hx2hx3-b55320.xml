@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="166"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b55320"><!-- l1d43q2 -->
+            <head xml:id="hx2hx3-b55320-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b55320-Hd1e101" type="question-title">Utrum ea quae deo facit faciat de necessitate naturae vel iustitiae</head>
+            <p xml:id="hx2hx3-b55320-d1e104">
+      <!--166.xml-->
+               <pb ed="#P" n="166"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>QVESTIO SECVNDA. 
+      <lb ed="#P" n="2"/>VTrum ea quae Deus facit, faciat de 
+      necessita<lb ed="#P" n="3" break="no"/>te naturae vel iustitiae.
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e120">
+               <lb ed="#P" n="4"/>Et arguitur. Primo, quod faciat ea de 
+      necessi<lb ed="#P" n="5" break="no"/>tate naturae. Quia quod conuenit alicui per suam 
+      <lb ed="#P" n="6"/>essentiam, conuenit ei de necessitate naturae: quia 
+      <lb ed="#P" n="7"/>conuenit ei per natura suam, cum essentia 
+      v<lb ed="#P" n="8" break="no"/>niuscuiusque sit sua naturam. Sed facere ea quae 
+      <lb ed="#P" n="9"/>lleus facit conuenit Deo per essentiam suam, 
+      <lb ed="#P" n="10"/>alioquin aliquid aliud a se esset sibi causa agendi. 
+      <lb ed="#P" n="11"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e140">
+               <lb ed="#P" n="12"/>Praeterea, omne illud quod Deus vult, de 
+      ne<lb ed="#P" n="13" break="no"/>cessitate vult: nec potest non velle. Sed Deus 
+      <lb ed="#P" n="14"/>non producit nisi quod vult producere, nec potest 
+      <lb ed="#P" n="15"/>non producere, supposito quod velit ea 
+      produce<lb ed="#P" n="16" break="no"/>re. Ergo quicquid producit de necessitate 
+      produ<lb ed="#P" n="17" break="no"/>cit. Minor supponitur. Maior probatur. Quia si 
+      <lb ed="#P" n="18"/>illa quae Deus vult non vellet de necessitate: 
+      pos<lb ed="#P" n="19" break="no"/>set ea nolle. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e161">
+               <lb ed="#P" n="20"/>Item sequeretur quod voluntas eius esset 
+      in<lb ed="#P" n="21" break="no"/>differens ad nolle, &amp; velle. Sed hoc est 
+      incon<lb ed="#P" n="22" break="no"/>ueniens: quia oporteret quod determinaretur ab 
+      <lb ed="#P" n="23"/>alio, &amp; oporteret quod voluntas Dei differret 
+      rea<lb ed="#P" n="24" break="no"/>liter ab actu volendi. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e174">
+               <lb ed="#P" n="25"/>Quod autem agat de necessitate iustitiae 
+      <lb ed="#P" n="26"/>videtur. Quia Deus non potest facere nisi quod 
+      <lb ed="#P" n="27"/>decet ipsum facere. Sed non est decens ipsum 
+      fa<lb ed="#P" n="28" break="no"/>cerequae non facit, alioquin si deceret ipsum &amp; 
+      fa<lb ed="#P" n="29" break="no"/>ceret. Ergo non potest non facere quae facit &amp; 
+      <lb ed="#P" n="30"/>per consequens. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e190">
+               <lb ed="#P" n="31"/>In contrarium est magister facit ea de 
+      necessi<lb ed="#P" n="32" break="no"/>tate iustitiae. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e197">
+               <lb ed="#P" n="33"/>Respondeo. Primo videndum est, vtrum Deus 
+      <lb ed="#P" n="34"/>ea quae facit, faciat de necessitate naturae. 
+      <lb ed="#P" n="35"/>Secundo vtrum de necessitate iustitiae. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e206">
+               <lb ed="#P" n="36"/>ARIICVLVS PRIMVS. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e211">
+               <lb ed="#P" n="37"/>QVantum ad primum sciendum est, quod 
+      ali<lb ed="#P" n="38" break="no"/>quid fieri a Deo de necessitate naturae 
+      du<lb ed="#P" n="39" break="no"/>pliciter potest intelligi. Vno modo quod natura 
+      di<lb ed="#P" n="40" break="no"/>uina pront praeintelligitur actui intelligendi &amp; 
+      <lb ed="#P" n="41"/>volendi, sit tale principium rei quae sic producitur: 
+      <lb ed="#P" n="42"/>ita quod ex hoc quod est talis naturae de 
+      necessita<lb ed="#P" n="43" break="no"/>te consequitur ipsum producere illud, &amp; non ex 
+      <lb ed="#P" n="44"/>hoc quod intelligit illud, vel vult producere, 
+      si<lb ed="#P" n="45" break="no"/>cut etiam homo per naturam est risibilis, quia 
+      na<lb ed="#P" n="46" break="no"/>tura humana praeintellecta ipsi actui intelligendi 
+      <lb ed="#P" n="47"/>&amp; volendi, est principum risibilitatis. Et isto 
+      mo<lb ed="#P" n="48" break="no"/>do ex necessitate naturae, scilicer ex necessitate 
+      <lb ed="#P" n="49"/>immutabilitatis conuenientis naturae diuinae, vt 
+      <lb ed="#P" n="50"/>talis natura etiam oonuenit vni persone producere 
+      <lb ed="#P" n="51"/>aliam, puta producere filium vel spiritum, sanctum, 
+      <lb ed="#P" n="52"/>Nec hocest cotra hoc quod dicitur, quod pater 
+      in<lb ed="#P" n="53" break="no"/>telligedo vel per actu intellectus producit filium, 
+      <lb ed="#P" n="54"/>quia aliquid per actum intelligedi producidupliciter 
+      <lb ed="#P" n="55"/>potest intelligi, vno modo sicut consequens 
+      ne<lb ed="#P" n="56" break="no"/>cessario ex proprietate naturali talis actus absque 
+      <lb ed="#P" n="57"/>hoc quod illud sit intellectum vel volitum. Sicut, 
+      <lb ed="#P" n="58"/>si ad aliquod intelligere sequatur necessario 
+      ali<lb ed="#P" n="59" break="no"/>quis cenceptus. Et isto modo dicitur filius 
+      pro<lb ed="#P" n="60" break="no"/>duci per actum intellectus, inquantum in diuinis 
+      <lb ed="#P" n="61"/>ipsum intelligere est ipsa natura intellectualitatis. 
+      <lb ed="#P" n="62"/>Alio modo conuenit aliquid produei per actum 
+      <lb ed="#P" n="63"/>intellectus, &amp; etiam ipsius volutatis, vt quoddain 
+      <lb ed="#P" n="64"/>intellectum, &amp; volitum produci: sicut 
+      arti<lb ed="#P" n="65" break="no"/>ficiata fiunt per intellectum &amp; voluntatem. Et 
+      <lb ed="#P" n="66"/>sicut ponimus creaturas procedere a Deo per in¬ 
+      <!--166.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>tellectum &amp; voluntatem. Et sic Filius non 
+      proce<lb ed="#P" n="68" break="no"/>dit per modum intellectus, vel per actum 
+      intelle<lb ed="#P" n="69" break="no"/>etus, ita quod productioni Filii praeintelligatur 
+      ip<lb ed="#P" n="70" break="no"/>sum esse intellectum &amp; volitum produci: imo 
+      na<lb ed="#P" n="71" break="no"/>tura diuina: vt est principium productiuum filii 
+      <lb ed="#P" n="72"/>vel Spiritu sancti, praeintelligitur actui 
+      in<lb ed="#P" n="73" break="no"/>telligendi &amp; volendi sic acceptis. Et isto modo est 
+      <lb ed="#P" n="74"/>intelligendum quod pater producit Filium per 
+      <lb ed="#P" n="75"/>natura prout praeintelligitur actui intellectus, 
+      <lb ed="#P" n="76"/>&amp; vterque producit Spiritum sanctum per 
+      natu<lb ed="#P" n="77" break="no"/>ram diuinam: prout praeintelligitur sic ipsi actui 
+      vo<lb ed="#P" n="78" break="no"/>lendi. Nam eadem distinctio potest accipi ex 
+      par<lb ed="#P" n="79" break="no"/>te actus volendi, sicut ex parte actus intelligendi, 
+      <lb ed="#P" n="80"/>quia in diuinis vna persona non producit aliam, 
+      <lb ed="#P" n="81"/>per hoc quod intelligit, &amp; vult eam esse 
+      produ<lb ed="#P" n="82" break="no"/>cibllem vel productam, sed per hoc quod est talis 
+      <lb ed="#P" n="83"/>naturae, quae natura est ipsum intelligere &amp; velle 
+      <lb ed="#P" n="84"/>essentialiter, dicuntur personae produci per actum 
+      <lb ed="#P" n="85"/>intelligendi &amp; volendi, prout aliquid est natum 
+      <lb ed="#P" n="86"/>consequi ex proprietate naturali talium actuum 
+      <lb ed="#P" n="87"/>absq; hoc quod illud intelligatur, vel intellectum 
+      <lb ed="#P" n="88"/>vel volitum. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e332">
+               <lb ed="#P" n="89"/>Si ergo quaeratur vtrum Deus aliquid sic agat 
+      <lb ed="#P" n="90"/>in creaturis ex necessitate naturae, prout aliquid 
+      <lb ed="#P" n="91"/>sic praeintelligitur natura, actu intelligendi &amp; 
+      vo<lb ed="#P" n="92" break="no"/>lendi simpliciter, dicendum est quod nec 
+      secun<lb ed="#P" n="93" break="no"/>dum fidem, nec secundum philosophos qui ratio. 
+      <lb ed="#P" n="94"/>nabiliter locuti sunt sicut fuit Aristoteles &amp; Plato, 
+      <lb ed="#P" n="95"/>facit aliquid Deus isto modo in creaturis de 
+      ne<lb ed="#P" n="96" break="no"/>cessitate naturae. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e352">
+               <lb ed="#P" n="97"/>Ad cuius euidentiam primo sciendum est quod 
+      <lb ed="#P" n="98"/>exceptis actionibus quibus producuntur personae. 
+      <lb ed="#P" n="99"/>diuinae, omne agens vel agit propter finem 
+      ali<lb ed="#P" n="100" break="no"/>quem, vel agit a casu. In productionibus enim 
+      di<lb ed="#P" n="101" break="no"/>uinarum personarum, non est quaerere finem 
+      pro<lb ed="#P" n="102" break="no"/>pter quem talia producantur, quia non habent 
+      <lb ed="#P" n="103"/>finem, imo ipse sunt supremus finis quia 
+      quae<lb ed="#P" n="104" break="no"/>libet eatum est ipsa essentia diuina. Sed in aliis 
+      <lb ed="#P" n="105"/>actionibus in quibus est vere causa effectiua, &amp; 
+      <lb ed="#P" n="106"/>producitur aliquid aliud in essentia a producente 
+      <lb ed="#P" n="107"/>sicut illud productum habet causam efficientem 
+      <lb ed="#P" n="108"/>proprie dictam, ita &amp; causam finalem. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e381">
+               <lb ed="#P" n="109"/>Ex hoc potest ostendi quod Deus non 
+      produ<lb ed="#P" n="110" break="no"/>cit creaturas, nec aliquid aliud in eis ex 
+      necessita<lb ed="#P" n="111" break="no"/>te naturae, prout praeintelligitur ipsi actur 
+      intelli<lb ed="#P" n="112" break="no"/>gendi &amp; volendi: imo necessarium est, quod ea 
+      <lb ed="#P" n="113"/>quae facit in creaturis, faciat per intellectum &amp; 
+      <lb ed="#P" n="114"/>voluntatem, vt quaedam intellecta &amp; volita fieri, 
+      <lb ed="#P" n="115"/>quia sicut dictum est, omne agens vel agit a 
+      <lb ed="#P" n="116"/>casu, vel agit propter finem. Sed Deus non agit a 
+      <lb ed="#P" n="117"/>casu: tum quia ea quae sunt a casu, sunt vt in 
+      pau<lb ed="#P" n="118" break="no"/>cioribus, non sic ea quaefiunt a Deo, tum quia ages 
+      <lb ed="#P" n="119"/>a casu est causa per accidens. Deus autem cum sit 
+      <lb ed="#P" n="120"/>prima causa non potest esse causa per accidens, 
+      <lb ed="#P" n="121"/>cum causa per se sit prior ea quae est per accidens. 
+      <lb ed="#P" n="122"/>Relinquitur ergo quod Deus est causa agens 
+      pro<lb ed="#P" n="123" break="no"/>pter finem, omne autem quod agit propter finem, 
+      <lb ed="#P" n="124"/>aut agit propter finem sibi ab alio prestitutum, aut 
+      <lb ed="#P" n="125"/>agit propter finem quem sibi vel operi suo 
+      praesti<lb ed="#P" n="126" break="no"/>uit. Sed Deo non potest competere quod agat 
+      <lb ed="#P" n="127"/>propter finem sibi praestitutum ab alio; quia tunc 
+      <lb ed="#P" n="128"/>non esset prima causa, quia illa quae ei finem 
+      prae<lb ed="#P" n="129" break="no"/>stitueret, esset prior. Ergo Deus agit propter 
+      fi<lb ed="#P" n="130" break="no"/>nem sibi vel suo operi praestitutu. Sed agens finemt 
+      <lb ed="#P" n="131"/>sibi praestituens, agit per intellectum &amp; 
+      volunta<lb ed="#P" n="132" break="no"/>temn illud quod est ab eo intellectum, &amp; volitum 
+      <lb ed="#P" n="133"/>fieri; quia non posset praestituere sibi finem, nisi 
+      <lb ed="#P" n="134"/>cognosceret sinem illum, &amp; nisi cognosceret 
+      <lb ed="#P" n="135"/>sssud quod facit propter finem, &amp; eius 
+      proportio<lb ed="#P" n="136" break="no"/>nem ad finem, &amp; nisi vellet illud ordinare ad fi¬ 
+      <!--167.xml-->
+      <pb ed="#P" n="167"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nem: ergo quiequid Deus facit in creaturis, facit 
+      <lb ed="#P" n="2"/>per intellectum &amp; voluntatatem, sicut quoddam 
+      <lb ed="#P" n="3"/>intellectum &amp; volitum fieri, &amp; per consequens 
+      <lb ed="#P" n="4"/>nihil agit in creatura de necessitate naturae, 
+      pro<lb ed="#P" n="5" break="no"/>ut natura prcintelligitur actioni intelligendi &amp; 
+      <lb ed="#P" n="6"/>volendi: nec hoc Philosophus posuit. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e464">
+               <lb ed="#P" n="7"/>Alio modo potest intelligi, quod Beus 
+      produ<lb ed="#P" n="8" break="no"/>cat res creatas ex necessitate naturae, non prout 
+      <lb ed="#P" n="9"/>natura praeintelligitur actui intelligendi, &amp; 
+      vo<lb ed="#P" n="10" break="no"/>lendi; sed secundum quod voluntas vult 
+      necessa<lb ed="#P" n="11" break="no"/>rio quaedam volita. Sicut Deus vult necessarid 
+      <lb ed="#P" n="12"/>suam bonitatem, &amp; creatura rationalis vult 
+      neces<lb ed="#P" n="13" break="no"/>sariohabitudinem: ita quod ista necessitas sit quaea 
+      <lb ed="#P" n="14"/>dam habitudo necessaria voluntatis ad aliqua vt 
+      <lb ed="#P" n="15"/>ad volita, &amp; sequitur actum volendi &amp; 
+      intelli<lb ed="#P" n="16" break="no"/>gendi. Et sic Deum agere de necessitate naturaen 
+      <lb ed="#P" n="17"/>est ipsum volendo necessario bonitatem suam: 
+      vel<lb ed="#P" n="18" break="no"/>le etiam necessario omnia reducibilia in suam 
+      bo<lb ed="#P" n="19" break="no"/>nitatem, secundum quod sunt in ipsa reducibilia: 
+      <lb ed="#P" n="20"/>&amp; velle necessario cuilibet communicare 
+      honita<lb ed="#P" n="21" break="no"/>tem suam quantum vnumquodque est capax. Ad 
+      <lb ed="#P" n="22"/>quiod velle sequitur de necessitate effectus volitus. 
+      <lb ed="#P" n="23"/>Et sic videntur philosophi posuisse Deum agere 
+      <lb ed="#P" n="24"/>de necessitate naturae, quia posuerunt quod 
+      quic<lb ed="#P" n="25" break="no"/>quid vult, velit de necessitate naturae absoluta, 
+      si<lb ed="#P" n="26" break="no"/>cut vult bonitatem suam. Hoc autem est contra 
+      <lb ed="#P" n="27"/>fidem catholicam. &amp; ratione etiam improbant; 
+      <lb ed="#P" n="28"/>que talis est. Quia aliquem volentem finem non 
+      <lb ed="#P" n="29"/>est neceslarium illud velle, quod tali voluntati non 
+      <lb ed="#P" n="30"/>est necessarium ad cundem finem, nec ad bene 
+      es<lb ed="#P" n="31" break="no"/>se finis: sicut patet in exemplo, quod volentem 
+      sa<lb ed="#P" n="32" break="no"/>nitatem non est necessarium velle illam 
+      medici<lb ed="#P" n="33" break="no"/>nam, quae in nullo est necessaria ad habendum 
+      sa<lb ed="#P" n="34" break="no"/>nstatem, nec ad bene esse sanitatis, nec ad 
+      haben<lb ed="#P" n="35" break="no"/>dum citius, vel melius sanitatem. Sed nussa 
+      crea<lb ed="#P" n="36" break="no"/>tura est Deo necessaria ad habendum bonitatem 
+      <lb ed="#P" n="37"/>suam, nec ad bene esse bonitatis sue: quia 
+      itabe<lb ed="#P" n="38" break="no"/>ne &amp; perfecte haberet eam sine creatura sicut cum 
+      <lb ed="#P" n="39"/>ea: Alioquin, sua perfectio, &amp; iua beatitudo, &amp; 
+      <lb ed="#P" n="40"/>bene esse de penderet ab esse creaturae quod est 
+      <lb ed="#P" n="41"/>absurdum. Ergo Deum necessario volentem 
+      bo<lb ed="#P" n="42" break="no"/>nitatem suam, non est necessarium velle aliquam 
+      <lb ed="#P" n="43"/>cteaturam esse. Et sic patet primum scilicet quod 
+      <lb ed="#P" n="44"/>Deus non producit creaturas necessitate 
+      natu<lb ed="#P" n="45" break="no"/>tae. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e551">
+               <lb ed="#P" n="46"/>Quantum ad necesfitatem decentiae, vel 
+      iuisti<lb ed="#P" n="47" break="no"/>tiae, non est necessarium Deum producere 
+      creatu<lb ed="#P" n="48" break="no"/>ras. Quia nullus ex decentia sua, necessitatur ad 
+      <lb ed="#P" n="49"/>volendum illud sine quo decentia sua manet sicut 
+      <lb ed="#P" n="50"/>cum illo. Sed decentia Dei ita manet fine 
+      creatu<lb ed="#P" n="51" break="no"/>ra sicut cum ea, &amp; cum pluribus, sicut cum paucis; 
+      <lb ed="#P" n="52"/>&amp; econuerso. Ergo Deus ex sua decentia non 
+      ne<lb ed="#P" n="53" break="no"/>cessitatur ad volendum producere creaturam vel 
+      <lb ed="#P" n="54"/>non producere, vel producere paucas vel multas, 
+      <lb ed="#P" n="55"/>vel has vel illas. Maior patet. Quia si ita bene 
+      <lb ed="#P" n="56"/>saluaretur decentia mea eundo cum cappa, &amp; 
+      e<lb ed="#P" n="57" break="no"/>conuerso. Ex decentia mea non necessitarer ad 
+      vo<lb ed="#P" n="58" break="no"/>lendum ire cum cappa, vel sine cappa. Sed ex 
+      be<lb ed="#P" n="59" break="no"/>neplacito, modo dependeret ire sic vel aliter. 
+      Mi<lb ed="#P" n="60" break="no"/>hor etiam probatur. Quia sicut bonitas Dei non 
+      <lb ed="#P" n="61"/>dependet ex creaturis. Ita etiam nec suae bonitatis 
+      <lb ed="#P" n="62"/>decentia. Sicut enim ex esse, vel non esse 
+      creatu<lb ed="#P" n="63" break="no"/>rae non habet peius vel melius, ita nec esse 
+      decen<lb ed="#P" n="64" break="no"/>tius vel minus decenter: sed decentia Dei manet 
+      <lb ed="#P" n="65"/>ita sine illo, sicut cum sllo: quod. non facit ad hoc 
+      <lb ed="#P" n="66"/>quod Deus sit decentius, vel minus decenter, &amp; 
+      <lb ed="#P" n="67"/>aquo non dependet eius decentia. Ergo decentia 
+      <lb ed="#P" n="68"/>Dei manet sine creatura, sicut cum ea, &amp; cum 
+      pau<lb ed="#P" n="69" break="no"/>cis, sicut cum multis, &amp; econuersos Etiam mn 
+      spe<lb ed="#P" n="70" break="no"/>ciali deducendo hoc satis patet. Quia per non es¬ 
+      <!--167.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>se creaturae nec beatitudo Dei nec gaudium De 
+      <lb ed="#P" n="72"/>diminuitur. Nec per eius essentiam cresciti nec e 
+      <lb ed="#P" n="73"/>tiam eius potentia est maior vel minor nec eius 
+      <lb ed="#P" n="74"/>iustitia, cum non sit debitor creaturae. Nec etiam 
+      <lb ed="#P" n="75"/>tius miscricordia, tum quia si non esset creatura: 
+      <lb ed="#P" n="76"/>non esset misericordia, tum quia non tollere 
+      defe<lb ed="#P" n="77" break="no"/>ctum alterius, non facit immisericordem nisi quando 
+      <lb ed="#P" n="78"/>est decens vel congruum hoc facere, alioquin 
+      immi<lb ed="#P" n="79" break="no"/>sericordia esset non saluare damnatos. In decentia 
+      <lb ed="#P" n="80"/>autem tollendi defectum hunc quod est non esse in 
+      <lb ed="#P" n="81"/>creatura, non potest sumi ex parte creaturae nec ex 
+      <lb ed="#P" n="82"/>aliqua dependentia bonitatis diuinae vel 
+      eblina<lb ed="#P" n="83" break="no"/>tione: sed solum ex mera liberalitate sua, &amp; 
+      bene<lb ed="#P" n="84" break="no"/>placito suo. Vnude in nullo decentia Dei 
+      depen<lb ed="#P" n="85" break="no"/>det ex creatura. Vnude sic videtur imaginandum 
+      <lb ed="#P" n="86"/>de Deo respectu esse creati, vel non esse: sicut de 
+      <lb ed="#P" n="87"/>decentia alicuius, cuius decentia non requirit 
+      <lb ed="#P" n="88"/>quod aequus in quo vadit, sit niger vel albus 
+      res<lb ed="#P" n="89" break="no"/>pectu aequi albivel nigri, stante hvpotesi eius 
+      decen<lb ed="#P" n="90" break="no"/>tia in nullo dependet ab aequo albo vel nigro. 
+      Si<lb ed="#P" n="91" break="no"/>militer decentia in nullo depender ab esse, vel non 
+      <lb ed="#P" n="92"/>esse creaturae. Vnde absolute loquendo, Deus 
+      ni<lb ed="#P" n="93" break="no"/>hil agit in ceaturis ex necessitate naturae: vel 
+      de<lb ed="#P" n="94" break="no"/>centiae siue iustitiae, sed ex suppositione, bene 
+      de<lb ed="#P" n="95" break="no"/>centia eius requirit quod faceret hoc vel illud, 
+      pu<lb ed="#P" n="96" break="no"/>ta supposito quod vellet tale vniuersum, deberet 
+      <lb ed="#P" n="97"/>eum facere secundum tales partes. Sed quod 
+      fa<lb ed="#P" n="98" break="no"/>ciat tale vniuersum, vel non faciat, ex solo eius 
+      be<lb ed="#P" n="99" break="no"/>neplacsto dependet: nec necessitatur ad hoc per 
+      <lb ed="#P" n="100"/>haturam vel decentiam. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e677">
+               <lb ed="#P" n="101"/>Ad primum ergo in oppositum dicendum est, 
+      <lb ed="#P" n="102"/>quod aliquid conuenire alicui per essentiam 
+      du<lb ed="#P" n="103" break="no"/>pliciter est. Vno modo formaliter sicut aliquid elt 
+      <lb ed="#P" n="104"/>calidum per calorem, &amp; per humanitatem homo: 
+      <lb ed="#P" n="105"/>&amp; hoc formaliter. Alio modo dicitur aliquid 
+      con<lb ed="#P" n="106" break="no"/>uenire alicui per essentiansuam formaliter, sicut 
+      ca<lb ed="#P" n="107" break="no"/>lefacere counuenit calori per essentiam suam: 
+      si<lb ed="#P" n="108" break="no"/>cut primo actiuo. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e698">
+               <lb ed="#P" n="109"/>Vlterius est sciendum quod aliquid conuenit 
+      <lb ed="#P" n="110"/>alicuiformaliter per essentiam suam dupliciter.
+      I<lb ed="#P" n="111" break="no"/>no modo quod conueniat ei per essentiam suam 
+      <lb ed="#P" n="112"/>non importando habitudinem ad aliquid extra, 
+      si<lb ed="#P" n="113" break="no"/>cut esse Deum, vel bonum conuenit Deo 
+      formali<lb ed="#P" n="114" break="no"/>ter per essentiam suam: &amp; superficiei conuenit 
+      <lb ed="#P" n="115"/>esse latitudinem per essentiam suam. Alio modo 
+      <lb ed="#P" n="116"/>tonuenit alicui per essentiam form aliter aliquid 
+      <lb ed="#P" n="117"/>importans habitudinem ad aliquid extra siue 
+      di<lb ed="#P" n="118" break="no"/>uersum ab illo. Sicut per essentiam suam 
+      conue<lb ed="#P" n="119" break="no"/>nit superficiei quod sit lotus, cum praeter ipsam 
+      <lb ed="#P" n="120"/>superficiem locus importat habitudinem ad loca. 
+      <lb ed="#P" n="121"/>tum. Et similiter esse praedestinatorem 
+      bono<lb ed="#P" n="122" break="no"/>rum conuenit Deo per essentiam, isto modo. Tunc 
+      <lb ed="#P" n="123"/>ad maiorem dicendum est, quod illud quod 
+      con<lb ed="#P" n="124" break="no"/>uenit alicui per essentiam suam formaliter, &amp; linc 
+      <lb ed="#P" n="125"/>habitudine ad aliquid diuersum ab essentia sua, 
+      <lb ed="#P" n="126"/>sicut esse hiominem conuenit homini per 
+      humani<lb ed="#P" n="127" break="no"/>tatem, de necessitate ei eonuenit. Non autem quod 
+      <lb ed="#P" n="128"/>conuenit ei per essentiam suam causaliter, vel cum 
+      <lb ed="#P" n="129"/>habitudine ad alterum: nisi illa habltudo 
+      conse<lb ed="#P" n="130" break="no"/>quantur ipsum necessario, sicut patet in dictis 
+      <lb ed="#P" n="131"/>exemplis, quod non est necessarium quod calor 
+      <lb ed="#P" n="132"/>calefaciat, vel superficies sit locus. Ad minorem 
+      <lb ed="#P" n="133"/>dicendum quod ereare conuenit Deo per 
+      essen<lb ed="#P" n="134" break="no"/>tiam suam, non formaliter, led caulalitet secudum 
+      <lb ed="#P" n="135"/>illos qui dicunt quod creatio actio, &amp; creatio 
+      pal<lb ed="#P" n="136" break="no"/>sio est creatura. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e761">
+               <lb ed="#P" n="137"/>Et quod quando dicitur, quod creare est quaeda 
+      <lb ed="#P" n="138"/>denominatio ab effectu quia idem est quod 
+      habe<lb ed="#P" n="139" break="no"/>re creaturam a se factam: nec sequitur quod 
+      ali<lb ed="#P" n="140" break="no"/>quid sit Deo causa agendi, sed tantum sequitur 
+      <!--168.xml-->
+      <pb ed="#P" n="168"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quod essentia sua est causa sui effectus a quo 
+      deno<lb ed="#P" n="2" break="no"/>minatur: vel sic formaliter ei conuenit per essentia 
+      <lb ed="#P" n="3"/>suam hoc est, iniportando habitudinem ad aliquid 
+      <lb ed="#P" n="4"/>diuersum ab essentia diuina ad creaturam: vt ad 
+      <lb ed="#P" n="5"/>perfectam in actu, quae habitudo non est 
+      necessa<lb ed="#P" n="6" break="no"/>ria. Dum autem conuenit aliquo istorum duorum 
+      <lb ed="#P" n="7"/>modorum per essentiam, non oportet de 
+      necessi<lb ed="#P" n="8" break="no"/>tate in esse nature. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e796">
+               <lb ed="#P" n="9"/>Ad primum dicendum est, quod voluntas 
+      <lb ed="#P" n="10"/>Dei dupliciter potest accipi, ita quod per 
+      volunta<lb ed="#P" n="11" break="no"/>tom accipiamus actum volendi. Vno modo potesi 
+      <lb ed="#P" n="12"/>accipi absolute, &amp; sic voluntas Dei est necessaria 
+      <lb ed="#P" n="13"/>necessitate absoluta. Quia necessarium est abso. 
+      <lb ed="#P" n="14"/>sute Deum ab aeterno habere suum actum 
+      volen<lb ed="#P" n="15" break="no"/>di. Alio modo in habitudine ad aliquod volitum, 
+      <lb ed="#P" n="16"/>&amp; hoc vel diuinum, vel creatum. Si accipiatur 
+      <lb ed="#P" n="17"/>in habitudine ad volitum diuinum, sic adhuc est 
+      <lb ed="#P" n="18"/>necessaria necessitate absoluta. Quia Deum velle 
+      <lb ed="#P" n="19"/>seipsum &amp; suam bonitatem, absoluta necessitate 
+      <lb ed="#P" n="20"/>necessarium est. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e825">
+               <lb ed="#P" n="21"/>Si autem accipiatur in habitudine ad volitum 
+      <lb ed="#P" n="22"/>creatum, non secundum esse quod creatura habet 
+      <lb ed="#P" n="23"/>in Deo, sed tantum secundum esse quod habet in 
+      <lb ed="#P" n="24"/>seipsa, secundum quod dicimus Deum velle 
+      crea<lb ed="#P" n="25" break="no"/>turam facere, vel velle creaturam esie, vel fore. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e838">
+               <lb ed="#P" n="26"/>Tunc dicendum est, quod velle Dei cum tali 
+      <lb ed="#P" n="27"/>habitudine acceptum nec est necessarium 
+      necessi<lb ed="#P" n="28" break="no"/>tate absoluta Ita quod absolute fuerit 
+      impossi<lb ed="#P" n="29" break="no"/>bile oppositum fuisse ab aeterno: nec debet etiam 
+      <lb ed="#P" n="30"/>dici contingens, quod Deus aliquando fuerit abs. 
+      <lb ed="#P" n="31"/>que ista habitudine, &amp; fuerit in potentia ad eam 
+      si<lb ed="#P" n="32" break="no"/>cut ad futurum possibile sibi in esse vel non esse; 
+      <lb ed="#P" n="33"/>quia proprie nihil est contingens, nisi secundum 
+      <lb ed="#P" n="34"/>illam dispositionem secundum quam est futurum. 
+      <lb ed="#P" n="35"/>Vnde cursus Socratis praesens vel praeteritus, 
+      am<lb ed="#P" n="36" break="no"/>plius non est contingens, sed debet dici 
+      necessa<lb ed="#P" n="37" break="no"/>rium ex suppositione: quia ex quo nonitur velle 
+      <lb ed="#P" n="38"/>aliquid nom potest oppositum in esse. Vnde si Socrares 
+      <lb ed="#P" n="39"/>dum currit, currere non est necessarium absolute. 
+      <lb ed="#P" n="40"/>Quia oppositum Socrati, secundum se 
+      considera<lb ed="#P" n="41" break="no"/>to: non repugnat. Nec etiam supposito quod 
+      cur<lb ed="#P" n="42" break="no"/>rat, ipsum currere est contingens: sed est 
+      ne<lb ed="#P" n="43" break="no"/>cessarium ex suppositione. Ita etiam Deum velle 
+      <lb ed="#P" n="44"/>aliquam creaturam esse vel fore, nec est 
+      necessa<lb ed="#P" n="45" break="no"/>rium absolute, quia oppontum voluntati diuinae 
+      <lb ed="#P" n="46"/>secundum se &amp; absolute consideratae, non repu. 
+      <lb ed="#P" n="47"/>gnat: nec etiam contingens. Quia iam ponitur in 
+      <lb ed="#P" n="48"/>actu velle: sed est necessarium ex suppositiont: 
+      <lb ed="#P" n="49"/>quia supponitur velle. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e893">
+               <lb ed="#P" n="50"/>Tunc ad formam argumenti est dicendum ad 
+      <lb ed="#P" n="51"/>maiorem, quod loquendo de necessitate 
+      absolu<lb ed="#P" n="52" break="no"/>ta falsa est: quia sic non vult Deus neccssario 
+      quic<lb ed="#P" n="53" break="no"/>quidi vult. Sed loquendo de necessitate 
+      abso<lb ed="#P" n="54" break="no"/>luta, vera est: quia quicquid Deus vult: vult de 
+      ne<lb ed="#P" n="55" break="no"/>cessitate absoluta, sicut vult seipsum: vel 
+      necessi<lb ed="#P" n="56" break="no"/>tate ex suppositione sicut vult alia. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e912">
+               <lb ed="#P" n="57"/>Et quando probatur quod vult creaturas 
+      neces<lb ed="#P" n="58" break="no"/>sitate absoluta: quia aliter esset indifferens ad 
+      vel<lb ed="#P" n="59" break="no"/>le &amp; nolle: &amp; sic oporteret quod determinaretur 
+      <lb ed="#P" n="60"/>per aliud. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e923">
+               <lb ed="#P" n="61"/>Dicendum est quod aliquid esse ind fferens ad 
+      <lb ed="#P" n="62"/>aliquid, dupliciter est. Vno modo quod non est 
+      <lb ed="#P" n="63"/>in actu alicuius eorum, &amp; mere contingenter est 
+      <lb ed="#P" n="64"/>in potentia ad vtrumque. Sicut Socrates ante, 
+      <lb ed="#P" n="65"/>quam currat, est indifferens ad currendum &amp; non 
+      <lb ed="#P" n="66"/>currendum: &amp; quod potest sic currere, &amp; non 
+      cur<lb ed="#P" n="67" break="no"/>re: oportet determinari ad aliquid per alterum. 
+      <lb ed="#P" n="68"/>Alio modo dicitur aliquid indifferens ad aliqua, 
+      <lb ed="#P" n="69"/>vel posse in opposito: non quod non sit in actu alte 
+      <lb ed="#P" n="70"/>rius ipsorum: sed quod sic est in actu alicuius ip¬ 
+      <!--168.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>sorum, quod secundum se &amp; absolute consideratos 
+      <lb ed="#P" n="72"/>non repugnat aliud oppositum: &amp; quod sit 
+      in<lb ed="#P" n="73" break="no"/>differens ad opoppsita, non indiget deter minari, 
+      <lb ed="#P" n="74"/>quia iam determinatum est. Sic autem voluntas 
+      <lb ed="#P" n="75"/>Dei est indifferens ad velle &amp; nolle creaturam, 
+      <lb ed="#P" n="76"/>non quia quandoque in nentro actu sit: sed quia 
+      <lb ed="#P" n="77"/>sic est in actu volendi, quod ei secundun se, &amp; 
+      <lb ed="#P" n="78"/>absolute considerato, non repugnat nolle, vel 
+      e<lb ed="#P" n="79" break="no"/>conuerso. Sic est in actu volendi, quod sibi 
+      abso<lb ed="#P" n="80" break="no"/>lute non repugnat velle: &amp; ideo non indiget 
+      de<lb ed="#P" n="81" break="no"/>terminatione ad  volendum. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e975">
+               <lb ed="#P" n="82"/>Si dicatur contra hoc, quod etiam Socrates du 
+      <lb ed="#P" n="83"/>cutrit, indi get determinanre &amp; mouente ad 
+      cur<lb ed="#P" n="84" break="no"/>rendum: quia oportet dare causam efficientem 
+      il<lb ed="#P" n="85" break="no"/>lum cuisus in Socrate: quia formaliter seipso non 
+      <lb ed="#P" n="86"/>est cursus vel currens. Sic etiam licet Deus fuerit 
+      <lb ed="#P" n="87"/>actu volens ab aeterno, tamen quia quantum est 
+      <lb ed="#P" n="88"/>de se, est indifferens ad velle &amp; nolle creaturam: 
+      <lb ed="#P" n="89"/>ita quod ex se neces, itate ab soluta non est 
+      deter<lb ed="#P" n="90" break="no"/>minatus ad alterum: videtur quod indigeat 
+      deter<lb ed="#P" n="91" break="no"/>minante quod faciat ipsum in actu volendi. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e999">
+               <lb ed="#P" n="92"/>Et ad hoc dicendum est, quod praeter distinctio. 
+      <lb ed="#P" n="93"/>nem prius positam de indifferenti,. est 
+      distinguen<lb ed="#P" n="94" break="no"/>dum, quod aliquid dicitur esse indifferens ad 
+      ali<lb ed="#P" n="95" break="no"/>qua dupliciter. Vno modo sicut subiectu aliquod 
+      <lb ed="#P" n="96"/>est quod est indifferens ad actus oppositos realiter 
+      <lb ed="#P" n="97"/>ab ipso disferentes: sicut Socrates est indifferens 
+      <lb ed="#P" n="98"/>ad cursum &amp; sessionem. Et quod si: est indifferens, 
+      <lb ed="#P" n="99"/>si determinetur, cportet quod habeat causam 
+      ef<lb ed="#P" n="100" break="no"/>fectiuam ipsum realiter determinantem, siue sem. 
+      <lb ed="#P" n="101"/>per sit actu sub altero illorum; siue quandoque 
+      <lb ed="#P" n="102"/>careat vtroque. Sicut si caelum quod quantum est 
+      <lb ed="#P" n="103"/>de se, est indifferens ad moueri, &amp; non moueri. 
+      <lb ed="#P" n="104"/>Di etiam moueretur ab aeterno, adhuc indigeret 
+      <lb ed="#P" n="105"/>eausa effectiua determinante &amp; causante motum 
+      <lb ed="#P" n="106"/>Quia siue ponatur potentia passiua niouere 
+      seip<lb ed="#P" n="107" break="no"/>sam, siue non: impossibile tamen est, quod sit 
+      a<lb ed="#P" n="108" break="no"/>ctus ad quem formalitet habendum est in 
+      poten<lb ed="#P" n="109" break="no"/>tia. Et ideo oportet quod aliqua causa efrcctiua 
+      ef<lb ed="#P" n="110" break="no"/>ficiat illum actum in ea. Sic autem non est Deus 
+      <lb ed="#P" n="111"/>in potentia ad velle, &amp; nolle creaturam: quia 
+      es<lb ed="#P" n="112" break="no"/>sentia Dei non respicit velle quo vult ereaturam, 
+      <lb ed="#P" n="113"/>vt actu differentem a se ad quem sit in potentia, 
+      <lb ed="#P" n="114"/>imo est ipse actus volendi. Alio modo aliquid est 
+      <lb ed="#P" n="115"/>indifferens ad aliqua non diuersa ab eo, sed ad 
+      <lb ed="#P" n="116"/>hoc quod ipsum essentialiter diuei simode accipia 
+      <lb ed="#P" n="117"/>tur, scilicet cum habitudine ad aliquid: quae 
+      ta<lb ed="#P" n="118" break="no"/>men habitudo non addit aliquid super ipsum. Vel 
+      <lb ed="#P" n="119"/>sine tali habitudine, vel cum habitudine 
+      opposi<lb ed="#P" n="120" break="no"/>ta: &amp; sic Deus est indifferens ad velle, &amp; non 
+      vel<lb ed="#P" n="121" break="no"/>le creaturam: vel ad velle &amp; nolle, quia 
+      scili<lb ed="#P" n="122" break="no"/>cet eius velle est indifferens. Vel accipiatur 
+      <lb ed="#P" n="123"/>cum habitudine ad creaturam vt ad volitam, &amp; 
+      si<lb ed="#P" n="124" break="no"/>ne tali habitudine quantum est de se: vel etiam 
+      <lb ed="#P" n="125"/>cum habitudine ad creaturam vt ad non volitam. 
+      <lb ed="#P" n="126"/>Et quod sic est indifferens ad opposita, &amp; est 
+      sem<lb ed="#P" n="127" break="no"/>per in actu alterius eorum. Non oportet 
+      determi<lb ed="#P" n="128" break="no"/>nari ad illud quod habet in actu, per aliquod 
+      <lb ed="#P" n="129"/>agens: sed sufficit quod sit semper in actu alterius 
+      <lb ed="#P" n="130"/>eorum quod sibi secundum se &amp; absolute 
+      consi<lb ed="#P" n="131" break="no"/>derato non repugnnt. Vnde non est imaginandum 
+      <lb ed="#P" n="132"/>quod Deus sic sit indifferens ad velle, &amp; nolle 
+      crea<lb ed="#P" n="133" break="no"/>turam, quasi indigens aliquo effectiuo, quod 
+      ef<lb ed="#P" n="134" break="no"/>fectiue secundum rem determinet ipsum ad actum 
+      <lb ed="#P" n="135"/>volendi. Sed quia suum velle, est velle habens 
+      <lb ed="#P" n="136"/>habitudinem ad creaturam vt ad volitam: ita quod 
+      <lb ed="#P" n="137"/>sibi habitudo opposita non repugnat. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e1101">
+               <lb ed="#P" n="138"/>Sed si vlterius quaeratur, quare ei habitudo 
+      op<lb ed="#P" n="139" break="no"/>posita non repugnat. Dicendum est, quod hioc 
+      <lb ed="#P" n="140"/>est, quia illud vclle, &amp; cius per se obiectum exce¬ 
+      <!--169.xml-->
+      <pb ed="#P" n="169"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dit proportionem cuiuseumque volibilis ereati: 
+      <lb ed="#P" n="2"/>Etideo non oportet quod absoluta necessitate 
+      po<lb ed="#P" n="3" break="no"/>natur cum habitudine ad volibile ereatum, nec 
+      <lb ed="#P" n="4"/>cum habitudine opposita. Sicut velle bonum quod 
+      <lb ed="#P" n="5"/>est quidam actus particularis, licet habeat 
+      respe<lb ed="#P" n="6" break="no"/>ctum ad bonum vniuersale: tamen non habet 
+      ha<lb ed="#P" n="7" break="no"/>bitudinem ad cibum vel potum, vt ad volitum r 
+      <lb ed="#P" n="8"/>nec etiam ad oppositum, sed ad nolle. Et haec 
+      <lb ed="#P" n="9"/>est solutio quam dat sanctus Thomas. Quia 
+      <lb ed="#P" n="10"/>quando aliquis est indifferent ad aliqua per hoc 
+      <lb ed="#P" n="11"/>quod deficit ei principium actiuum per quod 
+      de<lb ed="#P" n="12" break="no"/>terminetur, indiget aliquo agente determinante. 
+      <lb ed="#P" n="13"/>Sed illud quod est indifferens ad plura quasi sicut 
+      <lb ed="#P" n="14"/>actus excedens proportionem cuiussibet illorum: 
+      <lb ed="#P" n="15"/>sicut propositum est exemplum. Illud non indiger 
+      <lb ed="#P" n="16"/>aliquo agente determinante. Sic autem voluntas 
+      <lb ed="#P" n="17"/>Dei absolute considerata, &amp; secundum se, est 
+      in<lb ed="#P" n="18" break="no"/>differens ad hoc quod est velle, &amp; nolle ereatu. 
+      <lb ed="#P" n="19"/>ram. 
+      </p>
+            <p xml:id="hx2hx3-b55320-d1e1158">
+               <lb ed="#P" n="20"/>Ad tertium dicendum, quod quando dicitur 
+      <lb ed="#P" n="21"/>Deus non potest facere nisi quod decet: ly decet 
+      <lb ed="#P" n="22"/>potest accipi pro eo quod nunc actu est decens. Et 
+      <lb ed="#P" n="23"/>tunc maior falsa est, minor vera: quia non facit 
+      a<lb ed="#P" n="24" break="no"/>ctu nunc, nisi quae decent ipsum: &amp; ex falsitate 
+      <lb ed="#P" n="25"/>maioris, sequitur conclusio falsa se, quod non 
+      po<lb ed="#P" n="26" break="no"/>test simpliciter facere, nisi quae facit. Alio modo 
+      <lb ed="#P" n="27"/>potest accipi lv decet, pro decenti actu &amp; aptitu. 
+      <lb ed="#P" n="28"/>dine: vt sit sensus, non potest facere nisi quae 
+      de<lb ed="#P" n="29" break="no"/>cent, id est, nisi illa quae, si fierent decerent 
+      ip<lb ed="#P" n="30" break="no"/>sum. Et sic maior est vera: sed minor est falsa, quae 
+      <lb ed="#P" n="31"/>dicit quod non decet Deum facere nisi quae facit; 
+      <lb ed="#P" n="32"/>accipiendo sic Iv decet: quia multa possunt fieri ab 
+      <lb ed="#P" n="33"/>eo praeter illa quae sunt, quae si fierent, decenter 
+      <lb ed="#P" n="34"/>fierent: &amp; ex minori falsa secundum intellectum: 
+      <lb ed="#P" n="35"/>sequitur conclusio falsa. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

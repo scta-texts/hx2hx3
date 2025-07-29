@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="343"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c15840"><!-- l4d8q4 -->
+            <head xml:id="hx2hx3-c15840-Hd1e99">Quaestio 4</head>
+            <head xml:id="hx2hx3-c15840-Hd1e101" type="question-title">Utrum illa verba faciant aliquid effective ad hoc quod corpus christi sit ibi</head>
+            <p xml:id="hx2hx3-c15840-d1e104">
+      <!--343.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>QVAASTIO QVARTA 
+      <lb ed="#P" n="67"/>Qvarto. Quaeritur vtrum illa verba faciant 
+      <lb ed="#P" n="68"/>aliquid effectiue ad hoc quod Corpus 
+      Chri<lb ed="#P" n="69" break="no"/>sti sit ibi. 
+      </p>
+            <p xml:id="hx2hx3-c15840-d1e120">
+        Et arguitur quod non. Quia si habent 
+      <lb ed="#P" n="70"/>efficaciam aut respectu termini ad quem, aut 
+      res<lb ed="#P" n="71" break="no"/>pectu temini a quo. Non respectu temini ad 
+      <lb ed="#P" n="72"/>quem, quia sic conuertere substantiam panis 
+      exce<lb ed="#P" n="73" break="no"/>dit facultatem omnis creaturae. Nec respectu 
+      <lb ed="#P" n="74"/>termini a quo, ita scilicet quod aliquid operetur 
+      <lb ed="#P" n="75"/>ad desitionem esse panis ibi, quia si aliquid aliud 
+      <lb ed="#P" n="76"/>hic faciant, aut hoc est in tompore aut in instanti. 
+      <lb ed="#P" n="77"/>Non in tempore quia conuersio &amp; illa definitio 
+      <lb ed="#P" n="78"/>sunt instantaneae, &amp; fiunt in vltimo instanti 
+      prola<lb ed="#P" n="79" break="no"/>tionis illius orationis. Sed tunc illa verba non 
+      <lb ed="#P" n="80"/>possunt agere in panem, quia nihil agit nisi in id 
+      <lb ed="#P" n="81"/>quod est, in illo autem instanti panis non est, imo 
+      <lb ed="#P" n="82"/>tunc primo non est panis. Ergo verba non 
+      pos<lb ed="#P" n="83" break="no"/>sunt, tunc agere in terminum a quo in instanti. 
+      </p>
+            <p xml:id="hx2hx3-c15840-d1e153">
+               <lb ed="#P" n="84"/>In contrarium est, quod sacramenta nouae 
+      le<lb ed="#P" n="85" break="no"/>gis efficiunt quod figurant. 
+      </p>
+            <p xml:id="hx2hx3-c15840-d1e161">
+               <lb ed="#P" n="86"/>Respondeo. Dicendum, quod verba aliquid 
+      <lb ed="#P" n="87"/>faciunt saltem circa terminum a quo, quia 
+      sacra<lb ed="#P" n="88" break="no"/>menta nouae legis efficiunt quod figurant, &amp; hoc 
+      <lb ed="#P" n="89"/>faciunt instrumentaliter virtute Dei. 
+      </p>
+            <p xml:id="hx2hx3-c15840-d1e172">
+               <lb ed="#P" n="90"/>Ad rationem in oppositum dicendum, quod 
+      <lb ed="#P" n="91"/>aliquid potest agere in alterum dupliciter, vno 
+      <lb ed="#P" n="92"/>modo sicut in subiectum actionis sicut ignis agit in 
+      <lb ed="#P" n="93"/>aquam. Alio modo sicut in id quod per actionem 
+      <lb ed="#P" n="94"/>repellitur, sicut ignis agit quodammodo in 
+      frigi<lb ed="#P" n="95" break="no"/>ditatem aquae quam repellit a subiecto in 
+      quoda<lb ed="#P" n="96" break="no"/>git. Dicendum ergo, quod nullum agens agit vt 
+      <lb ed="#P" n="97"/>in subiectum actionis, nisi in illud quod est simul 
+      <lb ed="#P" n="98"/>cum actione secundum id in quod agit, sicut in id 
+      <lb ed="#P" n="99"/>quod repellitur oportet quod quandoque fuerit: 
+      <lb ed="#P" n="100"/>sed non oportet quod agat in illud sicut in illud 
+      <lb ed="#P" n="101"/>quod est simul cum actione, imo id in quod sic 
+      a<lb ed="#P" n="102" break="no"/>git habet primo non esse cum actio est. Nam 
+      ip<lb ed="#P" n="103" break="no"/>sa actio est facere illud non efse. Vnde si 
+      calefa<lb ed="#P" n="104" break="no"/>ctio esset instantanea frigiditas quae repellitur per 
+      <lb ed="#P" n="105"/>calefactionem, non haberet esse cum 
+      calefactio<lb ed="#P" n="106" break="no"/>ne: sed haberet primo non esse simul cum 
+      cale<lb ed="#P" n="107" break="no"/>factione. Modo actio verborum non est in pane 
+      <lb ed="#P" n="108"/>vt subiectum actionis: sed sicut in id quod 
+      repel<lb ed="#P" n="109" break="no"/>litur per actionem. Et ideo licet oportuerit prius 
+      <lb ed="#P" n="110"/>panem praefuisse, nontamen quod sit simul eum 
+      <lb ed="#P" n="111"/>actione qua repellitur, imo cum illa actione habet 
+      <lb ed="#P" n="112"/>primo non esse. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

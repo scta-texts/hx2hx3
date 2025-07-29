@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="61"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b19854"><!-- l1d8q4 -->
+            <head xml:id="hx2hx3-b19854-Hd1e99">Quaestio 4</head>
+            <head xml:id="hx2hx3-b19854-Hd1e101" type="question-title">Utrum anima sit tota in qualibet parte corporis</head>
+            <p xml:id="hx2hx3-b19854-d1e104">
+               <lb ed="#P" n="78"/>QVESTIO QVARIA 
+      <lb ed="#P" n="79"/>Vtrum anima fit tota in qualibet parti 
+      <lb ed="#P" n="80"/>corporis. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e113">
+               <lb ed="#P" n="81"/>Aguitur quod non, quia quod est 
+      alicu<lb ed="#P" n="82" break="no"/>cubi totum nihil elt extra illud: si ergo 
+      <lb ed="#P" n="83"/>anima est in aliqua parte corporis tota, puta 
+      <lb ed="#P" n="84"/>in pede, nihil est eius extra pedem: sed si 
+      ni<lb ed="#P" n="85" break="no"/>hil est eius extra pedem anima non est in aliis 
+      <lb ed="#P" n="86"/>partibus: Ergo si anima est in aliqua parte 
+      to<lb ed="#P" n="87" break="no"/>ta, non est in aliis partibus: &amp; per consequens 
+      <lb ed="#P" n="88"/>non potest esse in aliqua parte tota, imo 
+      se<lb ed="#P" n="89" break="no"/>cundum hoc, non potest else in aliqua parte 
+      <lb ed="#P" n="90"/>tota. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e137">
+               <lb ed="#P" n="91"/>Praeterea ablato eo in quo est tota anima 
+      aufer<lb ed="#P" n="92" break="no"/>tur anima: sed ablata aliqua parte non aufertur 
+      <lb ed="#P" n="93"/>anima, vt de se patet: ergo; &amp;c. Praeterea si 
+      <lb ed="#P" n="94"/>membrum aliquod restauretut siue per 
+      miracu<lb ed="#P" n="95" break="no"/>lum, siue aliter qualitercunque: illud mem. 
+      <lb ed="#P" n="96"/>brum aut animatur per partem animae de 
+      no<lb ed="#P" n="97" break="no"/>uo creatam, aut per animam prius existentem 
+      <lb ed="#P" n="98"/>in eo, cui tale membrum instauratur: si primo 
+      <lb ed="#P" n="99"/>modo; tunc anima est quanta per accidensa 
+      <lb ed="#P" n="100"/>nec per consequens est tota in qualibet parte: 
+      <lb ed="#P" n="101"/>si secundo modo: contra, nihil quod est 
+      ali<lb ed="#P" n="102" break="no"/>cubi potest de nouo esse alibi, nisi per motum 
+      <lb ed="#P" n="103"/>localem, &amp; sic anima corporis praeexistentis 
+      <lb ed="#P" n="104"/>inciperet per imotum localem esse in illo 
+      mem<lb ed="#P" n="105" break="no"/>bro, &amp; per illum motum recederet ab eo quod 
+      <lb ed="#P" n="106"/>prius viuificabat, quia per motum localem 
+      si<lb ed="#P" n="107" break="no"/>cut acceditur ad vnum terminum, ita 
+      rece<lb ed="#P" n="108" break="no"/>ditur ab alio: hoc autem est inconueniens: 
+      Er<lb ed="#P" n="109" break="no"/>Bo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e182">
+               <lb ed="#P" n="110"/>In contrarium est quod anima est simplex 
+      <lb ed="#P" n="111"/>&amp; impartibilis, &amp; ideo vbi est oporter quod 
+      <lb ed="#P" n="112"/>sit tota: sed anima est in qualibet parta 
+      anima<lb ed="#P" n="113" break="no"/>ti: firgo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e193">
+               <lb ed="#P" n="114"/>Respondeo: hic sunt tria facienda: primo 
+      osten<lb ed="#P" n="115" break="no"/>detur quod anima quaecunque necessario est in 
+      <lb ed="#P" n="116"/>qualibet parte corporis animati: secundo 
+      olten<lb ed="#P" n="117" break="no"/>detur qualiter totalitas conueniat animae &amp; 
+      qua<lb ed="#P" n="118" break="no"/>liter. Non tertio, soluetur directe ad quaestionem 
+      <lb ed="#P" n="119"/>ffaecedentem. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e209">
+               <lb ed="#P" n="120"/>Quantum ad primum, facile est ostendere 
+      veri<lb ed="#P" n="121" break="no"/>tatem, videlicet, quod anima est in qualibet 
+      par<lb ed="#P" n="122" break="no"/>te corporis animati: quia forma inest ei quod 
+      ha<lb ed="#P" n="123" break="no"/>bet esse per ipsam formam formaliter: quia 
+      ni<lb ed="#P" n="124" break="no"/>hil habet esse formaliter per illud quod elt 
+      se<lb ed="#P" n="125" break="no"/>paratum ab eius subiecto: sed quaelibet pars 
+      <lb ed="#P" n="126"/>corporis animati habet esse per ipsam animam 
+      <lb ed="#P" n="127"/>formaliter: Ergo, &amp;ci probatio minoris, quia 
+      <!--62.xml-->
+      <pb ed="#P" n="62"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>anima est forma substantialis corporis animati: 
+      <lb ed="#P" n="2"/>forma autem totius substantialis alicuius dat 
+      <lb ed="#P" n="3"/>esse substantiale formaliter toti &amp; cuilibet par 
+      <lb ed="#P" n="4"/>ti, ergo, &amp;c. differenter tamen respicit 
+      to<lb ed="#P" n="5" break="no"/>tum &amp; partes: quia totum organicum 
+      respi<lb ed="#P" n="6" break="no"/>cit vt primum &amp; per se perfectibile, partes 
+      <lb ed="#P" n="7"/>autem respicit in quantum sunt in toto &amp; vt 
+      <lb ed="#P" n="8"/>habent habitudinem ad totum. &amp; ideo non 
+      aequa<lb ed="#P" n="9" break="no"/>liter respicit totum &amp; partes. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e255">
+               <lb ed="#P" n="10"/>Quantum ad secundum, sciendum quod qua, 
+      <lb ed="#P" n="11"/>drupliciter est totalitas, scilicet totalitas 
+      ha<lb ed="#P" n="12" break="no"/>bens diuersas partes reales &amp; essentiales, si 
+      <lb ed="#P" n="13"/>cut sunt, materia &amp; forma; &amp; totalitas quae 
+      <lb ed="#P" n="14"/>habet partes quantitatiuas sicut patet de 
+      quan<lb ed="#P" n="15" break="no"/>titate &amp; de formis quantitatiuis per accidens: 
+      <lb ed="#P" n="16"/>&amp; totalitas virtualis siue potentialis 
+      compre<lb ed="#P" n="17" break="no"/>hendens diuersas potentias; &amp; totalitas 
+      perfe<lb ed="#P" n="18" break="no"/>ctionis &amp; rationis, quae non includit partes 
+      <lb ed="#P" n="19"/>rei, licet possit habere partes rationis: sicut 
+      <lb ed="#P" n="20"/>dicimus, totus angelus vel totus Deus. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e281">
+               <lb ed="#P" n="21"/>De prima totalitate constat quod non 
+      con<lb ed="#P" n="22" break="no"/>uenit animae. Tertia autem totalitas, 
+      con<lb ed="#P" n="23" break="no"/>stat quod ei conuenit, cum habeat plures 
+      <lb ed="#P" n="24"/>virtutes fundatas in vna essentia, &amp; simili¬. 
+      <lb ed="#P" n="25"/>ter quarta: quia etiam illa conuenit 
+      simpli<lb ed="#P" n="26" break="no"/>cibus quibuscunque: sed de secunda est 
+      du<lb ed="#P" n="27" break="no"/>bium. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e299">
+               <lb ed="#P" n="28"/>vtrum scilicet aliqua anima sit quanta per 
+      ac<lb ed="#P" n="29" break="no"/>cidens, sunt autem circa hoc quinque opiniones. 
+      <lb ed="#P" n="30"/>Prima est. quod nulla forma substantialis est 
+      <lb ed="#P" n="31"/>quanta per accidens: quia nec ratione sui, 
+      <lb ed="#P" n="32"/>cum ipsa sit quantum est de se indiuisibilis, 
+      <lb ed="#P" n="33"/>nec ratione subiecti, cum subiectum formae 
+      <lb ed="#P" n="34"/>substantialis sit sola materia prima cui 
+      imme<lb ed="#P" n="35" break="no"/>diate inest omnis forma substantialis, Item 
+      <lb ed="#P" n="36"/>forma cuius essentia est in qualibet parte 
+      cor<lb ed="#P" n="37" break="no"/>poris, non est quanta per accidens: sed 
+      es<lb ed="#P" n="38" break="no"/>sentia cuiuslibet formae substantialis est in 
+      qua<lb ed="#P" n="39" break="no"/>libet parte corporis cuius est forma alioquin 
+      <lb ed="#P" n="40"/>quaelibet: pars ignis non esset ignis. Hanc 
+      <lb ed="#P" n="41"/>autem opinionem improbant quidam 
+      osten<lb ed="#P" n="42" break="no"/>dendo quod falsum supponit scilicet quod 
+      for<lb ed="#P" n="43" break="no"/>ma non recipiatur in materia quanta, quia 
+      for<lb ed="#P" n="44" break="no"/>ma recipitur in materiam propriam &amp; diuisam 
+      <lb ed="#P" n="45"/>ab omni alia; quia forma per hoc habet esse 
+      <lb ed="#P" n="46"/>forma haec, quia est in tali materia: sed talis 
+      <lb ed="#P" n="47"/>diuisio non est nisi per quantitatem: Ergo, &amp;c. 
+      <lb ed="#P" n="48"/>Nec tamen vt dicunt sequitur quod forma 
+      in<lb ed="#P" n="49" break="no"/>sit materiae mediante quantitate, quia quando 
+      <lb ed="#P" n="50"/>generatur aer ex aqua semper rarefit aqua 
+      quo<lb ed="#P" n="51" break="no"/>usque perueniat ad talem dispositionem, quod 
+      <lb ed="#P" n="52"/>eius forma non possit remanere in materia: 
+      <lb ed="#P" n="53"/>&amp; tunc fit resolutio vsque ad materiam 
+      pri<lb ed="#P" n="54" break="no"/>mam &amp; introducitur forma aeris, cum 
+      quanti<lb ed="#P" n="55" break="no"/>tate ei debita. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e363">
+               <lb ed="#P" n="56"/>Dicunt ergo quod illae diuisiones quae sunt 
+      <lb ed="#P" n="57"/>in fluxu quodam, dum rarefit aqua, dicuntur 
+      <lb ed="#P" n="58"/>dimensiones interminatae &amp; praecedunt 
+      tempo<lb ed="#P" n="59" break="no"/>re formam introducendam &amp; illa forma 
+      intro<lb ed="#P" n="60" break="no"/>ducta extenditur a dimensionibus illis 
+      origina<lb ed="#P" n="61" break="no"/>liter, sed a sequentibus extenditur formaliter: 
+      <lb ed="#P" n="62"/>Et per hoc patet ad primum, secundum enim 
+      <lb ed="#P" n="63"/>eos nullius rnomenti est, nam quaelibet pars 
+      <lb ed="#P" n="64"/>extensi est extensa, hec tamen in qualibet 
+      par<lb ed="#P" n="65" break="no"/>te extensi est tota extensio. Quidquid autem 
+      <lb ed="#P" n="66"/>sit de ista opinione, improbatio non valet 
+      quan<lb ed="#P" n="67" break="no"/>tum ad illud quod dicitur de originaliter 
+      ex<lb ed="#P" n="68" break="no"/>tendi a prioribus dimensionibus: quia cum 
+      <!--62.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>dimensiones praecedentes non habeant esse 
+      quan<lb ed="#P" n="70" break="no"/>do forma sequens est introducta, non possunt 
+      <lb ed="#P" n="71"/>dare originaliter formae sequenti extensionem; 
+      <lb ed="#P" n="72"/>nisi in quantum natum est eis succedere aliquid 
+      <lb ed="#P" n="73"/>quod simul cum forma introducta manens, sit ei 
+      <lb ed="#P" n="74"/>causa quod sit extensa. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e411">
+               <lb ed="#P" n="75"/>Sed quod nihil tale succedat, arguunt 
+      il<lb ed="#P" n="76" break="no"/>li; quia cum illis corruptis forma, substantia. 
+      <lb ed="#P" n="77"/>lis succedens immediate vniatur materiae 
+      pri<lb ed="#P" n="78" break="no"/>mae ratione sui subiecti, non habebit quod 
+      <lb ed="#P" n="79"/>sit quanta per accidens. Item si Deus faceret 
+      <lb ed="#P" n="80"/>corpora, plura constat quod non oporteret 
+      <lb ed="#P" n="81"/>quod faceret illa cum successione ad aliquam 
+      <lb ed="#P" n="82"/>quantitatem praecedentem: si ergo causa 
+      qua<lb ed="#P" n="83" break="no"/>re forma, sit quanta per accidens est ipsam 
+      suc<lb ed="#P" n="84" break="no"/>cedere quantitati praecedenti, sequeretur sal. 
+      <lb ed="#P" n="85"/>tem, quod formae terrae &amp; aquae a Deo 
+      crea<lb ed="#P" n="86" break="no"/>tae non essent quantae per accidens. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e440">
+               <lb ed="#P" n="87"/>Ad rationes illorum facile potest 
+      respon<lb ed="#P" n="88" break="no"/>deri, quod ad hoc quod forma vel aliquid 
+      <lb ed="#P" n="89"/>aliud sit quantum per accidens non 
+      requiri<lb ed="#P" n="90" break="no"/>tur quod vel ex se sit extensum, sicut etiam 
+      <lb ed="#P" n="91"/>quantitas, vel recipiatur in subiecto extenso: 
+      <lb ed="#P" n="92"/>quia praeter hoc alius modus est secundum 
+      <lb ed="#P" n="93"/>quem aliquid est extensum, scilicet, quia est 
+      <lb ed="#P" n="94"/>subiectum vel pars subiecti recipientis 
+      exten<lb ed="#P" n="95" break="no"/>sionem, &amp; sic forma materialis dicitur 
+      ex<lb ed="#P" n="96" break="no"/>tensa per acceidens: sicut &amp; materia, quia 
+      sci<lb ed="#P" n="97" break="no"/>licet ipsa cum materia est subiectum extensio. 
+      <lb ed="#P" n="98"/>nis: quid autem veritatis habeat ipsa opinio 
+      <lb ed="#P" n="99"/>&amp; quaelibet aliarum; infra dicetur. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e471">
+               <lb ed="#P" n="100"/>Secunda opinio est totaliter contraria huibs 
+      <lb ed="#P" n="101"/>nam dicit quod omnis forma existens in 
+      ma<lb ed="#P" n="102" break="no"/>teria est quanta per accidens; quia vt dicunt, 
+      <lb ed="#P" n="103"/>quod recipitur in aliquo recipitur ad modum 
+      <lb ed="#P" n="104"/>recipientis: sed omnis forma quae recipitur in 
+      <lb ed="#P" n="105"/>materia recipitur in subiecto quanto: ergo, 
+      <lb ed="#P" n="106"/>&amp;c. Item quod est in qualibet parte quanti 
+      <lb ed="#P" n="107"/>extenditur extensione quanti: sed foima 
+      sub<lb ed="#P" n="108" break="no"/>stantialis est huiusmodi: ergo, &amp;c. Sed alii 
+      <lb ed="#P" n="109"/>improbant istam opinionem, quia ad eam 
+      se<lb ed="#P" n="110" break="no"/>quitur quod anima rationalis sit quanta per 
+      <lb ed="#P" n="111"/>accidens quod est inconueniens: qualiter 
+      au<lb ed="#P" n="112" break="no"/>tem ab istis respondeatur rationibus istorum 
+      pa<lb ed="#P" n="113" break="no"/>tebit in quarta opinione. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e504">
+               <lb ed="#P" n="114"/>Tertia opinio est qua ponit quod omnis 
+      <lb ed="#P" n="115"/>forma quae educitur de potentia materiae est 
+      <lb ed="#P" n="116"/>quanta per accidens, quia sic educitur totum 
+      <lb ed="#P" n="117"/>de toto, &amp; pars de parte: sed alii improbant 
+      <lb ed="#P" n="118"/>hoc, quia vt dicunt: causam extensionis dicit 
+      <lb ed="#P" n="119"/>ista opinio esse, educi: sed formae artificiales 
+      <lb ed="#P" n="120"/>non educuntur de potentia materiae naturalis: 
+      <lb ed="#P" n="121"/>alioquin fierent ab agente naturali, quia omns 
+      <lb ed="#P" n="122"/>potentiae naturali respondet agens naturale, 
+      <lb ed="#P" n="123"/>ergo secundum hoc formae artificiales non 
+      es<lb ed="#P" n="124" break="no"/>sent quantae per accidens, quod est falsum, vt 
+      <lb ed="#P" n="125"/>patet de forma imaginis: quidquid autem sit de 
+      <lb ed="#P" n="126"/>veritate quaestionis, ista improbatio parum valet 
+      <lb ed="#P" n="127"/>Primo, quia omnis forma dependens a subiecto 
+      <lb ed="#P" n="128"/>educitur de potentia subsecti si fiat de nodo, 
+      <lb ed="#P" n="129"/>siue illa porentia dicatur naturalis, siue 
+      obedien<lb ed="#P" n="130" break="no"/>tialis, siue ab arte vel quocunque alio agente 
+      <lb ed="#P" n="131"/>mobili: Item possunt isti dicere, quod 
+      inten<lb ed="#P" n="132" break="no"/>dunt non ponore educi, praecisam causam eius 
+      <lb ed="#P" n="133"/>quod est esse quantum per accidens ita quod sit 
+      <lb ed="#P" n="134"/>conuertibilis cum eo: sed quod sit causa 
+      <lb ed="#P" n="135"/>inferens talem effectum, licet ab aliis 
+      cau<lb ed="#P" n="136" break="no"/>sis possit prouenire: sicut currere infert ne¬ 
+      <!--63.xml-->
+      <pb ed="#P" n="63"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cessario concitationem pulsus; licet possit aliter 
+      <lb ed="#P" n="2"/>causari. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e567">
+               <lb ed="#P" n="3"/>Quarta opinio est, quod omnes forme 
+      in<lb ed="#P" n="4" break="no"/>animatorum sunt quantae per accidens: nulla 
+      au<lb ed="#P" n="5" break="no"/>tem anima est quanta per accidens: &amp; hoc ostendur 
+      <lb ed="#P" n="6"/>triplici ratione. Prima talis est, quando recen. 
+      <lb ed="#P" n="7"/>tum superat naturam recipientis &amp; 
+      supergredi<lb ed="#P" n="8" break="no"/>tur, recipiens non trahit receptum ad naturam 
+      <lb ed="#P" n="9"/>suam, sed potius e conuerso receptum trahil 
+      re<lb ed="#P" n="10" break="no"/>cipiens, sed quaelibet anima supergreditur 
+      con<lb ed="#P" n="11" break="no"/>ditiones materiae &amp; super ans est, &amp; ideo 
+      ani<lb ed="#P" n="12" break="no"/>ma non trahitur ad conditiones materiae: &amp; 
+      <lb ed="#P" n="13"/>ideo licet recipiatur in materia quanta, non 
+      <lb ed="#P" n="14"/>oportet quod sit quanta per accidens: &amp; per 
+      <lb ed="#P" n="15"/>hoc respondent ad primam rationem secundae 
+      <lb ed="#P" n="16"/>opinionis: dicendo quod maior non est vera 
+      <lb ed="#P" n="17"/>vniuersaliter seilicet quod illud quod recipitur 
+      <lb ed="#P" n="18"/>in aliquo recipitur per modum recipientis, quia 
+      <lb ed="#P" n="19"/>quandoque est aliter, alia autem ratio non 
+      va<lb ed="#P" n="20" break="no"/>let, quae ibi ponitur, quia non oportet quod 
+      <lb ed="#P" n="21"/>omne illud quod est in qualibet parte quanti, 
+      <lb ed="#P" n="22"/>tatendatur per accidens. Secunda ratio huius 
+      <lb ed="#P" n="23"/>quartae opinionis est, quia illa forma quae non 
+      <lb ed="#P" n="24"/>aequaliter respicit totum, &amp; partem: &amp; non 
+      <lb ed="#P" n="25"/>denominat partem sicut &amp; totum, non est 
+      quan<lb ed="#P" n="26" break="no"/>ta per accidens, quia forma quanta per 
+      acci<lb ed="#P" n="27" break="no"/>dens aequaliter denominat totum &amp; partem 
+      <lb ed="#P" n="28"/>vt patet de albedine &amp; colore: Sed anima non 
+      <lb ed="#P" n="29"/>aequaliter denominat partem &amp; totum: cum 
+      <lb ed="#P" n="30"/>in suo perfectibili, quod per se denominat, 
+      <lb ed="#P" n="31"/>requirat diuersitatem partium: ergo, &amp;c. 
+      <lb ed="#P" n="32"/>Posset autem inata hoc formari alia ratio sic: 
+      <lb ed="#P" n="33"/>illud quod est quantum per accidens, non re 
+      <lb ed="#P" n="34"/>quirit diuersitatem in partibus, quia 
+      condi<lb ed="#P" n="35" break="no"/>tio cuius libet quanti est habere partes vnius 
+      <lb ed="#P" n="36"/>rationis: sed omnis anima requirit 
+      diuersita<lb ed="#P" n="37" break="no"/>tem partium in suo pefectibili: Tertia ratio 
+      <lb ed="#P" n="38"/>principalis est, quia forma quae non habet 
+      eas<lb ed="#P" n="39" break="no"/>dem operationes in toto &amp; in partibus 
+      om<lb ed="#P" n="40" break="no"/>nibus non est quanta per accidens, sed talis 
+      <lb ed="#P" n="41"/>est omnis anima: que in diuersis habet 
+      di<lb ed="#P" n="42" break="no"/>uersas operationes: ergo, &amp;c. Per eandem 
+      <lb ed="#P" n="43"/>probntur quod aliae formae scilicet formae 
+      in<lb ed="#P" n="44" break="no"/>animatorum, sunt quantae per accidens, quia 
+      <lb ed="#P" n="45"/>non dsuperant conditionem materiae sed sunt 
+      im<lb ed="#P" n="46" break="no"/>mersae, nec requirunt diuersitatem in 
+      parti<lb ed="#P" n="47" break="no"/>bus &amp; vniformiter denominant totum &amp; 
+      par<lb ed="#P" n="48" break="no"/>tes, sicut patet, quia quaelibett pars aquae est 
+      <lb ed="#P" n="49"/>aqua &amp; habet easdem operationes in toto &amp; 
+      <lb ed="#P" n="50"/>in partibus: sed quidquid sit de veritate 
+      quae<lb ed="#P" n="51" break="no"/>stionis, ista parum valent: potest enim argui 
+      <lb ed="#P" n="52"/>contra primam rationem: Primo, quia illa ra 
+      <lb ed="#P" n="53"/>tio imaginatur quod forma substantialis non 
+      <lb ed="#P" n="54"/>habeat quod sit quanta, nisi quia recipitur in 
+      <lb ed="#P" n="55"/>quanto: imo magis habet quod sit quanta per 
+      <lb ed="#P" n="56"/>aecidens, quia respicit quantitatem vna cum 
+      <lb ed="#P" n="57"/>materia: sicut enim non oportet quod omne 
+      <lb ed="#P" n="58"/>quod dicitur album, dicatur album: quia 
+      <lb ed="#P" n="59"/>recipitur in albo, imo qusa recipit albedinem, 
+      <lb ed="#P" n="60"/>ita non oportet quod omne quod dicitur 
+      quan<lb ed="#P" n="61" break="no"/>tum, dicatur quantum quia recipitur in 
+      quan<lb ed="#P" n="62" break="no"/>to, sed quia recipit quantitatem vel per se 
+      <lb ed="#P" n="63"/>vel cum alio solum. Secundo contra idem: 
+      <lb ed="#P" n="64"/>quia sicut recipiens, quando superat receptum 
+      <lb ed="#P" n="65"/>quasi sibi immersum trahit ad naturam suam 
+      re<lb ed="#P" n="66" break="no"/>ceptum: ita e conuerso debet esse quando 
+      re<lb ed="#P" n="67" break="no"/>ceptum vincit debet trahere ad suam 
+      conditio<lb ed="#P" n="68" break="no"/>nem recipiens: &amp; sic anima cuius conditio est 
+      <lb ed="#P" n="69"/>nullam habere quantitatem deberet trahere su¬ 
+      <!--63.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>um perfectibile in quo recipitur ad 
+      indiuisibili<lb ed="#P" n="71" break="no"/>tatem &amp; ad esse quod non est quantum qued 
+      <lb ed="#P" n="72"/>maniseste falsum est: Tertio qui. omnis for. 
+      <lb ed="#P" n="73"/>ma substantialis est nohilior &amp; perfectior 
+      ma<lb ed="#P" n="74" break="no"/>teria per se accepta, &amp; materia accepta cum 
+      <lb ed="#P" n="75"/>quantitate superat vtrumque in nobilitaie &amp; 
+      <lb ed="#P" n="76"/>perfectione entitatis: vnde magis dominatur 
+      <lb ed="#P" n="77"/>super materiam quam e conuerso. Si ergo 
+      il<lb ed="#P" n="78" break="no"/>lud quod dominatur magis debet uabere 
+      a<lb ed="#P" n="79" break="no"/>liud ad suam conditionem quarr, e conuerso: 
+      <lb ed="#P" n="80"/>sequetur quod nulla forma substanualis 
+      recipia<lb ed="#P" n="81" break="no"/>tur in materia extensa secundum conditicinem 
+      <lb ed="#P" n="82"/>materiae imo magis secundum conditionein 
+      <lb ed="#P" n="83"/>formae receptae: cum ergo conditio cutuslibet 
+      <lb ed="#P" n="84"/>formae quantum est de se; sit dqod non sit 
+      <lb ed="#P" n="85"/>quanta &amp; indiuisibilis: nulla forma 
+      substan<lb ed="#P" n="86" break="no"/>tialis etit quanta per accidens. Quarto, quia 
+      <lb ed="#P" n="87"/>composium ex forma substantiali &amp; niateria 
+      <lb ed="#P" n="88"/>magis dominatur accidenti quam e conuerso, 
+      <lb ed="#P" n="89"/>saltem magis dominatur tale composirum 
+      acci<lb ed="#P" n="90" break="no"/>denti; quam materia dominetur formae: 
+      er<lb ed="#P" n="91" break="no"/>go tale composium deberet trahere quantita. 
+      <lb ed="#P" n="92"/>tem ad sui conditionem: si recipiens cui 
+      ali<lb ed="#P" n="93" break="no"/>quid est immresum &amp; dominans tiahit 
+      re<lb ed="#P" n="94" break="no"/>ceptum semper: &amp; quantum ad oimnia: Et 
+      <lb ed="#P" n="95"/>sic cum tale compositum quantum est de 
+      na<lb ed="#P" n="96" break="no"/>tura sua non sit extensum trahet quantitatem 
+      <lb ed="#P" n="97"/>ad suam conditionem &amp; recipiet eam in tali 
+      <lb ed="#P" n="98"/>modo quod non sit extensa. Si dicatur quod 
+      <lb ed="#P" n="99"/>quantitas praecedens dat modum subiecto, 
+      <lb ed="#P" n="100"/>quod sequatur alia quantitas manens extensa, 
+      <lb ed="#P" n="101"/>hioc est ridiculum: quia sic sequeretur in aliis 
+      <lb ed="#P" n="102"/>quod ealor praecedens daret modum subiecto 
+      <lb ed="#P" n="103"/>ut postea sequeretur alius calor: ita quod 
+      sem<lb ed="#P" n="104" break="no"/>per necessario succederet ealor &amp; non frigus 
+      <lb ed="#P" n="105"/>ealori: quod est absurdum: Item imaginatio 
+      <lb ed="#P" n="106"/>est falsa, ac si ab aliquo habeat quantitas quod 
+      <lb ed="#P" n="107"/>sit extensa formaliter, quia ipsa seipsa 
+      forma<lb ed="#P" n="108" break="no"/>liter est quaedam extensio. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e805">
+               <lb ed="#P" n="109"/>Ad intellectum ergo illius prope sitionis 
+      com<lb ed="#P" n="110" break="no"/>munis, est intelligendum q od quando ali 
+      <lb ed="#P" n="111"/>quid recipitur in aliquo vtrumque trahit alte 
+      <lb ed="#P" n="112"/>rum in aliquo ad suam naturam: Et quod 
+      di<lb ed="#P" n="113" break="no"/>citur quod recipitur per modum recipientis 
+      <lb ed="#P" n="114"/>&amp; non per modum recepti: non sic 
+      intelligen<lb ed="#P" n="115" break="no"/>dum est quod receptum in nullo retineat 
+      mo<lb ed="#P" n="116" break="no"/>dum qui sibi per se conuenit, sed quia non 
+      <lb ed="#P" n="117"/>omnem modum habet illud quod in isto 
+      reci<lb ed="#P" n="118" break="no"/>pitur; quem haberer si non esset receptum, vel 
+      <lb ed="#P" n="119"/>quem haberet si esset receptum in alio alterius 
+      <lb ed="#P" n="120"/>conditionis: Similiter etiam potest dici de 
+      re<lb ed="#P" n="121" break="no"/>cipiente quod seilicet recipiens aliquid in 
+      ali<lb ed="#P" n="122" break="no"/>quo trahitur in naturam recepti, &amp; non habet 
+      <lb ed="#P" n="123"/>omnem modum quem haberet si non reciperet 
+      <lb ed="#P" n="124"/>vel si aliud reciperet quam istud: in hS 
+      au<lb ed="#P" n="125" break="no"/>tem verum est quod secundum quod vrum 
+      <lb ed="#P" n="126"/>plus dominatur quam aliud, vnum plus 
+      trahi<lb ed="#P" n="127" break="no"/>tur ad eonditionem alterius quam e conuerso. 
+      <lb ed="#P" n="128"/>Et ideo, ex dominio quod habet aliqua 
+      for<lb ed="#P" n="129" break="no"/>ma super materiam, non sequitur quod non 
+      <lb ed="#P" n="130"/>sit quanta vel quod in nullo trahatur ad 
+      con<lb ed="#P" n="131" break="no"/>ditiones materiae: sed quod non ita trahitur 
+      <lb ed="#P" n="132"/>sicut illa quae minus dominatur: quidquid 
+      au<lb ed="#P" n="133" break="no"/>tem sit de ista propositione, nil facit ad 
+      pro<lb ed="#P" n="134" break="no"/>positum: vt dictum est, quia substantia 
+      eom<lb ed="#P" n="135" break="no"/>posita ex materia &amp; forma, dicitur esse quanta 
+      <lb ed="#P" n="136"/>per accidens, non per hoc quod recipitur in 
+      ali<lb ed="#P" n="137" break="no"/>quo, sed quia recipit quantitatem. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e870">
+               <lb ed="#P" n="138"/>Secunda antem ratio illorum nulla est, quia ipsa est 
+      <!--64.xml-->
+      <pb ed="#P" n="64"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>contra, eos: nam constat quod forma imaginis 
+      <lb ed="#P" n="2"/>habet diuersitatem in partibus, nec aequaliter 
+      <lb ed="#P" n="3"/>denominat totum &amp; partem: &amp; tamen est quanta 
+      <lb ed="#P" n="4"/>per accidens. Sicut ipsimet dicunt improbando 
+      <lb ed="#P" n="5"/>tertiam opinionem. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e892">
+               <lb ed="#P" n="6"/>Tertia etiam ratio non valet, quia nil 
+      pro<lb ed="#P" n="7" break="no"/>hibet illud quod est quantum per accidens, 
+      re<lb ed="#P" n="8" break="no"/>quirere diuersitatem in partibus; non solum 
+      <lb ed="#P" n="9"/>secundum figuram sicut patet de imagine, sed 
+      <lb ed="#P" n="10"/>etiam secundum alia accidentia, &amp; illis 
+      median<lb ed="#P" n="11" break="no"/>tibtis habere, diuersas operationes indiuersis 
+      par<lb ed="#P" n="12" break="no"/>tibus. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e910">
+               <lb ed="#P" n="13"/>Quinta opinio est quod animalium 
+      perfecto<lb ed="#P" n="14" break="no"/>rum que diuisa non viuunt, animae nec per 
+      <lb ed="#P" n="15"/>se nec per accidens sunt quantae, omnia autem 
+      <lb ed="#P" n="16"/>animata &amp; inanimata quae post sui diuisionem 
+      <lb ed="#P" n="17"/>viuunt, habent formam substantialem 
+      quan<lb ed="#P" n="18" break="no"/>tam per accidens. Cuius ratio est: quia qubd 
+      <lb ed="#P" n="19"/>vnum realiter diuidatur in plures siue per 
+      plu<lb ed="#P" n="20" break="no"/>ra vnius rationis, &amp; manentia post 
+      diuisio<lb ed="#P" n="21" break="no"/>nem, hoc non nisi quantitati conuenit &amp; ei 
+      <lb ed="#P" n="22"/>quod est quantum per accidens. Sed for 
+      mae<lb ed="#P" n="23" break="no"/>inanimatorum &amp; formae animatorum quae polb 
+      <lb ed="#P" n="24"/>diuisionem manent viua, necessario 
+      diuidun<lb ed="#P" n="25" break="no"/>tur in plures: quia dicere quod quando 
+      diui<lb ed="#P" n="26" break="no"/>ditur lignum vel planta quae manet viua, vel 
+      <lb ed="#P" n="27"/>animal anulosum; nouae formae generentur 
+      i<lb ed="#P" n="28" break="no"/>bi, cum non appareat ex diuisione magnam 
+      <lb ed="#P" n="29"/>alterationem fieri, videtur inconueniens. Et 
+      i<lb ed="#P" n="30" break="no"/>deo, oportet quod partes totius formae quae 
+      e<lb ed="#P" n="31" break="no"/>rant prius in toto maneant in partibus diuisis; 
+      <lb ed="#P" n="32"/>&amp; quod forma totius diuidatur in illas partes. 
+      <lb ed="#P" n="33"/>Et ideo videtur quod omnes tales formae sint 
+      <lb ed="#P" n="34"/>quantae per accidens. Animae autem animalium 
+      <lb ed="#P" n="35"/>perfectorum non possunt diuidi diuisione 
+      con<lb ed="#P" n="36" break="no"/>tinui: quia partes diuisae vt de se patet, non 
+      <lb ed="#P" n="37"/>viuunt. Cum ergo omne quantum vel pet se, 
+      <lb ed="#P" n="38"/>vel per accidens sit natum diuidi in partes 
+      in<lb ed="#P" n="39" break="no"/>existentes: videntur tales animae non esse quan: 
+      <lb ed="#P" n="40"/>tae, vel per se vel per accidens: quae autem 
+      <lb ed="#P" n="41"/>sit verior ista quinta opinio vel tertia non est 
+      <lb ed="#P" n="42"/>mihi elarum: opinio autem secunda in idem 
+      <lb ed="#P" n="43"/>incidit cum tertia, quia nullus est qui ponat 
+      <lb ed="#P" n="44"/>animam rationalem, qualitercunque quantam. 
+      <lb ed="#P" n="45"/>Primam autem opinionem &amp; quintam reputo 
+      <lb ed="#P" n="46"/>falsas, quia impossibile videtur quod diuisio 
+      <lb ed="#P" n="47"/>realis habeat locum nisi in quanto, vel per se 
+      <lb ed="#P" n="48"/>vel per accidens. Dico autem diuisio realis 
+      <lb ed="#P" n="49"/>ad differentiam diuisionis quae est vninersalis in 
+      <lb ed="#P" n="50"/>partes subiectiuas, quae est diussio alicuius 
+      v<lb ed="#P" n="51" break="no"/>nius secundum rationem: &amp; non secundum 
+      <lb ed="#P" n="52"/>rem: Sustinendo autem tertiam opinionem, 
+      <lb ed="#P" n="53"/>posset dici quod animae animatorum 
+      perfecto<lb ed="#P" n="54" break="no"/>tum sunt quantae per accidens: etenim 
+      quan<lb ed="#P" n="55" break="no"/>tum ad nunc video, non repugnat diuisio: 
+      si<lb ed="#P" n="56" break="no"/>cut nec corpori caelesti. Sed quia non manet 
+      <lb ed="#P" n="57"/>diuiso toto: quia ad diuisionem totius sequitur 
+      <lb ed="#P" n="58"/>istorum corruptio: ideo partes non manent 
+      vi<lb ed="#P" n="59" break="no"/>uae post diuisionem. Sustinendo autem 
+      vlti<lb ed="#P" n="60" break="no"/>mam, posset dici quod non omnis forma 
+      edu<lb ed="#P" n="61" break="no"/>cta, est quanta per accidens: nec oportet quod 
+      <lb ed="#P" n="62"/>pars educatur de parte, sicut totum de toto: 
+      <lb ed="#P" n="63"/>nisi vel ex vtraque parte est dare totum quod 
+      <lb ed="#P" n="64"/>habet partes. Quando autem dicitur tota 
+      ani<lb ed="#P" n="65" break="no"/>ma &amp; tota materia, ly totum ex parte animae 
+      <lb ed="#P" n="66"/>acceptum: non est totum habens partes: Sed 
+      <lb ed="#P" n="67"/>totum ibi idem eit quod perfectum: quicquid 
+      <lb ed="#P" n="68"/>autem sit de aliis, non est dubium quod 
+      ani<lb ed="#P" n="69" break="no"/>ma rationalis nec per se, nec per acccidens sit 
+      <!--64.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>quanta, aliter non intelligeret vniuersale, quia 
+      <lb ed="#P" n="71"/>quod reciperetur in ea, reciperetur situaliter &amp; 
+      <lb ed="#P" n="72"/>non duceret nisi in cognitionem alicuius situaliter 
+      <lb ed="#P" n="73"/>existentis, hic &amp; nunc. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e1049">
+               <lb ed="#P" n="74"/>Quantum autem ad tertium sciendum quod. 
+      <lb ed="#P" n="75"/>si aliquae animae sint quantae per accidens sicut 
+      <lb ed="#P" n="76"/>ponunt plutes positiones, illae secundum 
+      totali<lb ed="#P" n="77" break="no"/>tatem quantitatis non sunt totae in qualibet 
+      par<lb ed="#P" n="78" break="no"/>te corporis. Si autem sint alique vna cum 
+      ra<lb ed="#P" n="79" break="no"/>tionali quae non sint sic quantae, tales sunt totae 
+      <lb ed="#P" n="80"/>in qualibet parte eorporis, saue accipiantur 
+      se<lb ed="#P" n="81" break="no"/>cundum sensum positiuum: quia totalitas suae 
+      per<lb ed="#P" n="82" break="no"/>fectionis que non includit partes est in 
+      quali<lb ed="#P" n="83" break="no"/>bet parte: Siue hoc accipiatur secundum 
+      sen<lb ed="#P" n="84" break="no"/>sum negatiuum, vt sit sensus quod sint totae in 
+      <lb ed="#P" n="85"/>qualibet parte corporis id est sint in qualibet 
+      <lb ed="#P" n="86"/>parte corporis non secundum diuersas partes; 
+      <lb ed="#P" n="87"/>quantum autem ad totalitatem potentialem non 
+      <lb ed="#P" n="88"/>est anima tota in qualibet parte: quia non omnes 
+      <lb ed="#P" n="89"/>easdem potentias habet in qualibet parte: hoc 
+      sul<lb ed="#P" n="90" break="no"/>ficiat de tertio. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e1088">
+               <lb ed="#P" n="91"/>Ad primum in oppositum, dicendum quod 
+      <lb ed="#P" n="92"/>illud quod potest esse totum in pluribus, non 
+      <lb ed="#P" n="93"/>oportet quod sic se habeat quod nihil eius sit 
+      ex<lb ed="#P" n="94" break="no"/>tra illud in quo est totum, id est alibi, quam 
+      <lb ed="#P" n="95"/>ibi, vbi est totum: sed verum est quod nihil 
+      <lb ed="#P" n="96"/>est eius quod non sit ibi vbi est totum. Sed 
+      il<lb ed="#P" n="97" break="no"/>lud bene potest esse, quia totum est ibi: &amp; non 
+      <lb ed="#P" n="98"/>alibi. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e1109">
+               <lb ed="#P" n="99"/>Ad secundum, ddicendum quod ablato eo 
+      <lb ed="#P" n="100"/>in quo solo habet esse anima, vel in quo sicut 
+      <lb ed="#P" n="101"/>in primo &amp; per se perfectibili habet esse 
+      <lb ed="#P" n="102"/>anima, aufertur anima. Sed non omnes 
+      <lb ed="#P" n="103"/>partes corporis animati vel animalis sunt tales: 
+      <lb ed="#P" n="104"/>&amp; ideo non oportet quod anima auferatur a 
+      <lb ed="#P" n="105"/>toto, parte quacunque ablata. Sed verum est, 
+      <lb ed="#P" n="106"/>quod, ablatis aliquibus partibus principalibus 
+      <lb ed="#P" n="107"/>aufertur, sieut &amp; cor vel aliquid tale. 
+      </p>
+            <p xml:id="hx2hx3-b19854-d1e1131">
+               <lb ed="#P" n="108"/>Ad tertium, dicendum quod illud quod est 
+      <lb ed="#P" n="109"/>sicut in loco non incipit esse alibi sicut in loco 
+      <lb ed="#P" n="110"/>nisi per motum localem: sed illud quod est in 
+      <lb ed="#P" n="111"/>aliquo sicut forma in materia, potest esse in 
+      <lb ed="#P" n="112"/>alia materia adiuncta de nouo, non per sui 
+      mo<lb ed="#P" n="113" break="no"/>tum localem: sed per motum alterius cui illa 
+      <lb ed="#P" n="114"/>forma vnitur: sicut anima de nouo vnitur 
+      ma<lb ed="#P" n="115" break="no"/>teriae nutrimenti conuersi in nutritum, non per 
+      <lb ed="#P" n="116"/>motum animae: sed per motum nutrimenti: &amp; 
+      <lb ed="#P" n="117"/>similiter materia huius membri vnionem nouam 
+      <lb ed="#P" n="118"/>ad illud quod primum &amp; per se perfectibile per 
+      <lb ed="#P" n="119"/>animam, informatur de nouo ab ipsa anima: non 
+      <lb ed="#P" n="120"/>per motum localem animae: sed per mutationem 
+      <lb ed="#P" n="121"/>factam in materia illius, secundum quam illa 
+      ma<lb ed="#P" n="122" break="no"/>teria prius carens informatione animae: non 
+      in<lb ed="#P" n="123" break="no"/>formaretur ipsa anima. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

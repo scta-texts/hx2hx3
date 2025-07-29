@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="246"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b82963"><!-- l2d15q1 -->
+            <head xml:id="hx2hx3-b82963-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b82963-Hd1e101" type="question-title">Utrum caelum agat in omnia ista inferiora et conservet ea</head>
+            <p xml:id="hx2hx3-b82963-d1e104">
+               <lb ed="#P" n="101"/>Dixit etiam peur producant aquae 
+      reptis<lb ed="#P" n="102" break="no"/>unime viuentis, &amp;c.
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e111">
+               <lb ed="#P" n="103"/>Distinctio decima quinta. 
+      <lb ed="#P" n="104"/>QVAESTIO PRIMA.
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e118">
+               <lb ed="#P" n="105"/>DEinde quaeritur. vtrum coelum agatin 
+      om<lb ed="#P" n="106" break="no"/>nio ista inferiora: &amp; conseruet ea. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e126">
+               <lb ed="#P" n="107"/>Et videtur quod non. Quia nihil agit ad 
+      pro<lb ed="#P" n="108" break="no"/>ducendum aliquid dignius se. Sed omnia 
+      anima<lb ed="#P" n="109" break="no"/>ta sunt coelo digniora: quia animatum est dignius 
+      <lb ed="#P" n="110"/>in animato. Ergo &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e137">
+               <lb ed="#P" n="111"/>Si dicatur quod potest producere viuum 
+      in<lb ed="#P" n="112" break="no"/>quantum agit in virtute intelligentiae mouentist 
+      <lb ed="#P" n="113"/>quae est viua. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e146">
+               <lb ed="#P" n="114"/>Contra intelligentia mouens orbem, nullam 
+      <lb ed="#P" n="115"/>virtutem actiuam dat ei. Quia non dat ei aliquam 
+      <lb ed="#P" n="116"/>qualitatem actiuam: sed tantum influit er motum 
+      <lb ed="#P" n="117"/>localem per quem approximatur agens passo. 
+      <lb ed="#P" n="118"/>Ergo non videtur coelum posse attingere ad 
+      pro<lb ed="#P" n="119" break="no"/>ducendum aliquod corpus nobilius se. Quia 
+      mo<lb ed="#P" n="120" break="no"/>tus qui est ad formam nobilem, directe respicit 
+      <lb ed="#P" n="121"/>nobilitatem virtutis actiue: &amp; illius a quo est. 
+      <lb ed="#P" n="122"/>Non autem motum localem. Si enim ignis 
+      ap<lb ed="#P" n="123" break="no"/>plicetur ad aquam: aequaliter calefacit a 
+      quo<lb ed="#P" n="124" break="no"/>cumque applicetur. Ergo coelum intelligentiae 
+      <lb ed="#P" n="125"/>mouentis, non potest artingere ad tam nobilem 
+      <lb ed="#P" n="126"/>formam sicut est anima, si coelum est inanimatum. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e177">
+               <lb ed="#P" n="127"/>Praeterea, stabilitas effectus conseruati, 
+      de<lb ed="#P" n="128" break="no"/>pendet ab immobilitate causae: sed coelum 
+      con<lb ed="#P" n="129" break="no"/>tinue mouetur. Non ergo potest esse causa 
+      con<lb ed="#P" n="130" break="no"/>seruans, &amp; dans permanentiam rebus 
+      inferiori<lb ed="#P" n="131" break="no"/>bus. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e190">
+               <lb ed="#P" n="132"/>Praeterea, causa de necessitate agens imponit 
+      <lb ed="#P" n="133"/>necessitatem suis effectibus, sed corpora celestia 
+      <lb ed="#P" n="134"/>de necessitate uaturae agunt. Ergo si emnia 
+      infe<lb ed="#P" n="135" break="no"/>tiora reducerentur in causas coelestes, oninia 
+      in<lb ed="#P" n="136" break="no"/>feriora de necessitare euenitent. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e203">
+      <!--247.xml-->
+               <pb ed="#P" n="247"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Contra. Lex diuininus est, insinita per media 
+      <lb ed="#P" n="2"/>in supprema reducere. Erpo ista inferiora 
+      redu<lb ed="#P" n="3" break="no"/>cuntur in substantias fpirituales mediantibus 
+      cor<lb ed="#P" n="4" break="no"/>poribus suppremis, scilicet coelestibus &amp; per 
+      <lb ed="#P" n="5"/>consequens omnia ista reducentur in virtutem 
+      <lb ed="#P" n="6"/>coelestem. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e226">
+               <lb ed="#P" n="7"/>Respondeo. Hic sunt quatuor facienda. 
+      <lb ed="#P" n="8"/>Primun, est ostendere corpora coelestia agere 
+      <lb ed="#P" n="9"/>in mferiora. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e235">
+               <lb ed="#P" n="10"/>Secundum, est ostendere quod omia quae 
+      <lb ed="#P" n="11"/>hic naturaliter aguuntur necessario reducuntur 
+      <lb ed="#P" n="12"/>in virtutem coelestem sieut in causam agentem. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e244">
+               <lb ed="#P" n="13"/>Tertium, est ostendere coelum esse conseruans 
+      <lb ed="#P" n="14"/>haec inferiora. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e251">
+               <lb ed="#P" n="15"/>Quantum, est ostendere coelum non 
+      impo<lb ed="#P" n="16" break="no"/>nere necessitatem hiis inferioribus: ita quod per 
+      <lb ed="#P" n="17"/>comparationem ad coelum, omnia haec inferiora 
+      <lb ed="#P" n="18"/>de necessitate eueniant. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e262">
+               <lb ed="#P" n="19"/>ARTICVLVS PRIMVS 
+      <lb ed="#P" n="20"/>PRimum ad sensum patet, scilicet ecelum 
+      <lb ed="#P" n="21"/>Tagere in inferiora. Quia manifesse videmus 
+      <lb ed="#P" n="22"/>quod sole accedente ad nos sicut fit in aestate, 
+      <lb ed="#P" n="23"/>augetur calor apud nos &amp; pnllulant 
+      terrenascen<lb ed="#P" n="24" break="no"/>tia: &amp; ipso recedente fit oppositum. Et hoc fit 
+      <lb ed="#P" n="25"/>vel semper, vel saltem vt in pluribus. Illud autem 
+      <lb ed="#P" n="26"/>quod fit vel semper, vel vt in pluribus non potest 
+      <lb ed="#P" n="27"/>esse a casu: &amp; ideo quod talia fiant apud nos 
+      ac<lb ed="#P" n="28" break="no"/>cedenre sole non potest esse a casu. Qportetergo 
+      <lb ed="#P" n="29"/>quod sol habeat aliquam habitudinem per fe ad 
+      <lb ed="#P" n="30"/>talem pullulationem &amp; calefictionem: non potest 
+      <lb ed="#P" n="31"/>autem ibi fingi faciliter alia habitudo quam 
+      habi<lb ed="#P" n="32" break="no"/>tudo causae efficientis. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e295">
+               <lb ed="#P" n="33"/>Si autem quaeratur quomodo coelum agat in 
+      <lb ed="#P" n="34"/>Ista inferiora. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e303">
+               <lb ed="#P" n="35"/>Dicendum, quod per lumen suum habet ista 
+      <lb ed="#P" n="36"/>inferiora alterare: &amp; in eis qualitates &amp; alias 
+      for<lb ed="#P" n="37" break="no"/>mas inducere. Non enim oportet quod 
+      calefa<lb ed="#P" n="38" break="no"/>ciens sit calidum formaliter, vel frigefaciens 
+      fri<lb ed="#P" n="39" break="no"/>gidum: alioquin non esset aliqua aequiuoca causa 
+      <lb ed="#P" n="40"/>quod est falsum Quia omnis actio creata 
+      vniuo<lb ed="#P" n="41" break="no"/>ca, oportet reduci in aequiuocam: quia illa quae 
+      v<lb ed="#P" n="42" break="no"/>niuoce agunt sicut calidum generat calidum, non 
+      <lb ed="#P" n="43"/>habet causam nisi solum super hoc indiuiduum. 
+      <lb ed="#P" n="44"/>Sed aequiuoca non solum habent causam super 
+      <lb ed="#P" n="45"/>hoc indiuiduum tantum, vel illud tantum: imo 
+      <lb ed="#P" n="46"/>oportet quod habeant causam in quam reducantur 
+      <lb ed="#P" n="47"/>omnia quae sunt in illa specie: quia omnia sunt 
+      ge<lb ed="#P" n="48" break="no"/>nerabilia, &amp; propter hoc omnium eorum oportet 
+      <lb ed="#P" n="49"/>dare aliquam causam. Nullum autem eorum quae 
+      <lb ed="#P" n="50"/>sunt infra aliquam speciem, potest esse causa 
+      om<lb ed="#P" n="51" break="no"/>nium existentium in specie: alioquin esset causa 
+      <lb ed="#P" n="52"/>sui ipsius. Ergo oportet vbicumque est agens 
+      vni<lb ed="#P" n="53" break="no"/>uocum eiusdem speciei: reducere actionem talis 
+      <lb ed="#P" n="54"/>agentis in aequiuocum alterius speciei. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e349">
+               <lb ed="#P" n="55"/>Et ideo, non oportet quod generans calidum, 
+      <lb ed="#P" n="56"/>sit calidum formaliter. Nec oportet dicere, quod 
+      <lb ed="#P" n="57"/>lumen coeli per confricationem partium aeris 
+      ge<lb ed="#P" n="58" break="no"/>ncret calorem. Imo ipsum lumen de se est &amp; 
+      pro<lb ed="#P" n="59" break="no"/>ductiuum caloris, sicut &amp; calor raritatis: &amp; sic 
+      <lb ed="#P" n="60"/>etiam est de aliis virtutibus calefactibilibus. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e365">
+               <lb ed="#P" n="61"/>ARTICVLVS SECVNDVS
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e370">
+               <lb ed="#P" n="62"/>Qvantum ad secundum, sciendum quod 
+      om<lb ed="#P" n="63" break="no"/>ne quod inferioribus naturaliter fit, 
+      opor<lb ed="#P" n="64" break="no"/>ter reducere in virtutem caelestem: sicut incausam 
+      <lb ed="#P" n="65"/>efficientem. Dico autem omne quod fie hic 
+      na<lb ed="#P" n="66" break="no"/>tur aliter. Nam ab agente per liberum arbitrium, 
+      <!--247.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>siue sit homo siue Angelus, posset fieri aliquid hie 
+      <lb ed="#P" n="68"/>inferius, saltem aliquis motus localis: quem non 
+      <lb ed="#P" n="69"/>oporteret reducere in virtutem caelestem. Tamen 
+      <lb ed="#P" n="70"/>motus factus ab homine, magis deberet reduci in 
+      <lb ed="#P" n="71"/>virtutem caelestem: quam motus factus ab 
+      Ange<lb ed="#P" n="72" break="no"/>lo. Quia motus factus ab homine, depender ab 
+      <lb ed="#P" n="73"/>aliqua virtute illigata corpori exequente: quae 
+      vir<lb ed="#P" n="74" break="no"/>tus aliquo modo reducitur in coelum. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e405">
+               <lb ed="#P" n="75"/>Quod autem omnia quae hic inferius 
+      natura<lb ed="#P" n="76" break="no"/>liter fiunt reducantur in virtutem caelessem: potest 
+      <lb ed="#P" n="77"/>ostendi faciliter sic. Quia quicquid fit naturaliter 
+      <lb ed="#P" n="78"/>in generalibus, &amp; corruptibilibus: oportet 
+      redu<lb ed="#P" n="79" break="no"/>ci in aliquam causam naturalem ingenerabilem &amp; 
+      <lb ed="#P" n="80"/>incorruptibilem. Sed haec causa non est nisi 
+      cor<lb ed="#P" n="81" break="no"/>pus caeleste. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e423">
+               <lb ed="#P" n="82"/>Probatio maioris. Quia sicut omne mobile 
+      <lb ed="#P" n="83"/>genoraliter oportet finaliter reduci in aliquod 
+      om<lb ed="#P" n="84" break="no"/>nino immobile: ita oportet reducere omine 
+      gene<lb ed="#P" n="85" break="no"/>rabile, &amp; omne quod est in generabilibus, ad 
+      ali<lb ed="#P" n="86" break="no"/>quam causam ingenerabilem, &amp; 
+      incurrupribi<lb ed="#P" n="87" break="no"/>lem. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e440">
+               <lb ed="#P" n="88"/>Hoc etiam exigit reductio causae vniuocae ad 
+      <lb ed="#P" n="89"/>causam aequiuocam, scilicet quod omne 
+      genera<lb ed="#P" n="90" break="no"/>bile reducatur in aliam causam ingenerabilem. 
+      <lb ed="#P" n="91"/>Ista autem causa ad quam immediate reducuntur 
+      <lb ed="#P" n="92"/>omnia generabilia: non est Deus. Quia Deus 
+      re<lb ed="#P" n="93" break="no"/>git inferiores creaturas mediantibus superioribus. 
+      <lb ed="#P" n="94"/>Ista etiam causa, non potest esse Spiritus 
+      crea<lb ed="#P" n="95" break="no"/>tus. Quia Spiritus immediate moueret ad 
+      for<lb ed="#P" n="96" break="no"/>mam. Illud autem in quod reducuntur 
+      generabi<lb ed="#P" n="97" break="no"/>lia &amp; corruptibilia; oportet esse mouens 
+      imme<lb ed="#P" n="98" break="no"/>diate ad formam. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e466">
+               <lb ed="#P" n="99"/>Nam generatio &amp; corruptio, est motus ad 
+      for<lb ed="#P" n="100" break="no"/>mam. Ergo oportet necessario quod causa in 
+      <lb ed="#P" n="101"/>quam immediata oportet reducere omnia 
+      genera<lb ed="#P" n="102" break="no"/>bilia &amp; corruptibilia, sit aliquod agens corporeum 
+      <lb ed="#P" n="103"/>naturaliter agens, &amp; natum mouere ad formam: 
+      <lb ed="#P" n="104"/>quod sit ingenerabile &amp; incorruptibile: &amp; sic 
+      pa<lb ed="#P" n="105" break="no"/>tet maior. Minor etiam de se patet. Quia talis 
+      <lb ed="#P" n="106"/>causa naturalis corporalis, non potest esse aliud 
+      <lb ed="#P" n="107"/>quam corpus caeleste cui soli conuenit esse corpus 
+      <lb ed="#P" n="108"/>naturale naturaliter incorruptibile. Et ideo 
+      se<lb ed="#P" n="109" break="no"/>quitur conclusio principalis scilicet quod omnia 
+      <lb ed="#P" n="110"/>quae fiunt in generabilibus &amp; corruptibilibus 
+      opor<lb ed="#P" n="111" break="no"/>tet reducere in virtutem caelestem. Omnia autem 
+      <lb ed="#P" n="112"/>inferiora: sunt generabilia &amp; corruptibilia. 
+      Er<lb ed="#P" n="113" break="no"/>go, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e501">
+               <lb ed="#P" n="114"/>ARTICVLVS TERTIVS
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e506">
+               <lb ed="#P" n="115"/>Qvantum ad tertium. Sciendum, quod 
+      <lb ed="#P" n="116"/>omne quod est factum ab alio scilicet omnis 
+      <lb ed="#P" n="117"/>effectus: dependet ab aliqua causa conseruante 
+      <lb ed="#P" n="118"/>quaecumque sit illa. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e517">
+               <lb ed="#P" n="119"/>Conseruatio autem dupliciter accipitur. Vno 
+      <lb ed="#P" n="120"/>modo pro impeditione corruptiui, sicut si 
+      dicere<lb ed="#P" n="121" break="no"/>tur aliquis conseruare ouem si impediret lupum 
+      <lb ed="#P" n="122"/>ab eius corruptiua virtute &amp; sic, non est dubium quod 
+      <lb ed="#P" n="123"/>coelum conseruat aliqua prohibendo corruptiua 
+      <lb ed="#P" n="124"/>eorum: sicut posset conseruare rosam prohibendo 
+      <lb ed="#P" n="125"/>frigus congelans. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e535">
+               <lb ed="#P" n="126"/>Alio modo dicitur aliquid directe consemare: 
+      <lb ed="#P" n="127"/>quado per se effectus in suo esse continue depedet 
+      <lb ed="#P" n="128"/>ab eo: sicut lumen in aere dependet a sole. Et sic 
+      <lb ed="#P" n="129"/>intelligitur quod dicitur, vtrum inferiora 
+      depen<lb ed="#P" n="130" break="no"/>deanta virtute coeli sicut a eausa per se 
+      conser<lb ed="#P" n="131" break="no"/>uante. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e552">
+               <lb ed="#P" n="132"/>Et ad hoc dico quod omnes formae hic inferius 
+      <lb ed="#P" n="133"/>existentes, &amp; omnia quantum ad omnes formas 
+      <lb ed="#P" n="134"/>suas substantiales &amp; accidentales, excepta anima 
+      <!--248.xml-->
+      <pb ed="#P" n="248"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>rationali &amp; omnia quae sunt in ea: dependenta 
+      <lb ed="#P" n="2"/>coelo. Quia si ista inferiora non dependent a 
+      coe<lb ed="#P" n="3" break="no"/>lo. Aut hoc est t quia effectus coeli recipitur in 
+      <lb ed="#P" n="4"/>aliquo subiecto quod habet virtutem retentiuam 
+      <lb ed="#P" n="5"/>effectus impressi a coelo, quae virtus retentiua, non 
+      <lb ed="#P" n="6"/>reducitur in coelum: sicut figure impressa in ligno, 
+      <lb ed="#P" n="7"/>imprimitur ei quod habet virtutem retentiuam 
+      ta<lb ed="#P" n="8" break="no"/>lis figurae. Quta lignum per soliditatem suam, est 
+      <lb ed="#P" n="9"/>retentiuum talis figurae, nec soliditas eius 
+      contraria<lb ed="#P" n="10" break="no"/>tur figurae: &amp; ideo figura potest manere in 
+      absen<lb ed="#P" n="11" break="no"/>tia artificis alicuius. Aut hoc est, quia effectus 
+      <lb ed="#P" n="12"/>coeli statim cum est factus: reducitur immediate 
+      <lb ed="#P" n="13"/>in aliquam causam communem caelo &amp; eius 
+      effe<lb ed="#P" n="14" break="no"/>ctui, a quo vtrumque conseruetur immediate. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e598">
+               <lb ed="#P" n="15"/>Sicut praecipue contingit in effectu agentis 
+      <lb ed="#P" n="16"/>vniuoci. Sicut ignis generatus postquam est 
+      gene<lb ed="#P" n="17" break="no"/>ratus. Ita immediate respicit caelum: sicut ignis 
+      <lb ed="#P" n="18"/>generans. Et ideo postquam ignis est generatus: 
+      <lb ed="#P" n="19"/>non plus depedet ab igne generante, quam 
+      econ<lb ed="#P" n="20" break="no"/>uerso 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e614">
+               <lb ed="#P" n="21"/>Neutro autem istorum modorum contingit, 
+      <lb ed="#P" n="22"/>quod effectus caeli non dependeant a cuelo. Non 
+      <lb ed="#P" n="23"/>primo modo. Quia vt dictum est, nihil 
+      praesup<lb ed="#P" n="24" break="no"/>ponitur effectui caeli: quod effectum. impressum 
+      <lb ed="#P" n="25"/>a caelo retineat ipso absente. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e627">
+               <lb ed="#P" n="26"/>Secundo etiam modo non potest. Quia ista 
+      <lb ed="#P" n="27"/>inferiora postquam sunt generata, non possunt 
+      ha<lb ed="#P" n="28" break="no"/>bere ita immediatam habitudinem ad causam que 
+      <lb ed="#P" n="29"/>est supra virtutem caelestem Quia ea quae sunt 
+      <lb ed="#P" n="30"/>hic inferius, non reducuntur etiam postquam 
+      fa<lb ed="#P" n="31" break="no"/>cta sunt immediate in virtutem diuinam: ita quod 
+      <lb ed="#P" n="32"/>non mediante aliqua alia creatura altiori hoc fiat. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e645">
+               <lb ed="#P" n="33"/>Nec ista inferiora, quantum ad esse formale 
+      <lb ed="#P" n="34"/>possunt reduci in spititum creatum immediate. 
+      <lb ed="#P" n="35"/>Er ideo non potest esse quod ista inferiora post. 
+      <lb ed="#P" n="36"/>quam sunt producta, reducantur ita immediate 
+      <lb ed="#P" n="37"/>in causam quae est super virtutem caelestem, sicut 
+      <lb ed="#P" n="38"/>in caelum. Sicut ignis genitus reducitur, ita 
+      im<lb ed="#P" n="39" break="no"/>mediate in caelum: sicut ignis generans postquam 
+      <lb ed="#P" n="40"/>iam generatus est. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e665">
+               <lb ed="#P" n="41"/>Et ideo videntur omnia haec inferiora 
+      depen<lb ed="#P" n="42" break="no"/>dere a virture caelesti sicut a causa conseruante, 
+      <lb ed="#P" n="43"/>quantum ad omnia quae naturaliter hic fiunt: 
+      ex<lb ed="#P" n="44" break="no"/>cepro quod non habet causalitatem effectiuam 
+      su<lb ed="#P" n="45" break="no"/>per essentiammateriae, nec super essentiam animae 
+      <lb ed="#P" n="46"/>rationalis. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e682">
+               <lb ed="#P" n="47"/>ARTICVLVS QVARTVS.
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e687">
+               <lb ed="#P" n="48"/>Qvantum ad quartum, ad illud quod 
+      absolu<lb ed="#P" n="49" break="no"/>te quaeritur, respondere non est difficile. 
+      <lb ed="#P" n="50"/>Quia absolute loquendo, satis potest ostendi 
+      coe<lb ed="#P" n="51" break="no"/>lum necessitatem effectibus inferioribus non 
+      po<lb ed="#P" n="52" break="no"/>nere. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e700">
+               <lb ed="#P" n="53"/>Quia illa causa quae in suo esfectu potest 
+      impe<lb ed="#P" n="54" break="no"/>diri ab alia causa, non imponit absolute necessita. 
+      <lb ed="#P" n="55"/>tem suis effectibus. Sed coelum est talis causa. 
+      <lb ed="#P" n="56"/>Quia eius effectus ad cuius scilicet productionem 
+      <lb ed="#P" n="57"/>coelum habet otdinem: potest impediri per 
+      cau<lb ed="#P" n="58" break="no"/>sam agentem lib. arb. scilicet per hominem, vel 
+      <lb ed="#P" n="59"/>Angelum. Vnde si virtus coeli haberet, generare 
+      <lb ed="#P" n="60"/>rosam, vel aliquid tale, homo vel Angelus, 
+      pos<lb ed="#P" n="61" break="no"/>set impedire, vel abscindendo rosarium, vel 
+      ali<lb ed="#P" n="62" break="no"/>quid tale faciendo. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e724">
+               <lb ed="#P" n="63"/>Et si restringatur quaestio, vt quaeratur vtrum 
+      <lb ed="#P" n="64"/>circumscripta omni actione agentis per libe. arh. 
+      <lb ed="#P" n="65"/>coelum imponeret necessitatem inferioribus 
+      ef<lb ed="#P" n="66" break="no"/>fectibus: ita quod omnes effectus hic inferius, per 
+      <lb ed="#P" n="67"/>comparationem ad virtutem coelestem haberent 
+      <lb ed="#P" n="68"/>necessitatem eueniendi: Potest ostendi quod non. 
+      <!--248.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>Quia vna pars cosli potist impedire effectum alte 
+      <lb ed="#P" n="70"/>rius partis. Sed illud quod impediri potest: non 
+      <lb ed="#P" n="71"/>euenit de necessitate. Ergo non omnis effectus 
+      <lb ed="#P" n="72"/>hic prouenlens a coelo, prouenit de necessitate: ita 
+      <lb ed="#P" n="73"/>quod coelum imponat ei absolutam necessitatem 
+      <lb ed="#P" n="74"/>eueniendi. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e757">
+               <lb ed="#P" n="75"/>Sed forte dicetur ad hoc, quod licetessectua 
+      <lb ed="#P" n="76"/>illius causae coelestis quae imped tur, non eueniat 
+      <lb ed="#P" n="77"/>de necessitate: tamen illum effectum. impediri 
+      <lb ed="#P" n="78"/>euenit ex necessitate. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e768">
+               <lb ed="#P" n="79"/>Et ad hoc dico, quod illum effectum 
+      impedi<lb ed="#P" n="80" break="no"/>ri, non potest reduci in aliquam causam 
+      caele<lb ed="#P" n="81" break="no"/>stem: quae imponat necessitatem ei, quod est 
+      ta<lb ed="#P" n="82" break="no"/>lem effectum impediri. Quia illud simpliciter 
+      <lb ed="#P" n="83"/>potest imponere necessitatem ei, quod est talem 
+      <lb ed="#P" n="84"/>effectum impediri, quod potest esse causa per se, 
+      <lb ed="#P" n="85"/>&amp; necessaria eius quod est vtramque virtutem 
+      caele<lb ed="#P" n="86" break="no"/>stem concurrere, quarum vna impediuit effectum 
+      <lb ed="#P" n="87"/>alterius. Sed nulla virtus caelestis potest esse 
+      cau<lb ed="#P" n="88" break="no"/>sa necessaria talis concursus, nec vtro que virtus, 
+      <lb ed="#P" n="89"/>nec altera tantum, nec aliqua tertia vit tus 
+      corpo<lb ed="#P" n="90" break="no"/>ralis, fuit causa quod concurrent illa duo corpora 
+      <lb ed="#P" n="91"/>caelestia. Quia nulla virtus caelestis mouet 
+      corpo<lb ed="#P" n="92" break="no"/>ra caelestia ad hoc quod concurrant. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e802">
+               <lb ed="#P" n="93"/>Et ideo adhuc stat, quod virtus corporis 
+      caele<lb ed="#P" n="94" break="no"/>stis non imponat necessitatem tali impedimento: 
+      <lb ed="#P" n="95"/>quod prouenit ex tali concursu¬ 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e811">
+               <lb ed="#P" n="96"/>Sed adhuc stat difficultas. Quia dato quod 
+      <lb ed="#P" n="97"/>nulla virtus caelestis imponat necessitatem isti 
+      con<lb ed="#P" n="98" break="no"/>cursui, tamen motores corporum eaelestium 
+      sup<lb ed="#P" n="99" break="no"/>posito quod sic moueant: imponunt necessitatem 
+      <lb ed="#P" n="100"/>isti concursui. Et sic adhuc videtur stare quod 
+      stan<lb ed="#P" n="101" break="no"/>tibus talibus mocibus caelestium corporum sicut 
+      <lb ed="#P" n="102"/>sunt: tale impedimentum de necessitate eueniet. 
+      <lb ed="#P" n="103"/>Et similiter omnia alia quae reducuntur in 
+      virtu<lb ed="#P" n="104" break="no"/>tem corporis caelestis sic moti. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e833">
+               <lb ed="#P" n="105"/>Ad hoc autem potest dici, quod adhuc 
+      stanti<lb ed="#P" n="106" break="no"/>bus talibus motibus nonsequitur quod omnia que 
+      <lb ed="#P" n="107"/>reducuntur in virtutem caelestem, de necessitate 
+      <lb ed="#P" n="108"/>sic eueniant quod absoluta necessitate sit 
+      neceffa<lb ed="#P" n="109" break="no"/>rium ea euenire. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e846">
+               <lb ed="#P" n="110"/>Ad cuius euidentiam, sciendum quod ea quae 
+      <lb ed="#P" n="111"/>hie fiunt a coelo, diuersas virtutes coeli secundum 
+      <lb ed="#P" n="112"/>diuersas dispositiones derelictas in materia 
+      infe<lb ed="#P" n="113" break="no"/>riori ab vno corpore caelesti, ad recipiendum 
+      effe<lb ed="#P" n="114" break="no"/>ctum alterius: non tantum vno modo possunt se 
+      <lb ed="#P" n="115"/>impedire, sed infinitis modis. Verbi gratia si 
+      in<lb ed="#P" n="116" break="no"/>vna parte aeris sit materia venti, &amp; in materia 
+      in<lb ed="#P" n="117" break="no"/>feriori sit parata materia pluuiae vel in 
+      circumstan<lb ed="#P" n="118" break="no"/>tibus regionibus sit materia venti, vel aliquid aliud 
+      <lb ed="#P" n="119"/>natum impedire talem materiam venti vt habeat 
+      <lb ed="#P" n="120"/>effectum suum. Talis materia potest valde 
+      mul<lb ed="#P" n="121" break="no"/>tis modis impediri: &amp; similiter, possec multis 
+      mo<lb ed="#P" n="122" break="no"/>dis iuuari concursus. Ergo multarum talium quae 
+      <lb ed="#P" n="123"/>non sunt per se determinata ad vnum modum 
+      <lb ed="#P" n="124"/>agendi, sed quasi infinitis modis, pessunt agere in 
+      <lb ed="#P" n="125"/>se inuicem, &amp; modica immutatio potest 
+      immuta<lb ed="#P" n="126" break="no"/>re, vt motio plus tendat ad vnum effectum quam 
+      <lb ed="#P" n="127"/>ad alium: quae modica motio vel immutatio 
+      po<lb ed="#P" n="128" break="no"/>test multis modis euenire: &amp; tanto plus quanto 
+      <lb ed="#P" n="129"/>talia mouentur a coelo mediantibus pluribus 
+      <lb ed="#P" n="130"/>agentibus inferioribus. Ideo ista modo non 
+      pro<lb ed="#P" n="131" break="no"/>ueniunt a coelo necessario: nisi necessitate quae est 
+      <lb ed="#P" n="132"/>ex suppositione. Vt si ista materia non impediatur, 
+      <lb ed="#P" n="133"/>de necessitate eueniet: quantum non impediti, 
+      <lb ed="#P" n="134"/>non est necessarium. Quia infinitis modis quasi 
+      <lb ed="#P" n="135"/>possunt impedientia &amp; promouentia variari. Nec 
+      <lb ed="#P" n="136"/>sequitur quin omnia quae hic fiunt reducantur vt 
+      <lb ed="#P" n="137"/>in causam imponentem necessitatem absolutam 
+      <lb ed="#P" n="138"/>eis. Quia coelum non habet habitudinem deter¬ 
+      <!--249.xml-->
+      <pb ed="#P" n="249"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ininatam, &amp; necessariam absolute: ad ea quae 
+      <lb ed="#P" n="2"/>facit hic mediantibus talibus pluribus 
+      concurren<lb ed="#P" n="3" break="no"/>tibus. Et sic videtur posse sustineri quod stantibus 
+      <lb ed="#P" n="4"/>motibus caelestibus sicut sunt, circumscripta 
+      actio<lb ed="#P" n="5" break="no"/>ne agentis per li. ar. hic inferius adhuc non 
+      sequi<lb ed="#P" n="6" break="no"/>tur quod ea quae fiunt a coelo eueuiant necessario 
+      <lb ed="#P" n="7"/>necessitate absoluta.
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e933">
+               <lb ed="#P" n="8"/>Ad primum ergo, dicendum, quod coelum agit in 
+      <lb ed="#P" n="9"/>virtute duplicis intelligentiaei, ta quod etiam 
+      intelli<lb ed="#P" n="10" break="no"/>gentiam vocemus Deum: scilicet invirtute 
+      intelligen<lb ed="#P" n="11" break="no"/>tiae mouentis orbem, &amp; non dantis virtutem 
+      acti<lb ed="#P" n="12" break="no"/>uam: &amp; ab hac non habet simpliciter quod agat. 
+      <lb ed="#P" n="13"/>Sed habet ab ea quod sic moueat vsque ad 
+      gra<lb ed="#P" n="14" break="no"/>dum determinatum, &amp; alteret secundum 
+      diuer<lb ed="#P" n="15" break="no"/>sum concursum vnius corporis caelestis cum alio: &amp; 
+      <lb ed="#P" n="16"/>non sufficeret ad hoc quod coelum esset causa 
+      cor<lb ed="#P" n="17" break="no"/>poris animati, quod moueret in virtute talis 
+      intel<lb ed="#P" n="18" break="no"/>ligentiae. Mouetur etiam cuelum in virtute 
+      intel<lb ed="#P" n="19" break="no"/>ligentiae dantis ei esse, &amp; virtutem actiuam, &amp; haec 
+      <lb ed="#P" n="20"/>intelligentia secundum nos est Deus: secundum 
+      <lb ed="#P" n="21"/>autem Phylosophos haec intelligentia est Angelus 
+      <lb ed="#P" n="22"/>mouens orbem. Dico ergo quod coelum in 
+      vir<lb ed="#P" n="23" break="no"/>tute intelligentiae quae dat sibi esse &amp; virtutem 
+      <lb ed="#P" n="24"/>actiuam potest esse causa corporis animati. Vnde 
+      <lb ed="#P" n="25"/>secundum catholicos multo plus potest esse caelum 
+      <lb ed="#P" n="26"/>in virture dei dantis esse, &amp; virtutem actiuam: 
+      <lb ed="#P" n="27"/>quam posset in virtute intellgentiae mouentis 
+      or<lb ed="#P" n="28" break="no"/>bem, etiam si illa intelligentia daret sibi esse, &amp; 
+      <lb ed="#P" n="29"/>virtutem actiuam sicut Phylosophi posuerunt. 
+      <lb ed="#P" n="30"/>Ratio autem procedit ac si caelum solum ageretin 
+      <lb ed="#P" n="31"/>virtute intelligentiae quae habet tantum mouere. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e988">
+               <lb ed="#P" n="32"/>Ad secundum dicendum, quod stabilitas 
+      isto<lb ed="#P" n="33" break="no"/>rum dependet a stabilitate caeli secundum quod 
+      <lb ed="#P" n="34"/>est causa inferiorum. Non autem est eausa 
+      con<lb ed="#P" n="35" break="no"/>seruans ista inferiora secundum aliquem vnum 
+      as<lb ed="#P" n="36" break="no"/>pectum determinatum: sed quod influentia totius 
+      <lb ed="#P" n="37"/>caeli attingit ista inferiora secundum aliquem 
+      <lb ed="#P" n="38"/>vnum aspectum. Secudum antem hoc caelum 
+      <lb ed="#P" n="39"/>est stabile: quia non est dare aliquid inferius cui 
+      <lb ed="#P" n="40"/>non adfit semper influentia caeli. 
+      </p>
+            <p xml:id="hx2hx3-b82963-d1e1011">
+               <lb ed="#P" n="41"/>Ad tertium patet ex dictis: quia caelum non 
+      <lb ed="#P" n="42"/>imponit necessitatem liberam suis effectibus: nec 
+      <lb ed="#P" n="43"/>est causa necessaria in causando ita quod habeat 
+      <lb ed="#P" n="44"/>habitudinem necessariam ad omnem effectum 
+      <lb ed="#P" n="45"/>suum. Et ratio huius posita est in principali 
+      solu<lb ed="#P" n="46" break="no"/>tione. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

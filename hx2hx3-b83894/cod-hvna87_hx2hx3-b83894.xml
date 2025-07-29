@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="249"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b83894"><!-- l2d17q1 -->
+            <head xml:id="hx2hx3-b83894-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b83894-Hd1e101" type="question-title">Utrum anima intellectiva sit forma hominis</head>
+            <p xml:id="hx2hx3-b83894-d1e104">
+               <lb ed="#P" n="47"/>Hic de origine animae plura quaeri solent, 
+      <lb ed="#P" n="48"/>scilicet vnde creata fuerit, &amp;t. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e111">
+               <lb ed="#P" n="49"/>Distinctio decima septima. 
+      <lb ed="#P" n="50"/>QVAESTIO PRIMA. 
+      <lb ed="#P" n="51"/>Svper decimam septimam quaeritur vtrum 
+      ani<lb ed="#P" n="52" break="no"/>ma intellectiua sit forma hominis. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e122">
+               <lb ed="#P" n="53"/>Et arguitur quod non. Quia si anima esset 
+      for<lb ed="#P" n="54" break="no"/>ma corporis, conueniret sibi per essentiam suam 
+      <lb ed="#P" n="55"/>esse formam. Nam vnaquaeque forma 
+      substan<lb ed="#P" n="56" break="no"/>tialis &amp; accidentalis, per duam essentiam est 
+      for<lb ed="#P" n="57" break="no"/>ma. Sed anima non est forma per essentiam 
+      suam<lb ed="#P" n="58" break="no"/>Ergo, &amp;c: Maior patet. Minor probatur. Quia 
+      <lb ed="#P" n="59"/>illud cui per essentiam suam conuenit quod sit 
+      <lb ed="#P" n="60"/>forma, semper &amp; de necessitate est forma: quia 
+      <lb ed="#P" n="61"/>quod conuenit alicui per essentiam, semper &amp; de 
+      <lb ed="#P" n="62"/>necessitate ei conuenit. Sed animae non semper 
+      <lb ed="#P" n="63"/>&amp; de necessitate conuenit esse formam: alioquin 
+      <lb ed="#P" n="64"/>semper &amp; de necessitate informaret. Ergo animae 
+      <lb ed="#P" n="65"/>non conuenit per essentiam suam quod sit forma¬ 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e154">
+               <lb ed="#P" n="66"/>Praeterea, potentia non est magis abstracta, 
+      <!--249.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>quam essentia in qua est. Sed potentia intellect. 
+      <lb ed="#P" n="68"/>ua quae est in essentia animae est separata a 
+      mate<lb ed="#P" n="69" break="no"/>ria, nec potest esse forma corporis. Ergo essentia 
+      <lb ed="#P" n="70"/>animae non potest esse forma corporis. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e172">
+               <lb ed="#P" n="71"/>Praeterea, si anima esset forma substantialis 
+      <lb ed="#P" n="72"/>hominis, opotteret quod in pluribus hominibus 
+      <lb ed="#P" n="73"/>essent plures intellectus. Sed hoc est 
+      inconue<lb ed="#P" n="74" break="no"/>niens. Fago, &amp;c. Maior patet: probatio 
+      mi<lb ed="#P" n="75" break="no"/>noris. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e185">
+               <lb ed="#P" n="76"/>Primo, quia si animae plurificantur, hoc est quia 
+      <lb ed="#P" n="77"/>coniunguntur diuersis corporibus, siue in diuersis 
+      <lb ed="#P" n="78"/>partibus manent. Sed hoc non potest esse causa 
+      plu<lb ed="#P" n="79" break="no"/>rificationis earum. Quia tunc in separatione non 
+      <lb ed="#P" n="80"/>maneret nisi vna, &amp; sic que prius erant diuersae 
+      ani<lb ed="#P" n="81" break="no"/>mae: postea essent vna numero. Quod videtur 
+      <lb ed="#P" n="82"/>inconueniens. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e203">
+               <lb ed="#P" n="83"/>Secundo, quia cum intellectum sit in 
+      intelli<lb ed="#P" n="84" break="no"/>gente, si essent plures intellectus numero, essent &amp; 
+      <lb ed="#P" n="85"/>diuersa intellecta numero, &amp; conuenientia in 
+      spe<lb ed="#P" n="86" break="no"/>cie, dummodo illi intellectus intelligerent vnam 
+      <lb ed="#P" n="87"/>naturam specificam. Sed hoc est inconueniens. 
+      <lb ed="#P" n="88"/>Quia tunc sequeretur quod iutellecta non essent 
+      <lb ed="#P" n="89"/>vniuersalia: sed singularia plura numero in eadem 
+      <lb ed="#P" n="90"/>specie. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e223">
+               <lb ed="#P" n="91"/>Contra. Secundum Phylosophum in 
+      secun<lb ed="#P" n="92" break="no"/>do de anima, est ex qua viuimus, sentimus: &amp; 
+      in<lb ed="#P" n="93" break="no"/>telligimus. Sed illud quo intelligimus est forma 
+      <lb ed="#P" n="94"/>inmateria sicut &amp; illud quo sentimus. Ergo 
+      ani<lb ed="#P" n="95" break="no"/>ma rationalis est forma substantialis hominis. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e236">
+               <lb ed="#P" n="96"/>Respondeo. Hic sunt quatuor facienda. 
+      <lb ed="#P" n="97"/>Primum, est ostendere quomodo quidam 
+      vo<lb ed="#P" n="98" break="no"/>lunt dare in ista materia colorem positioni 
+      Com<lb ed="#P" n="99" break="no"/>mentatoris. 
+      <lb ed="#P" n="100"/>Secundum est ostendere, quod illa coloratio 
+      <lb ed="#P" n="101"/>nihil valet. 
+      <lb ed="#P" n="102"/>Tertium est ostendere, quod anima rationalis 
+      <lb ed="#P" n="103"/>fit forma homininis. 
+      <lb ed="#P" n="104"/>Quartum erit ostendere quod impossibile est 
+      <lb ed="#P" n="105"/>vnum intellectum numero esse in omnibus. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e261">
+               <lb ed="#P" n="106"/>ARTICVLVS PRIMVS,
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e266">
+               <lb ed="#P" n="107"/>Qvantum ad primum, sciendum est quod, 
+      <lb ed="#P" n="108"/>Commentor posuit animam intellectiuam 
+      <lb ed="#P" n="109"/>non esse formam corporis: &amp; tamen posuit cum 
+      <lb ed="#P" n="110"/>hoc quod homini conueniebat intelligere. Et 
+      po<lb ed="#P" n="111" break="no"/>suit vnum intellectum numero omnium 
+      homi<lb ed="#P" n="112" break="no"/>num: &amp; tamen cum hoc secundum eum stabat 
+      <lb ed="#P" n="113"/>quod non oportet quod illud quod intelligit 
+      <lb ed="#P" n="114"/>vnum, etiam intelligat alius. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e286">
+               <lb ed="#P" n="115"/>Hanc ergo opinionem volunt quidam 
+      moder<lb ed="#P" n="116" break="no"/>ni colorare. Primo quantum ad hoc, quod ipsi 
+      <lb ed="#P" n="117"/>volunt ostendere quomodo potuit habere 
+      colo<lb ed="#P" n="118" break="no"/>rem verbum Commentatoris: scilicet quod 
+      intel<lb ed="#P" n="119" break="no"/>lectus non esset forma hominis, &amp; tamen homo 
+      <lb ed="#P" n="120"/>intelligeret. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e302">
+               <lb ed="#P" n="121"/>Ad cuius euidentiam, sciendum quod 
+      secun<lb ed="#P" n="122" break="no"/>dum oes substantia spiritualis coniungitur per 
+      <lb ed="#P" n="123"/>spplieationem corpori, non secundum contactum 
+      <lb ed="#P" n="124"/>quantitatis &amp; ab extra, sicut corpus coniungitur 
+      <lb ed="#P" n="125"/>corpori: sed interiora corporis penetrat, ita quod 
+      <lb ed="#P" n="126"/>substantia spiritualis simul est cum corpore cui 
+      <lb ed="#P" n="127"/>applicatur. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e320">
+               <lb ed="#P" n="128"/>Secundo, sciendum est quod secundum eos 
+      <lb ed="#P" n="129"/>formae intentionales sicut possunt esse plures 
+      <lb ed="#P" n="130"/>numero in eodem subiecto, ita potest esse vna 
+      nu<lb ed="#P" n="131" break="no"/>mero in pluribus subiectis: dummodo sint 
+      si<lb ed="#P" n="132" break="no"/>mul. Quia in pluribus subiectis distinctis situr 
+      <lb ed="#P" n="133"/>non posset esse vna forma intentionalis. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e336">
+               <lb ed="#P" n="134"/>Et ex istis duobus concludunt tertium, scilicet 
+      <!--250.xml-->
+      <pb ed="#P" n="250"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quod eadem forma intentionalis potest esse 
+      in<lb ed="#P" n="2" break="no"/>fantasmate &amp; intellectu: licet intellectus non 
+      <lb ed="#P" n="3"/>vniatur corpori vt forma. Quia potest esse simul 
+      <lb ed="#P" n="4"/>cum corpore: ita quod species quae causatur a 
+      sen<lb ed="#P" n="5" break="no"/>su facta in actu est sicut in subiecto in fantasmate 
+      <lb ed="#P" n="6"/>&amp; in intellectu. Et vlterius ponunt quod illa 
+      spe<lb ed="#P" n="7" break="no"/>cies prout est in intellectu elicit actum 
+      intelli<lb ed="#P" n="8" break="no"/>gendi, ideo dicunt quod quia a forma 
+      fantasma<lb ed="#P" n="9" break="no"/>tis quae est etiam forma homnis, elicitur actus 
+      in<lb ed="#P" n="10" break="no"/>telligendi in intellectu possibili: ideo vere &amp; 
+      pro<lb ed="#P" n="11" break="no"/>prie attribuitur homini quod intelligat. Et sic 
+      <lb ed="#P" n="12"/>colorant illud dictum Commentatoris: quod 
+      <lb ed="#P" n="13"/>scilicet ista possint stare scilicet quod intellectus 
+      <lb ed="#P" n="14"/>non sit forma hominis, &amp; tamen homo 
+      intelli<lb ed="#P" n="15" break="no"/>gat 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e381">
+               <lb ed="#P" n="16"/>Quantum autem ad aliud scilicet quomodo 
+      <lb ed="#P" n="17"/>possit esse vnus intellectus omnium hominum, &amp; 
+      <lb ed="#P" n="18"/>tamen vnus non intelligit quod intelligit alius: 
+      co<lb ed="#P" n="19" break="no"/>lorant sic dictum Commentatoris. Dicunt enim 
+      <lb ed="#P" n="20"/>quod substantia spiritualis potest esse in pluribus 
+      <lb ed="#P" n="21"/>simul, &amp; in quolibet tota: &amp; in ordine ad vnum 
+      <lb ed="#P" n="22"/>in quo illa plura vniuntur. Et quia omnes 
+      homi<lb ed="#P" n="23" break="no"/>nes vniuntur in natura humana: quia 
+      participa<lb ed="#P" n="24" break="no"/>tione speciei omnes homines sunt vnus homo Ideo 
+      <lb ed="#P" n="25"/>ille intelectus quem ponit Commentator potest 
+      <lb ed="#P" n="26"/>esse in omnibus homnibus: &amp; in quocumque 
+      to<lb ed="#P" n="27" break="no"/>tus. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e410">
+               <lb ed="#P" n="28"/>Vlterius secundum quod ille intellectus est in 
+      <lb ed="#P" n="29"/>diuersis homnibus, species diuersorum 
+      fantasma<lb ed="#P" n="30" break="no"/>tum informant ipsum: ita quod illa ex parte 
+      in<lb ed="#P" n="31" break="no"/>tellectus quantum quidam est de se, habent 
+      vni<lb ed="#P" n="32" break="no"/>tatem: sed plurificantur secundum diuersitatem 
+      <lb ed="#P" n="33"/>fantasmatum. Et ideo aliud intelligit secundum 
+      <lb ed="#P" n="34"/>quod vnitur vni fantasmati: &amp; aliud secundum 
+      <lb ed="#P" n="35"/>quod vnitur alii. Et ita quod non communicatur 
+      <lb ed="#P" n="36"/>homini nisi illud intelligere quod ei contingit 
+      se<lb ed="#P" n="37" break="no"/>cundum quod vnitur fantasmati illius homnis: &amp; 
+      <lb ed="#P" n="38"/>ideo non oportet quod illud quod intelligit vnus 
+      <lb ed="#P" n="39"/>homo intelligat alius: &amp; sic patet de primo. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e439">
+               <lb ed="#P" n="40"/>ARTICVLVS SECVNDVS 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e444">
+               <lb ed="#P" n="41"/>Qvantum ad secundum, sciendum quod 
+      <lb ed="#P" n="42"/>ista coloratio poenitus nihil valet: &amp; hoc 
+      fa<lb ed="#P" n="43" break="no"/>ciliter patet deducendo per singula. In 
+      coloran<lb ed="#P" n="44" break="no"/>do enim dictum Commentatoris tria dicunt, 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e455">
+               <lb ed="#P" n="45"/>Primum est quod ille intellectus qui est 
+      sub<lb ed="#P" n="46" break="no"/>stantia spiritualis non coniuncta homini vt forma, 
+      <lb ed="#P" n="47"/>coniungatur ei per applicationem: &amp; est intra 
+      ho<lb ed="#P" n="48" break="no"/>minem &amp; intra fantasma eius. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e466">
+               <lb ed="#P" n="49"/>Secundum est, quod eadem species numero 
+      <lb ed="#P" n="50"/>quae est in fantasmate sicut in subiecto, est etiam 
+      <lb ed="#P" n="51"/>in illo intellectu sicut in subiecto. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e476">
+               <lb ed="#P" n="52"/>Tertium est, quod quia actus intelligendi 
+      eli<lb ed="#P" n="53" break="no"/>citur ab illa specie, quae cum sit forma 
+      fantasma<lb ed="#P" n="54" break="no"/>tis est forma homnis: ideo dicitur proprie homo 
+      <lb ed="#P" n="55"/>intelligere. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e487">
+               <lb ed="#P" n="56"/>In primo istorum sunt duo defectus primus est, 
+      <lb ed="#P" n="57"/>quia imaginatur substantiam spiritualem situari: 
+      <lb ed="#P" n="58"/>ita quod secundum situm locetur intra corpus, 
+      <lb ed="#P" n="59"/>cuius oppositum ostensum est supra. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e498">
+               <lb ed="#P" n="60"/>Secundo, quia secundum istos, Angeli non 
+      <lb ed="#P" n="61"/>sunt alicubi nisi per applicationem virtutis: siue 
+      <lb ed="#P" n="62"/>per contactum virtutis. Esse autem per contactum 
+      <lb ed="#P" n="63"/>virtutis, non est aliud quam agere in illud quod 
+      <lb ed="#P" n="64"/>tangitur. Ergo illa substantia spiritualis non 
+      ap<lb ed="#P" n="65" break="no"/>plicatur homini, nisi per hoc quod agit in 
+      homi<lb ed="#P" n="66" break="no"/>nem. Sed secundum istam positionem, nihil agit 
+      <lb ed="#P" n="67"/>in hominem: sed ponitur situari in homine, vt 
+      <lb ed="#P" n="68"/>postea simul eum fantasmate recipiat vnam 
+      spe<lb ed="#P" n="69" break="no"/>ciem 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e522">
+      <!--250.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>Secundum, etiam dictum, est valde 
+      irrationa<lb ed="#P" n="71" break="no"/>bile. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e533">
+               <lb ed="#P" n="72"/>Primo, quia sicut supra dictum fuit, formae 
+      <lb ed="#P" n="73"/>intentionales dependent in vniuate &amp; pluralitate: 
+      <lb ed="#P" n="74"/>ab vnitate, &amp; pluralitate subiecti, multo plus quam 
+      <lb ed="#P" n="75"/>aliae multae formae. Vnde impossibile est eandem 
+      <lb ed="#P" n="76"/>speciem esse in fantasmate: &amp; in illo intellectu 
+      si<lb ed="#P" n="77" break="no"/>cut in subiecto. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e549">
+               <lb ed="#P" n="78"/>Secundo. Quia dato quod idem accidens 
+      pos<lb ed="#P" n="79" break="no"/>set esse in duobus subiectis simul existentibus: hoc 
+      <lb ed="#P" n="80"/>tamen non posset esse, nisi quodlibet illorum 
+      sub<lb ed="#P" n="81" break="no"/>iectorum esset natum suscipere illud accidens: 
+      si<lb ed="#P" n="82" break="no"/>cut calor recipitur in calefaciente &amp; calefacto. 
+      <lb ed="#P" n="83"/>Alioquin, quando secundum imaginationem 
+      isto<lb ed="#P" n="84" break="no"/>rum Angelus est simul eum corpore: calor posset 
+      <lb ed="#P" n="85"/>informare vtrumque. Substantia autem 
+      intelle<lb ed="#P" n="86" break="no"/>ctualis carens omni corpore, &amp; omni organo 
+      cor<lb ed="#P" n="87" break="no"/>poreo, non est nata recipere speciem existentem in 
+      <lb ed="#P" n="88"/>fantasmate. Quia nullum corporale, siue sit vnum, 
+      si<lb ed="#P" n="89" break="no"/>ue non vnum, potest communicare cum substantia pure 
+      <lb ed="#P" n="90"/>spirituali in aliquo accidente vnius speciei. 
+      Alio<lb ed="#P" n="91" break="no"/>quin, cum fantasiari &amp; sentire sit spiritualius 
+      <lb ed="#P" n="92"/>quam illae species, substantia pure intellectualis 
+      <lb ed="#P" n="93"/>posset habere in se, actum sentiendi &amp; 
+      fantasian<lb ed="#P" n="94" break="no"/>di: &amp; econuerso intelligere illud numero poterit 
+      <lb ed="#P" n="95"/>esse in illo intellectu &amp; in fantasmate: quae omnia 
+      <lb ed="#P" n="96"/>sunt absurda. Ridiculum est etiam, ponere quod 
+      <lb ed="#P" n="97"/>distinctio secundum situm tollat a diuersis 
+      sub<lb ed="#P" n="98" break="no"/>iectis quod sint diuersa subiecta, diuersitatem 
+      <lb ed="#P" n="99"/>suis accidentibus tribuentia. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e600">
+               <lb ed="#P" n="100"/>Tertium etiam quod dicitur homo intelligete: 
+      <lb ed="#P" n="101"/>quia ab eius forma effectiue elicitur actus 
+      intelli<lb ed="#P" n="102" break="no"/>gendi, est satis irrationale. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e609">
+               <lb ed="#P" n="103"/>Primo, quia vt ostensum est, impossibile est 
+      <lb ed="#P" n="104"/>actum intelligendi secundum dictam positionem, 
+      <lb ed="#P" n="105"/>elici a forma hominis, si actus intelligendi non 
+      po<lb ed="#P" n="106" break="no"/>test elici effectiue nisi a specie existente in 
+      intelle<lb ed="#P" n="107" break="no"/>ctu. quia vt ostensum est, impossibile est esse 
+      ean<lb ed="#P" n="108" break="no"/>dem speciem in fantasmaet &amp; in intellectu. Si 
+      <lb ed="#P" n="109"/>autem ponatur quod aliquid non existens in 
+      intel<lb ed="#P" n="110" break="no"/>lectu, puta species existens in solo fantasmate: 
+      <lb ed="#P" n="111"/>possit elicere actum intelligendi. Si intelligere, 
+      <lb ed="#P" n="112"/>est actum intelligendi elici effectiue a forma 
+      intel<lb ed="#P" n="113" break="no"/>ligentis: sequitur quod fantasma intelligat. 
+      Se<lb ed="#P" n="114" break="no"/>cundum omnem igitur positionem istorum: 
+      sequi<lb ed="#P" n="115" break="no"/>tur indubitanter fantasma intelligere. Quia 
+      con<lb ed="#P" n="116" break="no"/>stat quod secundum istam potentiam, actus 
+      intel<lb ed="#P" n="117" break="no"/>ligendi eliciatur a forma fantasmatis: cum eadem 
+      <lb ed="#P" n="118"/>species numero sit fantasmatis &amp; intellectus 
+      il<lb ed="#P" n="119" break="no"/>lius. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e648">
+               <lb ed="#P" n="120"/>Secundo, quia auctores istius positionis, 
+      po<lb ed="#P" n="121" break="no"/>nunt quod sola essentia diuina elicit effectiue 
+      a<lb ed="#P" n="122" break="no"/>ctum intelligendi in intellectu creato, quo actu 
+      <lb ed="#P" n="123"/>homo videt Deum, &amp; tamen hoc est falsum quod 
+      <lb ed="#P" n="124"/>Deus intelligat vel videat illo actu videndi siue 
+      <lb ed="#P" n="125"/>intelligendi qui est in intellectu creato. Non ergo 
+      <lb ed="#P" n="126"/>ad hoc quod alicui conueniat intelligere, sufficit 
+      <lb ed="#P" n="127"/>quod eius forma sit causa effectiua, siue quod eli¬ 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e668">
+               <lb ed="#P" n="128"/>ciat effectiue. Imo oportet quod sit subiectum 
+      <lb ed="#P" n="129"/>actus intelligendi. Secundum autem dictam 
+      po<lb ed="#P" n="130" break="no"/>sitionem, homo nec secundum se totum, nec 
+      se<lb ed="#P" n="131" break="no"/>cundum aliquid sui esset subiectum actus 
+      intelli<lb ed="#P" n="132" break="no"/>gendi. Quia intellectus ille in quo solo est actus 
+      <lb ed="#P" n="133"/>intelligendi, non ponitur pars hominis. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e684">
+               <lb ed="#P" n="134"/>Coloratio etiam quam inducunt pro 
+      Commen<lb ed="#P" n="135" break="no"/>tatore quantum ad secundum eius dictum quo 
+      po<lb ed="#P" n="136" break="no"/>nit vnum intellectum omnium hominum: &amp; 
+      ta<lb ed="#P" n="137" break="no"/>men vnum non intelligere quod intelligit alius, 
+      <lb ed="#P" n="138"/>nulla est. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e697">
+               <lb ed="#P" n="139"/>Primo quidem, quia quando dicitur quod 
+      <!--251.xml-->
+      <pb ed="#P" n="251"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>substantia spiritualis quando applicatur ad aliqua 
+      <lb ed="#P" n="2"/>potest in pluribus simul esse, &amp; tota: &amp; in quolibet 
+      <lb ed="#P" n="3"/>illorum quando habent ordinem ad aliquod vnum: 
+      <lb ed="#P" n="4"/>hoc non est intelligendum de quolibet. Quia non 
+      <lb ed="#P" n="5"/>est intelligendum de vno secundum rationem 
+      <lb ed="#P" n="6"/>quod conuenit vniuersali: vt propter hoc dicatur 
+      <lb ed="#P" n="7"/>quod substantia spititualis possit esse in pluribus. 
+      <lb ed="#P" n="8"/>Quia conueniunt in vno praedicabili vniuersali. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e727">
+               <lb ed="#P" n="9"/>Sic enim posset esse in omnibus corporibus 
+      si<lb ed="#P" n="10" break="no"/>mul. Quia omnia corpora communicant in vno 
+      <lb ed="#P" n="11"/>vniuersali: quod est corpus. Sed hoc 
+      intelligen<lb ed="#P" n="12" break="no"/>dum est, quia substantia spiritualis potest esse in 
+      plu<lb ed="#P" n="13" break="no"/>ribus inquantum habent ordinem ad aliquod 
+      <lb ed="#P" n="14"/>vnum reale, &amp; in ordine ad aliquod reale, prout 
+      <lb ed="#P" n="15"/>scilicet comparantur ad substantiam spiritualem, 
+      <lb ed="#P" n="16"/>vel sicut in vnum perfectibile reale: sicut omnia 
+      <lb ed="#P" n="17"/>membra corporis animati sunt vnum siue 
+      consti<lb ed="#P" n="18" break="no"/>tuunt vnum perfectibile ab anima, vel sicut etiam 
+      <lb ed="#P" n="19"/>vnum mobile: conuenientia autem omnium 
+      ho<lb ed="#P" n="20" break="no"/>minum in homine in communi, est conuenientia 
+      <lb ed="#P" n="21"/>in vno secundum rationem, scilicet in vno 
+      vni<lb ed="#P" n="22" break="no"/>uersali: &amp; ideo talis vnitas non potest esse ratio 
+      <lb ed="#P" n="23"/>quod substantia spiritualis vna numero possit 
+      <lb ed="#P" n="24"/>esse simul in omnibus hominibus. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e764">
+               <lb ed="#P" n="25"/>Secundo, quia saltem sequetur quod 
+      quid<lb ed="#P" n="26" break="no"/>quid intellectus vnius hominis intelligit, 
+      in<lb ed="#P" n="27" break="no"/>telliget intellectus vniuscuiusque, ex quo non est 
+      <lb ed="#P" n="28"/>nisi vnus intellectus. Sequetur etiam quod duo 
+      <lb ed="#P" n="29"/>homines respectu eiusdem naturae specifice 
+      ha<lb ed="#P" n="30" break="no"/>beant vnum actum intelligendi numero; vel 
+      <lb ed="#P" n="31"/>quod plures actus intelligendi numero, sint in 
+      <lb ed="#P" n="32"/>codem subiecto. Quod sic patet, quia species albi 
+      <lb ed="#P" n="33"/>in me &amp; in te: aut causat eundem actum 
+      intelli<lb ed="#P" n="34" break="no"/>gendi numero: aut plures. Si eundem. Ergo ego 
+      <lb ed="#P" n="35"/>&amp; tu per vnum actum numero, intelligimus 
+      al<lb ed="#P" n="36" break="no"/>bum. Si plures, cum omnes actus intelligendi sint 
+      <lb ed="#P" n="37"/>in solo intellectu, quia intelligere non potest esse 
+      <lb ed="#P" n="38"/>in fantasmate: cum intellectus existens in me &amp; 
+      <lb ed="#P" n="39"/>inte sit idem numero, sequitur quod in eodem 
+      <lb ed="#P" n="40"/>intellectu numero, sint plures actus intelligendi 
+      <lb ed="#P" n="41"/>numero: quia intelligere meum, &amp; tuum 
+      res<lb ed="#P" n="42" break="no"/>pectu albi eum sit species specialissima: non possunt 
+      <lb ed="#P" n="43"/>differre specie. Quodlibet autem istorum est 
+      incon<lb ed="#P" n="44" break="no"/>ueniens. Ergo &amp;c. Multa alia possent adduci: 
+      <lb ed="#P" n="45"/>sed praetermitto. Quia &amp; positio, &amp; eius coloratio 
+      <lb ed="#P" n="46"/>vt potest patere ex dictis, sunt satis friuolae. Et 
+      <lb ed="#P" n="47"/>sic patet de secundo. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e816">
+               <lb ed="#P" n="48"/>ARTICVLVS TERTIVS. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e821">
+               <lb ed="#P" n="49"/>Qvantum ad tertium adduco vnam rationem 
+      <lb ed="#P" n="50"/>ad probandum, scilicet quod necesse est 
+      <lb ed="#P" n="51"/>animam intellectiuam esse formam hominis &amp; 
+      <lb ed="#P" n="52"/>propter facilitatem loquendi accipiamus 
+      intel<lb ed="#P" n="53" break="no"/>lectum pro anima intellectiua: &amp; fiat talis ratio. 
+      <lb ed="#P" n="54"/>Ille cui conuenit intellipere, vel est secundum se 
+      <lb ed="#P" n="55"/>totus intellectus: vel habet intellectum partem sui. 
+      <lb ed="#P" n="56"/>Sed homini conuenit vere &amp; proprie intelligere. 
+      <lb ed="#P" n="57"/>Ergo oportet quod vel homo secundum se totum 
+      <lb ed="#P" n="58"/>sit intellectus: vel habeat intellectum partem sui. 
+      <lb ed="#P" n="59"/>Vtramque afsumptam probo. Et primo primam 
+      <lb ed="#P" n="60"/>habeat, scilicet quod ille cui conuenit intelligere: 
+      <lb ed="#P" n="61"/>vel est secundum se totum intellectus, vel habet 
+      <lb ed="#P" n="62"/>intellectum partem sui. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e854">
+               <lb ed="#P" n="63"/>Ad cuius euidentiam, sciendum quod 
+      intel<lb ed="#P" n="64" break="no"/>linere non conuenit alicui ex hoc quod est eausa 
+      <lb ed="#P" n="65"/>effectiua actus intelligendi. Nam secundum hoc 
+      <lb ed="#P" n="66"/>fantasma intelligeret. Quia fantasma in virtute 
+      <lb ed="#P" n="67"/>intellectus agentis, vel immediate: vel mediante 
+      <lb ed="#P" n="68"/>specie mouet intellectum possibilem ad actum in¬ 
+      <!--251.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>telligendi. Sed opottet quod ille cuiconuenit 
+      in<lb ed="#P" n="70" break="no"/>telligere, siue actiue se habeat, siue non: quod 
+      <lb ed="#P" n="71"/>sit subiectum actus inte ligendi. Ex hoc sic 
+      argui<lb ed="#P" n="72" break="no"/>tur, nullus intelligit nisi sit subiectum actus 
+      intel<lb ed="#P" n="73" break="no"/>ligendi, vel secundum se totum, vel secundum 
+      <lb ed="#P" n="74"/>aliquid sui. Sed nullus potest esse subicctum actus 
+      <lb ed="#P" n="75"/>intelligendi, nisi sit intellectus, vel habeat 
+      intel<lb ed="#P" n="76" break="no"/>lectum partem sui. Quia actus intelligendi non 
+      <lb ed="#P" n="77"/>potest esse in aliquo sicut in subiecto, nisi ratione 
+      <lb ed="#P" n="78"/>intellectus, qui est primum &amp; perse subiectum 
+      <lb ed="#P" n="79"/>actus intelligendi. Ergo ille cui conuenit 
+      intel<lb ed="#P" n="80" break="no"/>ligere, vel est secundum se totum inrellectum, 
+      <lb ed="#P" n="81"/>vel habet intellectum partem sui. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e902">
+               <lb ed="#P" n="82"/>Minorem simplicitor probo, scllicet quod 
+      <lb ed="#P" n="83"/>proprie homini conueniat intelligere: ita quud 
+      <lb ed="#P" n="84"/>intelligere hominis non erit quoddam nobile 
+      sen<lb ed="#P" n="85" break="no"/>tire, vt quidam posuerunt. Quia nulli deest 
+      ali<lb ed="#P" n="86" break="no"/>quod sentire, nisi ei cui deest aliquod organum 
+      <lb ed="#P" n="87"/>sensus. Et hoc patet, quia omnis virtus sensitiua 
+      <lb ed="#P" n="88"/>est virtus in organo existens; &amp; omne sentire 
+      ex<lb ed="#P" n="89" break="no"/>ercetur per organum. Sed per Philosophum, imo 
+      <lb ed="#P" n="90"/>secundum omnes nulli animali perfecto deest 
+      ali<lb ed="#P" n="91" break="no"/>quod organum sensus. Ergo omni animali 
+      per<lb ed="#P" n="92" break="no"/>fecto inest sentire cuiussibet sensus. Sed non 
+      om<lb ed="#P" n="93" break="no"/>ne animali perfecto, sed soli homini inest 
+      co<lb ed="#P" n="94" break="no"/>gnitio intellectiua quam homini attribuimus 
+      <lb ed="#P" n="95"/>Ergo illa cognitio non est sentire: sed est vere &amp; 
+      <lb ed="#P" n="96"/>proprie intelligere. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e938">
+               <lb ed="#P" n="97"/>Nec potest dici quod sit aliquod sentire in 
+      vir<lb ed="#P" n="98" break="no"/>tute aliqua quod differt ab intelligere hominis, 
+      <lb ed="#P" n="99"/>sicut cognitio eiusdem speciei minus clara differt 
+      <lb ed="#P" n="100"/>a cognitione magis clara &amp; magis limpida: quia 
+      <lb ed="#P" n="101"/>intelligere hominis vt de se patet magis d ffert a 
+      <lb ed="#P" n="102"/>sentire cuiuscumque bruti, quam differat 
+      estima<lb ed="#P" n="103" break="no"/>tiua naturalis sensitiua a sensu exteriori quae 
+      con<lb ed="#P" n="104" break="no"/>stat differre specie. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e958">
+               <lb ed="#P" n="105"/>Absurditas etiam magna videtur ponere, quod 
+      <lb ed="#P" n="106"/>virtus organica se possit extendere ad 
+      cognitio<lb ed="#P" n="107" break="no"/>nem rationum vniuersalium: sicut homo in se 
+      expe<lb ed="#P" n="108" break="no"/>ritur. Vnde manifestum est hominem vere &amp; 
+      <lb ed="#P" n="109"/>proprie intelligere, &amp; habere operationem 
+      trans<lb ed="#P" n="110" break="no"/>cendentem omnem sensum. Et sic patet minor. 
+      <lb ed="#P" n="111"/>Sequitur ergo conclusio, scilicet quod oportet 
+      <lb ed="#P" n="112"/>quod homo vel sit secundum se totum 
+      intel<lb ed="#P" n="113" break="no"/>lectus: vel quod habeat intellectum partem sui. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e980">
+               <lb ed="#P" n="114"/>Sed impossibile est quod sit secundum 
+      seto<lb ed="#P" n="115" break="no"/>tum intellectus, quia illud quod secundum se 
+      to<lb ed="#P" n="116" break="no"/>tum est intellectus non potest sentire. Quia 
+      sen<lb ed="#P" n="117" break="no"/>tire requirit organum corporeum. Homo autem 
+      <lb ed="#P" n="118"/>manifeste experitur seipsum eundem esse qui 
+      <lb ed="#P" n="119"/>sentit, &amp; qui intelligit. Ergo necesse ponere quod 
+      <lb ed="#P" n="120"/>habet intellectum, scslicet animam 
+      intel<lb ed="#P" n="121" break="no"/>lectiuam partem sui. Sed constat quo anima 
+      <lb ed="#P" n="122"/>intellectiua non potest esse pars quae est 
+      materia<lb ed="#P" n="123" break="no"/>Et ideo necesse est quod anima sit substantialis 
+      <lb ed="#P" n="124"/>forma hominis. Et sic oportet quod in 
+      constitu<lb ed="#P" n="125" break="no"/>tione hominis anima vniatur materiae vt formas 
+      <lb ed="#P" n="126"/>Et sic patet de tertio, 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1011">
+               <lb ed="#P" n="127"/>ARTICVLVS QVARTVS. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1016">
+               <lb ed="#P" n="128"/>Qvantum ad quartum, scilicet quod non sit 
+      <lb ed="#P" n="129"/>vnus intellectus numero omnium hominum 
+      <lb ed="#P" n="130"/>facile est probare. Hoc autem probo ad nunc 
+      <lb ed="#P" n="131"/>duplici via. Vna sumitur ex eo quod statim 
+      pro<lb ed="#P" n="132" break="no"/>batum, est quod scilicet intellectus accipiendo 
+      <lb ed="#P" n="133"/>intellectum pro anima intellectiua est forma 
+      sub<lb ed="#P" n="134" break="no"/>stantialis hominis: quia multiplicatis principiatis 
+      <lb ed="#P" n="135"/>oportet principia intrinseca quae sunt materia &amp; 
+      <lb ed="#P" n="136"/>forma multiplicari. Sed vt probatum est, intel¬ 
+      <!--252.xml-->
+      <pb ed="#P" n="252"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>lectus est principium intrinsecum hominis. Quia 
+      <lb ed="#P" n="2"/>est eius forma substantialis, vr probatum est. Ergo 
+      <lb ed="#P" n="3"/>multiplicatis hominibus, oportet ipsos intellectus 
+      <lb ed="#P" n="4"/>multiplicari: &amp; per consequens est impossibile 
+      <lb ed="#P" n="5"/>eundem intellectum numero esse in omnibus 
+      ho<lb ed="#P" n="6" break="no"/>minibus imo nec in duobus. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1058">
+               <lb ed="#P" n="7"/>Secunda ratio accipitur ex operatione 
+      intel<lb ed="#P" n="8" break="no"/>lectus. Quia si vnus est intellectus omnium, 
+      opor<lb ed="#P" n="9" break="no"/>tet omnem cognitionem, siue falsam, siue veram 
+      <lb ed="#P" n="10"/>omnium hominum esse in eodem subiecto: quia 
+      <lb ed="#P" n="11"/>omnis cognitio intellectiua, est in intellectu solo 
+      <lb ed="#P" n="12"/>sicut in primo &amp; per se subiector Sed impossibile 
+      <lb ed="#P" n="13"/>est omnem cognitionem intellectiuam veram &amp; 
+      <lb ed="#P" n="14"/>falsam omnium hominum esse in eodem sicut in 
+      <lb ed="#P" n="15"/>subiectoi Ergo impossibile est quod sit idem 
+      nu<lb ed="#P" n="16" break="no"/>mero intellectus omnium hominum. Maior 
+      pa<lb ed="#P" n="17" break="no"/>tet. Minorem probo, quia opiniones quae sunt 
+      <lb ed="#P" n="18"/>de contradictoriis: sunt contrariae secundum 
+      Phy<lb ed="#P" n="19" break="no"/>losophum. Licet enim opinata sint contradicto. 
+      <lb ed="#P" n="20"/>ria: opiniones tamen ipsae sunt contrariae. Sed 
+      <lb ed="#P" n="21"/>constat quod diuersi homines opinantur opposita 
+      <lb ed="#P" n="22"/>de eadem. Ergo opiniones diuersorum 
+      homi<lb ed="#P" n="23" break="no"/>num sunt frequenter contrariae. Sicut quando 
+      <lb ed="#P" n="24"/>vnus opinatur coelum non habere materiam: &amp; 
+      <lb ed="#P" n="25"/>alius opinatur coelum habere materiam. Sed 
+      im<lb ed="#P" n="26" break="no"/>possibile est contraria esse in eodem subiecto. 
+      <lb ed="#P" n="27"/>Ergo impossibile est opiniones omnium hominum 
+      <lb ed="#P" n="28"/>quae opiniones sunt quaedam actus intellectus, 
+      <lb ed="#P" n="29"/>esse in eodem subiecto. Et fic patet minor, scilicet 
+      <lb ed="#P" n="30"/>quod omnes cognitiones intellectiue omnium 
+      ho<lb ed="#P" n="31" break="no"/>minum, siue verae siue falsae, non possunt esse in 
+      <lb ed="#P" n="32"/>eodem subiecto. Et sic patet de quarto. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1118">
+               <lb ed="#P" n="33"/>Ad primum in oppositum dicendum quod 
+      il<lb ed="#P" n="34" break="no"/>lud quod conuenit animae per essentiam ita quod 
+      <lb ed="#P" n="35"/>nec includat aliquid aliud ab essentia; vel non 
+      <lb ed="#P" n="36"/>importat habitudinem aliquam ad aliud 
+      diuer<lb ed="#P" n="37" break="no"/>sum ab essentia animae: semper &amp; de necessitate 
+      <lb ed="#P" n="38"/>sibi conuenit. Modo vnibilem esse formam 
+      ap<lb ed="#P" n="39" break="no"/>titudine, licet importet habitudinem ad 
+      mate<lb ed="#P" n="40" break="no"/>riam vnibilem: non tam en ad materiam vnitam 
+      <lb ed="#P" n="41"/>actu. Et quia anima non potest absolui ab 
+      vnibi<lb ed="#P" n="42" break="no"/>litate materiae, semper &amp; de necessitate conuenit 
+      <lb ed="#P" n="43"/>animae esse formam aptitudine: sed esse formam 
+      <lb ed="#P" n="44"/>actu informantem, fiue actu vnitam, sibi non 
+      <lb ed="#P" n="45"/>semper conuenit. Quin hoc importat 
+      habitu<lb ed="#P" n="46" break="no"/>dinem ad materiam actualiter vnitam. Nec tamen 
+      <lb ed="#P" n="47"/>sequitur quod quando anima vnitur actu 
+      mate<lb ed="#P" n="48" break="no"/>riae vt forma, vniatur per medium formale: sicut si 
+      <lb ed="#P" n="49"/>diceretur figura vniri substantiae immediate, cum 
+      <lb ed="#P" n="50"/>vniatur per aliud a se sicut per causam effectiuam. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1160">
+               <lb ed="#P" n="51"/>Et quia influentia illius causae faciens ad 
+      <lb ed="#P" n="52"/>vnionem effectiue, non semper adest in anima 
+      <lb ed="#P" n="53"/>manens: nom semper est actu forma in formans 
+      ma<lb ed="#P" n="54" break="no"/>teriam. Vnde quando dicitur quod forma per 
+      <lb ed="#P" n="55"/>quam essentiam vnitur materiae, magis est 
+      acci<lb ed="#P" n="56" break="no"/>piendum priuatiue, sub hoc sensu, non per aliud 
+      <lb ed="#P" n="57"/>ab essentia, quam positiue: ita quod essentia dicat 
+      <lb ed="#P" n="58"/>causam vnionis, &amp; illa priuatio scilicet, ly non per 
+      <lb ed="#P" n="59"/>aliud, excludat aliud a forma quod sit medium 
+      <lb ed="#P" n="60"/>formale per quod fiat vnio. Non autem excludit 
+      <lb ed="#P" n="61"/>aliud, quod sit causa efficiens vnionis. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1186">
+               <lb ed="#P" n="62"/>Ad secundum dicendum quod quando dicitur 
+      in<lb ed="#P" n="63" break="no"/>tellectus est potentia separata. Non est sic 
+      intel<lb ed="#P" n="64" break="no"/>ligendum, qua si potentia intellectiua sit separata 
+      <lb ed="#P" n="65"/>realiter a subiecto: vel quod non sit anima quae 
+      <lb ed="#P" n="66"/>est forma materiae. Sed pro tanto dicitur separata 
+      <lb ed="#P" n="67"/>a materia: quia in sola essentia animae est sicut in 
+      <lb ed="#P" n="68"/>subiecto. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1204">
+               <lb ed="#P" n="69"/>Et hoc habet anima ex hoc quod est forma non 
+      <lb ed="#P" n="70"/>dependens, quod potest esse subiectum alicuius 
+      <!--252.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>accidentis, cuius subiectum non est materia, nec 
+      <lb ed="#P" n="72"/>compositum ex materia &amp; forma: ita quod 
+      ma<lb ed="#P" n="73" break="no"/>teria in nullo est eius subiectum. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1222">
+               <lb ed="#P" n="74"/>Quando ergo dicitur quod potentia non est 
+      <lb ed="#P" n="75"/>magis abstracta quam substantia cuius est potentia 
+      <lb ed="#P" n="76"/>Si intelligatur quantum ad hoc quod potentia 
+      <lb ed="#P" n="77"/>non est magis nata esse sine subiecto quam 
+      essen<lb ed="#P" n="78" break="no"/>tia in qua est, verum est. Et sic est in propositou 
+      <lb ed="#P" n="79"/>Nam potentia intellectiua non potest esse sine 
+      <lb ed="#P" n="80"/>subiecto quod est anima. Sed anima potest esse 
+      <lb ed="#P" n="81"/>sine eo quod ei substernitur, scilicet materia. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1242">
+               <lb ed="#P" n="82"/>Si autem intelligatur sic, scilicet quod 
+      poten<lb ed="#P" n="83" break="no"/>tia non est abstractior quam essentia, idest, non 
+      <lb ed="#P" n="84"/>est minus vnibilis materiae, vel subiecto quam 
+      es<lb ed="#P" n="85" break="no"/>sentia animae. Dico quod non oportet. Quia non 
+      <lb ed="#P" n="86"/>oportet quod omne illud quod informat formam 
+      <lb ed="#P" n="87"/>substantialem non dependentem informet 
+      ma<lb ed="#P" n="88" break="no"/>teriam illi formae substantiali subiectam. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1261">
+               <lb ed="#P" n="89"/>Ad tertium dicendum, quod diuersorum 
+      ho<lb ed="#P" n="90" break="no"/>minum sunt diuersi intellectus. Ad illud quod 
+      <lb ed="#P" n="91"/>inducitur contra. Dico quod animae non habent 
+      <lb ed="#P" n="92"/>quod possint esse plures tantum ex actuali vnione 
+      <lb ed="#P" n="93"/>ad materiam: sed ex vnibilitate. Nec tamen 
+      in<lb ed="#P" n="94" break="no"/>telligo quod animae distinguantur per relationes a 
+      <lb ed="#P" n="95"/>sed ex hoc quod sunt formae natae esse in materia. 
+      <lb ed="#P" n="96"/>Sed habent quod possint distingui numero, siue 
+      <lb ed="#P" n="97"/>in corpore, siue extra. Licet enim formae vnde 
+      <lb ed="#P" n="98"/>forma, non conueniat multiplicari numero: ramen 
+      <lb ed="#P" n="99"/>forma vnibilis materiae ex natura qua est talis 
+      for<lb ed="#P" n="100" break="no"/>ma, habet multiplicari. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1290">
+               <lb ed="#P" n="101"/>Ad aliud dicendum, quod aliquid potest esse 
+      <lb ed="#P" n="102"/>in intellectu dupliciter. Vno modo subiectiue. 
+      <lb ed="#P" n="103"/>Et sic species dicitur esse in intellectu. Et illud 
+      <lb ed="#P" n="104"/>quod est singulare sic in intellectu, oportet 
+      pluri<lb ed="#P" n="105" break="no"/>ficari plurificato intellectu, &amp; esse etiam 
+      singula<lb ed="#P" n="106" break="no"/>re: siue sint plures intellectus, siue vnus tantum. 
+      <lb ed="#P" n="107"/>Quia illum intellectum in esse reali oportet esse 
+      <lb ed="#P" n="108"/>rem quandam singularem &amp; vnam numero: &amp; 
+      <lb ed="#P" n="109"/>per consequens illa quae sunt in tali intellectu 
+      si<lb ed="#P" n="110" break="no"/>cut in subiecto sunt singularia. 
+      </p>
+            <p xml:id="hx2hx3-b83894-d1e1314">
+               <lb ed="#P" n="111"/>Alio modo est aliquid in intellectu obiectiue, 
+      <lb ed="#P" n="112"/>quia scilicet est quoddam intellectum existens 
+      in<lb ed="#P" n="113" break="no"/>prospectu intellectus: &amp; illud quod sic est in 
+      in<lb ed="#P" n="114" break="no"/>tellectu, non oportet plurificari secundum 
+      plu<lb ed="#P" n="115" break="no"/>raliratem intellectuum: &amp; sic est intellectum in 
+      <lb ed="#P" n="116"/>intellectu res quae intelligitur. Et ideo, vna 
+      na<lb ed="#P" n="117" break="no"/>tura intellecta est obiectiue in intellectu 
+      multo<lb ed="#P" n="118" break="no"/>rum illam naturam intelligentium, siue 
+      intelliga<lb ed="#P" n="119" break="no"/>tur vniuersaliter. Sicut quando plures intelligunt 
+      <lb ed="#P" n="120"/>hominem in eo quod homo, siue particulariter, 
+      si<lb ed="#P" n="121" break="no"/>eut si plures intelligerent Socratem modo quo im 
+      <lb ed="#P" n="122"/>diuiduum potest intelligi. Vnde non oporter quod 
+      <lb ed="#P" n="123"/>obiectum intellectum a pluribus, plurificetur 
+      nu<lb ed="#P" n="124" break="no"/>mero. Vel obiectum plurium intellectuum sit 
+      <lb ed="#P" n="125"/>singulare. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

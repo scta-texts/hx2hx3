@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="343"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c15728"><!-- l4d8q3 -->
+            <head xml:id="hx2hx3-c15728-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-c15728-Hd1e101" type="question-title">Utrum formae sacramentorum se expectent</head>
+            <p xml:id="hx2hx3-c15728-d1e104">
+               <lb ed="#P" n="26"/>QVAESTIO TERTIA.
+      </p>
+            <p xml:id="hx2hx3-c15728-d1e109">
+               <lb ed="#P" n="27"/>TErtio. Quaeritur vtrum formae 
+      sacramen<lb ed="#P" n="28" break="no"/>torum se expectent. 
+      </p>
+            <p xml:id="hx2hx3-c15728-d1e116">
+        Et videtur quod sic, quia 
+      <lb ed="#P" n="29"/>si quando dicitur, hoc est corpus meum, est ibi 
+      per<lb ed="#P" n="30" break="no"/>fectum sacramentum aut ibi est sanguis: &amp; sic 
+      fru<lb ed="#P" n="31" break="no"/>stra fit postea consecratio sanguinis, aut non: &amp; 
+      <lb ed="#P" n="32"/>sic totum Corpus Christi est ibi sine sanguine, quod 
+      <lb ed="#P" n="33"/>falsum est. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c15728-d1e130">
+               <lb ed="#P" n="34"/>In contrarium est vsus Ecclesiae, quia 
+      adora<lb ed="#P" n="35" break="no"/>tur corpus antequam sanguis censecretur. 
+      </p>
+            <p xml:id="hx2hx3-c15728-d1e137">
+               <lb ed="#P" n="36"/>Respondeo. Dicendum, quod formae non 
+      <lb ed="#P" n="37"/>se expectant, imo statim post prolationem 
+      verbo<lb ed="#P" n="38" break="no"/>rum, hoc est corpus meum, est ibi Corpus Christi 
+      <lb ed="#P" n="39"/>verum ante prolationem verborum de sanguine. 
+      <lb ed="#P" n="40"/>Et hoc patet ex vsu Ecclesiae vt tactum est. Et etiam 
+      <lb ed="#P" n="41"/>ratione sic. Illud enim quod significant verba 
+      for<lb ed="#P" n="42" break="no"/>mae sacramenti oportet ibi esse, aliter sacramenta 
+      <lb ed="#P" n="43"/>non efficerent quod figurant: sed quando dicitur, 
+      <lb ed="#P" n="44"/>hoc est corpus meum, tota &amp; perfecta significatio 
+      <lb ed="#P" n="45"/>orationis refertur ad vltimum instans in quo 
+      pro<lb ed="#P" n="46" break="no"/>lata est, ergo id quod significatur per dictam 
+      ora<lb ed="#P" n="47" break="no"/>tionem est ibi in illo vltimo instanti. Sed in illo 
+      <lb ed="#P" n="48"/>vltimo instanti significatur Corpus Christi esse ibi 
+      <lb ed="#P" n="49"/>vere. Ergo in illo vltimo instanti vere Corpus 
+      <lb ed="#P" n="50"/>Christi est ibi, nec oportet expectare sequentia vt 
+      <lb ed="#P" n="51"/>determinatio praedicati respectu formae corporis, 
+      <lb ed="#P" n="52"/>vt de se patet. 
+      </p>
+            <p xml:id="hx2hx3-c15728-d1e176">
+               <lb ed="#P" n="53"/>Ad rationem in oppositum dicendum, quod 
+      <lb ed="#P" n="54"/>in illo sacramento est aliquid dupliciter. Vno 
+      <lb ed="#P" n="55"/>modo virtute sacramenti, scilicet id in quod fit 
+      <lb ed="#P" n="56"/>conuersio. Alio modo concomitatiue, quia, 
+      sci<lb ed="#P" n="57" break="no"/>licet est cuniunctum ei in quod fit conuersio: 
+      mo<lb ed="#P" n="58" break="no"/>do dico quod facta consecratione corporis vi 
+      sa<lb ed="#P" n="59" break="no"/>cramenti sub specie panis est ibi Corpus Christi: 
+      <lb ed="#P" n="60"/>sed sanguis concomitatue. Facta autem 
+      conse<lb ed="#P" n="61" break="no"/>cratione sanguinis vi sacramenti sub specie vini 
+      <lb ed="#P" n="62"/>in vltimo instanti consecrationis est ibi sanguis 
+      <lb ed="#P" n="63"/>Christi. Et ideo non pro nihilo fit consecratio 
+      <lb ed="#P" n="64"/>sanguinis, quia aliter est ibi post 
+      consecrationem<lb ed="#P" n="65" break="no"/>quam ante. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

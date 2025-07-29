@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="13"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-a04083"><!-- l1prolq5 -->
+            <head xml:id="hx2hx3-a04083-Hd1e99">Quaestio 5</head>
+            <head xml:id="hx2hx3-a04083-Hd1e101" type="question-title">Utrum theologia sit scientia una</head>
+            <p xml:id="hx2hx3-a04083-d1e104">
+               <lb ed="#P" n="53"/>QVAESTIO QVINIA. 
+      <lb ed="#P" n="54"/>Vtrum Theologia sit scientia vna.
+      </p>
+            <p xml:id="hx2hx3-a04083-d1e111">
+               <lb ed="#P" n="55"/>ET arguitur quod non: quia considerat de Deo 
+      <lb ed="#P" n="56"/>D&amp; de creaturis, quae sunt obiecta diuersarum 
+      <lb ed="#P" n="57"/>rationum: Ergo, &amp;c. Si dicas quod considerat de 
+      <lb ed="#P" n="58"/>eis per vnam rationem. Contra Deus &amp; creatura 
+      <lb ed="#P" n="59"/>non conueniunt nisi aliqua vna ratione analoga. Si 
+      <lb ed="#P" n="60"/>ergo considerat de eis tantum secundum quod 
+      con<lb ed="#P" n="61" break="no"/>ueniunt in vna tatione, non considerabit de eis in 
+      <lb ed="#P" n="62"/>speciali, quod falsum est. 
+      </p>
+            <p xml:id="hx2hx3-a04083-d1e131">
+               <lb ed="#P" n="63"/>Contra quod habet obiectum vnum formale, 
+      <lb ed="#P" n="64"/>elt vnum. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-a04083-d1e139">
+               <lb ed="#P" n="65"/>Respondeo dicendum est quod Theologia est vna. 
+      <lb ed="#P" n="66"/>Rationem assignant quidam sic: quia in illo modo 
+      <!--13.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>cognoscendi quo per vnum cegnoscitur res: &amp; in 
+      <lb ed="#P" n="68"/>generali puta inquantum ens, &amp; in speciali secundum 
+      <lb ed="#P" n="69"/>propriam naturam vniuscuiusque: nonopertet 
+      mul<lb ed="#P" n="70" break="no"/>tiplicare scientias secundum diuersitatem rerui: imo 
+      <lb ed="#P" n="71"/>nec possibile est multiplicare scientias secuindum 
+      <lb ed="#P" n="72"/>multitudinem rerum in tali modo cognoscendi: 
+      <lb ed="#P" n="73"/>sed modus quo vtitur ista scientia est talis: Ergor 
+      <lb ed="#P" n="74"/>&amp;c. Minorem probant: quia ista scientia sequitur 
+      <lb ed="#P" n="75"/>modum Dei &amp; substantiarum separatarum in 
+      co<lb ed="#P" n="76" break="no"/>gpnoscendo cum habeat Deum pro obiecto: sed 
+      <lb ed="#P" n="77"/>modus Dei &amp; substantiarum separatarum est 
+      co<lb ed="#P" n="78" break="no"/>gnoscere per vnum &amp; idem res, &amp; in vniuersali &amp; in 
+      <lb ed="#P" n="79"/>speciali, vnde &amp; angelus cognoscit per eandem 
+      <lb ed="#P" n="80"/>speciem animal in generali, &amp; omnia animalia mn 
+      <lb ed="#P" n="81"/>speciali: Ergo; &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-a04083-d1e183">
+               <lb ed="#P" n="82"/>Sed illud nihil est: quia licet communicemus 
+      <lb ed="#P" n="83"/>cum scientia Dei in obiecto; quia Deus secundumm 
+      <lb ed="#P" n="84"/>quod Deus est obiectum scientiae nostiae &amp; diuina: 
+      <lb ed="#P" n="85"/>non tamen eommunicamus in modo eognoscendi 
+      <lb ed="#P" n="86"/>cum Deo vel cum angelis ex patie medn qui est 
+      <lb ed="#P" n="87"/>species siue ex parte specierum: quia secundum 
+      <lb ed="#P" n="88"/>cursum communem in vita praesenti non habemus 
+      <lb ed="#P" n="89"/>species nisi illas quas abstrahimus a tebus 
+      sensibi<lb ed="#P" n="90" break="no"/>libus: Fides enim nonse habet ad modum speciei, 
+      <lb ed="#P" n="91"/>sed magis ad modum luminis: Ergo dato quod in 
+      <lb ed="#P" n="92"/>substantuis separatis non oporteat plurificari 
+      scien<lb ed="#P" n="93" break="no"/>tias propter hoc quod species repraesentat res in 
+      <lb ed="#P" n="94"/>vniuersali &amp; in speciali, non tamen sequitur quon 
+      <lb ed="#P" n="95"/>ita sit in nobis, qua in hoc non possumus sequi mo 
+      <lb ed="#P" n="96"/>dum substantiarum separatarum, qui non 
+      habe<lb ed="#P" n="97" break="no"/>mus tales species &amp; de quibus est fides, sed 
+      habe<lb ed="#P" n="98" break="no"/>mus de eis alterum sumen quam lumen naturale, 
+      <lb ed="#P" n="99"/>scilicet lumen fidei. Itendaicquiod ponatur quod 
+      <lb ed="#P" n="100"/>angelus per vnarn speciem cognoscat omnia, qua 
+      <lb ed="#P" n="101"/>ppertinent ad vnum genus rerum &amp; in geuerali d 
+      <lb ed="#P" n="102"/>in speciali, tamen nullus ponit quiod aliquis 
+      intel<lb ed="#P" n="103" break="no"/>lectus creatus quantumcunque separatus &amp; altus 
+      <lb ed="#P" n="104"/>per vnam ipeciem intelligat omnia genera entium 
+      <lb ed="#P" n="105"/>in generali &amp; in speciali: Ergo dato quod cfficacia 
+      <lb ed="#P" n="106"/>specierum in repraesentando insubstantiis separatis 
+      <lb ed="#P" n="107"/>exigat quod non sit in eis tanta diuersitas habituum 
+      <lb ed="#P" n="108"/>cognitiuorum sicut in nobis: tamen hoc non tollit 
+      <lb ed="#P" n="109"/>omnimodam diuersitatem. Quod etiam dicunt 
+      <lb ed="#P" n="110"/>quod Theologia nostra sequitur modum 
+      cognitio<lb ed="#P" n="111" break="no"/>nis Diuinae, quia habet Deum pro obiecto: Q 
+      <lb ed="#P" n="112"/>ideo manet vna, hoc est ponere vnitatem in 
+      Theo<lb ed="#P" n="113" break="no"/>logia propter vnitatem obiecti, quod ipsi 
+      impro<lb ed="#P" n="114" break="no"/>bant licet male. 
+      </p>
+            <p xml:id="hx2hx3-a04083-d1e257">
+               <lb ed="#P" n="115"/>Et ideo dicendum est quod Theologia est 
+      vn<lb ed="#P" n="116" break="no"/>ppfsopter unitatem formalis obiecti: quia sicut 
+      po<lb ed="#P" n="117" break="no"/>tentia est vna cui relpondet vnum primum &amp; per se 
+      <lb ed="#P" n="118"/>formale obiectum, quantumcunque obiecta 
+      se<lb ed="#P" n="119" break="no"/>cundaria licet perse &amp; accidentalia plurificentur i 
+      <lb ed="#P" n="120"/>ita est de scientia: primumautem &amp; per se 
+      obie<lb ed="#P" n="121" break="no"/>ctum Theolegiae est vnum, scilicet Deus secundum 
+      <lb ed="#P" n="122"/>quod Deus: alia autem secundarid considerat. Iden 
+      <lb ed="#P" n="123"/>&amp;c. Contra hoc autem dicunt illi de prima 
+      opi<lb ed="#P" n="124" break="no"/>nione quod est hic petitio principii, quia probatur 
+      <lb ed="#P" n="125"/>vnitas per vnitatem. Sed haec est magna ruditas : 
+      <lb ed="#P" n="126"/>quia petitio principii non est si probatur esle per 
+      <lb ed="#P" n="127"/>esse, vel vnitas per vnitatem dum tamen non 
+      pro<lb ed="#P" n="128" break="no"/>betur eadem vnitas per eandem vnitatem: nam 
+      <lb ed="#P" n="129"/>esse effectus &amp; etiam vnitas potest probari per 
+      vni<lb ed="#P" n="130" break="no"/>tatem causae, &amp; simisiter vnitas per vnitatem &amp; e 
+      <lb ed="#P" n="131"/>conuerso: &amp; talis probatio non est petitio princinu 
+      <lb ed="#P" n="132"/>sed demonstratio. 
+      </p>
+            <p xml:id="hx2hx3-a04083-d1e299">
+               <lb ed="#P" n="133"/>Si autem quaeratur quomode vna eristens se 
+      <lb ed="#P" n="134"/>er tendat ad tot consideranda in speciili. 
+      Hi<lb ed="#P" n="135" break="no"/>cendum est quod hoc est &amp; ratione obiecti ad 
+      <!--14.xml-->
+      <pb ed="#P" n="14"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quod omnia habent attributiemnem no solunem 
+      <lb ed="#P" n="2"/>fiesiorali sicut ad ens commune rsed eciam in spn 
+      <lb ed="#P" n="3"/>ciali &amp; secundum pronrta sua: &amp; e inm ratione 
+      su<lb ed="#P" n="4" break="no"/>mnis quod est participatio iluminis Diuini: qum 
+      <lb ed="#P" n="5"/>quanto est altiua lumen tanto possuin in eo phum 
+      <lb ed="#P" n="6"/>per vnum vidert vel cognoser. 
+      </p>
+            <p xml:id="hx2hx3-a04083-d1e328">
+               <lb ed="#P" n="7"/>Ad primum ergo in oppositunp dicendum 
+      <lb ed="#P" n="8"/>quod Theologia considerat omnia 
+      secunidumv<lb ed="#P" n="9" break="no"/>nam primo &amp; per se raetionem; scilicet quem 
+      <lb ed="#P" n="10"/>salum: sseum secundum quod Deiis. prout fe 
+      <lb ed="#P" n="11"/>habet vt primum obiectum, alia autem secuut 
+      <lb ed="#P" n="12"/>dario.. En quantn dicitur quod Deus &amp; 
+      crem<lb ed="#P" n="13" break="no"/>tura non communioant in ratione. vna., nisi in 
+      <lb ed="#P" n="14"/>vna ratione, comminii Dicendum est quod non 
+      <lb ed="#P" n="15"/>dicitur Deus &amp; creatura hic considerari secunt 
+      <lb ed="#P" n="16"/>dum vnam rarionem: formalem pbiecti quae sit 
+      <lb ed="#P" n="17"/>vna ratio analoga vtriusque, sed quia vnnm ett 
+      <lb ed="#P" n="18"/>tatio considerandi alterum, sicut colom estoatm 
+      <lb ed="#P" n="19"/>videndi quantum. Dec sequitur quod creat 
+      <lb ed="#P" n="20"/>turae copnoseanur secundum ppoprias rationes 
+      <lb ed="#P" n="21"/>per quas differunt a Deo, quia comsiderare 
+      plu<lb ed="#P" n="22" break="no"/>ra secundum diuersas rationes dummodo non 
+      <lb ed="#P" n="23"/>sint primo &amp; per serrationes formales obiecti 
+      scren<lb ed="#P" n="24" break="no"/>tiae vel pocentie non plurificat potentiam vel 
+      scien<lb ed="#P" n="25" break="no"/>tiam: sicut visus cognoscit albedinem secundum 
+      <lb ed="#P" n="26"/>quod albedo &amp; nigredinem suniliter, sed nonsunt 
+      <lb ed="#P" n="27"/>primo, &amp; per se obiecta, sed secundo: &amp; per se. Et 
+      <lb ed="#P" n="28"/>sic est de Theologia respectu creaaurarum quas in 
+      <lb ed="#P" n="29"/>speciali considerat, distinguendo inter eas &amp; Duum, 
+      <lb ed="#P" n="30"/>quia eas sic considerat per se licet non primo sed 
+      <lb ed="#P" n="31"/>sacuridario. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

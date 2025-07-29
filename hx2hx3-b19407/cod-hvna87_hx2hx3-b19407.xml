@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="60"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b19407"><!-- l1d8q2 -->
+            <head xml:id="hx2hx3-b19407-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b19407-Hd1e101" type="question-title">Utrum soli deo conveniat esse omnino simplex</head>
+            <p xml:id="hx2hx3-b19407-d1e104">
+               <lb ed="#P" n="32"/>QVAESTIO SECVNDA. 
+      <lb ed="#P" n="33"/>Postea queritur de simplicitate ex 
+      imma<lb ed="#P" n="34" break="no"/>tabilitate Des; &amp; quaeritur,
+      <lb ed="#P" n="35"/>Vtrum soli Deo conueniat esse omnine 
+      <lb ed="#P" n="36"/>simpliciter.
+      </p>
+            <p xml:id="hx2hx3-b19407-d1e117">
+               <lb ed="#P" n="37"/>ET arguitur quod non, quia aliquid ei de 
+      no<lb ed="#P" n="38" break="no"/>Duo conuenit &amp; per consequens ei aliquid de 
+      <lb ed="#P" n="39"/>nouo aduenit ratione cuius est quid compositum, 
+      <lb ed="#P" n="40"/>preterea creature immateriales dicuntur simplices 
+      <lb ed="#P" n="41"/>non ergo solus Deus. 
+      </p>
+            <p xml:id="hx2hx3-b19407-d1e130">
+               <lb ed="#P" n="42"/>Respondeo dicendum quod Deus est per 
+      om<lb ed="#P" n="43" break="no"/>nia simplex carenis omni reali compositione. Quia 
+      <lb ed="#P" n="44"/>compositum aliquid dicitur dupliciter, vno modo 
+      <lb ed="#P" n="45"/>quia ex partibus compositum siue constitutum 
+      <lb ed="#P" n="46"/>sicut corpus, vel animal vel aliquid tale. 
+      </p>
+            <p xml:id="hx2hx3-b19407-d1e144">
+               <lb ed="#P" n="47"/>Alio modo dicitur aliquid compositum non ex 
+      <lb ed="#P" n="48"/>aliquibus, sed cum aliquo: neutro modo 
+      condse<lb ed="#P" n="49" break="no"/>nit Deo esse compositum: &amp; hoc potest ostendi ex 
+      <lb ed="#P" n="50"/>sua primitate in essendo: &amp; ex sua primitate in 
+      <lb ed="#P" n="51"/>causando, &amp; ex puritate suae actualitatis. Ex 
+      pri<lb ed="#P" n="52" break="no"/>mo, quia si Deus diceret aliquod compositum 
+      reali<lb ed="#P" n="53" break="no"/>ter ex quibuscunquos partibus, cum partes aliquo 
+      <lb ed="#P" n="54"/>modo sint priores toto: non esset primum, nec 
+      <lb ed="#P" n="55"/>etiam perfectissimum: quia dependere a 
+      par<lb ed="#P" n="56" break="no"/>tibus est imperfectionis. Non potest etiam 
+      di<lb ed="#P" n="57" break="no"/>ci quod dicat quid compositum cum alio sicut 
+      <lb ed="#P" n="58"/>forma substantialis est composita cum 
+      mate<lb ed="#P" n="59" break="no"/>ria, vel e conuerso: cum ista duo dependeant ex 
+      <lb ed="#P" n="60"/>inuicem: nihil autem dependens ab alio potest 
+      <lb ed="#P" n="61"/>esse principium: quia inquantum dependet ab 
+      <lb ed="#P" n="62"/>alio est posterius eo: quia aliquo modo materia 
+      <lb ed="#P" n="63"/>est prior forma &amp; e conuerso inquantum ex se 
+      de<lb ed="#P" n="64" break="no"/>penderet: &amp; ideo nulla pais compositi haberitis 
+      <lb ed="#P" n="65"/>necessario dependentiam in partibus potest esse 
+      <!--60.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>principium simpliciter, licet po ssit esse primnum in 
+      <lb ed="#P" n="67"/>genere puta in genere causae materialis vel 
+      forma<lb ed="#P" n="68" break="no"/>lis. Quod sit etiam substantia coniuncta accidenti 
+      <lb ed="#P" n="69"/>repugnat suae primitati, quia compositum ex 
+      sub<lb ed="#P" n="70" break="no"/>stantia &amp; accidente est aliquid nobilius quam 
+      al<lb ed="#P" n="71" break="no"/>terum, siue altera pars accipiatur pro substantia 
+      <lb ed="#P" n="72"/>siue pro accidente, quia substuntia habens aliquid 
+      <lb ed="#P" n="73"/>diuersum a se sibi formaliter inhaerens est limitatae 
+      <lb ed="#P" n="74"/>perfectionis: hoc autem repugnat principio; quia 
+      <lb ed="#P" n="75"/>ei competit omnimoda perfectio: &amp; ideo omnino 
+      <lb ed="#P" n="76"/>primum non potest esse substantia coniuncta 
+      ac<lb ed="#P" n="77" break="no"/>cidenti. Secundo idem apparet ex primitate suae 
+      <lb ed="#P" n="78"/>causalitatis, quia nullum compositum potest esse 
+      <lb ed="#P" n="79"/>prima causa cum opporteat omne compositum 
+      <lb ed="#P" n="80"/>reduci in aliquam causam quae sit causa eius, vel 
+      <lb ed="#P" n="81"/>quantum ad vtramque causam vel quantum ad 
+      al<lb ed="#P" n="82" break="no"/>teram vel saltem quantum ad vnionem earum: 
+      <lb ed="#P" n="83"/>nihilautem est causa sui ipsius, &amp; ideo oportet 
+      <lb ed="#P" n="84"/>omne compositum habere aliquam causam 
+      prio<lb ed="#P" n="85" break="no"/>rem ante se. Non potest etiam dici quod Deus 
+      <lb ed="#P" n="86"/>sit substautia quaedam simplex in se non habens 
+      <lb ed="#P" n="87"/>partes, sed composita cum aliquo accidente; sicut 
+      <lb ed="#P" n="88"/>si ponam substantiam angeli simplicem, 
+      composi<lb ed="#P" n="89" break="no"/>tam tamen cum aliquo accidente: quia si vera est 
+      <lb ed="#P" n="90"/>positio eorum, qui ponunt quod impossibile est 
+      <lb ed="#P" n="91"/>quod idem &amp; secundum idem per essentiam 
+      mo<lb ed="#P" n="92" break="no"/>ucat &amp; moueatur vel agat &amp; patiatur: si ponatur 
+      <lb ed="#P" n="93"/>Deus coniungi alicui accidenti: Deus non 
+      pote<lb ed="#P" n="94" break="no"/>rit esse causa efficiens illius accidentis &amp; sic non 
+      <lb ed="#P" n="95"/>erit prima causa omnium. Item quidquid sit in 
+      <lb ed="#P" n="96"/>aliis hoc non potest in principio: quia Philosophi 
+      <lb ed="#P" n="97"/>probant quod principium agens est agens per 
+      vo<lb ed="#P" n="98" break="no"/>luntatem: effectus autem agentis per voluntatem 
+      <lb ed="#P" n="99"/>praessupponit eius velle &amp; intelligere: impossibile 
+      <lb ed="#P" n="100"/>est autem aliquid posterius intelligere &amp; velle, &amp; 
+      <lb ed="#P" n="101"/>ab eis realiter differens inesse substantiae 
+      immate<lb ed="#P" n="102" break="no"/>riali cuieunque: &amp; i deo impossibile est Deo 
+      ali<lb ed="#P" n="103" break="no"/>quod accidens inesse. Si autem aliquis dicat Deum 
+      <lb ed="#P" n="104"/>esse substantiam cui aliquod accidens inest &amp; 
+      il<lb ed="#P" n="105" break="no"/>lud accidens non habere causam, istud est 
+      absur<lb ed="#P" n="106" break="no"/>dum, quia omne accidens saltem habet causam 
+      <lb ed="#P" n="107"/>subiectiuam in qua recipitur: cuicunque autem 
+      <lb ed="#P" n="108"/>conuenit habere causam subiectiuam, multo plus 
+      <lb ed="#P" n="109"/>ei conuenit habere aliquam causam efficientem, 
+      <lb ed="#P" n="110"/>lterum autem sequeretur quod Deus non esset 
+      <lb ed="#P" n="111"/>prima causa omnium, quod est inconueniens: quia 
+      <lb ed="#P" n="112"/>non esset causa illius quod ponitur aliud per 
+      essen<lb ed="#P" n="113" break="no"/>tiam ab eo quod Deum non esse causam omnium 
+      <lb ed="#P" n="114"/>sit inconueniens ostendetur in principio secundi. 
+      <lb ed="#P" n="115"/>Tertio hoc idem apparet ex eius summa 
+      actualita<lb ed="#P" n="116" break="no"/>te: quia cuicunque inest aliquid differens ab eo re 
+      <lb ed="#P" n="117"/>est aliquid potentiale: hoc repugnat summe &amp; 
+      pu<lb ed="#P" n="118" break="no"/>rae actualitati: idoo, &amp;c. Ex his etiam patet Deum 
+      <lb ed="#P" n="119"/>omnino esse immutabile sic quia nec est subiectum 
+      <lb ed="#P" n="120"/>mutationis nec potest esse illud secundum quod fit 
+      <lb ed="#P" n="121"/>mutatio, quia quidquid aliquo istorum modorum 
+      <lb ed="#P" n="122"/>mutatur vel est subiectum alicuius inhaerentis vel 
+      <lb ed="#P" n="123"/>est actus siue forma inhaerens alteri, sed ex dictis 
+      <lb ed="#P" n="124"/>patet quod neutrum istorum potest Deo 
+      conue<lb ed="#P" n="125" break="no"/>nire, ergo, &amp;c. Nec potest etiam mutari per 
+      <lb ed="#P" n="126"/>vertibilitatem in nihil, vel per fieri ex nihilo: 
+      <lb ed="#P" n="127"/>quia omne quod sic est mutabile, habet causam 
+      <lb ed="#P" n="128"/>ante se a qua non lolum in fieri: sed etiam in esse 
+      <lb ed="#P" n="129"/>dependet, cuius infsuentia substracta tale ens 
+      ce<lb ed="#P" n="130" break="no"/>deret in nihil; sed hoc repugnat primae causae, 
+      <lb ed="#P" n="131"/>&amp;c. omnis autem creatura aliquo praedictorum 
+      <lb ed="#P" n="132"/>modorum est mutabilis, quia omnis substantia, 
+      <lb ed="#P" n="133"/>quantumcunque completa est mutabilis, vel 
+      se<lb ed="#P" n="134" break="no"/>cundum formas accidentales sicut maniteste 
+      ap<lb ed="#P" n="135" break="no"/>paret in istis inferioribus: vel secundum locum, 
+      <!--61.xml-->
+      <pb ed="#P" n="61"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sicut apparet de corporibus caelestibus, vel 
+      secun<lb ed="#P" n="2" break="no"/>dum cognitionem &amp; electionem, siue ponantur 
+      <lb ed="#P" n="3"/>ista esse quaedam formae, svel aliquid aliud. 
+      Ma<lb ed="#P" n="4" break="no"/>teriaautem prima in istis murationibus est 
+      subie<lb ed="#P" n="5" break="no"/>ctum mutationis: etiam secundum substantiam 
+      <lb ed="#P" n="6"/>in istis inferioribus, non est aliqua forma 
+      secun<lb ed="#P" n="7" break="no"/>dum quam non sit mutatio: vel per se, sicut est 
+      in<lb ed="#P" n="8" break="no"/>illis in quibus per se est motus: vel ex consequen 
+      <lb ed="#P" n="9"/>ti, sicut in illis quae incipiunt vel desinunt esse ad 
+      <lb ed="#P" n="10"/>generationem &amp; corruptionem factam in aliis: 
+      <lb ed="#P" n="11"/>formae autem incorruptibilium sicut forma coeli 
+      <lb ed="#P" n="12"/>&amp; accidentia inseparabilia etsi non fiat motus 
+      <lb ed="#P" n="13"/>vel mutatio secundum eas, sunt tamen pars 
+      sub<lb ed="#P" n="14" break="no"/>iecti quod mouetur vel saltem quod coniungitur 
+      <lb ed="#P" n="15"/>motui in eodem subiecto: generaliter autem de 
+      <lb ed="#P" n="16"/>omni creatura verum est, quod est mutabilis 
+      se<lb ed="#P" n="17" break="no"/>cundum vertibilitatem in nihil, quia omnis 
+      crea<lb ed="#P" n="18" break="no"/>tura dependet ab aliqua causa alia a se &amp; in esse 
+      <lb ed="#P" n="19"/>&amp; in fieri quantum ad totum quod in ea est, 
+      cu<lb ed="#P" n="20" break="no"/>ius causae sublata infsuentia creatura cederet in 
+      <lb ed="#P" n="21"/>nihil. 
+      </p>
+            <p xml:id="hx2hx3-b19407-d1e396">
+               <lb ed="#P" n="22"/>Ad primum in oppositum principalis quaestio. 
+      <lb ed="#P" n="23"/>nis dicendum quod aliquid dicitur de Deo de 
+      no<lb ed="#P" n="24" break="no"/>uo non per mutationem factam in Deo nec per 
+      <lb ed="#P" n="25"/>aliquid ei per inhaerentiam acquisitum: sed per 
+      <lb ed="#P" n="26"/>mutationem factam in alio: dico autem per 
+      inhae<lb ed="#P" n="27" break="no"/>rentiam, quia Deus non potest habere aliquid de 
+      <lb ed="#P" n="28"/>nouo inhaerens, sed potest habere aliquid de nouo 
+      <lb ed="#P" n="29"/>sicut causa habet effectum. 
+      </p>
+            <p xml:id="hx2hx3-b19407-d1e416">
+               <lb ed="#P" n="30"/>Ad secundum dicendum quod licet possit 
+      inue<lb ed="#P" n="31" break="no"/>niri aliqua creatura quae non sit composita ex 
+      <lb ed="#P" n="32"/>aliquibus sicut sunt formae aliquae, saltem illae 
+      <lb ed="#P" n="33"/>quae non sunt quantae nec per se nec per 
+      acci<lb ed="#P" n="34" break="no"/>dens, quia tales non sunt compositae ex partibus 
+      <lb ed="#P" n="35"/>quantitatiuis: nec etiam ex materia &amp; forma, 
+      <lb ed="#P" n="36"/>quia hoc est cummune omni formae non 
+      compo<lb ed="#P" n="37" break="no"/>ni ex materia &amp; forma: nulla tamen creatura est 
+      <lb ed="#P" n="38"/>quae non sit composita ex aliquibus, vel composita 
+      <lb ed="#P" n="39"/>cum aliquo, siue sit creatura immaterialis, siue 
+      <lb ed="#P" n="40"/>alia: omnis autem creatura quantumcunque per 
+      <lb ed="#P" n="41"/>se accepta deficita simplicitate diuina, non solum 
+      <lb ed="#P" n="42"/>propter diuersa ex quibus vel cum quibus 
+      compo<lb ed="#P" n="43" break="no"/>fiitur, sed etiam propter suam potentialitatem: ita 
+      <lb ed="#P" n="44"/>quod ista minor simplicitas non est propter 
+      mino<lb ed="#P" n="45" break="no"/>rem pluralitatem realem, sed propter minus 
+      per<lb ed="#P" n="46" break="no"/>fectam entitatem, quae quidem entitas est 
+      funda<lb ed="#P" n="47" break="no"/>mentum vnitatis &amp; simplicitaris.
+    </p>
+            <p xml:id="hx2hx3-b19407-d1e458">
+               <lb ed="#P" n="48"/>Auod autem in natura diuinae nulla fit 
+      <lb ed="#P" n="49"/>accidentium diuersitas, nullatque 
+      pe<lb ed="#P" n="50" break="no"/>nitus mutabilitas sed perfecta 
+      <lb ed="#P" n="51"/>simplicitas, &amp;c.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

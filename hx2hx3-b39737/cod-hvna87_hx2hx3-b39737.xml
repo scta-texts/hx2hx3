@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 27</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 27</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="120"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b39737"><!-- l1d27q1 -->
+            <head xml:id="hx2hx3-b39737-Hd1e99">Quaestio 27</head>
+            <head xml:id="hx2hx3-b39737-Hd1e101" type="question-title">Utrum paternitas et spiratio activa sint duae res</head>
+            <p xml:id="hx2hx3-b39737-d1e104">
+               <lb ed="#P" n="92"/>flic quaeri potest, vtrum proprietates quas 
+      <lb ed="#P" n="93"/>Aailatius supra assignauit, scilices 
+      <lb ed="#P" n="94"/>quod sditer, &amp;c. 
+    </p>
+            <p xml:id="hx2hx3-b39737-d1e113">
+               <lb ed="#P" n="95"/>Distinctio vigesima septima. 
+      <lb ed="#P" n="96"/>QVAESTIO PRIMA 
+    </p>
+            <p xml:id="hx2hx3-b39737-d1e120">
+               <lb ed="#P" n="97"/>CIrca vigesimam septimam distinctionem. 
+    </p>
+            <p xml:id="hx2hx3-b39737-d1e126">
+               <lb ed="#P" n="98"/>Quaeritur vtrum paternitas &amp; spiratio 
+      acti<lb ed="#P" n="99" break="no"/>ua, sint duae res. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e133">
+               <lb ed="#P" n="100"/>Et arguitur quod sic. Quia plurificato 
+      inferio<lb ed="#P" n="101" break="no"/>ri. plurificatur superius. Sed res est superius ad 
+      <lb ed="#P" n="102"/>relationem realem. Ergo plures relationes reales 
+      <lb ed="#P" n="103"/>sunt plures res. Sed paternitas, &amp; spiratio actiua 
+      <lb ed="#P" n="104"/>sunt relationes reales. Ergo, &amp;c, 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e146">
+               <lb ed="#P" n="105"/>Praeterea, idem est ponere plures relationes 
+      rea<lb ed="#P" n="106" break="no"/>les, &amp; ponere plures res relatas. Sed paternitas &amp; 
+      <lb ed="#P" n="107"/>spiratio actiua sunt plures relationes reales. Ergo 
+      <lb ed="#P" n="108"/>sunt plures res relatae. Sed in diuinis non est 
+      plu<lb ed="#P" n="109" break="no"/>ralitas realis nisi rerum relatarum. Ergo 
+      loquen<lb ed="#P" n="110" break="no"/>do de tali pluralitate reali sicut potest esse in 
+      diui<lb ed="#P" n="111" break="no"/>nis: praedictae duo relationes sunt duac res. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e164">
+               <lb ed="#P" n="112"/>Contra, illa sunt vnum in diuinis inter quae 
+      op<lb ed="#P" n="113" break="no"/>positio relatiua non diftinguit. Sed praedictae duo 
+      <lb ed="#P" n="114"/>relationes non opponuntur relatiuae. Ergo, &amp;c. 
+      <lb ed="#P" n="115"/>Respondeo. Hic sunt declaranda duo 
+      principa<lb ed="#P" n="116" break="no"/>liter. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e177">
+               <lb ed="#P" n="117"/>Primo, videndum est vtrum illae duae 
+      relatio<lb ed="#P" n="118" break="no"/>nes sint una res. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e184">
+               <lb ed="#P" n="119"/>Secundo, videndum quomodo cum hoc ster 
+      <lb ed="#P" n="120"/>quod sint duae relationes. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e192">
+               <lb ed="#P" n="121"/>Quantum ad primum videtur quibusdam quod 
+      <lb ed="#P" n="122"/>sint duae res disparatae, ita quod sint alia, &amp; alia 
+      <lb ed="#P" n="123"/>res relata. Quorum motiua, sunt illa quae tacta sunt 
+      <lb ed="#P" n="124"/>in arguendo. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e203">
+               <lb ed="#P" n="125"/>Hoc autem non mihi videtur verum. Quia sicut 
+      <lb ed="#P" n="126"/>supra tactum est, cum de distinctione 
+      processio<lb ed="#P" n="127" break="no"/>num ageretur: in diuinis non possunt esse plures 
+      <lb ed="#P" n="128"/>res, ita quod vna realiter quantum ad illud quod 
+      <lb ed="#P" n="129"/>est, non sit alia, sed sunt distincta supposita. Quia 
+      <lb ed="#P" n="130"/>omne quod est in diuinis, est subsistens. Et ideo 
+      <lb ed="#P" n="131"/>illa quae sunt ibi distincta re, sunt distincta 
+      subsi<lb ed="#P" n="132" break="no"/>stentia realiter: &amp; per consequens distincta 
+      sup<lb ed="#P" n="133" break="no"/>polita. Alii autem tenentes quod praedictae 
+      rela<lb ed="#P" n="134" break="no"/>tiones non sunt duae res, sed vna: hoc declarant 
+      <lb ed="#P" n="135"/>sic. Quia vt dicunt relatio: habet quod sit res ab 
+      <!--121.xml-->
+      <pb ed="#P" n="121"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>bo in quo est, vel sicut in subiecto, vel sicut ine 
+      <lb ed="#P" n="2"/>fundamento secundum quod relatio esse habet a 
+      <lb ed="#P" n="3"/>termino. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e242">
+               <lb ed="#P" n="4"/>Quod autem sit relatio realis: habet ab vtro. 
+      <lb ed="#P" n="5"/>que quantum ad realitatem non potest ei dare 
+      <lb ed="#P" n="6"/>terminus: nisi supposita realitate, quam habet a 
+      <lb ed="#P" n="7"/>fundamento. Ex hoc sic arguitur. Manente 
+      iden<lb ed="#P" n="8" break="no"/>titare eius a quo relationes habent quod sint res, 
+      <lb ed="#P" n="9"/>manet identitas realis in relationibus quae sunt 
+      v<lb ed="#P" n="10" break="no"/>na res. Sed illud a quo paternitas &amp; communis 
+      <lb ed="#P" n="11"/>spiratio habent quod sint res, est idem re: quia 
+      ha<lb ed="#P" n="12" break="no"/>bent idem fundamentum, &amp; sunt in eodem 
+      sup<lb ed="#P" n="13" break="no"/>posito: &amp; ista sunt a quibus habent quod sintres. 
+      <lb ed="#P" n="14"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e268">
+               <lb ed="#P" n="15"/>Sed quicquid sit in creaturis, in diuinis hoc non 
+      <lb ed="#P" n="16"/>potest stare. Quia vnitas fundamenti non potest 
+      <lb ed="#P" n="17"/>dare relationibus vnitatem realem rei relate, 
+      alio<lb ed="#P" n="18" break="no"/>quin paternitas, &amp; filiatio essent vna res: cum 
+      ha<lb ed="#P" n="19" break="no"/>beant idem fundamentum numero. Nec etiam 
+      <lb ed="#P" n="20"/>vnitas suppositi, quia si vnitas suppositi daret 
+      vni<lb ed="#P" n="21" break="no"/>tatem realem relationibus existentibus in eodem h 
+      <lb ed="#P" n="22"/>supposito, sequeretur &amp; contrario, quod ad 
+      di<lb ed="#P" n="23" break="no"/>uersitatem suppositorum, esset diuersitas in 
+      rela<lb ed="#P" n="24" break="no"/>tionibus: hoc autem est falsumcum vna relatio 
+      nu<lb ed="#P" n="25" break="no"/>mero sit in duobus suppositis. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e294">
+               <lb ed="#P" n="26"/>Item, etiam in diuinis supposita magis habent 
+      <lb ed="#P" n="27"/>vnitatem &amp; distinctionem a proprietatibus 
+      rela<lb ed="#P" n="28" break="no"/>tiuis, quam &amp; contrario. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e303">
+               <lb ed="#P" n="29"/>Si dicatur quod communis spiratio est in Patre 
+      <lb ed="#P" n="30"/>&amp; Filio inquantum sunt vnum, &amp; ideo est vna res: 
+      <lb ed="#P" n="31"/>&amp; sic habet vnitatem a supposito. Non valet, quia 
+      <lb ed="#P" n="32"/>Pater, &amp; Filius non sunt vnum in supposito: &amp; 
+      <lb ed="#P" n="33"/>ideo, communis spiratio non potest habere 
+      vnita<lb ed="#P" n="34" break="no"/>tem ab eis: sicut ab vnico supposito. Vnitas autem 
+      <lb ed="#P" n="35"/>fundamenti vt dictum est, non sufficit ad dandam 
+      <lb ed="#P" n="36"/>vnitatem realem, relationibus in diuinis. Et ided 
+      <lb ed="#P" n="37"/>aliter dicendum est. Est autem hic opus duplici 
+      <lb ed="#P" n="38"/>distinctione. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e328">
+               <lb ed="#P" n="39"/>Prima est, quod in omni relatione importatur s 
+      <lb ed="#P" n="40"/>duplex realitas. Vna est quo est ipsa relatio, sic 
+      <lb ed="#P" n="41"/>realitas paternitatis, est illud quod sit in Patre 
+      si<lb ed="#P" n="42" break="no"/>cut in subiecto. Alia realitas qua importat relatio, 
+      <lb ed="#P" n="43"/>est realitas eius cuius est relatio ipsa vt termini ad 
+      <lb ed="#P" n="44"/>quem: sicut paternitas, importat filium vt 
+      termi<lb ed="#P" n="45" break="no"/>num ad quem. Vnde esse Patrem includit habere 
+      <lb ed="#P" n="46"/>filium. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e348">
+               <lb ed="#P" n="47"/>Secunda distinctio est, quando aliqua realia 
+      <lb ed="#P" n="48"/>dicuntur duo, vel duae res: realitas illa potest 
+      re<lb ed="#P" n="49" break="no"/>ferri vel ad illa quae dicuntur quaedam duo, vel ad 
+      <lb ed="#P" n="50"/>ipsam dualitatem. Sicut quando dico quod ista 
+      <lb ed="#P" n="51"/>duo, scilicet substantia &amp; relatio sunt realiter in 
+      di<lb ed="#P" n="52" break="no"/>uinis, potest referri realitas vel ad ipsa quae 
+      dicun<lb ed="#P" n="53" break="no"/>tur duo, vt sit sensus quod tam substantia quam 
+      <lb ed="#P" n="54"/>relatio sunt realiter indiuinis: &amp; hoc verum est. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e368">
+               <lb ed="#P" n="55"/>Vel potest referri ad istam dualitatem, vt sit 
+      sen<lb ed="#P" n="56" break="no"/>sus, quod dualitas substantiae &amp; resationis in diui 
+      <lb ed="#P" n="57"/>nis, sit pluralitas vel dualitas realis: &amp; hoc falsum 
+      <lb ed="#P" n="58"/>est. Quia in diuinis distinctio istorum inter se, 
+      <lb ed="#P" n="59"/>non est realis; sed secundum rationem. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e381">
+               <lb ed="#P" n="60"/>Quando ergo quaeritur vtrum paternitas &amp; 
+      <lb ed="#P" n="61"/>communis spiratio sint vna res. Si quaeratur 
+      quan<lb ed="#P" n="62" break="no"/>tum ad realitatem quae sunt ipse: dico quod sunt 
+      <lb ed="#P" n="63"/>vna res. Si autem quaeratur quantum ad realita. 
+      <lb ed="#P" n="64"/>tem quam important extrinsece vt termini ad 
+      <lb ed="#P" n="65"/>quem sunt ipsae;non debent dici vnum re sicut 
+      sta<lb ed="#P" n="66" break="no"/>tim exponetur. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e399">
+               <lb ed="#P" n="67"/>Ratio primi est ista, quaecumque sunt illa quae 
+      <lb ed="#P" n="68"/>conueniunt in aliquo, intantum sunt vnum inillo: 
+      <lb ed="#P" n="69"/>inquantum nondiuiduntur differentiis eius. 
+      Vn<lb ed="#P" n="70" break="no"/>de quia Socrates &amp; Plato, non diuiduntur disse¬ 
+      <!--121.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>rentiis quae diuidunt animal specifice; ideo sunt 
+      <lb ed="#P" n="72"/>vnum animal specie, non sicut homo &amp; equs. 
+      <lb ed="#P" n="73"/>Sed paternitas &amp; communis spiratio, conuentunt 
+      <lb ed="#P" n="74"/>in hoc quod est esse tem: nec distinguntur 
+      difte<lb ed="#P" n="75" break="no"/>rentiis quae faciunt differre realiter in diuinis. 
+      <lb ed="#P" n="76"/>Quia sola oppositio relatiua facit differre realiter 
+      <lb ed="#P" n="77"/>in diuinis. Ergo paternitas &amp; communis spirauo 
+      <lb ed="#P" n="78"/>sunt vna res, non solum secundum rationem, sed 
+      <lb ed="#P" n="79"/>etiam secundum rem in diuinis. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e434">
+               <lb ed="#P" n="80"/>Sed contra hanc rationem obiiciunt quidam, 
+      <lb ed="#P" n="81"/>&amp; dicunt quod quando dicitur quod aliqua in illo 
+      <lb ed="#P" n="82"/>sunt vnum cuius differentiis non distinguntur. 
+      <lb ed="#P" n="83"/>Intelligendum est de vno secundum rationem 
+      <lb ed="#P" n="84"/>non secundum rem sicut patet de exemplo quod 
+      <lb ed="#P" n="85"/>ponit Philolosophus in quarto Physicorum quod 
+      <lb ed="#P" n="86"/>scilicet vsocheles &amp; vsopleuros non sunt vnus, 
+      <lb ed="#P" n="87"/>triangulus, sed vna figura. Quia nondifferunt 
+      dif<lb ed="#P" n="88" break="no"/>ferentiis figurae, quibus constat quod sunt plures 
+      <lb ed="#P" n="89"/>figure secundum rem; licet sint vna figura secun. 
+      <lb ed="#P" n="90"/>dum rationem. Et ideo vt dicunt, praedicta ratio 
+      <lb ed="#P" n="91"/>non probat paternitatem &amp; communem 
+      spiratio<lb ed="#P" n="92" break="no"/>nem esse vnam rem realiter &amp; numero, sed 
+      pro<lb ed="#P" n="93" break="no"/>bat ipsas esse vnum secundum rationem. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e468">
+               <lb ed="#P" n="94"/>Sed ista instandia parum valet. Nam illud 
+      <lb ed="#P" n="95"/>principium quo dicitur, quod illa quae conueniunt 
+      <lb ed="#P" n="96"/>in aliquo, intantum sunt vnum in illo: inquantum 
+      <lb ed="#P" n="97"/>eius differentiis non distinguntur, vniuersaliter 
+      ve<lb ed="#P" n="98" break="no"/>ritatem habet, &amp; quantum ad vnum secundum 
+      <lb ed="#P" n="99"/>rationem, &amp; quantum ad vnum secundum rem, 
+      <lb ed="#P" n="100"/>pro vt sub illo principio communi possunt accipi 
+      <lb ed="#P" n="101"/>diuersae propositiones minores Nam si aliqua 
+      <lb ed="#P" n="102"/>sunt, quae non distinguuntur differenuis quae 
+      ali<lb ed="#P" n="103" break="no"/>quid diuidunt secundum rationem: erunt vnum in 
+      <lb ed="#P" n="104"/>illo secundum rationem. Si autem non 
+      distin<lb ed="#P" n="105" break="no"/>guantur differentiis quae nate sunt illud 
+      distingue<lb ed="#P" n="106" break="no"/>re secundum rem, erunt vnum in illo secundum 
+      <lb ed="#P" n="107"/>rem. Et ideo sunt vna res, &amp; vnum secundum 
+      <lb ed="#P" n="108"/>rem: quae non habent oppositionem relatiuam. 
+      <lb ed="#P" n="109"/>Et sic patet quod paternitas, &amp; communis 
+      spira<lb ed="#P" n="110" break="no"/>tio quantum ad illud quod includunt intrinsece, 
+      <lb ed="#P" n="111"/>&amp; quod sunt ipsae: sunt vna res. Quantum autem 
+      <lb ed="#P" n="112"/>ad realitatem quam important, vt termini ad 
+      <lb ed="#P" n="113"/>quem sunt ipse: licet non sint diuersae res: 
+      impor<lb ed="#P" n="114" break="no"/>tant tamen diuersas res: &amp; disferunt re importata. 
+      <lb ed="#P" n="115"/>Quia esse Patrem importat habere Filium: &amp; esse 
+      <lb ed="#P" n="116"/>spirantem, importat habere spiritum. Habere 
+      <lb ed="#P" n="117"/>autem Filium, &amp; habere spiritum, ex parte eius 
+      <lb ed="#P" n="118"/>quod habetur: est alia, &amp; alia res. Nam Spiritus, 
+      <lb ed="#P" n="119"/>&amp; Filius: sunt distincti realiter, &amp; de quorum 
+      di<lb ed="#P" n="120" break="no"/>stinctione dictum est supra. Ita quod ipsa 
+      habitu<lb ed="#P" n="121" break="no"/>do qua habentur ista, quantum ad illud quod est 
+      <lb ed="#P" n="122"/>intraneae, est vna res. Sed ex parte eius quod 
+      ha<lb ed="#P" n="123" break="no"/>betur vt terminus: important diuersas res. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e536">
+               <lb ed="#P" n="124"/>Quantum ad secundum, scilicet quomodo stet 
+      <lb ed="#P" n="125"/>cum hoc quod sunt vna quantum ad illud quod 
+      <lb ed="#P" n="126"/>sunt: quod sint duae relationes reales, omissis 
+      mul<lb ed="#P" n="127" break="no"/>tis quae dicuntur de hoc, Dicendum est quod 
+      <lb ed="#P" n="128"/>quando aliqua quae dicunt duo realia differunt. 
+      <lb ed="#P" n="129"/>realitas potest referri ad illa quae dicuntur duo, vel 
+      <lb ed="#P" n="130"/>ad eorum dualitatem, sicut si ditam quod 
+      substan<lb ed="#P" n="131" break="no"/>tia &amp; relatio, sunt duo realia in diuinis. Nel si 
+      di<lb ed="#P" n="132" break="no"/>cam quod ista duo sunt realiter in diuinis, si 
+      rea<lb ed="#P" n="133" break="no"/>litas refferatur ad ea quae duo dicuntur: vt sit 
+      sen<lb ed="#P" n="134" break="no"/>sus, quod vnumquodque istorum duorum sit 
+      rea<lb ed="#P" n="135" break="no"/>liter in diuinis: sic verum est quod ista duo, quae 
+      <lb ed="#P" n="136"/>sunt relatio, &amp; substantia: sunt realiter in 
+      diui<lb ed="#P" n="137" break="no"/>nis. Si autem realitas ad dualitatem refferatur, vt 
+      <lb ed="#P" n="138"/>sit sensus quod substantia &amp; relatio habet 
+      duali<lb ed="#P" n="139" break="no"/>tatem realem, siue realem distinctionem: tunc, 
+      <lb ed="#P" n="140"/>esset falsum dicere quod ista duo esseru realiter in 
+      <!--122.xml-->
+      <pb ed="#P" n="122"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>diuinis: vel quod essent duo realia sic intelligendo. 
+      <lb ed="#P" n="2"/>Sic etiam, quando dicitur quod paternitas &amp; 
+      spi<lb ed="#P" n="3" break="no"/>rario actiua dicuntur esse due relationes reales, si 
+      <lb ed="#P" n="4"/>realitas refferatur ad ipsas relationes quae dicuntur 
+      <lb ed="#P" n="5"/>duae, vt sit sensus quod paternitas &amp; spiratio 
+      acti<lb ed="#P" n="6" break="no"/>ua sunt duae relationes reales: quarum vnaquaeque 
+      <lb ed="#P" n="7"/>est aliquid reale &amp; ex istens realiter in diuinis, 
+      ve<lb ed="#P" n="8" break="no"/>rum est. Si autem realitas refferatur ad 
+      dualita<lb ed="#P" n="9" break="no"/>tem, vt sit sensus quod dualitas dictarum: sit 
+      dua<lb ed="#P" n="10" break="no"/>liras siue pluralitas secundum rem. Tunc 
+      loquen<lb ed="#P" n="11" break="no"/>do quantum ad dualitatem quae sunt ipsae, falsum 
+      <lb ed="#P" n="12"/>est quod secundum istum intellectum non possunt 
+      <lb ed="#P" n="13"/>diciduae relationes sic reales, id est quarum 
+      duali<lb ed="#P" n="14" break="no"/>tas, sit dualitas, secundum diuersas res quae sunt 
+      pa<lb ed="#P" n="15" break="no"/>ternitas &amp; filiatio. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e614">
+               <lb ed="#P" n="16"/>Si autem intelligatur ipsa dualitas esse realitas 
+      <lb ed="#P" n="17"/>quantum ad realitatem quam important, vt sit 
+      <lb ed="#P" n="18"/>sensus, quod iste relationes duas realitates realitei 
+      <lb ed="#P" n="19"/>distinctas important, scilicet terminos ad quos 
+      <lb ed="#P" n="20"/>sunt: tunc verum est. Et sic diuersimode potest 
+      <lb ed="#P" n="21"/>verificari de eis quod sint duae relationes reales, 
+      <lb ed="#P" n="22"/>licet sint vna res: quantum ad realitatem que sunt 
+      <lb ed="#P" n="23"/>ipse.
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e634">
+               <lb ed="#P" n="24"/>Ad primum in oppositum, dicunt quidam quod quia 
+      <lb ed="#P" n="25"/>in diuinis non est proprie superius &amp; inferius, illa 
+      <lb ed="#P" n="26"/>propositio maior non habet locum in diuinis. Sed 
+      <lb ed="#P" n="27"/>haec est vna fuga, quia si hoc sufficeret, tunc 
+      pos<lb ed="#P" n="28" break="no"/>set dici quod plures relationes distincte re, sicut 
+      <lb ed="#P" n="29"/>paternitas, &amp; filiatio: sunt vna proprietas quae est 
+      <lb ed="#P" n="30"/>quasi superius ad dictas relationes. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e652">
+               <lb ed="#P" n="31"/>Vnde sciendum est, quod in diuinis quaedam 
+      <lb ed="#P" n="32"/>sunt communia quae sunt vnum numero &amp; realiter 
+      <lb ed="#P" n="33"/>in omnibus; sicut sunt omnia absoluta, &amp; talia 
+      <lb ed="#P" n="34"/>plurificatis relationibus, realiter non 
+      plurifican<lb ed="#P" n="35" break="no"/>tur, sicut Deus, creator, &amp; similia. Quaedam 
+      aui<lb ed="#P" n="36" break="no"/>tem sunt ibi communia, quae etsi significent res, 
+      <lb ed="#P" n="37"/>tamen eorum communitas, siue vnitas: non est 
+      <lb ed="#P" n="38"/>vnitas realis, ita quod eadem numero sit in 
+      omni<lb ed="#P" n="39" break="no"/>bus: licut patet de relatione, &amp; proprietate, &amp; 
+      <lb ed="#P" n="40"/>persona, supposito vel hypostasi. Et in talibus 
+      <lb ed="#P" n="41"/>plurificato realiter inferiori, plurificatur superius: 
+      <lb ed="#P" n="42"/>etiam accipiendo in diuinis superius &amp; inferius 
+      <lb ed="#P" n="43"/>large Vnde plures relationes quae sunt plures res, 
+      <lb ed="#P" n="44"/>lunt plures proprietates: &amp; similiter, plures 
+      per<lb ed="#P" n="45" break="no"/>sonae sunt plures hvpostases. Et similiter de 
+      rela<lb ed="#P" n="46" break="no"/>tionibus: respectu huius quod dico res. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e689">
+               <lb ed="#P" n="47"/>Et ideo aliter est dicendum ad maiorem, quia 
+      <lb ed="#P" n="48"/>plurificato inferiori realiter; plurificatur superius 
+      <lb ed="#P" n="49"/>realiter quantum ad illam realitatem secundum 
+      <lb ed="#P" n="50"/>quam plurificatur inferius. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e701">
+               <lb ed="#P" n="51"/>Et quando dicitur vlterius, quod relatio realis 
+      <lb ed="#P" n="52"/>est inferius ad rem, conceditur. Et ideo etiam 
+      plu<lb ed="#P" n="53" break="no"/>rificata realiter relatione reali, oportet quod 
+      plu<lb ed="#P" n="54" break="no"/>rificetur res, quantum ad illam realitatem qua 
+      plu<lb ed="#P" n="55" break="no"/>rificatur relatio realis. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e714">
+               <lb ed="#P" n="56"/>Nunc autem paternitas &amp; communis spiratio 
+      <lb ed="#P" n="57"/>non plurificantur realiter quantum ad realitatem 
+      <lb ed="#P" n="58"/>quae sunt ipse: sed quantum ad realitatem quam 
+      <lb ed="#P" n="59"/>important Et ideo, non sequitur quod quantum 
+      <lb ed="#P" n="60"/>ad id quod sunt, sint plures res: sed secundum id 
+      <lb ed="#P" n="61"/>quod important sunt plures res.
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e730">
+               <lb ed="#P" n="62"/>Ad secundum dicendum, quod idem est 
+      po<lb ed="#P" n="63" break="no"/>nere plures relationes reales, &amp; plures res 
+      relati<lb ed="#P" n="64" break="no"/>uas: si realitas refferatur ad pluralitatem. Quia 
+      <lb ed="#P" n="65"/>ponere pluralitatem realem inter relationes 
+      rea<lb ed="#P" n="66" break="no"/>les: est ponere eas esse distinctas res relatas. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e743">
+               <lb ed="#P" n="67"/>Quando autem vlterius dicitur quod 
+      paterni<lb ed="#P" n="68" break="no"/>tas &amp; communis spiratio sunt plures relationes, si 
+      <lb ed="#P" n="69"/>realitas refferatur non ad pluralitatem, sed ad ea 
+      <lb ed="#P" n="70"/>quae dicuntur plura: vera est illa propositio: nec 
+      <!--122.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>sequitur quod sit plures res: vt patet ex dictis. Sed 
+      <lb ed="#P" n="72"/>si realitas refferatur ad pluralitatem. Minor est 
+      <lb ed="#P" n="73"/>falsa, quantum ad realita em quae sunt paternitas, 
+      <lb ed="#P" n="74"/>&amp; communis spiratio. Et ideo, non sequitur quod 
+      <lb ed="#P" n="75"/>quantum ad id quod sunt d fferentia, quod sint 
+      <lb ed="#P" n="76"/>realiter in re relata: sed quantum ad realitatem 
+      <lb ed="#P" n="77"/>quam important sic est vera. Et ex hoc sequitut 
+      <lb ed="#P" n="78"/>quod ea quae important vt terminos ad quos sint 
+      <lb ed="#P" n="79"/>plures res realiter distinctae: &amp; ex hoc sequitur 
+      <lb ed="#P" n="80"/>quo ea quae importat vt terminos ad quos siut 
+      plu<lb ed="#P" n="81" break="no"/>res res realiter distinctae, &amp; hoc concessum est. 
+      </p>
+            <p xml:id="hx2hx3-b39737-d1e782">
+               <lb ed="#P" n="82"/>De verbo quia multa diffuse tractaui, &amp; 
+      dispu<lb ed="#P" n="83" break="no"/>taui quae sunt scripta alibi, ad nunc dimitto hic. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

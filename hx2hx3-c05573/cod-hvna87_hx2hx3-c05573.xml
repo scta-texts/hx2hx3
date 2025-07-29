@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="313"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c05573"><!-- l4d1q5 -->
+            <head xml:id="hx2hx3-c05573-Hd1e99">Quaestio 5</head>
+            <head xml:id="hx2hx3-c05573-Hd1e101" type="question-title">De institutione circumcisionis, utrum fuerit convenienter instituta</head>
+            <p xml:id="hx2hx3-c05573-d1e104">
+               <lb ed="#P" n="100"/>De Circuncisione. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e109">
+               <lb ed="#P" n="101"/>Fuit autem, &amp; inter itla sacramentum 
+      <lb ed="#P" n="102"/>quoddam, scilicet, circuncisionir, idem 
+      con<lb ed="#P" n="103" break="no"/>ferenr remedium contra peccertum, quod 
+      <lb ed="#P" n="104"/>nunc baptismus, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e120">
+               <lb ed="#P" n="105"/>QVAESTIO QVINTA
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e126">
+               <lb ed="#P" n="106"/>Qvinto quaeritur de institutione 
+      circuncisio<lb ed="#P" n="107" break="no"/>nis. vtrum fuerit conuenienter instituta. Et 
+      <lb ed="#P" n="108"/>arguitur quod non: quia peccato originali non 
+      <lb ed="#P" n="109"/>debetur poena sensus, sed in circuncisione erat 
+      <lb ed="#P" n="110"/>peena sensus, cum esset ibi incisio viui, scilicet, 
+      <lb ed="#P" n="111"/>illius pelliculae: ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e142">
+               <lb ed="#P" n="112"/>Praeterea sacramenta debent dari per ministros, 
+      <lb ed="#P" n="113"/>institutos a Deo: sed antelegem Moysi non erant 
+      <lb ed="#P" n="114"/>aliqui ministti instituti a Deo: Ergo ante legem 
+      <lb ed="#P" n="115"/>non debuit dari circuncisio. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e153">
+               <lb ed="#P" n="116"/>Praeterea morbus communis debet habere 
+      re<lb ed="#P" n="117" break="no"/>medium commune: sed peccatum prigina, 
+      <lb ed="#P" n="118"/>le est morbus communis omni populo, &amp; omni 
+      <lb ed="#P" n="119"/>sexui. Ergo &amp; remedium debuit esse commune: 
+      <lb ed="#P" n="120"/>sed circuncisio non est remedium commune, quia 
+      <lb ed="#P" n="121"/>nec potest dari vtrique sexui, nec fuit data nisi 
+      po<lb ed="#P" n="122" break="no"/>pulo Israelitico: Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e171">
+               <lb ed="#P" n="123"/>Contra est quod dicitur in littera. 
+      <lb ed="#P" n="124"/>Respondeo. Circa istam quaestionem. 
+      <lb ed="#P" n="125"/>Primo praemittendae sunt quaedam 
+      suppositio<lb ed="#P" n="126" break="no"/>nes. 
+      <lb ed="#P" n="127"/>Secundo ponendae sunt conclusiones probandae.
+      </p>
+            <!-- article 1 -->
+            <p xml:id="hx2hx3-c05573-d1e186">
+               <lb ed="#P" n="128"/>Prima suppositio est quod circuncisio 
+      expres<lb ed="#P" n="129" break="no"/>siue significabat ablationem peccati originalis, &amp; 
+      <lb ed="#P" n="130"/>causam aufferentem, scilicet, passionem Christi. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e196">
+               <lb ed="#P" n="131"/>Secunda est quod circuncisio significat 
+      spiri<lb ed="#P" n="132" break="no"/>tualem fanctimoniam &amp; sanctitatem. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e203">
+               <lb ed="#P" n="133"/>Tertia est quod conueniens fuit dare tale 
+      si<lb ed="#P" n="134" break="no"/>gnum distinctiuum populiIsraclitiei ab aliis. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e210">
+               <lb ed="#P" n="135"/>Prima suppositio patet, &amp; ex membio in¬ 
+      <!--314.xml-->
+      <pb ed="#P" n="314"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quo fiebat circuncisio, &amp; ex figura ipsa quae est ex 
+      <lb ed="#P" n="2"/>circuncisione &amp; afflictione, &amp; sanguinis effusione 
+      <lb ed="#P" n="3"/>quaeest ibi. Quantum ad membrum, constat quod illud 
+      <lb ed="#P" n="4"/>membrum est per quod traducitur proles a 
+      paren<lb ed="#P" n="5" break="no"/>re, &amp; per consequems per quod traducitur peccatum 
+      <lb ed="#P" n="6"/>originale quod cum prole traducitur. Ablatio ergo 
+      <lb ed="#P" n="7"/>siue incisio superflui in illo membro, significat 
+      <lb ed="#P" n="8"/>ablationem culpae originalis, quae per membrum 
+      <lb ed="#P" n="9"/>illud traducitur. Ex figura etiam patet quae 
+      <lb ed="#P" n="10"/>erat circularis: quia processus peccati originalis 
+      <lb ed="#P" n="11"/>quodammodo fuit circularis, quia persona Adae 
+      <lb ed="#P" n="12"/>infecit naturam Adae quam habebat in se: &amp; 
+      na<lb ed="#P" n="13" break="no"/>tura infecta in eo infecit personam, scilicet, perso, 
+      <lb ed="#P" n="14"/>nas filiorum descedentium ab ea, inquantum 
+      na<lb ed="#P" n="15" break="no"/>tura vitiata erat principium propagandi eos: &amp; 
+      sic<lb ed="#P" n="16" break="no"/>fuit ibi quaedam circusatio, scslicer, in peccato, 
+      in<lb ed="#P" n="17" break="no"/>cipiendo a persona, &amp; terminando ad personam. 
+      <lb ed="#P" n="18"/>Vnde abscisio illa circularis figurabat ablationem 
+      <lb ed="#P" n="19"/>illius culpae quae sic processit circulariter In 
+      quan<lb ed="#P" n="20" break="no"/>tum autem erat afflictiua, significabat 
+      diminutio<lb ed="#P" n="21" break="no"/>nem fomitis siue concupiscentiae carnalis. 
+      Inquan<lb ed="#P" n="22" break="no"/>tum vero ibi sanguinis essusio fiebat: figurabat 
+      <lb ed="#P" n="23"/>passionem Christi in qua fuit sanguinis effusio, quae 
+      <lb ed="#P" n="24"/>fuit causa curans morbum nostrum. Et sic pater 
+      <lb ed="#P" n="25"/>prima suppositio. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e275">
+               <lb ed="#P" n="26"/>Secunda patet sic, quia illud quod est signum 
+      <lb ed="#P" n="27"/>refrigerii carnalis concupiscentiae, est signum 
+      spi<lb ed="#P" n="28" break="no"/>ritualis sanctimoniae &amp; castitatis, sed circuncisio 
+      <lb ed="#P" n="29"/>est huiusmodi, vt praedictum est. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e286">
+               <lb ed="#P" n="30"/>Tertia etiam patet, quia tempore illo fiebat 
+      <lb ed="#P" n="31"/>multiplicatio populi fidelis per propagationem 
+      <lb ed="#P" n="32"/>naturalem. Et imo conueniens fuit vt in membro 
+      <lb ed="#P" n="33"/>propagationis naturalis. haberet quoddam 
+      si<lb ed="#P" n="34" break="no"/>gnum distinctiuum. Et sic patet de 
+      suppositioni<lb ed="#P" n="35" break="no"/>bus. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e302">
+               <lb ed="#P" n="36"/>Quantum ad secundum, intendo probare 
+      qua<lb ed="#P" n="37" break="no"/>tuor quaestiones: quarum prima est quod conue. 
+      <lb ed="#P" n="38"/>niens fuit circuncisionem institui, quia secundum 
+      <lb ed="#P" n="39"/>quod fides magis, &amp; magis est explicita, &amp; 
+      se<lb ed="#P" n="40" break="no"/>cundum quod est maior necessitas habendi fidem 
+      <lb ed="#P" n="41"/>explicitam, conueniens fuit de nouo institui 
+      sa<lb ed="#P" n="42" break="no"/>cramenta ea, quae sunt fidei magis explicite 
+      pate<lb ed="#P" n="43" break="no"/>factiua. Sed circuncisio, ea que sunt fidei, de 
+      abla<lb ed="#P" n="44" break="no"/>tione peccati originalis, &amp; de redemptore, magis 
+      <lb ed="#P" n="45"/>explicite significit, quam illa sacramenta quae 
+      <lb ed="#P" n="46"/>erant in lege naturae, puta oblationes, &amp; 
+      decima<lb ed="#P" n="47" break="no"/>tiones &amp; similia. Ergo crescente fide, &amp; 
+      imminen<lb ed="#P" n="48" break="no"/>te necessitate explicandi magis ea quae sunt fidei, 
+      <lb ed="#P" n="49"/>conuentens fuit circuncisionem de nouo institui 
+      <lb ed="#P" n="50"/>post predicta sacramenta. Quod autem 
+      necessita<lb ed="#P" n="51" break="no"/>explicandi magis ea que sunt fidei fuit postea, scis 
+      <lb ed="#P" n="52"/>licet, post legem naturae, patebit in tertia 
+      conclu<lb ed="#P" n="53" break="no"/>sione. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e345">
+               <lb ed="#P" n="54"/>Secunda conclusio est quod ante legem debuit 
+      <lb ed="#P" n="55"/>dari: quia ad hoc quod aliqua lex detur alicui 
+      po<lb ed="#P" n="56" break="no"/>pulo specialiter opus illum populum distin 
+      <lb ed="#P" n="57"/>gui ab aliis. Sed lex Moy sasca debuit dari soli 
+      po<lb ed="#P" n="58" break="no"/>pulo Iudaeorum. Ergo ille populus debuit habere 
+      <lb ed="#P" n="59"/>signum distinctiuum ab aliis populis. Hoc autem 
+      <lb ed="#P" n="60"/>fuit circuncisio. Ergo circuncisio debuit dari ante 
+      <lb ed="#P" n="61"/>legem. Quod autem illa lex debuit dari soli 
+      popu<lb ed="#P" n="62" break="no"/>lo ludaeorum patebit in quarta quaestione, quia 
+      <lb ed="#P" n="63"/>alia patent ex dictis. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e369">
+               <lb ed="#P" n="64"/>Tertia conclusio, est quod debuit tempore 
+      <lb ed="#P" n="65"/>Abrahae institui. Quia sicut supra dictum, tunc est 
+      <lb ed="#P" n="66"/>tempus conueniens instituendi nouum 
+      sacramen<lb ed="#P" n="67" break="no"/>tum, ea quae sunt fidei magis explicite 
+      repraesen<lb ed="#P" n="68" break="no"/>tans, quando est malor necessitas explicandi eo 
+      <lb ed="#P" n="69"/>quae sunt fidei, &amp; quando sunt plures qui habent 
+      <lb ed="#P" n="70"/>fidem magis explicitam. Sed tempus Abrahae fuir 
+      <!--314.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>huiusmodi. Ergo, &amp;c Maior patet ex dictis Minor 
+      <lb ed="#P" n="72"/>declaratur, quia pie creditur quod Adam instruxit 
+      <lb ed="#P" n="73"/>suos posteros de cultu diuino, &amp; de his quae sunt 
+      <lb ed="#P" n="74"/>fidei, &amp; quandiu illa instructio durauit, non erat 
+      <lb ed="#P" n="75"/>necessitas magis explicandi ea quae sunt fidei. Sed 
+      <lb ed="#P" n="76"/>concupiscentia &amp; corruptione fomitis 
+      inualescen<lb ed="#P" n="77" break="no"/>te, illa instructio euanuit, &amp; homines ita 
+      obtene<lb ed="#P" n="78" break="no"/>brati sunt quantum adintellectum, quod quasi 
+      om<lb ed="#P" n="79" break="no"/>nis populus exceptis paucis non credebat aliquid 
+      <lb ed="#P" n="80"/>esse nisi corporalia: propter quod inciderunt in 
+      <lb ed="#P" n="81"/>idolatriam. Nec etiam quisquam delectationes 
+      <lb ed="#P" n="82"/>seu abusiones rerum sensibilium reputabat 
+      pec<lb ed="#P" n="83" break="no"/>cata. Et haec deordinatio maxime viguit tempore 
+      <lb ed="#P" n="84"/>Abrahae. Tunc etiam fuerunt plures qui 
+      habue<lb ed="#P" n="85" break="no"/>runt fidem magis explicitam quam primiores: 
+      si<lb ed="#P" n="86" break="no"/>cut fuit Abraham &amp; Patriarchae. Ex his potest 
+      <lb ed="#P" n="87"/>formari ratio ad probandum minorem praedictam: 
+      <lb ed="#P" n="88"/>quia tunc est maior necessitas explicandi quando 
+      <lb ed="#P" n="89"/>homo est magis corruptus secundum affectum, &amp; 
+      <lb ed="#P" n="90"/>obtenebratus secundum intellectum, &amp; secundum 
+      <lb ed="#P" n="91"/>abusionem diuersorum errorum. Sed hoc fuit in 
+      <lb ed="#P" n="92"/>tempore Abrahae vt dictum est. Ergo, &amp;c. Quod 
+      <lb ed="#P" n="93"/>autem tunc fuerint plures qui habuerint fidem 
+      <lb ed="#P" n="94"/>magis explicitam supponitur. Et ex his patet illud 
+      <lb ed="#P" n="95"/>quid fuit suppositum in prima, ratione, scilicet, 
+      <lb ed="#P" n="96"/>quod post legem fuit maior necessitas explicandi 
+      <lb ed="#P" n="97"/>ta quae sunt fidei quam ante: &amp; quid tunc aliqui 
+      <lb ed="#P" n="98"/>habuerunt magis fidem explicitam quam ante. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e452">
+               <lb ed="#P" n="99"/>Quarta conclusio, est quod soli populo 
+      tlu<lb ed="#P" n="100" break="no"/>daeorum debuit dari circuncisio: quia populus de 
+      <lb ed="#P" n="101"/>quo debebat nasei Christus debebat habere 
+      spe<lb ed="#P" n="102" break="no"/>cialem sanctitatem: prae omnibus aliis: &amp; per 
+      <lb ed="#P" n="103"/>consequenis debuit distingui ab aliis per aliqua 
+      <lb ed="#P" n="104"/>signa, castitatem, &amp; sanctitatem significantia: 
+      hu<lb ed="#P" n="105" break="no"/>iusmodi autem est circuncisio, &amp; alia caerimonialia 
+      <lb ed="#P" n="106"/>data in lege illi populo quae specialem 
+      sanctita<lb ed="#P" n="107" break="no"/>tem significabant debere esse ineo. Ergo illi soli 
+      <lb ed="#P" n="108"/>populo debuit rireuncisio dari &amp; lex. Et ex hoc 
+      <lb ed="#P" n="109"/>patet quoddam quod fuit suppositum in secunda 
+      <lb ed="#P" n="110"/>ratione, scilicet, quod soli populo Israclitico 
+      do<lb ed="#P" n="111" break="no"/>buit lex Moysi dari. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e483">
+               <lb ed="#P" n="112"/>Si autem quaeratur quare solis viris dabatur, &amp; 
+      <lb ed="#P" n="113"/>non mulieribus. Si dicatur quia mulier non potest 
+      <lb ed="#P" n="114"/>circuncidi, Non valet, quia non quaeritur vtrum 
+      <lb ed="#P" n="115"/>mulier possit circuncidi vel non: sed quaeritur 
+      qua<lb ed="#P" n="116" break="no"/>re placuit Deo instituere sacramentum, quod 
+      con<lb ed="#P" n="117" break="no"/>uenirer solis viris. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e499">
+               <lb ed="#P" n="118"/>Et ideo ad hoc dicendum quod duplex ratio 
+      <lb ed="#P" n="119"/>huius potest esse: Vna quia illud sacramentum 
+      <lb ed="#P" n="120"/>non solum dabatur in remedium, sed in si: 
+      <lb ed="#P" n="121"/>gnum ablationis peccati originalis: nullum autem, 
+      <lb ed="#P" n="122"/>signum vel sacramentum ita expresse hoc 
+      signifi<lb ed="#P" n="123" break="no"/>cat sicut circuncisio, excepto baptismo. Et ideo 
+      <lb ed="#P" n="124"/>conueniens fuit tale sacramentum instituere, 
+      da<lb ed="#P" n="125" break="no"/>to quod solum viris conueniret: &amp; mulieribus 
+      <lb ed="#P" n="126"/>prouideretur de aliquo remedio, scilicet, quod 
+      <lb ed="#P" n="127"/>saluarentur in fide parentum. Alia ratio ex parte 
+      <lb ed="#P" n="128"/>contractus peccati originalis, quia licet mulieres 
+      <lb ed="#P" n="129"/>contrahant peccatum originale: non tamen 
+      pro<lb ed="#P" n="130" break="no"/>les habet contrahere peccatum originale ex 
+      ma<lb ed="#P" n="131" break="no"/>tre, sed ex patre, iquia peccatum originale non 
+      <lb ed="#P" n="132"/>contrahitur nisi vt aliquid generatur ex semine 
+      vi<lb ed="#P" n="133" break="no"/>ri descendentis ab Adam: &amp; hoc habet respondendi 
+      <lb ed="#P" n="134"/>in secundo libro. Et ideo conueniens fuit dare 
+      re<lb ed="#P" n="135" break="no"/>medium contra peccatum originale specialiter 
+      <lb ed="#P" n="136"/>sexui virili. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e543">
+               <lb ed="#P" n="137"/>Si autem quaeratur vtrum conueniens fuerit 
+      <lb ed="#P" n="138"/>Christum cireuncidi. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e551">
+               <lb ed="#P" n="139"/>Dicendum quod sic. Quia sicut communiter 
+      <lb ed="#P" n="140"/>sicitur, licet debuit fieri, vt Christus nos ab one¬ 
+      <!--315.xml-->
+      <pb ed="#P" n="315"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>relegit liberaret Secundo, vtrudaei non 
+      habe<lb ed="#P" n="2" break="no"/>rent occasionem circa eum, videntes eum 
+      incir<lb ed="#P" n="3" break="no"/>cuncisum, per quod posset eis videri quod non 
+      <lb ed="#P" n="4"/>pertinent ad genus Abrahae. Tertio, quia non fuit 
+      <lb ed="#P" n="5"/>conueniens Christum soluere legem quousque 
+      <lb ed="#P" n="6"/>ostenderet se esse Deum per miracula: &amp; se 
+      habe<lb ed="#P" n="7" break="no"/>re auctoritatem mutandi legem, quod fuit 
+      rempo<lb ed="#P" n="8" break="no"/>re praedicationis suae, &amp; non in infantia: 
+      er<lb ed="#P" n="9" break="no"/>go, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e584">
+               <lb ed="#P" n="10"/>Ad primum ergo in oppositum dicendum quod 
+      <lb ed="#P" n="11"/>aliquod remedium potest esse generale dupliciter. 
+      <lb ed="#P" n="12"/>Vno modo per modum satis factionis: sicut illud 
+      <lb ed="#P" n="13"/>poenale quod imponitur in poenitentia. Alio modo 
+      <lb ed="#P" n="14"/>potest ali quod remedium esse poenale per 
+      acci<lb ed="#P" n="15" break="no"/>dens, ita quod non per modum satisfactionis: &amp; 
+      <lb ed="#P" n="16"/>sic circuncisio erat poenalis, quia illa poena non 
+      in<lb ed="#P" n="17" break="no"/>tendebatur vt satisfactio pro peccato paruuli, 
+      <lb ed="#P" n="18"/>sed erat coniuncta significationi passionis Christi. 
+      <lb ed="#P" n="19"/>Sicut etiam in baptismo non intenditur afflictio 
+      <lb ed="#P" n="20"/>quam puer patitur in aqua frigida, vt satis factio 
+      <lb ed="#P" n="21"/>pro culpa pueri: sed coniungitur per accidens 
+      re<lb ed="#P" n="22" break="no"/>presentationi ablutionis quae fit interius quam 
+      re<lb ed="#P" n="23" break="no"/>presentat aqua. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e617">
+               <lb ed="#P" n="24"/>Ad secundum dicendum quod aliud est de 
+      re<lb ed="#P" n="25" break="no"/>medio peccati originalis, &amp; de aliis sacramentis: 
+      <lb ed="#P" n="26"/>quia cum hoc sit maxime necessarium, non de 
+      ter<lb ed="#P" n="27" break="no"/>minat sibi aliquem ministrum sacrum: sed potest 
+      <lb ed="#P" n="28"/>dari ind fferenter a quocumque homine: &amp; in eo 
+      <lb ed="#P" n="29"/>non oportuit expectare institutionem 
+      ministro<lb ed="#P" n="30" break="no"/>rum sacrorum ad ministrandum illud 
+      sacramen<lb ed="#P" n="31" break="no"/>tum. 
+      </p>
+            <p xml:id="hx2hx3-c05573-d1e637">
+               <lb ed="#P" n="32"/>Ad tertium dicendum quod maior habet vir. 
+      <lb ed="#P" n="33"/>tutem de eo quod datur in remodium tantum: 
+      <lb ed="#P" n="34"/>circuncisio autem non solum datur in remedium, 
+      <lb ed="#P" n="35"/>sed etiam in signum, &amp; distinctionem illius 
+      popu<lb ed="#P" n="36" break="no"/>li: vt patet ex praedictis. Alij autem populi habe. 
+      <lb ed="#P" n="37"/>bant remedium legis naturae, scilicet, fidem 
+      pa<lb ed="#P" n="38" break="no"/>rentum. Quare autem non fuit commune 
+      mulieri<lb ed="#P" n="39" break="no"/>bus sicut viris, patet ex dictis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

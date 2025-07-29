@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="64"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b20927"><!-- l1d9q1 -->
+            <head xml:id="hx2hx3-b20927-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b20927-Hd1e101" type="question-title">Utrum pater sit alius a filio</head>
+            <p xml:id="hx2hx3-b20927-d1e104">
+               <lb ed="#P" n="124"/>Nunc ad distinctionem personarum 
+      acce<lb ed="#P" n="125" break="no"/>damus, teneamus ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e111">
+               <lb ed="#P" n="126"/>Distinctio nona. 
+      <lb ed="#P" n="127"/>QVAESTIO PRIMAA
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e118">
+               <lb ed="#P" n="128"/>CIrca distinctionem nonam quaeruntur duo, 
+      <lb ed="#P" n="129"/>Primum, est vtrum Pater sit alius a Filios 
+      <lb ed="#P" n="130"/>secundum est, de aeternitate amborum. 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e128">
+               <lb ed="#P" n="131"/>Ad primum sic: &amp; arguitur quod non, quia alius 
+      <lb ed="#P" n="132"/>est relatiuum diuersitatis in subltantia, o ed Td 
+      <!--65.xml-->
+      <pb ed="#P" n="65"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ter non est diuersus a Filio in fubstantia: ErgO, 
+      <lb ed="#P" n="2"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e146">
+               <lb ed="#P" n="3"/>Item alius &amp; aliud idem significant: sed Pater 
+      <lb ed="#P" n="4"/>non est aliud a Filio: Ergo nec alius. 
+      <lb ed="#P" n="5"/>Respondeo, quantum ad rem pertinet, ista quae 
+      <lb ed="#P" n="6"/>stio dubium non habet, quia constat Patrem esse 
+      <lb ed="#P" n="7"/>personaliter distinctum astilio &amp; esse idem cum eo 
+      <lb ed="#P" n="8"/>quantum ad essentiam, &amp; ideo omnes ista 
+      locu<lb ed="#P" n="9" break="no"/>tiones quae important Patrem esse distinctum a 
+      Fi<lb ed="#P" n="10" break="no"/>lio in esse personali, sunt verae: sed quae important 
+      <lb ed="#P" n="11"/>distinctionem in essentiae, sunt falsae. 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e168">
+               <lb ed="#P" n="12"/>Sciendum ergo quod illud relatiuum alius, 
+      <lb ed="#P" n="13"/>&amp; aliud potest teneri adiectiuc, vel substantiue, 
+      <lb ed="#P" n="14"/>faltem quantum ad Nv aliud, quicquid sit de 
+      a<lb ed="#P" n="15" break="no"/>liis. Si ergo teneatur adiectiue tantum: tunc 
+      <lb ed="#P" n="16"/>quando adiungitur terminis personalibus, 
+      in<lb ed="#P" n="17" break="no"/>respectu ad alias personas, est vera locutio: 
+      <lb ed="#P" n="18"/>vnde ista sunt verae pater est alius a Filio, &amp; 
+      <lb ed="#P" n="19"/>suppositum Patris, est aliud a supposito Filii &amp; 
+      <lb ed="#P" n="20"/>consimiles. Ita quod siue ponantur adiectiuum 
+      <lb ed="#P" n="21"/>&amp; substantiuum ex eadem parte, vt dicatur 
+      <lb ed="#P" n="22"/>ssc, Pater est alia persona a Filio: siue vnum 
+      <lb ed="#P" n="23"/>ponatur a parte praedicati, &amp; aliud a parte 
+      sub<lb ed="#P" n="24" break="no"/>iecti vt dicendo quod persona Patris est alia a 
+      per<lb ed="#P" n="25" break="no"/>sont Filii: semper sunr verae. 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e201">
+               <lb ed="#P" n="26"/>Si vero adiungatur terminis essentialibus, 
+      <lb ed="#P" n="27"/>tunc semper propositio est falsa, siue 
+      vtrum<lb ed="#P" n="28" break="no"/>que ponatur ex eadem parte, vt dicendo Pater 
+      <lb ed="#P" n="29"/>est alius Deus a Filio. Siue ponatur vnum 
+      di<lb ed="#P" n="30" break="no"/>cendo Deus est aliud a Patre vel Filio, etiam 
+      <lb ed="#P" n="31"/>sy adiungatur termino personali, in habitudine 
+      <lb ed="#P" n="32"/>ad aliquid essentiale: erit falsa, vnde ita est 
+      fal<lb ed="#P" n="33" break="no"/>sa, Pater est alius a Deo: &amp; de hoc dicunt 
+      <lb ed="#P" n="34"/>concorditer omnes. Si autem substantiuetur, 
+      <lb ed="#P" n="35"/>in hoc est diuersitas: quia quidam ponunt 
+      <lb ed="#P" n="36"/>quod si substantiuetur, tunc aliud dicit 
+      diuer<lb ed="#P" n="37" break="no"/>sitatem: siue distinctionem in essentia. Alius 
+      <lb ed="#P" n="38"/>autem dicit diuersitatem in persona, siue 
+      sup<lb ed="#P" n="39" break="no"/>posito. Sed alia proprietate; siue distinctione in 
+      <lb ed="#P" n="40"/>roptietate: Alii autem improbant hoc in 
+      duo<lb ed="#P" n="41" break="no"/>bus Primo quia vt dicunt, adiectiuum non 
+      <lb ed="#P" n="42"/>substantiuatur nisi in neutro genere. Secundo 
+      <lb ed="#P" n="43"/>quia non videtur quod adiectiuum habeat aliam 
+      <lb ed="#P" n="44"/>significationem in neutro, quam in masculino 
+      <lb ed="#P" n="45"/>vel in feminino: Et ideo non habetur quod 
+      a<lb ed="#P" n="46" break="no"/>lius dicat plus alietatem in persona, quam in 
+      <lb ed="#P" n="47"/>essentia: Et ideo dicunt quod alius &amp; alia, 
+      <lb ed="#P" n="48"/>semper adiectiue tenentur, &amp; dicunt alietatem 
+      <lb ed="#P" n="49"/>eius cui adiunguntur. Aliud autem quandoque 
+      <lb ed="#P" n="50"/>tenetur adiectiue &amp; tunc dicit alietatem eius 
+      <lb ed="#P" n="51"/>cui adiungitur: quandoquie vero substantiue, 
+      <lb ed="#P" n="52"/>&amp; tunc dicit alietatem in essentia: nam sub 
+      <lb ed="#P" n="53"/>stantiuum dicit illud quod simpliciter est: &amp; 
+      <lb ed="#P" n="54"/>ideo etiam aliud quando substantiuatur, dicit 
+      <lb ed="#P" n="55"/>alieratem simpliciter: alietas autem 
+      simplici<lb ed="#P" n="56" break="no"/>ter est alietas secundum essentiam: ideo, 
+      <lb ed="#P" n="57"/>&amp;c. Neutrum autem vt dicunt, magis habet 
+      <lb ed="#P" n="58"/>substantiuari, quam masculinum &amp; femininum: 
+      <lb ed="#P" n="59"/>quia sicut substantia dicit quid 
+      indetermina<lb ed="#P" n="60" break="no"/>tum, determinabile per diuersa accidentia: ita 
+      <lb ed="#P" n="61"/>etiam neutrum dicit quid indeterminatum. 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e282">
+               <lb ed="#P" n="62"/>Sed hoc non videtur plus valere quam 
+      pri<lb ed="#P" n="63" break="no"/>mum. Primo, quia non est multum euidens 
+      <lb ed="#P" n="64"/>quod adiectiuum non possit substantiuari ita 
+      <lb ed="#P" n="65"/>in masculino, vel feminino, sicut in neutro 
+      <lb ed="#P" n="66"/>quantum est de virtute locutionis: licet 
+      eom<lb ed="#P" n="67" break="no"/>munius consueuerit substantiuari in neutro: &amp; 
+      <lb ed="#P" n="68"/>quod dicitur quod imo: quia neutrum dicit 
+      <lb ed="#P" n="69"/>indeterminatum: Dicendum quod: verum est 
+      <!--65.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>quantum ad modum significandi, quia 
+      non<lb ed="#P" n="71" break="no"/>dicit determinatum sexum, vel genus 
+      deterrrn<lb ed="#P" n="72" break="no"/>nati sexus: sed quantum ad rem significatam, 
+      <lb ed="#P" n="73"/>ita dicit vnum quid determinatum sicut aliud: 
+      <lb ed="#P" n="74"/>Dignum enim quid determinatum dicit. 
+      In<lb ed="#P" n="75" break="no"/>determinatio autem, secundum modum 
+      sioni<lb ed="#P" n="76" break="no"/>ficandi, non videtur quod det alicui quod 
+      <lb ed="#P" n="77"/>debeat substantiuari: imo dat quod non 
+      sub<lb ed="#P" n="78" break="no"/>stantiuetur, quia quanto plus indeterminatum, 
+      <lb ed="#P" n="79"/>tanto plus habet madis rationem pradicati; &amp; 
+      <lb ed="#P" n="80"/>dependentis ad aliud: &amp; si aliquam habitu. 
+      <lb ed="#P" n="81"/>dinem habet ad hoc, hoc est lecundum 
+      quan<lb ed="#P" n="82" break="no"/>dam adaptationem, non ex virtute locutionis: 
+      <lb ed="#P" n="83"/>&amp; consimilis aciaptatio posset fieri in aliii 
+      pen<lb ed="#P" n="84" break="no"/>sando alias conditiones. Item quod Iv aliud 
+      <lb ed="#P" n="85"/>substantiuatum dicat alietatem in essentia de 
+      <lb ed="#P" n="86"/>virtute locutionis, non est multum euidens: 
+      <lb ed="#P" n="87"/>quia terminus substantiuus concretus magis 
+      <lb ed="#P" n="88"/>habet stare pro supposito quam nro essentia: 
+      <lb ed="#P" n="89"/>licet abstiactum magis haberet stare pro 
+      essen<lb ed="#P" n="90" break="no"/>tia, 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e352">
+               <lb ed="#P" n="91"/>Et quando dicitur quod iubstantiuum dicit 
+      <lb ed="#P" n="92"/>ens simpliciter, potest dici quod verum est quod 
+      <lb ed="#P" n="93"/>dicit ens simpliciter quod est suppositum, cui 
+      <lb ed="#P" n="94"/>proprie &amp; simpliciter conuenit esse, &amp; hoc 
+      <lb ed="#P" n="95"/>uando est terminus concretus sicut est in 
+      pro<lb ed="#P" n="96" break="no"/>prosito: quia aliud non dicit alietatem in ab. 
+      <lb ed="#P" n="97"/>stracto, sed dicit habens alietatem, siue 
+      acci<lb ed="#P" n="98" break="no"/>piatur substantiue, siue adiectiue. Dato ergo 
+      <lb ed="#P" n="99"/>quod nullum adiectiuum pesset substantiuari, 
+      <lb ed="#P" n="100"/>vel quod neutrum magis posset quam alia 
+      ge<lb ed="#P" n="101" break="no"/>nera, tamen secundum quandam 
+      accommoda<lb ed="#P" n="102" break="no"/>tionem vsus, nil prohibet quod aliuis &amp; alsa, 
+      <lb ed="#P" n="103"/>&amp; aliud substantiuentur: &amp; secundum 
+      quan<lb ed="#P" n="104" break="no"/>dam adaptationem aliud accipiatur pro 
+      alie<lb ed="#P" n="105" break="no"/>tate in essentia, alius vero pro persona, &amp; 
+      <lb ed="#P" n="106"/>alia proprietate: &amp; quantum ad prima duo 
+      <lb ed="#P" n="107"/>videntur sancti multum vti in loquendo de 
+      di<lb ed="#P" n="108" break="no"/>stinctione personarum, scilicet quod aliud 
+      di<lb ed="#P" n="109" break="no"/>cat diuersitatem in essentia; sed N alius in 
+      <lb ed="#P" n="110"/>persona: haec autem tria adaptantur his 
+      tri<lb ed="#P" n="111" break="no"/>bus scilicet essentiae, personae, &amp; proprietati, 
+      <lb ed="#P" n="112"/>quia essentia est indeterminata &amp; communis 
+      <lb ed="#P" n="113"/>tribus, sicut neutrum dicit genus 
+      indetermina<lb ed="#P" n="114" break="no"/>tum. Suppositum autem dicit quid deter 
+      mi<lb ed="#P" n="115" break="no"/>natum &amp; perfectum, &amp; ideo habet genus 
+      <lb ed="#P" n="116"/>masculinum quod est determinatum &amp; 
+      diitin<lb ed="#P" n="117" break="no"/>ctuni genus, &amp; pertinet ad perfectum sexum. 
+      <lb ed="#P" n="118"/>Proprietas autem, licet quantum ad rem sit 
+      <lb ed="#P" n="119"/>aeque perfecta sicut persona, tamen quantum 
+      <lb ed="#P" n="120"/>ad modum significandi significat vt imperfe 
+      <lb ed="#P" n="121"/>ctum, per modum scilicet formae: quia aliquid 
+      <lb ed="#P" n="122"/>est: &amp; non per modum eius quod perfecte to 
+      <lb ed="#P" n="123"/>tum compraehendit. 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e427">
+               <lb ed="#P" n="124"/>Quod autem dicunt alii quod solum 
+      neu<lb ed="#P" n="125" break="no"/>trum substantiuatur, potest dici, vel quod 
+      sim<lb ed="#P" n="126" break="no"/>pliciter est falsum: vel dato quod de virtu 
+      <lb ed="#P" n="127"/>te locutionis esset verum, tamen quod aliter 
+      <lb ed="#P" n="128"/>non possit esse per quandam adaptationem, 
+      <lb ed="#P" n="129"/>&amp; accommodationem vsus, nemo potest 
+      pro<lb ed="#P" n="130" break="no"/>bare. 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e445">
+               <lb ed="#P" n="131"/>Quando vlterius dicunt quod adiectiuum 
+      <lb ed="#P" n="132"/>in omni genere idem significat: dicendum 
+      <lb ed="#P" n="133"/>quod alius, alia, aliud, sie adiectine, 
+      si<lb ed="#P" n="134" break="no"/>ue substantiue sumantur, dicunt in generali 
+      <lb ed="#P" n="135"/>alieratem, nec stant quantum est de 
+      virtu<lb ed="#P" n="136" break="no"/>te locutionis pro determinata alietate, nisi 
+      <lb ed="#P" n="137"/>determinentur ex adiuncto. Sed quin per 
+      <lb ed="#P" n="138"/>quandam adaptationem possint adaptari in di¬ 
+      <!--66.xml-->
+      <pb ed="#P" n="66"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>uinis tribus praedictis alietatibus, non possunt 
+      pro<lb ed="#P" n="2" break="no"/>bare. 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e476">
+               <lb ed="#P" n="3"/>Quidam autem de quo mirandum est imponunt 
+      <lb ed="#P" n="4"/>sancto Thomae quod sine motiuo assignet aliud 
+      <lb ed="#P" n="5"/>pertinere ad essentiam, Iy alius ad personam, &amp; 
+      <lb ed="#P" n="6"/>ly alia ad proprietatem, cum tamen ipse expresse 
+      <lb ed="#P" n="7"/>ponat illam rationem quae posita est scilicet in 
+      <lb ed="#P" n="8"/>differentiam essentiae, quam illi impositores 
+      po<lb ed="#P" n="9" break="no"/>nunt esse causam quae mouit sanctos ad 
+      ponen<lb ed="#P" n="10" break="no"/>dum illam adaptationem: qua etiam adaptationem 
+      <lb ed="#P" n="11"/>frater T homas in suo primo mon videtur assere 
+      <lb ed="#P" n="12"/>re: Sed magis narrare: quantum vero ad 
+      praesen<lb ed="#P" n="13" break="no"/>tem questionem, haec est vera secundum 
+      quam<lb ed="#P" n="14" break="no"/>cunque positionem Pater est alius a filio. 
+      </p>
+            <p xml:id="hx2hx3-b20927-d1e505">
+               <lb ed="#P" n="15"/>Ad primum autem in oppositum dicendum, 
+      <lb ed="#P" n="16"/>quod alius ibi dicit diuersitatem vel magis 
+      distin<lb ed="#P" n="17" break="no"/>ctionem substantiae primae quae stat pro supposito: 
+      <lb ed="#P" n="18"/>non autem substatiae quae stat pro essentia. Ad se 
+      <lb ed="#P" n="19"/>cundum, quod diuersa genera non mutant 
+      signifi<lb ed="#P" n="20" break="no"/>catum de ly aliud vel alius; quia semper significat 
+      <lb ed="#P" n="21"/>alietatem, sed bene significatum determinant 
+      se<lb ed="#P" n="22" break="no"/>cundum diuersa adiuncta quando tenetur 
+      adiecti<lb ed="#P" n="23" break="no"/>ue, quando alius tenetur substantiue, tenetur 
+      <lb ed="#P" n="24"/>pro diuersis alietatibus: nisi forte ex virtute 
+      locu<lb ed="#P" n="25" break="no"/>tionis, sed ex quadam adaptatione &amp; 
+      accommo<lb ed="#P" n="26" break="no"/>datione vsus. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

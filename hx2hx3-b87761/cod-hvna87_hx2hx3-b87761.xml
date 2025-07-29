@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="260"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b87761"><!-- l2d24a1 -->
+            <head xml:id="hx2hx3-b87761-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b87761-Hd1e101" type="question-title">Utrum conscientia pertineat ad intellectum</head>
+            <p xml:id="hx2hx3-b87761-d1e104">
+               <lb ed="#P" n="32"/>Nunc diligenter inuestigari oportet quam 
+      <lb ed="#P" n="33"/>gratiam vel potentiam habuerit 
+      <lb ed="#P" n="34"/>homo, &amp;c. 
+    </p>
+            <p xml:id="hx2hx3-b87761-d1e113">
+               <lb ed="#P" n="35"/>Distinctio <sic>decima nona</sic>. 
+      <lb ed="#P" n="36"/>QVAESTIO PRIMA. 
+    </p>
+            <p xml:id="hx2hx3-b87761-d1e122">
+               <lb ed="#P" n="37"/>SVper <sic>decimam nonam</sic> distinctionem. 
+      Quae<lb ed="#P" n="38" break="no"/>ritur vtrum conscientia pertineat ad 
+      intelle<lb ed="#P" n="39" break="no"/>ctum. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e134">
+               <lb ed="#P" n="40"/>Et arguitur quod non. quia si conscientia 
+      per<lb ed="#P" n="41" break="no"/>tinet ad intellectum, conscientia pertineret ad 
+      co<lb ed="#P" n="42" break="no"/>gnitionem agendorum, &amp; per consequens ille qui 
+      <lb ed="#P" n="43"/>haberet maiorem cognitionem de agendis, 
+      habe<lb ed="#P" n="44" break="no"/>ret maiorem conscientiam: sed hoc est falsum. Cum 
+      <lb ed="#P" n="45"/>sint multi qui magnam notitiam habent de 
+      agen<lb ed="#P" n="46" break="no"/>dis: &amp; modicam conscientiam. Ergo, &amp;c. 
+      <lb ed="#P" n="47"/>Praeterea inquinari non pertinet ad intellectum, 
+      <lb ed="#P" n="48"/>sed ad voluntatem: sed amplius dicit quorumdam 
+      <lb ed="#P" n="49"/>conscientiam esse inquinatam. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e158">
+               <lb ed="#P" n="50"/>Contra. Conscientia est eiusdem cuius est 
+      scien<lb ed="#P" n="51" break="no"/>tia: sed scientia pertinet ad intellectum. Ergo, 
+      <lb ed="#P" n="52"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e167">
+               <lb ed="#P" n="53"/>Respondeo. Circa hoc est duplex opinio 
+      qui<lb ed="#P" n="54" break="no"/>dam dicunt quod synderesis, &amp; conscientia 
+      per<lb ed="#P" n="55" break="no"/>tinent ad voluntatem. Ita quod synderesis est 
+      <lb ed="#P" n="56"/>motor voluntatis ad bonum in vniuer sali: sicut 
+      <lb ed="#P" n="57"/>quod velit absolute honestum, vel bonum in 
+      vniuer<lb ed="#P" n="58" break="no"/>sali: sed conscientia est motor voluntatis ad 
+      volen<lb ed="#P" n="59" break="no"/>dum aliquod bonum agere in particulari, do quo 
+      <lb ed="#P" n="60"/>fit deliberatio. Et dicunt quod motor qui est 
+      con<lb ed="#P" n="61" break="no"/>scientia, sequitur semper iudicium rationis: siue 
+      <lb ed="#P" n="62"/>rectae, siue errantis. vlterius dicunt quia 
+      volun<lb ed="#P" n="63" break="no"/>tas quae est realiter conscientia, potest agere &amp; 
+      se<lb ed="#P" n="64" break="no"/>cundum iudicium rationis: &amp; contra iudicium 
+      ra<lb ed="#P" n="65" break="no"/>Ve mrae vet eoe effiuis potest hbere modi¬ 
+      <!--260.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>cam conscientiam: &amp; magnam notitiam agendo. 
+      <lb ed="#P" n="67"/>rum. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e206">
+               <lb ed="#P" n="68"/>Ista positio videtur improbabilis: &amp; 
+      implica<lb ed="#P" n="69" break="no"/>re contradictoria. Improbabilis quidem. Quia 
+      <lb ed="#P" n="70"/>ponere quod in eadem essentia simplici, sint 
+      diuer<lb ed="#P" n="71" break="no"/>si motores immediate mouentes, directe &amp; per se 
+      <lb ed="#P" n="72"/>ad opposita: videtur non esse probabile. Sed hoc 
+      <lb ed="#P" n="73"/>sequitur ad dictam positionem Ergo, &amp;c. 
+      Pro<lb ed="#P" n="74" break="no"/>batio minoris. Quia secundum eos motor qui est 
+      <lb ed="#P" n="75"/>conseientia, semper sequitur iudicium rationis. 
+      <lb ed="#P" n="76"/>Sed secundum eos voluntas mouet se directe 
+      con<lb ed="#P" n="77" break="no"/>tra rationis iudicium. Ergo secundum eos, in 
+      essen<lb ed="#P" n="78" break="no"/>tia simplici voluntatis, sunt duo motores contra se 
+      <lb ed="#P" n="79"/>inuicem directe mouentes. quia ille motor qui 
+      <lb ed="#P" n="80"/>mouet contra iudicium rationis quod semper 
+      se<lb ed="#P" n="81" break="no"/>quitur conscientia, mouet directe contra 
+      conscien<lb ed="#P" n="82" break="no"/>tiam: imo sequitur quod isti duo motores contra 
+      <lb ed="#P" n="83"/>se inuicem mouentes: sunt vna simplex essentia 
+      <lb ed="#P" n="84"/>voluntatis. Cum secundum eos nihil mouaat 
+      vo<lb ed="#P" n="85" break="no"/>luntatem nisi ipsa seipsam. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e248">
+               <lb ed="#P" n="86"/>Quod autem implicet contradictoria. Probo. 
+      <lb ed="#P" n="87"/>quia dicunt quod non oportet esse maiorem 
+      con<lb ed="#P" n="88" break="no"/>scientiam, vbi est maior notitia agendorum. Aliud 
+      <lb ed="#P" n="89"/>autem dictum scilicet quod motor quae est 
+      con<lb ed="#P" n="90" break="no"/>scientia, semper sequitur iudicium rationis: 
+      inclu<lb ed="#P" n="91" break="no"/>dit contradictionem huius. Quia illud quod 
+      sem<lb ed="#P" n="92" break="no"/>per &amp; de necessitate sequitur iudicium rationis, 
+      <lb ed="#P" n="93"/>est maius vbi est maius iudicium rationis. Sed vt 
+      <lb ed="#P" n="94"/>dictum est, secundum eos conscientia semper 
+      se<lb ed="#P" n="95" break="no"/>quitur iudicium rationis, siue recte: siue errantis. 
+      <lb ed="#P" n="96"/>Ergo vbi est maius iudicium &amp; cognitio de 
+      agen<lb ed="#P" n="97" break="no"/>dis est maior conscientia. Et contradicit alii dicto 
+      <lb ed="#P" n="98"/>immediate, scilicet quod non oportet esse 
+      maio<lb ed="#P" n="99" break="no"/>rem conscientiam: vbi est maior notitia 
+      agendo<lb ed="#P" n="100" break="no"/>rum. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e283">
+               <lb ed="#P" n="101"/>Si dicatur quod conscientia non dicitur sequi 
+      <lb ed="#P" n="102"/>iudicium rationis propter hoc quod moueat 
+      se<lb ed="#P" n="103" break="no"/>cundum quod ratio dictat. Sed quia non mouet, 
+      <lb ed="#P" n="104"/>nisi prius habita cognitione rationis, qua habita: 
+      <lb ed="#P" n="105"/>potest mouere pro ratione &amp; contra rationem. 
+      <lb ed="#P" n="106"/>Hioc nihil est. Quia sic sequi rationem, id est, non 
+      <lb ed="#P" n="107"/>mouere nisi praesupposita cognitione rationis, est 
+      <lb ed="#P" n="108"/>commune omni motori voluntatis, vel voluntati 
+      <lb ed="#P" n="109"/>secundum rationem cuiusque motionis. Si 
+      pona<lb ed="#P" n="110" break="no"/>tur quod voluntas moueat se, vt ipsi ponunt, &amp; 
+      <lb ed="#P" n="111"/>sic sequi iudicium rationis: non esset proprium 
+      <lb ed="#P" n="112"/>huius motoris qui est conscientia, cuius 
+      opposi<lb ed="#P" n="113" break="no"/>tum volunt, scilicet quod conscientia est motor vo. 
+      <lb ed="#P" n="114"/>luntatis: qui in hoc differt ab aliis motoribus, quod 
+      <lb ed="#P" n="115"/>semper sequitur iudicium rationis: vel rectae, vel 
+      <lb ed="#P" n="116"/>errantis. quod autem falsum teneat in 
+      eonclusio<lb ed="#P" n="117" break="no"/>ne, scilicet quod conscientia non pertineat ad 
+      in<lb ed="#P" n="118" break="no"/>tellectum: sed ad voluntatem. Probabitur 
+      pro<lb ed="#P" n="119" break="no"/>bando opinionem aliam. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e328">
+               <lb ed="#P" n="120"/>Est igitur alia opinio, quod conscientia 
+      perti<lb ed="#P" n="121" break="no"/>net ad intellectum: &amp; dicit quendam actum 
+      intel<lb ed="#P" n="122" break="no"/>lectus. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e337">
+               <lb ed="#P" n="123"/>Ad cuius euidentiam, sciendum quod 
+      secun<lb ed="#P" n="124" break="no"/>dum istam opinionem secundam: synderefis dicit 
+      <lb ed="#P" n="125"/>Pabitum primorum principierum in agibilibus, sicut 
+      <lb ed="#P" n="126"/>intellectua dicit habitum primorum principiorum in 
+      <lb ed="#P" n="127"/>speculabilibus: siue iste habitus sit habilitas 
+      poten<lb ed="#P" n="128" break="no"/>tiae ad prima intelligibilia, siue sit aliquid 
+      super<lb ed="#P" n="129" break="no"/>additum potentiae, de quo ad nunc, non 
+      intromit<lb ed="#P" n="130" break="no"/>to me. Ita quod sicur intellectus est quo statim 
+      qui<lb ed="#P" n="131" break="no"/>libet iudicataliquid esse vel non esse: vel omne 
+      to<lb ed="#P" n="132" break="no"/>tum esse maius sua parte. Ita synderesis est 
+      habi<lb ed="#P" n="133" break="no"/>tus quo quilibet iudicat quod honestum absolute 
+      <lb ed="#P" n="134"/>acceptum est bonum, vel quod iustum est bonum, 
+      <lb ed="#P" n="135"/>vel aliquid tale: Sed inparttieulan iustumhoe vel 
+      <!--261.xml-->
+      <pb ed="#P" n="261"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>honestum hoc quod est tristabile, sit bonuminon 
+      <lb ed="#P" n="2"/>pertinet ad synderesim directe nisi pro tanto 
+      <lb ed="#P" n="3"/>quod ex principio noto per synderesim, hoc 
+      po<lb ed="#P" n="4" break="no"/>test syllogistice concludi. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e383">
+               <lb ed="#P" n="5"/>Conscientia autem non dicit habitum: sed 
+      <lb ed="#P" n="6"/>magis dicit applicationem principiorum quae 
+      ac<lb ed="#P" n="7" break="no"/>cipiuntur secundum synderesim, vel legem 
+      diui<lb ed="#P" n="8" break="no"/>nam, ad particulare agibile coneludendum. vt 
+      <lb ed="#P" n="9"/>si dicatur sic, obediendum est Deo. Sed Deus hoc 
+      <lb ed="#P" n="10"/>praecipit. Ergo hoc est faciendum, puta dicere 
+      <lb ed="#P" n="11"/>horaias, vel aliquid tale. Sic ergo talis applicato 
+      <lb ed="#P" n="12"/>rationis concluendo de aliquo particulari agibili 
+      <lb ed="#P" n="13"/>quod sit faciendum. Vel etiam exanimatio qua 
+      <lb ed="#P" n="14"/>examinatur vtrum sit factum iuste, vel noniuste 
+      <lb ed="#P" n="15"/>factum, vocatur conscientia. Et hoc est quedam 
+      <lb ed="#P" n="16"/>actualis applicatio. Et ideo censetentia dicit talem 
+      <lb ed="#P" n="17"/>actum intellectus sic applicantus: 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e414">
+               <lb ed="#P" n="18"/>Quod autem conscientia pertineat ad 
+      intelle<lb ed="#P" n="19" break="no"/>ctum. Probo per vnam rationem Nam 
+      conscien<lb ed="#P" n="20" break="no"/>tia dicitur illud quod hominem in conspectu Dei 
+      <lb ed="#P" n="21"/>accusat, vel excusat: &amp; quod in conspectu Dei 
+      <lb ed="#P" n="22"/>testificatur. Sed accusare, &amp; testificari, pertinet 
+      <lb ed="#P" n="23"/>ad intellectum. Ergo, &amp;c. Maior patet ex 
+      com<lb ed="#P" n="24" break="no"/>muni vsu loquendi. Minorem probo. quia 
+      testi<lb ed="#P" n="25" break="no"/>ficari est quoddam dicere: nam tostificari, est 
+      di<lb ed="#P" n="26" break="no"/>cere veritatem de aliquo quod quaeritur: &amp; 
+      simi<lb ed="#P" n="27" break="no"/>liter accusare, est culpam suam: vel alterius 
+      dice<lb ed="#P" n="28" break="no"/>re. Ergo, &amp;c. Nec potest dici quod conscientia 
+      <lb ed="#P" n="29"/>dicatur testificari per modum quo factum ipsum 
+      <lb ed="#P" n="30"/>quando est euidens, dicitur testificari. Nam 
+      apo<lb ed="#P" n="31" break="no"/>stolus attribuit accusationem, &amp; testimonium, 
+      <lb ed="#P" n="32"/>conscientiae, cogitationibus defendentibus, &amp; 
+      ac<lb ed="#P" n="33" break="no"/>cusantibus. Constat autem quod cogitatio non 
+      <lb ed="#P" n="34"/>testeficatur: nisi sicut actus dicondi interior, 
+      di<lb ed="#P" n="35" break="no"/>citur testificari. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e456">
+               <lb ed="#P" n="36"/>Ex his etiam apparet quod conscientia non est 
+      <lb ed="#P" n="37"/>potentia, vel habitus, vel iudicium commune 
+      <lb ed="#P" n="38"/>de primis principiis agibilium, sed magis talis 
+      ap<lb ed="#P" n="39" break="no"/>plicatio ad aliquid in speciali inquirendum: vel 
+      <lb ed="#P" n="40"/>an sit factum, vel an sit bene, vel male factum, 
+      <lb ed="#P" n="41"/>velan teneatur quis illud facere, vel dimittero. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e472">
+               <lb ed="#P" n="42"/>Nam testificari, est dicere veritatem de aliquo, 
+      <lb ed="#P" n="43"/>artsit sactum, vel non. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e480">
+               <lb ed="#P" n="44"/>Accusare autem. Est dicere culpam. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e485">
+               <lb ed="#P" n="45"/>Remordere autem. Est aliquod maleficium, 
+      <lb ed="#P" n="46"/>vnde quis turbatur proponere. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e492">
+               <lb ed="#P" n="47"/>Obligare autem, est perpendere se teneri ad 
+      <lb ed="#P" n="48"/>aliquid faciendum. Talia autem sunt actus 
+      intel<lb ed="#P" n="49" break="no"/>lectus: nam tales actus quantum ad accusare, 
+      re<lb ed="#P" n="50" break="no"/>modere, obligare, &amp; consimilia, non possunt esse, 
+      <lb ed="#P" n="51"/>nisi fiat applicatio regularis iuris, vel naturalis, vel 
+      <lb ed="#P" n="52"/>diuini, vel vtriusque: ad illud de quo habetur 
+      <lb ed="#P" n="53"/>cunscientia. Ex qua applicatione, appareat, vtrum 
+      <lb ed="#P" n="54"/>illud de quo habetur conscientia, sit malum vel 
+      <lb ed="#P" n="55"/>bonum: obliget, vel non obliget. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e514">
+               <lb ed="#P" n="56"/>Et ideo conscientia est talis actus in quo sic 
+      ta<lb ed="#P" n="57" break="no"/>lia principia applicantur ad particulare agibile. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e521">
+               <lb ed="#P" n="58"/>Ex his etiam apparent rationes eorum quae 
+      di<lb ed="#P" n="59" break="no"/>cuntur de conscientia. Nam conscientia dicitur 
+      te<lb ed="#P" n="60" break="no"/>stificari, inquantum innotescit per eam aliquid 
+      <lb ed="#P" n="61"/>esse factum. Dicitur autem accusare &amp; 
+      remode<lb ed="#P" n="62" break="no"/>re, vel accusare, inquantum innot escit illud quod 
+      <lb ed="#P" n="63"/>factum est, esse bene vel male factum. Dicitur 
+      <lb ed="#P" n="64"/>autem respectu futuri obligare, vel instigare, 
+      in<lb ed="#P" n="65" break="no"/>quantum per eam innotescit hominem esse 
+      obli<lb ed="#P" n="66" break="no"/>gatum ad aliquid fadiendum: &amp; inquantum hoc 
+      <lb ed="#P" n="67"/>noto imperatur illud fieri. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e545">
+               <lb ed="#P" n="68"/>Ad primum ergo in oppositum, dicendum, 
+      <lb ed="#P" n="69"/>quod cognitio agendorum multiplex est, scilicet 
+      <lb ed="#P" n="70"/>habitualis, &amp; actualis. Adtualis potest esse spe¬ 
+      <!--261.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>culatiua, puta cum quis scit syllogistice ex 
+      prin<lb ed="#P" n="72" break="no"/>cipiis notis, quid sit faciendum, non intendens 
+      <lb ed="#P" n="73"/>quicquam facere. Et practica, cum quis habet 
+      <lb ed="#P" n="74"/>iudicium quod statim est faciendum hoc vel 
+      il<lb ed="#P" n="75" break="no"/>lud. vbi ergo est maior notitia agendi actualis, 
+      <lb ed="#P" n="76"/>&amp; practica, qua iudicat quis omnino sibi aliquid 
+      <lb ed="#P" n="77"/>faciendum: ibi est maior conscientia Er hoc 
+      be<lb ed="#P" n="78" break="no"/>ne supponit aliquam dispositionem in appetitu, 
+      <lb ed="#P" n="79"/>sicut &amp; prudentia quae pertinet ad intellectum. 
+      </p>
+            <p xml:id="hx2hx3-b87761-d1e579">
+               <lb ed="#P" n="80"/>Ad secundum dicendum, quod conscientia 
+      <lb ed="#P" n="81"/>dicitur inquinata, nom sicut subiectum inquinationu: 
+      <lb ed="#P" n="82"/>quasi inquinatio sit in conscientia sicut in 
+      subie<lb ed="#P" n="83" break="no"/>cto. Sed est in conscientia sicut cognitum 
+      inco<lb ed="#P" n="84" break="no"/>gnoseente: sicut si aspectus alicuius inspicientis 
+      <lb ed="#P" n="85"/>turpia, diceretur turpis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

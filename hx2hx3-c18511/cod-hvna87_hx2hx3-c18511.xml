@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="351"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c18511"><!-- l4d11q1 -->
+            <head xml:id="hx2hx3-c18511-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-c18511-Hd1e101" type="question-title">Utrum conversio substantiae panis in corpus christi sit possibilis</head>
+            <p xml:id="hx2hx3-c18511-d1e104">
+      <!--351.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>De modo conuersionis. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e113">
+               <lb ed="#P" n="67"/>Siaxtmm queritur quala sit ista conutrsia, 
+      <lb ed="#P" n="68"/>an formatur, an sub stantialis vel aste. 
+      <lb ed="#P" n="69"/>riue generu: diffinire non sufficio, 
+      for<lb ed="#P" n="70" break="no"/>malem tamen non esse cogno sco, quia 
+      <lb ed="#P" n="71"/>Ppecier rerum quae ante fuerant 
+      remas<lb ed="#P" n="72" break="no"/>nent, &amp; saper &amp; pondus, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e129">
+               <lb ed="#P" n="73"/>Distinctio vndecima. 
+      <lb ed="#P" n="74"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e137">
+               <lb ed="#P" n="75"/>Circa vndecimam distinctionem. Queritur 
+      <lb ed="#P" n="76"/>vtrum conuersio substantiae panis in corpus 
+      <lb ed="#P" n="77"/>christi sit possibilis. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e146">
+        Et arguitur quod non. Quia 
+      <lb ed="#P" n="78"/>omnis conuersio habet subiectum commune 
+      vtri<lb ed="#P" n="79" break="no"/>que terminorum conuersionis. Hic non est 
+      ali<lb ed="#P" n="80" break="no"/>quod subiectum commune pani &amp; corpori 
+      chri<lb ed="#P" n="81" break="no"/>sti: quia nihil videtur eis esse commune 
+      subie<lb ed="#P" n="82" break="no"/>ctum. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e159">
+               <lb ed="#P" n="83"/>Praeterea, arguitur quod si praedicta fian non 
+      <lb ed="#P" n="84"/>fiat in instanti dupliciter. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e166">
+               <lb ed="#P" n="85"/>Primo, sic illud quod habet nunc &amp; prius 
+      <lb ed="#P" n="86"/>non est in instanti. Sed omnis mutatio est 
+      homi<lb ed="#P" n="87" break="no"/>ni, quia mutari est habere se aliter nunc quam 
+      <lb ed="#P" n="88"/>prius. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e177">
+               <lb ed="#P" n="89"/>Secundo sic, quia aut substantia panis &amp; 
+      cor<lb ed="#P" n="90" break="no"/>pus christi sunt in eodem instanti aut in alio &amp; in 
+      <lb ed="#P" n="91"/>alio instanti. Non in eodem, quia quando 
+      sub<lb ed="#P" n="92" break="no"/>stantia panis est ibi dicimus, quod ibi non est 
+      cor<lb ed="#P" n="93" break="no"/>pus christi: sed quando corpus christi est, dicimus 
+      <lb ed="#P" n="94"/>quod ibi non est substantia panis. Si ergo in 
+      eo<lb ed="#P" n="95" break="no"/>dem instanti esset ibi corpus christi &amp; substantia 
+      <lb ed="#P" n="96"/>panis: sequeretur quod in eodem instanti esset 
+      <lb ed="#P" n="97"/>&amp; non esset ibi substantia panis &amp; Corpus 
+      Chri<lb ed="#P" n="98" break="no"/>sti, quod est implicare contradictoria. Si 
+      dica<lb ed="#P" n="99" break="no"/>tur quod in alio, &amp; alio instanti. Contra, inter 
+      <lb ed="#P" n="100"/>quaelibet duo instantia cadit tempus medium: fi 
+      <lb ed="#P" n="101"/>ergo in alio &amp; in alio instanti sunt ibi substantia 
+      <lb ed="#P" n="102"/>panis &amp; corpus christi sequitur, quod inter ista 
+      <lb ed="#P" n="103"/>duo instantia sit tempus medium, quod videtur 
+      <lb ed="#P" n="104"/>mensurare conuersionem praedictam, &amp; per 
+      con<lb ed="#P" n="105" break="no"/>sequens praedicta conuersio, non fieret in 
+      in<lb ed="#P" n="106" break="no"/>stanti. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e219">
+               <lb ed="#P" n="107"/>Contra, agens infinitae virturis potest 
+      conuer<lb ed="#P" n="108" break="no"/>tere quodcunque finitum subito. Sed Deus est 
+      <lb ed="#P" n="109"/>tale agens. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e229">
+               <lb ed="#P" n="110"/>Respondeo. Circa istam quaestionem tria sunt 
+      <lb ed="#P" n="111"/>videnda. 
+      <lb ed="#P" n="112"/>Primum est, vtrum ista conuersio sit 
+      possibi<lb ed="#P" n="113" break="no"/>lis. 
+      <lb ed="#P" n="114"/>Secundum est, vtrum fiat in instanti. 
+      <lb ed="#P" n="115"/>Tertium quibus verbis vtendum est in ista 
+      con<lb ed="#P" n="116" break="no"/>uefione. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e247">
+               <lb ed="#P" n="117"/>ARTICVLVS PRIMVS
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e252">
+               <lb ed="#P" n="118"/>Qvantum ad primum, sciendum quod inia 
+      <lb ed="#P" n="119"/>conuersio differt ab omni alia conuersione 
+      <lb ed="#P" n="120"/>in tribus: primo, quia hic attingitur essentia 
+      mate<lb ed="#P" n="121" break="no"/>riae, non solum vt est subiectum transmutationis 
+      <lb ed="#P" n="122"/>sicut in aliis conuersionibus: sed attingrtur sic vt 
+      <lb ed="#P" n="123"/>varietur in essentia sua, sic autem non est in aliis 
+      <lb ed="#P" n="124"/>transmutationibus. Secundo, quia in aliis 
+      trans<lb ed="#P" n="125" break="no"/>mutationibus est aliquod subiectum communc 
+      <!--352.xml-->
+      <pb ed="#P" n="352"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>manens sub vtroque termino transmutationis 
+      si<lb ed="#P" n="2" break="no"/>cut quando ex igne fit aer: in ista autem nihil est 
+      <lb ed="#P" n="3"/>commune subiectum vtrique termino quod 
+      ma<lb ed="#P" n="4" break="no"/>neat, quia tota substantia rei est quae conuertitur, 
+      <lb ed="#P" n="5"/>tota autem substantia rei non habet subiectum, 
+      <lb ed="#P" n="6"/>sed forma est quae habet subiectum. Tertio, quia 
+      <lb ed="#P" n="7"/>in aliis transmutationibus non conuertuntur 
+      par<lb ed="#P" n="8" break="no"/>tes in partes, sed totum in totum: quia materia 
+      <lb ed="#P" n="9"/>non conuertitur in materiam &amp; forma in 
+      for<lb ed="#P" n="10" break="no"/>mam: sed materia quae est sub forma vnius 
+      <lb ed="#P" n="11"/>fit sub forma alterius: &amp; dicitur tantum 
+      con<lb ed="#P" n="12" break="no"/>uerti totum in totum. Ista autem conuersione 
+      <lb ed="#P" n="13"/>conuertitur totum in totum &amp; pars in partem. Et 
+      <lb ed="#P" n="14"/>fere est consimilis modus, sicut illae quem quaedam 
+      <lb ed="#P" n="15"/>imaginantur in processuformarum, scilicet quod 
+      <lb ed="#P" n="16"/>forma conuertatur in formam puta forma 
+      corpo<lb ed="#P" n="17" break="no"/>reitatis in formam vegetabilem: &amp; anima 
+      vepe<lb ed="#P" n="18" break="no"/>tabilis in sensitiuam &amp; sic de alijs, licet ille 
+      mo<lb ed="#P" n="19" break="no"/>dus sit falsus: iis ergo suppositis dicendum, quod 
+      <lb ed="#P" n="20"/>talis conuersio est possibilis, quod sic potest 
+      per<lb ed="#P" n="21" break="no"/>suaderi. Agens virtutis infinite quod habet 
+      pote<lb ed="#P" n="22" break="no"/>statem super totum ens &amp; est supra quamcunque 
+      <lb ed="#P" n="23"/>entitatem, potest conuertere entitatem finitam in 
+      <lb ed="#P" n="24"/>entita tem finitam, non solum totum in totum 
+      mo<lb ed="#P" n="25" break="no"/>do praedicto: immo formam in formam &amp; mate, 
+      <lb ed="#P" n="26"/>riam in materiam. Sed Deus est huiusmodi, quia 
+      <lb ed="#P" n="27"/>sua causalitas ad omne ens, siue sit ens actu, siue in 
+      <lb ed="#P" n="28"/>potentia, se extendit. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e339">
+               <lb ed="#P" n="29"/>ARTICVLVS SECVNDVS 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e344">
+               <lb ed="#P" n="30"/>Qvantum ad secundum intelligendum est, 
+      <lb ed="#P" n="31"/>quid significet tempus continuum &amp;
+      disere<lb ed="#P" n="32" break="no"/>tum, &amp; quidinunc stans &amp; nunc fluens. Tempus 
+      <lb ed="#P" n="33"/>enim continuum &amp; successiuum nihil aliud est. 
+      <lb ed="#P" n="34"/>quam successio quaedam quae est mn acquirendo 
+      <lb ed="#P" n="35"/>actum aliquem, siue mensura illius durationis &amp; 
+      <lb ed="#P" n="36"/>successionis, quia solius continui est quod vnum 
+      <lb ed="#P" n="37"/>numero existens possit diuidi in plures partes 
+      eius<lb ed="#P" n="38" break="no"/>dem rationis quae faciunt vnum numero: &amp; ideo 
+      <lb ed="#P" n="39"/>successio quae est in acquisitioneralis oportet quod 
+      <lb ed="#P" n="40"/>sit in actu vna numero: &amp; ideo acquisitio 
+      succes<lb ed="#P" n="41" break="no"/>siua eiusdem actus nuniero facit tempus 
+      conti<lb ed="#P" n="42" break="no"/>nuum. Tempus autem diseretum differt a 
+      con<lb ed="#P" n="43" break="no"/>tinuo, quia successio est secundum acquisi ionem 
+      <lb ed="#P" n="44"/>plurium actuum indiuisibilium quorum quaeliber 
+      <lb ed="#P" n="45"/>est indiuisibilis: &amp; ideo in acquirendo quodlibet 
+      <lb ed="#P" n="46"/>illorum est acquisitio indiuisibilis. Sed quia isti 
+      <lb ed="#P" n="47"/>actus sunt incompossibiles, ideo est ibi successio 
+      <lb ed="#P" n="48"/>nunc permanentium &amp; stantium. Modo nunc 
+      <lb ed="#P" n="49"/>fluens respicit tempus continuum: sed nunc stans 
+      <lb ed="#P" n="50"/>tempus discretum, sicut Angelus intelligit ouem 
+      <lb ed="#P" n="51"/>&amp; bouem per duos intellectus instantaneos, &amp; 
+      <lb ed="#P" n="52"/>tempus diseretum componitur ex illis instantibus, 
+      <lb ed="#P" n="53"/>&amp; quodlibet illorum nunc stantium coexistit 
+      ali<lb ed="#P" n="54" break="no"/>eu rempori nostro, &amp; alicui parti temporis nostri. 
+      <lb ed="#P" n="55"/>vlterius intelligendum, quod aliquis actus 
+      simi<lb ed="#P" n="56" break="no"/>liter &amp; desinitio actus potest acquiri dupliciter: 
+      <lb ed="#P" n="57"/>vno modo successiue, scilicet, quando forma quae 
+      <lb ed="#P" n="58"/>acquiritur habet latitudinem qualitercumque 
+      ha<lb ed="#P" n="59" break="no"/>beat, sicut calor magis ac magis acquiritur. Et 
+      <lb ed="#P" n="60"/>similiter desiuitio secundum magis &amp; minus 
+      ha<lb ed="#P" n="61" break="no"/>bet esse successiue, non accipiendo acquisitionem 
+      <lb ed="#P" n="62"/>formae, pro primo esse formae in materia &amp; 
+      desi<lb ed="#P" n="63" break="no"/>nitionem, pro primo non esse alterius formae, quia 
+      <lb ed="#P" n="64"/>talia sunt in instanti, sed accipiendo vtrumque 
+      <lb ed="#P" n="65"/>pro eo quod est tendere a perfecto esse formae ad 
+      <lb ed="#P" n="66"/>non esse eius, vel e conuerso: quia isto modo 
+      ac<lb ed="#P" n="67" break="no"/>quisitio formae secundum esse completum &amp; 
+      fi<lb ed="#P" n="68" break="no"/>militer definitio, fit in tempore continuo &amp; succes¬ 
+      <!--352.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>siuo. Alio modo acquirituraliquis actus, scilicet 
+      <lb ed="#P" n="70"/>in instanti, quando scilicet actus est indiuisibilis 
+      <lb ed="#P" n="71"/>secundum se. Talis enim actus semper 
+      acquiri<lb ed="#P" n="72" break="no"/>tur in instanti &amp; non alius, quia ex quo actus est 
+      <lb ed="#P" n="73"/>indiuisibilis necessario acquiritur in instanti &amp; 
+      in<lb ed="#P" n="74" break="no"/>diuisibili, eo quod mensura respondet 
+      mensura<lb ed="#P" n="75" break="no"/>to. Si autem sit ibi suecessio hoc erit ex parte 
+      ter<lb ed="#P" n="76" break="no"/>minorum mutationis qui quandoque tern: ini 
+      niu<lb ed="#P" n="77" break="no"/>tationis sunt in nunc diuersis, vt duo actus 
+      Ange<lb ed="#P" n="78" break="no"/>li: ita quod vnus actus est in vno nunc, &amp; alius in 
+      <lb ed="#P" n="79"/>alio. Quandoque vnus terminorum mutationis 
+      <lb ed="#P" n="80"/>est in tempore, &amp; alius in nunc temporis, sicut 
+      <lb ed="#P" n="81"/>quando ex aere fit ignis aer habuit esse in 
+      tempo<lb ed="#P" n="82" break="no"/>re praecedenti &amp; in vltimo nunc eius habuit esse 
+      <lb ed="#P" n="83"/>ignis, ita quod aer non habuit vltimum nunc in 
+      <lb ed="#P" n="84"/>quo vltimo esset: sed habuit vltimum nunc in quo 
+      <lb ed="#P" n="85"/>primo non esset. His suppositis quando quaeritur 
+      <lb ed="#P" n="86"/>vtrum haeo conuersio habeat esse in instanti, 
+      non<lb ed="#P" n="87" break="no"/>quaeritur quaestio vtrum panis &amp; Corpus 
+      Chri<lb ed="#P" n="88" break="no"/>sti sint ibi in vno &amp; eodem instanti: quia hoc est 
+      <lb ed="#P" n="89"/>impossibile, vt patet, sed quaeritur vtrum primum 
+      <lb ed="#P" n="90"/>non esse panis &amp; primum esse Corporis Christi, 
+      <lb ed="#P" n="91"/>sint in eodem instanti illius temporis, &amp; in illo &amp; 
+      <lb ed="#P" n="92"/>eodem instanti, siue sit stans, siue fluens: 
+      substan<lb ed="#P" n="93" break="no"/>tia panis habuerit non esse, ita quod intentio 
+      quae<lb ed="#P" n="94" break="no"/>stionis sit quaerere vtrum primum non esse panis 
+      <lb ed="#P" n="95"/>&amp; primum esse Corporis Christi sint simul in vno 
+      <lb ed="#P" n="96"/>&amp; eodem instanti. Et sic itelligendo quaestionem 
+      <lb ed="#P" n="97"/>dicendum, quod sic. Cuius ratio est, quia 
+      acqui<lb ed="#P" n="98" break="no"/>sitio termini indiuisibilis non est nisi in 
+      instanti<lb ed="#P" n="99" break="no"/>Sed quaelibet substantia habet esse indiuisibile, 
+      <lb ed="#P" n="100"/>quia per se non habet quantitatem, nec gradum 
+      <lb ed="#P" n="101"/>in esse ratione quarum est diuisio. Ergo acquisitio 
+      <lb ed="#P" n="102"/>existentiae Corporis Christi in sacramento altaris 
+      <lb ed="#P" n="103"/>est in instanti: sed sicut in eodem instanti in quo 
+      <lb ed="#P" n="104"/>est esse formae introducendae in materia est 
+      desini<lb ed="#P" n="105" break="no"/>tio formae corrumpendae, vt patete Phisycorum, 
+      <lb ed="#P" n="106"/>ita etiam in eodem instanti, in quo est ibi 
+      substan<lb ed="#P" n="107" break="no"/>tia Corporis est ibi desinitio panis. Ergo 
+      desini<lb ed="#P" n="108" break="no"/>tio substantiae panis &amp; acquisitio Corporis Christi 
+      <lb ed="#P" n="109"/>sunt ibi in vno &amp; eodem instanti. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e524">
+               <lb ed="#P" n="110"/>ARTICVLVS TERTIVS. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e530">
+               <lb ed="#P" n="111"/>Qvantum ad tertium videndum est, quibus 
+      <lb ed="#P" n="112"/>verbis vtendum est in hac acquisitione. Ad 
+      <lb ed="#P" n="113"/>quod dicendum, quod quia hic non est aliquod 
+      <lb ed="#P" n="114"/>subiectum commune, sed est successio duorum 
+      <lb ed="#P" n="115"/>terminorum non in eodem subiecto sibi 
+      succe<lb ed="#P" n="116" break="no"/>dentium: sed sub eisdem speciobus, ideo 
+      quic<lb ed="#P" n="117" break="no"/>quid importat successionem terminorum, sine 
+      <lb ed="#P" n="118"/>subiecto bene conuenit tali conuersioni. 
+      Quic<lb ed="#P" n="119" break="no"/>quid autem importat vnitatem subiecti 
+      commu<lb ed="#P" n="120" break="no"/>nis sub vtroque termino, non bene nec vere 
+      dici<lb ed="#P" n="121" break="no"/>tur in ista conuersione, quia hic non est vnum 
+      sub<lb ed="#P" n="122" break="no"/>iectum. Ex parte autem termini ad quem 
+      locu<lb ed="#P" n="123" break="no"/>tiones possunt demonstrare terminum fieri 
+      dupli<lb ed="#P" n="124" break="no"/>citer: vno modo possunt demonstrare terminum 
+      <lb ed="#P" n="125"/>ad quem fieri non simpliciter: sed sub hoc, 
+      scili<lb ed="#P" n="126" break="no"/>cet speciebus, &amp; omnes tales locutiones sunt 
+      con<lb ed="#P" n="127" break="no"/>cedendae, vt si dicamus quod Corpus Christi fit 
+      <lb ed="#P" n="128"/>ex pane, si Iy ex dicat habitudinem terminorum 
+      <lb ed="#P" n="129"/>&amp; non materiae, sic est concedenda: quia 
+      Cor<lb ed="#P" n="130" break="no"/>pus Christi, fit ibi post esse panis conuersi. Si 
+      ve<lb ed="#P" n="131" break="no"/>ro ly ex dicat habitudinem materiae, sic est falsa, 
+      <lb ed="#P" n="132"/>quia Corpus Christi non fit ex pane manente 
+      <lb ed="#P" n="133"/>quantum ad aliquid sui, quod oportet ad hoc 
+      <lb ed="#P" n="134"/>quod aliquid fiat ex materia. Et ideo omnes istae 
+      <lb ed="#P" n="135"/>locutiones panis fit Corpus Christi, vel potest esse 
+      <lb ed="#P" n="136"/>Corpus Christi, vel quod prius erat panis est Cor¬ 
+      <!--353.xml-->
+      <pb ed="#P" n="353"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>pus Christi, sunt impropriae, quia denominant 
+      <lb ed="#P" n="2"/>subiectum commune manens, quia hoc fit hoc 
+      <lb ed="#P" n="3"/>non verificatur nisi ratione subiecti, quia albedo 
+      <lb ed="#P" n="4"/>nigredo non fit, sed album fit nigrum, &amp; hoc 
+      si<lb ed="#P" n="5" break="no"/>gnificat subiectum. Et similiter respectu huius 
+      <lb ed="#P" n="6"/>verbi potest vel erat, &amp; fic de aliis. Vnde si tales 
+      <lb ed="#P" n="7"/>orationes inueniantur omnes sunt exponendae, vt 
+      <lb ed="#P" n="8"/>sit relatio non ad idem subiectum, sed ad 
+      quanti<lb ed="#P" n="9" break="no"/>tatem manentem, vt sit sensus, quando dicitur 
+      <lb ed="#P" n="10"/>panis fit Corpus Christi, id est, contentum nune 
+      <lb ed="#P" n="11"/>sub accidentibus sub quibus prius erat panis est 
+      <lb ed="#P" n="12"/>Corpus Christi. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e621">
+               <lb ed="#P" n="13"/>Ad primum ergo quando dicitur, quod omnis 
+      <lb ed="#P" n="14"/>conuersio habet subiectum, dicendum quod 
+      con<lb ed="#P" n="15" break="no"/>uersio hic non dicit vnam formam sicut calefactio 
+      <lb ed="#P" n="16"/>&amp; similia quae dicunt formam infieri, quia in 
+      ta<lb ed="#P" n="17" break="no"/>libus bene est commune subiectum: sed dicit 
+      <lb ed="#P" n="18"/>quemdum ordinem diuersorum sibi 
+      succeden<lb ed="#P" n="19" break="no"/>tium. Et sic est in proposito ordo iste est in 
+      vtro<lb ed="#P" n="20" break="no"/>que termino sicut in subiecto, sed realem 
+      muta<lb ed="#P" n="21" break="no"/>tionem ponit in pane, non autem in Corpus Chri 
+      <lb ed="#P" n="22"/>sti: sed solum secundum rationem 
+      intelligen<lb ed="#P" n="23" break="no"/>di. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e647">
+               <lb ed="#P" n="24"/>Ad secundum dicendum, quod illud quod 
+      in<lb ed="#P" n="25" break="no"/>trinsece includit nunc &amp; prius non est in instanri, 
+      <lb ed="#P" n="26"/>licet nunc stans possit coexistere suecessioni 
+      ha<lb ed="#P" n="27" break="no"/>benti prius &amp; posterius. Et quando dicitur, quod 
+      <lb ed="#P" n="28"/>ista conuerfio includit prius &amp; posterius, 
+      dicen<lb ed="#P" n="29" break="no"/>dum, quod accipiendo conuersionem pro 
+      acqui<lb ed="#P" n="30" break="no"/>sitione termini ad quem &amp; desinitione, siue 
+      pri<lb ed="#P" n="31" break="no"/>mo non esse termini a quo, non includit nunc &amp; 
+      <lb ed="#P" n="32"/>prius, nec includit nisi vnum instans in quo hoc 
+      <lb ed="#P" n="33"/>totum est Et quando dicitur vlterius, quod imo, 
+      <lb ed="#P" n="34"/>quia omnis mutatio includit nunc &amp; prius, 
+      dicen<lb ed="#P" n="35" break="no"/>dum, quod conuersio ista quantum ad non esse 
+      <lb ed="#P" n="36"/>primum termini a quo, &amp; esse primum terminie 
+      <lb ed="#P" n="37"/>ad quem, non est mutatio proprie loquendo, nec 
+      <lb ed="#P" n="38"/>in tali acceptione nullo alio accepto, est aliter se 
+      <lb ed="#P" n="39"/>habere nunc &amp; prius: sed est verum, quod esse 
+      <lb ed="#P" n="40"/>panis &amp; non esse eiusdem, vel non esse panis &amp; 
+      <lb ed="#P" n="41"/>Copus Christi: dato quod non importet mutan 
+      <lb ed="#P" n="42"/>tionem proprie dictam habentem communem 
+      <lb ed="#P" n="43"/>sub ectum: tamen conuersio quantum ad hoc 
+      ha<lb ed="#P" n="44" break="no"/>bet modum mutationis, quia aliquo modo est 
+      a<lb ed="#P" n="45" break="no"/>liter nunc quam prius: ita, quod ly nunc accipiatur 
+      <lb ed="#P" n="46"/>quantum ad instans in quo primo habet ibi 
+      Cor<lb ed="#P" n="47" break="no"/>pus Christi esse: &amp; Iy prius non pro alio nunc: 
+      <lb ed="#P" n="48"/>sed pro toto tempore inquo praeexistebat panis: quia 
+      <lb ed="#P" n="49"/>vt dictum est non est dare vltimum nunc in quo 
+      <lb ed="#P" n="50"/>vltimo sit panis &amp; in quo primo non sit. 
+      </p>
+            <p xml:id="hx2hx3-c18511-d1e708">
+               <lb ed="#P" n="51"/>Et per hoc patet solutio ad tertium, quia non 
+      <lb ed="#P" n="52"/>oportet ponere, quod Corpus Christi &amp; panis sit 
+      <lb ed="#P" n="53"/>ibi vel in eodem nunc vel in alio &amp; alio nunc: ita, 
+      <lb ed="#P" n="54"/>quod fit dare vltimum nunc in quo vltimo sit 
+      sub<lb ed="#P" n="55" break="no"/>stantia panis: imo vnum est in illo nunc, scilicet 
+      <lb ed="#P" n="56"/>primum esse Corporis Christi. Aliud autem esse 
+      <lb ed="#P" n="57"/>panis est in toto tempore praecedenti, nec 
+      opor<lb ed="#P" n="58" break="no"/>tet, quod inter ista duo sit tempus medium, quia 
+      <lb ed="#P" n="59"/>licet inter quaelibet duo instantia cadat tempus 
+      <lb ed="#P" n="60"/>medium: non tamen inter tempus &amp; nunc ad 
+      <lb ed="#P" n="61"/>quod terminatur cadit tempus medium. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="52"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b16673"><!-- l1d5q2 -->
+            <head xml:id="hx2hx3-b16673-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b16673-Hd1e101" type="question-title">Utrum essentia sit terminus generationis</head>
+            <p xml:id="hx2hx3-b16673-d1e104">
+      <!--52.xml-->
+               <pb ed="#P" n="52"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>QVAESTIO SECINDA. 
+      <lb ed="#P" n="2"/>Vtrum essentia sit terminus generationis?
+    </p>
+            <p xml:id="hx2hx3-b16673-d1e117">
+               <lb ed="#P" n="3"/>Et arguitur quod non, quia idem non potest 
+      <lb ed="#P" n="4"/>esse principium &amp; terminus, nisi in motu 
+      re<lb ed="#P" n="5" break="no"/>ssexo. Sed generatio diuina non est motus refsexus. 
+      <lb ed="#P" n="6"/>Ergo idem non est in ea principium &amp; terminus; 
+      <lb ed="#P" n="7"/>Sed principiu generationis diuinae est essentia cui 
+      <lb ed="#P" n="8"/>virtute generat Pater. Ergo ipsa non est terminus. 
+      </p>
+            <p xml:id="hx2hx3-b16673-d1e133">
+               <lb ed="#P" n="9"/>Contra, generatio diuina est via in naturam. 
+      <lb ed="#P" n="10"/>Ergo natura diuina est terminus eius.
+      </p>
+            <p xml:id="hx2hx3-b16673-d1e141">
+               <lb ed="#P" n="11"/>Respondeo; ad hoc quod dicunt quidam quod in 
+      <lb ed="#P" n="12"/>creaturis tripliciter potest accipi generatio, scilicet 
+      <lb ed="#P" n="13"/>vt motus vel mutatio, &amp; vt actio, &amp; vt via in 
+      na<lb ed="#P" n="14" break="no"/>turam. Et similiter tripliciter possunt accipi 
+      termi<lb ed="#P" n="15" break="no"/>ni ipsius. Nam termini eius prout est motus sunt 
+      <lb ed="#P" n="16"/>forma, &amp; priuatio. Termini eius prout est actio, 
+      <lb ed="#P" n="17"/>sunt generans &amp; genitum. Sed termini prout est 
+      <lb ed="#P" n="18"/>via in naturam sunt forma generantis &amp; forma 
+      ge<lb ed="#P" n="19" break="no"/>niti. Applicando ergo ista ad diuina dicunt quod b 
+      <lb ed="#P" n="20"/>in diuina generatione neuter terminorum primo 
+      <lb ed="#P" n="21"/>modo dictorum inuenitur: &amp; hoc probant 
+      dupli<lb ed="#P" n="22" break="no"/>ci ratione. Primo quia illud quod conuenit 
+      gene<lb ed="#P" n="23" break="no"/>rationivt est motus, nonconuenit generationi 
+      diui<lb ed="#P" n="24" break="no"/>nae, cum non sit motus. Sed termini primo modo 
+      <lb ed="#P" n="25"/>conueniunt generationi vt est motus vel mutatio. 
+      <lb ed="#P" n="26"/>Ergo, &amp;c. Secundo quia constat quod termin a quo 
+      <lb ed="#P" n="27"/>primo modo dictus non couenit generationi 
+      diui<lb ed="#P" n="28" break="no"/>nae, cum non sit ibi processus a non esse ad esse. Sed 
+      <lb ed="#P" n="29"/>ablato termino d quo non manet terminus ad 
+      <lb ed="#P" n="30"/>quem, quia correlatiue dicuntur: quia semper 
+      <lb ed="#P" n="31"/>terminus ad quem coexigit terminum a quo. Ergo 
+      <lb ed="#P" n="32"/>neuter dictorum terminorum est in generatione 
+      <lb ed="#P" n="33"/>diuina. Termini autem secundo &amp; tertio modo 
+      ac<lb ed="#P" n="34" break="no"/>cepti sunt in generatione diuina, nam ibi sunt tere 
+      <lb ed="#P" n="35"/>mini qui sunt forma generantis &amp; forma geniti, 
+      <lb ed="#P" n="36"/>Et isto vltimo modo dicitur essentia esse terminus 
+      <lb ed="#P" n="37"/>generationis diuinae; non autem primo modo, quia 
+      <lb ed="#P" n="38"/>tales termini non sunt ibi: nec secundo modo, quia 
+      <lb ed="#P" n="39"/>lic et tales termini sint in generatione diuina 
+      scili<lb ed="#P" n="40" break="no"/>cet generans &amp; genitum, tamen essentiae non 
+      con<lb ed="#P" n="41" break="no"/>uenit vt sit sic terminus, quia nec est generans nec 
+      <lb ed="#P" n="42"/>genita. Sed tertio modo conuenit sibi quod 
+      termi<lb ed="#P" n="43" break="no"/>nus sit, quia ipsa est forma generans, &amp; sic habet 
+      <lb ed="#P" n="44"/>rationem vnius termini vt in Patre, &amp; rationem 
+      <lb ed="#P" n="45"/>alterius termini vt est in Filio. 
+    </p>
+            <p xml:id="hx2hx3-b16673-d1e219">
+               <lb ed="#P" n="46"/>Quidam autem improbants vt eis videtur) istud 
+      di<lb ed="#P" n="47" break="no"/>ctum: Et dicunt quod terminus ad quem primo 
+      mo<lb ed="#P" n="48" break="no"/>do dictus necessario estindiuinis, licet non sit 
+      ter<lb ed="#P" n="49" break="no"/>minus a quo: Et hoc probant sic, quia terminus ad 
+      <lb ed="#P" n="50"/>quem primo modo dictus, est essentia vel natura 
+      ac<lb ed="#P" n="51" break="no"/>quisita siue habita per generationem. Sed 
+      necessa<lb ed="#P" n="52" break="no"/>fium est ponere in Dei Filio essentiam &amp; naturam 
+      <lb ed="#P" n="53"/>acquisitam siue habita per generationem. Ergo, &amp;c. 
+      <lb ed="#P" n="54"/>bed illud, nisi plus dicatur, parum valet, quia 
+      autho<lb ed="#P" n="55" break="no"/>res praemissae positionis dicerent faciliter, quia 
+      na<lb ed="#P" n="56" break="no"/>tura vel essentia vt est acquisita in genito potest esse 
+      <lb ed="#P" n="57"/>dupliciter terminus ad quem, vno modo prout 
+      res<lb ed="#P" n="58" break="no"/>pondet sibi pro termino a quo ipsum non esse siue 
+      <lb ed="#P" n="59"/>priuatio, &amp; sic est termin generationis primo 
+      mo<lb ed="#P" n="60" break="no"/>do: nec est sic in diuina generatione terminus. 
+      <lb ed="#P" n="61"/>Alio modo prout respodet sibi pro termino a quo 
+      <lb ed="#P" n="62"/>forma generatis: &amp; sic accipitur vt terminus. Ter. 
+      <lb ed="#P" n="63"/>tio modo supra posito ipsa natura &amp; essentia. 
+      Di<lb ed="#P" n="64" break="no"/>cerent ergo quod non negant naturam diuinam &amp; 
+      <lb ed="#P" n="65"/>essentiam diuinam esse terminum generationis: 
+      <lb ed="#P" n="66"/>sed negant quod accipiendo primo modo 
+      termi<lb ed="#P" n="67" break="no"/>num, sit terminus generationis. Ratio aute in 
+      op<lb ed="#P" n="68" break="no"/>positum non probat nisi quodabsolute essentia 
+      di<lb ed="#P" n="69" break="no"/>uina est terminus generationis. Vnde est ibi falla¬ 
+      <!--52.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>cia consequentis. Hoc autem quod primi dicunt 
+      <lb ed="#P" n="71"/>credo esse falsum. Primo quantum ad hoc quod 
+      <lb ed="#P" n="72"/>loquendo in creaturis ponunt alios terminos 
+      gene<lb ed="#P" n="73" break="no"/>rationis vt est motus &amp; vt est via in naturam, quia 
+      comn<lb ed="#P" n="74" break="no"/>stat quod via ibi accipitur metaphoricc. Nam 
+      si<lb ed="#P" n="75" break="no"/>cut per viam ille qui vadit recedit ab vno loco &amp; 
+      <lb ed="#P" n="76"/>vadit ad alium: ita generatio in quantum est 
+      mo<lb ed="#P" n="77" break="no"/>tus quidam quo receditur ab vno termino &amp; 
+      ten<lb ed="#P" n="78" break="no"/>ditur ad alium terminum qui est natura, dicitur vta 
+      <lb ed="#P" n="79"/>in naturam: subiectum autem generationis 
+      nun<lb ed="#P" n="80" break="no"/>quam fuit sub forma generantis vt ab ea recedens 
+      <lb ed="#P" n="81"/>tenderet ad formam geniti. Et ideo termini 
+      genera<lb ed="#P" n="82" break="no"/>tionis vt est via in naturam sunt illi qui sunt 
+      termi<lb ed="#P" n="83" break="no"/>ni eius vt est motus, scilicet forma &amp; priuatio. Vnde 
+      <lb ed="#P" n="84"/>posset breuius sic formari ratio. Quia generatio 
+      <lb ed="#P" n="85"/>dicitur via in naturam in quantum subiectu 
+      gene<lb ed="#P" n="86" break="no"/>rationis recedit per ipsam ab opposito naturae &amp; 
+      <lb ed="#P" n="87"/>tendit ad naturam habenda. Sedterminus 
+      opposi<lb ed="#P" n="88" break="no"/>tus naturae a quo sic recedit, non potest esse forma 
+      <lb ed="#P" n="89"/>generantis. Ergo, &amp;ci Secundo ex hoc apparet 
+      <lb ed="#P" n="90"/>quod si ipsi ponunt essentiam esse terminu 
+      genera<lb ed="#P" n="91" break="no"/>tionis prout est via in naturam, sequitur quod essentiae 
+      <lb ed="#P" n="92"/>diuina est terminus generationis prout secundu 
+      i<lb ed="#P" n="93" break="no"/>modum accipitur terminus generationis. Quod 
+      ta<lb ed="#P" n="94" break="no"/>men ipsi negant. Saluam ergo reuerentiam Doctoru de 
+      <lb ed="#P" n="95"/>hoc loquentium, licet proprie terminus ad quem in 
+      <lb ed="#P" n="96"/>peneratione sit forma geniti &amp; ipsum genitum: 
+      ta<lb ed="#P" n="97" break="no"/>men terminus d quo non videtur mihi quod debeat 
+      <lb ed="#P" n="98"/>ponissoquendosecundum rem genierans vel eius 
+      for<lb ed="#P" n="99" break="no"/>ma, sed tantum priuatio, vel opposita forma, vel 
+      co<lb ed="#P" n="100" break="no"/>positum ex materia &amp; opposita forma: ita quod si 
+      <lb ed="#P" n="101"/>fiat ex aere ignis, terminus a quo est vel forma aeris 
+      <lb ed="#P" n="102"/>vel aer compositus ex materia aeris &amp; eius formam. 
+      <lb ed="#P" n="103"/>Terminus autem ad quesproprie loquendo lest ignis 
+      <lb ed="#P" n="104"/>generat vel eius forma. Vnde dicitur quod ex 
+      ac<lb ed="#P" n="105" break="no"/>re fit ignis, &amp; non ex igne fit ignis: &amp; a forma aeris 
+      <lb ed="#P" n="106"/>mouetur materia ad formam ignis. Ratio autem 
+      <lb ed="#P" n="107"/>huius est, quia proprie loquendo in 
+      generatio<lb ed="#P" n="108" break="no"/>ne non potest accipi vt terminus a quo nisi illud 
+      <lb ed="#P" n="109"/>a quo receditur, &amp; terminus ad quem illud ad quod 
+      <lb ed="#P" n="110"/>acceditur: nunc autemmobile vel subiectum genera 
+      <lb ed="#P" n="111"/>tionis nunquam recedit nisi ab illo sub quo fuerit, 
+      <lb ed="#P" n="112"/>&amp; quod est oppositu &amp; impossibile ei ad quod 
+      ac<lb ed="#P" n="113" break="no"/>ceditur. Nunc autem ita est quod subiectum 
+      genera<lb ed="#P" n="114" break="no"/>tionis nunquam fuit sub generante vel eius forma; 
+      <lb ed="#P" n="115"/>nec distat ab eo in termino generationis, imo 
+      ma<lb ed="#P" n="116" break="no"/>gis accedit ad ipsum per quandam assimilatione: 
+      <lb ed="#P" n="117"/>ideo proprie loquendo terminus a quo nunquam 
+      <lb ed="#P" n="118"/>est generans vel eius forma, sed secundum modum 
+      <lb ed="#P" n="119"/>nostrum intelligendi &amp; secundum imaginatione 
+      <lb ed="#P" n="120"/>vulgi quam oportet sequi inlocutionibus, actio 
+      vide<lb ed="#P" n="121" break="no"/>tur esse media ab agente in passum, quia migratur 
+      <lb ed="#P" n="122"/>subiectiue ab vno in aliud, &amp; ideo etiam secunduto 
+      <lb ed="#P" n="123"/>modum intelligendi solent poni termini 
+      genera<lb ed="#P" n="124" break="no"/>tionis, generans &amp; genitum. 
+    </p>
+            <p xml:id="hx2hx3-b16673-d1e397">
+               <lb ed="#P" n="125"/>Applicando ergo ista ad diuina, terminus a quo no 
+      <lb ed="#P" n="126"/>inuenitur in generatione diuina nec quantu ad id 
+      <lb ed="#P" n="127"/>quod est, nec quantum ad rationem qua terminus 
+      <lb ed="#P" n="128"/>a quo: quia indiuinis non est priuatio formae 
+      com<lb ed="#P" n="129" break="no"/>municatae per generationem, nec actu nec 
+      aptitu<lb ed="#P" n="130" break="no"/>dine, nec similiter est ibi opposita forma, formae 
+      <lb ed="#P" n="131"/>communicatae per generationem. Terminus aute 
+      <lb ed="#P" n="132"/>ad quem scilicet esse communicatu per 
+      generatio<lb ed="#P" n="133" break="no"/>nem &amp; genitum est ibi realiter quantu ad id quod 
+      <lb ed="#P" n="134"/>est: sed quantum ad ratione eius quod est esse 
+      termi<lb ed="#P" n="135" break="no"/>nus ad que stricte &amp; realiter loquendo, nec 
+      produ<lb ed="#P" n="136" break="no"/>ctu nec esse comucicatum habent ratione termini 
+      <lb ed="#P" n="137"/>ad que; sed secundum modum nostru intelligendi, 
+      <lb ed="#P" n="138"/>quia essentia, vel natura comunicata, vel etiam 
+      <lb ed="#P" n="139"/>ipsum productum non habent stricte &amp; proprie 
+      ratio<lb ed="#P" n="140" break="no"/>nem termini ad quem, nisi quando productio est 
+      <!--53.xml-->
+      <pb ed="#P" n="53"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>accessus ad talem naturam prius non abitam. Vnde 
+      <lb ed="#P" n="2"/>etiam nec creatio habet proprie terminum ad quem. 
+      <lb ed="#P" n="3"/>Sed quia omne illud quod significatur per 
+      mo<lb ed="#P" n="4" break="no"/>dum fieri imaginamur vt quendam modum &amp; 
+      <lb ed="#P" n="5"/>quendam accessum ad aliquid non habitum: ideo 
+      <lb ed="#P" n="6"/>secundum modum nostrum intelligendi &amp; 
+      imagi<lb ed="#P" n="7" break="no"/>nandi dicitur ibi remanere ratio termini ad quem 
+      <lb ed="#P" n="8"/>quantum ad id quod est, scilicer quantumm ad hor 
+      <lb ed="#P" n="9"/>quod est esse naturam communicatam, remanet 
+      <lb ed="#P" n="10"/>ibi terminus ad quem. Terminus autem a quo non 
+      <lb ed="#P" n="11"/>secundum rem, sed prout secundum nostram 
+      <lb ed="#P" n="12"/>imaginationem generans accipitur vt terminus a 
+      <lb ed="#P" n="13"/>quo, inuenitur ibi terminus a quo. 
+    </p>
+            <p xml:id="hx2hx3-b16673-d1e469">
+               <lb ed="#P" n="14"/>Dicendum ergo quod essentia diuina est rerminua 
+      <lb ed="#P" n="15"/>ad quem generationis modo quo expositum est 
+      <lb ed="#P" n="16"/>prout forma communicatadicitur terminus: non 
+      <lb ed="#P" n="17"/>autem prou: productum vel genitum dicitur 
+      ter<lb ed="#P" n="18" break="no"/>minus, quia ipsa conmunicatur, sed non generatur. 
+      </p>
+            <p xml:id="hx2hx3-b16673-d1e482">
+               <lb ed="#P" n="19"/>Sed contra hoc  obiicitur dupliciter Primo quia 
+      <lb ed="#P" n="20"/>eum termint generationis det spec em generationi, 
+      <lb ed="#P" n="21"/>&amp; essentia diuina nom possit dare specie generationi 
+      <lb ed="#P" n="22"/>diuinae cum generatio diuina sit relatio; essentia 
+      <lb ed="#P" n="23"/>autem non dat speciem relationi, videtur ergo quod 
+      <lb ed="#P" n="24"/>essentia non sit terminus generationis. Secundo 
+      <lb ed="#P" n="25"/>quia si essentia est terminus generationis, tunc 
+      es<lb ed="#P" n="26" break="no"/>sentia est quoddam acceptum. Sed hoc 
+      nonconue<lb ed="#P" n="27" break="no"/>nit essentiae, cum hoc sit notionale &amp; non 
+      commu<lb ed="#P" n="28" break="no"/>ne: essentia autem sitcommunis. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b16673-d1e506">
+               <lb ed="#P" n="29"/>Ad primum istorum dicunt quidam, quod dato 
+      <lb ed="#P" n="30"/>quod e ssentia diuina non det speciem generationi 
+      <lb ed="#P" n="31"/>diuinae secundum rem, cum generatio diuina sit 
+      <lb ed="#P" n="32"/>relatio: tamen dat ei speciem secundum 
+      innote<lb ed="#P" n="33" break="no"/>scentiam, quia species relationum innotescunt ex 
+      <lb ed="#P" n="34"/>fundamento. Sed illud non videtur bene dictum, 
+      <lb ed="#P" n="35"/>quia in creaturis ex quarum similitudine 
+      accedi<lb ed="#P" n="36" break="no"/>mus ad diuina, terminus motus vel generationis 
+      <lb ed="#P" n="37"/>dat ei speciem secundum rem &amp; non secundum 
+      <lb ed="#P" n="38"/>innotescentiam tantum. Et ideo potest aliter dici 
+      <lb ed="#P" n="39"/>quod essentia diuina dat speciem generationi 
+      quan<lb ed="#P" n="40" break="no"/>tum ad id quod pertinet ad diuinam generationem 
+      <lb ed="#P" n="41"/>praeter relationes oppositas. Nam licet non sit ibi 
+      <lb ed="#P" n="42"/>productio alicuius absoluti vel generatio alicuius 
+      <lb ed="#P" n="43"/>absoluti, puta ipsius diuinitatis: est tamen ibi 
+      com<lb ed="#P" n="44" break="no"/>municatio absoluti, nam vere dicitur quod 
+      diuini<lb ed="#P" n="45" break="no"/>tas communicatur. Dato ergo quod relatio geniti 
+      <lb ed="#P" n="46"/>vel ipsum generari in quantum importat tantum 
+      <lb ed="#P" n="47"/>relationem geniti non specificetur formaliter per 
+      <lb ed="#P" n="48"/>essenuam absolutam: communicatio tamen prout 
+      <lb ed="#P" n="49"/>respicit essentiam specificatur per essentiam, ita 
+      <lb ed="#P" n="50"/>quod communicatio diuinitatis habet speciem a 
+      <lb ed="#P" n="51"/>diuinitate, eo modo quo species potest esse in 
+      diui<lb ed="#P" n="52" break="no"/>nis. Et si dicatur et od communicatio plurificatur 
+      <lb ed="#P" n="53"/>quasi per speciem, scilicet generatio &amp; spiratio, 
+      <lb ed="#P" n="54"/>cum tamen essentia non plurificetur: Non valet, 
+      <lb ed="#P" n="55"/>nam generatio &amp; spiratioscilicet generare &amp; 
+      gene<lb ed="#P" n="56" break="no"/>rari, spirare &amp; spirari magis respiciunt ipsas 
+      rela<lb ed="#P" n="57" break="no"/>tiones: &amp; ideo illa nonita formaliter specificantur 
+      <lb ed="#P" n="58"/>per essentiam, nec essentiae conuensunt. Sed 
+      com<lb ed="#P" n="59" break="no"/>municari, &amp; essentiae conuenit, &amp; minus: respicit 
+      <lb ed="#P" n="60"/>ipsas relationes. Et ideo in quantum essentiae 
+      con<lb ed="#P" n="61" break="no"/>uenit, &amp; prout essentiam respicit, habet speciem 
+      <lb ed="#P" n="62"/>ab essentia. Sed prout importat ipsas relationes, 
+      <lb ed="#P" n="63"/>siue prout dat eis intelligi, plurificatur quasi 
+      speci<lb ed="#P" n="64" break="no"/>fice, secundum scilicet generare &amp; generari, 
+      spira<lb ed="#P" n="65" break="no"/>re &amp; spirari, quae essentiae nullo modo conueniunt. 
+      <lb ed="#P" n="66"/>Vnde suo modo sicut generatio specificatur per 
+      for<lb ed="#P" n="67" break="no"/>mam communicatam, quia conuenit ei aliquo 
+      mo<lb ed="#P" n="68" break="no"/>do generato composito generari: ista etiam 
+      com<lb ed="#P" n="69" break="no"/>municatio essentiae potest attribui in diuinis &amp; 
+      spe<lb ed="#P" n="70" break="no"/>cificaturper essentiam formaliter. Ad secundum 
+      <!--53.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>dicendum quod quantum ad prasens pertinet, in 
+      <lb ed="#P" n="72"/>diuinis est triplex modus notionalium. Quadam 
+      <lb ed="#P" n="73"/>enim sunt quaedicunt habitudinem producentis an 
+      <lb ed="#P" n="74"/>productum &amp; important distinctionem realem 
+      in<lb ed="#P" n="75" break="no"/>ter habentia talem habitudinem: sicut est 
+      produ<lb ed="#P" n="76" break="no"/>cere &amp; produci, &amp; nihil istorum conuenit essenuiae, 
+      <lb ed="#P" n="77"/>quia a nullo quod sit in diuinis notest realiter 
+      di<lb ed="#P" n="78" break="no"/>stingui. Alia sunt quae dicunt habitudinem perso. 
+      <lb ed="#P" n="79"/>nae ad essentiam: &amp; talia non important 
+      distin<lb ed="#P" n="80" break="no"/>ctionem realem inter ea quae talem 
+      habitudi<lb ed="#P" n="81" break="no"/>nem habent uimportant tamen distinctionem 
+      rea<lb ed="#P" n="82" break="no"/>lem illius cui tale notionale attribuitur ad aliquid 
+      <lb ed="#P" n="83"/>existens in diuinis, sicut est dare &amp; accipere: non 
+      <lb ed="#P" n="84"/>enim oportet dantem realiter distingui a dato, 
+      <lb ed="#P" n="85"/>nec accipsentem ab accepto, &amp; ponuntur exempla 
+      <lb ed="#P" n="86"/>quae dimitto. Tamen oporter dantem distingui ab 
+      <lb ed="#P" n="87"/>accipiente &amp; e conuerso: &amp; talia adhuc non 
+      con<lb ed="#P" n="88" break="no"/>ueniunt essentiae, quia nec dat nec aceipit, dations 
+      <lb ed="#P" n="89"/>quae sit inter personas diuinas. Quod ideo dico 
+      <lb ed="#P" n="90"/>quia bene essentia dat se nobis, sed non potest dioi 
+      <lb ed="#P" n="91"/>quod det se filio, quia oporteret quod distinguere 
+      <lb ed="#P" n="92"/>tur ab eo. Alia sunt notionalia quae dicunt habitu, 
+      <lb ed="#P" n="93"/>dinem essentiae ad personas, vt dari &amp; accipi &amp; 
+      comn<lb ed="#P" n="94" break="no"/>municaris &amp; talia non important distinctionem 
+      <lb ed="#P" n="95"/>realem inter illud cui attribultur &amp; aliquid exiltes 
+      <lb ed="#P" n="96"/>in diuinis, vt est dari, accspi &amp; communicari. Datum 
+      <lb ed="#P" n="97"/>enim non oporter distingui realiter a dante nec ab 
+      <lb ed="#P" n="98"/>accipiente ab aliquo alio indiuinis existente: &amp; 
+      ta<lb ed="#P" n="99" break="no"/>lia bene conmpetunt essentiae, quia non important di. 
+      <lb ed="#P" n="100"/>stinctionem realem eius ad aliquid existens in 
+      diui<lb ed="#P" n="101" break="no"/>nis inec tamen conueniunt omnibus personis, licet 
+      <lb ed="#P" n="102"/>conueniant essentiae absolute, sed prout sunt in 
+      a<lb ed="#P" n="103" break="no"/>liqua determinata persona: sicut accipi non 
+      conue<lb ed="#P" n="104" break="no"/>nit essentiae prout est in Patre, sed prout in persona 
+      <lb ed="#P" n="105"/>producta. Ad alia autem duo inducta ab aliis 
+      res<lb ed="#P" n="106" break="no"/>ponsio faciliter patet. Nam procedunt ac si essentia 
+      <lb ed="#P" n="107"/>poneretur terminus ad quem quantum ad ratione 
+      <lb ed="#P" n="108"/>eius quod est esse proprie &amp; secundum rem termini 
+      <lb ed="#P" n="109"/>ad quem. Nunc autem dictum est quod in diuinis 
+      <lb ed="#P" n="110"/>manet terminus ad quem realiter quantum ad id 
+      <lb ed="#P" n="111"/>quod est, scilicet essentia communicata: non tamen 
+      <lb ed="#P" n="112"/>prporie &amp; stricte &amp; realiter loquedo manet qt antum 
+      <lb ed="#P" n="113"/>ad rationem eius quod est esse terminus ad quem, 
+      <lb ed="#P" n="114"/>quia ibi non est accessus proprie &amp; realiter ad 
+      <lb ed="#P" n="115"/>non habitum. Ratio autem aliorum probantium 
+      <lb ed="#P" n="116"/>essentiam esse terminum ad quem, quia est natura 
+      <lb ed="#P" n="117"/>communicata siue esse communicatum vel 
+      ha<lb ed="#P" n="118" break="no"/>bitum per generationem, non probat quod 
+      reali<lb ed="#P" n="119" break="no"/>ter &amp; proprie loquendo essentia habeat rationem 
+      <lb ed="#P" n="120"/>termini ad quem, quia habitum per generationem 
+      <lb ed="#P" n="121"/>vel aliam communicationem non habet realiter 
+      <lb ed="#P" n="122"/>&amp; proprie loquendo rationem termini ad quem 
+      <lb ed="#P" n="123"/>nisi cum quodam accessu ad prius non habitum. 
+      <lb ed="#P" n="124"/>Quod in diuinis secnndum rem locum non habet. 
+      <lb ed="#P" n="125"/>Bene tamen probat quod terminus generationis 
+      <lb ed="#P" n="126"/>manet ibi quantum ad illud quod est, quia est ibi 
+      <lb ed="#P" n="127"/>esse communicatum. 
+      </p>
+            <p xml:id="hx2hx3-b16673-d1e728">
+               <lb ed="#P" n="128"/>Ad rationem principalem factam dicunt quidam 
+      <lb ed="#P" n="129"/>quod generatio diuina fit modo refsero, qua 
+      <lb ed="#P" n="130"/>Pater generat intelligendo se: Sed haec troupha 
+      <lb ed="#P" n="131"/>est, quia licet actus essentiales refsectantur, actur 
+      <lb ed="#P" n="132"/>tamen notionales important tantum transitum 
+      <lb ed="#P" n="133"/>realem, sicut generare &amp; sperare non 
+      rellectun<lb ed="#P" n="134" break="no"/>tur. Et ideo aliter dicendum quod illud habet 
+      re<lb ed="#P" n="135" break="no"/>ritatem, scilicet quod quando idem est 
+      princi<lb ed="#P" n="136" break="no"/>pium &amp; terminus motus, quod est motus refserus: 
+      <lb ed="#P" n="137"/>loquendo de primo termino a quo incipit motus 
+      <lb ed="#P" n="138"/>qui est priuatio vel forma opposita. Non autem 
+      <lb ed="#P" n="139"/>oportet hoc concedere accipiendo principium 
+      ef<lb ed="#P" n="140" break="no"/>fectiuum; imo omnis motus vel magis generatia 
+      <!--54.xml-->
+      <pb ed="#P" n="54"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>vniuooa terminatur ad terminum eundem specie 
+      <lb ed="#P" n="2"/>eum tali principio. Quod autem idem numero sit 
+      <lb ed="#P" n="3"/>principium actiuum &amp; forma communicata 
+      pro<lb ed="#P" n="4" break="no"/>ducto, estsingulare in diuinis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

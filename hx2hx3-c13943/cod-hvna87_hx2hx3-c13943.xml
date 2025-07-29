@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="338"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c13943"><!-- l4d7q2 -->
+            <head xml:id="hx2hx3-c13943-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-c13943-Hd1e101" type="question-title">Utrum confirmatio faciat in anima alium caracterem distinctum a caractere baptismi</head>
+            <p xml:id="hx2hx3-c13943-d1e104">
+               <lb ed="#P" n="7"/>QVAASTIO SECVNDA.
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e109">
+               <lb ed="#P" n="8"/>SEcundo. Quaeritur de effectu confirmationis 
+      <lb ed="#P" n="9"/>vtrum confirmatio faciat in anima alium 
+      cha<lb ed="#P" n="10" break="no"/>racterem distinctum a charactere baptismi. Et 
+      <lb ed="#P" n="11"/>videtur quod non, quia character confertur in 
+      <lb ed="#P" n="12"/>hoc sacramento ad confitendum nomen Christi: 
+      <lb ed="#P" n="13"/>sed hoc facit character baptismalis, ergo 
+      chara<lb ed="#P" n="14" break="no"/>cter baptismalis &amp; confirmationis sunt idem. 
+      <lb ed="#P" n="15"/>Minor probatur, quia ad receptionem fidei 
+      fe<lb ed="#P" n="16" break="no"/>quitur debitum confitendi fidem: sed per 
+      bap<lb ed="#P" n="17" break="no"/>tismum recipimus fidem. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e133">
+               <lb ed="#P" n="18"/>Contra: diuersorum sacramentorum diuersi 
+      <lb ed="#P" n="19"/>sunt characteres. Sed confirmatio &amp; baptismus 
+      <lb ed="#P" n="20"/>sunt diuersa sacramenta. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e143">
+               <lb ed="#P" n="21"/>Respondeo, quod in hoc sacramento 
+      impri<lb ed="#P" n="22" break="no"/>mitur character diuersus a charactere baptiimi. 
+      <lb ed="#P" n="23"/>Quod imprimatur character probatur. Quaedam 
+      <lb ed="#P" n="24"/>enim sacramenta Ecclesiae ordinantur ad hoc, 
+      <lb ed="#P" n="25"/>quod homo sit bonus in se, sicut sunt poenitentia, 
+      <lb ed="#P" n="26"/>Eucharistia &amp; extrema vnctio. Qnaedam vero 
+      or<lb ed="#P" n="27" break="no"/>dinantur ad hoc, quod homo deputetur in 
+      Eccle<lb ed="#P" n="28" break="no"/>sia ad aliqua officia. Et hoc dupliciter: vno modo 
+      <lb ed="#P" n="29"/>actiue, vt patet de ordine qui confertur ad 
+      mini<lb ed="#P" n="30" break="no"/>strandum sacramenta Ecclesiastica, &amp; ad 
+      praedi<lb ed="#P" n="31" break="no"/>candum fidem Christi polulo. Alio modo pass 
+      <lb ed="#P" n="32"/>fiue sicut patet de baptismo in quo confertur 
+      po<lb ed="#P" n="33" break="no"/>tentia ad recipiendum quaedam sacramenta, per 
+      <lb ed="#P" n="34"/>quam etiam po entiam conuenit homini exercere 
+      <lb ed="#P" n="35"/>actus communes Christianae religionis. Ex his 
+      ar<lb ed="#P" n="36" break="no"/>guitur sic. Illud sacramentum in quo confertur 
+      <lb ed="#P" n="37"/>homini, quod deputetur ad aliquod officium in 
+      <lb ed="#P" n="38"/>communitate Christiana imprimitur character 
+      <lb ed="#P" n="39"/>qui est quaedam potestas spiritualis exercendi tale 
+      <lb ed="#P" n="40"/>officium, sicut fuit visum in principio capituli de 
+      <lb ed="#P" n="41"/>baptismo. Sed in confirmatione confertur talis 
+      <lb ed="#P" n="42"/>potestas ad confitendum nomen Christi. Ergo 
+      <lb ed="#P" n="43"/>confirmatio imprimit characterem Quod autem 
+      <lb ed="#P" n="44"/>imprimatur character alius a charactere, 
+      proba<lb ed="#P" n="45" break="no"/>tur, quia characteres qui sunt quaedam potentiae 
+      <lb ed="#P" n="46"/>spirituales quae sunt ad diuersos actus ad diuersa 
+      <lb ed="#P" n="47"/>officia exercenda, sunt diuersi, quia potentiae 
+      di<lb ed="#P" n="48" break="no"/>stinguntur per actus. Sed character baptismalis 
+      <lb ed="#P" n="49"/>&amp; confirmationis sunt huiusmodi. Ergo. &amp;c. Mi, 
+      <lb ed="#P" n="50"/>nor probatur, quia character baptismalis 
+      ordina<lb ed="#P" n="51" break="no"/>tur ad hoc quod recipiens ipsum sit passiue dispoa 
+      <lb ed="#P" n="52"/>situs ad suscipiendum omnia alia sacramenta: 
+      cha<lb ed="#P" n="53" break="no"/>racter vero confirmationis ordinatur ad hoc quod 
+      <lb ed="#P" n="54"/>recipiens possit coram aduersariis fidei intrepide 
+      <lb ed="#P" n="55"/>confiteri nomen Christi. Sed isti actus sunt 
+      di<lb ed="#P" n="56" break="no"/>uersi. Ergo, &amp;c. Est autem aduertendum, quod 
+      <lb ed="#P" n="57"/>character confirmationis praesupponit 
+      characte<lb ed="#P" n="58" break="no"/>rem baptismalem, intantum quod sine ipso nullo 
+      <lb ed="#P" n="59"/>modo confertur. Et hoc potest ostendi 
+      dupli<lb ed="#P" n="60" break="no"/>citer. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e232">
+               <lb ed="#P" n="61"/>Primo, quia sicut se habet habere vitam 
+      pet<lb ed="#P" n="62" break="no"/>fectam animati ad habere vitam sic se habet 
+      con<lb ed="#P" n="63" break="no"/>firmatio ad baptismum, quia per baptismum 
+      ha<lb ed="#P" n="64" break="no"/>betur primo &amp; per se vita sprititualis: per 
+      confir<lb ed="#P" n="65" break="no"/>mationem vero habetur confortatio talis vitae. Sed 
+      <lb ed="#P" n="66"/>habere vitam perfectam in animatis supponit 
+      <lb ed="#P" n="67"/>necessario habere vitam. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e250">
+               <lb ed="#P" n="68"/>Secundo, quia illa ad quae recipienda requi¬ 
+      <!--338.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>ritur potentia receptiua non possunt recipi, nec in 
+      <lb ed="#P" n="70"/>esse sine illa potentia, sicut impossibile est aliquid 
+      <lb ed="#P" n="71"/>figurari sine quantitaete quae est principium 
+      sus<lb ed="#P" n="72" break="no"/>ceptiuum figurae: sed character baptismalis est 
+      <lb ed="#P" n="73"/>potentia receptiua respectu omnium aliorum 
+      sa<lb ed="#P" n="74" break="no"/>cramentorum, ergo nullum sacramentum potest 
+      <lb ed="#P" n="75"/>recipi sine charactere baptismali praecedente. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e274">
+               <lb ed="#P" n="76"/>Sed quaeritur. Vtrum gratia gratum faciens 
+      <lb ed="#P" n="77"/>debet in hoc sacramento. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e281">
+               <lb ed="#P" n="78"/>Dicendum, quod sic, quia nunquam denouo 
+      <lb ed="#P" n="79"/>datur Spiritus sanctus ad effectum spiritualem 
+      <lb ed="#P" n="80"/>causandum in aliquo sine gratia gratum faciente, 
+      <lb ed="#P" n="81"/>vel eausando eam si non est, vel augendo si est. 
+      <lb ed="#P" n="82"/>Sed in hoc facramento datur Spiritus sanctus ad 
+      <lb ed="#P" n="83"/>plenitudinem &amp; ad robur. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e297">
+               <lb ed="#P" n="84"/>Sed quaeritur. Vtrum hoc sacramentum 
+      de<lb ed="#P" n="85" break="no"/>beat iterari. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e305">
+               <lb ed="#P" n="86"/>Dicendum, quod non, quia illud sacramentum 
+      <lb ed="#P" n="87"/>in quo confertur effectus proprius &amp; indelebilis 
+      <lb ed="#P" n="88"/>non debet iterari. Sed confirmatio est 
+      huius<lb ed="#P" n="89" break="no"/>modi, quia eius proprius effectus est indelebilis. 
+      <lb ed="#P" n="90"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e318">
+               <lb ed="#P" n="91"/>Iterum quaeritur. vtrum alius ab Episcopo 
+      <lb ed="#P" n="92"/>possit conferre hoc sacramentum. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e325">
+               <lb ed="#P" n="93"/>Distinguendum est, quia autem quaestio quaerit de 
+      <lb ed="#P" n="94"/>potestate ordinaria, aut commissaria. Si de 
+      or<lb ed="#P" n="95" break="no"/>dinaria sic solus Episcopus potest conferre hoc 
+      sa<lb ed="#P" n="96" break="no"/>cramentum. Cuius ratio est, quia illa quibus 
+      ali<lb ed="#P" n="97" break="no"/>quis deputatur ad aliquod officium communitatis 
+      <lb ed="#P" n="98"/>exercendum debent institui per principes 
+      com<lb ed="#P" n="99" break="no"/>munitatis licet sint minora alijs: sed per 
+      sacramen<lb ed="#P" n="100" break="no"/>tum confirmationis deputatur homo ad aliquod 
+      <lb ed="#P" n="101"/>officium plublicum exercendum in 
+      communita<lb ed="#P" n="102" break="no"/>te Christiana, cuius principes sunt soli Episcopi. Si 
+      <lb ed="#P" n="103"/>autem queratur de potestate commissaria. 
+      Dicen<lb ed="#P" n="104" break="no"/>dum, quod simplex Sacerdos potest hoc 
+      sacra<lb ed="#P" n="105" break="no"/>mentum conferte &amp; etiam minores ordines ex 
+      <lb ed="#P" n="106"/>commissione Domini Pape. Cuius ratio est quia 
+      <lb ed="#P" n="107"/>quecumque habet plenariam potestatem super 
+      <lb ed="#P" n="108"/>corpus Christi misticum habet potestatem 
+      plena<lb ed="#P" n="109" break="no"/>riam super ea quae respiciunt Corpus Christi 
+      misti<lb ed="#P" n="110" break="no"/>cum. Sed confirmatio respicit Corpus Christi 
+      misti<lb ed="#P" n="111" break="no"/>cum, quia ipsa fit quatenus miles Christi &amp; similiter 
+      <lb ed="#P" n="112"/>minores ordinus. Ergo Papa super talia 
+      sacramen<lb ed="#P" n="113" break="no"/>ta habet plenariam potestatem &amp; per consequens 
+      <lb ed="#P" n="114"/>potest committere simplici Sacerdoti. Non posset 
+      <lb ed="#P" n="115"/>autem committere simplici Sacerdoti quod 
+      con<lb ed="#P" n="116" break="no"/>ferret ordines maiores, quia non habet potestatem 
+      <lb ed="#P" n="117"/>Papa plenariam super Corpus Christi verum. 
+      Er<lb ed="#P" n="118" break="no"/>go, &amp;c. Sed quid faciat Papa in Sacerdote 
+      com<lb ed="#P" n="119" break="no"/>mittendo sibi talem potestatem vtrum nouum 
+      <lb ed="#P" n="120"/>characterem vel praeexistentis extensionem 
+      cha<lb ed="#P" n="121" break="no"/>racteris, vel aliquid aliud difficie est videre: sed 
+      <lb ed="#P" n="122"/>patebit infra determinando de ordine. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e393">
+               <lb ed="#P" n="123"/>Vlterius quaeritur. Vtrum hoc sacramentum 
+      <lb ed="#P" n="124"/>specialiter detur in fronte. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e400">
+               <lb ed="#P" n="125"/>Dicendum, quod inter caeteras corporis 
+      par<lb ed="#P" n="126" break="no"/>tes frons est magis in aperto existens &amp; 
+      propin<lb ed="#P" n="127" break="no"/>quior imagini, &amp; ideo magis apparent ibi signa 
+      <lb ed="#P" n="128"/>verecundiae &amp; timoris. Et ideo vt nec timore nec 
+      <lb ed="#P" n="129"/>verecundia dimittat confiteri nomen Christi 
+      eo<lb ed="#P" n="130" break="no"/>ram aduersariis fit aliis confirmatio in fronte. Et 
+      <lb ed="#P" n="131"/>de hoc ad praesens haec sufficiant. 
+      </p>
+            <p xml:id="hx2hx3-c13943-d1e418">
+               <lb ed="#P" n="132"/>Ad rationem in oppositum dicendum, quod 
+      <lb ed="#P" n="133"/>character baptismalis &amp; confirmationis 
+      confe<lb ed="#P" n="134" break="no"/>runtur ad confitendum nomen Christi, non 
+      eo<lb ed="#P" n="135" break="no"/>dem modo sed diuersis. Quia per characterem 
+      <lb ed="#P" n="136"/>confirmationis tenetur quis ex officio suo &amp; 
+      irre<lb ed="#P" n="137" break="no"/>quisitus confiteri nomen Christi, sicut miles ex 
+      <lb ed="#P" n="138"/>officio suo habet pugnare &amp; irrequisitus: sed per 
+      <!--339.xml-->
+      <pb ed="#P" n="339"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cuaradctem baptinnalem non vnctur 
+      bapuzi<lb ed="#P" n="2" break="no"/>tus confiteri nomen Christi ex officio irrequisitus, 
+      <lb ed="#P" n="3"/>nec tenetur se ingerere: sed si fuerit ab 
+      aduersa<lb ed="#P" n="4" break="no"/>riis fidei mortaliter quantum ad animam inuasus 
+      <lb ed="#P" n="5"/>potest repugnare, sicut rustitus &amp; si er officio suo 
+      <lb ed="#P" n="6"/>&amp; irrequisitus non habeat pugnare, inuasus 
+      ta<lb ed="#P" n="7" break="no"/>men potest pugnare. Et sic pater, quod vterque 
+      <lb ed="#P" n="8"/>character diuersimode ordinatur ad confitendum 
+      <lb ed="#P" n="9"/>nomen Christi, &amp; ideo sunt diuersi characteres. 
+      <lb ed="#P" n="10"/>Notandum tamen, quod confirmatio debet dari 
+      <lb ed="#P" n="11"/>omnibus cuiuscum que status, sexus, vel 
+      conditio<lb ed="#P" n="12" break="no"/>nis, vel aetatis existant, siue senes, siue paruuli, siue 
+      <lb ed="#P" n="13"/>mulieres. Quius ratio est, quia fortitudo 
+      spiritua<lb ed="#P" n="14" break="no"/>lis non respicit fortitudinem corporalem sed animi 
+      <lb ed="#P" n="15"/>fortitudinem &amp; promptitudinem. Sed talit 
+      for<lb ed="#P" n="16" break="no"/>titudo &amp; promptitudo potest esse in omnibus prae 
+      <lb ed="#P" n="17"/>dictis. Ergo, &amp;c. Ratio specialis quare debet 
+      <lb ed="#P" n="18"/>dari morientibus, est, quia sic ostendunt &amp;t 
+      asse<lb ed="#P" n="19" break="no"/>runt se velle nomen Christi publice confiteri &amp; 
+      <lb ed="#P" n="20"/>defendere contra inimicos fidei. Et tunc 
+      dece<lb ed="#P" n="21" break="no"/>dunt cum debito charactere vt milites Christi cum 
+      <lb ed="#P" n="22"/>clipeo eius. Notandum quod confirmatio est 
+      ba<lb ed="#P" n="23" break="no"/>ptismalis characteris cerroboratio. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="224"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b75022"><!-- l2d8q1 -->
+            <head xml:id="hx2hx3-b75022-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b75022-Hd1e101" type="question-title">Utrum angeli assumant corpora</head>
+            <p xml:id="hx2hx3-b75022-d1e104">
+      <!--224.xml-->
+               <pb ed="#P" n="224"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Assumunt autem aliquando corpora, Deo 
+      <lb ed="#P" n="2"/>preparante, ad impletionem mysterii 
+      <lb ed="#P" n="3"/>porar 
+      <lb ed="#P" n="4"/>sui a Deo inuncti, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e122">
+               <lb ed="#P" n="5"/>Distinctio octaua. 
+      <lb ed="#P" n="6"/>QVAESTIO PRIMA. 
+      <lb ed="#P" n="7"/>CIrca distinctionem octauam. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e131">
+               <lb ed="#P" n="8"/>Quaeritur, vtrum Angeli assumant corpora
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e137">
+               <lb ed="#P" n="9"/>Et arguitur quod non. Quia omnis 
+      assum<lb ed="#P" n="10" break="no"/>ptio, terminatur ad aliquam vnionem assumentis 
+      <lb ed="#P" n="11"/>&amp; assumpti. Sed non potest dari aliqua vnio ad 
+      <lb ed="#P" n="12"/>quam assumptio corporis quod dicitur Angelus 
+      as<lb ed="#P" n="13" break="no"/>sumere terminetur. Ergo, &amp;c Probatio 
+      mino<lb ed="#P" n="14" break="no"/>ris: quia aut illa vnio est formae ad materiam: &amp; 
+      <lb ed="#P" n="15"/>hoc non potest esse. Quia Angelus non est forma 
+      <lb ed="#P" n="16"/>corporis, aut motoris ad mobile. Et hoc non 
+      suf<lb ed="#P" n="17" break="no"/>ficit: quia tunc diceretur Angelus assumete 
+      om<lb ed="#P" n="18" break="no"/>ne corpus quod mouet, quod est falsum. Ergo non 
+      <lb ed="#P" n="19"/>contingit dare vnionem ad quam talis assumptio 
+      <lb ed="#P" n="20"/>terminetur. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e166">
+               <lb ed="#P" n="21"/>Praeterea illud corpus assumptum, aut 
+      forma<lb ed="#P" n="22" break="no"/>retur de igne, &amp; hoc non potest esse. Quia 
+      com<lb ed="#P" n="23" break="no"/>bureret circumstantia: nec posset colorari 
+      colo<lb ed="#P" n="24" break="no"/>ribus qui in illo apparent. Nec de terra, vel aqua: 
+      <lb ed="#P" n="25"/>quia non ita cito dissoluerentur, sicut illud 
+      disso<lb ed="#P" n="26" break="no"/>luitur, Nec de aere. Tum quia aer non potest 
+      <lb ed="#P" n="27"/>colorari, tum quia statim a vento dispergerentur. 
+      <lb ed="#P" n="28"/>Ergo nullo modo. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e186">
+               <lb ed="#P" n="29"/>Praeterea quod est vnitum corpori vt forma, 
+      <lb ed="#P" n="30"/>non assumit aliud corpus. Sed Angelus est 
+      vni<lb ed="#P" n="31" break="no"/>tus corpori vt forma. Ergo, &amp;c. Probatio 
+      mino<lb ed="#P" n="32" break="no"/>ri: quia melius est esse vitam in se, &amp; dare vitam 
+      al<lb ed="#P" n="33" break="no"/>teri, quam esse vitam in se, &amp; non dare vitam 
+      al<lb ed="#P" n="34" break="no"/>teri. Sed quod est nobilius, est attribuendum 
+      An<lb ed="#P" n="35" break="no"/>gelis. Ergo debet eis attribui dare vitam corpori. 
+      <lb ed="#P" n="36"/>Sed illud quod dat vitam corpori est foma 
+      corpo<lb ed="#P" n="37" break="no"/>ris. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e208">
+               <lb ed="#P" n="38"/>Contra. Quia Angeli dicuntur assumere 
+      cor<lb ed="#P" n="39" break="no"/>pora in quibus apparent. Sed ipsi apparent in 
+      qui<lb ed="#P" n="40" break="no"/>busdam corporibus. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e217">
+               <lb ed="#P" n="41"/>Respondeo. Hic sunt duo declaranda 
+      princi<lb ed="#P" n="42" break="no"/>paliter. 
+      <lb ed="#P" n="43"/>Primum est, vtrum Angeli habeant corpora 
+      <lb ed="#P" n="44"/>naturaliter vnita. 
+      <lb ed="#P" n="45"/>Secundum est, vtrum assumant alia corpora. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e230">
+               <lb ed="#P" n="46"/>ARTICVLVS PRIMVS.
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e236">
+               <lb ed="#P" n="47"/>Qvantum ad primum, dicendum quod 
+      An<lb ed="#P" n="48" break="no"/>gelos habere corpora naturaliter vnita, 
+      du<lb ed="#P" n="49" break="no"/>pliciter potest intelligi. Vno modo secundum 
+      <lb ed="#P" n="50"/>vnionem formae &amp; materiae: ita quod Angelus sit 
+      <lb ed="#P" n="51"/>forma corporis. Alio modo per modum mouentis 
+      <lb ed="#P" n="52"/>&amp; mobilis. Primo modo dicendum, quod 
+      Ange<lb ed="#P" n="53" break="no"/>lus non vnitur naturaliter corpori. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e254">
+               <lb ed="#P" n="54"/>Et hoc patet duplici ratione.
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e259">
+               <lb ed="#P" n="55"/>Prima talis est. Nulla natura nata est vniri 
+      <lb ed="#P" n="56"/>corpori vt forma, nisi indigeat corpore sibi sic 
+      vni<lb ed="#P" n="57" break="no"/>to vt exerceat aliquam operationem suam per 
+      ip<lb ed="#P" n="58" break="no"/>sum: nam materia est propter formam vt scilicet 
+      <lb ed="#P" n="59"/>forma possit habere operationes sibi 
+      conuenien<lb ed="#P" n="60" break="no"/>tes, &amp; eas exercere per materiam conuenientem, 
+      <lb ed="#P" n="61"/>vel in materia conuenienti, vt hic. Sed Angelus 
+      <lb ed="#P" n="62"/>non habet operationem aliquam propter quam 
+      <lb ed="#P" n="63"/>necesse habeat vniri corpori vt forma, vt eam per 
+      <!--224.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>corpus exerceat. Ergo, &amp;c. Maior patet. Minor 
+      <lb ed="#P" n="65"/>probatur. Quia Angelo non conuenit operatio, ni. 
+      <lb ed="#P" n="66"/>si intelligere, velle, &amp; corporaliter mouere 
+      locali<lb ed="#P" n="67" break="no"/>ter. Sed constat quod non indiget exercere 
+      opera<lb ed="#P" n="68" break="no"/>tionem intelligendi per corpus: quia operatio 
+      in<lb ed="#P" n="69" break="no"/>telligendi non exerceretur per organum 
+      corpo<lb ed="#P" n="70" break="no"/>reum. Nec etiam requiritur quod actus 
+      intelligen<lb ed="#P" n="71" break="no"/>di Angeli, dependeat a fantasmate corporeo sicut 
+      <lb ed="#P" n="72"/>ab obiecto: quia sic intelligere pertinet ad 
+      intel<lb ed="#P" n="73" break="no"/>lectum qui habet imperfectam naturam 
+      intelle<lb ed="#P" n="74" break="no"/>ctualitatis: &amp; ideo oportet quod sit coniunctus 
+      <lb ed="#P" n="75"/>cum sensu. Nec etiam propter velle indiget 
+      cor<lb ed="#P" n="76" break="no"/>pore: quia velle sequitur intelligere. Nec etiam 
+      <lb ed="#P" n="77"/>propter mouere corpora localiter Quia vt ad 
+      sen<lb ed="#P" n="78" break="no"/>sum patet aliquid potest mouere corpora localiter 
+      <lb ed="#P" n="79"/>quibus non coniungitur vt forma. Ergo Angelus 
+      <lb ed="#P" n="80"/>non habet operationem aliquam propter quam 
+      <lb ed="#P" n="81"/>exercendam necesse sit ipsum vniri corpori vt 
+      for<lb ed="#P" n="82" break="no"/>mam, &amp; sic patet minor. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e327">
+               <lb ed="#P" n="83"/>Secunda ratio est. Quia si natura Angelica est 
+      <lb ed="#P" n="84"/>vnita corpori vt forma, tunc Angelus diceret 
+      ali<lb ed="#P" n="85" break="no"/>quam rem corpoream sicut homo, nisi quod 
+      habe<lb ed="#P" n="86" break="no"/>bit subtilius corpus. Sed hoc est impossibile. Ergo 
+      <lb ed="#P" n="87"/>&amp;c. Probatio minoris: quia impossibile est per 
+      <lb ed="#P" n="88"/>naturam duo corpora esse simul. Sed naturaliter 
+      <lb ed="#P" n="89"/>Angelus est simul cum corpore alio sine aliquo 
+      mi<lb ed="#P" n="90" break="no"/>raculo: sicut patet de Daemoniacis. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e347">
+               <lb ed="#P" n="91"/>Et si dicas quod corpus eius propter 
+      subtilita<lb ed="#P" n="92" break="no"/>tem potest esse cum alio, nihil est dictu. Quia sola 
+      <lb ed="#P" n="93"/>quantitas est quae facit quod duo corpora non sunt 
+      si<lb ed="#P" n="94" break="no"/>mul ita quod vnum non cedit alteri. Sed nulla 
+      subti<lb ed="#P" n="95" break="no"/>litas potest tollere a corpore quantitatem, nisi 
+      cor<lb ed="#P" n="96" break="no"/>pus dicatur aequiuoce. Ergo nulla subtilitas potest 
+      <lb ed="#P" n="97"/>dari corporibus quod possint esse simul. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e365">
+               <lb ed="#P" n="98"/>Si autem quaeratur, vtrum Angelus naturaliter 
+      <lb ed="#P" n="99"/>vniatur corpori vt motor mobili. Distinguo: quia 
+      <lb ed="#P" n="100"/>aut per vniri naturaliter vt motor mobili, 
+      intelligi<lb ed="#P" n="101" break="no"/>tur quod in natura sua habeat, &amp; ex sua aptitudine 
+      <lb ed="#P" n="102"/>naturali quod possit mouere corput hoc, vel illud, 
+      <lb ed="#P" n="103"/>&amp; per consequens vniri vt motor huic corpori vel 
+      <lb ed="#P" n="104"/>illi adico quod sic. Quia saltem quantum ad ista 
+      <lb ed="#P" n="105"/>corpora inferiora, quicquid sit de caelestibus 
+      cor<lb ed="#P" n="106" break="no"/>poribus, habet aptitudinem quod possit mouere 
+      <lb ed="#P" n="107"/>hoc corpus, vel illud. Alio modo potest intelligi, 
+      <lb ed="#P" n="108"/>quod Angelus vniatur naturaliter alicui corpori, vt 
+      <lb ed="#P" n="109"/>motor mobili: sic quod ex sua natura est 
+      determi<lb ed="#P" n="110" break="no"/>natus ad mouendum hoc corpus: ita quod non 
+      po<lb ed="#P" n="111" break="no"/>test mouere alia immediate, nec nisi mediante isto 
+      <lb ed="#P" n="112"/>sicut ponunt philosophi de motoribus corporum 
+      <lb ed="#P" n="113"/>caelestium. Et dico, quod non, saltem quantum ad 
+      <lb ed="#P" n="114"/>corpora ista inferiora: Quia virtus cuiussibet 
+      Ange<lb ed="#P" n="115" break="no"/>li excedit motionem immediatam cuiussibet 
+      cor<lb ed="#P" n="116" break="no"/>poris inferioris accepti in determinata quantitate. 
+      <lb ed="#P" n="117"/>Vnde immediate potest mouere hoc vel illud, sicut 
+      <lb ed="#P" n="118"/>placet sibi. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e414">
+               <lb ed="#P" n="119"/>Quomodo autem sit de hoc quantum ad motores 
+      <lb ed="#P" n="120"/>corporum supercaelestium apparebit infra, 
+      quan<lb ed="#P" n="121" break="no"/>do quaeretur de motu corporum caelestium. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e423">
+               <lb ed="#P" n="122"/>ARTICVLVS SECVNDVS.
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e428">
+               <lb ed="#P" n="123"/>Qvantum ad secundum sciendum quod 
+      qui<lb ed="#P" n="124" break="no"/>dam posuerunt Angelos nunquam assumere 
+      <lb ed="#P" n="125"/>corpora, dicentes quod apparitiones secundum 
+      <lb ed="#P" n="126"/>quas apparent Angeli hominibus, non est per hoc 
+      <lb ed="#P" n="127"/>quod aliquod corpus extrinsecus formetur: sed per 
+      <lb ed="#P" n="128"/>hoc quod virture Angeli humores &amp; simulachra 
+      <lb ed="#P" n="129"/>quae sunt in memoria, reducuntur ad sensum 
+      com<lb ed="#P" n="130" break="no"/>munem, &amp; eum mouent, &amp; sic faciunt apparere 
+      <lb ed="#P" n="131"/>vel hominem, vel leonem, vel aliquid aliud: sicut 
+      <!--225.xml-->
+      <pb ed="#P" n="225"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>etiam apparet propter talem motum humorum 
+      <lb ed="#P" n="2"/>freneticlo aliquod corpus, cum tamen nihil sit 
+      ex<lb ed="#P" n="3" break="no"/>trinsecus. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e463">
+               <lb ed="#P" n="4"/>Sed istud non videtur probabile. Quia illud quod 
+      <lb ed="#P" n="5"/>apparet alicui propter talem motionem factam in 
+      <lb ed="#P" n="6"/>fantasia, siue in sensu communi soli illi videtur, &amp; 
+      <lb ed="#P" n="7"/>non alii: sicut patet, quod illud quod videtur 
+      fre<lb ed="#P" n="8" break="no"/>netico non videtur circumstantibus. Sed quaedam 
+      <lb ed="#P" n="9"/>apparitiones factae sunt frequenter, in quibus 
+      om<lb ed="#P" n="10" break="no"/>nibus qui aderant, &amp; qui superueniebant, 
+      appare<lb ed="#P" n="11" break="no"/>bant Angeli in specie corporali, siue in specie 
+      hu<lb ed="#P" n="12" break="no"/>mana. Ergo talis apparitio non fiebat per hoc quod 
+      <lb ed="#P" n="13"/>mouerentur fantasmata a talibus humoribus, vel 
+      <lb ed="#P" n="14"/>simulachris, sed per hoc quod aliquod corpus 
+      ex<lb ed="#P" n="15" break="no"/>terius formabatur, quod ab omnibus poterat 
+      vi<lb ed="#P" n="16" break="no"/>deri. Nec est verisimile quod hoc fieret per 
+      mo<lb ed="#P" n="17" break="no"/>tiones tot fantasmatum hominum: cum hoc 
+      con<lb ed="#P" n="18" break="no"/>uenientius fieret per formationem vnius corporis 
+      <lb ed="#P" n="19"/>extrinsecus omnibus apparens. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e500">
+               <lb ed="#P" n="20"/>Et ideo dicendum est aliter quod assumant 
+      cor<lb ed="#P" n="21" break="no"/>pora. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e507">
+               <lb ed="#P" n="22"/>Ad cuius euidentiam sciendum, quod Angelus 
+      <lb ed="#P" n="23"/>non dicitur assumere corpus ex hoc ipso quod 
+      mo<lb ed="#P" n="24" break="no"/>uet, sicut fuit tactum in opponendo: Sed 
+      quen<lb ed="#P" n="25" break="no"/>do aliquod corpus format ad se repraesentandum, 
+      <lb ed="#P" n="26"/>ita quod corpus quasi vicem Angeli gerat. Vnde 
+      <lb ed="#P" n="27"/>&amp; Angelus nominatur: &amp; illo viso dicitur Angelus 
+      <lb ed="#P" n="28"/>videri. Quia ad includendum in hoc quod 
+      Ange<lb ed="#P" n="29" break="no"/>lus repraesentetur in illo corpore, formatur illud 
+      <lb ed="#P" n="30"/>corpus: tunc dicitur corpus assumere. Hoc autem 
+      <lb ed="#P" n="31"/>frequenter factum est. Et ideo dicendum quod 
+      <lb ed="#P" n="32"/>Angeli corpora assumunt praedicto modo. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e534">
+               <lb ed="#P" n="33"/>Ad primum ergo in oppositum dicendum, quod 
+      <lb ed="#P" n="34"/>illa assumptio non terminatur ad vnionem quae 
+      <lb ed="#P" n="35"/>sit formae &amp; materiae, nec quae sit tantum motoris &amp; 
+      <lb ed="#P" n="36"/>mobilis: sed quae super vnionem motoris &amp; 
+      mo<lb ed="#P" n="37" break="no"/>bilis, addit vnionem repraesentati, &amp; 
+      repraesentan<lb ed="#P" n="38" break="no"/>tis: ita quod corpus repraesentans gerat quasi 
+      perso<lb ed="#P" n="39" break="no"/>nam Angeli. Et hoc non inuenitur in quolibet 
+      cor<lb ed="#P" n="40" break="no"/>pore moto ab Angelo. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e554">
+               <lb ed="#P" n="41"/>Ad secundum dicendum, quod illud corpus 
+      <lb ed="#P" n="42"/>non formatur de igne, nec de aqua, nec de terra; sed 
+      <lb ed="#P" n="43"/>de aere inspissato quantum sufficit ad 
+      generan<lb ed="#P" n="44" break="no"/>dum colores, ad repraesentandum membra &amp; 
+      par<lb ed="#P" n="45" break="no"/>tes illius corporis quod apparet: ita quod manet 
+      <lb ed="#P" n="46"/>substantia aeris, licet sit cum qualitate extranea, 
+      <lb ed="#P" n="47"/>scilicet cum tali inspissatione &amp; coloratione, &amp; 
+      il<lb ed="#P" n="48" break="no"/>lud corpus est aereum, &amp; aer est facilis diuisionis 
+      <lb ed="#P" n="49"/>&amp; vnionis. Inde est quod illud corpus quamuis a 
+      <lb ed="#P" n="50"/>quibusdam transverberaretur gladio, tamen 
+      sta<lb ed="#P" n="51" break="no"/>tim apparet integrum sicut prius. 
+      </p>
+            <p xml:id="hx2hx3-b75022-d1e580">
+               <lb ed="#P" n="52"/>Ad tertium dicendum, quod natura Angelica 
+      <lb ed="#P" n="53"/>non vnitur corpori vt forma. Et ad probationem, 
+      <lb ed="#P" n="54"/>dicendum quod esse vitam in se, &amp; dare vitam 
+      al<lb ed="#P" n="55" break="no"/>teri formaliter: non est nobilius quam esse vitam 
+      <lb ed="#P" n="56"/>in se, &amp; non dare vitam alteri formaliter. Nam 
+      <lb ed="#P" n="57"/>nobilius est esse formam in se subsistentem: quam 
+      <lb ed="#P" n="58"/>esse formam inexistentem alteri. Sed esse vitam 
+      <lb ed="#P" n="59"/>in se subsistentem, &amp; dare vitam alteri effectiue 
+      <lb ed="#P" n="60"/>esset nobilius: quam esse vitam in se &amp; non posse 
+      <lb ed="#P" n="61"/>dare vitam effectiue. Illud quod vnitur corpori vt 
+      <lb ed="#P" n="62"/>forma non dat esse viuum effectiue: sed formaliter. 
+      <lb ed="#P" n="63"/>Et ideo ratio non sequitur. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

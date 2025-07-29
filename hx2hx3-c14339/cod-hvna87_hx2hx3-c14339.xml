@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="339"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c14339"><!-- l4d8q1 -->
+            <head xml:id="hx2hx3-c14339-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-c14339-Hd1e101" type="question-title">Utrum haec sit forma huius sacramenti hoc est corpus meum, 
+      quia li enim non est de necessitate huius sacramenti, sed de institutione ecclesiae</head>
+            <p xml:id="hx2hx3-c14339-d1e104">
+               <lb ed="#P" n="24"/>De forma. 
+      <lb ed="#P" n="25"/>Forma vero est quam ipse ibidem edidtt 
+      di<lb ed="#P" n="26" break="no"/>cens: Hoc est Corpus meum. Et post, 
+      <lb ed="#P" n="27"/>ctic ost Sanguis menae noni teffamtnti. 
+      <lb ed="#P" n="28"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e117">
+               <lb ed="#P" n="29"/>Distinctio octaua. 
+      <lb ed="#P" n="30"/>QVAESTIO PRIMA 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e124">
+               <lb ed="#P" n="31"/>CIrca distinctionem octauam, in qua incipit 
+      <lb ed="#P" n="32"/>tractatus de sacramento altaris primo 
+      quae<lb ed="#P" n="33" break="no"/>ritur de essentialibus huius sacramenti. Et primo 
+      <lb ed="#P" n="34"/>vtrum haec sit forma huius sacramenti, hoc est 
+      cor<lb ed="#P" n="35" break="no"/>pus meum, quia Iy enim non est de necessitate 
+      hu<lb ed="#P" n="36" break="no"/>ius sacramenti: sed de institutione Ecclesiae. 
+    </p>
+            <p xml:id="hx2hx3-c14339-d1e141">
+      Et 
+      <lb ed="#P" n="37"/>arguitur, quod non etiam alia verba, quia illud 
+      <lb ed="#P" n="38"/>quod Christus protulit post consecrationem 
+      sa<lb ed="#P" n="39" break="no"/>cramenti non sunt forma sacramenti. Sed 
+      Chii<lb ed="#P" n="40" break="no"/>stus protulit dicta verba post consecrationem 
+      hu<lb ed="#P" n="41" break="no"/>ius sacramenti. Ergo, &amp;c: Patet maior. Minor 
+      <lb ed="#P" n="42"/>probatur, quia Matth. 2c. dicitur, accepit Iesus 
+      <lb ed="#P" n="43"/>panem &amp; benedixit ac fregit deditque dicipulis 
+      <lb ed="#P" n="44"/>suis &amp; ait. Accipete &amp; comedite, hoc est corpus 
+      <lb ed="#P" n="45"/>meum. Ex hoc arguitur sic, quia quod 
+      concomi<lb ed="#P" n="46" break="no"/>tatur comestionem sacramenti est post 
+      consecra<lb ed="#P" n="47" break="no"/>tionem sacramenti: sed dicta verba sequuntur 
+      <lb ed="#P" n="48"/>manducationem sacramenti, quia Christus dixit 
+      <lb ed="#P" n="49"/>haec verba dum comedebant Apostoli: ergo 
+      di<lb ed="#P" n="50" break="no"/>cta verba protulit Christus post consecrationem 
+      <lb ed="#P" n="51"/>huius sacramenti. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e176">
+               <lb ed="#P" n="52"/>Praeterea, sola forma sacramenti efficit 
+      sacra<lb ed="#P" n="53" break="no"/>mentum. Sed ista verba non possunt efficere hoc 
+      <lb ed="#P" n="54"/>sacramentum. Ergo, &amp;c. Probatur minor, quia 
+      <lb ed="#P" n="55"/>proferene praemissa verba aut profert ea 
+      inperso<lb ed="#P" n="56" break="no"/>na propria, aut in persona Christi. Non in 
+      per<lb ed="#P" n="57" break="no"/>sona propria, quia panis non conuertitur 
+      incor<lb ed="#P" n="58" break="no"/>pus eius. Nec in persona Christi, quia nihil 
+      prae<lb ed="#P" n="59" break="no"/>cedit dicta verba per quod denotetur quod 
+      profe<lb ed="#P" n="60" break="no"/>tantur in persona Christi. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e198">
+               <lb ed="#P" n="61"/>Praeterea, arguitur fic, ly hoc aut demonstrat 
+      <lb ed="#P" n="62"/>substantiam panis, aut accidentia, aut 
+      substan<lb ed="#P" n="63" break="no"/>tiam Corporis Christi. Non substantiam panis, 
+      <!--339.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>quia tune sensus esset hie panitest corpuicurni 
+      <lb ed="#P" n="65"/>quod est falsum. Nec etiam demonstrat 
+      acciden<lb ed="#P" n="66" break="no"/>tia, quia tunc esset sensus quod quantitas 
+      rema<lb ed="#P" n="67" break="no"/>nens esset Corpus Christi, vel alia accidentia, quod 
+      <lb ed="#P" n="68"/>falsum est. Nec etiam demonstrat Corpus 
+      Chri<lb ed="#P" n="69" break="no"/>sti, quia haec demonstratio est antequam 
+      finian<lb ed="#P" n="70" break="no"/>tur verba: sed Corpus Christi non est ibi 
+      ante<lb ed="#P" n="71" break="no"/>quam finiantur verba. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e229">
+               <lb ed="#P" n="72"/>Praeterea, quando dicitur, Hoc est Corpus 
+      <lb ed="#P" n="73"/>meum, aut sumitur hoc recitatiue recitando fad a 
+      <lb ed="#P" n="74"/>Christi: ita quod non sit demonstratio ad aliquid 
+      <lb ed="#P" n="75"/>praesens, sed recitatur dictum alterius, aut 
+      sumi<lb ed="#P" n="76" break="no"/>tur exercitatiue. Si primo modo non refentur ad 
+      <lb ed="#P" n="77"/>hostiam praesentem, sicut si dicerem Qullielmus 
+      <lb ed="#P" n="78"/>heri dixit hoc est super tunicale meum, &amp; sic per 
+      <lb ed="#P" n="79"/>haec verba nihil consecratur. Si secundo modo 
+      <lb ed="#P" n="80"/>sic repraesentaret substantiam propriam. Et 
+      signi<lb ed="#P" n="81" break="no"/>ficaret quod illa substantia conuerteretur in 
+      sub<lb ed="#P" n="82" break="no"/>stantiam suam, quod est falsum. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e255">
+               <lb ed="#P" n="83"/>Praeterea, illa verba deberent sipnificare, quod 
+      <lb ed="#P" n="84"/>fit per sacramentum. Sed per hoc sacramentum 
+      <lb ed="#P" n="85"/>fit transubstantiatio panis in Corpus Christi 
+      Er<lb ed="#P" n="86" break="no"/>go illa verba sacramentalia debent significare 
+      <lb ed="#P" n="87"/>hanc transubstantiationem. Sed hoc verbum hoc 
+      <lb ed="#P" n="88"/>non significat illud. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e271">
+               <lb ed="#P" n="89"/>Praeterea, Io. &amp; dicitur, cato mea vere est 
+      ci<lb ed="#P" n="90" break="no"/>bus, sed ibi saluator loquitur de seipso: ergo cum 
+      <lb ed="#P" n="91"/>Eucharistia sit quaedam cibatio spiritualis, debuit 
+      <lb ed="#P" n="92"/>dici, haec est caro mea, &amp; non hoc est Corpur 
+      <lb ed="#P" n="93"/>meum. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e285">
+               <lb ed="#P" n="94"/>Sed contrarium dicit Magister inlittera. 
+      <lb ed="#P" n="95"/>Respondeo, Dicendum, circa hoc sunt 
+      qua<lb ed="#P" n="96" break="no"/>tuor facienda. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e294">
+               <lb ed="#P" n="97"/>Primo, ostendendum est, quod istud est 
+      sacra<lb ed="#P" n="98" break="no"/>mentum. 
+      <lb ed="#P" n="99"/>Secundo, quod est vnum faeramentum. 
+      <lb ed="#P" n="100"/>Tertio, quod conueniens fuit ipsum institui. 
+      <lb ed="#P" n="101"/>Quarto, de forma eius. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e307">
+               <lb ed="#P" n="102"/>ARTICVLVS PRIMVS.
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e312">
+               <lb ed="#P" n="103"/>AD euidentiam primi, sciendum quod sicut 
+      <lb ed="#P" n="104"/>sepe dictum est, sacramentum proprie 
+      di<lb ed="#P" n="105" break="no"/>ctum respicit directe sanctificationem &amp; sanctia 
+      <lb ed="#P" n="106"/>tatem proprie dictam, &amp; proprer hoc in illis 
+      quo<lb ed="#P" n="107" break="no"/>rum consecratio non importat sanctitatem pro 
+      <lb ed="#P" n="108"/>prie dictam, non est sacramentum proprie 
+      di<lb ed="#P" n="109" break="no"/>ctum: sed est aliquid sacramentale, sicut 
+      inbene<lb ed="#P" n="110" break="no"/>dictione olei &amp; crismatis, vel calicis, vel alicuius 
+      <lb ed="#P" n="111"/>talis. Sed si virtute verborum fieret in calice, vel 
+      <lb ed="#P" n="112"/>in oleo aliquid per quod contineretur sanctitas ibi 
+      <lb ed="#P" n="113"/>proprie dicta, in ipsa consecratione talis rei 
+      fie<lb ed="#P" n="114" break="no"/>ret proprie sacramentum. Nunc autem ita est 
+      <lb ed="#P" n="115"/>quod in isto sacramento fit conuersio panis in 
+      <lb ed="#P" n="116"/>Corpus Christi. Et per consequens est ibi Christus 
+      <lb ed="#P" n="117"/>totus in quo vere est sanctitas. Vnde ex vi 
+      verbo<lb ed="#P" n="118" break="no"/>rum efficitur, quod ille continetur sub hostia in 
+      <lb ed="#P" n="119"/>quo est vere sanctitas. Ex iis potest ostendi, quod 
+      <lb ed="#P" n="120"/>id est vere &amp; proprie sacramentum, &amp; quod 
+      com<lb ed="#P" n="121" break="no"/>pletur in consecratione hostiae: quia vbicumque 
+      <lb ed="#P" n="122"/>virtute verborum sub signo sensibili continetur 
+      il<lb ed="#P" n="123" break="no"/>lud quod est sanctitas proprie dicta, ibi est 
+      sacra<lb ed="#P" n="124" break="no"/>mentum proprie dictum. Sed hoc fit in isto 
+      sa<lb ed="#P" n="125" break="no"/>cramento. Ergo, &amp;c. Ex hoc etiam paret 
+      quae<lb ed="#P" n="126" break="no"/>dam differentia huius sacramenti ad alia, quia 
+      ra<lb ed="#P" n="127" break="no"/>tio huius sacramenti completur in consecratione 
+      <lb ed="#P" n="128"/>ipsius materiae, scilicet hostiae. In aliis autem mn 
+      <lb ed="#P" n="129"/>applicatione sacramenti ad hominem est propne 
+      <lb ed="#P" n="130"/>sacramentum, &amp; non in sanctificatione ipsius 
+      ma<lb ed="#P" n="131" break="no"/>teriae. Cuius ratio potest patere ex dictis, quia in 
+      <!--340.xml-->
+      <pb ed="#P" n="340"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>aliis sacramenris exvi verborum quibus fit 
+      sacra<lb ed="#P" n="2" break="no"/>mentum non est in illa materia sanctitas proprie 
+      <lb ed="#P" n="3"/>dicta, in conseeratione autem hostiae est aliter, 
+      si<lb ed="#P" n="4" break="no"/>cut iam patet. Et ideo antequam applicetur 
+      ho<lb ed="#P" n="5" break="no"/>stia ad hominem habet perfecte rationem 
+      sacra<lb ed="#P" n="6" break="no"/>menti: sed materia aliorum sacramentorum in 
+      <lb ed="#P" n="7"/>quibus non est sanctitas proprie dicta, non habet 
+      <lb ed="#P" n="8"/>rationem sacramenti, sed vsus eius applicatur ad 
+      <lb ed="#P" n="9"/>sanctificandum hominem in quo est sanctitas 
+      pro<lb ed="#P" n="10" break="no"/>prie dicta. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e405">
+               <lb ed="#P" n="11"/>ARTICVLVS SECVNDVS.
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e410">
+               <lb ed="#P" n="12"/>Qvantum ad secundum videndum est, vtrum 
+      <lb ed="#P" n="13"/>uoc sacramentumuit vnum¬ 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e418">
+               <lb ed="#P" n="14"/>Ad cuius euidentiam, est sciendum quod 
+      v<lb ed="#P" n="15" break="no"/>num dicitur multipliciter. Vno modo dicitur vnum 
+      <lb ed="#P" n="16"/>indiuisibilitate sicut, punctus. Alio modo, dicitur 
+      <lb ed="#P" n="17"/>vnum continuitate sicut linea. Tertio modo 
+      per<lb ed="#P" n="18" break="no"/>fectione, sicut vna tota domus. Printo &amp; 
+      secun<lb ed="#P" n="19" break="no"/>do, non dicitur istud sacramentum vnum, sed 
+      <lb ed="#P" n="20"/>tertio modo inquantum dicit vnam perfectam 
+      <lb ed="#P" n="21"/>refectionem spiritualem. Et illud quod dicitur 
+      <lb ed="#P" n="22"/>vnum isto tertio modo, non dicit ita vnum quin 
+      <lb ed="#P" n="23"/>comprehendat plura &amp; diuersa, sicut domus non 
+      <lb ed="#P" n="24"/>est aliquod vnum quod sit vnus lapis, vel vnum 
+      li<lb ed="#P" n="25" break="no"/>gnum: sed est aliquod comprehendens haec 
+      plu<lb ed="#P" n="26" break="no"/>ra. Et similiter refectio non est solum cibus vel 
+      <lb ed="#P" n="27"/>potus, sed est aliquid comprehendens haec duo. 
+      <lb ed="#P" n="28"/>Ex hoc potest formari ratio talis sic. Vnum 
+      sacra<lb ed="#P" n="29" break="no"/>mentum dicitur illud quod ordinatur ad vnum 
+      <lb ed="#P" n="30"/>effectum perfectum spiritualem: sed totum illud 
+      <lb ed="#P" n="31"/>sacramentum ordinatur ad vnum talem effectum. 
+      <lb ed="#P" n="32"/>Ergo, &amp;c. Minor probatur, quia Corpus Christi 
+      <lb ed="#P" n="33"/>quod continetur hic per modum cibi, &amp; Sanguis 
+      <lb ed="#P" n="34"/>eius qui continetur per modum potus, ordinantur 
+      <lb ed="#P" n="35"/>ad vnam spiritualem refectionem, sicut cibus &amp; 
+      <lb ed="#P" n="36"/>potus ad vnam corporalem. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e470">
+               <lb ed="#P" n="37"/>ARTICVLVS TERTIVS. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e475">
+               <lb ed="#P" n="38"/>Qvantum ad tertium dicendum, quod 
+      con<lb ed="#P" n="39" break="no"/>ueniens fuit istud sacramentum institui. Et 
+      <lb ed="#P" n="40"/>ratio huius duplex assignatur. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e484">
+               <lb ed="#P" n="41"/>PRrima, quia conueniens fuit, quod Christus 
+      <lb ed="#P" n="42"/>vniretur nobis non solum mediantibus 
+      quibus<lb ed="#P" n="43" break="no"/>dam instrumentis &amp; exterius applicatis: sed etiam 
+      <lb ed="#P" n="44"/>quod ipse in se realiter nobis vniretur &amp; nos sibi 
+      <lb ed="#P" n="45"/>vniret. Sed hoc fit per istud sacramentum. Ergo, 
+      <lb ed="#P" n="46"/>&amp;c. Minor probatur, quia nihil realiter &amp; intranee 
+      <lb ed="#P" n="47"/>vnitur nobis nisi quod vnitur per modum 
+      alimen<lb ed="#P" n="48" break="no"/>ti, per modum, scilicet cibi &amp; potus, &amp; non in 
+      <lb ed="#P" n="49"/>aliquo alio. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e506">
+               <lb ed="#P" n="50"/>Secunda ratio talis est. Sicut in vita corporali 
+      <lb ed="#P" n="51"/>praeter communicationem naturae quae fit per 
+      ge<lb ed="#P" n="52" break="no"/>nerationem, &amp; praeter perfectae virtutis 
+      adeptio<lb ed="#P" n="53" break="no"/>nem quae fit per augumentum, requiritur 
+      nutri<lb ed="#P" n="54" break="no"/>mentum quod conseruet vtrumque. Ergo a 
+      simi<lb ed="#P" n="55" break="no"/>li in vita spitituali praeter communicationem vitae 
+      <lb ed="#P" n="56"/>quae fit in generatione spirituali quae est baptismus 
+      <lb ed="#P" n="57"/>&amp; praeter collationem perfectae virtutis quae fit in 
+      <lb ed="#P" n="58"/>confirmatione, requiritur aliquod sacramentum 
+      <lb ed="#P" n="59"/>qua si per modum nutrimenti conseruantis ista. 
+      <lb ed="#P" n="60"/>Sed tale est Eucharistia. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e532">
+               <lb ed="#P" n="61"/>ARTICVLVS QVARTVS.
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e538">
+               <lb ed="#P" n="62"/>Qvantum ad quartum, primo ostendendum 
+      <lb ed="#P" n="63"/>est quod forma verborum, scilicet, hoc est 
+      <lb ed="#P" n="64"/>corpus meum, est conueniens. 
+      <!--340.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>Secundo, quod conueniens est quod aliqua 
+      <lb ed="#P" n="66"/>verba praecedant dictam formam. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e556">
+               <lb ed="#P" n="67"/>Primum patet breuiratione sic. Quia illa 
+      for<lb ed="#P" n="68" break="no"/>ma est conueniens quae signi ficat effectum 
+      sacra<lb ed="#P" n="69" break="no"/>menti. Sed praedicta forma communiter significat 
+      <lb ed="#P" n="70"/>effectum sacramenti. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e567">
+               <lb ed="#P" n="71"/>Ad euidentiam minoris est sciendum quod 
+      <lb ed="#P" n="72"/>virtute dictorum verborum fit transubstantiatio 
+      <lb ed="#P" n="73"/>panis in Corpus Christi manentibus accidentibus. 
+      <lb ed="#P" n="74"/>Vndo tria est ibi considerare, scilicet ipsam 
+      con<lb ed="#P" n="75" break="no"/>uersionem &amp; terminum a quo, scilicet panem &amp; 
+      <lb ed="#P" n="76"/>terminum ad quem, scilicet Corpus Christi. His 
+      <lb ed="#P" n="77"/>suppositis formatur talis ratio. Illa verba 
+      conue<lb ed="#P" n="78" break="no"/>nienter significant effectum sacramenti istius quae 
+      <lb ed="#P" n="79"/>conuenienter significant ipsam conuersionem &amp; 
+      <lb ed="#P" n="80"/>terminum a quo &amp; terminum ad quem. Sed 
+      prae<lb ed="#P" n="81" break="no"/>dicta sunt huiusmodi Ergo, &amp;c. Maior patet ex 
+      <lb ed="#P" n="82"/>dictis. Minor declaratur quantum ad tria quae 
+      as<lb ed="#P" n="83" break="no"/>sumit. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e598">
+               <lb ed="#P" n="84"/>Primo, quantum ad hoc quod conuenienter 
+      <lb ed="#P" n="85"/>fignificatur ista conuersio. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e605">
+               <lb ed="#P" n="86"/>Ad cuius euidentiam est sciendum, quod in 
+      <lb ed="#P" n="87"/>omni transmutatione agens magis intendit 
+      fa<lb ed="#P" n="88" break="no"/>ctum quam fieri. Et ideo illud quod significat 
+      <lb ed="#P" n="89"/>rem in facto esse, magis significat intentionem 
+      a<lb ed="#P" n="90" break="no"/>gentis quam illud quod significat eam in fieri, &amp; 
+      <lb ed="#P" n="91"/>magis etiam significat illud quod intenditur. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e621">
+               <lb ed="#P" n="92"/>Vlterius sciendum, quod in mutationibus 
+      in<lb ed="#P" n="93" break="no"/>stantaneis simul est fieri &amp; factum esse, &amp; ideo in 
+      <lb ed="#P" n="94"/>talibus factionibus ipsum fieri vel ipsa conuersio 
+      <lb ed="#P" n="95"/>conuenientius significatur vt in ipso esse quam vt 
+      <lb ed="#P" n="96"/>in fieri, quia in hoc differt ab aliis, in quibus non 
+      <lb ed="#P" n="97"/>est simul fieri &amp; factum esse. In sacramentis etiam 
+      <lb ed="#P" n="98"/>illud debet praecise significare, quod debet agens 
+      <lb ed="#P" n="99"/>intendere in effectum sacramenti. Ex hoc potest 
+      <lb ed="#P" n="100"/>formari talis ratio. Illa verba quae significant 
+      il<lb ed="#P" n="101" break="no"/>Iam conuersionem in facto esse conuenienter eam 
+      <lb ed="#P" n="102"/>significant, &amp; conuenientius quam illa quae 
+      signi<lb ed="#P" n="103" break="no"/>ficant ipsam in fieri. Sed verba praedicta 
+      signifi<lb ed="#P" n="104" break="no"/>cant ipsam in facto esse, quia significant Corpus 
+      <lb ed="#P" n="105"/>Christi, vt existens. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e655">
+               <lb ed="#P" n="106"/>Secundo, quantum ad terminum ad quem 
+      <lb ed="#P" n="107"/>probatur sic, quia illa verba conuenienter 
+      signifi<lb ed="#P" n="108" break="no"/>cant terminum ad quem alicuius conuersionis, 
+      <lb ed="#P" n="109"/>quae significant illud quod per illam 
+      conuersio<lb ed="#P" n="110" break="no"/>nem attingitur: sed verba praedicta significant 
+      <lb ed="#P" n="111"/>quod attingitur per dictam conuersionem, quia 
+      <lb ed="#P" n="112"/>significant Corpus Christi esse ibi ad quod 
+      termi<lb ed="#P" n="113" break="no"/>natur illa conuersio. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e675">
+               <lb ed="#P" n="114"/>Quantum ad terminum aquo sciendum, quod 
+      <lb ed="#P" n="115"/>in termino a quo est duo considerare, aliquid, 
+      <lb ed="#P" n="116"/>scilicet quod non manet &amp; aliquid quod manet, 
+      si<lb ed="#P" n="117" break="no"/>cut quod homo niger fit albus, homo manct; 
+      ni<lb ed="#P" n="118" break="no"/>grum non manet. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e688">
+               <lb ed="#P" n="119"/>vlterius sciendum, quod licet de manente &amp; 
+      <lb ed="#P" n="120"/>non manente possit praedicari hoc quod dico fieri, 
+      <lb ed="#P" n="121"/>acceptum in habitudine ad terminum ad quem 
+      si<lb ed="#P" n="122" break="no"/>cut quando dicitut homo fit albus &amp; nigrum fit 
+      <lb ed="#P" n="123"/>album, tamen secundum esse terminus ad quem 
+      <lb ed="#P" n="124"/>praedicatur de manente, non autem de non 
+      ma<lb ed="#P" n="125" break="no"/>nente, quia facta dealbatione haec est vera, homo 
+      <lb ed="#P" n="126"/>est albus, non autem ista nigrum est album. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e708">
+               <lb ed="#P" n="127"/>vlterius sciendum, quod in couuersione ista 
+      <lb ed="#P" n="128"/>hoc est singulare quod illud quod manetcum 
+      v<lb ed="#P" n="129" break="no"/>troquo termino non est aliquod subiectum 
+      com<lb ed="#P" n="130" break="no"/>mune: se accidentia quae remanent: sic ergo 
+      qua<lb ed="#P" n="131" break="no"/>si compositum ex pane &amp; accidentibus est 
+      termi<lb ed="#P" n="132" break="no"/>nus a quo: cuius termini aliquid non manet, 
+      sci<lb ed="#P" n="133" break="no"/>licet panis, &amp; aliquid manet, scilicet accidens. 
+      <lb ed="#P" n="134"/>Modo sicut supra apparuit in ista conuersione ter¬ 
+      <!--341.xml-->
+      <pb ed="#P" n="341"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>minus ad quem praedicatur in illa oratione 
+      secun<lb ed="#P" n="2" break="no"/>dum esse, vnde dicitur. Hoc est corpus meum. 
+      <lb ed="#P" n="3"/>Tioc autem pronomen. Hoc directe demonstrat 
+      <lb ed="#P" n="4"/>contentum sub illa quantitate, quicquid sit illud. 
+      <lb ed="#P" n="5"/>Et ideo demonstrat ilham quantitatem vt sub qua 
+      <lb ed="#P" n="6"/>aliquid continetur propter quod demonstrat 
+      ali<lb ed="#P" n="7" break="no"/>quo modo terminum a quo quantum ad id quod 
+      <lb ed="#P" n="8"/>manet, uon autem ad id quod transit. Nam 
+      con<lb ed="#P" n="9" break="no"/>pleta oratione contentum sub illa quantitate non 
+      <lb ed="#P" n="10"/>est panis, sed Corpus Christi. Ex hoc potest 
+      for<lb ed="#P" n="11" break="no"/>mari talis ratio. In illa oratione quae significat 
+      ter<lb ed="#P" n="12" break="no"/>minum ad quem secundum esse conuenienter 
+      si<lb ed="#P" n="13" break="no"/>gnificatur terminus a quo, quantum ad id quod 
+      <lb ed="#P" n="14"/>manet non quantum ad id quod transit, sicut 
+      be<lb ed="#P" n="15" break="no"/>ne dicitur homo est albus, non autem nigrum est 
+      <lb ed="#P" n="16"/>album, sed in illa oratione, hoc est corpus meum, 
+      <lb ed="#P" n="17"/>terminus ad quem praedicatur secundum esse, 
+      er<lb ed="#P" n="18" break="no"/>go terminus a quo debet significari quantum ad 
+      <lb ed="#P" n="19"/>id quod manet. De terino autem a quo in ista 
+      <lb ed="#P" n="20"/>conuersione nihil manet nisi accidens, ergo 
+      termi<lb ed="#P" n="21" break="no"/>nus a quo non debet significari nisi quantum ad 
+      <lb ed="#P" n="22"/>accidens, hoc autem significatur cum dicitur hoc. 
+      <lb ed="#P" n="23"/>id est, contentum sub his accidentibus. Ergo, 
+      <lb ed="#P" n="24"/>&amp;c. Et sic patet quod forma est conueniens. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e786">
+               <lb ed="#P" n="25"/>Quantum ad secundum, scilicet quod 
+      con<lb ed="#P" n="26" break="no"/>ueniens est quod aliqua verba praecedentia 
+      ad<lb ed="#P" n="27" break="no"/>iungantur dictae formae. Sciendum quod licet 
+      <lb ed="#P" n="28"/>illud sacramentum perficiatur in consecratione 
+      <lb ed="#P" n="29"/>materiae, ordinatur tamen vlterius ad vsum 
+      fide<lb ed="#P" n="30" break="no"/>lium, vt scilicet a fidelibus sumatur per modum 
+      <lb ed="#P" n="31"/>cibi &amp; potus. Et ideo conueniens est vt 
+      adiun<lb ed="#P" n="32" break="no"/>gantur aliqua verba quae talem vsum sacramenti 
+      <lb ed="#P" n="33"/>importent. Et hoc est quando dicitur, Accipite &amp; 
+      <lb ed="#P" n="34"/>manducate. Ly enim licet non sit de necessitate 
+      <lb ed="#P" n="35"/>formae cum possit fieri sacramentum sine eo, est 
+      <lb ed="#P" n="36"/>tamen de congruitate formae, quia continuat 
+      sen<lb ed="#P" n="37" break="no"/>tentiam import itam in forma verborum ad verba 
+      <lb ed="#P" n="38"/>praecedentia significantia vsum sacramenti. Et 
+      <lb ed="#P" n="39"/>etiam de praacepto Ecclesiae, ita quod omittens 
+      <lb ed="#P" n="40"/>scienter peccaret mortaliter licet conficeret. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e823">
+               <lb ed="#P" n="41"/>Ad primum ergo in oppositum dicendum, 
+      <lb ed="#P" n="42"/>quod minor est falsa. Ad probationum, quod ly 
+      <lb ed="#P" n="43"/>dicens quando dicitur, dedit discipnlis suis, &amp;c. 
+      <lb ed="#P" n="44"/>non dicit consoquentiam illorum verborum ad 
+      <lb ed="#P" n="45"/>manducationem, vt sit sensus quod panem 
+      dede<lb ed="#P" n="46" break="no"/>rat dicipulis &amp; quod ipsi manducarent, &amp; posten 
+      <lb ed="#P" n="47"/>protulerit dicta verba, hoc est corpus meum: sed 
+      <lb ed="#P" n="48"/>dicit concomitantiam verborum dictorum ad 
+      to<lb ed="#P" n="49" break="no"/>tum id quod praecedit. Et est sensus dicens 
+      pri<lb ed="#P" n="50" break="no"/>mum, accipite &amp; manducate hoc est corpus 
+      <lb ed="#P" n="51"/>meum, &amp; benedixit ac fregit, &amp; dedit discipulis 
+      <lb ed="#P" n="52"/>suis: nec oportet quod illud quod posterius 
+      aeci<lb ed="#P" n="53" break="no"/>tatur, sit posterius factum. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e855">
+               <lb ed="#P" n="54"/>Ad secundum dicendum, quod minor est 
+      <lb ed="#P" n="55"/>falsa, quia dicendo illa sola verba dato quod 
+      ni<lb ed="#P" n="56" break="no"/>hil aliud diceretur, conficitur sacramentum. Ad 
+      <lb ed="#P" n="57"/>prebationem dicendum, quod dummodo ille qui 
+      <lb ed="#P" n="58"/>profert verba intendat proferre secundum 
+      in<lb ed="#P" n="59" break="no"/>tentionem Ecclesiae, profert ea in persona 
+      Chri<lb ed="#P" n="60" break="no"/>sti quantumcumque nihil aliud proferat, quia 
+      <lb ed="#P" n="61"/>Ecclesiae intentio est quod proferantur in 
+      perso<lb ed="#P" n="62" break="no"/>na. Chiisti. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e877">
+               <lb ed="#P" n="63"/>Ad tertium dicendum, quod quidam dicunt 
+      <lb ed="#P" n="64"/>quod ly hoc nihil demonstrat: sed dicitur 
+      reci<lb ed="#P" n="65" break="no"/>tatiue. Et est sensus quod, scilicet Christus dixit 
+      <lb ed="#P" n="66"/>ista verba, hoc est corpus meum, ita quod 
+      Sacer<lb ed="#P" n="67" break="no"/>dos recitando illa verba Christi profert ea. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e890">
+               <lb ed="#P" n="68"/>Sed hoc nihil est, quia si non fit 
+      demonstra<lb ed="#P" n="69" break="no"/>tio ad materiam praesentem illa verba nihil 
+      signi<lb ed="#P" n="70" break="no"/>ficant fieri circa dictam matetiam, &amp; per conse¬ 
+      <!--341.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>quens non fiet consecratio. Iterum eadem 
+      diui<lb ed="#P" n="72" break="no"/>cultas est de Christo quando protulit dicta verba, 
+      <lb ed="#P" n="73"/>quid demonstrabat Ly hoc, quia Christus illa 
+      <lb ed="#P" n="74"/>verba protulit significatiue non recitatiue. Et 
+      ea<lb ed="#P" n="75" break="no"/>dem difficultas sequitur quicquid detur siue vnum 
+      <lb ed="#P" n="76"/>siue aliud. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e916">
+               <lb ed="#P" n="77"/>Alii dicunt, quod demonstrat Corpus 
+      Christi<lb ed="#P" n="78" break="no"/>Et dicunt quod illa demonstratio non est 
+      acci<lb ed="#P" n="79" break="no"/>pienda pro tempore in quo profertur, sed pro quo 
+      <lb ed="#P" n="80"/>profertur, scilicet pro tempore in quo completut 
+      <lb ed="#P" n="81"/>orario, ita quod demonstratio quam facit ly 
+      <lb ed="#P" n="82"/>hoc referatur ad finem orationis. Et quando 
+      dici<lb ed="#P" n="83" break="no"/>tur, quod ly hoc profertur antequam sit ibi 
+      Cor<lb ed="#P" n="84" break="no"/>pus Christi, dicunt quod verum est, nec pro illo 
+      <lb ed="#P" n="85"/>tempore verificat locutionem: sed tempore pro 
+      <lb ed="#P" n="86"/>quo profertur vt dictum est. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e940">
+               <lb ed="#P" n="87"/>Contra istam tamen opinionem, quae vt puto 
+      <lb ed="#P" n="88"/>habet aliquid veritatis arguitur dupliciter &amp; bene, 
+      <lb ed="#P" n="89"/>quia si ly hoc demonstraret Corpus Christi verba 
+      <lb ed="#P" n="90"/>non efficerent quod figurant: Hoc est 
+      inconue<lb ed="#P" n="91" break="no"/>niens. Ergo, &amp;c. Minor patet. Maior probatur 
+      <lb ed="#P" n="92"/>dupliciter. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e956">
+               <lb ed="#P" n="93"/>Primo. Quia illud quod praesupponitur 
+      signi<lb ed="#P" n="94" break="no"/>ficationi verborum non effietunt verba. Sed si li 
+      <lb ed="#P" n="95"/>hoc demonstret Corpuis Christi ibi esse, 
+      praesuppo<lb ed="#P" n="96" break="no"/>neretur significatio orationis. Ergo verba nihil 
+      fa<lb ed="#P" n="97" break="no"/>cerent ad hoc quod Corpus Christi esset ibi, &amp; 
+      <lb ed="#P" n="98"/>per consequens non efficerent quod figurant. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e973">
+               <lb ed="#P" n="99"/>Secundo. Quia si ly hoc demonstret Corpus 
+      <lb ed="#P" n="100"/>Christi, sensus esset, hoc Corpus Christi, est Corpus 
+      <lb ed="#P" n="101"/>Christi, vel hoc Corpus meum est Corpus meum. 
+      <lb ed="#P" n="102"/>Sed verba non faciunt hoc, scilicet quod Corpus 
+      <lb ed="#P" n="103"/>Christi, sit Corpus Christi. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e986">
+               <lb ed="#P" n="104"/>Et ideo alii dicunt, quod ly hoc non 
+      demon<lb ed="#P" n="105" break="no"/>strat accidentia aut substantiam panis, quia 
+      pro<lb ed="#P" n="106" break="no"/>positio esset falsa quando dicitur, hoc est Corpus 
+      <lb ed="#P" n="107"/>nec Corpus Christi: sed dicunt quod demonstrat 
+      <lb ed="#P" n="108"/>aliquid commune ad panem &amp; ad Corpus 
+      Chri<lb ed="#P" n="109" break="no"/>sti contentum sub accidente. Et est sensus, 
+      con<lb ed="#P" n="110" break="no"/>tentum sub hoc accidente est Corpus meum. Et 
+      <lb ed="#P" n="111"/>secundum istos, verba ista fac unt quod figurant. 
+      <lb ed="#P" n="112"/>Quia faciunt quod Corpus Christi sit ibi 
+      conten<lb ed="#P" n="113" break="no"/>tum, licet non faciant quod Corpus Christi, sit 
+      <lb ed="#P" n="114"/>Corpus Christi. Et tunc dicunt quod 
+      significa<lb ed="#P" n="115" break="no"/>tio completa orationis, licet simul tempore sit 
+      <lb ed="#P" n="116"/>cum coexistentia Corporis Christi, ibi tamen 
+      or<lb ed="#P" n="117" break="no"/>dine naturae praecedit sicut causa effectum. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e1019">
+               <lb ed="#P" n="118"/>Sed contra hoc arguitur sic Quia quandocumque 
+      <lb ed="#P" n="119"/>ita est quod aliquis terminus communis 
+      supponi<lb ed="#P" n="120" break="no"/>tur alicui praedicato reali, oportet quod locutio 
+      <lb ed="#P" n="121"/>verificetur pro aliquo contento sub eo vel pro 
+      om<lb ed="#P" n="122" break="no"/>nibus: sicut si dicatur homo currit, oportet quod 
+      <lb ed="#P" n="123"/>haec sit vera pro aliquo homine, vel pro omnibus 
+      <lb ed="#P" n="124"/>hominibus. Sed nic hoc pronomen hoc 
+      supponi<lb ed="#P" n="125" break="no"/>tur praedicato reali, quod est Corpus meuni. 
+      Er<lb ed="#P" n="126" break="no"/>go si ly hoc demonstrat contentum sub illo 
+      acci<lb ed="#P" n="127" break="no"/>dente oportet quod demonstret 
+      vtrumqueconten<lb ed="#P" n="128" break="no"/>tum vel alterum eorum. Ergo oportet quod ly 
+      <lb ed="#P" n="129"/>hoc demonstret, vel substantiam panis, vel 
+      sub<lb ed="#P" n="130" break="no"/>stantiam Corporis Christi. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e1050">
+               <lb ed="#P" n="131"/>Ad hoc autem potest dici, quod differt 
+      ali<lb ed="#P" n="132" break="no"/>quid significare &amp; reddere locutionem veram. 
+      <lb ed="#P" n="133"/>Nam quando dicitur homo cutrit, in hac oratione 
+      <lb ed="#P" n="134"/>non significatur Socrates, quia homo Socratem 
+      <lb ed="#P" n="135"/>non significat: tamen solo Socrate currente, 
+      So<lb ed="#P" n="136" break="no"/>crates reddit locutionemveram: sicua etiam 
+      quan<lb ed="#P" n="137" break="no"/>do dicitur hoc contentum non significat Corpus 
+      <lb ed="#P" n="138"/>Christi, nec per consequens vt formale suum 
+      si<lb ed="#P" n="139" break="no"/>gnificatum demonstrat, sed indifferenter 
+      demon<lb ed="#P" n="140" break="no"/>strat substantiam quae est sub illo accidente quae¬ 
+      <!--342.xml-->
+      <pb ed="#P" n="342"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cumque sit illa: sed verum est quod pro solo 
+      cor<lb ed="#P" n="2" break="no"/>pore Christi reddit locutionem veram cumde 
+      de<lb ed="#P" n="3" break="no"/>monstrato affirmetur, Corpus Cheisti dicendo hoc 
+      <lb ed="#P" n="4"/>est Corpus meum. Ita tamen quod ly hoc 
+      con<lb ed="#P" n="5" break="no"/>tentum reddit locutionem veram pro corpore 
+      <lb ed="#P" n="6"/>Christi, vt dictum est: non pro tempore in quo 
+      <lb ed="#P" n="7"/>profertur. Quia accipiebat demonstrare pro 
+      ve<lb ed="#P" n="8" break="no"/>rificare locutionem. Intelligendum etiam quod 
+      <lb ed="#P" n="9"/>in verificando locutionem, pro tempore pro quo 
+      <lb ed="#P" n="10"/>profertur, non supponit ibi ly hoc, pro Corpore 
+      <lb ed="#P" n="11"/>Christi, secundum se &amp; absolute acceptum, vt sit 
+      <lb ed="#P" n="12"/>sensus, hoc Corpus Christi, est Corpus Christi: sed 
+      <lb ed="#P" n="13"/>supponit pro eo secundum quod hoc de nouo 
+      <lb ed="#P" n="14"/>contentum. Et ideo ly hoc in significando 
+      dire<lb ed="#P" n="15" break="no"/>cte &amp; formaliter demonstrat contentum sub hoc 
+      <lb ed="#P" n="16"/>accidente: sed in verificando supponit pro 
+      Corpo<lb ed="#P" n="17" break="no"/>re Christi non absolute &amp; secundum se, sed prout 
+      <lb ed="#P" n="18"/>est contentum vt dictum est. Et quando dicitur 
+      <lb ed="#P" n="19"/>arguendo contra secundam opinionem, quod si 
+      <lb ed="#P" n="20"/>ly hoc demonstat Corpus Christi verba, non 
+      effi<lb ed="#P" n="21" break="no"/>cerent quod figurant, quia id quod demonstratur 
+      <lb ed="#P" n="22"/>presupponeretur verbis, nec verba faciunt quod 
+      <lb ed="#P" n="23"/>Corpus Christi, sit Corpus Christi. Dicendum 
+      <lb ed="#P" n="24"/>verum esset si ly hoc demonstraret Corpus Christi 
+      <lb ed="#P" n="25"/>secundum se &amp; absolute. Sed dicendo, quod 
+      ver<lb ed="#P" n="26" break="no"/>ba demonstrant directe contentum sub accidente 
+      <lb ed="#P" n="27"/>&amp; quod supponunt pro Corpore Christi, 
+      secun<lb ed="#P" n="28" break="no"/>dum quod ibi contentum, bene efficiunt quod 
+      fi<lb ed="#P" n="29" break="no"/>gurant. Nec sic eis praesupponitur Corpus 
+      Chri<lb ed="#P" n="30" break="no"/>sti. Et quando dicitur in principali argumento, 
+      <lb ed="#P" n="31"/>quod ly hoc prius profertur quam sit ibi corpus 
+      <lb ed="#P" n="32"/>christi. Dicendum quod verum est, sed tamen 
+      <lb ed="#P" n="33"/>non sequitur quin reddat locutionem veram pro 
+      <lb ed="#P" n="34"/>corpore christi pro tempore pro quo profertur, 
+      <lb ed="#P" n="35"/>quia demonstratio profertur pro tempore in quo 
+      <lb ed="#P" n="36"/>finitur oratio. Nam tota significatio orationis 
+      re<lb ed="#P" n="37" break="no"/>ferenda est ad illud nunc in quo oratio finitur. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e1161">
+               <lb ed="#P" n="38"/>Ad quartum dicendum, quod ista verba 
+      quo<lb ed="#P" n="39" break="no"/>dammodo tenentur recitatiue &amp; quodammodo 
+      <lb ed="#P" n="40"/>significatiue, quia inquantum Sacerdos refert 
+      ver<lb ed="#P" n="41" break="no"/>ba Christi, &amp; inquantum conuersio illa fit non in 
+      <lb ed="#P" n="42"/>substantiam Sacerdotis: sed in corpus christi 
+      cu<lb ed="#P" n="43" break="no"/>ius verba profert aceipiuntur verba recitatiue: 
+      <lb ed="#P" n="44"/>quia ipse Sacerdos non intendit dicere quod 
+      Cor<lb ed="#P" n="45" break="no"/>pus suum sit ibi: sed inquantum Sacerdos gerens 
+      <lb ed="#P" n="46"/>personam Christi intendit applicare 
+      demonstra<lb ed="#P" n="47" break="no"/>tionem a Christo factam ad materiam 
+      praeser<lb ed="#P" n="48" break="no"/>rem, quae quidem gerit vicem &amp; similitudinem 
+      <lb ed="#P" n="49"/>illius materiae quam Christus consecrauit, 
+      acci<lb ed="#P" n="50" break="no"/>piuntur significatiue. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e1192">
+               <lb ed="#P" n="51"/>Ad quintum dicendum, per interemptionem 
+      <lb ed="#P" n="52"/>minoris. Ad probationem dicendum, quod 
+      li<lb ed="#P" n="53" break="no"/>cet ly est non significet dictam conuersionem in 
+      <lb ed="#P" n="54"/>fieri, significatur tamen in facto esse, vt dictum 
+      <lb ed="#P" n="55"/>est. 
+      </p>
+            <p xml:id="hx2hx3-c14339-d1e1206">
+               <lb ed="#P" n="56"/>Ad sextum dicendum, quod Christus non 
+      in<lb ed="#P" n="57" break="no"/>tendebat ibi dare formam sacramenti, nec 
+      acci<lb ed="#P" n="58" break="no"/>pitur ibi caro pro sola carne, sed pro toto 
+      corpo<lb ed="#P" n="59" break="no"/>re: quia Corpus Christi in quod fit conuersio non 
+      <lb ed="#P" n="60"/>est sola caro: sed totum quicquid est de 
+      substan<lb ed="#P" n="61" break="no"/>tia Corporis Christi, siue sit caro, siue os, siue 
+      <lb ed="#P" n="62"/>neruus. Vnde forma propria sacramenti est illa 
+      <lb ed="#P" n="63"/>quae datur, Math. 2c. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

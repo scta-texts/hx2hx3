@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="220"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b73659"><!-- l2d7q1 -->
+            <head xml:id="hx2hx3-b73659-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b73659-Hd1e101" type="question-title">Utrum angeli vel etiam quicumque beati possint peccare</head>
+            <p xml:id="hx2hx3-b73659-d1e104">
+               <lb ed="#P" n="18"/>Distinctio septima. 
+      <lb ed="#P" n="19"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e111">
+               <lb ed="#P" n="20"/>Svper distinctionem septimum. Quaeritur 
+      v<lb ed="#P" n="21" break="no"/>trum Angeli, vel etiam quicunque beati 
+      pos<lb ed="#P" n="22" break="no"/>sint peccare. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e120">
+               <lb ed="#P" n="23"/>Et arguitur quod sic. Quia illud quod 
+      commu<lb ed="#P" n="24" break="no"/>nicatur alicui per naturam, non tollitur per 
+      gra<lb ed="#P" n="25" break="no"/>tiam, vel gloriam. Sed posse peccare conuenit 
+      <lb ed="#P" n="26"/>creaturae rationali vel intellectuali per naturam: 
+      <lb ed="#P" n="27"/>ita quod non potest fieri aliqua creatura non 
+      pec<lb ed="#P" n="28" break="no"/>cabilis per naturam. Ergo posse peccare non 
+      tolli<lb ed="#P" n="29" break="no"/>litur a creatura per gratiam &amp; gloriam, 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e139">
+               <lb ed="#P" n="30"/>Praeterea id quod est laudis in vno iusto, non est 
+      <lb ed="#P" n="31"/>subtrahendum a beatis. Sed posse transgredi, est 
+      <lb ed="#P" n="32"/>laudabile in viris scientificis, vt habetur Eccl. 21. 
+      <lb ed="#P" n="33"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e150">
+               <lb ed="#P" n="34"/>Contra. Nullus beatus potest esse miser. Sed 
+      <lb ed="#P" n="35"/>qui potest peccare potest esse miser. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e157">
+               <lb ed="#P" n="36"/>Respondeo. Dicendum, quod licet Deus non 
+      <lb ed="#P" n="37"/>possit facere quod creatura existens liberi arbitrii 
+      <lb ed="#P" n="38"/>per pura naturalia non possit peccare: potest 
+      ta<lb ed="#P" n="39" break="no"/>men addere beatitudinem, vel gratiam 
+      confir<lb ed="#P" n="40" break="no"/>mantem ad naturam. Et sic potest facere, quod 
+      <lb ed="#P" n="41"/>talis creatura non possit peccare: ita quod potestas 
+      <lb ed="#P" n="42"/>liberi arbitrii non possir reduci in actum 
+      peccan<lb ed="#P" n="43" break="no"/>di, &amp; de beatitudine de qua est presens quaestio, 
+      <lb ed="#P" n="44"/>potest patere tribus rationibus. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e179">
+               <lb ed="#P" n="45"/>Prima sumitur ex ipsa ratione beatitudinis 
+      per<lb ed="#P" n="46" break="no"/>fectae sic. Non habet beatitudinem secundum 
+      <lb ed="#P" n="47"/>suam rationem perfectam cui non constat se non 
+      <lb ed="#P" n="48"/>posse fieri miserum. Sed ei qui potest peccare, non 
+      <lb ed="#P" n="49"/>potest constare, se non posse fieri miserum. Ergo, 
+      <lb ed="#P" n="50"/>&amp;c. Sieut enim de ratione felicitatis absolute 
+      di<lb ed="#P" n="51" break="no"/>ctae est stabilitas, vt vult Philosophus in primo 
+      E<lb ed="#P" n="52" break="no"/>thicorum: ita de ratione summae felicitatis, est 
+      to<lb ed="#P" n="53" break="no"/>talis immobilitas infelicitate, &amp; quod constet sibi. 
+      <lb ed="#P" n="54"/>Haec minoretiam patet. Quia quicunque peccat, 
+      <lb ed="#P" n="55"/>eo est miser. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e205">
+               <lb ed="#P" n="56"/>Secunda ratio accipitur ex habitudine mobilis 
+      <lb ed="#P" n="57"/>&amp; motus. Quia quando motor ad plenum 
+      domi<lb ed="#P" n="58" break="no"/>natur super mobile, ita quod eius motioni nihil 
+      <lb ed="#P" n="59"/>potest resistere, vel ex parte mobilis, vel ex parte 
+      <lb ed="#P" n="60"/>contrarii agentis, impossibile est stante hy pothesi, 
+      <lb ed="#P" n="61"/>quod in mobili sit aliquid contrarium, vel 
+      reci<lb ed="#P" n="62" break="no"/>piatur aliquid contrarium motioni talis agentis: &amp; 
+      <lb ed="#P" n="63"/>hoc de se paret. Sed beatificans naturam creatam, 
+      <lb ed="#P" n="64"/>sic dominatur, in mouendo voluntatem ad 
+      amo<lb ed="#P" n="65" break="no"/>rem suum, &amp; ad amotem rectum. Ergo in voluntate 
+      <lb ed="#P" n="66"/>beati nonpotest recipi aliquid contrarium amori 
+      <!--220.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>Dei, nec per consequens amofi recto: nec per 
+      con<lb ed="#P" n="68" break="no"/>sequens talis voluntas potest peccare. Maior 
+      pa<lb ed="#P" n="69" break="no"/>tet. Minor probatur: quia illud quod habet 
+      ra<lb ed="#P" n="70" break="no"/>tionem summi boni &amp; omnis boni quod potest 
+      de<lb ed="#P" n="71" break="no"/>siderari: ita dominatur ex toto super voluntatem 
+      <lb ed="#P" n="72"/>quod nec ex parte voluntatis, nec ex parte 
+      cu<lb ed="#P" n="73" break="no"/>iuscumque agentis contrarii potest resisti tali 
+      mo<lb ed="#P" n="74" break="no"/>tioni, vel tali motori. Quia cum voluntas non 
+      pos<lb ed="#P" n="75" break="no"/>sit velle nisi bonum, vel existens, vel saltem 
+      appa<lb ed="#P" n="76" break="no"/>rens: illud quod includit esse bonum, &amp; 
+      manife<lb ed="#P" n="77" break="no"/>ste aparet vt sumum bonum, &amp; includens omne 
+      bo<lb ed="#P" n="78" break="no"/>num: non potest voluntas refutare nec ab eo velle 
+      <lb ed="#P" n="79"/>discedere. Tale autem estibonum beatificans. 
+      Er<lb ed="#P" n="80" break="no"/>go, &amp;c. Nullum etiam contrarium agens potest 
+      <lb ed="#P" n="81"/>mouere voluntatem sicdispositam ad oppositum: 
+      <lb ed="#P" n="82"/>cum omne aliud quod natum est mouere 
+      volunta<lb ed="#P" n="83" break="no"/>tem deficiat in infinitum a tali mouente: &amp; ideo 
+      <lb ed="#P" n="84"/>voluntas sic disposita non potest moueri ad 
+      oppo<lb ed="#P" n="85" break="no"/>situm eius quod habet: nec per consequens ad 
+      <lb ed="#P" n="86"/>peccatum. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e279">
+               <lb ed="#P" n="87"/>Tertia rario, sumitur ex ratione vltimi finis: &amp; 
+      <lb ed="#P" n="88"/>est talis. Sic se habet voluntas videntis Deum 
+      fa<lb ed="#P" n="89" break="no"/>cie ad faciem ad volendum deuiare a Deo: sicut 
+      <lb ed="#P" n="90"/>voluntas quaecumque, se habet ad volendum 
+      bo<lb ed="#P" n="91" break="no"/>num in generali, siue ad volendum carere bono 
+      <lb ed="#P" n="92"/>in generali. Sed nulla voluntas potest respuere 
+      <lb ed="#P" n="93"/>bonum in generali, siuo velle carere bono in 
+      ge<lb ed="#P" n="94" break="no"/>nerali. Ergo nulla voluntas videntium Deum per 
+      <lb ed="#P" n="95"/>essentiam, potest velle separari a Deo vel carere, 
+      <lb ed="#P" n="96"/>vel etiam velle illud per quod Deo careret. Sed 
+      <lb ed="#P" n="97"/>nullus peccat nisi per hoc quod vult diuertere a 
+      <lb ed="#P" n="98"/>Deo: vel quod vult ea per quae debet carere Deo: 
+      <lb ed="#P" n="99"/>Ergo, &amp;c. Maior patet. Sicut se habet voluntas 
+      <lb ed="#P" n="100"/>in generali accepta ad vltimum finem &amp; ad 
+      bo<lb ed="#P" n="101" break="no"/>num in generali. Ita voluntas assecuta vltimum 
+      <lb ed="#P" n="102"/>finem in speciali, se habet &amp; complete ad finem 
+      <lb ed="#P" n="103"/>vltimum in speciali. Sed videns Deum per 
+      essen<lb ed="#P" n="104" break="no"/>tiam est consecutus complete &amp; perfecte vltimum 
+      <lb ed="#P" n="105"/>finem in speciali. Quia Deus visus apperte est 
+      vl<lb ed="#P" n="106" break="no"/>timus finis complete habitus. Ergo, &amp;c. Minor 
+      <lb ed="#P" n="107"/>etiam patet secundum omnes. Quia nullus 
+      po<lb ed="#P" n="108" break="no"/>test respuere bonum in generali, vel velle aliquid 
+      <lb ed="#P" n="109"/>in quo respuat vel recedat aibono in 
+      generali<lb ed="#P" n="110" break="no"/>Nam bonum generaliter dictum appetitur in 
+      om<lb ed="#P" n="111" break="no"/>ni bono: inquantum includitur in omnibono. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e337">
+               <lb ed="#P" n="112"/>Ad primum ergo in oppositum dicendum, 
+      <lb ed="#P" n="113"/>quod posse peccare si dimittatur in puris 
+      natura<lb ed="#P" n="114" break="no"/>libus conuenit homini vel Angelo per naturam, 
+      <lb ed="#P" n="115"/>nec hoc tollitur eiper gloriam vel gratiam. Nam 
+      <lb ed="#P" n="116"/>de beato potest vere dici quod si esset in puris 
+      na<lb ed="#P" n="117" break="no"/>turalibus, adhuc poesset peccare. Sed posse 
+      pecca<lb ed="#P" n="118" break="no"/>re instatu beatitudinis, non conuenit ei per 
+      natu<lb ed="#P" n="119" break="no"/>ram: sicut etiam aui conuenit posse volare per 
+      na<lb ed="#P" n="120" break="no"/>turam: non tamen conuenit ei per natnram posse 
+      <lb ed="#P" n="121"/>volare abiectis alis. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e361">
+               <lb ed="#P" n="122"/>Ad secundum dicendum, quod posse peccare 
+      <lb ed="#P" n="123"/>non pertinet directe ad laudem: sed posse 
+      opposi<lb ed="#P" n="124" break="no"/>ta puta facere, &amp; non facere. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e370">
+               <lb ed="#P" n="125"/>Ad cuius euidentiam, est sciendum quod ex 
+      <lb ed="#P" n="126"/>hoc debetur alicui laus vel vituperium, ex hoc 
+      <lb ed="#P" n="127"/>quod in potestate sua est facere vel dimittere illud 
+      <lb ed="#P" n="128"/>quod facit, ita quod ex hoc aliquis facit aliquod 
+      bo<lb ed="#P" n="129" break="no"/>num &amp; bene in cuius potestate fuit dimittere: ex 
+      <lb ed="#P" n="130"/>hoc debetur ei laus. Ex hoc autem quod in 
+      potesta<lb ed="#P" n="131" break="no"/>te sua fuit dimittere vel facere malum quod facit, 
+      <lb ed="#P" n="132"/>vel bonum ex genere quod male facit: fuit in 
+      <lb ed="#P" n="133"/>potestate eius benefacere: debetur ei 
+      vitu<lb ed="#P" n="134" break="no"/>perium. Nunc ergo in potestate beati est ea quae 
+      <lb ed="#P" n="135"/>facit facere, vel dimittere, vel velle ea facere 
+      <lb ed="#P" n="136"/>vel dimittere nisi sit determinatus per 
+      praecep<lb ed="#P" n="137" break="no"/>tum diuinum ad oppositum. Et in potestate sua 
+      <!--221.xml-->
+      <pb ed="#P" n="221"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>est, &amp; bene se habere dimittendo, &amp; bene 
+      sena<lb ed="#P" n="2" break="no"/>bere faciendo: sed non est in potestate sua male 
+      <lb ed="#P" n="3"/>se habere in dimittendo vel faciendo. Posse autem 
+      <lb ed="#P" n="4"/>male se habere in faciendo, vel dimittendo, non 
+      <lb ed="#P" n="5"/>est laudabilitatis, sed est imperfectionis 
+      simplici<lb ed="#P" n="6" break="no"/>ter. Sed tamen posse peccarein viatore dicitur 
+      <lb ed="#P" n="7"/>pertinere ad laudem ratione annexi: ratione 
+      scili<lb ed="#P" n="8" break="no"/>
+               <!-- line coord error -->
+               <lb ed="#P" n="9"/>cet eius quod est posse in diuersa, non autem 
+      se<lb ed="#P" n="10" break="no"/>cundumse: ira quod posse male in opposita tendere 
+      <lb ed="#P" n="11"/>agendo, vel dimittendo sit laudabile. 
+      </p>
+            <p xml:id="hx2hx3-b73659-d1e433">
+               <lb ed="#P" n="12"/>Ad rationem ergo secundum quod illudquodper se 
+      <lb ed="#P" n="13"/>importat laud abilitate debet attribui beatis, 
+      pos<lb ed="#P" n="14" break="no"/>se autem peccare non est huiusmodi, vt patet ex 
+      <lb ed="#P" n="15"/>dictis: sed potest esse laudabile ratione 
+      an<lb ed="#P" n="16" break="no"/>nexi. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

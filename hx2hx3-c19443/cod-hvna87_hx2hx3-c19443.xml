@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="354"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c19443"><!-- l4d12q1 -->
+            <head xml:id="hx2hx3-c19443-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-c19443-Hd1e101" type="question-title"/>
+            <p xml:id="hx2hx3-c19443-d1e103">
+               <lb ed="#P" n="42"/>Si vero queritur de accidentibus quae 
+      <lb ed="#P" n="43"/>remanent, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e110">
+               <lb ed="#P" n="44"/>Distinctio duodecima. 
+      <lb ed="#P" n="45"/>QVAESTIO PRIMA.
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e117">
+               <lb ed="#P" n="46"/>CIrca duodecimam distinctionem. Quaeritur 
+      <lb ed="#P" n="47"/>vtrum accidentia sint in sacramento altaris 
+      <lb ed="#P" n="48"/>sine subiecto.
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e127">
+        Et arguitur, quod non, quia 
+      nul<lb ed="#P" n="49" break="no"/>la virtute potest fieri, quod de eodem verificetur 
+      <lb ed="#P" n="50"/>diffinitio &amp; negetur diffinitio. Sed si accidentia 
+      <lb ed="#P" n="51"/>essent in sacramento, altaris sine subiecto esset sie 
+      <lb ed="#P" n="52"/>in proposito. Ergo nulla virtute fieri potest, quod 
+      <lb ed="#P" n="53"/>accidens possit esse sine subiecto. Maior patet. 
+      <lb ed="#P" n="54"/>Minor probatur, quia diffinitio accidentis est esse 
+      <lb ed="#P" n="55"/>in subiecto, quia accidentis esse est in esse 
+      secun<lb ed="#P" n="56" break="no"/>dum Boetium, sed ponendo, quod esset separatum 
+      <lb ed="#P" n="57"/>non esset in subiecto. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e149">
+               <lb ed="#P" n="58"/>Praeterea, nulla forma accidentalis facit ad 
+      <lb ed="#P" n="59"/>generationem nisi mediante virtute formae 
+      sub<lb ed="#P" n="60" break="no"/>stantialis subiecti. Sed forma accidentalis vini 
+      fa<lb ed="#P" n="61" break="no"/>cit ad generationem vini conuertendo aquam in 
+      <lb ed="#P" n="62"/>ipsum. Ergo illa qualitas vini est in aliquo 
+      subie<lb ed="#P" n="63" break="no"/>cto virtute cuius agit. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e165">
+               <lb ed="#P" n="64"/>Praeterea omne, quod corrumpitur est com¬ 
+      <!--354.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>positum ex materia forma, quia materia est in 
+      <lb ed="#P" n="66"/>potentia ad formam oppositam. Sed illae species 
+      <lb ed="#P" n="67"/>corrumpuntur &amp; putrafiunt. Ergo ille species sunt 
+      <lb ed="#P" n="68"/>quaedam substantia composita, vel in substantia 
+      <lb ed="#P" n="69"/>composita ex materia &amp; forma. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e185">
+               <lb ed="#P" n="70"/>Praeterea, ex forma subsistente nihil genera. 
+      <lb ed="#P" n="71"/>tur: sed ex composito. Sed si ibi non esset 
+      subie<lb ed="#P" n="72" break="no"/>ctum, quantitas esset quaedam forma subsistens. 
+      <lb ed="#P" n="73"/>Ergo ex illa quantitate nihil generaretur. Sed hoc 
+      <lb ed="#P" n="74"/>est falsum vt patet ad sensum. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e198">
+               <lb ed="#P" n="75"/>Praeterea, ex solo accidente nihil nutritur, 
+      <lb ed="#P" n="76"/>quia nihil nutritut nisi compositum substantiale, 
+      <lb ed="#P" n="77"/>sicut etiam nihil nutrit nisi compositum. Sed 
+      <lb ed="#P" n="78"/>illae species possunt nutrire. Ergo illae species non 
+      <lb ed="#P" n="79"/>sunt tantum accidens. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e211">
+               <lb ed="#P" n="80"/>Praeterea, accidentia non commiscentur, nec 
+      <lb ed="#P" n="81"/>etiam aliqua forma subsistens. Sed illae 
+      qualita<lb ed="#P" n="82" break="no"/>tes commiscentur cum aqua, vt patet. Ergo 
+      opor<lb ed="#P" n="83" break="no"/>tet quod ibi sit subiectum cum accidentibus. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e223">
+               <lb ed="#P" n="84"/>In contrarium est magistri in littera.
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e228">
+               <lb ed="#P" n="85"/>Respondeo. Circa istam quaestionem tria sunt 
+      <lb ed="#P" n="86"/>videnda. 
+      <lb ed="#P" n="87"/>Primo vtrum sit ibi accidens sine subiecto. 
+      <lb ed="#P" n="88"/>Secundo quomodo hoc potest esse. 
+      <lb ed="#P" n="89"/>Terno quomodo aliquid generatur &amp; 
+      nutri<lb ed="#P" n="90" break="no"/>tur ex illis accidentibus. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e244">
+               <lb ed="#P" n="91"/>ARTICVLVS PRIMVS.
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e249">
+               <lb ed="#P" n="92"/>Qvantum ad primum dicendum, quod ibi 
+      <lb ed="#P" n="93"/>est accidens sine subiecto vt tenet Ecclesia, 
+      <lb ed="#P" n="94"/>scilicet quantitas est ibi sine subiecto quocum 
+      <lb ed="#P" n="95"/>que. Alia autem accidentia post quantitatem 
+      <lb ed="#P" n="96"/>sunt ibi sine subiecto remoto quod est substantia, 
+      <lb ed="#P" n="97"/>habent tamen subiectum propinquum, scilicet, 
+      <lb ed="#P" n="98"/>quantitatem. Quod autem sit ibi accidens sine 
+      <lb ed="#P" n="99"/>subiecto potest sic declarari, quia si ibi est 
+      subie<lb ed="#P" n="100" break="no"/>ctum cui insint praedicta accidentia, vel est 
+      sub<lb ed="#P" n="101" break="no"/>stantia Corporis Christi, vel substantia panis, vel 
+      <lb ed="#P" n="102"/>aer subintrans, vel aliqua alia substantia de nouo 
+      <lb ed="#P" n="103"/>creata. Primum, scilicet, quod Corpus Christi 
+      <lb ed="#P" n="104"/>sit ibi subiectum cui insint praedicta accidentia, 
+      <lb ed="#P" n="105"/>non potest esse propter tria. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e282">
+               <lb ed="#P" n="106"/>Primo. Quia Corpus humanum non est 
+      sus<lb ed="#P" n="107" break="no"/>ceptiuum talium accidentium quae sunt ibi, 
+      scili<lb ed="#P" n="108" break="no"/>cet siccitatis &amp; rotunditatis &amp; similium. Sed 
+      <lb ed="#P" n="109"/>Corpus Christi est vere Corpus humanum. 
+      Er<lb ed="#P" n="110" break="no"/>go, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e295">
+               <lb ed="#P" n="111"/>Secundo. Quia impossibile est, vel saltem non 
+      <lb ed="#P" n="112"/>minus impossibile accidens idem numero transire 
+      <lb ed="#P" n="113"/>de substantia in substantiam quam accidens esse 
+      <lb ed="#P" n="114"/>sine subiecto. Sed si accidentia essent ibi in 
+      Cor<lb ed="#P" n="115" break="no"/>pore Christi, sicut in subiecto, eadem accidentia a 
+      <lb ed="#P" n="116"/>numero transire t de subiecto, scilicer de 
+      substan<lb ed="#P" n="117" break="no"/>tia panis in substantiam Corporis Christi. Ergo 
+      <lb ed="#P" n="118"/>non est minus impossibile ponere, quod illa 
+      acci<lb ed="#P" n="119" break="no"/>dentia sint in Corpore Christi, sicut in subiecto, 
+      <lb ed="#P" n="120"/>quam ponere ea esse sine subiecto. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e320">
+               <lb ed="#P" n="121"/>Tertio. Quia Corpus Christi est impassibile. 
+      <lb ed="#P" n="122"/>Sed si de nouo reciperet illa accidentia esset 
+      pas<lb ed="#P" n="123" break="no"/>sibile: quia oporteret ipsum amittere priorem 
+      <lb ed="#P" n="124"/>quantitatem &amp; recipere nouam, quod non esset 
+      <lb ed="#P" n="125"/>sine transmutatione sui. Ergo, &amp;c. Secundum 
+      <lb ed="#P" n="126"/>etiam, quia substantia panis sit ibi subiectum 
+      ta<lb ed="#P" n="127" break="no"/>lium accidentium non est possibile, quia 
+      substan<lb ed="#P" n="128" break="no"/>tia panis non manet. Nec etiam tertium est 
+      possi<lb ed="#P" n="129" break="no"/>bile, scilicet qued aer subintret propter rationes 
+      <lb ed="#P" n="130"/>dictas de Christo, quia aer non est susce ptiuus 
+      ra<lb ed="#P" n="131" break="no"/>lium accidentium: sequeretur etiam quod 
+      acci<lb ed="#P" n="132" break="no"/>dentia migrarent. Item accidentia simul stant 
+      <!--355.xml-->
+      <pb ed="#P" n="355"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tum sio subiecto, seu illa accidentia repellunt 
+      <lb ed="#P" n="2"/>aerem. Ergo, &amp;c. Nec etiam quartum, scilicet, 
+      <lb ed="#P" n="3"/>quod ibi creetur aliqua substantia de nouo cui 
+      in<lb ed="#P" n="4" break="no"/>sunt talia aceidentia est possibile, quia tunc 
+      acci<lb ed="#P" n="5" break="no"/>dens idem numero transiret de subiecto in 
+      subie<lb ed="#P" n="6" break="no"/>ctum, quod est inconueniens. Praeterea accidens 
+      <lb ed="#P" n="7"/>quod habet substantiam pro subiecto ducit 
+      dire<lb ed="#P" n="8" break="no"/>cte in illam substantiam quam habet pro subiecto. 
+      <lb ed="#P" n="9"/>Ergo si illa accidentia habent aliquam substantiam 
+      <lb ed="#P" n="10"/>ibi de nouo pro subiecto, illa accidentia ducerent 
+      <lb ed="#P" n="11"/>in illam substantiam de nouo creatam, &amp; non 
+      <lb ed="#P" n="12"/>in Corpus Christi, &amp; tunc Corpus Christi non 
+      <lb ed="#P" n="13"/>adoraretur ibi secundum illa fubiecta de noto 
+      <lb ed="#P" n="14"/>creata, quod est inconueniens: relinquitur ergo 
+      <lb ed="#P" n="15"/>quod nulla substantia sit ibi cui ista accidentia 
+      in<lb ed="#P" n="16" break="no"/>sint tanquam in subiecto, &amp; per consequens est ibi 
+      <lb ed="#P" n="17"/>accidens sine subiecto. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e392">
+               <lb ed="#P" n="18"/>ARTICVLVSSECVNDVS. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e397">
+               <lb ed="#P" n="19"/>Qvantum ad secundum, quomodo potest hoc 
+      <lb ed="#P" n="20"/>sse dicendum quod quaerert hoc 
+      demon<lb ed="#P" n="21" break="no"/>stratiue est naturam rei ignorare. Et ideo illi qui 
+      <lb ed="#P" n="22"/>dicunt, quod hoc vident non vident. Adducitur 
+      <lb ed="#P" n="23"/>tamen ad hoc persuasio quaedam, quia ablata 
+      in<lb ed="#P" n="24" break="no"/>fluentia secundae causae potest manere effectus per 
+      <lb ed="#P" n="25"/>influentiam primae causae. Sed subiectum est 
+      cau<lb ed="#P" n="26" break="no"/>sa secunda accidentium, Deus autem causa 
+      pri<lb ed="#P" n="27" break="no"/>ma eorum. Ergo potest dare esse illis 
+      accidenti<lb ed="#P" n="28" break="no"/>bus ibi remoto subiecto eorum, quod est causa 
+      se<lb ed="#P" n="29" break="no"/>cunda eorum. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e423">
+               <lb ed="#P" n="30"/>Sed tunc oritur magna difficultas, quia siue 
+      <lb ed="#P" n="31"/>subiectum sit causa effectiua accidentis, siue non, 
+      <lb ed="#P" n="32"/>constat tamen quod est causa sui accidentis in alio 
+      <lb ed="#P" n="33"/>genere causae quam sit causa effectiua, scilicet, in 
+      <lb ed="#P" n="34"/>genere causae materialis subiectiuae, quia licet 
+      ac<lb ed="#P" n="35" break="no"/>cidens non habeat materiam ex qua, nec etiam 
+      ali<lb ed="#P" n="36" break="no"/>qua forma, quia hoc est proprium substantiae 
+      com<lb ed="#P" n="37" break="no"/>positae, cum habeat materiam in qua, habet esse 
+      <lb ed="#P" n="38"/>sicut in subiecto. Nunc autem licet Deus posset 
+      <lb ed="#P" n="39"/>facere immediate, quicquid facit mediante 
+      cau<lb ed="#P" n="40" break="no"/>sa secunda accipiendo in genere causae efficientis, 
+      <lb ed="#P" n="41"/>non tamen potest facere sine causa rnedia id quod 
+      <lb ed="#P" n="42"/>facit per causam materialem, siue formalem: 
+      si<lb ed="#P" n="43" break="no"/>cut non potest facere album sine albedinem, nec 
+      <lb ed="#P" n="44"/>albedinem sine subiecto immediato. Dato ergo 
+      <lb ed="#P" n="45"/>quod Deus posset dare esse quantitati sublata 
+      cau<lb ed="#P" n="46" break="no"/>salitate subiecti, quantum ad causalitatem 
+      effecti<lb ed="#P" n="47" break="no"/>uam si subiectum est causa effectiua: non 
+      pro<lb ed="#P" n="48" break="no"/>pter hoc sequitur quod possit dare esse quantitati 
+      <lb ed="#P" n="49"/>sublata causalitate subiecti secundum genus 
+      cau<lb ed="#P" n="50" break="no"/>sae materialis. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e471">
+               <lb ed="#P" n="51"/>Ad euidentiam autem huius sciendum, quod 
+      <lb ed="#P" n="52"/>quando aliquid dicitut non posse esse sine alio ly, 
+      <lb ed="#P" n="53"/>sine potest denotare, vel dependentiam vel 
+      con<lb ed="#P" n="54" break="no"/>sequentiam: dependentiam sicut dicimus, quod 
+      risi<lb ed="#P" n="55" break="no"/>bile non potest esse sine homine a quo dependet 
+      <lb ed="#P" n="56"/>consequentia: sicut dicimus, quod homo non 
+      po<lb ed="#P" n="57" break="no"/>test esse sine isiibili, non quod homo dependeat 
+      <lb ed="#P" n="58"/>a risibilitate: sed quia risibile hibet consequentia 
+      <lb ed="#P" n="59"/>necessariam ad hominem: siue autem sic siue sic 
+      <lb ed="#P" n="60"/>dicatur aliquid non posse esse sine alio: ad 
+      viden<lb ed="#P" n="61" break="no"/>dum, quod aliqua virtute diuina possunt separari 
+      <lb ed="#P" n="62"/>abinuicem vt vnumpossit esse sine alio: sciendum 
+      <lb ed="#P" n="63"/>quod quando, que ita est, quod posita 
+      separatio<lb ed="#P" n="64" break="no"/>ne aliquotum abinuicem si sequatur, quod de illo 
+      <lb ed="#P" n="65"/>quod ponitur sep carum verificetur oppositum 
+      <lb ed="#P" n="66"/>sui generis siue suae differentiae vel alicuius quod 
+      <lb ed="#P" n="67"/>est de ratinne sua diffinitiua, talis separatio 
+      qua<lb ed="#P" n="68" break="no"/>cumquo virtute est impossibilis, quia cum ea quae 
+      <!--355.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>sunt de ratione rei semper de 
+      necessitatevensicen<lb ed="#P" n="70" break="no"/>tur de ea si ponatur cum hoc, quod oppositum 
+      <lb ed="#P" n="71"/>eorundem verificetur de ea, tunc de eodem 
+      vert<lb ed="#P" n="72" break="no"/>ficabuntur contradictoria simul, quod est 
+      impos<lb ed="#P" n="73" break="no"/>sibile quacumque virtute fieri. Si autem, it a est 
+      <lb ed="#P" n="74"/>quod posita separatione non oporteat venficari 
+      <lb ed="#P" n="75"/>oppositum alicuius, quod sit de ratione eius quod 
+      <lb ed="#P" n="76"/>ponitur separatum de eo, tunc talis separatio 
+      pos<lb ed="#P" n="77" break="no"/>sibilis videtur, sicur in separatione animae a 
+      cur<lb ed="#P" n="78" break="no"/>pore: quandoque virtute supernaturali sicut in 
+      se<lb ed="#P" n="79" break="no"/>paratione quantitatis a subiecto. Nunc autemi 
+      <lb ed="#P" n="80"/>ita est, quod posita separatione quantitatis a 
+      sub<lb ed="#P" n="81" break="no"/>iecto videtur, quod non oporteat, quod veniat es 
+      <lb ed="#P" n="82"/>oppositum alieuius existentis de sua ratione: quia 
+      <lb ed="#P" n="83"/>de ratione quantitatis est quod sit accidens habens 
+      <lb ed="#P" n="84"/>partes vel secundum longum, vel secundum 
+      la<lb ed="#P" n="85" break="no"/>tum, vel secundum profundum. Nullius autem 
+      <lb ed="#P" n="86"/>istorum oppositum necesse est ponere verificari 
+      <lb ed="#P" n="87"/>de quantitate si poratur separata, quia adhuc 
+      po<lb ed="#P" n="88" break="no"/>test manere, quod sit accidens: quia de rarione 
+      <lb ed="#P" n="89"/>accidentis non est actualis inhaerentia, nisi forte 
+      <lb ed="#P" n="90"/>respectu agentis naturalis: sed, quod sit aptum 
+      <lb ed="#P" n="91"/>natum inhaerere. Et haec aptitudo potest manere 
+      <lb ed="#P" n="92"/>in quatitate separata. Aliud est quod habeat 
+      par<lb ed="#P" n="93" break="no"/>tes secundum longum &amp; latum &amp; pre fundumron 
+      <lb ed="#P" n="94"/>tollitur ei si ponatur separata. Ex hoc potest 
+      for<lb ed="#P" n="95" break="no"/>mari talis ratio ad probandum, quod quantitas 
+      <lb ed="#P" n="96"/>virtute diuina possit separari a subiecto, quia Deua 
+      <lb ed="#P" n="97"/>potest facere omne illud quod non implicar 
+      con<lb ed="#P" n="98" break="no"/>tradictoria. Sed quantitatem separan a subiecto 
+      <lb ed="#P" n="99"/>non implicat contradictoria: vt potest patere ex 
+      <lb ed="#P" n="100"/>dictis: quia nullius eius quod est de ratione 
+      alicu<lb ed="#P" n="101" break="no"/>ius eius oppositum sequitur ei inesse. Ergo, &amp;c. 
+      <lb ed="#P" n="102"/>Secus autem esset de albedine respectu 
+      immedia<lb ed="#P" n="103" break="no"/>ti subiecti vt mihi videtur, quia posito quod 
+      al<lb ed="#P" n="104" break="no"/>bedo separetur, videtur, quod ei insit oppositum sui 
+      <lb ed="#P" n="105"/>generis. Nam genus albedinis est qualitas 
+      sensibi<lb ed="#P" n="106" break="no"/>lis actu vel aptitudine. Sed si ponatur alhedo 
+      se<lb ed="#P" n="107" break="no"/>parata, non potest sibi conuenire hoc quod est esse 
+      <lb ed="#P" n="108"/>qualitatem sensibilem actu vel aptitudine. Ergo, 
+      <lb ed="#P" n="109"/>&amp;c. Maior patet. Minor probatur, quia si 
+      alhe<lb ed="#P" n="110" break="no"/>do ponatur separata erit quidem actus subsistens 
+      <lb ed="#P" n="111"/>extra genus rerum quantatum ad modum 
+      substan<lb ed="#P" n="112" break="no"/>tiatum imm terialium atalis autem actus, nec actu 
+      <lb ed="#P" n="113"/>nec aptitudine potest esse quantus: cum tamen 
+      <lb ed="#P" n="114"/>nihil sentiatur nisi quantum Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e617">
+               <lb ed="#P" n="115"/>Contra autem praemissa, arguunt quidam 
+      du<lb ed="#P" n="116" break="no"/>pliciter. Vno: modo dicendo quod species potest 
+      <lb ed="#P" n="117"/>inueniri sine genere: sicut in Deo inuenitur 
+      scien<lb ed="#P" n="118" break="no"/>tia sine qualitate. Secundo, quia dicunt, quod 
+      <lb ed="#P" n="119"/>daro quod albedo separata non possit esse 
+      exten<lb ed="#P" n="120" break="no"/>sa sine quantitate, potest tamen esse extensa 
+      exten<lb ed="#P" n="121" break="no"/>sione quadam effecta a quantitate. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e636">
+               <lb ed="#P" n="122"/>Sed istud non potest esse, quia impossibile est 
+      <lb ed="#P" n="123"/>omnino, quod species quae est preprie species 
+      ali<lb ed="#P" n="124" break="no"/>cuius genetis possit esse sine illo genere, quia esse 
+      <lb ed="#P" n="125"/>speciem qualitatis nihil est aliud quam esse 
+      quan<lb ed="#P" n="126" break="no"/>dam qualitatem vel absolute esse qualitatem. Esse 
+      <lb ed="#P" n="127"/>autem fine genere qualitatis est esse sine qualitate: 
+      <lb ed="#P" n="128"/>aliquid autem habere esse qualitatem vel habere 
+      <lb ed="#P" n="129"/>qualitatem sine qualitate est contradictio. Ergo, 
+      <lb ed="#P" n="130"/>&amp;c. Et quando dicirur in con munibus seripus, 
+      <lb ed="#P" n="131"/>quod in Deo inuenitur species sine genere: ron 
+      <lb ed="#P" n="132"/>est acc piendum propriem quasi illud quod est in 
+      <lb ed="#P" n="133"/>genere qualitatis vel quantitatis: sed hoc est large 
+      <lb ed="#P" n="134"/>accipiendum pto tanto scilicet, quia illud 
+      forma<lb ed="#P" n="135" break="no"/>le a quo accipitur nomen speciei abiolute &amp; 
+      se<lb ed="#P" n="136" break="no"/>cundum se acceptum non vt species illius generis 
+      <lb ed="#P" n="137"/>inuenitur in Deo: sicut habere certam 
+      cognitio<lb ed="#P" n="138" break="no"/>nem est formale in ratione sciendi: &amp; illud inue¬ 
+      <!--356.xml-->
+      <pb ed="#P" n="356"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nitur in Deo: sed non secundum illum modum 
+      <lb ed="#P" n="2"/>secundum quem complet aliquam rationem 
+      spe<lb ed="#P" n="3" break="no"/>cificam alicuius qualitatis. Et sic patet primum 
+      <lb ed="#P" n="4"/>esse impossibile. Secundum etiam esset friuolum, 
+      <lb ed="#P" n="5"/>quia ex falsa imaginatione procedit ac si quantitas 
+      <lb ed="#P" n="6"/>existens in subiecto sit aliud ab extensione 
+      forma<lb ed="#P" n="7" break="no"/>liter accopta, vel quod in eodem subiecto sint 
+      <lb ed="#P" n="8"/>duae extensiones quarum vna efficiat aliam, quae 
+      <lb ed="#P" n="9"/>omnia falsa sunt, quia quantitas vna est in eodem 
+      <lb ed="#P" n="10"/>subiecto, quamuis sint ibi multa quanta per 
+      acci<lb ed="#P" n="11" break="no"/>dens, quae est formalis extensio illius subiecti &amp; 
+      a<lb ed="#P" n="12" break="no"/>liorum extensibilium in eo si omnia sint 
+      extensibi<lb ed="#P" n="13" break="no"/>lia. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e710">
+               <lb ed="#P" n="14"/>ARTICVLVS TERTIVS.
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e715">
+               <lb ed="#P" n="15"/>Qvantum ad tertium, scilicet quando 
+      ali<lb ed="#P" n="16" break="no"/>quid generatur ex illis speciebus, sciendum 
+      <lb ed="#P" n="17"/>quod virtute diuina aliquid potest ex eis generari) 
+      <lb ed="#P" n="18"/>aliquo modo facta alteratione circa ipsas, hoc 
+      au<lb ed="#P" n="19" break="no"/>tem oportet esse aliquo quatuor modorum 
+      ponen<lb ed="#P" n="20" break="no"/>dorum. Vno modo quod quantitas suppleat 
+      vi<lb ed="#P" n="21" break="no"/>cem materiae, sic quod ipsa manens efficiatur sub 
+      <lb ed="#P" n="22"/>forma geniti, puta vermis vel alicuius talis. 
+      Secun<lb ed="#P" n="23" break="no"/>do modo, vt ponantur ibi dimensiones 
+      intermina<lb ed="#P" n="24" break="no"/>tae aliae realiter a terminatis, &amp; quod illae 
+      dimen<lb ed="#P" n="25" break="no"/>siones interminatae efficiantur subiectum formae 
+      <lb ed="#P" n="26"/>substantialis eius quod generatur. Tertio modo 
+      <lb ed="#P" n="27"/>quod facta alteratione creetur a Deo aliqua 
+      ma<lb ed="#P" n="28" break="no"/>teria ex qua fiat illud quod generatur. Quarto 
+      <lb ed="#P" n="29"/>modo, quod quantitas ipsa conuertatur in 
+      mate<lb ed="#P" n="30" break="no"/>riam ex qua fiat illud quod generatur. Primus 
+      <lb ed="#P" n="31"/>modus videtur mibi impossibilis: primo, quia in 
+      <lb ed="#P" n="32"/>per se &amp; essentialiter ordinatis in quibus vnum se 
+      <lb ed="#P" n="33"/>habet vt per se potentia &amp; perfectibile, &amp; aliud 
+      <lb ed="#P" n="34"/>vt per se actus perficiens impossibile est quod 
+      il<lb ed="#P" n="35" break="no"/>lud quod differt formali ratione ab eo quod est 
+      <lb ed="#P" n="36"/>per se potentia, possit per se subiici illi actui, vt per 
+      <lb ed="#P" n="37"/>se subiectum perfectibile per ipsum, sicut 
+      impos<lb ed="#P" n="38" break="no"/>sibile est quod per se subiectum figurae possit esse 
+      <lb ed="#P" n="39"/>nisi quantum: sed materia prima &amp; forma 
+      sub<lb ed="#P" n="40" break="no"/>stantialis habent per se ordinem essentialem sicut 
+      <lb ed="#P" n="41"/>potentia &amp; actus: ergo impossibile est quod 
+      sub<lb ed="#P" n="42" break="no"/>iectum formae sit aliquid diuersum formaliter &amp; 
+      <lb ed="#P" n="43"/>ratione formali ab ipsa materia prima. Sed 
+      quan<lb ed="#P" n="44" break="no"/>titas essentialiter &amp; ratione formali differt a 
+      ma<lb ed="#P" n="45" break="no"/>teria prima. Ergo impossibile est quod quantitas 
+      <lb ed="#P" n="46"/>sit subiectum formae substantialis: secundo, quia 
+      <lb ed="#P" n="47"/>si quantitas manens efficeretur subiectum formae 
+      <lb ed="#P" n="48"/>substantialis, sequeretur quod in eo quod 
+      nutri<lb ed="#P" n="49" break="no"/>tur ex talibus speciebus, quantitas misceretur cum 
+      <lb ed="#P" n="50"/>materia praeexistente, vel quod non nutriretur 
+      <lb ed="#P" n="51"/>totum, sed aliqua pars Corporis in qua quantitas 
+      <lb ed="#P" n="52"/>esset subiectum formae substantialis &amp; in aliis 
+      par<lb ed="#P" n="53" break="no"/>tibus materia efset subiectum illius formae, quae 
+      <lb ed="#P" n="54"/>omnia sunt absurda. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e804">
+               <lb ed="#P" n="55"/>Secundus etiam modus est imposssbilis, 
+      pri<lb ed="#P" n="56" break="no"/>mo, quia impossibile est duas dimensiones esse in 
+      <lb ed="#P" n="57"/>eodem, scilicet quod in eodem sint duae 
+      longitu<lb ed="#P" n="58" break="no"/>dines, vel duae profunditates, quia solo numeto 
+      <lb ed="#P" n="59"/>differretur, sicut alias satis deduxi. Et quod 
+      di<lb ed="#P" n="60" break="no"/>citur, de dimensione interminata non est 
+      intelli<lb ed="#P" n="61" break="no"/>gendum, quod ibi sint diuersae dimensiones, 
+      sci<lb ed="#P" n="62" break="no"/>licet terminata &amp; interminata: sed quia vna &amp; 
+      <lb ed="#P" n="63"/>eadem potest considerari secundum 
+      determina<lb ed="#P" n="64" break="no"/>tam distantiam, vt scilicet sit bicubita &amp; tricubita 
+      <lb ed="#P" n="65"/>tantum. Ipsa etiam eadem potest considerari 
+      <lb ed="#P" n="66"/>prout est indifferens ad diuersas distantias, sicut 
+      <lb ed="#P" n="67"/>est indifferens vt sit magnum vel paruum 
+      bicubi<lb ed="#P" n="68" break="no"/>tum vel tricubitum. Si esset etiam talis dimensio 
+      <lb ed="#P" n="69"/>umerminata idem inconueniens sequeretur de ea 
+      <!--356.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>&amp; de quantitate terminata, quia talis dimensio 
+      <lb ed="#P" n="71"/>essentialiter &amp; ratione formali differtent a 
+      mate<lb ed="#P" n="72" break="no"/>ria, nisi aliquis dimensionem interminatam velit 
+      <lb ed="#P" n="73"/>vocare materiam, prout est in potentia ad diuersas 
+      <lb ed="#P" n="74"/>quantitates. Et tunc equiuocatio esset de 
+      dimen<lb ed="#P" n="75" break="no"/>sione, &amp; ponere dimensionem sic esse subiectum 
+      <lb ed="#P" n="76"/>formae substantialis, nihil aliud est quam ponere 
+      <lb ed="#P" n="77"/>materiam esse subsectum talis formae. Vltimi duo 
+      <lb ed="#P" n="78"/>modi sunt, scilicet, vel quod Deus de nouo creet 
+      <lb ed="#P" n="79"/>ibi materiam quae fiat sub forma generati, vel 
+      <lb ed="#P" n="80"/>quod quantitas conuertatur inmateriam. Tamen 
+      <lb ed="#P" n="81"/>vltimus modus videtur mihi magis conueniens, 
+      <lb ed="#P" n="82"/>quia ille modus generandi aliquid ex illis 
+      specie<lb ed="#P" n="83" break="no"/>bus videtur mihi magis conueniens secundum 
+      <lb ed="#P" n="84"/>quem magis proprie potest saluari, quod illud 
+      <lb ed="#P" n="85"/>quod generatur dicatur generari ex illis 
+      specie<lb ed="#P" n="86" break="no"/>bus. Sed iste est vltimus modus, quia si crearetur 
+      <lb ed="#P" n="87"/>ibi noua materia minus proprie posset dici, quod 
+      <lb ed="#P" n="88"/>vermis vel aliquid aliud generetur ex illis 
+      specie<lb ed="#P" n="89" break="no"/>bus quam si ponatur quod quantitas conuertatur 
+      <lb ed="#P" n="90"/>in materiam, ex quo generetur illud quod 
+      genera<lb ed="#P" n="91" break="no"/>tur. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e891">
+               <lb ed="#P" n="92"/>Ad primum ergo in oppositum dicendum, 
+      per<lb ed="#P" n="93" break="no"/>interemptionem maioris. Ad probationem 
+      di<lb ed="#P" n="94" break="no"/>cendum, quod esse in subiecto actu non est de 
+      ra<lb ed="#P" n="95" break="no"/>tione accidentis naturaliter, sed esse in subiecto 
+      <lb ed="#P" n="96"/>actu vel aptitudine, idest, habere aptitudinem ad 
+      <lb ed="#P" n="97"/>essendum in subiecto non tollitur accidenti 
+      sepa<lb ed="#P" n="98" break="no"/>rato. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e909">
+               <lb ed="#P" n="99"/>Ad secundum dicendum, quod forma 
+      acci<lb ed="#P" n="100" break="no"/>dentalis non agit nisi in virtute formae 
+      substantia<lb ed="#P" n="101" break="no"/>lis subiecti quam accipit dum agit vel quam prius 
+      <lb ed="#P" n="102"/>acceptat; illae autem formae accidentales 
+      habue<lb ed="#P" n="103" break="no"/>runt virtutem qua agant quando sunt separatae a 
+      <lb ed="#P" n="104"/>generante mediante forma substantiali. Sicut etiam 
+      <lb ed="#P" n="105"/>videmus, quod semen non accipit virtutem 
+      agen<lb ed="#P" n="106" break="no"/>di dum agit, sed per virtutem prius acceptam a 
+      <lb ed="#P" n="107"/>generante &amp; ipso desinente esse agit. Vel potest 
+      <lb ed="#P" n="108"/>dici, quod virture diuina hoc fit quod illa 
+      acciden<lb ed="#P" n="109" break="no"/>tia sine forma substantiali possunt agere ad 
+      gene<lb ed="#P" n="110" break="no"/>rationem substantialem. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e939">
+               <lb ed="#P" n="111"/>Ad tertium dicendum, quod aliquid 
+      corrum<lb ed="#P" n="112" break="no"/>pitur dupliciter. Vno modo sicut compositum 
+      <lb ed="#P" n="113"/>habens vnam partem sui spoliabilem a sua forma. 
+      <lb ed="#P" n="114"/>Et sic nulla forma subfistens potest corrumpi: nec 
+      <lb ed="#P" n="115"/>quantitates illae isto modo corrumpuntur. Alio 
+      <lb ed="#P" n="116"/>modo minus proprie potest aliquid corrumpti, vt 
+      <lb ed="#P" n="117"/>scilicet corrumpi accipiatur pro desinere esse per 
+      <lb ed="#P" n="118"/>conuersionem sui in aliud: &amp; isto modo quantitas 
+      <lb ed="#P" n="119"/>non haerens subiecto potest corrumpi virtute 
+      di<lb ed="#P" n="120" break="no"/>uina conuertente eum in materiam. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e963">
+               <lb ed="#P" n="121"/>Ad quartum dicendum, quod ex forma 
+      sub<lb ed="#P" n="122" break="no"/>sistente nihil potest generari sicut ex aliquo 
+      ma<lb ed="#P" n="123" break="no"/>nente quantum ad vnam partem sui, &amp; corrupto 
+      <lb ed="#P" n="124"/>quantum ad alteram: sicut fit in generationibus 
+      <lb ed="#P" n="125"/>naturalibus: tamem ex forma subsistente conuersa 
+      <lb ed="#P" n="126"/>virtute diuina in materiam nihil prohibet aliquid 
+      <lb ed="#P" n="127"/>generari. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e981">
+               <lb ed="#P" n="128"/>Ad quintum dicendum, similiter quod 
+      virtu<lb ed="#P" n="129" break="no"/>te diuina ex accidente conuerso in materiam 
+      po<lb ed="#P" n="130" break="no"/>test aliquid nutriri, licet naturaliter hoc fieri non 
+      <lb ed="#P" n="131"/>possit. 
+      </p>
+            <p xml:id="hx2hx3-c19443-d1e992">
+               <lb ed="#P" n="132"/>Ad sextum dicendum, quodnaturaliter accidentia 
+      <lb ed="#P" n="133"/>non habent misceri, virtute tamendiuina 
+      quanti<lb ed="#P" n="134" break="no"/>tate conuersa in materia potest fieri in talibus 
+      <lb ed="#P" n="135"/>mixtio, ita tamem quod mixtione facta non maneat 
+      <lb ed="#P" n="136"/>quantitas separata quantum ad illam partem in 
+      <lb ed="#P" n="137"/>qua est mixtio.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

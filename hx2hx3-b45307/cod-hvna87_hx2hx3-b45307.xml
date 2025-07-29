@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="136"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b45307"><!-- l1d35q1 -->
+            <head xml:id="hx2hx3-b45307-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b45307-Hd1e101" type="question-title">Utrum Deus habeat scientiam certam et distinctam de eis quae sunt extra se</head>
+            <p xml:id="hx2hx3-b45307-d1e104">
+               <lb ed="#P" n="100"/>Cumque supra disseruerimus, ac pluta 
+      di<lb ed="#P" n="101" break="no"/>xerimus de huis communiter quae secun. 
+      <lb ed="#P" n="102"/>dum rem de Deo dicutur eorum tameni 
+      <lb ed="#P" n="103"/>VS. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e115">
+               <lb ed="#P" n="104"/>Distincta <sic>trigesima tertia</sic>. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e122">
+               <lb ed="#P" n="105"/>QVAESTIO PRIMA. 
+      <lb ed="#P" n="106"/>CIrca distinctionem <sic>trigesimam tertiam</sic>. 
+      Que<lb ed="#P" n="107" break="no"/>ritur vtrum Deus habeat scientiam certam, 
+      <lb ed="#P" n="108"/>&amp; distinctam de eis quae sunt extra se. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e136">
+        Et arguitur 
+      <lb ed="#P" n="109"/>quod non. Quia vbi nen est scientia, non est 
+      <lb ed="#P" n="110"/>scientia distinctina &amp; specialis. Sed in Deo non 
+      <lb ed="#P" n="111"/>est scientia. Ergo, &amp;c. Probatio minoris. Quia 
+      <lb ed="#P" n="112"/>scientia est habitus discursinus, cum sit habitus 
+      <lb ed="#P" n="113"/>conclusionum quae probantur per 
+      demonstratio<lb ed="#P" n="114" break="no"/>nem. Tale quid non est in diuinis. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e152">
+               <lb ed="#P" n="115"/>Praeterea Deus non cognoscit aliquid nisi pro 
+      <lb ed="#P" n="116"/>vt est in eo. Sed illud quod est in Deo pro vt est in: 
+      <lb ed="#P" n="117"/>eo non est distinctum a Deo. Ergo Deus 
+      nonco<lb ed="#P" n="118" break="no"/>gnoscit alia a se vt sunt distincta ab eo: nec per 
+      <lb ed="#P" n="119"/>consequens cognoscit ea in speciali, &amp; distincte. 
+      <lb ed="#P" n="120"/>suia in suo esse speciali distincto sunt a Deo. 
+      Pre<lb ed="#P" n="121" break="no"/>terea Deus cognoscit vnumquodquae 
+      inquan<lb ed="#P" n="122" break="no"/>tum assimilatur sibi, quia simile, simili cognosci 
+      <lb ed="#P" n="123"/>tur. Sed illa quae sunt similia inquantum huiusmodi, 
+      <lb ed="#P" n="124"/>non habent esse distinctum a Deo, sed magis vunm 
+      <lb ed="#P" n="125"/>cum eo. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e178">
+               <lb ed="#P" n="126"/>Praeterea Deus cognoscit res in propria forma, 
+      <lb ed="#P" n="127"/>aut hoc est per proprium medium, aut per 
+      com<lb ed="#P" n="128" break="no"/>mune, non per proprium, quia tunc Deus per 
+      di<lb ed="#P" n="129" break="no"/>uersa media cognosceret diuersa, quod est 
+      incon<lb ed="#P" n="130" break="no"/>ueniens. Quia in eo non est nisi vnum medium 
+      co<lb ed="#P" n="131" break="no"/>gnosendi omnia. Nec per mediu commune, quia 
+      <!--137.xml-->
+      <pb ed="#P" n="137"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tale medium non facit propriam &amp; distinctam 
+      co<lb ed="#P" n="2" break="no"/>gnitionem de re. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e204">
+               <lb ed="#P" n="3"/>Contra agens per intellectum nouit quae agit 
+      <lb ed="#P" n="4"/>in propriis formis, &amp; in speciali. Sed Deus est cau. 
+      <lb ed="#P" n="5"/>sa efficiens omnium aliorum a se, per intellectum 
+      <lb ed="#P" n="6"/>&amp; voluntatem. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e215">
+               <lb ed="#P" n="7"/>Respondeo hic tria declaranda sunn Primo quod 
+      <lb ed="#P" n="8"/>Deus habeat scientiam, accipiendo seientiam pro 
+      <lb ed="#P" n="9"/>cognitione intellectiua. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e224">
+               <lb ed="#P" n="10"/>Secundo, quod habeat cognitionem in specia 
+      <lb ed="#P" n="11"/>li, &amp; distinctam de rebus. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e232">
+               <lb ed="#P" n="12"/>Tertio, quod ipse cognoscit res in singulars. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e237">
+               <lb ed="#P" n="13"/>ARTICVLVS PRIMVS, 
+      <lb ed="#P" n="14"/>QVod Deus habeat scientiam, probatur 
+      tripli<lb ed="#P" n="15" break="no"/>civia.
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e246">
+               <lb ed="#P" n="16"/>Primo, via remotionis, quia quanto vnumquode 
+      <lb ed="#P" n="17"/>quo minus habet de materialitate, supposita eius 
+      <lb ed="#P" n="18"/>entitate, est magis nobile &amp; habet operationem 
+      ma<lb ed="#P" n="19" break="no"/>gis nobilem; &amp; praecipue loquendo de operatione in 
+      <lb ed="#P" n="20"/>manente. Sed Deus est maxime inmaterialis, quia 
+      <lb ed="#P" n="21"/>est siue materia omni &amp; potemtialitate quacumque: 
+      <lb ed="#P" n="22"/>quae est conditio materiae. Ergo Deus habet 
+      ope<lb ed="#P" n="23" break="no"/>rationem maxime nobilem. Sed nobilissima 
+      opera<lb ed="#P" n="24" break="no"/>rio est intelligere. Ergo Deo conuenit intelligere: 
+      <lb ed="#P" n="25"/>&amp; nobilior &amp; potior modus intelligendi qui possit 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e270">
+               <lb ed="#P" n="26"/>Aliter formatur, quia quanto aliquid est 
+      remo<lb ed="#P" n="27" break="no"/>tum a materialitate, tanto magis accedit ad 
+      natu<lb ed="#P" n="28" break="no"/>ram cognoscitiuam, sed Deus est remotissimus a 
+      <lb ed="#P" n="29"/>materialitate. Ergo ei conuenit maxime 
+      cognosce<lb ed="#P" n="30" break="no"/>re, &amp; nobilissimo modo scilicet per intellectum. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e283">
+               <lb ed="#P" n="31"/>Sed contra hoc obiicitur tripliciter. Primo 
+      <lb ed="#P" n="32"/>priuatiuum non est causa effectiua positiui. Sed 
+      <lb ed="#P" n="33"/>immaterialitas siue carentia materiae est aliquid 
+      <lb ed="#P" n="34"/>priuatiuum. Ergo non est effectiua positiui, quod 
+      <lb ed="#P" n="35"/>est intelligere. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e296">
+               <lb ed="#P" n="36"/>Secundo, quia si immaterialitas esset causa 
+      co<lb ed="#P" n="37" break="no"/>gnoscendi, sequeretur quod illa quae habent 
+      mi<lb ed="#P" n="38" break="no"/>nus de materia, magis participatent naturam 
+      co<lb ed="#P" n="39" break="no"/>gnoscitiua: sed hoc est falsum. Quia aer&amp; ignis 
+      ms<lb ed="#P" n="40" break="no"/>nus habent de materia quam bruta: &amp; tamen non 
+      <lb ed="#P" n="41"/>habent cognitionem plusquam bruta, nec sicut 
+      <lb ed="#P" n="42"/>bruta, quia nullam cognitionem habent. Tertio: 
+      <lb ed="#P" n="43"/>quia per idem habet aliquid intelligere, &amp; 
+      in<lb ed="#P" n="44" break="no"/>telligi. Sed intelligi non conuenit alicui per 
+      im<lb ed="#P" n="45" break="no"/>materialitatem: asioquin materialia non possent 
+      <lb ed="#P" n="46"/>intelligi. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e323">
+               <lb ed="#P" n="47"/>Sed his non obstantibus ratio est bona. Quia 
+      <lb ed="#P" n="48"/>ibi accipitur materialitas, non solum pro 
+      materia<lb ed="#P" n="49" break="no"/>litate propriae dicta, sed etiam pro possibilitate, 
+      <lb ed="#P" n="50"/>&amp; potentialitatei 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e334">
+               <lb ed="#P" n="51"/>Ad primum ergo, dicendum est, quod 
+      priua<lb ed="#P" n="52" break="no"/>tiuu non est causa positiui, nec etiam per illam 
+      ratio<lb ed="#P" n="53" break="no"/>nem ponitur quod carentia materiae quae dicit 
+      quan<lb ed="#P" n="54" break="no"/>dam priuationem materiae, sit causa intelligendi 
+      <lb ed="#P" n="55"/>quod est positiuum: sed supposita entitate rei 
+      ma<lb ed="#P" n="56" break="no"/>terialis est signum positiuum, &amp; ad ipsam 
+      conse<lb ed="#P" n="57" break="no"/>cutiue se habet aliquod positiuum. Nam posito 
+      <lb ed="#P" n="58"/>quod aliquid sit ens, &amp; inmateriale, sequitur quod 
+      <lb ed="#P" n="59"/>habeat naturam nobilem, &amp; per consequens 
+      ope<lb ed="#P" n="60" break="no"/>rationem nobilem sicut est cognoscere, &amp; 
+      quan<lb ed="#P" n="61" break="no"/>to plus est inmateriale, tanto plus habebit 
+      cognitio<lb ed="#P" n="62" break="no"/>nem nobiliorem. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e363">
+               <lb ed="#P" n="63"/>Ad secundum, dicendum quod illa ratio 
+      pro<lb ed="#P" n="64" break="no"/>cedit ex aequiuocatione materialitatis, &amp; 
+      inmate<lb ed="#P" n="65" break="no"/>nalitatis. Nam quando dicitur quod quanto 
+      mi<lb ed="#P" n="66" break="no"/>nus aliquid habet de materialitate, ibi accipitur 
+      <lb ed="#P" n="67"/>materialitas, non pro materia propriae dicta, sed 
+      <!--137.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="68"/>pro potentialitate materiae. Quia quanto aliquia 
+      <lb ed="#P" n="69"/>est magis inmune a potentialitate materiae, &amp; 
+      ma<lb ed="#P" n="70" break="no"/>gis transgreditur potentialitatem, &amp; imperfectio. 
+      <lb ed="#P" n="71"/>nem eius, tanto magis accedit ad nobilitatem, &amp; 
+      <lb ed="#P" n="72"/>naturam cognitiuam. Sic autem nunus habet de 
+      <lb ed="#P" n="73"/>materialitate brutum, &amp; magus vincit potentiali. 
+      <lb ed="#P" n="74"/>tatem materiae quam aer, vel ignis: quamuis 
+      in<lb ed="#P" n="75" break="no"/>quantum sunt magis rari aer &amp; ignis: minus 
+      ha<lb ed="#P" n="76" break="no"/>bent de materia propriae dicta. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e400">
+               <lb ed="#P" n="77"/>Ad tertium. Dicendum quod quando dicitur 
+      <lb ed="#P" n="78"/>quod per idem aliquid intelligit, &amp; intelligitur, si 
+      <lb ed="#P" n="79"/>refferatur ly per idem ad rationcm intelligendi, vt 
+      <lb ed="#P" n="80"/>sit sensus, quod idem quod est ratio per quam alia 
+      <lb ed="#P" n="81"/>quis intelligat, illud idem sit ratio ex parte 
+      intelli<lb ed="#P" n="82" break="no"/>gibilis per quam intelligatur: veritatem habet vt 
+      <lb ed="#P" n="83"/>si ponamus esse species, per eandem illam speciem 
+      <lb ed="#P" n="84"/>per quam aliquis intelligit, per illam eandem res 
+      <lb ed="#P" n="85"/>intellecta intelligitur. Illud autem per quod 
+      ali<lb ed="#P" n="86" break="no"/>quid intelligitur est inmateriale: licet res quae 
+      in<lb ed="#P" n="87" break="no"/>telligitur sit materialis. Siautem ly per idem 
+      refe<lb ed="#P" n="88" break="no"/>retur ad obiectum, &amp; accipiatur ly per idem 
+      ma<lb ed="#P" n="89" break="no"/>terialiter vt sit sensus quod per idem, &amp;c. id est 
+      <lb ed="#P" n="90"/>quod quantum ad omne illud quod conuenit, ali. 
+      <lb ed="#P" n="91"/>cui intelligere: conuenit &amp; sibi intelligi, &amp; 
+      econ<lb ed="#P" n="92" break="no"/>uerso: falsum est. Nam res materiales quantum ad 
+      <lb ed="#P" n="93"/>illud quod sunt intelliguntur, &amp; sunt &amp; possunt 
+      in<lb ed="#P" n="94" break="no"/>telligi: non tamen possunt intelligere. Iel 
+      bre<lb ed="#P" n="95" break="no"/>uius posset dici, quod res materiales non 
+      intelli<lb ed="#P" n="96" break="no"/>gunt: nisi inquantum sunt aliquo modo 
+      inmate<lb ed="#P" n="97" break="no"/>riales. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e448">
+               <lb ed="#P" n="98"/>Secunda via sumitur penes causalitatem, &amp; est 
+      <lb ed="#P" n="99"/>talis. Omne agens praestituens sibi finem, agit per 
+      <lb ed="#P" n="100"/>intellectum, &amp; voluntatem: &amp; per consequens; ea 
+      <lb ed="#P" n="101"/>quae agit intelligit. Sed Deus est causa omnium 
+      a<lb ed="#P" n="102" break="no"/>liorum, &amp; est agens praestituens finem sihi. Etgo, 
+      <lb ed="#P" n="103"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e464">
+               <lb ed="#P" n="104"/>Maior patet, quia agens praestituens sibi finem. 
+      <lb ed="#P" n="105"/>oportet quod cognoscat fine, &amp; ea quae sunt ad 
+      ss<lb ed="#P" n="106" break="no"/>nem, &amp; proportionem vnius ad alterm, scilicet 
+      <lb ed="#P" n="107"/>eorum quae sunt ad sinem, ad ipsum finem. Aliter 
+      <lb ed="#P" n="108"/>hon praestitueret sibi finem. Minor probatur sic. 
+      <lb ed="#P" n="109"/>Aut Deus agit a casu non untendens aliquem 
+      fi<lb ed="#P" n="110" break="no"/>nem operis sui, quod esset inconueniens. Aut agu 
+      <lb ed="#P" n="111"/>tendendo in finem sibi praestitutum ab alio. Sed 
+      <lb ed="#P" n="112"/>hoc non potest esse. Quia tunc non esset primum 
+      <lb ed="#P" n="113"/>agens. Aut agit praestituendo sibi finem: &amp; hoc 
+      <lb ed="#P" n="114"/>est necessarium. Quia prima duo vt dictum esti 
+      <lb ed="#P" n="115"/>sunt impossibilia. Et si obiiciatur; quia vna 
+      per<lb ed="#P" n="116" break="no"/>sona producit aliam nec a casu, nec propter 
+      fi<lb ed="#P" n="117" break="no"/>nem: &amp; similiter producit tota Trinitas 
+      ereatu<lb ed="#P" n="118" break="no"/>ram. Dicendum est, quod non est simile. Quia 
+      <lb ed="#P" n="119"/>in productione diuinarum personarum, non 
+      pro<lb ed="#P" n="120" break="no"/>ducitur aliquid, quod sit natum ordinari ad 
+      ali<lb ed="#P" n="121" break="no"/>quid supra se, sicut creatura. Quia omnis creatu. 
+      <lb ed="#P" n="122"/>ra habet aliquid supra se; ad quod nata est ordinari 
+      <lb ed="#P" n="123"/>sicut ad finem. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e511">
+               <lb ed="#P" n="124"/>Tertia via sumitur ex praeeminentia Dei. Quia, 
+      <lb ed="#P" n="125"/>quicquid importat simpliciter perfectionem, Deo 
+      <lb ed="#P" n="126"/>est attribuendum. Sed intelligere, &amp; scire est 
+      hu<lb ed="#P" n="127" break="no"/>iusmodi. Ergo, &amp;c. Maior patet. Minor 
+      proba<lb ed="#P" n="128" break="no"/>tur. Quia sicut alias dictum fuit, illud dicit 
+      perfe<lb ed="#P" n="129" break="no"/>ctionem simpliciter, quod tale simpliciter melius 
+      <lb ed="#P" n="130"/>est omni non tali. Intelligere autem inquantum 
+      <lb ed="#P" n="131"/>huiusmodi, est melius &amp; perfectius omni non 
+      in<lb ed="#P" n="132" break="no"/>telligente. Ergo &amp; intelligere absolute acceptum. 
+      <lb ed="#P" n="133"/>Quia si acciperet intelligere per discursum, vel 
+      <lb ed="#P" n="134"/>habitum additum, non diceret simpliciter 
+      perfe<lb ed="#P" n="135" break="no"/>ctionem: sed cum determinato modo 
+      principian<lb ed="#P" n="136" break="no"/>di, Vnde bene inuenitur aliquid perfectius omns 
+      <lb ed="#P" n="137"/>intelligente per discursum: sed non inuenitur ali¬ 
+      <!--138.xml-->
+      <pb ed="#P" n="138"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quid perfectius omni intelligente simpliciter. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e553">
+               <lb ed="#P" n="2"/>ARTICVLVS SECVNDVS 
+      <lb ed="#P" n="3"/>QVantum ad secundum, scilicet quod Deus 
+      <lb ed="#P" n="4"/>cognoscit in speciali secundum suas naturas 
+      <lb ed="#P" n="5"/>specificas. Probatur duplici via. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e564">
+               <lb ed="#P" n="6"/>Prima est via causalitatis. Quia illud quod est 
+      <lb ed="#P" n="7"/>causa totius vniuersi per intellectum, &amp; 
+      volunta<lb ed="#P" n="8" break="no"/>tem, oportet quod cognoscat in speciali partes ex 
+      <lb ed="#P" n="9"/>quibus constituitur vniuersum: sicut artifex debet 
+      <lb ed="#P" n="10"/>cognoscere sunm esfectum. Quia totum integrale 
+      <lb ed="#P" n="11"/>non potest perfecte cognosi, nisi in speciali parte; 
+      <lb ed="#P" n="12"/>cognoscatur. Sed partes vniuersi, sunt naturae 
+      spe<lb ed="#P" n="13" break="no"/>cifice rerum, secundum quod sunt talis naturae in 
+      <lb ed="#P" n="14"/>speciali: sic enim constituunt ordinem vniuersi. 
+      <lb ed="#P" n="15"/>Ergo oportet quod Deus in speciali cognoscat alia 
+      <lb ed="#P" n="16"/>a se. Secunda via est praeeminentiae, &amp; est talis. 
+      <lb ed="#P" n="17"/>Sicut essentia Dei propter praeeminentiam eius in 
+      <lb ed="#P" n="18"/>essendo, includit omnem perfectionem, quia ei 
+      <lb ed="#P" n="19"/>conuenit quicquid dicit perfectionem simpliciter 
+      <lb ed="#P" n="20"/>in essendo: ita etiam propter praeeminentiam, &amp; 
+      <lb ed="#P" n="21"/>perfectionem suam in causando, &amp; 
+      repraesentan<lb ed="#P" n="22" break="no"/>do oportet quod conueniat ei quicquid est 
+      perte<lb ed="#P" n="23" break="no"/>ctionis simpliciter, incausando &amp; in 
+      repraesenten<lb ed="#P" n="24" break="no"/>do. Non est autem res aliqua, quam creare &amp; 
+      re<lb ed="#P" n="25" break="no"/>repraesentare, non sit simpliciter perfectius. Licet 
+      <lb ed="#P" n="26"/>enim sic reptaesentare: scilicet quod aliquid 
+      repre<lb ed="#P" n="27" break="no"/>sentet hominem &amp; non plus, vel quod obscure. 
+      <lb ed="#P" n="28"/>sit imperfectionis simpliciter; tamen repraesentare 
+      <lb ed="#P" n="29"/>hominem, vel quodcumque aliud, est simpliciter 
+      <lb ed="#P" n="30"/>perfectionis. Et simile est de causando hanc rem, 
+      <lb ed="#P" n="31"/>vel illam, &amp; repraesentare vnumquodque in 
+      ge<lb ed="#P" n="32" break="no"/>nerali &amp; speciali, perfectionis est simpliciter. 
+      Er<lb ed="#P" n="33" break="no"/>go essentia diuina repraesentat omnia, &amp; quantum 
+      <lb ed="#P" n="34"/>ad sua specialia, &amp; quantum ad sua generalia. Et 
+      <lb ed="#P" n="35"/>ideo oportet ponere quod ipse propriam&amp; 
+      specia<lb ed="#P" n="36" break="no"/>len cognitionem habeat de rebus. Notandum 
+      ta<lb ed="#P" n="37" break="no"/>men est, quod quando dicitur quod Deus habeat 
+      <lb ed="#P" n="38"/>propriam &amp; distinctam cognitionem de rebus: 
+      <lb ed="#P" n="39"/>hoc potest intelligi dupliciter, vno modo ex parte 
+      <lb ed="#P" n="40"/>identitatis, vt sit sensus, quod Deus habet de 
+      ho<lb ed="#P" n="41" break="no"/>mine ita propriam cognitionem, quod illa ita sit 
+      <lb ed="#P" n="42"/>propria homini, quod nihil aliud intelligatur illa 
+      <lb ed="#P" n="43"/>cognitione: &amp; quod cognitio qua cognoscit 
+      homi<lb ed="#P" n="44" break="no"/>nem, sit realiter distincta a cognitione, qua 
+      co<lb ed="#P" n="45" break="no"/>gnoscit aequum. Et sic falsum est dicere quod Deus 
+      <lb ed="#P" n="46"/>habeat cognitionem propriam, &amp; distinctam de 
+      <lb ed="#P" n="47"/>rebus. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e658">
+               <lb ed="#P" n="48"/>Alio modo potest accipi propria, &amp; distincta 
+      <lb ed="#P" n="49"/>cognitio: ex parte cogniti, vt sit sensus, quod 
+      <lb ed="#P" n="50"/>Deus cognoscit in speciali propria vniuscuiusque 
+      <lb ed="#P" n="51"/>rei: &amp; ea per quae vna res in speciali distinguitur ab 
+      <lb ed="#P" n="52"/>alia verbi gratia quod cognoscat hominem non 
+      so<lb ed="#P" n="53" break="no"/>lum vt ens, sed etiam vt est rationale quod est ei 
+      <lb ed="#P" n="54"/>proprtum: &amp; per quod distinguitur ab aliis. Et sic 
+      <lb ed="#P" n="55"/>intelligitur, quod Deus habeat propriam &amp; 
+      di<lb ed="#P" n="56" break="no"/>stinctam cognitionem de rebus. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e680">
+               <lb ed="#P" n="57"/>ARTICVLVS TERIIVS. 
+      <lb ed="#P" n="58"/>QVantum ad tertium. Scilicet quod Deus 
+      <lb ed="#P" n="59"/>&amp; cognoscit fingularia, facile est probare, quia 
+      <lb ed="#P" n="60"/>cum ipse sit causa omnium per intellectum &amp; 
+      vo<lb ed="#P" n="61" break="no"/>luntatem, oportet quod cognoscat omnia, 
+      secun<lb ed="#P" n="62" break="no"/>dum quod ea faci, tconstat autem quod ea quae facit 
+      <lb ed="#P" n="63"/>non facit in vniuersali, sed in singulari. Quia 
+      om<lb ed="#P" n="64" break="no"/>nis res in suo esse extra, in quo habet fieri est 
+      sin<lb ed="#P" n="65" break="no"/>gularis. Et ideo oportet dicere quod ipse 
+      cognos<lb ed="#P" n="66" break="no"/>cat singularia; siueres in singulari. Causam autem 
+      <!--138.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>huius, scilicet quod Deus cognoscat omnia 
+      singu<lb ed="#P" n="68" break="no"/>laria in singulati. Dicunt quidam esse, quia Deus 
+      <lb ed="#P" n="69"/>est suum esse. Et hoc declarant sic. Quia illud 
+      <lb ed="#P" n="70"/>quod est suum esse, habet cognoscere alia a se, non 
+      <lb ed="#P" n="71"/>solum quantum ad suas quidditates, sed etiam 
+      <lb ed="#P" n="72"/>quantum ad suum esse. Sed Deus est suum esse, 
+      <lb ed="#P" n="73"/>Ergo habet cognosccre quantum ad suum esse. 
+      <lb ed="#P" n="74"/>Sed omnes res quantum ad suum esse sunt 
+      singula<lb ed="#P" n="75" break="no"/>res, licet quantum ad suas essentias habeat esse 
+      <lb ed="#P" n="76"/>vniuersale. Ergo Deus cognoscit in singulari per 
+      <lb ed="#P" n="77"/>hoc quod est suum esse. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e732">
+               <lb ed="#P" n="78"/>Sed istud valde parum valet. 
+      <lb ed="#P" n="79"/>Primo, quia si in creaturis esse non differt ab 
+      <lb ed="#P" n="80"/>essentia, idem erit de aliis intelligibilibus: sicut 
+      <lb ed="#P" n="81"/>de Deo. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e744">
+               <lb ed="#P" n="82"/>Secundo, quia sicut esse extra animam, est esse 
+      <lb ed="#P" n="83"/>particulare, ita etiam in anima. Sed essentia &amp; 
+      <lb ed="#P" n="84"/>esse habet esse vuiuersale. Sicut hoc quod dico 
+      <lb ed="#P" n="85"/>essentia est quoddam vniuersale praedicabile de 
+      <lb ed="#P" n="86"/>multis. Ita hoc quod dico esse. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e757">
+               <lb ed="#P" n="87"/>Tertio, quia dato quod Deus sit suum esse, 
+      ta<lb ed="#P" n="88" break="no"/>men non oportet quod eius essentia repraesenter 
+      <lb ed="#P" n="89"/>secundum quod habet quod sit esse: sed secundum 
+      <lb ed="#P" n="90"/>quod sit essentia, &amp; quaedam species, &amp; 
+      similitu<lb ed="#P" n="91" break="no"/>do exemplaris rei. Si dicatur quod inquantum 
+      es<lb ed="#P" n="92" break="no"/>sentia, repraesentat quidditates rerum, sed 
+      inquan<lb ed="#P" n="93" break="no"/>tum esse repraesentat ipsum esse. Nihil est. Quia 
+      <lb ed="#P" n="94"/>sicut idem quod est esse, &amp; essentia, potest 
+      reprae<lb ed="#P" n="95" break="no"/>sentare quidditatem vt est essentia &amp; esse, ita 
+      <lb ed="#P" n="96"/>etiam in creaturis in quibus ponitur esse &amp; 
+      essen<lb ed="#P" n="97" break="no"/>tia, ipsa essentia, repraesentabit essentias: &amp; esse 
+      <lb ed="#P" n="98"/>repraesentabit esse. Et sic intellectus creatus per 
+      <lb ed="#P" n="99"/>quidditatem speciei, cognoscet quidditatem rei: 
+      <lb ed="#P" n="100"/>&amp; per esse eius cognoscet esse rei. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e790">
+               <lb ed="#P" n="101"/>Quarto, quia ista quaestio non habet 
+      difficul<lb ed="#P" n="102" break="no"/>tatem de quolibet in particulari: sed de 
+      particula<lb ed="#P" n="103" break="no"/>ri materiali. Nam particularia immaterialia, per 
+      <lb ed="#P" n="104"/>se sunt intelligibilia ab intellectu eis 
+      proportio<lb ed="#P" n="105" break="no"/>nato. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e803">
+               <lb ed="#P" n="106"/>Et ideo aliter dicunt alii &amp; melius, quod Deus 
+      <lb ed="#P" n="107"/>qui est causa totius rei, &amp; quantum ad formam, 
+      <lb ed="#P" n="108"/>&amp; quantum ad materiam, &amp; quantum ad omne 
+      <lb ed="#P" n="109"/>illud quod in re est, cognoscit directe singularia 
+      <lb ed="#P" n="110"/>sicut &amp; nos. Ad cuius euidentiam, sciendum, 
+      <lb ed="#P" n="111"/>quod quaestio non intelligitur de quolibet 
+      particu<lb ed="#P" n="112" break="no"/>lari, quia particularia immaterialia, sunt per se 
+      <lb ed="#P" n="113"/>intelligibilia, nec intelligitur haec de futuris 
+      con<lb ed="#P" n="114" break="no"/>tingentibus, quia hoc tractabitur infra, sed 
+      quae<lb ed="#P" n="115" break="no"/>stio quaerit de particulari materiali, praecipue quod 
+      <lb ed="#P" n="116"/>experimur non esse primum, quasi per se obiectum 
+      <lb ed="#P" n="117"/>nostri intellectus: sed ex consequenti. Sed de hoc 
+      <lb ed="#P" n="118"/>praecipue est difficultas, quomodo Deus vel 
+      Ange<lb ed="#P" n="119" break="no"/>lus intelligit tale particulare. Causa autem quare 
+      <lb ed="#P" n="120"/>intellectus noster non intelligit tale singulare 
+      di<lb ed="#P" n="121" break="no"/>recte: est quia non intelligit nisi motus ab obiecto. 
+      <lb ed="#P" n="122"/>Obiectum autem non mouet ipsum nisi secundum 
+      <lb ed="#P" n="123"/>suum esse formale. Et accipio esse formale pro vt 
+      <lb ed="#P" n="124"/>acceptio absoluta formae, est eius acceptio 
+      secun<lb ed="#P" n="125" break="no"/>dum esse formale. Et acceptio eius secundum esse 
+      <lb ed="#P" n="126"/>contractum, est eius acceptio secundum esse ma. 
+      <lb ed="#P" n="127"/>teriale. Vnde linea, vel bicubitum secundum 
+      <lb ed="#P" n="128"/>quod absolute acceptum, est quasi formale. Sed 
+      <lb ed="#P" n="129"/>bicubitum hoc, vel haec linea vel illa, est quasi 
+      <lb ed="#P" n="130"/>materiale. Quia intellectus noster mouetur sic a 
+      <lb ed="#P" n="131"/>re secundum suum esse absolutum: &amp; formale. 
+      <lb ed="#P" n="132"/>Inde est quod non assimilatur ei rei nisi secundum 
+      <lb ed="#P" n="133"/>suum esse absolutum, &amp; formale, &amp; propter hoc 
+      <lb ed="#P" n="134"/>non intelligit res materiales, &amp; corporeas quae 
+      <lb ed="#P" n="135"/>sunt eius obiectum: nisi secundum suum esse 
+      ab<lb ed="#P" n="136" break="no"/>solutum, &amp; abstractum. Quare autem obiectum 
+      <!--139.xml-->
+      <pb ed="#P" n="139"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>materiale &amp; quantum, supposito quod quantitas 
+      <lb ed="#P" n="2"/>sit aliquo modo principium indiuiduationis in 
+      re<lb ed="#P" n="3" break="no"/>bus materialibus: non mouet secundum suum 
+      <lb ed="#P" n="4"/>esse contractum, sed secundum suum esse 
+      absolu<lb ed="#P" n="5" break="no"/>tum: est quia intellectus non est virtus organica, 
+      <lb ed="#P" n="6"/>nec id quod in eo recipitur: recipitur: in quanto, 
+      <lb ed="#P" n="7"/>Et ideo mouens ei propositum vel proportionatum 
+      <lb ed="#P" n="8"/>oportet quod abstrahat a conditione quantiquae ese 
+      <lb ed="#P" n="9"/>esse hoc, vel esse hoc signatum. Vnde sola ratio 
+      <lb ed="#P" n="10"/>absoluta formae vel substantialis, vel accidentalis, 
+      <lb ed="#P" n="11"/>&amp; ipsius quantitatis: manet apud ipsum. Sed 
+      in<lb ed="#P" n="12" break="no"/>tellectus diuinus qui non mouetur a re, sed est 
+      cau<lb ed="#P" n="13" break="no"/>sa retum; est eius essentia quae est sibi principium 
+      <lb ed="#P" n="14"/>intelligendi, quae non aquiritur ex motionererum: 
+      <lb ed="#P" n="15"/>sed econuerso ipsa est causa rerum. Repraesentar 
+      <lb ed="#P" n="16"/>res etiam materiales non solum secundum for. 
+      <lb ed="#P" n="17"/>mam secundum quam conuenit agere, nec solum 
+      <lb ed="#P" n="18"/>secundum esse absolutum, &amp; formale: sed etiam 
+      <lb ed="#P" n="19"/>secundum esse contractum ad hic, &amp; nunc. Ideo 
+      <lb ed="#P" n="20"/>facit cognoscere quodcumque singulare, 
+      quan<lb ed="#P" n="21" break="no"/>tuncumque materiale &amp; in suo esse singulaii 
+      con<lb ed="#P" n="22" break="no"/>tracto. Et haec esti ratio quae ponitur 
+      communi<lb ed="#P" n="23" break="no"/>ter.
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e929">
+               <lb ed="#P" n="24"/>Ad primum ergo in oppositum, dicendum 
+      <lb ed="#P" n="25"/>quod sicut calor noincludit insua ratione, quod sit 
+      <lb ed="#P" n="26"/>calefactio, licet non aquiratur siue calefactione; 
+      <lb ed="#P" n="27"/>ita cognitio conclusionum, licet non aquiratur in 
+      <lb ed="#P" n="28"/>nobis sine diseursu &amp; inquisitione: tamen quando 
+      <lb ed="#P" n="29"/>iam habetur, non est cum discursu, nec ineludit 
+      <lb ed="#P" n="30"/>nessario discursum in sua ratione. vnde scientia 
+      <lb ed="#P" n="31"/>quae respicit conclusiones: potest esse vbi non est 
+      <lb ed="#P" n="32"/>discursus. Vel potest diei, quod dato quod 
+      scien<lb ed="#P" n="33" break="no"/>tia in nobis non sit sine discursu, saltem in 
+      aquisi<lb ed="#P" n="34" break="no"/>tione scientiae: non tamen oportet quod sit in Deo. 
+      <lb ed="#P" n="35"/>Quia eius scientia non est eiusdem rationis 
+      vniuo<lb ed="#P" n="36" break="no"/>cecum nostra. Vnde eius certa &amp; euidens 
+      cogni<lb ed="#P" n="37" break="no"/>tio, quae vna &amp; eadem est de effectibus, &amp; 
+      decau<lb ed="#P" n="38" break="no"/>sis: vt est causarum, dicitur essequasi 
+      cognitioprin<lb ed="#P" n="39" break="no"/>cipiorum &amp; dicitur intelligentia: sed vt est 
+      effe<lb ed="#P" n="40" break="no"/>ctuum, dicitur esse quasi scientia. Vel potest dici, 
+      <lb ed="#P" n="41"/>quod cognitio inquantum est enunciabilium, quae 
+      <lb ed="#P" n="42"/>primo nata sunt eognosci ab intellectu creato, 
+      di<lb ed="#P" n="43" break="no"/>citur quasi intelligentia principiorum: sed pro vt est 
+      <lb ed="#P" n="44"/>enunciabilium quae nata sunt cognosci per aliud 
+      <lb ed="#P" n="45"/>ab intellectu creato, dicitur scientia. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e979">
+               <lb ed="#P" n="46"/>Ad secundum dicendum quod lyscilicet, potelt 
+      <lb ed="#P" n="47"/>reduplicare, vel rationem cognoscendi: vel rem 
+      <lb ed="#P" n="48"/>intellectum. Sireduplicet rationem cognoscendi, 
+      <lb ed="#P" n="49"/>sic est sensus quod Deus non cognoscit aliquid nili 
+      <lb ed="#P" n="50"/>secundum quod est in eo, id est, nisi secundum 
+      il<lb ed="#P" n="51" break="no"/>lam, vel per illam rationem quae est in eo: &amp; sic 
+      <lb ed="#P" n="52"/>verum est. Et ex hoc non sequitur, quod non co 
+      <lb ed="#P" n="53"/>noscat aliud a se; sed quod non cognoscat per 
+      a<lb ed="#P" n="54" break="no"/>liud a se: quod sit sibi ratio cognoscendi. Si autem 
+      <lb ed="#P" n="55"/>reduplicet obiectum intellectus, sic est sensue, 
+      <lb ed="#P" n="56"/>quod Deus non cognoscit nisi secundum quod in 
+      <lb ed="#P" n="57"/>eo, id est, nisi quantum ad illud esse cognitum quod 
+      <lb ed="#P" n="58"/>habet in Deo. Et tunc distinguendum est de esse in 
+      <lb ed="#P" n="59"/>Deo, quia aliquid est in Deo dupliciter, scilicet 
+      <lb ed="#P" n="60"/>formaliter, &amp; obiectiue. Formaliter, sicut 
+      cogni<lb ed="#P" n="61" break="no"/>tio sua, &amp; iusticia, &amp; sic de aliis quae sunt in eo. 
+      <lb ed="#P" n="62"/>Et sic accipiendo lv secundum quod, pro vt 
+      redu<lb ed="#P" n="63" break="no"/>plicat obiectum cognitum, falsa est maior. Quia 
+      <lb ed="#P" n="64"/>sensus est, quod Deus non cognoscit aliquid, insi 
+      <lb ed="#P" n="65"/>secundum quod est in eo: id est non est aliquidco 
+      <lb ed="#P" n="66"/>gnitum a Deo, nisi illud quod formaliter est in eo: 
+      <lb ed="#P" n="67"/>quodfalsum est. Nam alia ab eis quae suntiin. Deo 
+      <lb ed="#P" n="68"/>formaliter, &amp; sunt idem per essentiam cum eo:sunt 
+      <lb ed="#P" n="69"/>cognita ab eo. Si autem aecipiatur esse in Deo 
+      ob<lb ed="#P" n="70" break="no"/>lectiue, &amp; Nvsecundum quod reduplicet rem in¬ 
+      <!--139.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>tellectam: sic est sensus. quod nihil cognoscitur 
+      <lb ed="#P" n="72"/>a Deo nisi secundum quod est in eo: id est nisi 
+      <lb ed="#P" n="73"/>quantum ad illud cognitum quod est in eo 
+      obiecti<lb ed="#P" n="74" break="no"/>ue. Et sic est maior vera. Quia quicquid Deus 
+      <lb ed="#P" n="75"/>intelligit, est in eius intellectu obiectiue. Quia 
+      ob<lb ed="#P" n="76" break="no"/>iectiue dicitur esse in intellectu, quicquid est in 
+      as<lb ed="#P" n="77" break="no"/>pectu eius, sicut obiectiue in aliquo vidente est, 
+      <lb ed="#P" n="78"/>quicquid est in prospectu eius. Sed tunc minor est 
+      <lb ed="#P" n="79"/>falsa. Nam illud quod est in Deo isto modo, bene 
+      <lb ed="#P" n="80"/>potest esse diuersum, &amp; distinctum a Deo. Inde 
+      <lb ed="#P" n="81"/>non sequitur quod non cognoscat alia a se. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e1065">
+               <lb ed="#P" n="82"/>Ad tertium. Dicendum quod similitudo 
+      dici<lb ed="#P" n="83" break="no"/>tur dupliciter. Vno modo pro quadam relatione 
+      <lb ed="#P" n="84"/>similium, siue hoc sit secundum aliquod vnum 
+      ana<lb ed="#P" n="85" break="no"/>logum, sicut Deus &amp; Creatura sunt similes in 
+      en<lb ed="#P" n="86" break="no"/>titate: siue sit secundum aliquod vnum in specie, 
+      <lb ed="#P" n="87"/>sicut, duo homines sicut simile in albedine tune 
+      <lb ed="#P" n="88"/>sic. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e1083">
+               <lb ed="#P" n="89"/>Quando dicitur quod nihil cognoscitur a Deo 
+      <lb ed="#P" n="90"/>vel alio cognoscente nisi in quantum est simile 
+      fi<lb ed="#P" n="91" break="no"/>bi: si accipiatur secundum primam similitudinem 
+      <lb ed="#P" n="92"/>sub hoc sensu quod eognoscens non cognoscit 
+      ali<lb ed="#P" n="93" break="no"/>quid nisi quantum aad illud in quo conuenit cum 
+      <lb ed="#P" n="94"/>eo in ratione similitudinis; falsum est &amp; sic 
+      proce<lb ed="#P" n="95" break="no"/>dit ratio. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e1101">
+               <lb ed="#P" n="96"/>Alio modo accipitur similitudo non pro 
+      relatio<lb ed="#P" n="97" break="no"/>ne, sed pro fundamento relationis, siue pro imagine, 
+      <lb ed="#P" n="98"/>siue pro forma exemplari repraesentante rem: &amp; si 
+      <lb ed="#P" n="99"/>sic accipiatur similitudo vt sit sensus quod nihil 
+      eo<lb ed="#P" n="100" break="no"/>gnoscitur a Deo nisi in quantum habet eius 
+      simili<lb ed="#P" n="101" break="no"/>tudinem &amp; formam exemplarem repraesentantem 
+      <lb ed="#P" n="102"/>ipsum: vetitatem habet quantum ad illa quae sunt 
+      <lb ed="#P" n="103"/>alia a Deo: quod ideo dico; quia ipse non est exem. 
+      <lb ed="#P" n="104"/>ptar sui ipsius, quia alia a Deo non intelliguntur 
+      <lb ed="#P" n="105"/>ab eo nisi in quantum eorum similitudo, siue 
+      <lb ed="#P" n="106"/>eremplar est in Deo vt ratio cognoseendi. Et ea 
+      <lb ed="#P" n="107"/>hoc non sequitur quod non cognoscat quantum ad 
+      <lb ed="#P" n="108"/>illa in quibus distinguntur a Deo; sed non 
+      cogno<lb ed="#P" n="109" break="no"/>scerentur quantum ad illa nisi illorum exemplar 
+      <lb ed="#P" n="110"/>esset apud intellectum Dei tantum. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e1136">
+               <lb ed="#P" n="111"/>Ad quartum, dicendum quod medium 
+      com<lb ed="#P" n="112" break="no"/>mune potest dici dupliciter; vel per abstractionem 
+      <lb ed="#P" n="113"/>ipsius repraesentati, quia scilicet repraesentat 
+      ali<lb ed="#P" n="114" break="no"/>quod abstractum, vel absolutum commune pluri. 
+      <lb ed="#P" n="115"/>bus per praedicationem ita quod non repraesentat 
+      <lb ed="#P" n="116"/>propria illorum; alio modo dicitur per 
+      extensio<lb ed="#P" n="117" break="no"/>nem suae repraesentationis, quia scilicet sua 
+      reprae<lb ed="#P" n="118" break="no"/>sentatione non se extendit ad vnum tantum sed 
+      <lb ed="#P" n="119"/>etiam ad multa non solum in generali, sed etiam 
+      <lb ed="#P" n="120"/>quantum ad propria vniuscuiusque. Similiter 
+      me<lb ed="#P" n="121" break="no"/>dium proprium dupliciter dicitur: vno modo 
+      di<lb ed="#P" n="122" break="no"/>citur medium proprium quod ita repraesentat 
+      i<lb ed="#P" n="123" break="no"/>psum, quod nihil aliud repraesentat. 
+      </p>
+            <p xml:id="hx2hx3-b45307-d1e1167">
+               <lb ed="#P" n="124"/>Alio modo dicitur medium proptium non quia 
+      <lb ed="#P" n="125"/>unum tantum repraesentat, sed quia repraesentat 
+      <lb ed="#P" n="126"/>propria vniuscuiusque rei. Modo dico quod Deus 
+      <lb ed="#P" n="127"/>non habet medium commune primo modo de 
+      re<lb ed="#P" n="128" break="no"/>bus pluribus, imo habet medium proprium 
+      acci<lb ed="#P" n="129" break="no"/>piendo secundo modo medium proprium, per 
+      on<lb ed="#P" n="130" break="no"/>positum ad tale commune. Aed accipiendo 
+      com<lb ed="#P" n="131" break="no"/>mune secundo, modo &amp; proprium primo modo, 
+      <lb ed="#P" n="132"/>sic Deus habet medium commune, scilicet, se 
+      ex<lb ed="#P" n="133" break="no"/>tendens ad omnia simul quantum ad propria 
+      sin<lb ed="#P" n="134" break="no"/>gdilorum, &amp; vt proptium: quia non ita est medium 
+      <lb ed="#P" n="135"/>cognoscendi vnbu, quinhit medium 
+      coguoleen<lb ed="#P" n="136" break="no"/>di aliud. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

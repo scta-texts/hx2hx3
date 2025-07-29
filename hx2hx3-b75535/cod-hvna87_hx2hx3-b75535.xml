@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="225"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b75535"><!-- l2d8q2 -->
+            <head xml:id="hx2hx3-b75535-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b75535-Hd1e101" type="question-title">Utrum in illis corporibus exerceant opera vitae</head>
+            <p xml:id="hx2hx3-b75535-d1e104">
+               <lb ed="#P" n="64"/>QVAESTIO SECVNDA. 
+      <lb ed="#P" n="65"/>SEcundo quaeritur vtrum in illis corporibus 
+      exer<lb ed="#P" n="66" break="no"/>ceant opera vitae. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e113">
+               <lb ed="#P" n="67"/>Et arguitur quod sic: quia comedere, 
+      ambu<lb ed="#P" n="68" break="no"/>lare. loqui &amp; generare sunt opera vite: sed ista 
+      <!--225.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>attribuntur Angelis &amp; illis corporibus Ergo, 
+      <lb ed="#P" n="70"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e129">
+               <lb ed="#P" n="71"/>Praeterea, frustra essent in illis corporibus 
+      na<lb ed="#P" n="72" break="no"/>sus, aures, oculi: nisi essent ibi opera sensuum quae 
+      <lb ed="#P" n="73"/>sunt opera vitae Ergo &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e139">
+               <lb ed="#P" n="74"/>Contra. In non viuo non possunt esse opera vitae 
+      <lb ed="#P" n="75"/>Sed llla corpora non sunt viua. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e146">
+               <lb ed="#P" n="76"/>Respondeo. Dicendum si quaereretur, vtrum 
+      <lb ed="#P" n="77"/>illa corpora sint viua, breuis esset responsio. Quia 
+      <lb ed="#P" n="78"/>constat quod non: quia vita Angelica non vtitur 
+      il<lb ed="#P" n="79" break="no"/>lis corporibus vt forma.
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e157">
+               <lb ed="#P" n="80"/>Sed quia quaeritur, vtrum illa opera quae exercentur 
+      <lb ed="#P" n="81"/>in illis corporibus sint opera vitae, distinguendum est. 
+      <lb ed="#P" n="82"/>Quia opus aliquod potest dici opus vitae vno modo 
+      <lb ed="#P" n="83"/>quia est viuentis vt subiecti: &amp; sic constat quod 
+      <lb ed="#P" n="84"/>illa opera non sunt opera vitae. Quia constat quod 
+      <lb ed="#P" n="85"/>corpora in quibus exercentur illa opera non sunt 
+      <lb ed="#P" n="86"/>viua. Alio potest dici opus vitae sicut causae 
+      effecti<lb ed="#P" n="87" break="no"/>uae, qua scilicet effectiue causatum est a viuente 
+      <lb ed="#P" n="88"/>vel a vita. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e179">
+               <lb ed="#P" n="89"/>Et hoc adhuc potest intelligi dupliciter. Vno 
+      <lb ed="#P" n="90"/>modo, quod dicat opus vite, quod est causatum 
+      <lb ed="#P" n="91"/>in corpore etiam effectiue a vita coniuncta: sicut 
+      <lb ed="#P" n="92"/>opera quae fiunt in corpore ab anima secundum 
+      <lb ed="#P" n="93"/>quod coniungitur corpori vt motor: dicitur esse 
+      <lb ed="#P" n="94"/>opus vite. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e195">
+               <lb ed="#P" n="95"/>Et sic opus quod exercet Angelus in corporibus 
+      <lb ed="#P" n="96"/>illis, non est opus vitae. Vel dicitur opus vitae. 
+      <lb ed="#P" n="97"/>Quia est a viuente separato non coniuncto sicut a 
+      <lb ed="#P" n="98"/>causa efficiente: sicut motus baculi posset dici opus 
+      <lb ed="#P" n="99"/>vitae: quia est effectus viuentis separati. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e208">
+               <lb ed="#P" n="100"/>Et sic omnia opera quae Angelus exercet in illi, 
+      <lb ed="#P" n="101"/>corporibus sunt opera vitae: quia effecta sunt a 
+      vi<lb ed="#P" n="102" break="no"/>separato. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e218">
+               <lb ed="#P" n="103"/>Tertio modo potest dici opus vitae principaliter. 
+      <lb ed="#P" n="104"/>Quia habet aliquam similitudinem ad opus 
+      viuen<lb ed="#P" n="105" break="no"/>tis, quod est viuentis, non solum vt efficientis: sed 
+      <lb ed="#P" n="106"/>etiam vt subiecti. Et sic opera exercita in illis 
+      cor<lb ed="#P" n="107" break="no"/>poribus possunt dici opera vitae: quia aliquam 
+      si<lb ed="#P" n="108" break="no"/>militudinem habent cum operibus quae sunt in 
+      cor<lb ed="#P" n="109" break="no"/>pore viuente: hoc tamen minus proprie dicitur 
+      o<lb ed="#P" n="110" break="no"/>pus viuentis. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e238">
+               <lb ed="#P" n="111"/>Ad primum ergo per quod probatur esse opera 
+      <lb ed="#P" n="112"/>vitae. Dicendum, quod comedere quantum ad 
+      <lb ed="#P" n="113"/>diuisionem cibi, &amp; quantum ad traxionem ad 
+      inte<lb ed="#P" n="114" break="no"/>riora alicuius coporis, potest esse &amp; viuentis, &amp; non 
+      <lb ed="#P" n="115"/>viuentis corporis. Sed quantum ad hoc quod est 
+      <lb ed="#P" n="116"/>ista fieri a virtute coniuncta corpori apto nato 
+      nu<lb ed="#P" n="117" break="no"/>triti, est solum viuentis corporis. Et sic simpliciter est 
+      <lb ed="#P" n="118"/>opus vitae, licet quantum ad prima duo possit esse 
+      <lb ed="#P" n="119"/>opus vitae separatae, vt causae mouentis. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e260">
+               <lb ed="#P" n="120"/>Quantum ad ambulare, quantum ad motum 
+      <lb ed="#P" n="121"/>illum qui apparebat in illis partibus quae habebant 
+      <lb ed="#P" n="122"/>figuram pedum, poterat dici opus uitae, quantum 
+      <lb ed="#P" n="123"/>ad hoc quod effectiue talis motus causabatur a 
+      vi<lb ed="#P" n="124" break="no"/>ta, siue a viuente separato Sed quantum ad hoc 
+      <lb ed="#P" n="125"/>quod talis motus esset a vita coniuncta illi corpori 
+      <lb ed="#P" n="126"/>per modum formae, non erat opus vitae. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e278">
+               <lb ed="#P" n="127"/>Quantum etiam ad locutionem, est in illis 
+      cor<lb ed="#P" n="128" break="no"/>poribus opus vitae, quod illi soni formantur in illo 
+      <lb ed="#P" n="129"/>corpore a viuente separato, sicut a causa effectiua, 
+      <lb ed="#P" n="130"/>non autem quantum ad hoc quod soni illi 
+      forma<lb ed="#P" n="131" break="no"/>rentur a corpore informato vita per instrumenta 
+      <lb ed="#P" n="132"/>corporalia viua. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e294">
+               <lb ed="#P" n="133"/>Quantum etiam ad generationem, planum est 
+      <lb ed="#P" n="134"/>quod Angelus non generat, sed daemon qui 
+      <lb ed="#P" n="135"/>seruit talibus operibus. Sed semen viri recipit 
+      sup<lb ed="#P" n="136" break="no"/>ponendo se vito, &amp; transfert ad vas mulieris; &amp; ille 
+      <lb ed="#P" n="137"/>actus generandi est opus vitae, referendo ad vitam 
+      <lb ed="#P" n="138"/>viri cuius fuit semen, non autem referendo ad cor¬ 
+      <!--226.xml-->
+      <pb ed="#P" n="226"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>pus illud quod daemon format, euius non suit illud 
+      <lb ed="#P" n="2"/>semen. 
+      </p>
+            <p xml:id="hx2hx3-b75535-d1e320">
+               <lb ed="#P" n="3"/>Ad secundum dicendum, quod pculi, &amp; 
+      ta<lb ed="#P" n="4" break="no"/>lia quae apparent in tali corpore non fiunt pro 
+      nihi<lb ed="#P" n="5" break="no"/>lo, sed fiunt ad designdum proprietas spiritualis 
+      <lb ed="#P" n="6"/>Angeli assumentis, scilicet ad signandum 
+      visio<lb ed="#P" n="7" break="no"/>nem, &amp; cognitionem intellectualem. Et ad hoc 
+      <lb ed="#P" n="8"/>quod homines magis familiariter eos recipiat. non 
+      <lb ed="#P" n="9"/>autem ad significandum quod sit ibi actus 
+      sen<lb ed="#P" n="10" break="no"/>tiendi. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

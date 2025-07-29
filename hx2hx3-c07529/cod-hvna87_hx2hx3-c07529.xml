@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="319"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c07529"><!-- l4d2q2 -->
+            <head xml:id="hx2hx3-c07529-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-c07529-Hd1e101" type="question-title">Utrum sint septem sacramenta novae legis</head>
+            <p xml:id="hx2hx3-c07529-d1e104">
+               <lb ed="#P" n="42"/>QVAESTIO SECVNDA. 
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e109">
+               <lb ed="#P" n="43"/>SEcundo quaeritur vtrum sint septem 
+      sacra<lb ed="#P" n="44" break="no"/>menta nouae legis. 
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e116">
+        Et arguitur quod non. Nam 
+      <lb ed="#P" n="45"/>sacramenta sunt in remedium defectus, scilicet, 
+      <lb ed="#P" n="46"/>culpae &amp; poenae, sed sunt tantum duo: Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e124">
+               <lb ed="#P" n="47"/>Praeterea sacramenta nouae legis fuerunt 
+      fipura<lb ed="#P" n="48" break="no"/>rata in veteri lege: sed Confirmatio &amp; 
+      Extrema<lb ed="#P" n="49" break="no"/>vnctio non fuerunt figurata inlege vet eri: Ergo 
+      <lb ed="#P" n="50"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e135">
+               <lb ed="#P" n="51"/>Respondeo. Persuasiue potest reddi susfficientia 
+      <lb ed="#P" n="52"/>sacramentorum ex duobus. 
+      <lb ed="#P" n="53"/>Primo ex actione vitae christianae. 
+      <lb ed="#P" n="54"/>Secundo ex defectibus contra quos sunt.
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e146">
+               <lb ed="#P" n="55"/>Primum sic patet: quia sacramenta instituun 
+      <lb ed="#P" n="56"/>tur, &amp; ordinantur ad quosdam actus christianos 
+      <lb ed="#P" n="57"/>exercendos, &amp; quia sine charactere baptismali 
+      <lb ed="#P" n="58"/>non potest aliquis suscipere alia sacramenta: sicut 
+      <lb ed="#P" n="59"/>nec figuram potest quis recipere sine quantitate, vt 
+      <lb ed="#P" n="60"/>dictum fuit prius: sed si haberet characterem 
+      ba<lb ed="#P" n="61" break="no"/>ptismalem non posset fieri sacerdos etiam sine 
+      <lb ed="#P" n="62"/>confimatione prius habita. Sicut aliquis in vita 
+      <lb ed="#P" n="63"/>corporali potest perfici dupliciter, scilicet, 
+      secun<lb ed="#P" n="64" break="no"/>dum se, &amp; respectu multitudinis cuius est pars, sic 
+      <lb ed="#P" n="65"/>in vita spirituali, secundum se potest aliquis 
+      per<lb ed="#P" n="66" break="no"/>fici dupliciter: vno modo acquitendo perfectio, 
+      <lb ed="#P" n="67"/>nem, alio modo remouendo impedimentum: 
+      pri<lb ed="#P" n="68" break="no"/>mo modo sunt tria sacramenta, quia aliquis in vsta 
+      <!--319.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>corporali habet primo esse per generationem, &amp; 
+      <lb ed="#P" n="70"/>sic est sacramentum quoddam quod in esse spirituali 
+      <lb ed="#P" n="71"/>primo generat, scilicet, baptismus, qui est 
+      genera<lb ed="#P" n="72" break="no"/>tio spiritualis: Secundo acquirit quantitatem 
+      de<lb ed="#P" n="73" break="no"/>bitam &amp; vigorem, &amp; hoc per augmentum, &amp; sic 
+      <lb ed="#P" n="74"/>est confirmatio quae auget virtutem ad hoc quod 
+      <lb ed="#P" n="75"/>homo sit fortis contra aduersarios ad 
+      obedien<lb ed="#P" n="76" break="no"/>dum, &amp; ad confitendum audacter nomen Christi. 
+      <lb ed="#P" n="77"/>Tertio modo seruat se in esse per alimentum: &amp; 
+      <lb ed="#P" n="78"/>sic est Eucharistia, quod est sacramentum quoddam 
+      <lb ed="#P" n="79"/>necessarium ad conseruandum, &amp; ad 
+      restauratio<lb ed="#P" n="80" break="no"/>nem deperditi: sicut alimentum corporale est 
+      ne<lb ed="#P" n="81" break="no"/>cessarium corporalibus istis duobus modis: quia 
+      <lb ed="#P" n="82"/>sacramentum Euchar istiae sumptum cum 
+      charira<lb ed="#P" n="83" break="no"/>te vel mente audiendo missam, vel ore celebrando, 
+      <lb ed="#P" n="84"/>conseruat amorem Dei, ita quod confitmat &amp; 
+      <lb ed="#P" n="85"/>conseruat. Secundo modo, scilicet, remouendo 
+      im<lb ed="#P" n="86" break="no"/>pedimenta potest hoc esse dupliciter: quia aut 
+      <lb ed="#P" n="87"/>vnum se habet per modum curationis. Et sic est 
+      <lb ed="#P" n="88"/>poenitentia quae respondet curationi. Aut per 
+      mo<lb ed="#P" n="89" break="no"/>dum restitutionis ad praestinam valitudinem. Et sic 
+      <lb ed="#P" n="90"/>est Extrema vnctio. Et sic patet qualiter sumantur 
+      <lb ed="#P" n="91"/>sacramenta in ordine ad seipsum. In ordine 
+      au<lb ed="#P" n="92" break="no"/>tem ad alterum est dupliciter. Vno modo vt sit 
+      <lb ed="#P" n="93"/>rector alicuius multitudinis. Et sic oportet eum 
+      <lb ed="#P" n="94"/>persici in aliquo pradu perfectiori: &amp; sic 
+      accipi<lb ed="#P" n="95" break="no"/>tur ordo secundum quem aliquis haber regere 
+      ali<lb ed="#P" n="96" break="no"/>quam multitudinem. Alio modo potest perfici 
+      ra<lb ed="#P" n="97" break="no"/>tione naturalis multitudinis procreandae. Et sic 
+      <lb ed="#P" n="98"/>accipitur matrimonium. 
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e248">
+               <lb ed="#P" n="99"/>Secundo modo potest probabiliter accipi 
+      sur<lb ed="#P" n="100" break="no"/>ficientia sacramentorum ex parte defectuum 
+      con<lb ed="#P" n="101" break="no"/>tra quos sunt sactamenta: quia duplex est 
+      defe<lb ed="#P" n="102" break="no"/>ctus. Vnus in ordine ad multitudinem, alius in 
+      or<lb ed="#P" n="103" break="no"/>dine ad personam. In ordine ad personam 
+      dupli<lb ed="#P" n="104" break="no"/>citer. Vnus modus est per contrarium priuans 
+      vi<lb ed="#P" n="105" break="no"/>tam spiritualem. Et hoc est vel originalis culpa 
+      <lb ed="#P" n="106"/>quae tollitur per baptismum: aut actualis quae 
+      tolli<lb ed="#P" n="107" break="no"/>tur per poenitentiam. Et sic sunt duo sacramenta. 
+      <lb ed="#P" n="108"/>Alius modus est debilitas. Et haec est triplex. Vna 
+      <lb ed="#P" n="109"/>est per desectum naturae non habentis vigorem. &amp; 
+      <lb ed="#P" n="110"/>haec tollitur per confirmationem. Alia quia fuit 
+      <lb ed="#P" n="111"/>infirmus, ad quod sequitur quod fuit debilis. Et 
+      <lb ed="#P" n="112"/>contra hoc est Extrema: vnctio quae tollit 
+      reli<lb ed="#P" n="113" break="no"/>quias peccati. Alia debilitas est propter extranea, 
+      <lb ed="#P" n="114"/>&amp; contraria exterius agentia, &amp; contra hoc in vita 
+      <lb ed="#P" n="115"/>spirituali est sacramentum Eucharistie ad 
+      nutrien<lb ed="#P" n="116" break="no"/>dum fideles in amore Christi. In ordine vero ad 
+      <lb ed="#P" n="117"/>multitudinem est duplex defectus, vnus est 
+      disso<lb ed="#P" n="118" break="no"/>lutio multitudinis. Et contra hunc est ordo qui 
+      <lb ed="#P" n="119"/>communiter instituitur ad regendum 
+      multitudi<lb ed="#P" n="120" break="no"/>nem. Alius est subtractio eorum quae sunt in 
+      mul<lb ed="#P" n="121" break="no"/>titudine per mortem, &amp; contra hunc defectum est 
+      <lb ed="#P" n="122"/>matrimonium. 
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e303">
+               <lb ed="#P" n="123"/>Sed quae est ratio ordinis eotum, dicendum 
+      <lb ed="#P" n="124"/>quod Magister confirmationem baprismo 
+      prae<lb ed="#P" n="125" break="no"/>ponit: sed Dionys. praeordinat baptismum confit. 
+      <lb ed="#P" n="126"/>mationi: ita quod baptismus est primum 
+      sacramen<lb ed="#P" n="127" break="no"/>tum omnium: quia in omni vita primum est acqui. 
+      <lb ed="#P" n="128"/>sitio vitae, quod fit spititualiter in baptismo, vel 
+      <lb ed="#P" n="129"/>accipiendo rem sicut in his qui actu baptizantur, 
+      <lb ed="#P" n="130"/>vel in voto, sicut in his qui proponunt haptismum 
+      <lb ed="#P" n="131"/>recipere. Secundo, quia illa quae pertinent ad 
+      ho<lb ed="#P" n="132" break="no"/>minem quantum ad personam propriam, sunt 
+      prio<lb ed="#P" n="133" break="no"/>ra quam illa quae pertinent ad ipsum respectu 
+      mul<lb ed="#P" n="134" break="no"/>titudinis, eo quod bonitas totius dependet ex 
+      bo<lb ed="#P" n="135" break="no"/>nitate partium: ideo prior est baptismus, vt 
+      mgre<lb ed="#P" n="136" break="no"/>ditur homo hanc vitam, &amp; vltimum est 
+      Extrema<lb ed="#P" n="137" break="no"/>vnctio, vt egreditur de hac vita. De aluis tribus 
+      sa<lb ed="#P" n="138" break="no"/>cramentis ratio est: quia prius est habete perfe¬ 
+      <!--320.xml-->
+      <pb ed="#P" n="320"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ctionem quam recuperare perditum modo ad 
+      ha<lb ed="#P" n="2" break="no"/>bendum perfectionem confirmatio ordinatur, &amp; 
+      <lb ed="#P" n="3"/>Eucharistia ad recuperandum. Et ideo patet ordo 
+      <lb ed="#P" n="4"/>horum. Nam Eucharistia est nutrimentum quod. 
+      <lb ed="#P" n="5"/>dam quod requiritur omni tempore: ideo 
+      Eucha<lb ed="#P" n="6" break="no"/>ristia ordinatur ante Confirmationem secundum 
+      <lb ed="#P" n="7"/>Dionysesed quia secundum Magistrum 
+      Confirma<lb ed="#P" n="8" break="no"/>matio requiritur ad deueniendum ad perfectum 
+      <lb ed="#P" n="9"/>vigorem: ideo Confirmatio praeordinatur 
+      Eucha<lb ed="#P" n="10" break="no"/>ristiae secundum eum: quia conseruat in 
+      statupra<lb ed="#P" n="11" break="no"/>tiae, &amp; Confirmatio facit deuenire in vigorem; &amp; 
+      <lb ed="#P" n="12"/>ordo preordinatur matrimonio, quia spiritualior 
+      <lb ed="#P" n="13"/>est. 
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e375">
+               <lb ed="#P" n="14"/>Sed vtrum debuerit institui, &amp; quando, patet ex 
+      <lb ed="#P" n="15"/>dictis: quia crescente explicita cognitione fidei 
+      <lb ed="#P" n="16"/>oportuit expressius institui sacramenta 
+      significan<lb ed="#P" n="17" break="no"/>tia. Et quia aliud est significare praesens, &amp; aliud. 
+      <lb ed="#P" n="18"/>futurum ita quod sacramenta nouae legis 
+      signifi<lb ed="#P" n="19" break="no"/>cant Christum iam venisse: sacramenta vero 
+      ve<lb ed="#P" n="20" break="no"/>teris legis significabant eum futurum: ergo, &amp;c. 
+      <lb ed="#P" n="21"/>Iterum nec decuit ipsum instituere haec 
+      sacramen<lb ed="#P" n="22" break="no"/>ta, donec inceperit praedicare: quia tunc debuit 
+      in<lb ed="#P" n="23" break="no"/>stituere sacramenta quando ostendit se 
+      legissato<lb ed="#P" n="24" break="no"/>rem, hoc autem fecit quando incepit praedicare 
+      <lb ed="#P" n="25"/>ideo, &amp;c. Iterum solum Christum decuit 
+      institue<lb ed="#P" n="26" break="no"/>re sacramenta, quia decens est quod ille instituat 
+      <lb ed="#P" n="27"/>sacramenta a quo sacramenta habent vigorem: sod 
+      <lb ed="#P" n="28"/>sacramenta non habent vigorem nec 
+      principali<lb ed="#P" n="29" break="no"/>ter nisi a Christo, vt Deo: nec meritorie nisi a 
+      <lb ed="#P" n="30"/>Christo, vt homine: ideo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e415">
+               <lb ed="#P" n="31"/>Sciendum autem quod instituit 
+      confirmatio<lb ed="#P" n="32" break="no"/>nem quando posuit manum super pueros siue 
+      <lb ed="#P" n="33"/>Apostolos: &amp; Extremam. vnctionem instituit 
+      <lb ed="#P" n="34"/>quando praecepit discipulis vt vngerent 
+      infir<lb ed="#P" n="35" break="no"/>mos. 
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e428">
+               <lb ed="#P" n="36"/>Ad primum in oppositum dicendum quod 
+      ve<lb ed="#P" n="37" break="no"/>rum est quod duo defectus sunt in nobis solum in 
+      <lb ed="#P" n="38"/>generali, sed in speciali sunt multi defectus: 
+      sacra<lb ed="#P" n="39" break="no"/>menta autem instituta sunt contra defectus in 
+      spe<lb ed="#P" n="40" break="no"/>ciali. 
+      </p>
+            <p xml:id="hx2hx3-c07529-d1e441">
+               <lb ed="#P" n="41"/>Ad secundum dicendum quod confirmatio 
+      <lb ed="#P" n="42"/>non debuit esse figurata in veteri lege: quia 
+      con<lb ed="#P" n="43" break="no"/>firmatio pertinet ad plenitudinem spiritus, scilicet, 
+      <lb ed="#P" n="44"/>in lege autem veteri non erat tempus gratiae: &amp; 
+      <lb ed="#P" n="45"/>ideo non debuit fieri Cor firmatio similiter, nec 
+      <lb ed="#P" n="46"/>Extrema vnctio, quia significat quod homo statim 
+      <lb ed="#P" n="47"/>eat ad gloriam: ideo significat expiationem ab 
+      <lb ed="#P" n="48"/>omni defectu ad vitam aeternam. Haec autem est in 
+      <lb ed="#P" n="49"/>lege noua non in veteri. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

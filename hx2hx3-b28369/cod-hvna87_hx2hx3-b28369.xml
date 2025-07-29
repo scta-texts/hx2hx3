@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Expositio</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Expositio</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="87"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b28369"><!-- l1d16ex -->
+            <head xml:id="hx2hx3-b28369-Hd1e99">Expositio</head>
+            <p xml:id="hx2hx3-b28369-d1e101">
+               <lb ed="#P" n="33"/>Distinctio decimasexta. 
+      <lb ed="#P" n="34"/>EAPOSIIIO LITIERA. 
+      </p>
+            <p xml:id="hx2hx3-b28369-d1e108">
+               <lb ed="#P" n="35"/>Exponendo illud verbum Hilarii Pater est 
+      <lb ed="#P" n="36"/>Maior, nec tamen Filius Minor, dicunt 
+      qui<lb ed="#P" n="37" break="no"/>dam quod hoc ideo est, quia ad hoc quod aliquis 
+      <lb ed="#P" n="38"/>dicatur maior alio, sufficit quod habeat aliquam 
+      <lb ed="#P" n="39"/>dignitarem quam non habet alius: Et quia pater 
+      <lb ed="#P" n="40"/>haber dignitatem quam non habet filius, scilicet 
+      <lb ed="#P" n="41"/>esse principium omnium personarum siue totius 
+      <lb ed="#P" n="42"/>diuiitatis: Ideo dicitur pater maior filio: quia 
+      ta<lb ed="#P" n="43" break="no"/>lem dignitatem non habet filius, tamen non debet 
+      <lb ed="#P" n="44"/>dici Minor, quia vt dicunt: ad hoc quod aliquis 
+      <lb ed="#P" n="45"/>dicatur minor altero, non sufficit quod non habet 
+      <lb ed="#P" n="46"/>dignitatem quam habet alius, vel quod habeat tot 
+      <lb ed="#P" n="47"/>quot habet alius: sed oportet quod habeat 
+      indigni<lb ed="#P" n="48" break="no"/>tutem Filius autem nullam indignitatem habet: 
+      <lb ed="#P" n="49"/>ideo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b28369-d1e143">
+               <lb ed="#P" n="50"/>Istud autem dictum videtur mihi valde 
+      repre<lb ed="#P" n="51" break="no"/>hensibile. Primo, quia sicut in Patre nulla est 
+      di<lb ed="#P" n="52" break="no"/>uinitas quae non sit in Filio, licet diuinitas patris in 
+      <lb ed="#P" n="53"/>patre sit paternitas: quae paternitas non est in 
+      fi<lb ed="#P" n="54" break="no"/>lio. Ita etiam in Patre nulla est dignitas quae non 
+      <lb ed="#P" n="55"/>sit in filio: imo illa eadem dignitas quae in Patre 
+      <lb ed="#P" n="56"/>est paternitas: est in Filio filiatio: sicut 
+      eadendi<lb ed="#P" n="57" break="no"/>uinitas quae est in Patre paternitas: est in Filio 
+      filia<lb ed="#P" n="58" break="no"/>tio. Vnde non videtur sane dictum quod Pater 
+      ha<lb ed="#P" n="59" break="no"/>beat dignitatem quam non habeat filius: sed quod 
+      <lb ed="#P" n="60"/>habeat eam alio modo. 
+      </p>
+            <p xml:id="hx2hx3-b28369-d1e169">
+               <lb ed="#P" n="61"/>Secundo deficit illud dictum, quia ad hoc quod 
+      <lb ed="#P" n="62"/>aliquid dicatur minus bonum alio, non requiritur 
+      <lb ed="#P" n="63"/>quod fit malum: sed sufficit quod vel non habeat 
+      <lb ed="#P" n="64"/>tot bonitates sicut aliud habet: &amp; hoc ceteris 
+      pa<lb ed="#P" n="65" break="no"/>ribus. Quia vna bonitas posset valere decem alias, 
+      <lb ed="#P" n="66"/>vel quod habeat minorem bonitatem: ita ad hoc 
+      <lb ed="#P" n="67"/>quod aliquid dicatur minus dignum, non onortet 
+      <!--87.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="68"/>quod habeat indignitatem: sed quod habeat 
+      mi<lb ed="#P" n="69" break="no"/>norem dignitatem, vel quod non habeat tot 
+      digni<lb ed="#P" n="70" break="no"/>tates. Et ideo illud dictum reputo friuolum. 
+      </p>
+            <p xml:id="hx2hx3-b28369-d1e199">
+               <lb ed="#P" n="71"/>Dicendum est ergo aliter, quod impossibile elt 
+      <lb ed="#P" n="72"/>ponere patrem secundum rem esse maiorem Filio: 
+      <lb ed="#P" n="73"/>&amp; filium non esse minorem secundum rem. Sed 
+      <lb ed="#P" n="74"/>bene stant ista duo, quia secundum vnum modum 
+      <lb ed="#P" n="75"/>intelligendi dicatur Pater Maior: nec tamen filius 
+      <lb ed="#P" n="76"/>sit secundum rem in aliquo minor: quia ista duo 
+      <lb ed="#P" n="77"/>scilicet esse maius secundum rem, &amp; non esse ali. 
+      <lb ed="#P" n="78"/>quid minus secundum rem respectu cuius dicatur 
+      <lb ed="#P" n="79"/>maius, omnino est imposfibile. 
+      </p>
+            <p xml:id="hx2hx3-b28369-d1e221">
+               <lb ed="#P" n="80"/>Sed maioritas secundum modum intelligendi 
+      <lb ed="#P" n="81"/>tantum, &amp; nulla minoritas secundum rem: bene 
+      <lb ed="#P" n="82"/>se compatiuntur: &amp; sic vt credo intellexit Hilatius 
+      <lb ed="#P" n="83"/>maioritatem in patre: siue minoritatem in filio. 
+      </p>
+            <p xml:id="hx2hx3-b28369-d1e232">
+               <lb ed="#P" n="84"/>Ad cuius euidentiam, sciendum quod in 
+      agen<lb ed="#P" n="85" break="no"/>tibus vniuocis in creatuiis, sicut est pater &amp; filius: 
+      <lb ed="#P" n="86"/>natura quam habet vtrumque, non est quantum 
+      <lb ed="#P" n="87"/>de se maior in vno quam in alio: tamen modus 
+      ha<lb ed="#P" n="88" break="no"/>bendi secundum rem necessario nobilior est in 
+      pa<lb ed="#P" n="89" break="no"/>tre, quam in filio. Nam Pater dat ita consimilem 
+      <lb ed="#P" n="90"/>naturam filio, aliam tamen numero ita quod in at. 
+      <lb ed="#P" n="91"/>tingendo ad esse, natura filii dependet a natura 
+      pa<lb ed="#P" n="92" break="no"/>tris: &amp; ideo quantum ad modum habendi, Patct 
+      <lb ed="#P" n="93"/>in ereaturis est maior filio: &amp; ei tanquam maiori 
+      <lb ed="#P" n="94"/>debet filius obedientiam &amp; honorem. In diuinis 
+      <lb ed="#P" n="95"/>autem est communicatio eiusdem nature numero: 
+      <lb ed="#P" n="96"/>quae in neutro, scilicet patre, &amp; filio, depender ab 
+      <lb ed="#P" n="97"/>aliquo. Quia nec sibi conuenit produci: licet 
+      com<lb ed="#P" n="98" break="no"/>municetur. Ideo etiam secundum rem loquendo, 
+      <lb ed="#P" n="99"/>pater non est maior, vel quo rad naturam, vel quo 
+      <lb ed="#P" n="100"/>admodum habendi. Sed inquantum in dando ha. 
+      <lb ed="#P" n="101"/>bet aliquam similitudinem cum patre creato 
+      quan<lb ed="#P" n="102" break="no"/>tum ad modum habendi: licet plus sit de 
+      dissimi<lb ed="#P" n="103" break="no"/>litudine quam de similitudine, secundum nostrum 
+      <lb ed="#P" n="104"/>modum intellig endi dicitur maior: nec tamen 
+      se<lb ed="#P" n="105" break="no"/>cundum rem est filius minor, quia propter 
+      vnita<lb ed="#P" n="106" break="no"/>tem numeralem naturae in dante, &amp; accipienter 
+      <lb ed="#P" n="107"/>nulla dependentia est in persona accipiente, quae 
+      <lb ed="#P" n="108"/>dependentia facit minoritatem in creaturis. 
+      </p>
+            <p xml:id="hx2hx3-b28369-d1e289">
+               <lb ed="#P" n="109"/>Alia autem de decima sexta distinctione, quia 
+      <lb ed="#P" n="110"/>facilia sunt: ad nunc praetermitto.
+      </p>
+            <p xml:id="hx2hx3-b28369-d1e296">
+               <lb ed="#P" n="111"/>Hoc autem vt intessigibilius doceri ae 
+      pli<lb ed="#P" n="112" break="no"/>nius perspici vraleai praemitrendum ess 
+      <lb ed="#P" n="113"/>quiudam ad hoc varlde necessa. 
+      <lb ed="#P" n="114"/>fium, &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

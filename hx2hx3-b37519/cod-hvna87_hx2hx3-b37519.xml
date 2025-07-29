@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="114"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b37519"><!-- l1d24q1 -->
+            <head xml:id="hx2hx3-b37519-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b37519-Hd1e101" type="question-title">Utrum termini numerales aliquod ponant in divinis</head>
+            <p xml:id="hx2hx3-b37519-d1e104">
+               <lb ed="#P" n="55"/>daic diligenter inquiri oportet cum in 
+      Tri<lb ed="#P" n="56" break="no"/>nitate non fia diuerfirae, vel 
+      fngulari<lb ed="#P" n="57" break="no"/>tas, nec multiplicitas vel solitudo quid 
+      <lb ed="#P" n="58"/>si qnificetur hiis nominibus vnua vvel vnd, 
+      <lb ed="#P" n="59"/>duo vel duae. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e117">
+               <lb ed="#P" n="60"/>Distinctio vigesima quarta. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e122">
+               <lb ed="#P" n="61"/>QVAESIIO PRIMA. 
+      <lb ed="#P" n="62"/>CIrca distinctionem vigesimam quartam. 
+      Quae<lb ed="#P" n="63" break="no"/>ritur vtrum termini numerales aliquid 
+      po<lb ed="#P" n="64" break="no"/>nant in diuinis. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e134">
+      <!--114.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>Et arguitur quod sic: quia ille qui negat de 
+      <lb ed="#P" n="66"/>Deo illud quod nil ponit in Deo, non dicit aliquid 
+      <lb ed="#P" n="67"/>contra veritatem. Sed ille qui negat Deum esse 
+      <lb ed="#P" n="68"/>vnum dicit contra veritatem. Ergo vnum ponit 
+      <lb ed="#P" n="69"/>aliquid in Deo. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e152">
+               <lb ed="#P" n="70"/>Praeterea si vnum dicit priuationem, non 
+      vi<lb ed="#P" n="71" break="no"/>detur dicere nisi priuationem muluitudinis: &amp; 
+      con<lb ed="#P" n="72" break="no"/>uerso multitudo dicit priuationem no ni si vnitatis: 
+      <lb ed="#P" n="73"/>&amp; sic vnum &amp; multa dicunt priuationem priun. 
+      <lb ed="#P" n="74"/>tionis, &amp; erit circulatio in deffinitionibus; 
+      quo<lb ed="#P" n="75" break="no"/>rum vtrumque est inconueniens. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e168">
+               <lb ed="#P" n="76"/>In contrarium est Magister in lirtera. 
+      <lb ed="#P" n="77"/>Respondeo dicendum, quod hic sunt quatuor, 
+      <lb ed="#P" n="78"/>videnda. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e177">
+               <lb ed="#P" n="79"/>Primum quid addit vnum quod est 
+      princi<lb ed="#P" n="80" break="no"/>pium numeri, super vnum quod conuertitur cum 
+      <lb ed="#P" n="81"/>ente. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e186">
+               <lb ed="#P" n="82"/>Secundum quid addit vnum quod conuertitur 
+      <lb ed="#P" n="83"/>cum ente, &amp; multitudo ei opposita: super res quae 
+      <lb ed="#P" n="84"/>dicuntur vnum &amp; multa. Tertium quid addat 
+      v<lb ed="#P" n="85" break="no"/>num quod est principium numeri, &amp; numerur 
+      <lb ed="#P" n="86"/>super res quae dicuntur vnum &amp; quae numerantur. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e199">
+               <lb ed="#P" n="87"/>Quarto applicabuntur ista ad diuina, quantum 
+      <lb ed="#P" n="88"/>ad primum sunt quatuor opiniones. Prima eit 
+      Pla<lb ed="#P" n="89" break="no"/>tonis &amp; Auicennae qui conueniunt in hoc quoc 
+      <lb ed="#P" n="90"/>vnum quod est principium numeri, &amp; vnum 
+      <lb ed="#P" n="91"/>quod conuertitur cum ente, nec re, nec ratione 
+      <lb ed="#P" n="92"/>differunt. Sed in hoc differebant, quia Plato 
+      di<lb ed="#P" n="93" break="no"/>cebat quod nec vnum, nec aliquid addebat rc 
+      <lb ed="#P" n="94"/>d fferens ab eo quod dicitur vnum, sed solam 
+      pri<lb ed="#P" n="95" break="no"/>llationem. Auicenna vero dicebat quod vnum 
+      ad<lb ed="#P" n="96" break="no"/>debat speciale accidens, super rem quae dicebatur 
+      <lb ed="#P" n="97"/>vna, sicut albedo addit aliquid super ens quod 
+      <lb ed="#P" n="98"/>dicitur album, &amp; dicebat illud accidens esse in 
+      gc<lb ed="#P" n="99" break="no"/>nere qualitatis. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e231">
+               <lb ed="#P" n="100"/>Istud autem conuenienter improbatur, primo 
+      <lb ed="#P" n="101"/>quantum ad illud in quo conueniunt, scilicet 
+      <lb ed="#P" n="102"/>quod vnum quod conuertitur cum ente, &amp; vnum 
+      <lb ed="#P" n="103"/>quod est principium numeri, in nullo differant 
+      <lb ed="#P" n="104"/>nec re, nec ratione, nec sicut superius &amp; inferius, 
+      <lb ed="#P" n="105"/>quia illud quod est principium determinate 
+      spe<lb ed="#P" n="106" break="no"/>ciei, &amp; determinati generis, non potest esse de 
+      <lb ed="#P" n="107"/>transcendentibus quae circuunt omne ens, sed 
+      v<lb ed="#P" n="108" break="no"/>num quod conuertitur cum ente est de 
+      transcen<lb ed="#P" n="109" break="no"/>dentibus, vnum vero quod est principium numc 
+      <lb ed="#P" n="110"/>ri, est principium determinate speciei quantitatis, 
+      <lb ed="#P" n="111"/>scilicet quantitatis discrete. Ergo &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e260">
+               <lb ed="#P" n="112"/>Sed forte diceret ad hoc Auicenna, quod vnunm 
+      <lb ed="#P" n="113"/>quod conuertitur cum ente non circuit omne 
+      ge<lb ed="#P" n="114" break="no"/>nus praedicatione essentiali &amp; formali, sicut ens 
+      <lb ed="#P" n="115"/>vel essentia, sed praedicatione denominatiua, 
+      si<lb ed="#P" n="116" break="no"/>cut aliquid relatiuum ratione eflectus circuit 
+      om<lb ed="#P" n="117" break="no"/>ne ens creatum non praedicatione essentiali 
+      for<lb ed="#P" n="118" break="no"/>mnali, sed denominatiua. Sed hoc non potesi stare 
+      <lb ed="#P" n="119"/>quia vbi est propriae loquendo praedicatio 
+      deno<lb ed="#P" n="120" break="no"/>minatiua, distincta contra praedicationem essen 
+      <lb ed="#P" n="121"/>tialem &amp; formalem, numquam propriae 
+      loquen<lb ed="#P" n="122" break="no"/>do, concretum praedicatur de abstracto Vndem 
+      <lb ed="#P" n="123"/>non propriae dicitur quod albedo sit alba, nec 
+      e<lb ed="#P" n="124" break="no"/>tiam propriae loquendo quantitas est quanta, cum 
+      <lb ed="#P" n="125"/>magis debeat dici qua aliquid est quantum: 
+      vnde<lb ed="#P" n="126" break="no"/>etiam &amp; in exemplo de relatione hoc patet, quia 
+      <lb ed="#P" n="127"/>propriae relatio non est relatiua, sed est quo 
+      ali<lb ed="#P" n="128" break="no"/>quid refertur, sed non potest dari aliquid cui 
+      pro<lb ed="#P" n="129" break="no"/>priae non conueniat quod sit vnum. Et ideo 
+      im<lb ed="#P" n="130" break="no"/>possibile est quodiea quae dicuntur vnum, 
+      loquen<lb ed="#P" n="131" break="no"/>do de vno quod conuertitur cum ente, dicantur 
+      <lb ed="#P" n="132"/>vnum praedicatione denominatiua, ita quod non 
+      <lb ed="#P" n="133"/>praedicatione essentiali 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e310">
+               <lb ed="#P" n="134"/>Item etiam, quando aliquid dicitur denorni¬ 
+      <!--115.xml-->
+      <pb ed="#P" n="115"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>natiue esse tale aliqua forma superaddita, puta 
+      <lb ed="#P" n="2"/>homo dicitur albus albedine: eircumseripta illa 
+      <lb ed="#P" n="3"/>forma amplius non dicitur tale. Sed circumscripta 
+      <lb ed="#P" n="4"/>qnacumque aecidentali forma, siue per possibile 
+      <lb ed="#P" n="5"/>siue per impossibile, substantia quae remaneret ad. 
+      <lb ed="#P" n="6"/>huc esset vna, loquendo de vno quod conuertitur 
+      <lb ed="#P" n="7"/>cum ente; secundum quod vnum. Vnde Deus 
+      <lb ed="#P" n="8"/>est vnus in quo secundum omnes Philosophos 
+      nul<lb ed="#P" n="9" break="no"/>lum est accidens Ergo impossibile est quod vnum 
+      <lb ed="#P" n="10"/>quod conuertitur cum ente dicat aliquam formam 
+      <lb ed="#P" n="11"/>additam ei, quod dicitur vnum re, differentem 
+      <lb ed="#P" n="12"/>abeo. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e347">
+               <lb ed="#P" n="13"/>Illud etiam dictum reprobatur quantum ad 
+      <lb ed="#P" n="14"/>hec quod proprium est Auicennae, scilicet quod 
+      <lb ed="#P" n="15"/>vnum quod conuertitur cum ente dicat formam 
+      <lb ed="#P" n="16"/>acecidentalem superadditam ei quod dicitur vnum 
+      <lb ed="#P" n="17"/>re, differentem ab eo. Et hoc patet per duas ra 
+      <lb ed="#P" n="18"/>tiones vltimas inductas contra responsionem quae 
+      <lb ed="#P" n="19"/>data fuit ad primum argumentum. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e365">
+               <lb ed="#P" n="20"/>Et praeter has duas adducitur talis ratio, quia 
+      <lb ed="#P" n="21"/>quaeritur de illa furma quam dicit superadditam. 
+      <lb ed="#P" n="22"/>Vtrum sit vna, vel non: si dicatur quod sit vna, 
+      <lb ed="#P" n="23"/>Tunc quaeritur vtrum sit per se, aut per aliam 
+      ad<lb ed="#P" n="24" break="no"/>ditam. Si per aliam, &amp; similter alia per aliam, &amp; 
+      <lb ed="#P" n="25"/>sic ibitur in infinitum quod est inconueniens, si 
+      <lb ed="#P" n="26"/>per se, tunc eadem ratione standum erat in 
+      prin<lb ed="#P" n="27" break="no"/>cipio, scilicet quod per se sine forma addita esset 
+      <lb ed="#P" n="28"/>vnum Si dicatur quod non est simile de illa &amp; de 
+      <lb ed="#P" n="29"/>aliis, quia illa est vna per essentiam: sed alia per 
+      <lb ed="#P" n="30"/>participationem, non valet, quia omnia 
+      que<lb ed="#P" n="31" break="no"/>cumque illa sint, sunt propriae vnum quantum ad 
+      <lb ed="#P" n="32"/>quilibet eorum. Vbi autem est propriae 
+      denomi<lb ed="#P" n="33" break="no"/>natio per formam additam, illa forma non 
+      pro<lb ed="#P" n="34" break="no"/>priae denominatur denominatione illa, sicut 
+      al<lb ed="#P" n="35" break="no"/>bedo non dicitur proprie alba. Isla autem forma 
+      <lb ed="#P" n="36"/>super addita proprie dicitur vna sieut &amp; alia. Ergo 
+      <lb ed="#P" n="37"/>idem iudicium erit de illa sicut de aliis. Et ideo si 
+      <lb ed="#P" n="38"/>ipsa dicitur vna per essentiam suam, similiter &amp; 
+      <lb ed="#P" n="39"/>alia. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e411">
+               <lb ed="#P" n="40"/>Contra illud etiam quod est ptoprium 
+      Plato<lb ed="#P" n="41" break="no"/>nis arguitur, quia species positiua alicuius generin 
+      <lb ed="#P" n="42"/>oportet quod constituatur per aliquod positiuum, 
+      <lb ed="#P" n="43"/>sed quantitas discreta euius principium est vnum 
+      <lb ed="#P" n="44"/>quod est principium numeri, est species positiua, 
+      <lb ed="#P" n="45"/>Etgo oportet quod constituatur per aliquod 
+      posi<lb ed="#P" n="46" break="no"/>tiuum, sed vnum quod conuertitur cum ente non 
+      <lb ed="#P" n="47"/>dicit formaliter aliquid positiuum, sed 
+      priuatio<lb ed="#P" n="48" break="no"/>nem diuisionis. Ergo si vnum quod conuertitur 
+      <lb ed="#P" n="49"/>cum ente, vt ponebat Plato, non dicit formaliter 
+      <lb ed="#P" n="50"/>nisi priuationem diuisionis, sequitur quod non sit 
+      <lb ed="#P" n="51"/>totaliter &amp; essentialiter idem cum vno. quod est 
+      <lb ed="#P" n="52"/>principium numeri. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e443">
+               <lb ed="#P" n="53"/>Secunda opinio est quorumdam modernorum 
+      <lb ed="#P" n="54"/>qui dicunt quod vnum quod est principium nu 
+      <lb ed="#P" n="55"/>meri, differt ab vno quod conuertitur cum ente 
+      <lb ed="#P" n="56"/>quia vntim quod est principium numeri positiue 
+      <lb ed="#P" n="57"/>dicitur, vnum autem quod conuertitur cum ente 
+      <lb ed="#P" n="58"/>dicitur priuatiue. Vnde dicunt quod vnum quod 
+      <lb ed="#P" n="59"/>est ptincipium numeri, non contrahit vnum quod 
+      <lb ed="#P" n="60"/>couuertitur cum ente: eo quod eum priuatione 
+      <lb ed="#P" n="61"/>dicatur: sed contrahit ens, sicut hoc quod dico 
+      al<lb ed="#P" n="62" break="no"/>bum vel nigrum. Hoc autem sic declarant, quis 
+      <lb ed="#P" n="63"/>vt dicunt, quantita econtinua dicitur continua pro 
+      <lb ed="#P" n="64"/>vt peificit rem in ordine ad partes: sed dicitur 
+      <lb ed="#P" n="65"/>vnum pro vt perficit res in se, &amp; vtraque dicitur 
+      <lb ed="#P" n="66"/>positiue, &amp; vtrique respondet vnum priuatiue 
+      <lb ed="#P" n="67"/>dictum, quia &amp; continuum, d vnum quod est 
+      <lb ed="#P" n="68"/>principium numeri dicuntur vnum: quia dicunt 
+      <lb ed="#P" n="69"/>ens indiuisum. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e482">
+               <lb ed="#P" n="70"/>Sed ista positio defficit, quia non fulcitur ra¬ 
+      <!--115.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>tione, quia non ostenditur quod continuum siue 
+      <lb ed="#P" n="72"/>quantitas habeat dare vel causare vnitatem nisi in 
+      <lb ed="#P" n="73"/>quantum est indiuisa, sicut etiam in aliis formis. 
+      <lb ed="#P" n="74"/>vnde etiam non continuum, non est vnum, nisi 
+      <lb ed="#P" n="75"/>in quantum est actu indiuisum. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e502">
+               <lb ed="#P" n="76"/>Secundo dicit quod continuum potest 
+      perfice<lb ed="#P" n="77" break="no"/>re rem in ordine ad partes, &amp; sine ordine ad par. 
+      <lb ed="#P" n="78"/>tes, quia de ratione continui est per se diuisibde 
+      <lb ed="#P" n="79"/>in infinitum. Illud de cuius ratione est diuidi in 
+      <lb ed="#P" n="80"/>diuersa re, non potest eor siderati in ordine ad 
+      <lb ed="#P" n="81"/>partes. Ergo &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e518">
+               <lb ed="#P" n="82"/>Tertio, quia per vnum quod est principium 
+      <lb ed="#P" n="83"/>numeri, aut intendunt aliquam rationem 
+      positi<lb ed="#P" n="84" break="no"/>uam praeter rationem continui, aut non. Si non, 
+      <lb ed="#P" n="85"/>ergo non debet dicere quod continuum duaa 
+      ra<lb ed="#P" n="86" break="no"/>tiones posstiuas addat super ens: quarum altera clt 
+      <lb ed="#P" n="87"/>vnum quod est principium numeri, &amp; alia 
+      conti<lb ed="#P" n="88" break="no"/>nuum. Si autem intelligant per vnum quod est 
+      <lb ed="#P" n="89"/>principium numeri, aliam rationem positiuam 
+      <lb ed="#P" n="90"/>praeter continuum, deberent explicare quae est illa. 
+      <lb ed="#P" n="91"/>Et si dicatur quod illa ratio positiua est vnum quod 
+      <lb ed="#P" n="92"/>est principium numeri, hoc est manifestare idem, 
+      <lb ed="#P" n="93"/>per idem. Et ideo ratio illa nulla est. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e547">
+               <lb ed="#P" n="94"/>Tertia opinio, quod vnum quod est 
+      princi<lb ed="#P" n="95" break="no"/>plum numeri, addit rem diuersam ab vno quod 
+      <lb ed="#P" n="96"/>conuertitur cum ente: super ipsum vnum quod 
+      <lb ed="#P" n="97"/>conuertitur cum ente. Hoc autem, probant sic. 
+      <lb ed="#P" n="98"/>Quia vt dicunt in rebus materialibus est duplex 
+      <lb ed="#P" n="99"/>terminatio scilicet essentialis, &amp; aecidentalis 
+      ter<lb ed="#P" n="100" break="no"/>minatio essentialis fit per formam substantialem, 
+      <lb ed="#P" n="101"/>terminatio autem accidentalis quae nihil est aliud 
+      <lb ed="#P" n="102"/>quam quantitas secundum quam res dicitur tanta, 
+      <lb ed="#P" n="103"/>puta bicubita vel tricubita. Est quidem per 
+      quan<lb ed="#P" n="104" break="no"/>titatem formaliter, sed propter substantialem 
+      fi<lb ed="#P" n="105" break="no"/>naliter: quia secundum exigentiam formae 
+      sub<lb ed="#P" n="106" break="no"/>stantialis, habet quantitas vniuscuiusque 
+      mensu<lb ed="#P" n="107" break="no"/>rari. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e580">
+               <lb ed="#P" n="108"/>Modo dicunt quod terminatio essentialis quae 
+      <lb ed="#P" n="109"/>est realiter ipsa forma substantialis, vel essentia 
+      <lb ed="#P" n="110"/>ipsa substantiae, per formam tantum principaliter 
+      <lb ed="#P" n="111"/>est vnitas quae facit vnum quod conuertitur cum 
+      <lb ed="#P" n="112"/>ente. Sed terminatio accidentalis est vnitas quae 
+      <lb ed="#P" n="113"/>facit vnum quod est principium numeri. Ad 
+      pro<lb ed="#P" n="114" break="no"/>positum arguunt sic. Sicut se habet terminus 
+      es<lb ed="#P" n="115" break="no"/>sentialis ad terminum accidentalem, ita se habet 
+      <lb ed="#P" n="116"/>vnum quod conuertitur cum ente, ad vnum quod 
+      <lb ed="#P" n="117"/>est principium numeri. Et hoc, vt videtur, patet ex 
+      <lb ed="#P" n="118"/>dictis. Sed terminus essentialis &amp; terminus 
+      acci<lb ed="#P" n="119" break="no"/>dentalis differunt realiter, sicut substantia &amp; 
+      qua<lb ed="#P" n="120" break="no"/>litas vt patet ex dictis. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e612">
+               <lb ed="#P" n="121"/>Sed nec ista positio habet veritatem: quia quae 
+      <lb ed="#P" n="122"/>se habent secundum essentialem ordinem vt 
+      infe<lb ed="#P" n="123" break="no"/>rius &amp; superius, siue superius sit commune sicut 
+      <lb ed="#P" n="124"/>genus, siue sit commune sicut Analogum: 
+      nun<lb ed="#P" n="125" break="no"/>quam inferius addit ad superius aliquid re 
+      diuer<lb ed="#P" n="126" break="no"/>sum ab eo. Dico autem essentiali ordine, ad 
+      re<lb ed="#P" n="127" break="no"/>mouendum totum in modo &amp; partem in modo, 
+      si<lb ed="#P" n="128" break="no"/>cut homo &amp; homo albus. Sed omne quod est, 
+      <lb ed="#P" n="129"/>siue sit accidens, siue substantia, se habet ad ens 
+      <lb ed="#P" n="130"/>&amp; per consequens ad vnum quod conuertitur cum 
+      <lb ed="#P" n="131"/>ente secundum essentialem ordinem sicut inferius 
+      <lb ed="#P" n="132"/>&amp; superius. Ergo nee quantitai nec aliquod aliud 
+      <lb ed="#P" n="133"/>accidens: potest addi ad vnum quod eonuertitur 
+      <lb ed="#P" n="134"/>cum ente sicut diuersum re ab eo licet enim vnitas 
+      <lb ed="#P" n="135"/>accidentalis dicat rem diuersam ab vnitate 
+      sub<lb ed="#P" n="136" break="no"/>stantiali, non tamen dicit rem diuersam ab 
+      vnita<lb ed="#P" n="137" break="no"/>te communiter dicta, quae conuertitur cum ente. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e651">
+               <lb ed="#P" n="138"/>Ad rationem ergo dicendum, quod sicut se 
+      ha<lb ed="#P" n="139" break="no"/>bet terminus substantialis ad terminum 
+      acciden<lb ed="#P" n="140" break="no"/>talem, accipiendo essentiale ab essentia commn¬ 
+      <!--116.xml-->
+      <pb ed="#P" n="116"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>triter dicta, quae conuenit substantiae &amp; 
+      acciden<lb ed="#P" n="2" break="no"/>ti: ita se habet vnum quod conuertitur cum 
+      en<lb ed="#P" n="3" break="no"/>te, ad vnum quod est principium numeri. Sed 
+      ac<lb ed="#P" n="4" break="no"/>cipiendo essentiale. ab essentia substantiae, maior 
+      <lb ed="#P" n="5"/>est falsa. Quia non sic se habet accidens ad ens, 
+      <lb ed="#P" n="6"/>vel ad vnum quod conuertitur cum ente, sicut 
+      in<lb ed="#P" n="7" break="no"/>ferius ad superius: sed ad substantiam se habet vt 
+      <lb ed="#P" n="8"/>aliquod ens disparatum. Ratio autem procedit ac 
+      <lb ed="#P" n="9"/>si quantitas se habeat ad ens communiter dictum, 
+      <lb ed="#P" n="10"/>sicut ad substantiam. Et ideo est quarta opinio 
+      <lb ed="#P" n="11"/>quam credo veram esse, quod vnum quod est 
+      prin<lb ed="#P" n="12" break="no"/>cipium numeri, non addit super vnum quod 
+      con<lb ed="#P" n="13" break="no"/>uertitur cum ente rem diuersam ab eo, quia hoc 
+      <lb ed="#P" n="14"/>est est impossibile quod aliquid sit diuersum ab 
+      <lb ed="#P" n="15"/>ente communiter dicto, vel ab vno quod conuer. 
+      <lb ed="#P" n="16"/>titur cum ente: quia tale non est aliquid ens; sed 
+      <lb ed="#P" n="17"/>addit specialem rationem duplicem, scilicet 
+      priua<lb ed="#P" n="18" break="no"/>tiuam, &amp; positiuam priuatiuam: quia sicut vnum 
+      <lb ed="#P" n="19"/>communiter dictum dicit priuationem diuisionis 
+      <lb ed="#P" n="20"/>generaliter in quacumque natura, ita vnum quod 
+      <lb ed="#P" n="21"/>est principium numeri dicit indiuisionem in 
+      quan<lb ed="#P" n="22" break="no"/>titate continua: sed vlterius super quantitatem 
+      <lb ed="#P" n="23"/>continuam indiuisam addit rationem positiuam 
+      <lb ed="#P" n="24"/>ratione fundamenti super quod dicta priuatio spe 
+      <lb ed="#P" n="25"/>cialiter fundatur: quae autem sit illa ratio positiua 
+      <lb ed="#P" n="26"/>in tertio articulo patebit. Et hoc sit dictum 
+      quan<lb ed="#P" n="27" break="no"/>tum ad primum. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e725">
+               <lb ed="#P" n="28"/>Quantum ad secundum sciendum, quod 
+      v<lb ed="#P" n="29" break="no"/>num quod conuertitur cum ente, nullam rem 
+      po<lb ed="#P" n="30" break="no"/>sitiuam addit super illud quod dicitur vnum. Et 
+      <lb ed="#P" n="31"/>hoc satis patet ex dictis: quia illud quod 
+      denomi<lb ed="#P" n="32" break="no"/>nat omne ens si diceret aliquam rem diuersam ab 
+      <lb ed="#P" n="33"/>eo quod denominat, sequeretur quod illud esset 
+      <lb ed="#P" n="34"/>diuersum ab omni ente, &amp; sicid quod ponitur esse 
+      <lb ed="#P" n="35"/>sequeretur quod non esset aliquod ens tale, ergo 
+      <lb ed="#P" n="36"/>vnum nondicit rem diuersam additam ei quod dicitur 
+      <lb ed="#P" n="37"/>vnum; sed differunt tantum secundum rationem ab 
+      <lb ed="#P" n="38"/>ente: illud autem quod addit super ens, 
+      secun<lb ed="#P" n="39" break="no"/>dum rationem, non dicitur positiue, sed 
+      priuati<lb ed="#P" n="40" break="no"/>ue. Vnde vnum super ens non addit formaliter 
+      <lb ed="#P" n="41"/>loquendo nisi indiuisionem. Vnde vnum quod 
+      <lb ed="#P" n="42"/>conuertitur cum ente, duo importat in sua ratio. 
+      <lb ed="#P" n="43"/>ne Vnum materialiter quod est posniuum, 
+      sci<lb ed="#P" n="44" break="no"/>licet ens vel entitatem, &amp; aliud formaliter quod 
+      <lb ed="#P" n="45"/>est priuatiuum scilicet indiuisionem. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e767">
+               <lb ed="#P" n="46"/>Sed tunc est dubium quomodo vnum quod 
+      <lb ed="#P" n="47"/>conuertitur cum ente dicat aliquid priuatiuum, 
+      <lb ed="#P" n="48"/>cum priuatio importet imperfectionem: vnum 
+      <lb ed="#P" n="49"/>autem quod conuertitur cum ente non dicat 
+      im<lb ed="#P" n="50" break="no"/>perfectionem: alioquin non conueniret Deo: nec 
+      <lb ed="#P" n="51"/>conuerteretur vniuersariter cum ente perfecto, 
+      <lb ed="#P" n="52"/>sed cum ente imperfecto. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e785">
+               <lb ed="#P" n="53"/>Ad hoc dicendum est, quod priuatio quae est 
+      <lb ed="#P" n="54"/>carentia rei debite in esse, &amp; pertinentis ad 
+      perfe<lb ed="#P" n="55" break="no"/>ctionem carentis; dicit imperfectionem. Alia est 
+      <lb ed="#P" n="56"/>priuatio quae significat carentiam alicuius rei. Sed 
+      <lb ed="#P" n="57"/>non rei facientis ad perfectionem carentis, sicut 
+      <lb ed="#P" n="58"/>Deus dicitur priuatiue incorporeus, a priuatione 
+      <lb ed="#P" n="59"/>corporeitatis iquae nata est ab aliquo haberi, seo 
+      <lb ed="#P" n="60"/>non a Deo; nec pertinet ad perfectionem Dei qui 
+      <lb ed="#P" n="61"/>ea caret, talis priuatio non dicit imperfectioem: &amp; 
+      <lb ed="#P" n="62"/>priuatione sic large dictam, dicit vnum quod 
+      con<lb ed="#P" n="63" break="no"/>uertitur cum ente. Nam dicit priuationem diuisionis 
+      <lb ed="#P" n="64"/>quae nata est inueniri in aliquibus entibus, non 
+      ta<lb ed="#P" n="65" break="no"/>men in illo qui caret tali diuisione: nec talis 
+      indi<lb ed="#P" n="66" break="no"/>uisio facit ad imperfectionem eius. Et ideo tale 
+      <lb ed="#P" n="67"/>non dicit imperfectionem. Ista distinctio 
+      priua<lb ed="#P" n="68" break="no"/>tionis habetur a Philosopho 5. Met. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e822">
+               <lb ed="#P" n="69"/>Similiter etiam dicendum de multo; quod 
+      res<lb ed="#P" n="70" break="no"/>pondet vni quod conuertitur cum ente. Quia nil 
+      <!--116.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>reale addit super ea quae dicuntur multa, quia 
+      su<lb ed="#P" n="72" break="no"/>per ea, ratio multitudinis non addit nisi quod 
+      qui<lb ed="#P" n="73" break="no"/>libet eorum sit indiuisum in se: &amp; quod vnum non 
+      <lb ed="#P" n="74"/>sit aliud. Esse autem indiuisum in se, &amp; non esse 
+      <lb ed="#P" n="75"/>aliud quod differt ab eo per essentiam: conuenit 
+      <lb ed="#P" n="76"/>vnicuique per essentiam suam. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e847">
+               <lb ed="#P" n="77"/>Quantum ad tertium, scilicet quid addit vnum, 
+      <lb ed="#P" n="78"/>quod est principium numeri, super illud quod di¬1 
+      <lb ed="#P" n="79"/>citur vnum secundum ipsum. Dicendum quod 
+      <lb ed="#P" n="80"/>duo sunt quae dicuntur vnum, vnitate quae est 
+      prin<lb ed="#P" n="81" break="no"/>cipium numeri scilicet subiectum quantitatis; 
+      si<lb ed="#P" n="82" break="no"/>cut dicimus vnus homo numero, vel vnus equus, 
+      <lb ed="#P" n="83"/>qui non solum est vnus vnitate essentiali: sed etiam 
+      <lb ed="#P" n="84"/>vnitate accidentali inquantum est seeundum 
+      quan<lb ed="#P" n="85" break="no"/>titatem indiuisus. Et super tale quod sic dicitur 
+      <lb ed="#P" n="86"/>vnum quod est principium numeri addit rem 
+      ali<lb ed="#P" n="87" break="no"/>quam scilicet quantitatem in qua fundatur vnum 
+      <lb ed="#P" n="88"/>quando dicitur vnus equus loquendo de vnitate 
+      <lb ed="#P" n="89"/>accidentali quae fundatur in quantitate continua: 
+      <lb ed="#P" n="90"/>talis vnitas addit super substantiam equi accidens; 
+      <lb ed="#P" n="91"/>ipsa autem quantitas, dicitur vna secundum 
+      ta<lb ed="#P" n="92" break="no"/>lem vnitatem. Et super illudquod sic dicitur vnum, 
+      <lb ed="#P" n="93"/>vnum quod est principium numeri, addit bene 
+      ra<lb ed="#P" n="94" break="no"/>tionem priuatiuam sicut etiam in aliis scilicet 
+      in<lb ed="#P" n="95" break="no"/>diuisionem continui: sed vltra hoc addit aliquid 
+      <lb ed="#P" n="96"/>positiuum. Sed illud positiuum non videtur 
+      nisi<lb ed="#P" n="97" break="no"/>aliud esse re, a quantitate continua; sed solum 
+      a<lb ed="#P" n="98" break="no"/>liud ratione. Quia videtur nisi quod quantum ad 
+      <lb ed="#P" n="99"/>additionem realem vnitas, quae fundatur in 
+      quan<lb ed="#P" n="100" break="no"/>titate continua, se habet ad quantitatem 
+      conti<lb ed="#P" n="101" break="no"/>nuam, sicut vnitas quae est essentialis ipsi 
+      substan<lb ed="#P" n="102" break="no"/>tiae ad substantiam. Et ideo sicut illa non addit 
+      <lb ed="#P" n="103"/>aliquid re a substantia; ita nec ista vnitas addit 
+      <lb ed="#P" n="104"/>aliquid re, a quantitate continua. Quid autem sit 
+      <lb ed="#P" n="105"/>illud positiuum secundum rationem, quod addit 
+      <lb ed="#P" n="106"/>vnum quod est pricipium numeri super 
+      quantita<lb ed="#P" n="107" break="no"/>tem continuam, videtur mihi quod hoc sit ratio 
+      <lb ed="#P" n="108"/>mensurae. Et haec est intentio Philosophi 
+      deci<lb ed="#P" n="109" break="no"/>mo Metaphvsicae quod numerus &amp; vnum quod 
+      <lb ed="#P" n="110"/>est principium numeri, se habent sicut mensura, &amp; 
+      <lb ed="#P" n="111"/>mensuratum. Vnum autem &amp; multa quae 
+      con<lb ed="#P" n="112" break="no"/>uertuntur cum ente, opponuntur priuatiue. 
+      Ad<lb ed="#P" n="113" break="no"/>dit ergo super quantitatem continuam rationem 
+      <lb ed="#P" n="114"/>mensurae discretae, secundum quam mensuramus 
+      <lb ed="#P" n="115"/>aliqua esse tot, vel quot. Vnde quando aliquis 
+      <lb ed="#P" n="116"/>quaerit quot sunt homines, &amp; respondetur ei vnus, 
+      <lb ed="#P" n="117"/>vnum ibi non stat pro indiuiduo tantum, ita quod 
+      <lb ed="#P" n="118"/>sit sensus dicere quod homo qui est ibi sit 
+      indiui<lb ed="#P" n="119" break="no"/>sus: imqintendit dicere mensuram discretam 
+      se<lb ed="#P" n="120" break="no"/>cundum quam aliqua mensurantur secundum 
+      <lb ed="#P" n="121"/>quod sint tot vel quot. Sed contra hoc obiiciunt 
+      <lb ed="#P" n="122"/>quidam tripliciter, Primo, quia vt dicunt cum 
+      <lb ed="#P" n="123"/>mensura sit in genere relationis, quia mensura 
+      re<lb ed="#P" n="124" break="no"/>latiue dicitur ad mesuratum non poterit esse 
+      prin<lb ed="#P" n="125" break="no"/>cipium speciei existentis in genere quatitatis cum 
+      <lb ed="#P" n="126"/>praedicamenta sint impermixta. Secundo, quia 
+      <lb ed="#P" n="127"/>relatio mensurae, nihil realiter ponit in 
+      mensura<lb ed="#P" n="128" break="no"/>ro. Sed illud quod nihil ponit in aliquo non facit 
+      <lb ed="#P" n="129"/>ipsum esse principium alicuius speciei, vel 
+      alicu<lb ed="#P" n="130" break="no"/>ius generis. Ergo, &amp;c. Tertio, quia proprietas 
+      <lb ed="#P" n="131"/>alicuius non constituit rationem eius. Cum 
+      pro<lb ed="#P" n="132" break="no"/>prietas sit posterius eo, cuius est proprietas. Sed 
+      <lb ed="#P" n="133"/>mensura est proprietas vnius quod est pricipium 
+      <lb ed="#P" n="134"/>numeri. Ergo &amp;c. Ad primum istorum dicendum 
+      <lb ed="#P" n="135"/>est, quod mensura non dicitur relatiue sic quod 
+      <lb ed="#P" n="136"/>dicat formaliter ipsum respectum, sicut Pater &amp; 
+      <lb ed="#P" n="137"/>Filius, vel paternitas &amp; filiatio: sed dicitur 
+      relati<lb ed="#P" n="138" break="no"/>ue sicut fundamentum relationis. Vnde est 
+      tela<lb ed="#P" n="139" break="no"/>tiuum secundum dici, sicut quantum refertur ad 
+      <lb ed="#P" n="140"/>quantum. Nunc autem licet illud quod dicit res¬ 
+      <!--117.xml-->
+      <pb ed="#P" n="117"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>pectum formaliter, non sit species, vel principium 
+      <lb ed="#P" n="2"/>spectei. Illud tamen quod est fundamentum 
+      res<lb ed="#P" n="3" break="no"/>pectus; potest esse quantitas, vel principium quan 
+      <lb ed="#P" n="4"/>titatis. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1003">
+               <lb ed="#P" n="5"/>Ad secundum patet per idem: quia illa rela. 
+      <lb ed="#P" n="6"/>tio rationis mensurae ad mensuratum, non 
+      poni<lb ed="#P" n="7" break="no"/>tur constituere rationem vnius quod est 
+      princi<lb ed="#P" n="8" break="no"/>pium numeri: sed fundamentum eius. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1014">
+               <lb ed="#P" n="9"/>Ad tertium dicendum est, quod si mensura 
+      <lb ed="#P" n="10"/>acci piatur pro eo quod est certificare apud intel 
+      <lb ed="#P" n="11"/>lectum, quanta sit aliqua res, vel quota sit 
+      mensura<lb ed="#P" n="12" break="no"/>re est proprietas accidentalis consequens vnum 
+      <lb ed="#P" n="13"/>quod est principium numeri: in quantum aliquis 
+      <lb ed="#P" n="14"/>per vnum aliquotiens replicatum certificatur de 
+      <lb ed="#P" n="15"/>numero illorum quae numerat. Et talis mensu. 
+      <lb ed="#P" n="16"/>ratio, non constituit rationem vnius, quod est 
+      <lb ed="#P" n="17"/>incipium numeri. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1036">
+               <lb ed="#P" n="18"/>Si autem accipiatur mensurare pro eo quod 
+      <lb ed="#P" n="19"/>est facerc rem mensurabilem, puta pro eo quod 
+      <lb ed="#P" n="20"/>est facere rem quotam, sic non est proprietas 
+      acci<lb ed="#P" n="21" break="no"/>dentalis, sed essentialis ipsius vnius, sicut 
+      essntia<lb ed="#P" n="22" break="no"/>le est albedini facere album formaliter; &amp; 
+      men<lb ed="#P" n="23" break="no"/>sura sic dicta quae facit rem quotam constituit 
+      ra<lb ed="#P" n="24" break="no"/>tionen vnius quod est principium numeri. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1054">
+               <lb ed="#P" n="25"/>Circa autem praemissa sunt duo dubia. 
+      Pri<lb ed="#P" n="26" break="no"/>mum est, quare in aliis a quantitate non inuenia. 
+      <lb ed="#P" n="27"/>tur vnum quod est principium numeri; cum in 
+      <lb ed="#P" n="28"/>aliis rebus dicatur quod sint tot, vel quot &amp; possini 
+      <lb ed="#P" n="29"/>numerari quot sint, sicut quot sunt Angeli: sicut 
+      <lb ed="#P" n="30"/>in quantitate. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1070">
+               <lb ed="#P" n="31"/>Ad hoc dicendum quantum nunc occurrit, 
+      <lb ed="#P" n="32"/>quod ea quae habent quantitatem eiusdem ratio. 
+      <lb ed="#P" n="33"/>nis specificae, possunt proprie quantitate 
+      mensu<lb ed="#P" n="34" break="no"/>rari per aliquam vnam proprietatem acceptam 
+      <lb ed="#P" n="35"/>quantitatiue. In rebus autem differentibus 
+      spe<lb ed="#P" n="36" break="no"/>cie in quibus non est quantitas nisi quantitas 
+      per<lb ed="#P" n="37" break="no"/>sectionis essentialis secundum quod vna essentia 
+      <lb ed="#P" n="38"/>dicitur maior in perfectione quam alia, non 
+      ha<lb ed="#P" n="39" break="no"/>bent quantitatem eiusdem rationis, per quarum 
+      <lb ed="#P" n="40"/>vnam mensuretur alia. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1095">
+               <lb ed="#P" n="41"/>Vnde quando dicitur duo vel tres Angeli, 
+      pro<lb ed="#P" n="42" break="no"/>pter hoc quod est esse plura, non est ibi aliqua 
+      <lb ed="#P" n="43"/>mensuratio proprie dicta: sed quando dicitur 
+      plu<lb ed="#P" n="44" break="no"/>res quantitates, puta decem pedales quantitates, 
+      <lb ed="#P" n="45"/>vna cum hoc quod est esse plura, est ibi 
+      mensu<lb ed="#P" n="46" break="no"/>ratio proprie dicta, qua per vnam quantitatem 
+      pe<lb ed="#P" n="47" break="no"/>dalem natum est mensurari quot quantitates sunt 
+      <lb ed="#P" n="48"/>ibi. Et ista reperiunturtam in quantitate continua 
+      <lb ed="#P" n="49"/>quam discreta. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1117">
+               <lb ed="#P" n="50"/>Aliud dubium est quod videtur secundum 
+      pre<lb ed="#P" n="51" break="no"/>missa, quod quantitas continua, &amp; discreta, non 
+      <lb ed="#P" n="52"/>differant re, sed tantum ratione, &amp; sic eadem, vel 
+      <lb ed="#P" n="53"/>est in diuersis sneciebus. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1128">
+               <lb ed="#P" n="54"/>Ad istud autem intendo respondere quando 
+      <lb ed="#P" n="55"/>quaeretur vtrum relatio addat aliquid supra suum 
+      <lb ed="#P" n="56"/>fundamentum, vbi ostendetur vtrum diuersa 
+      prae<lb ed="#P" n="57" break="no"/>dicamenta possint fundari in eadem re. Et sic patet 
+      <lb ed="#P" n="58"/>quod addit vnum, quod est principium numeri: 
+      <lb ed="#P" n="59"/>super id quod dicitur vnum. Et per idem etiam 
+      <lb ed="#P" n="60"/>patet quod addit numerus ipse, super res 
+      nume<lb ed="#P" n="61" break="no"/>ratas. Nam super res numeratas quae sunt subiecte 
+      <lb ed="#P" n="62"/>quantitati, addit rem aliquam scilicet quantitatem 
+      <lb ed="#P" n="63"/>in qua fundatur. Sed super quantitates numneratas, 
+      <lb ed="#P" n="64"/>non addit rem aliquam, sed addit rationem 
+      men<lb ed="#P" n="65" break="no"/>surae discretae cuius principium est vnum quod est 
+      <lb ed="#P" n="66"/>principium numeri. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1159">
+               <lb ed="#P" n="67"/>Quantum ad quartum satis faciliter patet: 
+      <lb ed="#P" n="68"/>Nam constat quod vnum quod est principium 
+      nu<lb ed="#P" n="69" break="no"/>meri, quod fundatur in quantitate contifiua: in 
+      <lb ed="#P" n="70"/>Deo non habet locum, nec numerus cuius est 
+      <!--117.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>principium: sed tantum vnum quod conuertitur 
+      <lb ed="#P" n="72"/>cum ente, &amp; pluralitas quae ipsum consequitur 
+      <lb ed="#P" n="73"/>De istis autem dictum est quod nullam rem 
+      ad<lb ed="#P" n="74" break="no"/>dunt super essentiam eorum de quibus dicuntur. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1183">
+               <lb ed="#P" n="75"/>Illud etiam quod secundum rationem addunt 
+      <lb ed="#P" n="76"/>super entitatem quam materialiter important, est 
+      <lb ed="#P" n="77"/>priuatiue dictum; scilicet indiuisionem, &amp; hoc 
+      <lb ed="#P" n="78"/>est non esse illud. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1194">
+               <lb ed="#P" n="79"/>Vnde notandum est, non esse idem non 
+      ad<lb ed="#P" n="80" break="no"/>dere aliquam rem, &amp; non dici priuatiue; quia esse 
+      <lb ed="#P" n="81"/>iustum non addit aliquam rem diuersam ab 
+      essen<lb ed="#P" n="82" break="no"/>tia diuina, super essentiam dsuinam; non tamen 
+      <lb ed="#P" n="83"/>dicitur priuatiue, sed positiue; quia iustum dicit 
+      <lb ed="#P" n="84"/>perfectionem diuinam secundum aliquam aliam 
+      <lb ed="#P" n="85"/>positiuam rationem. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1213">
+               <lb ed="#P" n="86"/>Sic ergo termini numerales non addunt rem 
+      <lb ed="#P" n="87"/>aliquam, nec formalem in significato eorum, nec 
+      <lb ed="#P" n="88"/>positiuam, sed priuatiaum: licet materialiter in suo 
+      <lb ed="#P" n="89"/>significato, importer positiuum. Vnde quando 
+      di<lb ed="#P" n="90" break="no"/>citur vnus Deus, Iy vnus materialiter importat 
+      m<lb ed="#P" n="91" break="no"/>sam diuinitatem; &amp; formaliter importat eius 
+      in<lb ed="#P" n="92" break="no"/>diuisionem. Et similiter quandodicitur tres 
+      per<lb ed="#P" n="93" break="no"/>sonae, materialiter important ipsas relationes siue 
+      <lb ed="#P" n="94"/>personaliter, sed formaliter imporant indiuisionc. 
+      <lb ed="#P" n="95"/>uniuscuiusque eorum, &amp; quod vna non sit alia. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1237">
+               <lb ed="#P" n="96"/>Et sic patet quod termini numerales indiuinis 
+      <lb ed="#P" n="97"/>formaliter dicunt priuationem; sed materialiter 
+      <lb ed="#P" n="98"/>significant aliquid positiuum. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1246">
+               <lb ed="#P" n="99"/>Quomodo autem talis priuatio non dicat 
+      im<lb ed="#P" n="100" break="no"/>perfectionem, dicendum est. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1253">
+               <lb ed="#P" n="101"/>Ad primum ergo in oppositum, dicendum 
+      <lb ed="#P" n="102"/>quod illa maior accipiendo eam vniuersaliter est 
+      <lb ed="#P" n="103"/>falla. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1262">
+               <lb ed="#P" n="104"/>Nam negare de aliquo illud quod nihil reale 
+      <lb ed="#P" n="105"/>ponit in eo dummodo conueniat sibi vel priuatiue 
+      <lb ed="#P" n="106"/>vel negatiue est contra veritatem, quia negando 
+      <lb ed="#P" n="107"/>ipsam priuationem, dicit oppositam 
+      assirmatio<lb ed="#P" n="108" break="no"/>nem sicut in chimera, dicendo chimera non est 
+      <lb ed="#P" n="109"/>non homo, falsum diceret; quia ad hoc 
+      sequere<lb ed="#P" n="110" break="no"/>tur quod esset homo. Ita etiam qui negaret de 
+      <lb ed="#P" n="111"/>Deo indiuisionem, vel non diuisionem dicendo 
+      <lb ed="#P" n="112"/>Deus non est, non Deus, vel diuisus diceret 
+      con<lb ed="#P" n="113" break="no"/>tra veritatem, quia hoc negando poneret in Deo 
+      <lb ed="#P" n="114"/>eeius oppositum, scilicet diuisionem. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1288">
+               <lb ed="#P" n="115"/>Potest etiam aliter dici, quod illa maior est vera 
+      <lb ed="#P" n="116"/>de eo, quod nihil ponit in Deo formaliter: nec 
+      <lb ed="#P" n="117"/>materialiter. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1298">
+               <lb ed="#P" n="118"/>Termini autem numerales aliquid ponunt in 
+      <lb ed="#P" n="119"/>Deo, quantum ad illud quod est materiale in eo¬. 
+      <lb ed="#P" n="120"/>rum significato. 
+      </p>
+            <p xml:id="hx2hx3-b37519-d1e1307">
+               <lb ed="#P" n="121"/>Ad secundum dicendum est, quod non est ibi 
+      <lb ed="#P" n="122"/>negatio negationis, &amp; circulatio; quia vnum non 
+      <lb ed="#P" n="123"/>dicit directe priuationem multirudinis; sed 
+      pri<lb ed="#P" n="124" break="no"/>nationem diuisionis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="331"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c11700"><!-- l4d5q2 -->
+            <head xml:id="hx2hx3-c11700-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-c11700-Hd1e101" type="question-title">De potestate excellentiae christi in sacramento, utrum potuerit conferri aliis a christo</head>
+            <p xml:id="hx2hx3-c11700-d1e104">
+               <lb ed="#P" n="85"/>Potestas Baptisii quae sait quam Cbriftur 
+      <lb ed="#P" n="86"/>potuit dare seruo.
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e111">
+               <lb ed="#P" n="87"/>Hic quaeritur quae st ila potestas 
+      baptis<lb ed="#P" n="88" break="no"/>mi quam Christus sibi retinuit &amp; potuit 
+      <lb ed="#P" n="89"/>dare seruue: haec est pt plurimi volunt 
+      <lb ed="#P" n="90"/>potestas dimittendi peccatae in baeprisio: 
+      <lb ed="#P" n="91"/>sed potestaa dimirtendi peccata quae est 
+      <lb ed="#P" n="92"/>in Deo est Deue: Ide o ali dicunt hanc 
+      <lb ed="#P" n="93"/>potestatem non potuisse dare aelicui 
+      ser<lb ed="#P" n="94" break="no"/>uorum: quia nulli potuit dare vt esset 
+      <lb ed="#P" n="95"/>quod ipse est, vel vt haberet essentiam 
+      <lb ed="#P" n="96"/>quam ipse habet, cui hoc est esse quod 
+      <lb ed="#P" n="97"/>posse. Dicunt etiam si hanc potentiam 
+      <lb ed="#P" n="98"/>alicui dare potuit, ei dare creare 
+      crea<lb ed="#P" n="99" break="no"/>turas: quia non est hoc martiorit 
+      poten<lb ed="#P" n="100" break="no"/>tiae quam illud, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e144">
+               <lb ed="#P" n="101"/>QVAESTIO SECVNDA.
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e150">
+               <lb ed="#P" n="102"/>Secundo. Queritur de potestate excellentia 
+      <lb ed="#P" n="103"/>Christi in sacramento Vtrum potuerit 
+      confer<lb ed="#P" n="104" break="no"/>ri aliis a Christo. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e159">
+               <lb ed="#P" n="105"/>Et arguitur quod non: quia potestus 
+      excellen<lb ed="#P" n="106" break="no"/>tiae quam Christus habuit est dimittere peccata. 
+      <lb ed="#P" n="107"/>Sed hoc nulli alii conuenit quam Christo. Ergo, 
+      <lb ed="#P" n="108"/>&amp;c. Maior patet. Matth,. sciatis quia filius 
+      <lb ed="#P" n="109"/>hominis potestatem habet in terra dimittendi 
+      pec<lb ed="#P" n="110" break="no"/>cata: aut ergo intelligebat quod Christus 
+      ha<lb ed="#P" n="111" break="no"/>beat hanc potestatem secundum quod homo: aut 
+      <lb ed="#P" n="112"/>secundum quod Deus: quia hoc Iudaei 
+      confite<lb ed="#P" n="113" break="no"/>bantur quod Deus dimitrit peccata. Ergo hoc 
+      <lb ed="#P" n="114"/>habet Christus secundum homo. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e183">
+               <lb ed="#P" n="115"/>Praeterea potestas excellentiae Christi est quod 
+      <lb ed="#P" n="116"/>est caput ecclesie; sed hoc nulli potest conferti.Et: 
+      <lb ed="#P" n="117"/>go, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e192">
+               <lb ed="#P" n="118"/>Contra quia cuicumque potest conferri 
+      poten<lb ed="#P" n="119" break="no"/>tia creandi potest conferri potestas excellentiae 
+      <lb ed="#P" n="120"/>Christi: quia creare est maius quam illud: sed 
+      <lb ed="#P" n="121"/>Deus potest conferre alijs potentiam creandi: vt 
+      <lb ed="#P" n="122"/>dicit magister in littera. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e205">
+               <lb ed="#P" n="123"/>Respondeo dicendum quodhahere potentiam 
+      <lb ed="#P" n="124"/>dimittendipeccata est habere potestarem respectu 
+      <lb ed="#P" n="125"/>effectus secundum quem dimitiuntur peccata: 
+      <lb ed="#P" n="126"/>hoc autem est per gratiam &amp; virtures: ad gratiam 
+      <lb ed="#P" n="127"/>autem &amp; virtutes potest aliquis agere dupliciter. 
+      <lb ed="#P" n="128"/>Vno modo per auctoritatem: alio modo per 
+      mi<lb ed="#P" n="129" break="no"/>nisterium. Et vterque modus habet locum in 
+      a<lb ed="#P" n="130" break="no"/>gentibus a proposito: quia hoc idem est 
+      principa<lb ed="#P" n="131" break="no"/>le &amp; agens instrumentale: ita quod agens per 
+      au<lb ed="#P" n="132" break="no"/>ctoritatem est agens principale. Agens autem per 
+      <lb ed="#P" n="133"/>ministerium est agens instrumentale &amp; per intel¬ 
+      <!--332.xml-->
+      <pb ed="#P" n="332"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>lectem. Agens autem gratiam &amp; virtutes siue sit 
+      <lb ed="#P" n="2"/>agens per auctoritatem &amp; principale siue per 
+      mi<lb ed="#P" n="3" break="no"/>nisterium &amp; instrumentale. potest intelligi agere 
+      <lb ed="#P" n="4"/>ad gratiam. Vno modo effectiue attigendo, 
+      sci<lb ed="#P" n="5" break="no"/>licet ad efsentiam gratiae, &amp; ipsam immediate 
+      <lb ed="#P" n="6"/>creando sicut imprimens sigillum in cera se habet 
+      <lb ed="#P" n="7"/>ad sigillandum. Alio modo dispositiue non 
+      attin<lb ed="#P" n="8" break="no"/>gendo, scilicet ad essentiam graiiae: sed ad eam 
+      <lb ed="#P" n="9"/>disponendo sicut se habet mollificans ceram ad 
+      si<lb ed="#P" n="10" break="no"/>gillandum Primo modo nec Christus secundumquod 
+      <lb ed="#P" n="11"/>homo nec aliqua creatura potest attingere per 
+      au<lb ed="#P" n="12" break="no"/>ctoritatemad causandum gratiam. Cuius ratio est: quia 
+      <lb ed="#P" n="13"/>causrre gratiam effectiue per auctoritatem 
+      im<lb ed="#P" n="14" break="no"/>mediare attigendo ad essentiam eius est causare 
+      <lb ed="#P" n="15"/>gratiam vt agens principale. Sed hoc nulla 
+      crea<lb ed="#P" n="16" break="no"/>tura potest. Ergo, &amp;c. Probatio minoris: quia 
+      <lb ed="#P" n="17"/>attingere suppremum effectum coniungentem 
+      sup<lb ed="#P" n="18" break="no"/>premo fini &amp; infinito, conuenit soli primo 
+      agen<lb ed="#P" n="19" break="no"/>ti qualis est Deus: sed gratia est huiusmodi. 
+      Er<lb ed="#P" n="20" break="no"/>go, &amp;c. Nec etiam attingere gratiam effectiue &amp; 
+      <lb ed="#P" n="21"/>etiam instrumentaliter, attingendo immediate 
+      es<lb ed="#P" n="22" break="no"/>sentiam gratiae, conuenit Christo secundum quod 
+      <lb ed="#P" n="23"/>homo: quia sicut in actionibus artificis 
+      quando<lb ed="#P" n="24" break="no"/>que inuenitur quod aliquis est qui transcendit 
+      vir<lb ed="#P" n="25" break="no"/>tutem instrumentorum omnium quae reseruantur 
+      <lb ed="#P" n="26"/>principali agenti, ita etiam in operatione gratiae 
+      <lb ed="#P" n="27"/>illud quod immediate coniungit vltimo fini, soli 
+      <lb ed="#P" n="28"/>Deo reseruatur vt attigenti eius essentiam 
+      effe<lb ed="#P" n="29" break="no"/>ctiue, hoc est gratia tergo, &amp;c. Sed agere ad 
+      gra<lb ed="#P" n="30" break="no"/>tiam, secundo modo, scilicet, instrumentaliter &amp; 
+      <lb ed="#P" n="31"/>dispositiue conuenit Christo etiam secundumquod 
+      <lb ed="#P" n="32"/>homo &amp; tali modo quo non conuenit aliis. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e307">
+               <lb ed="#P" n="33"/>Ad cuius euidentiam sciendum, quod 
+      dispo<lb ed="#P" n="34" break="no"/>sitio per quam aliquis disponitur ad aliquod 
+      do<lb ed="#P" n="35" break="no"/>num habendum, seu ad habendum aliquam 
+      per<lb ed="#P" n="36" break="no"/>fectionem dupliciter est. Nam vno modo dici 
+      <lb ed="#P" n="37"/>tur dispositio dignitas, qua aliquis dignus 
+      effici<lb ed="#P" n="38" break="no"/>tur habere talem perfectionem, sicut dicitur 
+      ho<lb ed="#P" n="39" break="no"/>mo bonus dispositus ad regendum. Quia per 
+      bo<lb ed="#P" n="40" break="no"/>nitatem suam dicitur dignus ad hoc. Et 
+      accipien<lb ed="#P" n="41" break="no"/>do sicdispositionem idem est quod meritum, per quod 
+      <lb ed="#P" n="42"/>aliquis disponitur ad habendum gratiam. 
+      Secun<lb ed="#P" n="43" break="no"/>do modo dicitur dispositio ad gratiam aliqua 
+      qua<lb ed="#P" n="44" break="no"/>litas quae facit subiectum mobile ad gratiam: 
+      si<lb ed="#P" n="45" break="no"/>cut mollities cere facit eam quoddammodo 
+      mo<lb ed="#P" n="46" break="no"/>bilem ad figuram, vt frequenter dictum est. Et 
+      <lb ed="#P" n="47"/>talis dispositio ad gratiam idem est quod 
+      chara<lb ed="#P" n="48" break="no"/>cter, vel ornatus aliquis qui causatur ex 
+      sacra<lb ed="#P" n="49" break="no"/>mentis, vt dictum est supra. In agendo ergo 
+      dis<lb ed="#P" n="50" break="no"/>positiue ad gratiam, primo modo prout dispositio 
+      <lb ed="#P" n="51"/>est dignitas habendi: dignitas praerogatiuae 
+      Chri<lb ed="#P" n="52" break="no"/>sti in hoc consistit, quod ipse totum genus 
+      huma<lb ed="#P" n="53" break="no"/>num per meritum suum disponit ad gratiam de 
+      <lb ed="#P" n="54"/>condigno, ita quod meritum passionis eius fecit 
+      <lb ed="#P" n="55"/>dignum totum genus humanum gratia Dei, 
+      dum<lb ed="#P" n="56" break="no"/>modo homo non ponat obicem. Nullus 
+      nutemho<lb ed="#P" n="57" break="no"/>mo purus de condigno potest mereri gratiam alteri 
+      <lb ed="#P" n="58"/>multominus toti generi humano: licet possit vnus 
+      <lb ed="#P" n="59"/>homo mereri alteri gratiam de congruo. 
+      Quan<lb ed="#P" n="60" break="no"/>tum autem ad secundam dispositionem, quae 
+      fa<lb ed="#P" n="61" break="no"/>cit subiectum mobile ad gratiam, omnes illi 
+      dis<lb ed="#P" n="62" break="no"/>ponunt ad gratiam qui sunt ministri 
+      sacramento<lb ed="#P" n="63" break="no"/>rum inquantum huiusmodi. In ista tamen 
+      dispo<lb ed="#P" n="64" break="no"/>sitione Christus habuit prae aliis ministris 
+      tripli<lb ed="#P" n="65" break="no"/>cem praerogatiuam. Prima fuit, quod instituit 
+      <lb ed="#P" n="66"/>facramenta. Secunda, quod effectum 
+      sacramen<lb ed="#P" n="67" break="no"/>torum, fine sac ramentis potuit conferre, ita quod 
+      <lb ed="#P" n="68"/>chatacterem vel ornatum qui causantut ex 
+      sacra<lb ed="#P" n="69" break="no"/>mentis potuit conferre, secundum quod homo 
+      <lb ed="#P" n="70"/>instrumentaliter, ita quod ad tactum manus eius 
+      <!--332.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>conferretur idem quod confertur inbaptismo, vel 
+      <lb ed="#P" n="72"/>in alio sacramento. Tertia fuit, quod in nomine 
+      <lb ed="#P" n="73"/>eius collatum fuit quandoque sacramentum 
+      ba<lb ed="#P" n="74" break="no"/>ptismi, &amp; ista potestates respectu meriti, &amp; 
+      res<lb ed="#P" n="75" break="no"/>pectu illius dispositionis, quae reddit subiectum 
+      <lb ed="#P" n="76"/>mobile ad gratiam, vocatur potestas excellentiae, 
+      <lb ed="#P" n="77"/>quam Christus praealiis habuit. Quando ergo 
+      <lb ed="#P" n="78"/>quaeritur vtrum talis potestas potuit 
+      communica<lb ed="#P" n="79" break="no"/>ni alteri. Dicendum quod de potestate absoluta 
+      <lb ed="#P" n="80"/>quantum ad tria vltima quae Christus habuit 
+      cir<lb ed="#P" n="81" break="no"/>ca essectum sacramentorum potuit Deus 
+      absolu<lb ed="#P" n="82" break="no"/>te potestatem excellentiae alteri homini 
+      commu<lb ed="#P" n="83" break="no"/>nicare, vt scilicet institueret sacramenta, vel 
+      <lb ed="#P" n="84"/>etiam vt effectum sacramentorum sine 
+      sacramen<lb ed="#P" n="85" break="no"/>tis conferret, vel quod in nomine eius 
+      conferren<lb ed="#P" n="86" break="no"/>tur sacramenta, ita scilicet quod verbis 
+      expri<lb ed="#P" n="87" break="no"/>mentibus nomen eius dareturvirtus, quam habent 
+      <lb ed="#P" n="88"/>modo verba quibus vtimur in forma 
+      sacramen<lb ed="#P" n="89" break="no"/>torum. Quantum autem ad merendum gratiam 
+      <lb ed="#P" n="90"/>alterius, etiam potuit Deus conferre puro homini, 
+      <lb ed="#P" n="91"/>quod ipse mereretur gratiam de condigno pro 
+      <lb ed="#P" n="92"/>aliqua alia persona singulari. Sed quod aliquis 
+      <lb ed="#P" n="93"/>purus homo mereretur gratiam pro tota natura 
+      <lb ed="#P" n="94"/>humana ex condigno, vt scilicet totam naturam 
+      <lb ed="#P" n="95"/>humanam redderet dignam gratia Dei, ponitur 
+      <lb ed="#P" n="96"/>non potuisse conferri homini puro, maxime si 
+      po<lb ed="#P" n="97" break="no"/>natur quod reddere totum genus humanum 
+      di<lb ed="#P" n="98" break="no"/>gnum gratia Dei, requi: at infinitatem in merito. 
+      <lb ed="#P" n="99"/>Licet autem potestas excellentiae potuisset 
+      com<lb ed="#P" n="100" break="no"/>municari puro homini quantum ad ea quae 
+      praedi<lb ed="#P" n="101" break="no"/>cta sunt de potestate absoluta, non tamen hoc fuit 
+      <lb ed="#P" n="102"/>conueniens facere ne spes salutis poneretur in 
+      ho<lb ed="#P" n="103" break="no"/>mine puro. Et quia conueniens erat quod ad 
+      plu<lb ed="#P" n="104" break="no"/>ra se extenderet natura coniuncta supposito 
+      diui<lb ed="#P" n="105" break="no"/>no, quam quicum: que alius homo, cuius 
+      conue<lb ed="#P" n="106" break="no"/>nientiae ratio talis assignatur: quia 
+      quandocun<lb ed="#P" n="107" break="no"/>que aliquid est instrumentum coniunctum, &amp; aliud 
+      <lb ed="#P" n="108"/>instrumentum separatum, semper 
+      instrumen<lb ed="#P" n="109" break="no"/>tum coniunctum perfectius operatur, &amp; ad plura 
+      <lb ed="#P" n="110"/>se extendit quam separatum, sicut patet de rnanu 
+      <lb ed="#P" n="111"/>&amp; baculo: sed natura humana Christi 
+      compara<lb ed="#P" n="112" break="no"/>tur ad diuinitatem quae principaliter operatur ad 
+      <lb ed="#P" n="113"/>gratiam sicut instrumentum coniunctum, alii 
+      au<lb ed="#P" n="114" break="no"/>tem ministri sicut instrumentum separatum. Ergo 
+      <lb ed="#P" n="115"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e495">
+               <lb ed="#P" n="116"/>Si quaeratur vtrum Christus secundum quod 
+      <lb ed="#P" n="117"/>homo possit causare characterem vel ornatum. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e502">
+               <lb ed="#P" n="118"/>Dicendum quod non, quia nullus effectus ad 
+      <lb ed="#P" n="119"/>quem creatura quaecumque attingit, vt principale 
+      <lb ed="#P" n="120"/>agens est supernaturalis simpliciter. Sed 
+      chara<lb ed="#P" n="121" break="no"/>cter &amp; ornatus est effectus supernatur alis 
+      simpli<lb ed="#P" n="122" break="no"/>citer, ergo, &amp;c. Maior probatur, quia non 
+      di<lb ed="#P" n="123" break="no"/>citur aliquis effectus simpliciter supernaturalis, 
+      <lb ed="#P" n="124"/>nisi quia excedit simpliciter facultatem naturae 
+      <lb ed="#P" n="125"/>creatae simpliciter. Sed illud ad quod natura 
+      crea<lb ed="#P" n="126" break="no"/>ta attingit vt principale agens non excedit 
+      simpli<lb ed="#P" n="127" break="no"/>citer facultatem totiut naturae creatae, ergo, &amp;c. 
+      <lb ed="#P" n="128"/>Si autem ponatur quod talia non possunt attingi 
+      <lb ed="#P" n="129"/>a natura creata, vt a principali agente, licet 
+      attin<lb ed="#P" n="130" break="no"/>gatur ab ea instrumentaliter possunt dici 
+      excede<lb ed="#P" n="131" break="no"/>re simpliciter naturam creatam. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e535">
+               <lb ed="#P" n="132"/>Ad primum in oppositum dicendum, quod 
+      <lb ed="#P" n="133"/>Christus per illud verbum, nec intendebat 
+      proba<lb ed="#P" n="134" break="no"/>re, quod Deus dimitteret peccata, vel etiam quod 
+      <lb ed="#P" n="135"/>ipse secundum quod homo dimitteret peccatum 
+      <lb ed="#P" n="136"/>vt principale agens, sed intendebat ostendere, 
+      <lb ed="#P" n="137"/>quod ipse qui erat homo etiam erat Deus qui 
+      pos<lb ed="#P" n="138" break="no"/>set dimittere peccata. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e553">
+               <lb ed="#P" n="139"/>Ad secundum dicendum, quod Christus 
+      se<lb ed="#P" n="140" break="no"/>cundum quod habet naturam humanam contun, 
+      <!--333.xml-->
+      <pb ed="#P" n="333"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cam diuinitari per naturam illam habet quod sit 
+      <lb ed="#P" n="2"/>caput totius ecclesiae influendo to i Ecclesiae per 
+      <lb ed="#P" n="3"/>meritum deicondigno, modo quo dictum est: &amp; 
+      <lb ed="#P" n="4"/>hoc proprium est eius nec potuit alij 
+      communica<lb ed="#P" n="5" break="no"/>ri. Sed quod infunderet huic personae vel illi non 
+      <lb ed="#P" n="6"/>sic est proprium eius quin possit alteri 
+      communi<lb ed="#P" n="7" break="no"/>cari. 
+      </p>
+            <p xml:id="hx2hx3-c11700-d1e582">
+               <lb ed="#P" n="8"/>Ad aliud in oppositumdicendum, quod 
+      Ma<lb ed="#P" n="9" break="no"/>gister non tenetur in hac parte quod potestas 
+      <lb ed="#P" n="10"/>creandi potuerit communicari creaturae.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

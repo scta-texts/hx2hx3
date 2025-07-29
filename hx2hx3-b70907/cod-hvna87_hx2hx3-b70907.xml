@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="212"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b70907"><!-- l2d3q4 -->
+            <head xml:id="hx2hx3-b70907-Hd1e99">Quaestio 4</head>
+            <head xml:id="hx2hx3-b70907-Hd1e101" type="question-title">Utrum angeli superiores cognoscant per species magis universales</head>
+            <p xml:id="hx2hx3-b70907-d1e104">
+               <lb ed="#P" n="43"/>Distinctio tertia. 
+      <lb ed="#P" n="44"/>QVAESTIO QVARTA. 
+      <lb ed="#P" n="45"/>Qvarto quaeritur, vtrum Angeli superiores 
+      <lb ed="#P" n="46"/>cognoscant per species magis vniuersales. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e115">
+               <lb ed="#P" n="47"/>Et arguitur quod non cognoscant per species. 
+      <lb ed="#P" n="48"/>Quia si Angelus cognoscit per species, qua ratione 
+      <lb ed="#P" n="49"/>cognoscit per vnam, ea ratione cognoscit per alia. 
+      <lb ed="#P" n="50"/>Aut ergo simul cognoscit per omnes, aut per 
+      nul<lb ed="#P" n="51" break="no"/>lam. Non per omnes, quia hoc nullus ponit: quia 
+      <lb ed="#P" n="52"/>contingeret ipsum plura simul inteltigere. Ergo 
+      <lb ed="#P" n="53"/>per nullam: nullo ergo modo per species. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e133">
+               <lb ed="#P" n="54"/>Praeterea Angelus habita specie, aut est actu 
+      in<lb ed="#P" n="55" break="no"/>telligens per eam, aut non: sed adhuc est 
+      intelli<lb ed="#P" n="56" break="no"/>gens in potentia. Si primo modo, sequitur quod 
+      <lb ed="#P" n="57"/>actu intelliget per omnes species quas habet, quod 
+      <lb ed="#P" n="58"/>est inconueniens, vt dictum est. Si secundo modo, 
+      <lb ed="#P" n="59"/>tunc adhuc cum habita specie sit in potentia ad 
+      in<lb ed="#P" n="60" break="no"/>telligendum, sequitur quod indigebit alio motore 
+      <lb ed="#P" n="61"/>a quo moueatur ad intelligendum. Et sic pro 
+      nihi<lb ed="#P" n="62" break="no"/>lo ponitur species. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e156">
+               <lb ed="#P" n="63"/>Quod autem non per vniuersaliores species 
+      in<lb ed="#P" n="64" break="no"/>telligant superiores. Probatur sic. Quia res non 
+      co<lb ed="#P" n="65" break="no"/>gnoscitur in speciali per vniuersale medium, sed 
+      <lb ed="#P" n="66"/>per proprium. Sed superiores Angeli cognoscunt 
+      <lb ed="#P" n="67"/>tes in speciali, non in vnuersalitantum, alioqui 
+      <!--212.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="68"/>imperfecte cognoscerent. Ergo species per quae 
+      <lb ed="#P" n="69"/>vtper medium cognoscendi intelligunt, non sunt 
+      <lb ed="#P" n="70"/>vniuersales. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e180">
+               <lb ed="#P" n="71"/>Praeterea si superiores cognoscunt per paucio. 
+      <lb ed="#P" n="72"/>res vel vniuersaliores, sequeretur quod esset 
+      veni<lb ed="#P" n="73" break="no"/>re ad Angelum qui cognosceret per vnam, aut per 
+      <lb ed="#P" n="74"/>nullam, quod est ineonueniens. Probatio 
+      conse<lb ed="#P" n="75" break="no"/>quentiae. Si ponatur quod infimus gratia exempli, 
+      <lb ed="#P" n="76"/>habeat mille, demendo vnam per quemlibet 
+      An<lb ed="#P" n="77" break="no"/>gelum acceptum supra illum, quando 
+      peruenire<lb ed="#P" n="78" break="no"/>tur ad millesimum, ille intelligeret per vnam, aut 
+      <lb ed="#P" n="79"/>per nullam. Cum ergo in Angelis 
+      contingatascen<lb ed="#P" n="80" break="no"/>dere in infinitum, dendo nobiliorem quolibet 
+      <lb ed="#P" n="81"/>dato, non est accipere tot species in infimo, quin 
+      <lb ed="#P" n="82"/>accipiendo Angelum post Angelum contingat 
+      fi<lb ed="#P" n="83" break="no"/>naliter deuenire, ad illum qui nullam habeat. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e211">
+               <lb ed="#P" n="84"/>In contrarium est illud quod habetur in libro 
+      <lb ed="#P" n="85"/>de causis, quod superiores intelligentiae habentfon 
+      <lb ed="#P" n="86"/>mas magis vniuersales. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e220">
+               <lb ed="#P" n="87"/>Respondeo hic quatuor sunt videnda. 
+      <lb ed="#P" n="88"/>Primum est videre quam beatitudinem 
+      impor<lb ed="#P" n="89" break="no"/>tat haec praepositio per: quando quaeritur, vtrum 
+      <lb ed="#P" n="90"/>Angelus intelligat per speciem. 
+      <lb ed="#P" n="91"/>Secundum est videre, vtrum intelligat per 
+      spe<lb ed="#P" n="92" break="no"/>cies. 
+      <lb ed="#P" n="93"/>Tertium, vtrum ille species sint acquisitae, vel 
+      <lb ed="#P" n="94"/>innatae. 
+      <lb ed="#P" n="95"/>Quartum est, vtrum superiores intelligant per 
+      <lb ed="#P" n="96"/>species magis vniuersales. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e244">
+               <lb ed="#P" n="97"/>ARTICVLVS PRIMVS. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e249">
+               <lb ed="#P" n="98"/>Qvantum ad primum ergo sciendum, quod 
+      <lb ed="#P" n="99"/>per dicit habitudinem alicuius causae 
+      com<lb ed="#P" n="100" break="no"/>muniter, siue aliquid aliud dicat, siue non. 
+      Qua<lb ed="#P" n="101" break="no"/>tuor sunt eausae per quas, siue propter quas potest 
+      <lb ed="#P" n="102"/>aliquid esse tale vel tale. Sicut aqua est calida 
+      si<lb ed="#P" n="103" break="no"/>cut per causam subiectiuam, &amp; materialem per 
+      poten<lb ed="#P" n="104" break="no"/>tiam receptiuam caloris, sicut per causam 
+      effi<lb ed="#P" n="105" break="no"/>cientem est calida per ignem calefacientem. 
+      Si<lb ed="#P" n="106" break="no"/>eut per formam, per calorem ipsum; sicut per 
+      fi<lb ed="#P" n="107" break="no"/>nem, siue propter finem, propter coctionem, vel 
+      <lb ed="#P" n="108"/>lotionem, vel aliquid tale. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e276">
+               <lb ed="#P" n="109"/>Et sic etiam quando quaeritur per quid 
+      intelli<lb ed="#P" n="110" break="no"/>git Angelus, potest quaeri per quid sicut per 
+      princi<lb ed="#P" n="111" break="no"/>pium passiuum &amp; susceptiuum in quo recipiatur 
+      <lb ed="#P" n="112"/>talis actus intelligendi. Et sic non est dubium quin 
+      <lb ed="#P" n="113"/>sit illud per quod Angelus intelligit, quia est sua 
+      <lb ed="#P" n="114"/>potentia intellectiua, in qua sicut in subiecto 
+      reci<lb ed="#P" n="115" break="no"/>pitur suus actus intelligendi. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e294">
+               <lb ed="#P" n="116"/>Similiter si fiat quaestio de causa finali, non est 
+      <lb ed="#P" n="117"/>dubium propter quid Angelus intelligat. Quia 
+      <lb ed="#P" n="118"/>propter hoc vtperficiatur, &amp; inter perfectiones 
+      <lb ed="#P" n="119"/>accidentales haec est summa perfectio. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e305">
+               <lb ed="#P" n="120"/>Si autem quaeritur per quid intelligit, quid 
+      scili<lb ed="#P" n="121" break="no"/>cet illud quod facit ipsum formaliter, &amp; 
+      denomi<lb ed="#P" n="122" break="no"/>nat intelligentem. Etiam facile est videre. Quia 
+      <lb ed="#P" n="123"/>hoc est actus intelligendi &amp; nihil aliud, sicut etiam 
+      <lb ed="#P" n="124"/>sola albedo facit album formaliter: ita solus actus 
+      <lb ed="#P" n="125"/>intelligendi facit intelligentem formaliter. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e321">
+               <lb ed="#P" n="126"/>Si autem quaeratur per quid sicut per 
+      princi<lb ed="#P" n="127" break="no"/>pium actiuum quo agens agit, Angelus intelligat: 
+      <lb ed="#P" n="128"/>sic intelligit quaestio, quando quaeritur, vtrum 
+      <lb ed="#P" n="129"/>Angelus intelligat per speciem, sicut per 
+      princi<lb ed="#P" n="130" break="no"/>pium actiuum per quod Angelus faciat se 
+      intelli<lb ed="#P" n="131" break="no"/>gentem in actu. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e337">
+               <lb ed="#P" n="132"/>Quod autem aliquando dicitur, quod species 
+      <lb ed="#P" n="133"/>est principium formale quo intelligens intelligit:fi 
+      <lb ed="#P" n="134"/>bene intelligatur, non est contra praemissa 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e346">
+               <lb ed="#P" n="135"/>Ad cuius euidentiam sciendum est, quod effiee, 
+      <!--213.xml-->
+      <pb ed="#P" n="213"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>re respicit duo, vnum vt agens, &amp; aliud vt 
+      for<lb ed="#P" n="2" break="no"/>mam quae est principium agendi. Quando ergo 
+      <lb ed="#P" n="3"/>dicitur quod species est principium formale 
+      in<lb ed="#P" n="4" break="no"/>telligendi, sensus est, quod species non est 
+      prin<lb ed="#P" n="5" break="no"/>cipium effectiuum quod est suppositum agens: sed 
+      <lb ed="#P" n="6"/>quod est principium effectiuum quod est forma 
+      a<lb ed="#P" n="7" break="no"/>gentis. Non autem est sensus, quod species 
+      forma<lb ed="#P" n="8" break="no"/>liter denominet intelligentem esse intelligentem, 
+      <lb ed="#P" n="9"/>vel faciat formaliter intelligentem: sicut albedo 
+      <lb ed="#P" n="10"/>formaliter facit esse album. Sensus ergo 
+      quaestio<lb ed="#P" n="11" break="no"/>nis est, vtrum Angelus intelligat perspeciem, 
+      si<lb ed="#P" n="12" break="no"/>cut per principium effectiuum intelligendi. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e384">
+               <lb ed="#P" n="13"/>ARTICVLVS TERTIVS.
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e389">
+               <lb ed="#P" n="14"/>Qvantum ad secundum sciendum, quod 
+      <lb ed="#P" n="15"/>quantum ad Doctores modernos, vel etiam 
+      <lb ed="#P" n="16"/>Sanctos, nullus ponit Angelum intelligere per 
+      es<lb ed="#P" n="17" break="no"/>sentiam suam alia a se nisi in quadam generali, &amp; 
+      <lb ed="#P" n="18"/>hoc rationabiliter. Tum quia essentia Angeli non 
+      <lb ed="#P" n="19"/>est sufficiens principium repraesentandi omnia: 
+      <lb ed="#P" n="20"/>tum quia non videtur quod subiectum sit 
+      princi<lb ed="#P" n="21" break="no"/>pium effectiuum sufficiens illorum accidentium, 
+      <lb ed="#P" n="22"/>quae per se &amp; de necessitate non consequuntur ad 
+      <lb ed="#P" n="23"/>ipsum sicut per se passiones. Tale autem accidens 
+      <lb ed="#P" n="24"/>non est omnis actus intelligendi, alioquin semper 
+      <lb ed="#P" n="25"/>&amp; de necessitate intelligeret omnia quae natus 
+      es<lb ed="#P" n="26" break="no"/>set intelligere. Et ideo relinquitur quod Angelus 
+      <lb ed="#P" n="27"/>vel intelligat per species aliquas quae sunt 
+      similitu<lb ed="#P" n="28" break="no"/>dines rerum, siue per aliquam formam sibi 
+      inhae<lb ed="#P" n="29" break="no"/>rentem, vel per hoc quod mouetur a rebus extra: 
+      <lb ed="#P" n="30"/>ita quod sicut aqua calefit per ignem extrinsecum 
+      <lb ed="#P" n="31"/>sicut permouens &amp; agens: ita etiam dieatur 
+      An<lb ed="#P" n="32" break="no"/>gelus intelligere per hoc quod moueatur ab 
+      ex<lb ed="#P" n="33" break="no"/>tra. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e435">
+               <lb ed="#P" n="34"/>Sunt ergo ad nune tres opiniones de hoc. 
+      <lb ed="#P" n="35"/>Prima ponit quod Angeli nec aliqnid aliud 
+      in<lb ed="#P" n="36" break="no"/>telligunt per aliquam formam sibi inhaerentem: 
+      <lb ed="#P" n="37"/>quia videtur eis impossibile esse quod idem 
+      subie<lb ed="#P" n="38" break="no"/>cto sit mouens &amp; motum. Et ad hoc adducunt 
+      <lb ed="#P" n="39"/>duas rationes. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e451">
+               <lb ed="#P" n="40"/>Prima talis est: quia impossibile est idem 
+      se<lb ed="#P" n="41" break="no"/>cundum idem esse in actu, &amp; in potentia. Agens 
+      <lb ed="#P" n="42"/>autem agit secundum quod est in actu, &amp; 
+      reci<lb ed="#P" n="43" break="no"/>piens recipit &amp; patitur inquantum est in 
+      poten<lb ed="#P" n="44" break="no"/>tia. Ergo impossibile est quod idem secundum 
+      <lb ed="#P" n="45"/>idem, sit agens &amp; patiens. Sed si idem subiecto 
+      <lb ed="#P" n="46"/>mouet se, idem &amp; secundum idem esset mouens 
+      <lb ed="#P" n="47"/>&amp; motum: quia totum est quod mouet, &amp; totum 
+      <lb ed="#P" n="48"/>est quod mouetur, &amp; non altera pars ipsius totius, 
+      <lb ed="#P" n="49"/>Ergo impossibile est quod idem subiecto sit 
+      mo<lb ed="#P" n="50" break="no"/>uens &amp; motum. Sed si Angelus moueret se per 
+      spe<lb ed="#P" n="51" break="no"/>ciem ad intelligendum: idem subiecto esset 
+      mo<lb ed="#P" n="52" break="no"/>uens &amp; motum. Quia in Angelo nihil potest esse 
+      <lb ed="#P" n="53"/>distinctum situ &amp; subiecto ab alio. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e484">
+               <lb ed="#P" n="54"/>Secunda ratio adducitur quasi ad 
+      fortifican<lb ed="#P" n="55" break="no"/>dum istam. Quia similis incompossibilitas est quod 
+      <lb ed="#P" n="56"/>idem sit mouens &amp; motum in corporalibus &amp; 
+      spi<lb ed="#P" n="57" break="no"/>ritualibus: quia ista incomposs ibilitas fundatur in 
+      <lb ed="#P" n="58"/>repugnantia potentiae &amp; actus quae communis 
+      <lb ed="#P" n="59"/>est omnibus: sed in corporalibus non potest idem 
+      <lb ed="#P" n="60"/>esse subiecto mouens &amp; motum: imo in 
+      corpora<lb ed="#P" n="61" break="no"/>libus si aliquid mouet se, oportet quod pars per 
+      <lb ed="#P" n="62"/>quam mouet, &amp; pars per quam mouetur, sint 
+      di<lb ed="#P" n="63" break="no"/>stincte situ &amp; subiecto, sicut patet in animalibus. 
+      <lb ed="#P" n="64"/>Ergo eriam impossibile videtur quod in 
+      spirituali<lb ed="#P" n="65" break="no"/>bus idem subiecto moueat seipsum. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e513">
+               <lb ed="#P" n="66"/>Sed his non obstantibus, licet mihi videatur, 
+      <lb ed="#P" n="67"/>quod idem &amp; secundum idem per essentiam non 
+      <lb ed="#P" n="68"/>possit proprie agere &amp; pati, accipiendo agere pro 
+      <!--213.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>quocunquereducere in actum, &amp; pati pro 
+      reduci<lb ed="#P" n="70" break="no"/>tamen non videtur mihi quod idem subiecto per 
+      <lb ed="#P" n="71"/>diuersa per essentiam non possit agere &amp; pati. Et 
+      <lb ed="#P" n="72"/>hoc esse verum ostendo duplici ratione ad 
+      <lb ed="#P" n="73"/>nune. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e538">
+               <lb ed="#P" n="74"/>Primam accipio ex dictis eorum quae sunt: 
+      <lb ed="#P" n="75"/>contrariae opinionis. Quia ipsi ponunt quod 
+      fan<lb ed="#P" n="76" break="no"/>tasma mouet intellectum &amp; vlterius voluntatem. 
+      <lb ed="#P" n="77"/>vlterius voluntas mota mouet fantasina Sed ista ng 
+      <lb ed="#P" n="78"/>sunt totaliter distincta situ &amp; subiecto. Quia 
+      fan<lb ed="#P" n="79" break="no"/>tasma habet pro subiecto totum aggregatum ex 
+      ani<lb ed="#P" n="80" break="no"/>ma &amp; corpore: intelligere autem pro subiecto 
+      ha<lb ed="#P" n="81" break="no"/>bet solam animam mediante potentia intellectiua 
+      <lb ed="#P" n="82"/>&amp; volitiua. Ergo in motione, mouens &amp; motum 
+      <lb ed="#P" n="83"/>non distinguuntur totaliter subiecto. Vnde 
+      subie<lb ed="#P" n="84" break="no"/>ctum vnius, &amp; subiectum alterius non differunt, 
+      <lb ed="#P" n="85"/>nisi sicut totum &amp; pars. Quia totum coniunctum 
+      <lb ed="#P" n="86"/>est subiectum fantasmatis. Sed pars quae est anima 
+      <lb ed="#P" n="87"/>est subiectum intelligendi &amp; volendi: parr autem 
+      <lb ed="#P" n="88"/>&amp; totum non distinguuntur subiecto nec situ. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e573">
+               <lb ed="#P" n="89"/>Secunda ratio talis est. Quia illud quod mere, 
+      <lb ed="#P" n="90"/>patitur ita quod in nullo agit in quocunque actu 
+      <lb ed="#P" n="91"/>suo, non habet dominium sui actus. Sed Angelus 
+      <lb ed="#P" n="92"/>habet dominium super aliquem, saltem actum 
+      vo<lb ed="#P" n="93" break="no"/>lendi suum. Ergo oportet ponere quod aliquando 
+      <lb ed="#P" n="94"/>moueat se ad volendum. Et sic idem subiecto est 
+      <lb ed="#P" n="95"/>mouens &amp; motum. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e591">
+               <lb ed="#P" n="96"/>Si dicatur quod mouet per se accidens; quia 
+      <lb ed="#P" n="97"/>mouet aliquid aliud extrinsecum a quo postea 
+      mo<lb ed="#P" n="98" break="no"/>uetur. Non videtur sufficere. Primo quia licet 
+      <lb ed="#P" n="99"/>fantasmata moueantur ad nunc a voluntate vt sic, 
+      <lb ed="#P" n="100"/>vel sic, vel hoc, vel illud repraesentent a quibus 
+      po<lb ed="#P" n="101" break="no"/>stea mouetur intellectus &amp; voluntas: tamen res 
+      ex<lb ed="#P" n="102" break="no"/>teriores non ita ad nutum obediunt voluntati 
+      ho<lb ed="#P" n="103" break="no"/>minis, vel Angeli, vt hoc vel illud sit praesto ad 
+      ap<lb ed="#P" n="104" break="no"/>parendum sic, vel aliter. Secundo, quia si ponatur 
+      <lb ed="#P" n="105"/>tantum vnus Angelus factus, &amp; nihil aliud 
+      pre<lb ed="#P" n="106" break="no"/>ter ipsum, non haberet dominium sui actus: quia 
+      <lb ed="#P" n="107"/>non haberet in quod exterius ageret a quo postea 
+      <lb ed="#P" n="108"/>posset moueri: quia in Deum non posset agere, &amp; 
+      <lb ed="#P" n="109"/>nihil aliud ponitur esse praeter ipsum &amp; Deum. Et 
+      <lb ed="#P" n="110"/>ideo non videtur quin idem subiecto possit esse 
+      a<lb ed="#P" n="111" break="no"/>gens &amp; passum per diuersa per essentiam. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e628">
+               <lb ed="#P" n="112"/>Ad primum ergo quod adducunt in 
+      contra<lb ed="#P" n="113" break="no"/>rium, dicendum quod aliud est quod agit, &amp; a 
+      <lb ed="#P" n="114"/>liud illud secundum quod agit. Quod agit est 
+      sup<lb ed="#P" n="115" break="no"/>positum agens. Sed illud secundum quod agit, est 
+      <lb ed="#P" n="116"/>ratio agendi. Et simile est de eo quod patitur, &amp; 
+      <lb ed="#P" n="117"/>secundum quod patiens patitur. Licet ergo totum 
+      <lb ed="#P" n="118"/>sit illud quod patitur, &amp; totum sit illud quod agini 
+      <lb ed="#P" n="119"/>non tamen oportet quod totum sit illud secundum 
+      <lb ed="#P" n="120"/>quod agit, vel secundum quod patitur: quia 
+      to<lb ed="#P" n="121" break="no"/>tum non est ratio agendi vel patiendi, sed aliquid 
+      <lb ed="#P" n="122"/>eius. Et ideo dico, quod licer idem subiecto 
+      mo<lb ed="#P" n="123" break="no"/>ueat &amp; moueatur, non sequitur quod secundum 
+      <lb ed="#P" n="124"/>idem sit mouens &amp; motum. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e659">
+               <lb ed="#P" n="125"/>Ad secundum dicendum, quod in corporibus 
+      <lb ed="#P" n="126"/>bene potest esse principium actiuum in eodem 
+      <lb ed="#P" n="127"/>subiecto cum actu causato per ipsum: sicut in aqua 
+      <lb ed="#P" n="128"/>calor quem credo esse principium effectiuum 
+      rari<lb ed="#P" n="129" break="no"/>tatis. Et hoc idem credo de grauitate respectu 
+      mo<lb ed="#P" n="130" break="no"/>tus deorsum. Non tamen dicitur quod illud in quo 
+      <lb ed="#P" n="131"/>est tale principium actiuum moueat se. Sic non 
+      dici<lb ed="#P" n="132" break="no"/>tur quod aqua rarefacit se: sed iunis mediante calore 
+      <lb ed="#P" n="133"/>impresso in aqua rarefacit aquam: &amp; similiter dans 
+      <lb ed="#P" n="134"/>formam grauitatis graui: mouet graue mediante 
+      <lb ed="#P" n="135"/>grauitate. vnde in corporibus idem subiecto non 
+      <lb ed="#P" n="136"/>est mouens &amp; motum. Si autem aliquid mouet se 
+      <lb ed="#P" n="137"/>in corporibus: oportet quod pars secundum quam 
+      <lb ed="#P" n="138"/>mouet, &amp; pars secundum quam modetur, sint di¬ 
+      <!--214.xml-->
+      <pb ed="#P" n="214"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>stinctae situ, sicut patet in animalibus. In 
+      spiri<lb ed="#P" n="2" break="no"/>tualibus autem non solum contingit quod 
+      princi<lb ed="#P" n="3" break="no"/>pium actiuum, &amp; illud cuius est principium 
+      effe<lb ed="#P" n="4" break="no"/>ctiuum, sint simul subiecto: imo etiam contingit 
+      <lb ed="#P" n="5"/>in eis quod idem mouet &amp; mouetur. Cuius ratio 
+      <lb ed="#P" n="6"/>est: quia vbi non est nisi vnus motus principalis, 
+      <lb ed="#P" n="7"/>&amp; vnus terminus principalis motus, totum oportet 
+      <lb ed="#P" n="8"/>reducere in vnum motorem: ita quod omnia quae 
+      con<lb ed="#P" n="9" break="no"/>comitantur per se terminum motus reducuntur in 
+      <lb ed="#P" n="10"/>eundum motorem. Vnde quia calefactio aquae 
+      <lb ed="#P" n="11"/>est principalis motus, quando aqua calesit, raritas 
+      <lb ed="#P" n="12"/>aurem &amp; alia consequuntur hunc motum quasi 
+      <lb ed="#P" n="13"/>termini per accidens: omnia reducuntur in 
+      moto<lb ed="#P" n="14" break="no"/>rem qui calefacit aquam. Et quia omnes formae 
+      <lb ed="#P" n="15"/>naturales quae per ordinem se habent in ratione 
+      <lb ed="#P" n="16"/>causae &amp; causati, de necessitate sequuntur &amp; sunt 
+      <lb ed="#P" n="17"/>simul, nisi sit impedimentum: &amp; ideo in eodem 
+      <lb ed="#P" n="18"/>subiecto secundum acquisitionem talium non est 
+      <lb ed="#P" n="19"/>nisi vnus motus principalis habens vnum 
+      termi<lb ed="#P" n="20" break="no"/>num principalem, &amp; alia quasi terminos per 
+      acci<lb ed="#P" n="21" break="no"/>dens &amp; quasi ex consequenti. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e744">
+               <lb ed="#P" n="22"/>Ad hoc quod sint inter talia diuersae 
+      motio<lb ed="#P" n="23" break="no"/>nes, oporter quod haec fiant indiuersis subiectis. 
+      <lb ed="#P" n="24"/>Nam motus plurificatur secundum 
+      plurificatio<lb ed="#P" n="25" break="no"/>nem terminorum. Sicut dealbatio &amp; calefactio: 
+      <lb ed="#P" n="26"/>quando albedo non se habet consecutiue ad 
+      calo<lb ed="#P" n="27" break="no"/>rem: quia tunc esset vnus motus principalis. Et 
+      e<lb ed="#P" n="28" break="no"/>tiam plurificatur secundum plurificationem 
+      fub<lb ed="#P" n="29" break="no"/>iectotum. In supernaturalibus quando plures 
+      for<lb ed="#P" n="30" break="no"/>mae vel actus se habent per ordinem in ratione 
+      <lb ed="#P" n="31"/>causae &amp; causati: sicut amor finis est causa 
+      electio<lb ed="#P" n="32" break="no"/>nis eorum quae sunt ad finem: &amp; cognitio 
+      permis<lb ed="#P" n="33" break="no"/>sae est causa cognitionis conclusionis. Non tamen 
+      <lb ed="#P" n="34"/>de necessitate se consequuntur, &amp; sunt simul: imo 
+      <lb ed="#P" n="35"/>possunt ibi esse diuersi motus in diuersis 
+      tempori<lb ed="#P" n="36" break="no"/>bus, vel etiam in diuersis nunc temporis: ita quod 
+      <lb ed="#P" n="37"/>sint distinctae motiones per se, qualibet illarum 
+      <lb ed="#P" n="38"/>existente. Et hoc est, quia habita vniuersili 
+      co<lb ed="#P" n="39" break="no"/>gnitione boni, vel alicuius eadem creatura 
+      super<lb ed="#P" n="40" break="no"/>naturalis nata est se sistere modo quo infra in 
+      tra<lb ed="#P" n="41" break="no"/>ctatu de li. ar, exponetur: ita quod motio qua 
+      <lb ed="#P" n="42"/>mouetur ad volendum sistere, vel deliberare, vel 
+      <lb ed="#P" n="43"/>inquirere, est alia motio principalis per se &amp; 
+      in<lb ed="#P" n="44" break="no"/>quisitio alia. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e797">
+               <lb ed="#P" n="45"/>His praemissis, ad formam argumenti 
+      dicen<lb ed="#P" n="46" break="no"/>dum, quod maior non habet veritatem. Quia non 
+      <lb ed="#P" n="47"/>est similis ratio in incomnpositis, &amp; spiritualibus sicut 
+      <lb ed="#P" n="48"/>in corporalibus ad hoc quod idem subiecto 
+      mo<lb ed="#P" n="49" break="no"/>ueat, &amp; moueatur. Ad probationem, dicendum 
+      <lb ed="#P" n="50"/>quod repugnantia potentiae &amp; actus faciunt in 
+      <lb ed="#P" n="51"/>omnibus generaliter quod non possit esse idem 
+      <lb ed="#P" n="52"/>per essentiam principium actiuum &amp; passiuum. 
+      <lb ed="#P" n="53"/>Sed vlterius in corporalibus incompossibilitas 
+      se<lb ed="#P" n="54" break="no"/>cundum quam idem subiecto non potest se 
+      moue<lb ed="#P" n="55" break="no"/>re, prouenit ex hoc quod in naturalibus subiectum 
+      <lb ed="#P" n="56"/>motum non potest se sistere in principio propter 
+      <lb ed="#P" n="57"/>quod requiritur, vt sint ibi diuersae motiones 
+      prin<lb ed="#P" n="58" break="no"/>cipales secundum primo &amp; secundo causatum. Et 
+      <lb ed="#P" n="59"/>ideo non possunt ibi esse motiones diuersae nisi in 
+      <lb ed="#P" n="60"/>diuersis subiectis quantum ad illa quae nata sunt 
+      conse<lb ed="#P" n="61" break="no"/>qui se, sicut effectus causam: propter quod omnia quae 
+      <lb ed="#P" n="62"/>causantur in eodem subiecto, oportet reducere in 
+      <lb ed="#P" n="63"/>motorem extrinsecum qui fuit causa primi motus 
+      <lb ed="#P" n="64"/>ad quem alia de necessitate consequuntur 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e843">
+               <lb ed="#P" n="65"/>Alii autem dicunt quod Angeli intelligunt 
+      <lb ed="#P" n="66"/>per aliquid sibi inherens. Sed illud, vt dicunt, non 
+      <lb ed="#P" n="67"/>est species sed habitus scientialis, &amp; inter alias 
+      ra<lb ed="#P" n="68" break="no"/>tiones factas principaliter ad quaestionem. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e854">
+               <lb ed="#P" n="69"/>Sed ista posito videtur irrationabilis propter 
+      <lb ed="#P" n="70"/>duo.
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e861">
+      <!--214.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Primo, quia in nobis habitus scietiae differt 
+      aspe<lb ed="#P" n="72" break="no"/>cie. Quia species facit simplicem 
+      apprehensio<lb ed="#P" n="73" break="no"/>nem de re: sed scientia facit promptitudinem 
+      de<lb ed="#P" n="74" break="no"/>flucendi &amp; discurrendo de vno complexo in aliud. 
+      <lb ed="#P" n="75"/>In illis ergo in quibus non est discursus sed simplex 
+      <lb ed="#P" n="76"/>apprehensio, quia omnia cognoscunt simplici 
+      ap<lb ed="#P" n="77" break="no"/>prehensione, principium cognoscendi magis 
+      ha<lb ed="#P" n="78" break="no"/>bet rationem speciei quam scientiae, nisi aliquis velit 
+      <lb ed="#P" n="79"/>aequiuoce vti his omnibus. Sed Angeli sunt 
+      huius<lb ed="#P" n="80" break="no"/>modi. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e890">
+               <lb ed="#P" n="81"/>Secundo, quia quaero de isto habitu quem 
+      po<lb ed="#P" n="82" break="no"/>nunt. Aut repraesentat naturas rerum, aut non.S 
+      <lb ed="#P" n="83"/>non. Ergo res per ipsum non intelliguntur. Si sic, 
+      <lb ed="#P" n="84"/>cum species nihil aliud sit quam quaedam forma 
+      <lb ed="#P" n="85"/>quae dicitur similitudo rei in repraesentando rem: 
+      <lb ed="#P" n="86"/>quia rem repraesentat, sequitur quod non est 
+      diffe<lb ed="#P" n="87" break="no"/>rentia nisi in verbo: quia talem formam vocamus 
+      <lb ed="#P" n="88"/>speciem. Vnde ponere talem formam &amp; negare 
+      <lb ed="#P" n="89"/>speciem, videtur contradicere: vcl vdsle vti his 
+      no<lb ed="#P" n="90" break="no"/>minibus aequiuoce. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e914">
+               <lb ed="#P" n="91"/>Tertia opinio est, quae ponit quod Angeli 
+      in<lb ed="#P" n="92" break="no"/>telligunt per species, id est, per quasdam rerum 
+      si<lb ed="#P" n="93" break="no"/>militudines eis immanentes. Et hoc videtur mihi 
+      <lb ed="#P" n="94"/>rationabilius, quantum ad hoc quod per tales 
+      spe<lb ed="#P" n="95" break="no"/>cies intelligant &amp; quidditates specificas rerum. Et 
+      <lb ed="#P" n="96"/>hoc propter duas rationes quarum, 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e931">
+               <lb ed="#P" n="97"/>Prima supra tacta est. Quia nisi illa pars per 
+      <lb ed="#P" n="98"/>quam praesentatur eis bonum quod debent 
+      appete<lb ed="#P" n="99" break="no"/>re aliquo modo subesset virtuti eorum, &amp; dominio 
+      <lb ed="#P" n="100"/>eorum, ita quod possint eis vti cum velint, non 
+      vi<lb ed="#P" n="101" break="no"/>derentur habere dominium sui actus. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e944">
+               <lb ed="#P" n="102"/>Secunda ratio talis est. Angelus non 
+      depen<lb ed="#P" n="103" break="no"/>det ab alio insua perfectione voluntaria, ita quod 
+      <lb ed="#P" n="104"/>in proprietate sua non sit habere perfectionem suam 
+      <lb ed="#P" n="105"/>nisi alio existente. Sed si Angelus in intelligendo 
+      <lb ed="#P" n="106"/>moueretur ab extrinseco, dependeret in sua 
+      per<lb ed="#P" n="107" break="no"/>fectione voluntaria secundum naturam ab 
+      exi<lb ed="#P" n="108" break="no"/>stentia aliarum rerum: ita quod non posset 
+      intelli<lb ed="#P" n="109" break="no"/>gere rosam nisi rosa esset. Et si dicatur quod imo, 
+      <lb ed="#P" n="110"/>quia per causam non videtur sufficere: quia 
+      sal<lb ed="#P" n="111" break="no"/>tem semper erunt aliqua exteriora, quibus non 
+      exi<lb ed="#P" n="112" break="no"/>stentibus Angelus non haberet suam 
+      perfectio<lb ed="#P" n="113" break="no"/>nem. Et in hoc videretur imperfectior multis 
+      ani<lb ed="#P" n="114" break="no"/>malibus in quibus, saltem quandoque est aliquid 
+      <lb ed="#P" n="115"/>immanens, ex quo mouentur ad aliqua 
+      ab<lb ed="#P" n="116" break="no"/>sentia: in Angelo autem secundum opinionem 
+      <lb ed="#P" n="117"/>negatiuam, species nihil immanens est per quod 
+      <lb ed="#P" n="118"/>possit se mouere ad aliquid: sed suam motionem 
+      <lb ed="#P" n="119"/>&amp; perfectionem semper expectaret ab alio. Sicut 
+      <lb ed="#P" n="120"/>aerlumen a sole, quod non videtur multum 
+      con<lb ed="#P" n="121" break="no"/>ueniens. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e990">
+               <lb ed="#P" n="122"/>ARTICVLVS TERTIVS. 
+      <lb ed="#P" n="123"/>Qvantum ad tertium supposito quod 
+      Ange<lb ed="#P" n="124" break="no"/>ii intelligant per species, vttum illae sint 
+      in<lb ed="#P" n="125" break="no"/>natae vel acquisitae. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1001">
+               <lb ed="#P" n="126"/>Videtur mihi probabiliter quod sint 
+      concrea<lb ed="#P" n="127" break="no"/>tae siue innatae. Et hoc videtur probabile ex 
+      simi<lb ed="#P" n="128" break="no"/>litudine corporalium, in quibus superiora formas 
+      <lb ed="#P" n="129"/>per duas operantur non acquirunt per generatio, 
+      <lb ed="#P" n="130"/>nem &amp; motum, sed habent eas statim cum sunt &amp; 
+      <lb ed="#P" n="131"/>eis concreantur: sicut virtus calefactiua solis, &amp; 
+      <lb ed="#P" n="132"/>stellarum, &amp; sic de aliis. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1019">
+               <lb ed="#P" n="133"/>Sic etiam licet intellectus inferiores scilicet 
+      <lb ed="#P" n="134"/>humani, acquirant formas intelligibiles a rebus: 
+      <lb ed="#P" n="135"/>tamen intellectus superiores, scilicet Angelici, 
+      for<lb ed="#P" n="136" break="no"/>mas intelligibiles debent habere non acquirendo 
+      <lb ed="#P" n="137"/>a rebus, sed a sua creatione debent eas habere 
+      in<lb ed="#P" n="138" break="no"/>ditas.
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1035">
+      <!--215.xml-->
+               <pb ed="#P" n="215"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Alia etiam ratio adducitur. Quia non videur A 
+      <lb ed="#P" n="2"/>quod possit fieri abstractio a rebus sensibilibus ad 
+      <lb ed="#P" n="3"/>intellectum nisi mediante sensu &amp; fantasmate; 
+      <lb ed="#P" n="4"/>quae in Angelis non sunt. Et ista ratio procedit 
+      <lb ed="#P" n="5"/>quantum ad cognitionem sensibilium. Quia 
+      <lb ed="#P" n="6"/>quantum ad alia, illi de opposita opinione possent 
+      <lb ed="#P" n="7"/>dicere quod essentia vnius Angeli mouet 
+      intelle<lb ed="#P" n="8" break="no"/>ctum alterius per set sicut sensibile exterius mouet 
+      <lb ed="#P" n="9"/>sensum: 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1065">
+               <lb ed="#P" n="10"/>ARTICVLVS QVARTVS. 
+      <lb ed="#P" n="11"/>Qvantum ad quartum videtur rationabile 
+      <lb ed="#P" n="12"/>quod superiores Angeli intelligant per 
+      pau<lb ed="#P" n="13" break="no"/>ciores species: &amp; per species magis vniuersales. 
+      <lb ed="#P" n="14"/>Et hoc etiam videtur probabile ex his quae 
+      vide<lb ed="#P" n="15" break="no"/>mus in corporalibus. Quia quanto corpora sunt 
+      <lb ed="#P" n="16"/>altiora: tanto per pauciores vintutes se extendunt 
+      <lb ed="#P" n="17"/>ad multos esfectus. Eicut sol per vnam virtutem 
+      <lb ed="#P" n="18"/>se extendit ad omnia generabilia &amp; corruptibilia 
+      <lb ed="#P" n="19"/>per diuersos effectus. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1089">
+               <lb ed="#P" n="20"/>Notandum autem quod quando dicitur 
+      supe<lb ed="#P" n="21" break="no"/>riores intelligunt per species vniuersales &amp; per 
+      <lb ed="#P" n="22"/>medium velle: quod medium velle potest accipi 
+      <lb ed="#P" n="23"/>dupliciter. Vno modo quia repraesentat rem in 
+      <lb ed="#P" n="24"/>vniuersali tantum, &amp; non in speciali: secundum 
+      <lb ed="#P" n="25"/>iuum proprium esse. Et isto modo non dicitur 
+      <lb ed="#P" n="26"/>quod Angeli superiores intelligant per species 
+      v<lb ed="#P" n="27" break="no"/>niuersales, siue per medium vniuersale, alioquin 
+      <lb ed="#P" n="28"/>imperfectiorem cognitionem haberent de rebus 
+      <lb ed="#P" n="29"/>quam inferiores. Alio modo dicitur medium 
+      vni<lb ed="#P" n="30" break="no"/>uersale siue commune: quia se extendit ad multa 
+      <lb ed="#P" n="31"/>repraesentanda: ita quod non solum repraesentat 
+      <lb ed="#P" n="32"/>hanc rem, puta hominem, sed etiam alia. Sicut 
+      <lb ed="#P" n="33"/>dicimus quod sol est vniuersalis causa: quia eius 
+      <lb ed="#P" n="34"/>causalitas se extendit ad multa, &amp; tamen est 
+      pro<lb ed="#P" n="35" break="no"/>prium vniuscuiusque. Quia vnumquodque 
+      quan<lb ed="#P" n="36" break="no"/>tum ad suum proprium, &amp; in particulari 
+      causan<lb ed="#P" n="37" break="no"/>do: ita quod est proprium causando, 
+      repraesentan<lb ed="#P" n="38" break="no"/>do, proprium rei est vniuersale se extendendo ad 
+      <lb ed="#P" n="39"/>multa. Et sic dicuntur superiores Angeli 
+      intellige<lb ed="#P" n="40" break="no"/>re per species vniuersales, siue per medium 
+      vniuer<lb ed="#P" n="41" break="no"/>sase. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1139">
+               <lb ed="#P" n="42"/>Si autem quaeratur quomodo vnum medium 
+      <lb ed="#P" n="43"/>possit repraesentare multa quantum ad sua 
+      pro<lb ed="#P" n="44" break="no"/>pria. Dico quod hoc est propter efficaciam suae 
+      <lb ed="#P" n="45"/>virtutis in repraesentando. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1150">
+               <lb ed="#P" n="46"/>Quod autem dicitur, quod superiores Angeli 
+      <lb ed="#P" n="47"/>habent species pauciores, dupliciter potest accipi. 
+      <lb ed="#P" n="48"/>Vno modo, quod secundum quod Angelus 
+      acci<lb ed="#P" n="49" break="no"/>pitur super Angelum, dematur vna species. Alio 
+      <lb ed="#P" n="50"/>modo, quod omnes Angeli eiusdem generis 
+      pro<lb ed="#P" n="51" break="no"/>pinqui intelligant per aequales species, ita tamen 
+      <lb ed="#P" n="52"/>quod secundum quod differunt specie Angeli, 
+      ma<lb ed="#P" n="53" break="no"/>gis &amp; minus clare cognoscant per eas, &amp; ipsaemet 
+      <lb ed="#P" n="54"/>species sint excellentiores in vno quam in alio: 
+      li<lb ed="#P" n="55" break="no"/>cet sint tot, sicut etiam Deus posset influere 
+      ani<lb ed="#P" n="56" break="no"/>mae excellentiores similitudines rerum quam sint 
+      <lb ed="#P" n="57"/>illae quas abstrahunt dato quod essent tot quot sunt 
+      <lb ed="#P" n="58"/>illae quas abstrahit. Et hoc videtur mihi magis 
+      pro<lb ed="#P" n="59" break="no"/>babile. Et hic simile potest accipi in viuentibus 
+      <lb ed="#P" n="60"/>materialibus. Dicimus enim quod in 
+      perfectiori<lb ed="#P" n="61" break="no"/>hus viuentibus sunt plures operationes, &amp; plures 
+      <lb ed="#P" n="62"/>potentiae animae, sie anima plures habens 
+      poten<lb ed="#P" n="63" break="no"/>tias: ita quod sicut in Angelis dicuntur habere 
+      su<lb ed="#P" n="64" break="no"/>periores pauciores species: ita e conuerso 
+      superio<lb ed="#P" n="65" break="no"/>ra in viuentibus corporibus dicuntur habere 
+      plu<lb ed="#P" n="66" break="no"/>res potentias. Sed hoc non est intelligendum, quod 
+      <lb ed="#P" n="67"/>secundum vnamquamque speciem viuentium 
+      ad<lb ed="#P" n="68" break="no"/>datur vna potentia: alioquin in supremo animali, 
+      <!--215.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>puta in homine essent plusquam viginti millia 
+      po<lb ed="#P" n="70" break="no"/>tentiae anime. Et ideo additio in potentiis 
+      viuen<lb ed="#P" n="71" break="no"/>tium materialium, est intelligenda secundum 
+      ge<lb ed="#P" n="72" break="no"/>nerales gradus viuentium, &amp; non secundum 
+      spe<lb ed="#P" n="73" break="no"/>cies. Et e contra subtractio specierum non est 
+      se<lb ed="#P" n="74" break="no"/>cundum vnamquamque speciem Angelorum, sed 
+      <lb ed="#P" n="75"/>secundum genera, puta secundum ordinem, vel 
+      se<lb ed="#P" n="76" break="no"/>cundum aliqua alia genera magis propinqua. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1224">
+               <lb ed="#P" n="77"/>Ad primum ergo in oppositum, dicendum 
+      <lb ed="#P" n="78"/>quod non oportet quod Angelus intelligat per 
+      <lb ed="#P" n="79"/>omnes species, aut per nullam: imo quantum ad 
+      <lb ed="#P" n="80"/>simul intelligendum per quandam intelliget, &amp; 
+      <lb ed="#P" n="81"/>per quandam non intelliget. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1237">
+               <lb ed="#P" n="82"/>Si quaeratur quid determinabit ad illam. Dico 
+      <lb ed="#P" n="83"/>quod voluntas Angeli, secundum quod vult vu 
+      <lb ed="#P" n="84"/>hac vel illa. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1247">
+               <lb ed="#P" n="85"/>Et si dicatur quid determinabit voluntatem 
+      An<lb ed="#P" n="86" break="no"/>geli. Dico quod secundum qund mihi videtur Ant 
+      <lb ed="#P" n="87"/>gelus semper est in actu intelligendi essentiam 
+      <lb ed="#P" n="88"/>suam, &amp; ea quae sunt in ea, vt quaedam res &amp; 
+      quae<lb ed="#P" n="89" break="no"/>dam accidentia eius, prout in causa intelligitur 
+      ef<lb ed="#P" n="90" break="no"/>fectus. Licet non vtatur qualibet specie in eo 
+      exi<lb ed="#P" n="91" break="no"/>stente vt medio cognoscendi alia, &amp; quod semper 
+      <lb ed="#P" n="92"/>intelligit aliquid pertinens ad ipsum per quod 
+      mo<lb ed="#P" n="93" break="no"/>ueatur vt velit aliquid. Secundum autem quod ei 
+      <lb ed="#P" n="94"/>quod vult, magis congruit vnum considerare vnum 
+      <lb ed="#P" n="95"/>quam aliud: secundum hoc magis vult vti specie 
+      <lb ed="#P" n="96"/>illius quam alterius. Quod autem nunc vnum, nunne 
+      <lb ed="#P" n="97"/>aliud velit, potest prouenire ex multis causis. Vel 
+      <lb ed="#P" n="98"/>quia res quas cognoscit, mutantur: &amp; per 
+      conse<lb ed="#P" n="99" break="no"/>quens videtur ex illo generali intuitu quo videt ea 
+      <lb ed="#P" n="100"/>quae ad ipsum pertinent, aliquid nunc esse 
+      volen<lb ed="#P" n="101" break="no"/>dum quod non prius. Vel hoc fit ex reuelatione 
+      al<lb ed="#P" n="102" break="no"/>terius, v el locutione. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1289">
+               <lb ed="#P" n="103"/>Si autem vltra quaeratur, quod cum velle 
+      se<lb ed="#P" n="104" break="no"/>quatur intelligere, quid est illud intelligere, 
+      <lb ed="#P" n="105"/>quod saltem ordine praecedit in ipso omne velle, 
+      <lb ed="#P" n="106"/>&amp; quare id praecedit plusquam aliud. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1300">
+               <lb ed="#P" n="107"/>Et ad hoc dico, quod illud est intelligere 
+      seip<lb ed="#P" n="108" break="no"/>psum, &amp; ea quae ad ipsum naturaliter pertinent: &amp; 
+      <lb ed="#P" n="109"/>hoc intelligere magis procedit quam alia. Quia 
+      <lb ed="#P" n="110"/>hoc ipsum naturaliter consequitur sicut per se 
+      pas<lb ed="#P" n="111" break="no"/>sio, &amp; magis naturaliter conuenit ei quam alia. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1313">
+               <lb ed="#P" n="112"/>Ad secundum dicendum, quod Aagelus non 
+      <lb ed="#P" n="113"/>semper est in actu intelligendi per speciem quam 
+      <lb ed="#P" n="114"/>habet. Et quando dicitur, quod ergo adhuc est in 
+      <lb ed="#P" n="115"/>potentia ad intelligendum, &amp; per consequens 
+      re<lb ed="#P" n="116" break="no"/>quiritur alius motor. Dico, quod habita specie 
+      <lb ed="#P" n="117"/>est adhuc in potentia ad intelligendum, &amp; in 
+      po<lb ed="#P" n="118" break="no"/>tentia passiua secundum etiam potentiam 
+      in<lb ed="#P" n="119" break="no"/>tellectiuam, &amp; in potentia actiua secundum 
+      spe<lb ed="#P" n="120" break="no"/>ciem, &amp; tamen requiritur alius motor, sicut aliud 
+      <lb ed="#P" n="121"/>principium mouens, scilicet voluntas determinans 
+      <lb ed="#P" n="122"/>ad vtendum hac specie vel illa: ita quod species 
+      si<lb ed="#P" n="123" break="no"/>ne impulsu, non est sufficiens ad mouendum, nec 
+      <lb ed="#P" n="124"/>voluntus sine specie. Sicut acuties securis non 
+      suf<lb ed="#P" n="125" break="no"/>ficit ad scindendum sine impulsu art ficis: nec 
+      im<lb ed="#P" n="126" break="no"/>pulsus artificis sine acutie securis. Quomodo autem 
+      <lb ed="#P" n="127"/>voluntas determinetur, dictum est. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1350">
+               <lb ed="#P" n="128"/>Ad tertium dicendum, quod aequiuocatio est 
+      <lb ed="#P" n="129"/>de medio vniuersali. Quia medium vniuersaliter 
+      <lb ed="#P" n="130"/>accipiendo pro medio quod in vniuersali 
+      reprae<lb ed="#P" n="131" break="no"/>sentat rem, &amp; non in particulari, non facit 
+      cognitio<lb ed="#P" n="132" break="no"/>nem propriam de re. Sed medium quod dicitur 
+      v<lb ed="#P" n="133" break="no"/>niuer sale, quia se extendit ad multa, 
+      representan<lb ed="#P" n="134" break="no"/>do ramen propria cuiussibet illorum, facit 
+      co<lb ed="#P" n="135" break="no"/>gnitionem propriam &amp; determinatam. Et sic illae 
+      <lb ed="#P" n="136"/>species vniuersales sunt mere vniuersalia. 
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1372">
+               <lb ed="#P" n="137"/>Ad quartum dicendum, quod illa ratio 
+      pro<lb ed="#P" n="138" break="no"/>cedit ac si secundum quemlibet Angelum accep¬ 
+      <!--216.xml-->
+      <pb ed="#P" n="216"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tum dematur vna species: quod non necessarium 
+      <lb ed="#P" n="2"/>vt dictum est. Dato est quod ita esset, adhuc non 
+      <lb ed="#P" n="3"/>requireretur quod esset deuenire ad Angelum 
+      <lb ed="#P" n="4"/>qui intelligeret per vnam speciem, aut per nullam. 
+      <lb ed="#P" n="5"/>Tum quia Angelus infimus habet multo plures 
+      <lb ed="#P" n="6"/>species intelligibiles quam sint naturae specificae 
+      <lb ed="#P" n="7"/>Angelorum, scilicet species omnium rerum 
+      ma<lb ed="#P" n="8" break="no"/>turalium. Item etiam secundum quod 
+      continge<lb ed="#P" n="9" break="no"/>ret adderet ad Angelum supremum alium, &amp; sic 
+      <lb ed="#P" n="10"/>deinceps ita oporteret addere ad Angelum 
+      infi<lb ed="#P" n="11" break="no"/>mum species intelligibiles. Ex quibus duobus 
+      faci<lb ed="#P" n="12" break="no"/>liter patet, quod si demeretur vna species 
+      intelli<lb ed="#P" n="13" break="no"/>gibilis secundum vnam quamquam speciem 
+      Ange<lb ed="#P" n="14" break="no"/>lorum ascendendo, non oporteret tamen 
+      deueni<lb ed="#P" n="15" break="no"/>re ad Angelum intelligentem per vnam speciem 
+      <lb ed="#P" n="16"/>tantum, aut per nullam. Sed vetum est, quod si 
+      <lb ed="#P" n="17"/>Angelus infimus non haberet nisi tot species 
+      intel<lb ed="#P" n="18" break="no"/>ligibiles quot sunt naturae specificae Angelorum, 
+      <lb ed="#P" n="19"/>&amp; quod secundum vnumquemque Angelum 
+      de<lb ed="#P" n="20" break="no"/>meretur vna species, oporteret quod supremus 
+      ha<lb ed="#P" n="21" break="no"/>beret tantum vnam speciem. Sed hoc non oportet, 
+      <lb ed="#P" n="22"/>vt dictum est.
+      </p>
+            <p xml:id="hx2hx3-b70907-d1e1434">
+               <lb ed="#P" n="23"/>Post creationem namque mox quidam 
+      con<lb ed="#P" n="24" break="no"/>uersi sunt ad Creatorem, quidam auersi: 
+      <lb ed="#P" n="25"/>conuerti ad Deum, fuit ei charitate 
+      adhe<lb ed="#P" n="26" break="no"/>rere: auerti odio habere vel inuidere: 
+      inui<lb ed="#P" n="27" break="no"/>diae namque mater, est superbia, qua 
+      vo<lb ed="#P" n="28" break="no"/>luerunt se parificare Deo, &amp;c. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

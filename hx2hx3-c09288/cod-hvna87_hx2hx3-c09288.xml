@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="324"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c09288"><!-- l4d4q1 -->
+            <head xml:id="hx2hx3-c09288-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-c09288-Hd1e101" type="question-title">Utrum caracter dicat aliquod absolutum existens in anima</head>
+            <p xml:id="hx2hx3-c09288-d1e104">
+      <!--324.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="62"/>Quod ali suscipiunt sacramentum &amp; rem: 
+      <lb ed="#P" n="63"/>ali sacramentum &amp; non rem: alii rem, 
+      <lb ed="#P" n="64"/>&amp; non sacramentum. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e117">
+               <lb ed="#P" n="65"/>Hic dicendum est aliquos suscipere 
+      sacra<lb ed="#P" n="66" break="no"/>mentum &amp; rem. Aliquos sacramentum 
+      <lb ed="#P" n="67"/>&amp; non rem. dlios rem &amp; non 
+      sacramen<lb ed="#P" n="68" break="no"/>tum. Sacramentum &amp; rem simul 
+      susci<lb ed="#P" n="69" break="no"/>piunt omner paruuli qui in baprismuo ab 
+      <lb ed="#P" n="70"/>vriginali mundantur pectate &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e133">
+               <lb ed="#P" n="71"/>Distinctio quarta. 
+      <lb ed="#P" n="72"/>QVAESTIO PRIMA.
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e141">
+               <lb ed="#P" n="73"/>CIrca quartam distinctionem quaeritur vtrum 
+      <lb ed="#P" n="74"/>character dicat aliquid absolutum existens in 
+      <lb ed="#P" n="75"/>anima:
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e150">
+        &amp; arguitur quod non quia illud quod 
+      <lb ed="#P" n="76"/>dicit aliquid absolutum est in aliquo primorum 
+      <lb ed="#P" n="77"/>trium praedicamentorum: sed character non est 
+      <lb ed="#P" n="78"/>in aliquo trium primorum praedicamentorum. 
+      <lb ed="#P" n="79"/>Ergo, &amp;c. Maior patet. Minor probatur: quia 
+      con<lb ed="#P" n="80" break="no"/>stat quod non est substantia: cum substantia 
+      nul<lb ed="#P" n="81" break="no"/>li inhaereat: nec est quantitas: quia quantitas 
+      <lb ed="#P" n="82"/>soli corpori conuenit: character autem est in 
+      ani<lb ed="#P" n="83" break="no"/>ma: nec potest esse qualitas: quia oporteret quod 
+      <lb ed="#P" n="84"/>esset in aliqua specie qualitatis. Ergo, &amp;c. 
+      <lb ed="#P" n="85"/>Minor probatur: quia non potest essa in specie 
+      <lb ed="#P" n="86"/>prima qualitatis: esset habitus vel dispositio. Et si 
+      <lb ed="#P" n="87"/>esset habitus aut esset habitus virtuosus: &amp; sic 
+      es<lb ed="#P" n="88" break="no"/>set in solis bonis: aut vitiosus, &amp; sic esset in solis 
+      <lb ed="#P" n="89"/>malis: character autem animae indifferenter est 
+      <lb ed="#P" n="90"/>in bonis &amp; malis: ergo non potest dici habitus. 
+      <lb ed="#P" n="91"/>Er eodem modo potest argui de disposione: quia 
+      <lb ed="#P" n="92"/>omnis dispositio vel est virtuosa vel vitiosa. Nec 
+      <lb ed="#P" n="93"/>po test esse in secunda speciem qualitatis quia non 
+      <lb ed="#P" n="94"/>est naturalis potentia, cum sit quid supernaturale. 
+      <lb ed="#P" n="95"/>Nec in tertia cum non immutet sensum, nec per 
+      <lb ed="#P" n="96"/>consequens sit qualitas sensibilis. Nec in quarta 
+      <lb ed="#P" n="97"/>cum non possit esse figura: quia figura non est 
+      ni<lb ed="#P" n="98" break="no"/>si in quanto: character autem est in anima. Ergo, 
+      <lb ed="#P" n="99"/>&amp; caetera. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e205">
+               <lb ed="#P" n="100"/>Praeterea, character si dicat quid absolutum 
+      <lb ed="#P" n="101"/>aut est in essentia anirae aut in potentia: non in 
+      <lb ed="#P" n="102"/>essentia, quia non ponitur aliquid in essentia 
+      ni<lb ed="#P" n="103" break="no"/>si ad dandum aliquod esse vel naturale vel 
+      super<lb ed="#P" n="104" break="no"/>naturale: sed vt de se patet, character non dat 
+      ali<lb ed="#P" n="105" break="no"/>quod esse naturale, nec etiam constituit primo in 
+      <lb ed="#P" n="106"/>esse supernaturali, quia hoc facit gratiae, ergo non 
+      <lb ed="#P" n="107"/>est in essentia animae. Nec etiam in potentia, quia 
+      <lb ed="#P" n="108"/>illud quod ponitur in potentia oportet quod sit 
+      <lb ed="#P" n="109"/>habitus vel dispositio: sed character non est 
+      ha<lb ed="#P" n="110" break="no"/>bitus vel dispositio vt probatum est. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e231">
+               <lb ed="#P" n="111"/>In contrarium est, quia secundum Dyon 
+      cha<lb ed="#P" n="112" break="no"/>racter est potentia exercendi aliquos actus sacros: 
+      <lb ed="#P" n="113"/>sed potentia dicit aliquid absolutum. Ergo, 
+      <lb ed="#P" n="114"/>&amp; caetera, 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e242">
+               <lb ed="#P" n="115"/>Respondeo Ista quaestio diuidenda est in 
+      <lb ed="#P" n="116"/>quatuor articulos. 
+      <lb ed="#P" n="117"/>Primo videndum est quid sit character 
+      essen<lb ed="#P" n="118" break="no"/>tialiter. 
+      <lb ed="#P" n="119"/>Secundo in quo est sicut in subiecto. 
+      <lb ed="#P" n="120"/>Terto a quo causetur. 
+      <lb ed="#P" n="121"/>Quarto de eectu eius. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e260">
+      <!--325.xml-->
+               <pb ed="#P" n="325"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ARTICVLVS PRIMVS 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e272">
+               <lb ed="#P" n="2"/>QVantum ad primum sciendum quod 
+      qui<lb ed="#P" n="3" break="no"/>dam ponunt quod character non dicit 
+      ali<lb ed="#P" n="4" break="no"/>quid absolutum in anima existens, sed 
+      solummo<lb ed="#P" n="5" break="no"/>do dicit quandam relationem nouam in anima ad 
+      <lb ed="#P" n="6"/>Deum. Vnde dicunt quod est quasi quaedam 
+      no<lb ed="#P" n="7" break="no"/>ta vel signum insigniens ipsam animam &amp; 
+      distin<lb ed="#P" n="8" break="no"/>guens ab aliis &amp; conformans Deo, sicut etiam 
+      <lb ed="#P" n="9"/>aliquod signum vel nota imprimitur militi 
+      quan<lb ed="#P" n="10" break="no"/>do characterizatur ad militiam vel deputatur. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e294">
+               <lb ed="#P" n="11"/>Sed contra hoc est: quia omnis noua relatio 
+      <lb ed="#P" n="12"/>de necessitate fundatur super aliquod absolutum 
+      <lb ed="#P" n="13"/>de nouo acquisitum in vtroquo vel in altero 
+      ex<lb ed="#P" n="14" break="no"/>tremorum: quia impossibile est quod aliqua 
+      no<lb ed="#P" n="15" break="no"/>uitas sit secundum solam relationem: sed 
+      secun<lb ed="#P" n="16" break="no"/>dum te qui recipit characterem habet nouam 
+      rela<lb ed="#P" n="17" break="no"/>tionem ad Christum cui conformatur, &amp; ad alios 
+      <lb ed="#P" n="18"/>a quibus distinguitur. Ergo oportet quod aliquod 
+      <lb ed="#P" n="19"/>absolutum acquiratur vel in baptizantibus, vel in 
+      <lb ed="#P" n="20"/>baptizato vel in aliis quibus conformatur &amp; a 
+      qui<lb ed="#P" n="21" break="no"/>bus de nouo acquiritur: nec etiam in non 
+      baptiza<lb ed="#P" n="22" break="no"/>tis. Ergo oportet ponere quod in baptizato 
+      ac<lb ed="#P" n="23" break="no"/>quiratur aliquod absolutum quod est 
+      fundamen<lb ed="#P" n="24" break="no"/>tum dictae relationis: hoc vocamus characterem. 
+      <lb ed="#P" n="25"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e329">
+               <lb ed="#P" n="26"/>Si dicas ad hoc, quod ibi non est noua relatio 
+      <lb ed="#P" n="27"/>secundum rem sed secundum rationem, &amp; 
+      depu<lb ed="#P" n="28" break="no"/>tationem quandam inquantum iste deputatur ad 
+      <lb ed="#P" n="29"/>aliquid nullo impresso in eo: sicut si ponatur quod 
+      <lb ed="#P" n="30"/>in consecratione calicis nihil absolutum sibi 
+      im<lb ed="#P" n="31" break="no"/>primitur: sed sit quaedam deputatio ad 
+      consecran<lb ed="#P" n="32" break="no"/>dum sanguinem Christi, vel quicquid sit de hoc fit 
+      <lb ed="#P" n="33"/>ibi noua deputatio: sicut deputatio denarii ad 
+      si<lb ed="#P" n="34" break="no"/>gnificandum x libras. Vel aliquid tale in qua 
+      <lb ed="#P" n="35"/>deputatione nihil absolutum imprimitur 
+      dena<lb ed="#P" n="36" break="no"/>rio. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e355">
+               <lb ed="#P" n="37"/>Contra quia vbi est relatio rationis tantum &amp; 
+      <lb ed="#P" n="38"/>deputatio talis res nullum effectum habet post: 
+      <lb ed="#P" n="39"/>realiter loquendo, quem non haberet ante per 
+      <lb ed="#P" n="40"/>aliquid existens in ea: sed recipiens characterem 
+      <lb ed="#P" n="41"/>potest in aliquem effectum ex charactere recepto 
+      <lb ed="#P" n="42"/>in quem non poterat ante: sicut sacerdos potest 
+      <lb ed="#P" n="43"/>consecrare ex eo quod habet ordinem quod non 
+      <lb ed="#P" n="44"/>poterat ante: &amp; similiter per characterem potest 
+      <lb ed="#P" n="45"/>aliquis recipere aliquid quod non poterat ante, 
+      <lb ed="#P" n="46"/>scilicet effectus aliorum sacramentorum ergo in 
+      re<lb ed="#P" n="47" break="no"/>cipiente characterem est nouum aliquid reale &amp; 
+      <lb ed="#P" n="48"/>non sola relatio rationis. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e384">
+               <lb ed="#P" n="49"/>Et ideo ommissis de hoc diuersis opinionibus 
+      <lb ed="#P" n="50"/>dicendum character est aliqua res absoluta in 
+      <lb ed="#P" n="51"/>anima: sed quae sit illa res vtrum sit potentia vel 
+      <lb ed="#P" n="52"/>habitus difficultatem habet: quia videtur prima 
+      <lb ed="#P" n="53"/>fronte sequi quod sit habitus: quia illud quod est 
+      <lb ed="#P" n="54"/>in potentia sicut in subiecto est habitus: 
+      chara<lb ed="#P" n="55" break="no"/>cter est huiusmodi. Ergo, &amp;c. Minor patet: 
+      <lb ed="#P" n="56"/>quia character non ponitur in essentia animae 
+      si<lb ed="#P" n="57" break="no"/>cut in subiecto, sed in potentia intellectiua. 
+      Ma<lb ed="#P" n="58" break="no"/>ior probatur: quia omne quod est in potentia in 
+      <lb ed="#P" n="59"/>eam disponens &amp; modificans ad suum actum, 
+      <lb ed="#P" n="60"/>est habitus, vel dispositio potentiae. Sed omne 
+      <lb ed="#P" n="61"/>illud quod recipitur in potentia disposita est ad 
+      <lb ed="#P" n="62"/>disponendum &amp; modificandum ad suum actum. 
+      <lb ed="#P" n="63"/>Ergo omne illud quod recipitur in potentia sicut 
+      <lb ed="#P" n="64"/>in subiecto est habitus. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e421">
+               <lb ed="#P" n="65"/>Sed dicendum ad hoc, quod hoc est verum de eo 
+      <lb ed="#P" n="66"/>quod naturale recipitur in potentia: non autem 
+      <lb ed="#P" n="67"/>de eo quod supernaturaliter infunditur, hoc non 
+      <lb ed="#P" n="68"/>valet: quia fides infunditur supernaturaliter, &amp; ta¬ 
+      <!--325.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>men est habitus. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e440">
+               <lb ed="#P" n="70"/>Iterum si character ponatur in intellectu, sicut 
+      <lb ed="#P" n="71"/>in subiecto, aut facit aliquid ad actum 
+      intelligen<lb ed="#P" n="72" break="no"/>di aut non, si nihil ergo frustra ponitur in 
+      intelle<lb ed="#P" n="73" break="no"/>ctu, si aliquid, aut hoc est: quia sibi primo &amp; per 
+      <lb ed="#P" n="74"/>se conuenit elicere actum intelligendi, aut quia 
+      <lb ed="#P" n="75"/>disponit potentiam ad hoc, non primo modo. 
+      <lb ed="#P" n="76"/>quia primum elicitiuum omnis actus intelligendi 
+      <lb ed="#P" n="77"/>est potentia intellectiua. Relinquitur ergo quod 
+      <lb ed="#P" n="78"/>secundo modo, scilicet, quod operetur ad actum 
+      <lb ed="#P" n="79"/>intelligendi vt disponens potentiam ad actum: 
+      <lb ed="#P" n="80"/>sed omne tale est habitus vel dipositio. Ergo. 
+      <lb ed="#P" n="81"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e469">
+               <lb ed="#P" n="82"/>Alijs videtur forte rationabilius quod sit 
+      po<lb ed="#P" n="83" break="no"/>tentia. Et rationem eius assignant quae tacta est 
+      <lb ed="#P" n="84"/>in opponendo scilicet quia in hoc differt potentia 
+      <lb ed="#P" n="85"/>&amp; habitus, quia potentia est indifferens ad bene &amp; 
+      <lb ed="#P" n="86"/>male operari: sed habitus determinate se habet 
+      <lb ed="#P" n="87"/>ad male operati vel ad bene, sicut per potentiam 
+      <lb ed="#P" n="88"/>intellectiuam conuenit &amp; bene &amp; male 
+      intellige<lb ed="#P" n="89" break="no"/>re: sed per habitum scientiae qui est conueniens, 
+      <lb ed="#P" n="90"/>&amp; bonus conuenit semper bene intelligere: &amp; 
+      <lb ed="#P" n="91"/>per oppositum habitum male: sed habens 
+      cha<lb ed="#P" n="92" break="no"/>racterem indifferens est ad bene &amp; male 
+      operan<lb ed="#P" n="93" break="no"/>dum: sicut sacerdos per characterem 
+      sacerdota<lb ed="#P" n="94" break="no"/>lem potest demeritorie vel meritorie absoluere &amp; 
+      <lb ed="#P" n="95"/>bene &amp; male consecrare: ergo character videtur 
+      <lb ed="#P" n="96"/>esse potentia &amp; non habitus. Alia ratio potest ad 
+      <lb ed="#P" n="97"/>hoc adduci. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e506">
+               <lb ed="#P" n="98"/>Ad cuius euidentiam sciendum quod quando 
+      <lb ed="#P" n="99"/>additur aliquid alicui potentiae, dupliciter potest 
+      <lb ed="#P" n="100"/>se habere ad eam, vno modo quod additum ad 
+      po<lb ed="#P" n="101" break="no"/>tentiam non det nouum posse vel nouum operari, 
+      <lb ed="#P" n="102"/>sed nouum determinatum modum operandi vel 
+      <lb ed="#P" n="103"/>patiendi, sicut in potentia passiua, verbi gratia 
+      <lb ed="#P" n="104"/>figura terebri, vel securis superueniens duritie 
+      in<lb ed="#P" n="105" break="no"/>ferri, non dat nouum posse vel nouum operari ab 
+      <lb ed="#P" n="106"/>eo quod conuenit ipsi duro secundum se ab eo 
+      <lb ed="#P" n="107"/>quod est secate: sed dat sibi nouum modum 
+      ope<lb ed="#P" n="108" break="no"/>randi, scilicet, quod sic vel sic sacet. Et similiter 
+      <lb ed="#P" n="109"/>mollities adueniens cerae quae est figurabili per 
+      <lb ed="#P" n="110"/>quantitatem non dat sibi nouum posse vel nouum 
+      <lb ed="#P" n="111"/>pati, sed determinatum modum patiendi, scilicet 
+      <lb ed="#P" n="112"/>per facilem impressionem. Et omne quod sie 
+      ad<lb ed="#P" n="113" break="no"/>uenit potentiae dicitur habitus, vel dispositio, &amp; 
+      <lb ed="#P" n="114"/>non potentia noua. Alio modo aliquid additur 
+      <lb ed="#P" n="115"/>potentiae, non dans nouum modum operandi 
+      se<lb ed="#P" n="116" break="no"/>cundum priorem potentiam: sed vt dans nouum 
+      <lb ed="#P" n="117"/>posse &amp; nouum operari, sicut si duritiei ferti 
+      ad<lb ed="#P" n="118" break="no"/>datur calor, dat nouum posse &amp; nouum operati, 
+      <lb ed="#P" n="119"/>scilicet, calefacere, nec se habet ad aliquid 
+      praee<lb ed="#P" n="120" break="no"/>xistens in ferro vt dispositio vel habitus eius: sed 
+      <lb ed="#P" n="121"/>magis vt noua potentia. Et dato quod requiratur 
+      <lb ed="#P" n="122"/>quantitas ferri ad hoc quod in ferto recipiatur: 
+      ta<lb ed="#P" n="123" break="no"/>men quia non adhuc recipitur vt secundum 
+      calo<lb ed="#P" n="124" break="no"/>rem sit sic vel sic figurabile: ideo calor non potest 
+      <lb ed="#P" n="125"/>dici dispositio potentiae figurabilis, sed est vt 
+      di<lb ed="#P" n="126" break="no"/>ctum est noua potentia. Et similiter si aliquod 
+      <lb ed="#P" n="127"/>quantum obscurum fiat dyaphanum: 
+      dyaphanei<lb ed="#P" n="128" break="no"/>tas adueniens dat sibi nouum posse passiuum, 
+      sci<lb ed="#P" n="129" break="no"/>licet posse illuminari: &amp; non determinatum 
+      mo<lb ed="#P" n="130" break="no"/>dum eius quod est posse figurari. Ex his 
+      forma<lb ed="#P" n="131" break="no"/>tur talis ratio. Illud quod additum alicui 
+      poten<lb ed="#P" n="132" break="no"/>tiae non habet dare determinatum modum 
+      se<lb ed="#P" n="133" break="no"/>cundum lllud posse quod prius poterat, sed habet 
+      <lb ed="#P" n="134"/>dare nouum posse, illud non est porprie habitus 
+      <lb ed="#P" n="135"/>vel dispositio illius potentiae, immo est potentia 
+      <lb ed="#P" n="136"/>noua ab illa. Sed character est huiusmodi. Ergo, 
+      <lb ed="#P" n="137"/>&amp;c. Maior patet ex deductione supra posita 
+      <lb ed="#P" n="138"/>Minor probatur: quia character baptismalis qui 
+      <!--326.xml-->
+      <pb ed="#P" n="326"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>est quasi ad patiendum non dat intellectui 
+      deter<lb ed="#P" n="2" break="no"/>minatum modum secundum quem possit 
+      intelli<lb ed="#P" n="3" break="no"/>gere: sed dat nouum posse, scilicet, posse 
+      recipe<lb ed="#P" n="4" break="no"/>re effectus aliorum sacramentorum, puta 
+      chara<lb ed="#P" n="5" break="no"/>cterem ordinis vel confirmationis: &amp; similiter 
+      <lb ed="#P" n="6"/>character sacerdotalis, non dat intellectui 
+      deter<lb ed="#P" n="7" break="no"/>minatum modum intelligendi: sed nouum posse 
+      <lb ed="#P" n="8"/>&amp; nouum operari, quia dat verbis prolatis a tali 
+      <lb ed="#P" n="9"/>virtutem conseerandi &amp; absoluendi. Ergo, 
+      <lb ed="#P" n="10"/>&amp;caetera. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e625">
+               <lb ed="#P" n="11"/>Sustinendo ergo quod character sit potentia, 
+      <lb ed="#P" n="12"/>potest dici ad rationem primam alterius partis, 
+      <lb ed="#P" n="13"/>quod non omne illud quod recipitur in aliqua 
+      po<lb ed="#P" n="14" break="no"/>tentia recipitur vt modificans actum ipsaus 
+      secun<lb ed="#P" n="15" break="no"/>dum posse praecedens, immo aliquando aliquid 
+      <lb ed="#P" n="16"/>additum potentiae dat nouum posse. Et tale non 
+      <lb ed="#P" n="17"/>habet rationem habitus vel dispositionis: sed 
+      ha<lb ed="#P" n="18" break="no"/>bet rationem alterius potentiae a priore. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e645">
+               <lb ed="#P" n="19"/>Ad secundum dicendum, quod esse 
+      natura<lb ed="#P" n="20" break="no"/>le &amp; supernaturale non facit ad hoc: sed dare 
+      no<lb ed="#P" n="21" break="no"/>uum posse vel non dare. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e654">
+               <lb ed="#P" n="22"/>Ad tertium dicendum, quod character 
+      exi<lb ed="#P" n="23" break="no"/>stens in intell ectu non facit ad intelligendum 
+      be<lb ed="#P" n="24" break="no"/>ne vel male: sed dat vel nouum pati respectu 
+      al<lb ed="#P" n="25" break="no"/>terius quam sit intelligere vt character 
+      baptisma<lb ed="#P" n="26" break="no"/>lis dat nouum posse recipiendi effectus aliorum 
+      <lb ed="#P" n="27"/>sacramentorum: vel dat nouum operari siue 
+      age<lb ed="#P" n="28" break="no"/>re aliud ab intelligere sicut character sacerdotalis 
+      <lb ed="#P" n="29"/>qui dat non posse intelligere, nec modum 
+      deter<lb ed="#P" n="30" break="no"/>minatum intelligendi: sed virtutem absoluendi 
+      <lb ed="#P" n="31"/>vel consecrandi. Et quia dat talem virtutem 
+      ver<lb ed="#P" n="32" break="no"/>bis, non est frustra in intellectu. Requiritur etiam 
+      <lb ed="#P" n="33"/>intellectus vt subiectum in quo recipiantur, non 
+      <lb ed="#P" n="34"/>vt potentiam quam disponat sicut calor requirit 
+      <lb ed="#P" n="35"/>quantum¬ 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e688">
+               <lb ed="#P" n="36"/>Ad rationem autem primam ad alteram 
+      par<lb ed="#P" n="37" break="no"/>tem: licet probabilis, posset tamen aliquis 
+      dice<lb ed="#P" n="38" break="no"/>re quod habitus est secundum quem aliquid bene 
+      <lb ed="#P" n="39"/>se habet ad actum dererminate vel male 
+      deter<lb ed="#P" n="40" break="no"/>minate respectu propriae potentiae in quo est 
+      ha<lb ed="#P" n="41" break="no"/>bitus. Respectu autem alterius potentiae cuius 
+      <lb ed="#P" n="42"/>actus potest imperari a potentia in qua non est 
+      ha<lb ed="#P" n="43" break="no"/>bitus: potest se habere indifferenter ad ibene &amp; 
+      <lb ed="#P" n="44"/>ad male: sicut ars medicinae respectu intellectus 
+      <lb ed="#P" n="45"/>semper bene se habet. Nam semper bene facit 
+      <lb ed="#P" n="46"/>intelligere ea quae pertinent ad medcinam: sed 
+      <lb ed="#P" n="47"/>respectu voluntatis vel potentiae executiuae potest 
+      <lb ed="#P" n="48"/>bene &amp; male se habere indifferenter: inquantum 
+      <lb ed="#P" n="49"/>per artem medicinae aliquis potest bene facere 
+      sa<lb ed="#P" n="50" break="no"/>nando infirmitatem. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e723">
+               <lb ed="#P" n="51"/>ARTICVLVS SECVNDVS. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e728">
+               <lb ed="#P" n="52"/>Qvantum ad secundum in quo sit sicut in 
+      <lb ed="#P" n="53"/>subiecto. Dicendum quod subiectum 
+      ali<lb ed="#P" n="54" break="no"/>cuius accidentis potest accipi dupliciter. Vno 
+      <lb ed="#P" n="55"/>modo ratio receptiua, sicut si diceretur subiectum 
+      <lb ed="#P" n="56"/>figurae est quantitas. Alio modo potest dici 
+      secun<lb ed="#P" n="57" break="no"/>dum accidentis suppositum in quo est talis ratio, 
+      <lb ed="#P" n="58"/>sicut si dicatur subiectum figurae est substantia 
+      <lb ed="#P" n="59"/>corporea. Accipiendo ergo subiectum primo 
+      <lb ed="#P" n="60"/>modo. Dicendum quod subiectum characteris 
+      <lb ed="#P" n="61"/>est potentia intellectiua: quod probatur sic: quia 
+      <lb ed="#P" n="62"/>sicut esse supernaturale praesupponit esse naturale 
+      <lb ed="#P" n="63"/>ita posse supernaturale presupponit posse 
+      natura<lb ed="#P" n="64" break="no"/>le. Sed gratia quae dat esse supernaturale est in 
+      <lb ed="#P" n="65"/>essentia animae. Ergo a simili character qui dat 
+      <lb ed="#P" n="66"/>posse supernaturale erit in potentia. Et dato quod 
+      <lb ed="#P" n="67"/>ista ratio habeat calumniam quantum ad hoc 
+      <lb ed="#P" n="68"/>quod ponit gratiam in essentia animae: quia qui¬ 
+      <!--326.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>dam ponunt eam in potentia &amp; non differt a 
+      cha<lb ed="#P" n="70" break="no"/>ritate, tamen adhuc siue ita sit siue non, habetur 
+      <lb ed="#P" n="71"/>propositum, quia gratia &amp; dona supernaturaliter 
+      <lb ed="#P" n="72"/>collata perficiunt naturam &amp;t eam praesupponunt. 
+      <lb ed="#P" n="73"/>Et ideo semper verum erit quod posse 
+      superna<lb ed="#P" n="74" break="no"/>turale praesupponit posse naturale. Et per 
+      conse<lb ed="#P" n="75" break="no"/>quens in eo fundatur sicut in subiecto. Quod 
+      au<lb ed="#P" n="76" break="no"/>tem istud subiectum sit potentia intellectiua 
+      po<lb ed="#P" n="77" break="no"/>test persuaderi sic. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e791">
+               <lb ed="#P" n="78"/>Primo, quia character est in eo secundum 
+      <lb ed="#P" n="79"/>quod homo est ad imaginem Dei. Sed homo est 
+      <lb ed="#P" n="80"/>ad imaginem Dei praecipue secundum intellectum. 
+      <lb ed="#P" n="81"/>Ergo, &amp;c. Maior patet. Minor probatur: quia 
+      <lb ed="#P" n="82"/>voluntas siue appetitus non pertinet ad 
+      imagi<lb ed="#P" n="83" break="no"/>nem nisi inquantum intellectiuus. Sed hoc non 
+      <lb ed="#P" n="84"/>esset nisi intellectus principalius pertineret ad 
+      <lb ed="#P" n="85"/>imaginem quam aliquid aliud. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e811">
+               <lb ed="#P" n="86"/>Secundo potest probari idem magis 
+      inspiri<lb ed="#P" n="87" break="no"/>tuali: quia omnis character, vel est baptismi, vel 
+      <lb ed="#P" n="88"/>Confirmationis, vel Ordinis. Sed isti sunt in 
+      in<lb ed="#P" n="89" break="no"/>tellectu: quia character baptismalis est in eodem 
+      <lb ed="#P" n="90"/>in quo est character Cor firmationis &amp; Ordinis, 
+      <lb ed="#P" n="91"/>character autem confirmationis est in intellectu: 
+      <lb ed="#P" n="92"/>quia iste character nihil aliud est quam potestas 
+      <lb ed="#P" n="93"/>protestandi fidem inter aduersarios fidei: sed 
+      pro<lb ed="#P" n="94" break="no"/>testari fidem pertinet ad intellectum. Ergo, 
+      <lb ed="#P" n="95"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e835">
+               <lb ed="#P" n="96"/>Si dicatur, quod in confirmatione datur 
+      quae<lb ed="#P" n="97" break="no"/>dam constantia voluntatis ad protestandum 
+      fi<lb ed="#P" n="98" break="no"/>dem, &amp; ideo hoc pertinet ad voluntatem. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e845">
+               <lb ed="#P" n="99"/>Dicendum, quod licet ad protestandum fidem 
+      <lb ed="#P" n="100"/>requiratur, quaedam audacia seu constantia 
+      volun<lb ed="#P" n="101" break="no"/>tatis, nihilominus actus protestandi fidem elicitur 
+      <lb ed="#P" n="102"/>ab intellectu, &amp; potentia a qua elicitur talis actus 
+      <lb ed="#P" n="103"/>pertinet ad intellectum. Similiter patet de 
+      cha<lb ed="#P" n="104" break="no"/>ractere ordinis: quia dare efficaciam verbis 
+      per<lb ed="#P" n="105" break="no"/>tinet ad aliquid existens in intellectu, character 
+      <lb ed="#P" n="106"/>autem ordinis est huiusmodi, ergo, &amp;c. Et sic 
+      pa<lb ed="#P" n="107" break="no"/>tet quid sit subiectum characteris, primo modo 
+      <lb ed="#P" n="108"/>accipiendo subiectum. Si autem accipiatur 
+      se<lb ed="#P" n="109" break="no"/>cundo modo, vt quaeratur quisunt illi quibus 
+      con<lb ed="#P" n="110" break="no"/>ueniat habere characterem. Dicendum quodom. 
+      <lb ed="#P" n="111"/>nes illi qui recipiunt sacramenta Christi in quibus 
+      <lb ed="#P" n="112"/>confertur character, Christo autem non conuenit 
+      <lb ed="#P" n="113"/>habere characterem, sed quid altius charactere. 
+      <lb ed="#P" n="114"/>Et hoc patet secundum quod character est 
+      princi<lb ed="#P" n="115" break="no"/>pium alicuius effectus: quia Christo conuenit 
+      ex<lb ed="#P" n="116" break="no"/>cellentiori modo operari talia quam homines qui 
+      <lb ed="#P" n="117"/>recipiunt sacramenta eius. Secundo prout 
+      cha<lb ed="#P" n="118" break="no"/>racter est conformans aliquem Christo: quia 
+      si<lb ed="#P" n="119" break="no"/>cut alii conformantur principi, &amp; configurantur 
+      <lb ed="#P" n="120"/>per aliquid impressum eis ad hoc quod sciantur 
+      <lb ed="#P" n="121"/>pertinere ad illum principem. In principe autem 
+      <lb ed="#P" n="122"/>non fit talis impressio, ita quod in Christo cum 
+      <lb ed="#P" n="123"/>sit princeps noster non immprimatur character: 
+      <lb ed="#P" n="124"/>sed in illis qui conformantur sibi. Vnde 
+      dicen<lb ed="#P" n="125" break="no"/>dum quod habet aliquid altius scilicet potestatem 
+      <lb ed="#P" n="126"/>exellentiae de qua infra habebitur. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e908">
+               <lb ed="#P" n="127"/>ARTICVLVS TERTIVS. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e913">
+               <lb ed="#P" n="128"/>Qvantum ad tertium, scilicet a quo 
+      causa<lb ed="#P" n="129" break="no"/>tur. Constat quod a Deo sicut a principali s 
+      <lb ed="#P" n="130"/>causa: &amp; quantum ad hoc non intelligitur quaestio: 
+      <lb ed="#P" n="131"/>sed quantum ad causam instrumentalem, scilicet in 
+      <lb ed="#P" n="132"/>quibus sacramentis imprimatur character. Et 
+      di<lb ed="#P" n="133" break="no"/>cendum quod in tribus scilicet baptismo, 
+      confir<lb ed="#P" n="134" break="no"/>matione ordine. Et hoc patet duplici ratione. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e931">
+               <lb ed="#P" n="135"/>Primo, accipiendo characterem prout est 
+      po<lb ed="#P" n="136" break="no"/>testas aliquid agendi vel patiendi.
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e938">
+      <!--327.xml-->
+               <pb ed="#P" n="327"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Ad cuius euidentiam est sciendum, quod cum 
+      <lb ed="#P" n="2"/>sacramentum sit quoddam instrumentum 
+      sancti<lb ed="#P" n="3" break="no"/>ficatiuum: dupliciter aliquis potest per 
+      sacramen<lb ed="#P" n="4" break="no"/>tum sanctificari vel sacrari. Vno modo vt sit 
+      san<lb ed="#P" n="5" break="no"/>ctus in se tantum: alio modo vt in se sit sanctus, &amp; 
+      <lb ed="#P" n="6"/>habeat aliquam deputationem ad aliquos actus 
+      sa<lb ed="#P" n="7" break="no"/>cros. Modo illa sacramenta quae sunt ad 
+      sanctifi<lb ed="#P" n="8" break="no"/>candum hominem, vt in se sit sanctus, non 
+      requi<lb ed="#P" n="9" break="no"/>runt aliquam potentiam ordinatam, vlterius ad 
+      <lb ed="#P" n="10"/>aliquem actum sacrum. Illa autem quae sic 
+      san<lb ed="#P" n="11" break="no"/>ctificant hominem, quod etiam in se faciunt 
+      san<lb ed="#P" n="12" break="no"/>ctum, &amp; faciunt in eo quandam deputationem 
+      vl<lb ed="#P" n="13" break="no"/>terius ad alios actus sactos actiue &amp; passiue, 
+      requi<lb ed="#P" n="14" break="no"/>runt aliquam potentiam ordinatam ad illos actus 
+      <lb ed="#P" n="15"/>actiuam &amp; passiuam. Ex hoc potest formari talis 
+      <lb ed="#P" n="16"/>ratio in illis sacramentis habetur character 
+      impri<lb ed="#P" n="17" break="no"/>mi in quibus non solum fit homo sacer inse, sed 
+      <lb ed="#P" n="18"/>deputatur ad aliquos actus sacros actiue vel 
+      passi<lb ed="#P" n="19" break="no"/>ue. Sed hoc conuenit solum praedictis tribus 
+      sa<lb ed="#P" n="20" break="no"/>cramentis, ergo, &amp;c. Maior patet ex dictis 
+      im<lb ed="#P" n="21" break="no"/>mediate. Minor probatur per inductionem. Et 
+      <lb ed="#P" n="22"/>primo quantum ad partem affirmatiuam, quia 
+      <lb ed="#P" n="23"/>baptismus praeter hoc quod habet hominem 
+      fa<lb ed="#P" n="24" break="no"/>cere sanctum in se, habet eum deputare ad 
+      ali<lb ed="#P" n="25" break="no"/>quos actus sacros, vt seilicet sit habilis ad 
+      recipien<lb ed="#P" n="26" break="no"/>dum effectus aliorum sacramentorum, &amp; vt in eis 
+      <lb ed="#P" n="27"/>cum aliis fidelibus communicet. Confirmatio 
+      si<lb ed="#P" n="28" break="no"/>militer praeter hoc quod facit hominem sanctum 
+      <lb ed="#P" n="29"/>in se, facit ipsum deputatum ad protestandum 
+      fi<lb ed="#P" n="30" break="no"/>dem. Ordo similiter deputat hominem ad aliquos 
+      <lb ed="#P" n="31"/>sacros actus qui sunt vel ministrare sacramenta, 
+      <lb ed="#P" n="32"/>vel aliquos actus praeambulos eis. Quantum 
+      au<lb ed="#P" n="33" break="no"/>tem ad negatiuam, quia Eucharistia facit hominem 
+      <lb ed="#P" n="34"/>sanctum in se: sed non deputat ad aliquem actum 
+      <lb ed="#P" n="35"/>vlteriorem. Et similiter poeuitentia non deputat ad 
+      <lb ed="#P" n="36"/>aliquem actum vlteriorem. Similiter 
+      matrimo<lb ed="#P" n="37" break="no"/>nium qui quantum ad hoc quod mitigat 
+      concupis<lb ed="#P" n="38" break="no"/>centiam per gratiam quae confertur in illo 
+      socra<lb ed="#P" n="39" break="no"/>mento vt infra patebit facit hominem sanctum in 
+      <lb ed="#P" n="40"/>se: sed non deputat eum vlterius ad aliquem actum 
+      <lb ed="#P" n="41"/>sacrum. Similiter extrema vnctio quae reducit 
+      <lb ed="#P" n="42"/>hominem ad pristinam valitudinem &amp; sanat a 
+      re<lb ed="#P" n="43" break="no"/>liquijs morbi: sed deputat vlterius ad aliquem 
+      sa<lb ed="#P" n="44" break="no"/>crum actum. Et sic patet tota minor. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e1042">
+               <lb ed="#P" n="45"/>Est autem notandum quod non est idem 
+      face<lb ed="#P" n="46" break="no"/>re hominem potentem ad exercendum aliquos 
+      <lb ed="#P" n="47"/>actus cummunes: &amp; deputare eum ad aliquem 
+      <lb ed="#P" n="48"/>actum sacrum specialem, quia omne 
+      sacramen<lb ed="#P" n="49" break="no"/>tum inquantum confert, vel aufert &amp; auget 
+      gra<lb ed="#P" n="50" break="no"/>tiam &amp; virtutes facit hominem potentem vel 
+      ma<lb ed="#P" n="51" break="no"/>gis potentem ad actus meritorios qui sunt 
+      commu<lb ed="#P" n="52" break="no"/>nes omnibus: &amp; in omni statu fidelium: sed non 
+      <lb ed="#P" n="53"/>faciunt deputationem ad aliquos actus sacros 
+      spe<lb ed="#P" n="54" break="no"/>ciales alios a meritorijs communibus sicut faciunt 
+      <lb ed="#P" n="55"/>praedicta tria sacramenta. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e1069">
+               <lb ed="#P" n="56"/>Secunda ratio, potest accipi ex hoc quod 
+      cha<lb ed="#P" n="57" break="no"/>racter est signum distinctiuum, quia in illis 
+      sacra<lb ed="#P" n="58" break="no"/>mentis debet character conferri in quibus 
+      consti<lb ed="#P" n="59" break="no"/>tuitur homo in ali quo statu speciali distincto ab 
+      <lb ed="#P" n="60"/>aliis: sed haec sunt praedicta tria sacramenta, 
+      er<lb ed="#P" n="61" break="no"/>go, &amp;c. Maior patet ex ratione characteris, qui 
+      <lb ed="#P" n="62"/>est signum distinctiuum. Minor probatur. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e1087">
+               <lb ed="#P" n="63"/>Primo quo ad affirmatiuam, quia in baptismo 
+      <lb ed="#P" n="64"/>homo constituitur in statu fidelium, in 
+      confirma<lb ed="#P" n="65" break="no"/>tione in statu militiae Christianae in quo quis 
+      di<lb ed="#P" n="66" break="no"/>stinguitur a statu simplici christiani. In ordine 
+      <lb ed="#P" n="67"/>constituitur aliquis in statu dipensatoris 
+      sacramen<lb ed="#P" n="68" break="no"/>torum. In alijs autem sactamentis non constituitur quis 
+      <lb ed="#P" n="69"/>in aliquo statu distincto, quia distinctio aut esset 
+      <lb ed="#P" n="70"/>fidelium ab ainfidelibus, aut fidelium adinuicem: 
+      <!--327.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>non primo modo, quia hoc facit baptismur qui 
+      <lb ed="#P" n="72"/>praesupponitur omnibus alijs sacraris. Nec 
+      secun<lb ed="#P" n="73" break="no"/>do modo vt de se patet, quia poenitentia, 
+      Euchari<lb ed="#P" n="74" break="no"/>stia, extrema vnctio, &amp; matrimonium non 
+      consti<lb ed="#P" n="75" break="no"/>tuunt existentes in diuerso statu religionis christia. 
+      <lb ed="#P" n="76"/>nae. Ergo, &amp;c. Et sic patet minor. Et haec 
+      suf<lb ed="#P" n="77" break="no"/>ficiant de tertio. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e1126">
+               <lb ed="#P" n="78"/>ARTICVLVS QVARTVS.
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e1131">
+               <lb ed="#P" n="79"/>Qvantum ad quartum de eius diffinitionibu 
+      <lb ed="#P" n="80"/>dicendum quod est diffinitio p. Dyon. 
+      sei<lb ed="#P" n="81" break="no"/>licet quod character est signum sacrae 
+      communio<lb ed="#P" n="82" break="no"/>nis &amp; sacrae ordinationis datum ab ierarcha, quod 
+      <lb ed="#P" n="83"/>dicitur signum sacrae. Signum ibi accipitur pro 
+      <lb ed="#P" n="84"/>aliquo absoluto in quo relatio signi fundatur. 
+      <lb ed="#P" n="85"/>Quia vt supra dictum est, character non dicit 
+      re<lb ed="#P" n="86" break="no"/>lationem, sed aliquid absolutum in quo relatio 
+      <lb ed="#P" n="87"/>fundatur. Quod ergo dicitur signum sacrae 
+      com<lb ed="#P" n="88" break="no"/>munionis, idem est ac si dicatur, quod est illud 
+      <lb ed="#P" n="89"/>per quod aliquis admittitur ad communionem 
+      fi<lb ed="#P" n="90" break="no"/>delium: quod dicit &amp; sacrae ordinationis, idem 
+      <lb ed="#P" n="91"/>est ac si diceret, quod est illud per quod aliquis 
+      or<lb ed="#P" n="92" break="no"/>dinatur in aliquo statu cum aliis fidelibus, &amp; in 
+      <lb ed="#P" n="93"/>hoc tangitur aliqua causa finalis characteris. In 
+      <lb ed="#P" n="94"/>hoc autem quod dicitur datum a hierarcha, 
+      tan<lb ed="#P" n="95" break="no"/>gitur causa ministerialis, hierarcha enim stat pro 
+      <lb ed="#P" n="96"/>episcopo qui idem est, quod princeps hierarchiae, 
+      <lb ed="#P" n="97"/>quia antiquitus omnia sacramenta solebant 
+      mini<lb ed="#P" n="98" break="no"/>strari per Episeopos. Alia est diffinitio, quod 
+      cha<lb ed="#P" n="99" break="no"/>racter est distinctio impressa a charactere aeterno 
+      <lb ed="#P" n="100"/>animae rationali secundum imaginem configurans 
+      <lb ed="#P" n="101"/>Trinitatem creatam Trinitati creanti, &amp; 
+      distin<lb ed="#P" n="102" break="no"/>guens a non configuratis secundum statum fidei. 
+      <lb ed="#P" n="103"/>In qua diffinitione tanguntur omnes causae 
+      chara<lb ed="#P" n="104" break="no"/>cteris. Nam causa formalis tangitur cum dicitur 
+      <lb ed="#P" n="105"/>distinctio, id est, signum distinctiuum, quod est 
+      <lb ed="#P" n="106"/>eius genus, non quod omne signum sit causa 
+      rea<lb ed="#P" n="107" break="no"/>liter ipsius characteris quasi realiter distincta ab 
+      <lb ed="#P" n="108"/>eo: quia solius compositi est habere realiter 
+      cau<lb ed="#P" n="109" break="no"/>sam formalem, sed hoc pro tanto dicitur, quia 
+      <lb ed="#P" n="110"/>omne signum, accipiendo signum pro 
+      fundamen<lb ed="#P" n="111" break="no"/>to relationis, non pro relatione dicit illud quod 
+      <lb ed="#P" n="112"/>formaliter &amp; essentialiter est character. In hoc 
+      <lb ed="#P" n="113"/>autem quod dicit, impressa a charactere aeterno, 
+      <lb ed="#P" n="114"/>tangit causam principalem efficientem. Nam 
+      <lb ed="#P" n="115"/>per characterem aeternum intelligit filium cui iste 
+      <lb ed="#P" n="116"/>effectus attribuitur per appropriationem quamuis 
+      <lb ed="#P" n="117"/>sit a tota Trinitate. Quod autem dicitur animae 
+      <lb ed="#P" n="118"/>rationali, tangit subiectum eius quasi commune: 
+      <lb ed="#P" n="119"/>sed quod dicit secundum imaginem, dicit 
+      subie<lb ed="#P" n="120" break="no"/>ctum eius magis proprium, quia in hoc ostendit 
+      <lb ed="#P" n="121"/>secundum quod inest animae character: quia 
+      se<lb ed="#P" n="122" break="no"/>cundum imaginem. Quod autem dicit 
+      configu<lb ed="#P" n="123" break="no"/>rans Trinitatem creatam Trinitati creanti, &amp; 
+      di<lb ed="#P" n="124" break="no"/>stinguens a non configuratis secundum statum 
+      fi<lb ed="#P" n="125" break="no"/>dei, tangit eius finem duplicem, scilicet 
+      confor<lb ed="#P" n="126" break="no"/>mare Christo, &amp; distinguere a non conformatis. 
+      <lb ed="#P" n="127"/>Et sic patet de quarto. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e1240">
+               <lb ed="#P" n="128"/>Ad primum in oppositum dicendum, quod 
+      <lb ed="#P" n="129"/>character est in secunda speciem qualitatis 
+      suppo<lb ed="#P" n="130" break="no"/>nendo, quod sit potentia. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e1249">
+               <lb ed="#P" n="131"/>Ad illud quod dicitur in contrarium, quod 
+      <lb ed="#P" n="132"/>non est potentia naturalis, dicendum, quod ad 
+      il<lb ed="#P" n="133" break="no"/>lam speciem non solum pertinet potentia 
+      natura<lb ed="#P" n="134" break="no"/>lis. Quod autem Philosophus non fecit 
+      mentio<lb ed="#P" n="135" break="no"/>nem de potentia supernaturali, hoc fuit, quia nihil 
+      <lb ed="#P" n="136"/>seiuit de tali potentia. 
+      </p>
+            <p xml:id="hx2hx3-c09288-d1e1266">
+               <lb ed="#P" n="137"/>Ad secundum dicendum, quod character est 
+      <lb ed="#P" n="138"/>in potentia, non tamen ex hoc sequitur, quod se 
+      <!--328.xml-->
+      <pb ed="#P" n="328"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>habitus sicut patet ex dictis in primo articulo 
+      <lb ed="#P" n="2"/>istius quaestionis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

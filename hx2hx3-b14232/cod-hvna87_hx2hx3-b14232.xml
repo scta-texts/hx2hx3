@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaesito 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaesito 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="44"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b14232"><!-- l1d4q2 -->
+            <head xml:id="hx2hx3-b14232-Hd1e99">Quaesito 2</head>
+            <head xml:id="hx2hx3-b14232-Hd1e101" type="question-title">Utrum in divinis natura praedicetur de supposito</head>
+            <p xml:id="hx2hx3-b14232-d1e104">
+               <lb ed="#P" n="62"/>QVAESTIO SECVNDA. 
+      <lb ed="#P" n="63"/>Vtrum in diuinis natura praedicetur de 
+      <lb ed="#P" n="64"/>supposito
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e113">
+               <lb ed="#P" n="65"/>ET videtur quod non: communicabile non 
+      prae<lb ed="#P" n="66" break="no"/>dicatur de incommunicabili, sed essentia est 
+      <lb ed="#P" n="67"/>communicabilis, persona incommunicabilis: 
+      <!--44.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="68"/>Ergo, &amp;c. Praeterea affirmnatio significat 
+      compo<lb ed="#P" n="69" break="no"/>sitionem. Sed in diuinis i ulla est compositio. 
+      Er<lb ed="#P" n="70" break="no"/>go nulla propositio affiimatiua potest verisicari in 
+      <lb ed="#P" n="71"/>diuinis. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e135">
+               <lb ed="#P" n="72"/>Contra: nulla propositio est verior quam illa 
+      <lb ed="#P" n="73"/>in qua praedicatur idem de seipso persona &amp; 
+      es<lb ed="#P" n="74" break="no"/>sentia sunt vnum &amp; idem in diuinis. Eigo &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e145">
+               <lb ed="#P" n="75"/>Respondeo, ad cuidentiam istius quaestionis. 
+      <lb ed="#P" n="76"/>Primo videndum est vtrum aliquid vere 
+      pessitaf<lb ed="#P" n="77" break="no"/>firmari in diuinis. Secundo videndum est quid 
+      <lb ed="#P" n="78"/>im pedit suppositum in creaturis praedicari de 
+      es<lb ed="#P" n="79" break="no"/>sentia vel e conuerso. Tertio patebit propositum, 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e158">
+               <lb ed="#P" n="80"/>Quantum ad primum scierdum, quod veritas 
+      <lb ed="#P" n="81"/>conceptus vel enunciationis non consistat in hoc i 
+      <lb ed="#P" n="82"/>quod ipse conceptus talis sit in essc naturae qualis 
+      <lb ed="#P" n="83"/>est res intellecta: ita quod si tes intellecta sit lapis, 
+      <lb ed="#P" n="84"/>conceptus etiam sit lapis, &amp; sic de aliis: sed 
+      veri<lb ed="#P" n="85" break="no"/>tas conceptus confistit in hoc qued repraesentet 
+      <lb ed="#P" n="86"/>rem tal em esse qualis est. Vnde si res est alba &amp; 
+      <lb ed="#P" n="87"/>coneeptus repraesentet eam esse albam, conceptur 
+      <lb ed="#P" n="88"/>est verus, licet ipse conceptus non sit albus. 
+      Simi<lb ed="#P" n="89" break="no"/>liter etiam conceptus complexus non oporter 
+      <lb ed="#P" n="90"/>quod significet vel repraesenter rem cuius est esse 
+      <lb ed="#P" n="91"/>complexam, vel quod compositio realis sit inter 
+      <lb ed="#P" n="92"/>praedicatum &amp; subiectum, sed significet esse 
+      vni<lb ed="#P" n="93" break="no"/>tatem inter praedicatum &amp; subiectum. Vnde haec, 
+      <lb ed="#P" n="94"/>albedo est color, non signisicat color:m &amp; 
+      albe<lb ed="#P" n="95" break="no"/>dinem esseduas res compositas, imo significat ea 
+      <lb ed="#P" n="96"/>esse vnam rem per essentiam; &amp; si non essent vna 
+      <lb ed="#P" n="97"/>res per essentiam, esset falsa propositio praedicta. 
+      <lb ed="#P" n="98"/>Ex his potest accipi ista maior qaod ad hoc quod 
+      <lb ed="#P" n="99"/>complexus conceptus sit verus nom requiritur quod 
+      <lb ed="#P" n="100"/>res ei respondens habeat compositionem realem 
+      <lb ed="#P" n="101"/>eius quod significatur per praedicatum, &amp; eius 
+      <lb ed="#P" n="102"/>quod significatur per subiectum: sed sufficit quod 
+      <lb ed="#P" n="103"/>habeat realem &amp; essentialem vnitatem, quia 
+      con<lb ed="#P" n="104" break="no"/>ceptus talis non significat compositionem semper 
+      <lb ed="#P" n="105"/>praedicati &amp; subiecti, sed vnitatem realem. 
+      Con<lb ed="#P" n="106" break="no"/>stat autem quiod de Deo multa intelligimus quae 
+      <lb ed="#P" n="107"/>habent vnitatem realem sicut ipsum esse iustum &amp; 
+      <lb ed="#P" n="108"/>sapientem &amp; sic de aliis. Et ideo propositiones 
+      af<lb ed="#P" n="109" break="no"/>firmatiuae de Deo formatae sunt verae: Et sic patet 
+      <lb ed="#P" n="110"/>primum. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e228">
+               <lb ed="#P" n="111"/>Quantum ad secundum, sciendum quod hie 
+      <lb ed="#P" n="112"/>non loquimur de supposito &amp; natura secundum, 
+      <lb ed="#P" n="113"/>quod natura dicitur commune praedicabile de 
+      <lb ed="#P" n="114"/>multis vt homo, &amp; suppositum dicitur singulare 
+      <lb ed="#P" n="115"/>vt Socrates, quia constat quod accipiendo sic natu, 
+      <lb ed="#P" n="116"/>ram &amp; suppositum manifesse natura praedicatur de 
+      <lb ed="#P" n="117"/>lupposito. Vnde ista est vera Socrates est homo. 
+      A<lb ed="#P" n="118" break="no"/>lio modo accipitur natura &amp; suppositum pro 
+      ab<lb ed="#P" n="119" break="no"/>stracto &amp; concreto sicut est hic homo &amp; 
+      humani<lb ed="#P" n="120" break="no"/>tas. Et de hoc quaeritur quid impedit in creaturis 
+      <lb ed="#P" n="121"/>naturam predicaride supposito. Et sunt circa hoc 
+      <lb ed="#P" n="122"/>tres opiniones. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e257">
+               <lb ed="#P" n="123"/>Prima est quod suppositum &amp; natura sic 
+      accep<lb ed="#P" n="124" break="no"/>ta sunt diuersa realiter: non quia rem diuersam a 
+      <lb ed="#P" n="125"/>natura addat suppositum supra naturam, sed addit 
+      <lb ed="#P" n="126"/>modum realem. Iste autem modus est naturam, 
+      <lb ed="#P" n="127"/>esse affectam quibusdamaccidentibus, &amp; hoc 
+      de<lb ed="#P" n="128" break="no"/>clarant per exemplum. Nam materia &amp; materia 
+      <lb ed="#P" n="129"/>affecta quantitate realiter differunt, nec tamen 
+      <lb ed="#P" n="130"/>materia affecta quantitate addit aliquam rem 
+      su<lb ed="#P" n="131" break="no"/>pra materiam, sed modum realem tantum; &amp; 
+      si<lb ed="#P" n="132" break="no"/>militer homo super humanitatem non addit 
+      ali<lb ed="#P" n="133" break="no"/>quam rem sed modum realem, &amp; ratione huius 
+      <lb ed="#P" n="134"/>impeditur predicatio vnius de alte o Istud dictum 
+      <lb ed="#P" n="135"/>intendo reprobare quantum ad tria quae ponit, 
+      <lb ed="#P" n="136"/>Primum enim intendo ostendere, quod additio 
+      <lb ed="#P" n="137"/>modi realis sit additio rei, quod ipsi negant. Se¬ 
+      <!--45.xml-->
+      <pb ed="#P" n="45"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cundo quod talis modus constistuat suppositum in 
+      <lb ed="#P" n="2"/>esse suppositi. Tertio ostendo quod secundum 
+      mo<lb ed="#P" n="3" break="no"/>dum quem isti ponunt diuersitas talis modi non 
+      <lb ed="#P" n="4"/>imped iet praedicationem naturae de supposito. 
+      <lb ed="#P" n="5"/>Prumum patet sic, quia ille modus aut est res ali. 
+      <lb ed="#P" n="6"/>quo modo, aut nullo: quod nullo modo sit res, 
+      <lb ed="#P" n="7"/>scilicet nec res naturae, nec res rationis est 
+      impossi<lb ed="#P" n="8" break="no"/>bile, quia cum res &amp; ens prout se extendit 
+      gene<lb ed="#P" n="9" break="no"/>raliter ad rem naturae &amp; ad rem rationis sint 
+      com<lb ed="#P" n="10" break="no"/>munissima, impossibile est quod aliquid qualiter 
+      <lb ed="#P" n="11"/>cunque &amp; qualecunque habeat esse, subterfugiat 
+      <lb ed="#P" n="12"/>eorum praedicationem: Et ideo oportet quod ille 
+      <lb ed="#P" n="13"/>modus sit vel res rationis vel res naturae. Si est res 
+      <lb ed="#P" n="14"/>rationis tantum, tunc ens rationis tantum 
+      consti<lb ed="#P" n="15" break="no"/>tuit suppositum in esse reali suppositi. Quod est 
+      <lb ed="#P" n="16"/>inconueniens. Item suppositum se haberet ad na 
+      <lb ed="#P" n="17"/>turam sicut intentio secunda ad primam, &amp; quia 
+      <lb ed="#P" n="18"/>intentio secunda praedicatur de prima: nam ista 
+      <lb ed="#P" n="19"/>est vera, homo est species, ita etiam praedicaretur 
+      <lb ed="#P" n="20"/>de natura suppositum, quod ipsi negant. Si 
+      au<lb ed="#P" n="21" break="no"/>tem ille modus dicat rem naturae in rerum natura 
+      <lb ed="#P" n="22"/>existentem, ergo adderetalem modum est addere 
+      <lb ed="#P" n="23"/>rem simpliciter, &amp; sic suppositum veram rem 
+      ad<lb ed="#P" n="24" break="no"/>dit super naturam. Si autem dicatur quod ille 
+      <lb ed="#P" n="25"/>modus dicit rem naturae siue in rerum natura 
+      exi<lb ed="#P" n="26" break="no"/>stentem, sed non dicit aliam rem a natura: &amp; ideo 
+      <lb ed="#P" n="27"/>suppositum non importat additionem realem: 
+      si<lb ed="#P" n="28" break="no"/>cut rationale dicit rem veram extra animal, non 
+      <lb ed="#P" n="29"/>tamen dicit aliam rem ab animali, &amp; ideo 
+      ratio<lb ed="#P" n="30" break="no"/>nale non facit additionem realem ad animal. Non 
+      <lb ed="#P" n="31"/>valet, quia natura &amp; ille modus aut differunt 
+      so<lb ed="#P" n="32" break="no"/>la ratione, aut differunt re, aut medio modo; non 
+      <lb ed="#P" n="33"/>potest esse quod differant medio modo, quia 
+      <lb ed="#P" n="34"/>sicut inter ens rei &amp; inter ens rationis non est 
+      me<lb ed="#P" n="35" break="no"/>dium, it a nec inter d. fferre re quae est extra 
+      ani<lb ed="#P" n="36" break="no"/>mam &amp; differre ratione, est dare medium: Si 
+      <lb ed="#P" n="37"/>autem differant sola ratione, tunc modus ille &amp; 
+      <lb ed="#P" n="38"/>suppositum illum modum includens poterit 
+      prae<lb ed="#P" n="39" break="no"/>dicari de natura, quia sola differentia rationis nou 
+      <lb ed="#P" n="40"/>impedit praedicationem eorum quae nondifferunt 
+      <lb ed="#P" n="41"/>secundum rem extra animam ex istentem; nec 
+      po<lb ed="#P" n="42" break="no"/>test dici quod ille modus est alia res a natura; quia 
+      <lb ed="#P" n="43"/>quando aliquid additur alicui quod est alia res ab 
+      <lb ed="#P" n="44"/>eo, est ibi vere additio rei ad rem &amp; vere additio 
+      <lb ed="#P" n="45"/>realis. Item ille modus, aut vere &amp; realiter potest 
+      <lb ed="#P" n="46"/>affi maride natura aut negari; si vere potest 
+      affir<lb ed="#P" n="47" break="no"/>mari ita quod haec sit vera, natuta est ille modus: 
+      <lb ed="#P" n="48"/>tunc ille modus non impediet praedicationem 
+      iun<lb ed="#P" n="49" break="no"/>positi de natura nec e conuerso. Si autem potest 
+      <lb ed="#P" n="50"/>verre negari ita quod haec sit vera, realiter, 
+      natu<lb ed="#P" n="51" break="no"/>ra non est ille modus, cum tam natura quam 
+      mo<lb ed="#P" n="52" break="no"/>dus dicant rem naturae extra animam existentem, 
+      <lb ed="#P" n="53"/>tunesequitur quod ille modus &amp; natura sint duae 
+      <lb ed="#P" n="54"/>res realiter realita e extra animam differentes, 
+      <lb ed="#P" n="55"/>quia quando aliquua vere negantur de se inuicem 
+      <lb ed="#P" n="56"/>secundum aliquod esse commune eis, oporter 
+      <lb ed="#P" n="57"/>quod illud esse plurificetur in eis. Vnde si dentur 
+      <lb ed="#P" n="58"/>aliqua quibus conueniat esse animalia, si vere 
+      po<lb ed="#P" n="59" break="no"/>test dici, hoc animal realiter non est illud animal, 
+      <lb ed="#P" n="60"/>oportet quod sint realiter duo animalia. Ergo 
+      <lb ed="#P" n="61"/>cum, vt deductum est, tam natura quam modus 
+      <lb ed="#P" n="62"/>ille sint verae res extra animam, &amp; vere dicatur 
+      <lb ed="#P" n="63"/>quod hac res non est illa res, oportet ponere quod 
+      <lb ed="#P" n="64"/>sint duae res differentes realiter secundum 
+      realita<lb ed="#P" n="65" break="no"/>rtem existentem extra animam, &amp; sic idem quod 
+      <lb ed="#P" n="66"/>prius. Nec potest dici quod differant realiter, non 
+      <lb ed="#P" n="67"/>sicut res a re: quia vt dictum est modus realis 
+      ne<lb ed="#P" n="68" break="no"/>cessatio est vera res extra animam. Vnde diffe 
+      <lb ed="#P" n="69"/>rentia qua differt modus realis a re cuius est 
+      <lb ed="#P" n="70"/>modus, est differentia rei a re: Nnde valde mira¬ 
+      <!--45.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>bile est de istis modalibus. Talis euiam modus non 
+      <lb ed="#P" n="72"/>potest constituere suppositum in esse suo reali, ita 
+      <lb ed="#P" n="73"/>quod suppositum constituatur ex tali modo. 
+      Pri<lb ed="#P" n="74" break="no"/>mo, quia talis modus est posterior accidente cum 
+      <lb ed="#P" n="75"/>resultet ex vnione accidentis ad substantiam, Q 
+      <lb ed="#P" n="76"/>suppositum substantiae in esse suo reali est prius 
+      <lb ed="#P" n="77"/>omni accidente. Ergo suppositum est prius tali 
+      <lb ed="#P" n="78"/>modo: Sed posterius non est de constitutione 
+      prio<lb ed="#P" n="79" break="no"/>ris: Ergo, &amp;c. Praeterea iste modus non est aliud 
+      <lb ed="#P" n="80"/>quam habitudo accidentis ad substantiam: Sed ta 
+      <lb ed="#P" n="81"/>lis habitudo siue ponatur relatio rationis siue 
+      rela<lb ed="#P" n="82" break="no"/>tio rei, minus potest constituere suppositum quam 
+      <lb ed="#P" n="83"/>quodcunque accidens absolutum, cum relatio 
+      mi<lb ed="#P" n="84" break="no"/>nus habeat de entitate quam quodcun que abso. 
+      <lb ed="#P" n="85"/>lutum: Sed accidens absolutum non constituit 
+      <lb ed="#P" n="86"/>suppositum: Ergo, &amp;c. Item haec habitudo aut 
+      <lb ed="#P" n="87"/>est ens rationis tantum, &amp; sic non potest constitue. 
+      <lb ed="#P" n="88"/>re suppositum in esse reali; aut est ens reale extra 
+      <lb ed="#P" n="89"/>animam, &amp; sic aut substantia aut accidens; si 
+      ac<lb ed="#P" n="90" break="no"/>cidens, aut accidens constituit suppositum in 
+      ge<lb ed="#P" n="91" break="no"/>nere substantiae, quod est inconueniens, nec ipsi 
+      <lb ed="#P" n="92"/>concedunt; si autem substantia, oportet quod sit 
+      <lb ed="#P" n="93"/>ipsa natura de qua est quaestio, vel pars eius puta 
+      <lb ed="#P" n="94"/>materia vel forma: &amp; sic suppositum nihil addit 
+      <lb ed="#P" n="95"/>supra naturam nec rem, nec modum realem. 
+      Se<lb ed="#P" n="96" break="no"/>cundum etiam istum modum ponendi sequitur 
+      <lb ed="#P" n="97"/>quod natura possit praedicari de supposito, quia 
+      se<lb ed="#P" n="98" break="no"/>cundum istam positionem, supposium nihil aliud 
+      <lb ed="#P" n="99"/>est quam natura affecta. Sed haec est vera, 
+      huma<lb ed="#P" n="100" break="no"/>nitas affecta, est humanitas: Ergo &amp; ista vera est, 
+      <lb ed="#P" n="101"/>homo est humanitas, licet enim non possit elle 
+      <lb ed="#P" n="102"/>quod natura sit simul asfecta &amp; non affecta, 
+      ta<lb ed="#P" n="103" break="no"/>men quandoest affecta ipsa absolute accepta 
+      prae<lb ed="#P" n="104" break="no"/>dicatur de seipsa: sicut enim haec est vera, homo 
+      <lb ed="#P" n="105"/>albus est homo: ita esset ista vera, natura affecta 
+      <lb ed="#P" n="106"/>est natura, &amp; materia affecta quantitate est 
+      ma<lb ed="#P" n="107" break="no"/>teria. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e535">
+               <lb ed="#P" n="108"/>Secunda est opinio quae ponit quod suppositum 
+      <lb ed="#P" n="109"/>differt a natura quia suppositum non autem 
+      na<lb ed="#P" n="110" break="no"/>tura includit esse: &amp; ideo se habet vt totum ad 
+      na<lb ed="#P" n="111" break="no"/>turam, nec per consequens potest praedicari de 
+      <lb ed="#P" n="112"/>ipsa: Et volunt quod haec sit intentio venerabilie 
+      <lb ed="#P" n="113"/>Doctoris, scilicet Thomae. Sed, nec hoc videtur 
+      <lb ed="#P" n="114"/>mihi verum. Primo quia si propter hoc natura 
+      <lb ed="#P" n="115"/>non praedicatur de supposito dicendo, Socrates est 
+      <lb ed="#P" n="116"/>humanitas, quia scilicet suppositum includit esse, 
+      <lb ed="#P" n="117"/>non autem natura, cum etiam species existentes 
+      <lb ed="#P" n="118"/>in genere puta homo, bos &amp; similia non includant 
+      <lb ed="#P" n="119"/>esse: talia non possent praedicati de supposito, 
+      <lb ed="#P" n="120"/>vnde ista esset falsa, Socrates est homo vel animal. 
+      <lb ed="#P" n="121"/>Secundum enim magnos ea quae sunt in genere 
+      <lb ed="#P" n="122"/>vel vt species specialissimae, vel vt species subal 
+      <lb ed="#P" n="123"/>ternae non includunt esse, si esse differat ab 
+      essen<lb ed="#P" n="124" break="no"/>tia. Sed hoc est falsum scilicet quod homo non 
+      <lb ed="#P" n="125"/>praedicetur de Socrate: Ergo, &amp;c. Secundo etiam 
+      <lb ed="#P" n="126"/>sequitur ex hoc quod haec sit vera, animal est 
+      ani<lb ed="#P" n="127" break="no"/>malitas; nam sicut animalitas non includit esse: 
+      <lb ed="#P" n="128"/>ita nec animal, cum sint in genere per se. Tertio, 
+      <lb ed="#P" n="129"/>quia sicut albedo non includit aliquid diuersum 
+      <lb ed="#P" n="130"/>ab. albedine sub qua continetur sicut 
+      indiui<lb ed="#P" n="131" break="no"/>duum sub specie: ita etiam hic homo non debet 
+      <lb ed="#P" n="132"/>includere aliquid quod sit aliud re ab homine sub 
+      <lb ed="#P" n="133"/>quo continetur, &amp; sic idem quod prius. Si autem 
+      <lb ed="#P" n="134"/>dicatur ad hoc quod suppositum non includit esse 
+      <lb ed="#P" n="135"/>vt partem sui sicut homo includit animam, sed 
+      <lb ed="#P" n="136"/>importat esse vt id cui coniungiiur. Non valet 
+      <lb ed="#P" n="137"/>Primo, quia natura isto modo potest importare 
+      <lb ed="#P" n="138"/>esse, quia natura non est realiter extra animam nisi 
+      <lb ed="#P" n="139"/>coniuncta esse. Secundo quia illud non potesi 
+      <lb ed="#P" n="140"/>impedire praedicationem naturae de supposito d 
+      <!--46.xml-->
+      <pb ed="#P" n="46"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>supra patuit. Nam materiam esse coniunctam 
+      <lb ed="#P" n="2"/>quantitati non impedit naturam absolute dictam 
+      <lb ed="#P" n="3"/>praedicari de materia sicut coniuncta. Haec enim 
+      <lb ed="#P" n="4"/>est vera, materia coniuncta quantitati est 
+      mate<lb ed="#P" n="5" break="no"/>ria, &amp; simpliciter etiam natura coniuncta ipsi esse 
+      <lb ed="#P" n="6"/>est natura. Quod autem dicunt Thomam scilicet 
+      <lb ed="#P" n="7"/>hoc sensisse falsum est. Nam in suis Quolibetis 
+      <lb ed="#P" n="8"/>Quaestione quarta vbi quaeritur vtrum in Angelis 
+      <lb ed="#P" n="9"/>sit idem suppositum &amp; natura, dicit quod non. 
+      Fi<lb ed="#P" n="10" break="no"/>naliter concludendo dicit quod haec est ratio: quia 
+      <lb ed="#P" n="11"/>in Angelis praeter naturam, &amp; esse &amp; alia quae ei 
+      <lb ed="#P" n="12"/>accidunt pertinent ad suppositum. Vnde simili 
+      <lb ed="#P" n="13"/>modo de esse ponit &amp; de aliis accidentibus 
+      quan<lb ed="#P" n="14" break="no"/>tum ad hoc. Constat autem quod suppositum 
+      <lb ed="#P" n="15"/>non includit accidentia in suo essentiali 
+      significa<lb ed="#P" n="16" break="no"/>to. Ergo nec esse sidifferat re ab essentia, licet ex 
+      <lb ed="#P" n="17"/>modo significandi possit ea importare, sicut ponit 
+      <lb ed="#P" n="18"/>quaedam alia opinio. Item idem in solutione 
+      se<lb ed="#P" n="19" break="no"/>cundi argumenti dicit quod esse licet pertineat ad 
+      <lb ed="#P" n="20"/>suppositum &amp; similiter alia accidentia: non 
+      ta<lb ed="#P" n="21" break="no"/>men esse vel alia accidentia sunt de ratione 
+      suppo<lb ed="#P" n="22" break="no"/>siti. Vnde videtur mihi quod illi qui hoc impo 
+      <lb ed="#P" n="23"/>nunt Sancto Thomae, false imponunt ei. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e665">
+               <lb ed="#P" n="24"/>Et ideo est alia opinio quae ponit quod natura 
+      <lb ed="#P" n="25"/>&amp; suppositum in creaturis non praedicantur de se 
+      <lb ed="#P" n="26"/>inuicem accipiendo ea secundum abstractum &amp; 
+      <lb ed="#P" n="27"/>coneretum vt homo &amp; humanitas: quia vnum 
+      di<lb ed="#P" n="28" break="no"/>cit tantum formam, puta humanitas, &amp; aliud 
+      to<lb ed="#P" n="29" break="no"/>tum aggregatum, puta Socrates. Sed hoc est fal 
+      <lb ed="#P" n="30"/>sum manifeste. Primo, quia abstractum in genere 
+      <lb ed="#P" n="31"/>substantiae includit illud quod est alicui ratio quod 
+      <lb ed="#P" n="32"/>sit ens non inhaerens alii; nunc autem ens in 
+      gene<lb ed="#P" n="33" break="no"/>re substuntiae: puta homo vel animai non habet 
+      <lb ed="#P" n="34"/>quod sit ens non inhaerens alteri a sola forma, imo 
+      <lb ed="#P" n="35"/>a natura tota composita ex vtroque: quia sola for 
+      <lb ed="#P" n="36"/>ma secundum se accepta non habet quod sit ens, 
+      <lb ed="#P" n="37"/>vel quod per ipsam ens habeat esse non 
+      inhaeren<lb ed="#P" n="38" break="no"/>do alii; quia etsi non inhaereat alii vt enti in actu, 
+      <lb ed="#P" n="39"/>inest tamen alii quod est ens in potentia cum quo 
+      <lb ed="#P" n="40"/>constituit essentiam cui repugnat qualitercunque 
+      <lb ed="#P" n="41"/>inhaerere alteri. Secundo quia secundum Do. 
+      <lb ed="#P" n="42"/>ctores &amp; secundum Philosophum septimo 
+      Meta<lb ed="#P" n="43" break="no"/>hysicae, de ratione quidditatiua rerum natura. 
+      <lb ed="#P" n="44"/>liumest materia, illud autem non potest esse de 
+      <lb ed="#P" n="45"/>ratione substantiae quod in eius quidditate etiam 
+      <lb ed="#P" n="46"/>a bstracte accepta no intelligitur, quia definiri per 
+      <lb ed="#P" n="47"/>aliquid importatum concretiue &amp; non per illud 
+      <lb ed="#P" n="48"/>quod in quidditate intelligitur, est definiri per 
+      ad<lb ed="#P" n="49" break="no"/>ditamenta: quod non conuenit substantiae. 
+      Ter<lb ed="#P" n="50" break="no"/>tio quia tunc anima separata esset vere humanitas. 
+      <lb ed="#P" n="51"/>sed subsistens in humanitate vere est homo: Ergo 
+      <lb ed="#P" n="52"/>illud subsistens quod est anima separata vere est 
+      <lb ed="#P" n="53"/>homo Quod est absurdum &amp; secundum verita. 
+      <lb ed="#P" n="54"/>tem &amp; secundum etiam authores huius opinionis, 
+      <lb ed="#P" n="55"/>quia homo non est anima secundum eos, sed 
+      com<lb ed="#P" n="56" break="no"/>positum ex ea &amp; corpore, vel ex ea &amp; materia. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e740">
+               <lb ed="#P" n="57"/>Et ideo est alia opinio quam credo mesiorem, 
+      <lb ed="#P" n="58"/>quod in creaturis abstractum &amp; concretum non 
+      <lb ed="#P" n="59"/>praedicantur de se inuicem, non quia al: quid sit de 
+      <lb ed="#P" n="60"/>essentia li significato alicuius quod non sit alterius 
+      <lb ed="#P" n="61"/>sed quia ex modo significandi, concretum 
+      concer<lb ed="#P" n="62" break="no"/>nit aliquid aliud coniunctum formae vel naturae a 
+      <lb ed="#P" n="63"/>qua descendit concretum: ideo in rebus quibus est 
+      <lb ed="#P" n="64"/>coniunctio plurium essentiarum, concretum 
+      sem<lb ed="#P" n="65" break="no"/>per aliquid importat ex modo significandi praeter 
+      <lb ed="#P" n="66"/>naturam abstractam, &amp; propter hoc vnum non 
+      <lb ed="#P" n="67"/>praedicatur de ahio. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e766">
+               <lb ed="#P" n="68"/>Ad cuius euidentiam est sciendum quod differt 
+      <lb ed="#P" n="69"/>aliquid ex modo significandi concernere &amp; 
+      inclu<lb ed="#P" n="70" break="no"/>dere in suo essentiali signifi cato. Nam illud quod 
+      <!--46.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>includitur in essentiali significato alicuius est pars 
+      <lb ed="#P" n="72"/>rei scilicet significatae per terminum, sicut homo 
+      <lb ed="#P" n="73"/>includit animam quae etiam est pars naturae 
+      signifi<lb ed="#P" n="74" break="no"/>catae per terminum abstractum, sicut patet in 
+      e<lb ed="#P" n="75" break="no"/>remplo posito de anima &amp; homine &amp; 
+      humanita<lb ed="#P" n="76" break="no"/>te. Illud autem quod concernitur ex modo sig 
+      ni<lb ed="#P" n="77" break="no"/>ficandi per modum concreti non est pars naturae 
+      <lb ed="#P" n="78"/>significatae per terminum abstractum, sicut album 
+      <lb ed="#P" n="79"/>ex modo significandi concernit &amp; importat illud 
+      <lb ed="#P" n="80"/>quod habet albedinem quidquid sit illud, siue 
+      il<lb ed="#P" n="81" break="no"/>lud sir superficies, sine aliquid aliud; nec est pars 
+      <lb ed="#P" n="82"/>naturae quae est albedo. Vlterius sciendum quad 
+      <lb ed="#P" n="83"/>cumterminus concretus duo importet, scilicet 
+      for<lb ed="#P" n="84" break="no"/>mam a qua descendit &amp; illud quod habet iam, 
+      v<lb ed="#P" n="85" break="no"/>nam importat in recto &amp; aliud in obliquo. Nam 
+      <lb ed="#P" n="86"/>illud quod habet dictam formam, vel naturam 
+      <lb ed="#P" n="87"/>importat in recto; naturam vero in obliquo: vnde 
+      <lb ed="#P" n="88"/>album idem est quod habens albedinem, &amp; homo 
+      <lb ed="#P" n="89"/>habens humanitatem, habens est in recto; sed 
+      na<lb ed="#P" n="90" break="no"/>tura habita ponitur in obliquo. Et ex hoc sequitur 
+      <lb ed="#P" n="91"/>aliud quod quantum est ex parte modi significan. 
+      <lb ed="#P" n="92"/>di illud quod attribuitur termino concreto non 
+      ve<lb ed="#P" n="93" break="no"/>rificatur de natura in recto, sed de habente 
+      natu<lb ed="#P" n="94" break="no"/>ram: vnde si dicatur album est hoc vel illud, idem 
+      <lb ed="#P" n="95"/>est ac si dicatur habens albedinem est hoc vel illud. 
+      <lb ed="#P" n="96"/>Et ideo in eis in quibus inuenitur aliquid aliud re 
+      <lb ed="#P" n="97"/>ab albedine quod est habens albedinem, quodat. 
+      <lb ed="#P" n="98"/>tribuitur albo attribuitur in recto alicui diuerso re 
+      <lb ed="#P" n="99"/>ab albedine; albedo autem non potest attribui 
+      ve<lb ed="#P" n="100" break="no"/>re ei quod est aliud re ab albedine: &amp; similiter est 
+      <lb ed="#P" n="101"/>de aliis abstractis omnibus in quibus est aliquid 
+      di<lb ed="#P" n="102" break="no"/>uersum a natura abstracta habens naturam 
+      abstra<lb ed="#P" n="103" break="no"/>ctam, propter quod in talibus abstractum non 
+      prae<lb ed="#P" n="104" break="no"/>dicatur de concreto descendente abeo: vnde non 
+      <lb ed="#P" n="105"/>potest dici album est albedo, vnum tamen 
+      concre<lb ed="#P" n="106" break="no"/>tum naturae vnius potest praedicari de abstracto 
+      al<lb ed="#P" n="107" break="no"/>terius naturae: sicut quantitas potest dici curua vel 
+      <lb ed="#P" n="108"/>recta, &amp; superficies alba, quia licet concretum ex 
+      <lb ed="#P" n="109"/>suo modo significandi videatur 
+      importarecompo<lb ed="#P" n="110" break="no"/>situm; tamen accipiendo compositum pro toto 
+      a<lb ed="#P" n="111" break="no"/>gregato comprehendente vtrumque scilicer 
+      narui<lb ed="#P" n="112" break="no"/>ram &amp; illud quod habet eam vt partes, concretum 
+      <lb ed="#P" n="113"/>non semper supponit vel reddit locutionem vetam 
+      <lb ed="#P" n="114"/>pro composito, vt cui in recto attribuatur praedi. 
+      <lb ed="#P" n="115"/>catum, vel quod in recto praedicetur de alio, quia 
+      <lb ed="#P" n="116"/>ista est falla, superficies est compositum ex 
+      superfi<lb ed="#P" n="117" break="no"/>cie &amp; albedine, &amp; similiter ista, compositum ex 
+      su<lb ed="#P" n="118" break="no"/>perficie &amp; albedine est superficies, est falla. Sed 
+      <lb ed="#P" n="119"/>accipendo compositum cum alio; nonautem 
+      com<lb ed="#P" n="120" break="no"/>positum ex aliquuibus pro conereto: sic dico quod 
+      <lb ed="#P" n="121"/>supponit in recto terminus concretus: vnde album 
+      <lb ed="#P" n="122"/>supponit in recto pro eo quod est coniunctum cum 
+      <lb ed="#P" n="123"/>albedine, &amp; non pro aliquo toto constituro ex 
+      <lb ed="#P" n="124"/>superficie &amp; albedine: vlterius est notandum 
+      <lb ed="#P" n="125"/>quod concretorum quaedam sunt adiectiua vt 
+      al<lb ed="#P" n="126" break="no"/>bum, nigrum, humanum, &amp; consimilia: quaedam 
+      <lb ed="#P" n="127"/>autem sunt substantiua vt homo, animal &amp; 
+      con<lb ed="#P" n="128" break="no"/>similia. Conueniunt autem ista concreta in hoc 
+      <lb ed="#P" n="129"/>quod concretum importat habens talem naturam 
+      <lb ed="#P" n="130"/>vel habitudinem ad eam: sed concrera 
+      substanti<lb ed="#P" n="131" break="no"/>ua in hoc differunt ab adiectiuis, quia concretum 
+      <lb ed="#P" n="132"/>substantiuum, &amp; praecipue de illis quae descendunt 
+      <lb ed="#P" n="133"/>a naturis substantialibus, sicut homo, bos &amp; 
+      simi<lb ed="#P" n="134" break="no"/>lia, non supponit pro eo quod qualitercunque ett 
+      <lb ed="#P" n="135"/>habens naturam humanam, vel quod 
+      qualiter<lb ed="#P" n="136" break="no"/>cunque est coniunctum naturae, sed concreta 
+      ad<lb ed="#P" n="137" break="no"/>iectiua sic: vnde nec potest dici vere homo esse 
+      il<lb ed="#P" n="138" break="no"/>lud quod vere dicitur esse humanum, nam 
+      quan<lb ed="#P" n="139" break="no"/>titas hominis est quantitas humana, non tamen est 
+      <lb ed="#P" n="140"/>homo; sed supponit pro eo quod habet talem na¬ 
+      <!--47.xml-->
+      <pb ed="#P" n="47"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>turuim scilicet humanam sibi vnitam vel 
+      coniun<lb ed="#P" n="2" break="no"/>ctam. Et inde est quod subsistens quod est habens 
+      <lb ed="#P" n="3"/>naturam humanam in Christo est ipsum 
+      supposi<lb ed="#P" n="4" break="no"/>tum diuinum: ideo vere potest dici quod Deus est 
+      <lb ed="#P" n="5"/>homo, quia ipse est subsistens habens illam 
+      hu<lb ed="#P" n="6" break="no"/>manitatem; &amp; potest dici quod ille homo est 
+      di<lb ed="#P" n="7" break="no"/>uinitas, propter vnitatem quae est inter suppositum 
+      <lb ed="#P" n="8"/>&amp; naturam quae est in diuinis, sed non potest dici 
+      <lb ed="#P" n="9"/>quod humanitas sit homo, quia humanitas 
+      Chri<lb ed="#P" n="10" break="no"/>sti non est illud subsistens, scilicet suppositum 
+      di<lb ed="#P" n="11" break="no"/>uinum quod habet humanitatem. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e961">
+               <lb ed="#P" n="12"/>Sed tunc est quoddam dubium de creaturis, 
+      <lb ed="#P" n="13"/>quare in eis abstractum non praedicatur de 
+      concre<lb ed="#P" n="14" break="no"/>to substantiuo, puta humanitas de homine; quia 
+      <lb ed="#P" n="15"/>non videtur esse in homine aliquid subsistens aliud 
+      <lb ed="#P" n="16"/>ab humanitate quod possit habere naturam huma 
+      <lb ed="#P" n="17"/>nam loquendo de hemine puio: Et ita si homo 
+      <lb ed="#P" n="18"/>idem est quod subsistens habens humanitatem, 
+      <lb ed="#P" n="19"/>videtur quod homo idem sit quod humanitas, &amp; 
+      <lb ed="#P" n="20"/>sic humanitas praedicatur de homine. Ad hoc 
+      au<lb ed="#P" n="21" break="no"/>tem potest dici dupliciter: vno modo quod 
+      mate<lb ed="#P" n="22" break="no"/>rialiter loquendo natura humana vere possit prae 
+      <lb ed="#P" n="23"/>dicari de homine, vt haec sit vera, homo est natura 
+      <lb ed="#P" n="24"/>humana; &amp; tamen formaliter loquendo non 
+      pos<lb ed="#P" n="25" break="no"/>sit vere dici quod homo est humanitas, quia 
+      hu<lb ed="#P" n="26" break="no"/>manitas dicit illud quod est ratio quod aliquid sit 
+      <lb ed="#P" n="27"/>homo; non autem quod sit habens humanitatem 
+      <lb ed="#P" n="28"/>est alicui ratio qua sit homo, alioquin suppositum 
+      <lb ed="#P" n="29"/>diuinum quod potest habere humanitatem esset 
+      <lb ed="#P" n="30"/>ratio quod Deus esset homo &amp; suppositum 
+      diui<lb ed="#P" n="31" break="no"/>num esset homo ab aeterno, &amp; etiam humanitas. 
+      <lb ed="#P" n="32"/>Cicet ergo in homine puro non sit alia res homo &amp; 
+      <lb ed="#P" n="33"/>&amp; humanitas, nec etiam aliam rem includens; 
+      <lb ed="#P" n="34"/>nonttamen denotatur quod formaliter in 
+      quocun<lb ed="#P" n="35" break="no"/>que. homo vel habens humanitatem nihil possit 
+      <lb ed="#P" n="36"/>importare praeter humanitatem, nec pro aliquo 
+      <lb ed="#P" n="37"/>supponore in recto nisi pro humamitate: Et hoc ex 
+      <lb ed="#P" n="38"/>suo modo significandi, quod falsum est vt apparet 
+      <lb ed="#P" n="39"/>in natura assumpta, ideo non conceditur quod 
+      <lb ed="#P" n="40"/>homo est humanitas. Alio modo potest dici &amp; 
+      <lb ed="#P" n="41"/>forte melius, quod cum homo supponat pro 
+      sub<lb ed="#P" n="42" break="no"/>sistente habente humanitatem; non solum autem 
+      <lb ed="#P" n="43"/>porest dici natura humana in homine subsistens 
+      <lb ed="#P" n="44"/>esse sed etiam aggregatum ex natura humana 
+      <lb ed="#P" n="45"/>&amp; alns, puta compositum ex humanitate &amp; quant 
+      <lb ed="#P" n="46"/>titate, sicet enim quantitas non subsistat, tamen 
+      <lb ed="#P" n="47"/>comppsitum ex humanitate &amp; quantitate subsi 
+      <lb ed="#P" n="48"/>stit, quia dictum compositum non sustentatur in 
+      <lb ed="#P" n="49"/>alio, litet vna pars sustentetur in alia. Ideo quia 
+      <lb ed="#P" n="50"/>fiomo ex modo significandi potest importare cum 
+      <lb ed="#P" n="51"/>humanitate simul aliquid aliud: Ideo non potest 
+      <lb ed="#P" n="52"/>verificaride hiumanitate nisi cum expositione, vt 
+      <lb ed="#P" n="53"/>si diceretur quod illud subsistens habens 
+      humani<lb ed="#P" n="54" break="no"/>tatem cur praecise circunicripto quocunque alio 
+      <lb ed="#P" n="55"/>conuenit subsistere, est humanitas. Sed adhuc 
+      <lb ed="#P" n="56"/>contra istud vltimum potest obiici quod siiliter, 
+      <lb ed="#P" n="57"/>habens diuinitatem cum humani ate est 
+      subsi<lb ed="#P" n="58" break="no"/>stens, quod vel Deus supponet pro aggregato ex 
+      <lb ed="#P" n="59"/>diuinitate &amp; humanitate, nec poterit de Deo vel 
+      <lb ed="#P" n="60"/>Dei Filio Diuinitas praedicari. Ad hoc dicendum 
+      <lb ed="#P" n="61"/>quod ex diuinitate &amp; humanitate non 
+      componi<lb ed="#P" n="62" break="no"/>tur aliquid tertium, licet enim diuinitas sit vnita 
+      <lb ed="#P" n="63"/>cum humanitate in supposito diuino: illa tamen 
+      <lb ed="#P" n="64"/>vnio cum supposito uiuino non est compositio vt 
+      <lb ed="#P" n="65"/>concretum quod est Deus possit supponere pro 
+      ali<lb ed="#P" n="66" break="no"/>quo aggregato composito ex vtraque natura; sed 
+      <lb ed="#P" n="67"/>lolum supponit pro subsistente quod est ipsa per 
+      <lb ed="#P" n="68"/>sona diuina &amp; ipsa diuinitas. Vlterius videtur 
+      <lb ed="#P" n="69"/>aliud inconueniens sequi ex dictis, videlicet quod 
+      <lb ed="#P" n="70"/>terminus concretus substantiuus vt homo vna 
+      <!--47.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>cum natura substantiali significet accidens, quoo 
+      <lb ed="#P" n="72"/>videtur inconueniens. Et ad hoc dicendum quod 
+      <lb ed="#P" n="73"/>hiomo non significat, nec in essentiali seio sion:
+      fi<lb ed="#P" n="74" break="no"/>cato importat accidens, vel aliquid aliud ab 
+      hu<lb ed="#P" n="75" break="no"/>manitate. Vnde si esset aliqua hum initas 
+      subsi<lb ed="#P" n="76" break="no"/>stens cui nihil per inhaerentiam coniungeretur, illa 
+      <lb ed="#P" n="77"/>humanitas posset dici homo. Sed ex modo 
+      signi<lb ed="#P" n="78" break="no"/>ficandi potest importare aliquod accidens: illud 
+      <lb ed="#P" n="79"/>autem quod est in genere substantiae sic t osse 
+      ac<lb ed="#P" n="80" break="no"/>cipi importando ex modo significandi accidens, 
+      <lb ed="#P" n="81"/>non est inconueniens. Hoc didum sit de 
+      se<lb ed="#P" n="82" break="no"/>cundo. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e1122">
+               <lb ed="#P" n="83"/>Quantum ad tertium satis patet, quod 
+      indi<lb ed="#P" n="84" break="no"/>uinis differentia abstracti &amp; cencreti non impe 
+      <lb ed="#P" n="85"/>diunt praedicationem de se inuicem: quia 
+      termi<lb ed="#P" n="86" break="no"/>nus concretus substantiuus, vt hoc quod dico 
+      <lb ed="#P" n="87"/>Deus, non potest concernere aliquod subsistens 
+      <lb ed="#P" n="88"/>habens diuinitatem, quod vel sit 
+      coniunctumdi<lb ed="#P" n="89" break="no"/>uinitati &amp; diuersum ab ea &amp; eam sustentans. 
+      Si<lb ed="#P" n="90" break="no"/>cut homo quando dicitur de Filio Dei importat 
+      <lb ed="#P" n="91"/>aliquid subsistens habens humanitatem, quod 
+      sub<lb ed="#P" n="92" break="no"/>sistens est aliud ab humanitate scilicet personam 
+      <lb ed="#P" n="93"/>diuinam: vel etiam quod sit compositum ex 
+      diui<lb ed="#P" n="94" break="no"/>nitate &amp; quodam alio: Et ideo vere dicitur quod 
+      <lb ed="#P" n="95"/>Deus est ipsa diuinitas. Sed terminus concretus ad. 
+      <lb ed="#P" n="96"/>iectiuus potest supponere pro alio a natura diuina 
+      <lb ed="#P" n="97"/>denominatione extrinseca, Vnde diuinitas non 
+      <lb ed="#P" n="98"/>semper praedicatur de eo quod dicitur diuinum. 
+      <lb ed="#P" n="99"/>Nam quando aliquid dicitur diuinum 
+      denomina<lb ed="#P" n="100" break="no"/>tione extrinseca, vt quando dicimus quod aliquid 
+      <lb ed="#P" n="101"/>est effectus diuinus; tale diuinum non praedicatur 
+      <lb ed="#P" n="102"/>de diuinitate: sed illud quod dicitur diuinum 
+      de<lb ed="#P" n="103" break="no"/>nominatione intrinseca, vt persona diuina, vel 
+      <lb ed="#P" n="104"/>bonitas, vel sapientia diuina illud est vere ipsa 
+      di<lb ed="#P" n="105" break="no"/>uinitas. Nec potest etiam impediri quin praedice. 
+      <lb ed="#P" n="106"/>tur natura de supposito pront suppositum accipitur 
+      <lb ed="#P" n="107"/>vt addens rationem ad essentiam, puta Pater &amp; 
+      <lb ed="#P" n="108"/>Filius &amp; Spltitus sanctus, quia relatio non differt a 
+      <lb ed="#P" n="109"/>fundamento quod est essentia. Er hoc videlicet in 
+      di<lb ed="#P" n="110" break="no"/>uinis, quidquid sit in aliis. Differentia autem quas 
+      <lb ed="#P" n="111"/>tantum est secundum rationem intelligendi non 
+      <lb ed="#P" n="112"/>impedit praedicationem saltem quantum ad esse 
+      <lb ed="#P" n="113"/>reale extra animam: &amp; ideo indiuinis natura 
+      prae<lb ed="#P" n="114" break="no"/>dicatur de supposito, dicendo quod &amp; Deus est 
+      <lb ed="#P" n="115"/>diuinitas &amp; Pater est diuinitas. 
+      </p>
+            <p xml:id="hx2hx3-b14232-d1e1196">
+               <lb ed="#P" n="116"/>Ad primumergo dicendum, quod licet 
+      inten<lb ed="#P" n="117" break="no"/>tiones istae communicabile &amp; incommunicabile 
+      <lb ed="#P" n="118"/>non praedicentur de se inuicem tamen substratae 
+      <lb ed="#P" n="119"/>res praedicantur de se inuicem scilicet Pater &amp; 
+      di<lb ed="#P" n="120" break="no"/>uinitas. Ad secundum patet ex dictis, vnde 
+      ma<lb ed="#P" n="121" break="no"/>ior est falsa. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="86"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b28157"><!-- l1d15q3 -->
+            <head xml:id="hx2hx3-b28157-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-b28157-Hd1e101" type="question-title">Utrum per donum spiritus sancti efficiatur quod non simus in hoc mundo</head>
+            <p xml:id="hx2hx3-b28157-d1e104">
+               <lb ed="#P" n="86"/>QVAESTIO TERTIA. 
+      <lb ed="#P" n="87"/>IVxta hoc quaeritur vtrum per donum Spiritus 
+      <lb ed="#P" n="88"/>sancti efficiatur, quod non simus in hoc 
+      mun<lb ed="#P" n="89" break="no"/>do. 
+      </p>
+            <p xml:id="hx2hx3-b28157-d1e115">
+               <lb ed="#P" n="90"/>Respondeo dicendum, quod anima nostra 
+      po<lb ed="#P" n="91" break="no"/>telt alicubi esse dupliciter. Vno modo per 
+      essen<lb ed="#P" n="92" break="no"/>lialem vnione, &amp; sic est tantum in corpore quod 
+      <lb ed="#P" n="93"/>informat: Alio modo potest esse alicubi scilicet 
+      <lb ed="#P" n="94"/>per quandam conformitatem intellectus, &amp; 
+      affe<lb ed="#P" n="95" break="no"/>ctus, sicut aliquis dicitur habere cor in re quam 
+      <lb ed="#P" n="96"/>vehementer amat, &amp; de qua frequenter cogitat, 
+      <lb ed="#P" n="97"/>iuxta illud cogatatione &amp; auiditate in iba ater na 
+      Pa<lb ed="#P" n="98" break="no"/>ttia conuer satiu est: Vnde dicitur ibi esse sicut in 
+      <lb ed="#P" n="99"/>obiecto amato, &amp; frequenter ex amore cogitato, 
+      <lb ed="#P" n="100"/>&amp; sic facit donum Spiritus sancti animam esse 
+      ex<lb ed="#P" n="101" break="no"/>tra mundum, &amp; esse in coelo. 
+      </p>
+            <p xml:id="hx2hx3-b28157-d1e144">
+               <lb ed="#P" n="102"/>Sed contra hoc obiiciunt quidam, quia ex hoc 
+      <lb ed="#P" n="103"/>quod conformamur alicui rei per operationem 
+      in<lb ed="#P" n="104" break="no"/>tellectus, non dicimur esse in ipsa, sed illa in 
+      no<lb ed="#P" n="105" break="no"/>bis. Et ideo hoc male dicitur. Et ideo vt dicunt 
+      <lb ed="#P" n="106"/>dicendum est aliter: scilicet quod anima 
+      san<lb ed="#P" n="107" break="no"/>cta dicitur verius esse in coelo, quam in proprio 
+      <lb ed="#P" n="108"/>corpore: quia esse in coelo per voluntatem 
+      con<lb ed="#P" n="109" break="no"/>sienit ei secundum suum esse specifictim: scilicet 
+      <lb ed="#P" n="110"/>secundum quod est natura intellectualis &amp; 
+      voliti<lb ed="#P" n="111" break="no"/>ua: esse autem in corpore in quantum est quaedam 
+      <lb ed="#P" n="112"/>sorma vera, hoc ei conuenit per esse generis. Item 
+      <lb ed="#P" n="113"/>esse quod habet in coelo, est verius, &amp; ideo ibi est 
+      <lb ed="#P" n="114"/>verius. Item secundum nobiliorem partem 
+      ani<lb ed="#P" n="115" break="no"/>mae, scilicet secundum voluntatem est ibi. Sed 
+      <lb ed="#P" n="116"/>haec sunt vana. Nam anima non solum secundum 
+      <lb ed="#P" n="117"/>esse generis respicit corpus quod informat: sed 
+      se<lb ed="#P" n="118" break="no"/>cundu esse specificum, alioquin non referretquod 
+      <lb ed="#P" n="119"/>quaecunque anima in quocunque corpore esset: 
+      <lb ed="#P" n="120"/>esse etiam essentiae animae, est verius esse animae, 
+      <lb ed="#P" n="121"/>quam esse rationis quod conuenit amato, vel 
+      in<lb ed="#P" n="122" break="no"/>tellecto, ex hoc quod intelligitur. Licet enim, 
+      <lb ed="#P" n="123"/>Deus amatus sit nobilior omni alia re, non tamen 
+      <lb ed="#P" n="124"/>esse rationis quod sequitur ex hioc quod est 
+      obie<lb ed="#P" n="125" break="no"/>ctu talium est verior res quam natura &amp; essentia 
+      <lb ed="#P" n="126"/>animae. Non est etiam in coelo secundum nobilio. 
+      <lb ed="#P" n="127"/>rem partem quam in mundo, quia secundum 
+      il<lb ed="#P" n="128" break="no"/>lam eandem voluntatem est anima in homine 
+      exi<lb ed="#P" n="129" break="no"/>stente in mundo, secundum quam dicitur esse in 
+      <lb ed="#P" n="130"/>coelo: licet secundum alium modum essendi. In 
+      <lb ed="#P" n="131"/>coelo etiam &amp; in corpore dicitur anima esse non 
+      <lb ed="#P" n="132"/>vniuoce, sed multum aequiuoce. Vnde non 
+      mul<lb ed="#P" n="133" break="no"/>tum sunt comparabilia, accipiendo esse in 
+      corpo<lb ed="#P" n="134" break="no"/>re secundum esse naturae suae: &amp; esse quod 
+      con<lb ed="#P" n="135" break="no"/>uenit sibi secundum quod est in coelo. Et ideome. 
+      <lb ed="#P" n="136"/>sius dicitur secundum primum modum, quod a 
+      ni<lb ed="#P" n="137" break="no"/>ma sit in coelo.
+      </p>
+            <p xml:id="hx2hx3-b28157-d1e226">
+      <!--87.xml-->
+               <pb ed="#P" n="87"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Si autem quaeratur vtrum verius, dicendum, 
+      <lb ed="#P" n="2"/>quod cum proprie comparatio debeat esse inter 
+      <lb ed="#P" n="3"/>vniuoca, non est bona quaestio quaerere vtrum 
+      ani<lb ed="#P" n="4" break="no"/>ma, vel voluntas, verius esse habeat vbi scilicet est 
+      <lb ed="#P" n="5"/>sicut in subiecto; vel vbi est sicut in obiecto ad 
+      in<lb ed="#P" n="6" break="no"/>uicem. Anima enim habens gratiam Spiritus 
+      san<lb ed="#P" n="7" break="no"/>cti, magis est in coelo, vel in Deo, quam in seipsa 
+      <lb ed="#P" n="8"/>quia ibi dicitur esse isto modo aliquid magis, quod 
+      <lb ed="#P" n="9"/>intensius amat, &amp; de quo cum maiori affectione 
+      <lb ed="#P" n="10"/>cogitat: anima autem habens gratiam Spiritus 
+      <lb ed="#P" n="11"/>sancti Deum intensius amat, &amp; de eo cum maiori 
+      <lb ed="#P" n="12"/>affectione cogitat, quam de seipsa. Vnde etiam 
+      <lb ed="#P" n="13"/>solet dici homnini quando multum intense afficitur 
+      <lb ed="#P" n="14"/>ad aliquid extra se, quod non est secum, quod 
+      in<lb ed="#P" n="15" break="no"/>telligendum est, quia non est secum quantum ad 
+      <lb ed="#P" n="16"/>cogitationem &amp; affectionem; quia obmitut cogi 
+      <lb ed="#P" n="17"/>tare de seipso vt cogitet de alio amato. Et 
+      quan<lb ed="#P" n="18" break="no"/>tum ad istud esse intelligendum est quod anima 
+      <lb ed="#P" n="19"/>est verius vbi amat quam vbi animat, quando 
+      sci<lb ed="#P" n="20" break="no"/>licet aliquis amat plus aliquid quam illud quod 
+      <lb ed="#P" n="21"/>animat. 
+      </p>
+            <p xml:id="hx2hx3-b28157-d1e281">
+               <lb ed="#P" n="22"/>Ad rationem dicendum, quod res intellecta 
+      <lb ed="#P" n="23"/>&amp; amata dicitur esse in intelligente &amp; amante 
+      si<lb ed="#P" n="24" break="no"/>cut solet dici, hoc fixum est in corde meo. Et e 
+      <lb ed="#P" n="25"/>conuerso sicut dicitur quod talis posuit cor suum in 
+      <lb ed="#P" n="26"/>tali, vel tali re. Quia enim obiectum &amp; 
+      poten<lb ed="#P" n="27" break="no"/>tia se habent sicut mouens &amp; motum. Motum 
+      au<lb ed="#P" n="28" break="no"/>tem est aliquo modo in mouente sicut effectus in 
+      <lb ed="#P" n="29"/>causa. Et e conuerso mouens est in moto 
+      secun<lb ed="#P" n="30" break="no"/>dum quod solet diei virtus causae manere vel esse 
+      <lb ed="#P" n="31"/>in effectu. Ideo maior illius rationis videtur esse 
+      <lb ed="#P" n="32"/>falsa. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

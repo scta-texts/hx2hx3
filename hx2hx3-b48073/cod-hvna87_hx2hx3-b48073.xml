@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="144"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b48073"><!-- l1d37q1 --> 
+    <!-- this is d. 37 even though the text says 35;-->
+            <head xml:id="hx2hx3-b48073-Hd1e101">Quaestio 1</head>
+            <head xml:id="hx2hx3-b48073-Hd1e103" type="question-title">Utrum angelus moveatur localiter</head>
+            <p xml:id="hx2hx3-b48073-d1e106">
+               <lb ed="#P" n="106"/>Distinctio <sic>trigesima quinta</sic>. 
+      <lb ed="#P" n="107"/>QVAESTIO PRIMA.
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e115">
+               <lb ed="#P" n="108"/>CIrca distinctionem <sic>trigesimam quintam</sic>. 
+      <lb ed="#P" n="109"/>Quaeritur vtrum Angelus moueatur 
+      loca<lb ed="#P" n="110" break="no"/>liter. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e127">
+               <lb ed="#P" n="111"/>Et arguitur quod non. Ponamus enim quod 
+      <lb ed="#P" n="112"/>Angelus debeat moueri ab. a. in b. &amp; sint a, &amp; b 
+      <lb ed="#P" n="113"/>duo loca immediata, ita quod rec edendo a primo 
+      <lb ed="#P" n="114"/>statim feratur in secundum: 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e138">
+               <lb ed="#P" n="115"/>Vnde sic arguitur: Angelus dum mouetur ab 
+      <lb ed="#P" n="116"/>a. in b. aut transit medium aut non: si transit 
+      me<lb ed="#P" n="117" break="no"/>dium, cum inter quaecumque duo signa in loco 
+      <lb ed="#P" n="118"/>aecepta sint infinita, sequitur quod transeat 
+      infi<lb ed="#P" n="119" break="no"/>nita media: sed hoc est impossibile. Probatur 
+      mi<lb ed="#P" n="120" break="no"/>nor. Quia si transit infinita media, aut hoc est 
+      mo<lb ed="#P" n="121" break="no"/>tu continuo, aut discreto: non continuo, quia 
+      An<lb ed="#P" n="122" break="no"/>gelus non est quid, quantum, aut continuum, 
+      <lb ed="#P" n="123"/>continuitas autem motus, dependet ex 
+      continuita<lb ed="#P" n="124" break="no"/>te mobilis: nec etiam motu disereto: quia infinita 
+      <lb ed="#P" n="125"/>non possunt consumi nisi motu continuo: ergti 
+      <lb ed="#P" n="126"/>nullo modo potest moueri transeundo medium. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e167">
+               <lb ed="#P" n="127"/>Nec etiam potest moueri non transeundo 
+      me<lb ed="#P" n="128" break="no"/>dium: quia dum mouetur aba. in b. aut est totus in 
+      <lb ed="#P" n="129"/>a. aut totus in b. aut partim in a. &amp; partim in b, aut 
+      <lb ed="#P" n="130"/>nec ina. nec inb. sed in medio. No pot est esse 
+      quod<lb ed="#P" n="131" break="no"/>sit totus in a. vel in b. quia quando mobile est 
+      to<lb ed="#P" n="132" break="no"/>tum intermino a quo, vel in termino ad quem, 
+      <lb ed="#P" n="133"/>non est motus, nec etiam potest esse partim in 
+      v<lb ed="#P" n="134" break="no"/>troque, quia Angelus non est patibilis. Ergo si 
+      <!--145.xml-->
+      <pb ed="#P" n="145"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>monetur, oportet dum mouetur esse in 
+      me<lb ed="#P" n="2" break="no"/>dio, &amp; sic non potest moueri non transeundo 
+      me<lb ed="#P" n="3" break="no"/>dium, nec etiam potest moueri transeundo 
+      me<lb ed="#P" n="4" break="no"/>dlum vt deductum est: ergo nullo modo. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e202">
+               <lb ed="#P" n="5"/>Praeterea si Angelus mouetur, aut hoc est in 
+      in<lb ed="#P" n="6" break="no"/>stanti, aut in tempore: non mouetur in instanti; 
+      <lb ed="#P" n="7"/>quia impossibile est motum esse in instanti: nec in 
+      ten<lb ed="#P" n="8" break="no"/>pore; quia si Angelus ponatur moueri aba. inb. 
+      <lb ed="#P" n="9"/>ita qod ista duo loca sint immediata in illo tem. 
+      <lb ed="#P" n="10"/>pore quo ponitur moueri, aut est totus inb. aut 
+      to<lb ed="#P" n="11" break="no"/>tus in a. aut partim vtrobique. Non totus in a. 
+      <lb ed="#P" n="12"/>nec totus in b. quia dum mobile est totum in 
+      alte<lb ed="#P" n="13" break="no"/>ro terminorum non mouetur, imo magis si sit ibi in 
+      <lb ed="#P" n="14"/>aliquo tempore, nec etiam potest esse partimin 
+      v<lb ed="#P" n="15" break="no"/>troque: quia impartibilis est, ergo nullo modo 
+      po<lb ed="#P" n="16" break="no"/>test moueri. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e231">
+               <lb ed="#P" n="17"/>Contra est magister in littera.
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e236">
+               <lb ed="#P" n="18"/>Respondeo, quator sunt sui declaranda: 
+      <lb ed="#P" n="19"/>Primo, quomodo Angelus sit in loco. 
+      <lb ed="#P" n="20"/>Secundo, vtrum moueatur localiter. 
+      <lb ed="#P" n="21"/>Tertio, vtrum transeat medium. 
+      <lb ed="#P" n="22"/>Quarto, vtrum moueaur in tempore, vel in 
+      in<lb ed="#P" n="23" break="no"/>stanti. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e253">
+               <lb ed="#P" n="24"/>ARTICVLVS PRIMIA. 
+      <lb ed="#P" n="25"/>QVantum ad primum, sciendum estquod 
+      qui<lb ed="#P" n="26" break="no"/>ndam Philosophi posuerunt, quod Angeli 
+      <lb ed="#P" n="27"/>mouent corpora coelestia, &amp; quod sunt ita deter. 
+      <lb ed="#P" n="28"/>minati ad motum illum quod non possunt 
+      moue<lb ed="#P" n="29" break="no"/>re aliud immediate. Et secundum istos licet 
+      An<lb ed="#P" n="30" break="no"/>geli sint in corporibus caelestibus per operationem &amp; 
+      <lb ed="#P" n="31"/>motum, non tamen possunt esse alibi, nec per 
+      con<lb ed="#P" n="32" break="no"/>sequens possunt mouere alibi aliquidnec per 
+      con<lb ed="#P" n="33" break="no"/>sequens possunt mouere localiter, nec aliquid 
+      ope<lb ed="#P" n="34" break="no"/>raricirca ista inferiora immediate. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e279">
+               <lb ed="#P" n="35"/>Hoc autem est erroneum, &amp; ideo 
+      praetermit<lb ed="#P" n="36" break="no"/>tendum. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e286">
+               <lb ed="#P" n="37"/>Est etiam irrationabile. Quia omne quod 
+      a<lb ed="#P" n="38" break="no"/>git natura intellectualis extra se, per intellectum, 
+      <lb ed="#P" n="39"/>&amp; voluntatem, agit per siberum arbitrium: quod 
+      <lb ed="#P" n="40"/>autem fit libero arbitrio potest fieri &amp; non 
+      fio<lb ed="#P" n="41" break="no"/>ri. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e299">
+               <lb ed="#P" n="42"/>Vnde non videtur rationabile quod 
+      intelligen<lb ed="#P" n="43" break="no"/>tiae sint necessario obligatae ad aliquem motum 
+      <lb ed="#P" n="44"/>determinatum aiicuius corporis ex natura sua. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e308">
+               <lb ed="#P" n="45"/>Alia est opinio dicentium, quod Angelus est in 
+      <lb ed="#P" n="46"/>loco per essentiam suam ita quod essentia sua est ci 
+      <lb ed="#P" n="47"/>ratio essendi inloco. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e317">
+               <lb ed="#P" n="48"/>bed hoc est impossibile; quia si Angelus est in lo. 
+      <lb ed="#P" n="49"/>coper essentiam suam, ita quod essentia sua est 
+      si<lb ed="#P" n="50" break="no"/>bi ratio essendi in loco; aut est in loco per 
+      conta<lb ed="#P" n="51" break="no"/>ctum quantitatis molis; aut per contactum virtutis, 
+      <lb ed="#P" n="52"/>Non primo modo. Quia si essentia sua, esset ei ra 
+      <lb ed="#P" n="53"/>tio essendi in loco secundum contactum quantitatis 
+      <lb ed="#P" n="54"/>molis, sequaeretur quod sua essentia esset quantitas 
+      <lb ed="#P" n="55"/>molis: quod est impossibile. Nec secundo modo 
+      <lb ed="#P" n="56"/>quia tunc sua essentia esset sua virtus motiua, quod 
+      <lb ed="#P" n="57"/>similiter falsum est. Quia siue potentia Angeli 
+      <lb ed="#P" n="58"/>differat ab eius essentia, siue non: tamen sua 
+      essen<lb ed="#P" n="59" break="no"/>tia non est sibi sufficiens ratio ad mouendum; siue 
+      <lb ed="#P" n="60"/>intelligere &amp; velle: &amp; ideo impossibile est quod 
+      <lb ed="#P" n="61"/>moucat inmediate per suam essentiam sine aliquo 
+      <lb ed="#P" n="62"/>addito. Praeterea. Substantia materialis magis 
+      de<lb ed="#P" n="63" break="no"/>beret esse ratio essendi in loco; quam 
+      immateria<lb ed="#P" n="64" break="no"/>lis. Sed substantia materialis non est sibi ratio 
+      es<lb ed="#P" n="65" break="no"/>sendi in loco: sed eius quantitas. Ergo, &amp;c. Est 
+      <lb ed="#P" n="66"/>etiam damnatum in articulis Episcopi 
+      Parisien<lb ed="#P" n="67" break="no"/>sis. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e364">
+               <lb ed="#P" n="68"/>Tertia opinio est, quod Angelus est in loco non 
+      <!--145.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>quidem per essentiam suam: ita quod sua essentia 
+      <lb ed="#P" n="70"/>sit ei ratio essendi in loco. Es tamen in loco quan. 
+      <lb ed="#P" n="71"/>tum ad essentiam suam; ita quod secundum eos 
+      <lb ed="#P" n="72"/>essentia Angeli, siue Angelus ipse, est subiectum 
+      <lb ed="#P" n="73"/>propinquitatis &amp; distantiae. Ita quod dum mouet 
+      la<lb ed="#P" n="74" break="no"/>pidum, oportet quod sit simul in loco cum lapides 
+      <lb ed="#P" n="75"/>quia oportet moueri &amp; motum esse simul, &amp; sic 
+      <lb ed="#P" n="76"/>fit eius essentia subiectum situs, &amp; vbi. Sed nec 
+      <lb ed="#P" n="77"/>ista positio videtur aliis esse vera. Quod antequam 
+      <lb ed="#P" n="78"/>decsaretur, praemitto. Quicquid ibi dico, 
+      accipia<lb ed="#P" n="79" break="no"/>tur sicut relatiue &amp; conferendo dictum. Et si 
+      ali<lb ed="#P" n="80" break="no"/>quid sit ibi quod repugnet articulis Episconi 
+      Pars<lb ed="#P" n="81" break="no"/>siensis, habeatur puo non dido. Videtur ergo alus 
+      <lb ed="#P" n="82"/>quod Angelus non est in loco, sicut subiectum pro. 
+      <lb ed="#P" n="83"/>pinquitatis, vel distantiae vel alicuius situationis 
+      <lb ed="#P" n="84"/>proprie dictae; quia Quando aliquid est in alio 
+      si<lb ed="#P" n="85" break="no"/>cut m subiecto, oportet quod inueniatur in eo 
+      ra<lb ed="#P" n="86" break="no"/>tio susceptiua illius actus. Sed ratio suscipiendi vbi 
+      <lb ed="#P" n="87"/>&amp; situm non potest esse in Angelo. Ergo, &amp;c. 
+      <lb ed="#P" n="88"/>Maior est euidens. Quia nullus actus vel subst 
+      an<lb ed="#P" n="89" break="no"/>tialis, vel accidentalis potest esse sinc suo proprio 
+      <lb ed="#P" n="90"/>susceptiuo, quod est prima ratio suscipiendi ipsum, 
+      <lb ed="#P" n="91"/>dum modo sit actus natus esse in alio, &amp; hdc dico 
+      <lb ed="#P" n="92"/>per naturam, quia Deus potest facere accidens 
+      si<lb ed="#P" n="93" break="no"/>ne subiecto. Minorem probo. Quia propria &amp; 
+      in<lb ed="#P" n="94" break="no"/>mediata ratio susceptiua vbi, &amp; situs est quantitas 
+      <lb ed="#P" n="95"/>molis. Sed hocl non potest in Angelo. Ergo, &amp;c. 
+      <lb ed="#P" n="96"/>Minor patet de se. Maior etiam plana est. Quia 
+      <lb ed="#P" n="97"/>vbi est situs, est passio quanti. Si dicatur quod vbi 
+      <lb ed="#P" n="98"/>&amp; situs qui conuenit corporibus est passio 
+      quan<lb ed="#P" n="99" break="no"/>ti, non tamen vbi &amp; situs qui conuenit 
+      Ange<lb ed="#P" n="100" break="no"/>lis. Non valet, quia si vbi &amp; situs quae ponuntur 
+      <lb ed="#P" n="101"/>in Angelis, non sunt eiusdem rationis cum his quae 
+      <lb ed="#P" n="102"/>suntid corporibus: tunc, non est controuersia nisi 
+      <lb ed="#P" n="103"/>in voce: quia posses aequiuoce quencumque 
+      vel<lb ed="#P" n="104" break="no"/>les, dicere, vel vbi vel situm. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e451">
+               <lb ed="#P" n="105"/>Praeterea secundum te, Angelus est in leco, pet 
+      <lb ed="#P" n="106"/>suam virtutem, siue per operatibnem in leco, &amp; 
+      <lb ed="#P" n="107"/>hoc situaliters sicut subiectum ipsius vbi. Aut ergo 
+      <lb ed="#P" n="108"/>perdicit principium passiuum essendi in loco, 
+      <lb ed="#P" n="109"/>aut actiuum. Non passium. Quia sicut essentia 
+      <lb ed="#P" n="110"/>Angeli non est quantitas, nec etiam quanta per 
+      se<lb ed="#P" n="111" break="no"/>vel per accidens. Ita nec virtus eius, vel operatio 
+      <lb ed="#P" n="112"/>quantum ad operationem manentem, &amp; sic non 
+      <lb ed="#P" n="113"/>pdtest esse ratio passiua essendi in loco situaliter, &amp;c 
+      <lb ed="#P" n="114"/>hoc quod est subiectum propinquitatis vel 
+      distan<lb ed="#P" n="115" break="no"/>tiae. Si autem lv per dicit liabitudinem principii 
+      <lb ed="#P" n="116"/>actiui, quia per virtutem applicat se ad locum, hoc 
+      <lb ed="#P" n="117"/>non sufficit quia praeter principium actiuum, 
+      requi<lb ed="#P" n="118" break="no"/>ritur principium passiuum, per quod ponatur 
+      sub<lb ed="#P" n="119" break="no"/>iectus situs. Cu ergo hoe non possit dari, non potest 
+      <lb ed="#P" n="120"/>dici per virtutem, vel operationem manetem, esse 
+      <lb ed="#P" n="121"/>in loco sicut subicctum situationis alicuius. Nec 
+      <lb ed="#P" n="122"/>potest dici quod situaliter sit in loco per 
+      operatio<lb ed="#P" n="123" break="no"/>nem, transeuntem scilicet per motum causatum in 
+      <lb ed="#P" n="124"/>alio: quia nihil potest esse subicctum situs, &amp; vbi 
+      <lb ed="#P" n="125"/>nisi per aliquid sibi inhaerens. Licet enim aliquid 
+      <lb ed="#P" n="126"/>possit denominari ab aliquo extrinseco: non 
+      ta<lb ed="#P" n="127" break="no"/>men potest realiter esse subiectum alicuius nisi per 
+      <lb ed="#P" n="128"/>aliquid sibi intrinsecum. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e506">
+               <lb ed="#P" n="129"/>Praetera, illud quod est in loco vt subiectum 
+      <lb ed="#P" n="130"/>rtropinquitatis &amp; distantrae, per pnius intelligitur 
+      <lb ed="#P" n="131"/>esse propinquum quam agere, vel mouere, &amp; per 
+      <lb ed="#P" n="132"/>consequens prius intelligitur esse in situ vel loco 
+      <lb ed="#P" n="133"/>propinquo mobili, quam moueat. Imo, ad hod 
+      <lb ed="#P" n="134"/>quod moucat, requiritur quod pnus intesligatur 
+      <lb ed="#P" n="135"/>in situ propinquo mobili. Sed motus non est id 
+      <lb ed="#P" n="136"/>quod requiritur ad hoc quod aliquid moueat: Od 
+      <lb ed="#P" n="137"/>sit inloco: sed magis &amp; connerso. Quod est 
+      con<lb ed="#P" n="138" break="no"/>tra illos qui ponunt Angelum esse in seco per ope¬ 
+      <!--146.xml-->
+      <pb ed="#P" n="146"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tationem. Et ideo est quarta opinio. Quae dicit A 
+      <lb ed="#P" n="2"/>quod Angelus non est in loco quantum ad 
+      essen<lb ed="#P" n="3" break="no"/>tiam, nec quantum ad aliquid quod sit in eo sicut 
+      <lb ed="#P" n="4"/>subiectum propinquitatis, vel distantiae, sed 
+      ma<lb ed="#P" n="5" break="no"/>gis dicitur esse in loco inquantum est in corpore 
+      lo<lb ed="#P" n="6" break="no"/>cato; sicut eausa dicitur esse in effectu immediato. 
+      <lb ed="#P" n="7"/>lta quod ipsum esse in aliquo corpore, est ipsum 
+      <lb ed="#P" n="8"/>habere habitudinem ad illud sicut mouens ad 
+      mo<lb ed="#P" n="9" break="no"/>tum: ita quod non habet habitudinem 
+      propinqui<lb ed="#P" n="10" break="no"/>tatis vel distantiae secundum situm ad aliquod 
+      cor<lb ed="#P" n="11" break="no"/>pus, siue operetur circa illud, siue non: sed tantum 
+      <lb ed="#P" n="12"/>causae ad effectum 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e563">
+               <lb ed="#P" n="13"/>Quod autem dicitur inmediata causa, hon 
+      o<lb ed="#P" n="14" break="no"/>portet ibi accipere immediationem secundum 
+      or<lb ed="#P" n="15" break="no"/>dinem siutus: sed secundum ordinem causalitatis. 
+      <lb ed="#P" n="16"/>Quando enim dicimus ignis rarefacit aquam 
+      me<lb ed="#P" n="17" break="no"/>diante calore impresso aquae, mediatio non 
+      at<lb ed="#P" n="18" break="no"/>tenditur secundum ordinem situs: quia inter 
+      ca<lb ed="#P" n="19" break="no"/>lorem aquae &amp; eius raritatem non est ordo situs sed 
+      <lb ed="#P" n="20"/>causalitatis tantum. Similiter etiam quando 
+      dici<lb ed="#P" n="21" break="no"/>tur quod Angelus non potest mouere ad formam, 
+      <lb ed="#P" n="22"/>nsi mediante motu ad locum. Ista mediatio non est 
+      <lb ed="#P" n="23"/>secundum situm: sed secundum ordinem 
+      causali<lb ed="#P" n="24" break="no"/>tatis. Ita quod ipsum habere habitudinem ad 
+      cor<lb ed="#P" n="25" break="no"/>pus existens in loco, sicut mouens inmediatum ad 
+      <lb ed="#P" n="26"/>mobile accipiendo inmediationem causalitatis non 
+      <lb ed="#P" n="27"/>situs, est ipsum esse in loco. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e598">
+               <lb ed="#P" n="28"/>Hoc autem videtur rationabile quia cum 
+      ali<lb ed="#P" n="29" break="no"/>quid possit habere habitudinem ad locum, vel 
+      se<lb ed="#P" n="30" break="no"/>cundum applicationem situalem, vel secundum 
+      mo<lb ed="#P" n="31" break="no"/>uere &amp; moueri; Angelus autem non possit 
+      ha<lb ed="#P" n="32" break="no"/>bere habttudinem secundum situm ad locum: 
+      re<lb ed="#P" n="33" break="no"/>linquitur quod tantum habeat ad locum, siue ad 
+      <lb ed="#P" n="34"/>aliquid locatum, habitudinem secundum mouerea 
+      <lb ed="#P" n="35"/>&amp; moueri, vel habitu: vel actu. Et ideo couenit 
+      <lb ed="#P" n="36"/>esse in loco, non. proprie in loco: sed secundum 
+      <lb ed="#P" n="37"/>mouens in moto, siue secundum modum essendi 
+      <lb ed="#P" n="38"/>quo causa dicitur esse in effectu: vel etiam &amp; 
+      con<lb ed="#P" n="39" break="no"/>uerso: sicut motum in mouente, &amp; effectus in 
+      cau<lb ed="#P" n="40" break="no"/>sa. Si ponatur quod corpus possit agere in 
+      Spiri<lb ed="#P" n="41" break="no"/>tum. Sed contra hoc sunt quaedam difficilia. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e631">
+               <lb ed="#P" n="42"/>Primo, quia si Angelus non est magis 
+      propin<lb ed="#P" n="43" break="no"/>quus vni, quam alteri, quomodo magis monebit 
+      <lb ed="#P" n="44"/>vnum plusquam alterum, vel etiam, quomodo 
+      <lb ed="#P" n="45"/>intelligitur quod se applicat ad mouendum 
+      ali<lb ed="#P" n="46" break="no"/>quid: ex quo nihil est ei propinquius. Cum ergo 
+      <lb ed="#P" n="47"/>ponatur, quod Angelus se applicat ad corpus 
+      mo<lb ed="#P" n="48" break="no"/>uendum, videtur quod quandoque sit propinquius, 
+      <lb ed="#P" n="49"/>&amp; quandoque distans: &amp; per consequens est 
+      subie<lb ed="#P" n="50" break="no"/>ctum propinquitatis &amp;distantiae. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e654">
+               <lb ed="#P" n="51"/>Secundo, quia si Angelus pro tanto est in loco 
+      <lb ed="#P" n="52"/>quod mouet aliquid, existens in loco poterit non 
+      <lb ed="#P" n="53"/>mouere, &amp; per consequens tunc nusquam erit. 
+      <lb ed="#P" n="54"/>floc autem videtur falsum: &amp; contra 
+      argumen<lb ed="#P" n="55" break="no"/>tum, scilicet quod Angelus sit nusquam. Ergo, 
+      <lb ed="#P" n="56"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e670">
+               <lb ed="#P" n="57"/>Tertio, quia si Angelus nulli est propinquus, 
+      <lb ed="#P" n="58"/>vel distans, tunc poterit mouere plura corpora 
+      <lb ed="#P" n="59"/>existentia indiuersis locis, quantumcumque 
+      remo<lb ed="#P" n="60" break="no"/>tis, puta in occidente, &amp; in oriento: &amp; per 
+      conse<lb ed="#P" n="61" break="no"/>quens vnus Angelus poterit esse in pluribus locis 
+      si<lb ed="#P" n="62" break="no"/>mul hoc est inconueniens. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e686">
+               <lb ed="#P" n="63"/>Quarto, quia plures Angeli possunt mouere 
+      i<lb ed="#P" n="64" break="no"/>dem corpus. Si ergo Angelum esse in loco, non 
+      <lb ed="#P" n="65"/>est nisi habere habitudine ad corpus sicut ad remn 
+      <lb ed="#P" n="66"/>motam, tunc duo Angeli poterunt esse in eodem 
+      <lb ed="#P" n="67"/>loco, &amp; sic duo Angeli erunt simul: hoc autem est 
+      <lb ed="#P" n="68"/>inconueniens. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e702">
+               <lb ed="#P" n="69"/>Quinto, quia cum quibusdam magistris 
+      videa<lb ed="#P" n="70" break="no"/>tur, &amp; hoc probabiliter quod anima separata nihil 
+      <!--146.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>possit mouere: eo quod potentia sua motiua est or 
+      <lb ed="#P" n="72"/>ganica, quae non manet in anima separata. Cum 
+      <lb ed="#P" n="73"/>anima sic separata non possit aliduid mouere non 
+      <lb ed="#P" n="74"/>erit alicubi, nec, scilicet in coelo nec in inferni. Hoc 
+      <lb ed="#P" n="75"/>autem est erroneum. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e724">
+               <lb ed="#P" n="76"/>Sexto, quia si ad hoc quod aliquid dicatur esse, 
+      <lb ed="#P" n="77"/>alicubi, sufficit quod moueat, vel efficiat aliquid 
+      <lb ed="#P" n="78"/>existens ibi, cum sol &amp; aliacorpora coelestia multa 
+      <lb ed="#P" n="79"/>moueant alterando &amp; esficiant in terra &amp; in aliis 
+      <lb ed="#P" n="80"/>elementis multos effectus: sequeretur quod sol &amp; 
+      <lb ed="#P" n="81"/>alia corpora coelestia essent, vel in loco alterius 
+      ele<lb ed="#P" n="82" break="no"/>ti. Hoc autem vt videtur est falsum. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e742">
+               <lb ed="#P" n="83"/>Ad primum istorum, dicendum quod non 
+      po<lb ed="#P" n="84" break="no"/>test intelligi quod Angelus antequam aliquid agat 
+      <lb ed="#P" n="85"/>in corpore applicet se ad corpus, localiter 
+      appro<lb ed="#P" n="86" break="no"/>ximando sccundum situm localem: secundum 
+      il<lb ed="#P" n="87" break="no"/>ses qui ponunt quod non est in loco nisi per hoc 
+      <lb ed="#P" n="88"/>quod operatur circa eorpus. Quia si ita esset vt 
+      su<lb ed="#P" n="89" break="no"/>pra dictum est, non conueniret Angelo esse in 
+      lo<lb ed="#P" n="90" break="no"/>co per operari in loco, imo magis &amp; conuerso esse 
+      <lb ed="#P" n="91"/>in loco esset ei ratio quod posset ibi aliquid 
+      opera<lb ed="#P" n="92" break="no"/>ri. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e767">
+               <lb ed="#P" n="93"/>Dicendum est ergo, quod in corporibus in 
+      qui<lb ed="#P" n="94" break="no"/>bus virtutes actiue, &amp; passiue sunt quantae per 
+      ac<lb ed="#P" n="95" break="no"/>cidens, requiritur praeter proportionem potentiae 
+      <lb ed="#P" n="96"/>actiuae adpassiuam, quae est secundum qualitates 
+      a<lb ed="#P" n="97" break="no"/>ctiua &amp;: passiuas appropinquatio secundum situm 
+      <lb ed="#P" n="98"/>Vnde ad hoc quod vnum corpus calefaciat aliud, 
+      <lb ed="#P" n="99"/>requiritur praeter potentiam calefactiua, &amp; 
+      poten<lb ed="#P" n="100" break="no"/>tiam qua aliquid est calefactibile appropinquatio 
+      <lb ed="#P" n="101"/>eorum inuicem secundum situm. In illis autem in 
+      <lb ed="#P" n="102"/>quibus non est quantitas, nec situs ad hoc quod 
+      a<lb ed="#P" n="103" break="no"/>gant &amp; patiantur non requiritur nisi proportio 
+      se<lb ed="#P" n="104" break="no"/>cundum ordinem principii actiui ad passiuu. Sino 
+      <lb ed="#P" n="105"/>ordine aliquo propinquitatis vel distantiae 
+      secun<lb ed="#P" n="106" break="no"/>dum situm. Et quia in Angelo non est quantitas 
+      <lb ed="#P" n="107"/>mobilis, licet id quod mouetur ab eo sit quantuma 
+      <lb ed="#P" n="108"/>nd hoc quod moueat corpus non sequitur inter 
+      ip<lb ed="#P" n="109" break="no"/>sum &amp; corpus, ordo secundum situm, sed tantum 
+      <lb ed="#P" n="110"/>proportio secundum virtutem motiuam in ipso: 
+      <lb ed="#P" n="111"/>&amp; potentiam passiuam in corpore. Ita quod in 
+      ip<lb ed="#P" n="112" break="no"/>so sit principium effectiuum motus, &amp; in corporo 
+      <lb ed="#P" n="113"/>sit habilitas ad talem motum. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e815">
+               <lb ed="#P" n="114"/>Sed contra hoc potest dici. Quia si ad hoc quod 
+      <lb ed="#P" n="115"/>Angelus moueat, &amp; corpus moueatur, non 
+      re<lb ed="#P" n="116" break="no"/>quiritur nisi proportio secundupotentiam actiuam 
+      <lb ed="#P" n="117"/>&amp; passiuam, sequitur quod semper Angelus 
+      mo<lb ed="#P" n="118" break="no"/>ueat, cum talis proportio semper maneat. Quia 
+      <lb ed="#P" n="119"/>potentia per quam Angelus mouet, semper est in 
+      <lb ed="#P" n="120"/>Angelo, &amp; habilitas semper est in corpore, ad 
+      mo<lb ed="#P" n="121" break="no"/>tum. Item etiam cum in quocumque corpore salte 
+      <lb ed="#P" n="122"/>non exedente virtutem Angeli sit habilitas ad 
+      mo<lb ed="#P" n="123" break="no"/>tum: non videtur quare plus moueat vnum 
+      cor<lb ed="#P" n="124" break="no"/>pus quam aliud. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e841">
+               <lb ed="#P" n="125"/>Et ad hoc dicendum est quod principium 
+      a<lb ed="#P" n="126" break="no"/>ctiuum completum per quod Angelus mouet, non 
+      <lb ed="#P" n="127"/>semper est in Angelo, siuc ponatur mouere per 
+      vo<lb ed="#P" n="128" break="no"/>luntatem tantum, siue per voluntatem &amp; aliquam 
+      <lb ed="#P" n="129"/>aliam potentiam executiuam. Quia si ponatur 
+      mo<lb ed="#P" n="130" break="no"/>uere per voluntatem, intelligendum est quod 
+      mo<lb ed="#P" n="131" break="no"/>uet per actum voluntatis quo eligit aliquid 
+      mouie<lb ed="#P" n="132" break="no"/>re, non autem per ipsam potentiam volitiuam: Lu 
+      <lb ed="#P" n="133"/>quia talis actus non semper inest Angelo, ideo non 
+      <lb ed="#P" n="134"/>semper mouet. Et quia eius velle quod susficit ad 
+      <lb ed="#P" n="135"/>mouendum, non est velle indifferens ad velle 
+      mo<lb ed="#P" n="136" break="no"/>uere hoc, &amp; velle mouere illud: imo vnusquisque 
+      <lb ed="#P" n="137"/>actus. est velle determinate mouere hoc corpus, 
+      <lb ed="#P" n="138"/>vel mouere illud corpus detei minate, Ided 
+      <lb ed="#P" n="139"/>non est indifferens ad mouecndum hoc vel illud. 
+      <lb ed="#P" n="140"/>lmo, tantum dercim: nate nicuet illud quod elsgsi 
+      <!--147.xml-->
+      <pb ed="#P" n="147"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>mouere; &amp; non aliud. Et sic Angelum preparare 
+      <lb ed="#P" n="2"/>se, vel applicare ad mouendum, non est aliud quam 
+      <lb ed="#P" n="3"/>ipsum exire in actum volendiquo vult 
+      determina<lb ed="#P" n="4" break="no"/>te aliquid mouere Nec sequitur, quod si velle suu 
+      <lb ed="#P" n="5"/>est sibi principium mouendi, quod si vellet 
+      moue<lb ed="#P" n="6" break="no"/>ie quantumcumque corpus: possit mouere 
+      quan<lb ed="#P" n="7" break="no"/>tumcumque corpus. Quamuis enim aliqua volun 
+      <lb ed="#P" n="8"/>tas comparetur ad aliquid vt ad volitum, &amp; ad 
+      ef<lb ed="#P" n="9" break="no"/>fectum simul; non tamen oportet quod ad quodcu 
+      <lb ed="#P" n="10"/>que comparatur vt ad volitum, quod ad illud 
+      com<lb ed="#P" n="11" break="no"/>paretur vt ad effectum. Sicut velle meum 
+      compa<lb ed="#P" n="12" break="no"/>ratur ad motionem oculi vel fantasmatis, vt ad 
+      vo<lb ed="#P" n="13" break="no"/>situm, &amp; vt ad effectum. Quia illum motum, &amp; 
+      <lb ed="#P" n="14"/>volo: &amp; volendo efficio. Non tamen oportet quod 
+      <lb ed="#P" n="15"/>faciam quicquid velim. Quia illud quod fit ab 
+      a<lb ed="#P" n="16" break="no"/>liqua voluntate, non solum debet habere 
+      ratio<lb ed="#P" n="17" break="no"/>nem mobilis: sed debet etiam esse 
+      proportiona<lb ed="#P" n="18" break="no"/>tum vigori ipsius actus volendi. Si autem ponatur 
+      <lb ed="#P" n="19"/>quod Angelus moueat per potentiam mediam 
+      <lb ed="#P" n="20"/>executiuam, idem sequitur. Quia illa potentia 
+      <lb ed="#P" n="21"/>non mouet, nec est sufficiens ad mouendum: nisi 
+      <lb ed="#P" n="22"/>per imperium voluntatis. Et ideo non mouet nili 
+      <lb ed="#P" n="23"/>quando vult, &amp; quod vult dummodo sit ei 
+      propor<lb ed="#P" n="24" break="no"/>tionatum, &amp; non sit contra resistens. 
+      <lb ed="#P" n="25"/>Ad aliud dicunt quidam, quod ponere quod 
+      <lb ed="#P" n="26"/>Angelus sit nusquam, est erroneum; &amp; tamem non 
+      <lb ed="#P" n="27"/>est in loco nisi per operationem. Vnde dicunt 
+      <lb ed="#P" n="28"/>quod Angelus semper operatur aliquid in aliquo 
+      <lb ed="#P" n="29"/>loco: sed hoc non est, vt dicunt, mouere corpus: 
+      <lb ed="#P" n="30"/>sic applicare virtutem ad locum. Quod autem 
+      An<lb ed="#P" n="31" break="no"/>pelus semper aliquid operatur alicubi, probant. 
+      <lb ed="#P" n="32"/>Quia cum vniuersum sit connexum, oportet quod 
+      <lb ed="#P" n="33"/>principales partes eius, in quas principaliter 
+      diui<lb ed="#P" n="34" break="no"/>ditur; scilicet, substantia corporalis, &amp; spritualis, 
+      <lb ed="#P" n="35"/>sint connexae. Sed hoc non esset si Angelus non 
+      o<lb ed="#P" n="36" break="no"/>peraretur semper alicubi. Ergo, &amp;c. Probatio 
+      mi<lb ed="#P" n="37" break="no"/>noris. Quia corpus, &amp; Spiritus, aut connectuntur 
+      <lb ed="#P" n="38"/>secundum tactum quantitatis: aut secundum 
+      ta<lb ed="#P" n="39" break="no"/>ctum virtutis. Non primo modo, quia in Spiritu 
+      <lb ed="#P" n="40"/>non est quantitas, relinquitur ergo quod 
+      conne<lb ed="#P" n="41" break="no"/>ctuntur secundum contactum virtutis: hoc autem 
+      <lb ed="#P" n="42"/>non esset nisi semper alicubi operaretur. Er go, 
+      <lb ed="#P" n="43"/>&amp;c. Ista autem sunt valde friuola. Quod ergo 
+      <lb ed="#P" n="44"/>dicitur primo quod posito quod Angelus non sit 
+      <lb ed="#P" n="45"/>in sloco, nisi per hoc quod aliquid actu ibi 
+      opera<lb ed="#P" n="46" break="no"/>tur, quod cum hoc stet, quod Angelus non possit 
+      <lb ed="#P" n="47"/>esse nusquam: est manifeste falsum &amp; erroneum. 
+      <lb ed="#P" n="48"/>Quia Angelus aut mouet necessitate naturae sicut 
+      <lb ed="#P" n="49"/>ignis calefacit, ita quod non potest non mouere: 
+      <lb ed="#P" n="50"/>aut mouet libero arbitrio. Primo modo non 
+      po<lb ed="#P" n="51" break="no"/>test, quia cum Angelus moueat per intellectum, 
+      <lb ed="#P" n="52"/>&amp; voluntatem: siue cum hoc ponatur potentia 
+      <lb ed="#P" n="53"/>executiua siuc non: non est necesse Angelum 
+      mo<lb ed="#P" n="54" break="no"/>uere. Quia nun est necesse ipsum velle mouere 
+      <lb ed="#P" n="55"/>corpus, vel aliquid facere circa corpus, Cum hoc 
+      <lb ed="#P" n="56"/>non sit vltimus finis, nec ad vltimum finem. Quia 
+      <lb ed="#P" n="57"/>possent esse peati, si nullum corpus esset. Ergo 
+      <lb ed="#P" n="58"/>Angelus non mouet necessitate naturae, sed 
+      tan<lb ed="#P" n="59" break="no"/>tum libero arbitrio. Sed illud quod sit libero ar 
+      <lb ed="#P" n="60"/>bittio potest non fieri. Quia agens libero arbitrio, 
+      <lb ed="#P" n="61"/>habet in sua potestate suum actum: &amp; in 
+      potesta<lb ed="#P" n="62" break="no"/>te sua est quod illud quod hic facit dimittat. Ergo 
+      <lb ed="#P" n="63"/>Angelus non potest, non agere circa 
+      quodcum<lb ed="#P" n="64" break="no"/>que corpus. Et sic, si per hoc tantum est in loco 
+      <lb ed="#P" n="65"/>quod ibi aliquid operatur, sequitur quod pssit 
+      es<lb ed="#P" n="66" break="no"/>se nusquam, &amp; oppositum ponere, est erroneum 
+      <lb ed="#P" n="67"/>Quia sequeretur quod voluntas esset necessitata 
+      <lb ed="#P" n="68"/>ex sua natura ad volendum semper aliquid facere 
+      <lb ed="#P" n="69"/>circa corpus. Quod vero vlterius dicitur, quod 
+      <lb ed="#P" n="70"/>Angelus habet operationem circa corpus, &amp; 
+      <!--147.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>quod illud non est mouere corpus, videtur valde
+      <lb ed="#P" n="72"/>derisorium. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1045">
+               <lb ed="#P" n="73"/>Primo, quia illa operatio aut aliquid ponit 
+      <lb ed="#P" n="74"/>aut non si nihil ponit habebimus vnam operatid. 
+      <lb ed="#P" n="75"/>nem quae est nihil. Si aliquid ponit, aut in 
+      Ange<lb ed="#P" n="76" break="no"/>lo, aut in corpore, aut in vtroque simul. SIin 
+      An<lb ed="#P" n="77" break="no"/>gelo tantum, cum operatio manens in Angelo non 
+      <lb ed="#P" n="78"/>sit nisi velle &amp; intelligere, sequitur quod illa 
+      ope<lb ed="#P" n="79" break="no"/>ratio sit velle, vel intelligere. Sed nullus ponit 
+      <lb ed="#P" n="80"/>Angelum in loco per suum velle, nisi ad illuo 
+      <lb ed="#P" n="81"/>velle sequatur motus in corpore. Ergo, &amp;c. Si 
+      <lb ed="#P" n="82"/>autem illa operatio sit in corpore, cum Angelus 
+      <lb ed="#P" n="83"/>non possit aliquid facere immediate in corpore, 
+      <lb ed="#P" n="84"/>nisi per motum localem, sequitur quod illa 
+      opera<lb ed="#P" n="85" break="no"/>tio sit mouere corpus. Si autem sit in Angelo, &amp; 
+      <lb ed="#P" n="86"/>in corpore sicut in subiecto, adhuc sequitur quod 
+      <lb ed="#P" n="87"/>sit mouere corpus, siue aliud concurrat; siue non, 
+      <lb ed="#P" n="88"/>Sequitur item quod idem accidens erit in duobus 
+      <lb ed="#P" n="89"/>subiectis. Praeterea, illa applicatio virtuns aut 
+      <lb ed="#P" n="90"/>intelsigitur secundum motum localem, aut non. 
+      <lb ed="#P" n="91"/>Sisecundum motum localem, tunc videtur quod 
+      <lb ed="#P" n="92"/>in vitute Angeli, vel in ipso Angelo, posit esse 
+      <lb ed="#P" n="93"/>motus localis proprie dictus secundum 
+      situatio<lb ed="#P" n="94" break="no"/>nem quandam, sicut quando aliquis applicat 
+      ma<lb ed="#P" n="95" break="no"/>num ad aliquod corpus, quod est absurdum. Si 
+      <lb ed="#P" n="96"/>autem applicatio accipiatur aliter, quaero quem 
+      <lb ed="#P" n="97"/>effectum habet p Vtrum habeat motum ad 
+      for<lb ed="#P" n="98" break="no"/>mam, vel ad actum aliquem alium a velle &amp; 
+      in<lb ed="#P" n="99" break="no"/>telligere; &amp; si discurratur per omnia, etiam non 
+      <lb ed="#P" n="100"/>potest fingi, quid sit illa applicatio. Si dicatur 
+      <lb ed="#P" n="101"/>quod est hoc per velle se ordinare ad mouendum, 
+      <lb ed="#P" n="102"/>sequaeretur quod effectus illius applicationis circa 
+      <lb ed="#P" n="103"/>corpus erit mouere corpus. Vnde illa videntur 
+      <lb ed="#P" n="104"/>mihi valde friuola. Ratio autem assumpta de 
+      con<lb ed="#P" n="105" break="no"/>nexione vniuersi nihil valet. Primo, quia ad 
+      con<lb ed="#P" n="106" break="no"/>nexionem quae est inter partes vniuersi secundum 
+      <lb ed="#P" n="107"/>contactum virtutis, sufficit quod hoc sit natum 
+      <lb ed="#P" n="108"/>mouere &amp; illud moueri: ita quod connectantur 
+      <lb ed="#P" n="109"/>secundum contactum virtutis habitualem. Non 
+      <lb ed="#P" n="110"/>enim oportet quod illa quae habent ad inuicem 
+      or<lb ed="#P" n="111" break="no"/>dinem, secundum contactum virtuus, sint semper 
+      <lb ed="#P" n="112"/>in actu mouendi. Secundo, dato quod oporte. 
+      <lb ed="#P" n="113"/>ret ad saluandam connexionem vniuersi ponere, 
+      <lb ed="#P" n="114"/>connexionem secundum contactum actuale 
+      vir<lb ed="#P" n="115" break="no"/>tutis, in his quae non possunt habere contactum 
+      <lb ed="#P" n="116"/>quantitatis, sufficeret quod vnus tantum 
+      Ange<lb ed="#P" n="117" break="no"/>lus, scilicet infimus, immediate mouendo 
+      con<lb ed="#P" n="118" break="no"/>tingeret corpus, &amp; ille connecteretur cum alio 
+      <lb ed="#P" n="119"/>Angelb, a quo recepit inffuentiam aliquam, siuc 
+      <lb ed="#P" n="120"/>per illuminationem siue qualitercumque aliter, 
+      <lb ed="#P" n="121"/>Et sic vno Angelo mouente corpus immediate, 
+      <lb ed="#P" n="122"/>tota creatura spiritualis posset dici connexa secum 
+      <lb ed="#P" n="123"/>inuicem, &amp; cum corpore mediate, vel 
+      immedia<lb ed="#P" n="124" break="no"/>tem, Sicut etiam corpora superipra habent 
+      conne<lb ed="#P" n="125" break="no"/>xionem cum infimis Puta cum terra, 
+      medianti<lb ed="#P" n="126" break="no"/>bus aliis corporibus mobilibus medus. Vnde ista 
+      <lb ed="#P" n="127"/>ratio de connexione vniuersi parum vaset. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1167">
+               <lb ed="#P" n="128"/>Et ideo aliter dicendum est, quod Angelus 
+      <lb ed="#P" n="129"/>tripliciter potest esse in loco. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1174">
+               <lb ed="#P" n="130"/>Vno modo in potentia remota tantum, quia 
+      <lb ed="#P" n="131"/>scilicet habet in se vnde possit mouere aliquod 
+      <lb ed="#P" n="132"/>corpus, quia potest se mouere ad volendum, ad 
+      <lb ed="#P" n="133"/>quod postea sequitur motus. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1186">
+               <lb ed="#P" n="134"/>Secundo modo contingit Angelum esse in 
+      lo<lb ed="#P" n="135" break="no"/>eo secundum quandam deputationem, vel 
+      praesi<lb ed="#P" n="136" break="no"/>duntiam, sicut etiam dicimus de illo qui est Paril 
+      <lb ed="#P" n="137"/>sius, quod est fallius in Pictauia, ita quod esse 
+      <lb ed="#P" n="138"/>Hallium in Pictauia est esse in illa terra 
+      secun<lb ed="#P" n="139" break="no"/>dum quandam praesidentiam, vesdeputationem. 
+      <lb ed="#P" n="140"/>Et si ista deputatio, vel praesidentia. imponatur ei¬ 
+      <!--148.xml-->
+      <pb ed="#P" n="148"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>contra suam voluntatem, ita quod si virtute 
+      diui<lb ed="#P" n="2" break="no"/>na contra voluntatem suam compellatur ad hoct 
+      <lb ed="#P" n="3"/>erit ei affsictiua. Si vero secundum eius 
+      volunta<lb ed="#P" n="4" break="no"/>tem talis praesidentia sibi imponatur, erit sibi 
+      dele<lb ed="#P" n="5" break="no"/>Ctabilis. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1221">
+               <lb ed="#P" n="6"/>Tertio modo potest esse Angelus in loco per 
+      <lb ed="#P" n="7"/>actualem motionem, sicut quando actu mouet 
+      <lb ed="#P" n="8"/>exequendo illud quod vult, vel ad quod est 
+      de<lb ed="#P" n="9" break="no"/>piuitatus. Dicere ergo quod Angelus nusquam sit 
+      <lb ed="#P" n="10"/>per oppositum ad primum modum essendi in loco 
+      <lb ed="#P" n="11"/>vel secundum, est erroneum: quia hoc ponere, est 
+      <lb ed="#P" n="12"/>rollere ab Angelis quancumque habitudinem 
+      <lb ed="#P" n="13"/>quantum ad primum, vel tollere poenas, vel 
+      dele<lb ed="#P" n="14" break="no"/>ctationes: quantum ad secundum. Et sic potest 
+      <lb ed="#P" n="15"/>intelligi articulus, qui ponit quod Angelus sit 
+      nus<lb ed="#P" n="16" break="no"/>quam, est error. Sed per oppositum ad tertium 
+      <lb ed="#P" n="17"/>modum essendi in loco, scilicet per actualem 
+      mo<lb ed="#P" n="18" break="no"/>tionem, cum agat libero arbitrio: ponere quod 
+      <lb ed="#P" n="19"/>saltem naturaliter possit esse nusquam: nec est 
+      er<lb ed="#P" n="20" break="no"/>ror. Licet forte virtute diuina posset fieri quod 
+      <lb ed="#P" n="21"/>de necessitate semper mouerent. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1258">
+               <lb ed="#P" n="22"/>Ad tertium dicunt quidam: quod Angelus pro: 
+      <lb ed="#P" n="23"/>pter limitationem virtutis suae non potest simul 
+      <lb ed="#P" n="24"/>mouere duo corpora in diuersis locis: quia 
+      opor<lb ed="#P" n="25" break="no"/>tet eius actionem esse limitatam &amp; indiuisam. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1269">
+               <lb ed="#P" n="26"/>Sed istud non videtur sufficere: quia limitatio 
+      <lb ed="#P" n="27"/>virtutis non facit aliquid determinari ad situm 
+      pro<lb ed="#P" n="28" break="no"/>pter quam determinationem oportet corpus ita 
+      a<lb ed="#P" n="29" break="no"/>gere vbi est: quod no potest alibi nisi in corporalib 
+      <lb ed="#P" n="30"/>Virtus autem Angeli, non est sic limitata, sed est 
+      <lb ed="#P" n="31"/>limitata secundum determinationem ad genus &amp; 
+      <lb ed="#P" n="32"/>speciem: &amp; secundum vigorem: haec autem 
+      limia<lb ed="#P" n="33" break="no"/>tatio bene facit quod possit intantum quod non 
+      <lb ed="#P" n="34"/>possit in plus, &amp; quod possit in tor quod non 
+      pos<lb ed="#P" n="35" break="no"/>sit in plura: sed ista limitatio non videtur facere ad 
+      <lb ed="#P" n="36"/>hoc quod operetur in vno loco, ita quod non in 
+      <lb ed="#P" n="37"/>pluribus: dummodo illa plura non sint tot, vel ita 
+      <lb ed="#P" n="38"/>magna, quod exedant virtutem suam. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1300">
+               <lb ed="#P" n="39"/>Et ideo aliter est dicendum: quod Angelus non 
+      <lb ed="#P" n="40"/>potest mouere plura, vt plura, sed bene potest 
+      <lb ed="#P" n="41"/>mouere plura vt vnum, siue vt habent ordinem ad 
+      <lb ed="#P" n="42"/>aliquid vnum, sicut subuertendo domum, mouet 
+      <lb ed="#P" n="43"/>plura inquantum habent habitudinem ad aliquid 
+      <lb ed="#P" n="44"/>vnum, &amp; duos etiam lapides distantes posset 
+      mo<lb ed="#P" n="45" break="no"/>uere &amp; coniungere eos ad inuicem, quia moueret 
+      <lb ed="#P" n="46"/>eos in ordine ad vnam coniunctionem 
+      facien<lb ed="#P" n="47" break="no"/>dam Causa autem quare non potest plura, vt 
+      <lb ed="#P" n="48"/>plura: simul mouere, est quia non mouet nisi per 
+      <lb ed="#P" n="49"/>actum volendi, quo perfecte ac determinate 
+      eti<lb ed="#P" n="50" break="no"/>git mouerea quia voluntas vniuersalium non 
+      suf<lb ed="#P" n="51" break="no"/>ficit ad motum. Angelus autem non potest velle 
+      <lb ed="#P" n="52"/>plura vt plura intelligere, &amp; ideo non potest 
+      moue<lb ed="#P" n="53" break="no"/>rei plura vt plura: sed in ordine ad aliquid vnum 
+      po<lb ed="#P" n="54" break="no"/>test mouere plura, &amp; esse in illis pluribus: sicut 
+      <lb ed="#P" n="55"/>quando subuertit domum, est in omnibus 
+      parti<lb ed="#P" n="56" break="no"/>bus domus <sic>subeuersae</sic>. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1344">
+               <lb ed="#P" n="57"/>Ad quartum dicunt quidam, quod plures 
+      An<lb ed="#P" n="58" break="no"/>eli non possunt esse simul in eodem loco, quia vt 
+      <lb ed="#P" n="59"/>dicunt, oporteret quod vnus illaberetur alteri, &amp; 
+      <lb ed="#P" n="60"/>quod vnus esset intra essentiam alterius. Sed hoc 
+      <lb ed="#P" n="61"/>nihil est, quia cum Angelus non sit in corpore nisi 
+      <lb ed="#P" n="62"/>sicut mouens in moto, vel causa in effectu squia 
+      <lb ed="#P" n="63"/>non estibi imaginari intraneitate secundu situm 
+      <lb ed="#P" n="64"/>non videtur conueniens plures Angelos esle in 
+      eo<lb ed="#P" n="65" break="no"/>dem corpore: quia plures Angelos esse in 
+      eo<lb ed="#P" n="66" break="no"/>dem corpore non est aliud quam aliquid 
+      effe<lb ed="#P" n="67" break="no"/>ctum siue factum a pluribus Angelis esse in 
+      eo<lb ed="#P" n="68" break="no"/>dem corpore: quod prima fronte non apparet esse 
+      <lb ed="#P" n="69"/>impossibile. Vel si sit inconueniens vel 
+      impossi<lb ed="#P" n="70" break="no"/>hile, hoc non potest esse, quia ad hoc sequatur il¬ 
+      <!--148.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>lapsus. Nam ex hoc quod duo sint in tertio per 
+      <lb ed="#P" n="72"/>suum effectum, sicut est causa in effectu, non 
+      se<lb ed="#P" n="73" break="no"/>quitur quod vnum illabatur alteri: cum etiam 
+      <lb ed="#P" n="74"/>duo eorpora agentia possint agere in tertium. 
+      Ite<lb ed="#P" n="75" break="no"/>rum etiam, illabit, non est esse intra essentiam rei 
+      <lb ed="#P" n="76"/>secundum situm, nec etiam agere qualitercumque 
+      <lb ed="#P" n="77"/>inrem, sed est esse causimomnis eius quod est de 
+      <lb ed="#P" n="78"/>entitate rei: &amp; attingere totum quicquid est de 
+      <lb ed="#P" n="79"/>intraneitate rei. Et quia dato quod vnus Angelus 
+      <lb ed="#P" n="80"/>moueret alium illuminando, non tamen 
+      attinge<lb ed="#P" n="81" break="no"/>ret ad omne illud quod pertinet ad entitatem 
+      An<lb ed="#P" n="82" break="no"/>gesi, nec etiam ad omne illud quod pertinet ad 
+      <lb ed="#P" n="83"/>ipsam illuminationem, quia ad suum esse requitit 
+      <lb ed="#P" n="84"/>subiectum: ad quod tamen non attingit actio 
+      An<lb ed="#P" n="85" break="no"/>geli illuminantis. Et sdeo non diceretur Angelus 
+      <lb ed="#P" n="86"/>illabi alteri Angelo, vel etiam ipsi illuminationi 
+      <lb ed="#P" n="87"/>causatae in eo. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1419">
+               <lb ed="#P" n="88"/>Et ideo aliter dicitur, &amp; probabilius. Quod 
+      <lb ed="#P" n="89"/>quia vnus Angelus sufficit ad mouendum corpus 
+      <lb ed="#P" n="90"/>ad quod se applicat, superfsaum &amp; vanum esset 
+      <lb ed="#P" n="91"/>ponere duos mouentes, &amp; derisibile: &amp; propter 
+      <lb ed="#P" n="92"/>hoc inconueniens est ponere duos Angelos esse 
+      si<lb ed="#P" n="93" break="no"/>mul in eodem corpore. Quod autem sic sit 
+      impos<lb ed="#P" n="94" break="no"/>sibile, quod implicet contradictionem, non videe. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1437">
+               <lb ed="#P" n="95"/>Ad quintum dicendum est, quod illud quod de 
+      <lb ed="#P" n="96"/>anima habet veritatem &amp; locum in quarto, tamen 
+      <lb ed="#P" n="97"/>ad praesens, posset dici quod, licet naturaliter 
+      ani<lb ed="#P" n="98" break="no"/>ma separata non possit agc re in corpus: virtute 
+      ta<lb ed="#P" n="99" break="no"/>me diuina hoc posset. Quod autem spiritus 
+      depu<lb ed="#P" n="100" break="no"/>tentur &amp; coarctentur ad aliquod corpus, hoc est 
+      <lb ed="#P" n="101"/>virtute diuina, &amp; non secundum cursum 
+      natura<lb ed="#P" n="102" break="no"/>lem rerum. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1457">
+               <lb ed="#P" n="103"/>Ad sextum dicendum, quod licet Sol agat in 
+      <lb ed="#P" n="104"/>inferiora, non tamon dicitur esse in eis: tum quia 
+      <lb ed="#P" n="105"/>non agit in ea immediate accipiendo etiam 
+      ordi<lb ed="#P" n="106" break="no"/>nen cacsalitatis; tum quia habet alium modum 
+      es<lb ed="#P" n="107" break="no"/>sendi in aliquo, quam vt causa in effectu. Scilicet 
+      <lb ed="#P" n="108"/>sicut lucatum in loco. Et ideo non conceditur 
+      sim<lb ed="#P" n="109" break="no"/>psiciter esse in eis, nisi cum determinatione: 
+      scili<lb ed="#P" n="110" break="no"/>cet sicur causa in effectu. Angelus autem agit 
+      im<lb ed="#P" n="111" break="no"/>mediate in corpus in quo dicitur esse. Nec habet 
+      <lb ed="#P" n="112"/>alium modum essendi in eo, nisi sicut mouens in 
+      <lb ed="#P" n="113"/>moto, qui motus apparet nobis. Et ideo 
+      simplici<lb ed="#P" n="114" break="no"/>ter conceditur de Angelo quod est in illo corpore 
+      <lb ed="#P" n="115"/>quod mouet immediate: non autem sic Sol in 
+      ter<lb ed="#P" n="116" break="no"/>ra, vel in aere. Et sic patet primum principale, scia 
+      <lb ed="#P" n="117"/>licet, quomodo Angelus dicatur esse in loco. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1492">
+               <lb ed="#P" n="118"/>ARTICVLVS SECVNDVS
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1497">
+               <lb ed="#P" n="119"/>QVantum ad secundum principale, scilicet 
+      <lb ed="#P" n="120"/>vtrum Angelus moueatur localiter. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1504">
+               <lb ed="#P" n="121"/>Dicendum quod dupliciter aliquid potest 
+      mo<lb ed="#P" n="122" break="no"/>ueri localiter. Vno modo quod successiue sit 
+      su<lb ed="#P" n="123" break="no"/>iectum diuersorum vbi, secuindum diuersos situs, 
+      <lb ed="#P" n="124"/>&amp; isto modo non conuenit Angelo moueri 
+      locali<lb ed="#P" n="125" break="no"/>ter. Quia scilicet potest habere habitudinem 
+      suc<lb ed="#P" n="126" break="no"/>cessiue ad diuersa loca, &amp; habet esse in diuersis 
+      <lb ed="#P" n="127"/>corporibus, in diuersis locis existentibus: sicut 
+      mo<lb ed="#P" n="128" break="no"/>uens in motore, &amp; hoc successiue. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1525">
+               <lb ed="#P" n="129"/>Ad cuius euidentiam sciendum est, quod 
+      An<lb ed="#P" n="130" break="no"/>gelus dicitur esse diffinitiue in loco, &amp; ita esse hic, 
+      <lb ed="#P" n="131"/>quod non ibi, quia sua virtus est finita in vigore; 
+      <lb ed="#P" n="132"/>ideo eius causalitas non potest simul se extendere 
+      <lb ed="#P" n="133"/>ad omnia corpora, sed ad determinata. Nec etiam 
+      <lb ed="#P" n="134"/>se extendit ad plura, nisi illa habeant ordinem ad 
+      <lb ed="#P" n="135"/>aliquid vnum. Et ideo est ita hic; quod non ibi. 
+      <lb ed="#P" n="136"/>Deus autem in omni re creata operatur semper: 
+      <lb ed="#P" n="137"/>quia sine eius operatione nulla res potest esse 
+      vbi<lb ed="#P" n="138" break="no"/>que: nec potest esse de nouo, vbi prius non 
+      fue<lb ed="#P" n="139" break="no"/>rit. Et ideo., Deus secundum esse quo etiam 
+      <!--149.xml-->
+      <pb ed="#P" n="149"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>aliquid est, est in alio, sic ut causa in effectu: &amp; 
+      <lb ed="#P" n="2"/>ideo non potest monieri localiter. Angelus autem 
+      <lb ed="#P" n="3"/>qui non est vbique, &amp; potest de nouo esse vbi prius 
+      <lb ed="#P" n="4"/>non erat, secundum modum illum essendi qui 
+      <lb ed="#P" n="5"/>conuenst sibi, potest isto modo moueri localiter 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1569">
+               <lb ed="#P" n="6"/>Vnde potest formari talis ratio: quia sicut illud 
+      <lb ed="#P" n="7"/>quod est occupatiue in loco determinato, ita quod 
+      <lb ed="#P" n="8"/>non occupat omnem locume potest occupatiue 
+      <lb ed="#P" n="9"/>esse in diuersis locis successiue &amp; moueri proprie 
+      lo<lb ed="#P" n="10" break="no"/>caliter: ita illud quod est in loco determin ato, 
+      si<lb ed="#P" n="11" break="no"/>cut causa in effectus: ita quod non operatur in 
+      om<lb ed="#P" n="12" break="no"/>ni loco, potest esse in diuerfis loeis successiue 
+      secun<lb ed="#P" n="13" break="no"/>dum modu istum essendi, &amp; per consequens potest 
+      mo<lb ed="#P" n="14" break="no"/>ueri loc aliter, secundum talem modum essendi in lo. 
+      <lb ed="#P" n="15"/>co: sed Angelus est sic in loco, cum sit ibi 
+      defini<lb ed="#P" n="16" break="no"/>tiue vt dictum est: ergo potest moueri localiter. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1595">
+               <lb ed="#P" n="17"/>Notandum autem quod Angelus potest 
+      moue<lb ed="#P" n="18" break="no"/>ri secundum dictum modum, ves motu continuo, 
+      <lb ed="#P" n="19"/>vel etiam discreto: quia si mouet illud totum non 
+      <lb ed="#P" n="20"/>tranferendo de loco ad locum, sicut si moueat 
+      ro<lb ed="#P" n="21" break="no"/>tam, non dicitur Angelus moueri localiter: licet 
+      <lb ed="#P" n="22"/>partes illius totius mutent locum: quia in toto 
+      il<lb ed="#P" n="23" break="no"/>lo loco est simul, sicut mouens in moto. Et ideo, 
+      si<lb ed="#P" n="24" break="no"/>aliquod totum tale moueat, &amp; simul totum 
+      dimit<lb ed="#P" n="25" break="no"/>tat, &amp; moueat aliquod aliud totum. Quia 
+      <lb ed="#P" n="26"/>habuit successiue habitudinem ad illa duo mota, 
+      <lb ed="#P" n="27"/>sicut ad duo discreta eius: tunc sic in talibus 
+      diuer<lb ed="#P" n="28" break="no"/>sis locis est motus eius localiter discretus. Si autem 
+      <lb ed="#P" n="29"/>motu continuo moueat aliquod totum corpus per 
+      <lb ed="#P" n="30"/>aliquod spatium, habet habitudinem continue &amp; 
+      <lb ed="#P" n="31"/>successiue ad totum spacium per quod mouet illud 
+      <lb ed="#P" n="32"/>corpus: &amp; dicitur moueri continue, non propter 
+      <lb ed="#P" n="33"/>actum successiuum qui in ipso sit sicut in subiecto, sed 
+      <lb ed="#P" n="34"/>propter actum successiuum existentem in eo, 
+      median<lb ed="#P" n="35" break="no"/>te quo habet habitudinem ad totum illud spacium. 
+      <lb ed="#P" n="36"/>Quidam tamen dicunt, quod si Angelus mouet 
+      <lb ed="#P" n="37"/>aliquod corpus per medium veniendo, tunc 
+      An<lb ed="#P" n="38" break="no"/>gelus dicitur moueri localiter. Si autem mouear 
+      <lb ed="#P" n="39"/>illud imnpellendo a se, non oportet quod mouea. 
+      <lb ed="#P" n="40"/>tur. Istud autem non procedit, acsi Angelus sit in 
+      <lb ed="#P" n="41"/>loco situaliter, vt subiectum propinquitatis vel 
+      di<lb ed="#P" n="42" break="no"/>stantiae, ita quod si mouet suum mobile portando, 
+      <lb ed="#P" n="43"/>oportet quod sit ei propinquium: sed si mouet 
+      im<lb ed="#P" n="44" break="no"/>pellendo, potest moueri distans ab eo, &amp; esse 
+      im<lb ed="#P" n="45" break="no"/>mobiliter in primo loco. Et secundum istam 
+      ima<lb ed="#P" n="46" break="no"/>ginationem, oportet ponere Angelum aliter in 
+      lo<lb ed="#P" n="47" break="no"/>co quam per operationem, quod non videtur 
+      con<lb ed="#P" n="48" break="no"/>ueniens. Imo, cum ipsum esse in loco nihil aliud 
+      <lb ed="#P" n="49"/>sit quam ipsum habere habitudinem ad corpus 
+      exi<lb ed="#P" n="50" break="no"/>stens in loco: sicut mouens ad motum, 
+      impossibi<lb ed="#P" n="51" break="no"/>se est quinsecundum motum quo competit sibi 
+      es<lb ed="#P" n="52" break="no"/>se in loco, sit in loco in quo est corpus quod mo 
+      <lb ed="#P" n="53"/>uetur abeo. Et ideo dicendum est, quod quando 
+      <lb ed="#P" n="54"/>Angelus aliquod corpus mouet motu continuo per 
+      <lb ed="#P" n="55"/>aliquod medium, quod necesse est ipsum moueri 
+      <lb ed="#P" n="56"/>localiter per illud spacium in quo competit ei 
+      mo<lb ed="#P" n="57" break="no"/>ueri localiter: quia necessarium ipsum habere 
+      <lb ed="#P" n="58"/>habitudinem ad illud quod mouetur ab eo. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1689">
+               <lb ed="#P" n="59"/>ARTICVLVS TERTIVS.
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1694">
+               <lb ed="#P" n="60"/>QVantum ad tertium principale, scilicet 
+      v<lb ed="#P" n="61" break="no"/>trum Angelus necessario transeat medium; 
+      <lb ed="#P" n="62"/>Dicunt qudam quod sic: quia, vt dicunt, si corpus 
+      <lb ed="#P" n="63"/>quod est lignum non est ex natura sua 
+      determi<lb ed="#P" n="64" break="no"/>natum ad istum locum vel illum, quia potest 
+      quan<lb ed="#P" n="65" break="no"/>tum est de se, esse in diuersis focis: postquam 
+      ta<lb ed="#P" n="66" break="no"/>men ponitur in aliquo loco, non potest postea esse 
+      <lb ed="#P" n="67"/>alibi quin transeat medium. Ita etiam, licet 
+      An<lb ed="#P" n="68" break="no"/>gelus non habeat esse in loco hoc vel illo, ex 
+      natu<lb ed="#P" n="69" break="no"/>ra sua: tamen postquam ponitur in determinato 
+      <lb ed="#P" n="70"/>loco, non potest poni quod moueatur alibi, vel 
+      <!--149.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>quod postea fit alibi, quia transeat medium, 
+      <lb ed="#P" n="72"/>Hoc autem non est necessarium, ponendo quod 
+      <lb ed="#P" n="73"/>Angelus non sit in loco vt subiectum situs. Quta 
+      <lb ed="#P" n="74"/>quod corpus non possit moueri ab extremo ad ex 
+      <lb ed="#P" n="75"/>tremum nisi transeundo per medium prouenit ex 
+      <lb ed="#P" n="76"/>hioc quod est deter minatum secundum situm, ad 
+      <lb ed="#P" n="77"/>vnum extremum. Et per consequens habet 
+      ordi<lb ed="#P" n="78" break="no"/>nem mediatum secundum situm ad aliud extre. 
+      <lb ed="#P" n="79"/>mum, a quo situ non potest absolui, nec potest 
+      <lb ed="#P" n="80"/>moueri nisi secundum situationem succesiuam. 
+      <lb ed="#P" n="81"/>Sed Angelus non sic ponitur in loco: quia non 
+      ha<lb ed="#P" n="82" break="no"/>bet rationem propinqui vel distantis secundum 
+      si<lb ed="#P" n="83" break="no"/>tum ad aliquid, siue operetur ibi, siue non. Ei 
+      <lb ed="#P" n="84"/>quia nihil respicit vt propinquum, vel distans situ 
+      <lb ed="#P" n="85"/>ab illo corpore:nec oportet quod prius moueat 
+      <lb ed="#P" n="86"/>propinquum slli corpori quam distans: quia non 
+      <lb ed="#P" n="87"/>habet ordinem situs, ad aliquod illorum. Sed si 
+      <lb ed="#P" n="88"/>Angelus esset in loco vt subiectum situationis: sic 
+      <lb ed="#P" n="89"/>impossibile esset quod moueretur ab extremo in 
+      <lb ed="#P" n="90"/>extremum, non pertranseundo medium. Ratio 
+      <lb ed="#P" n="91"/>autem illorum nulla est: quia si est simile de esse 
+      <lb ed="#P" n="92"/>ligni in loco, &amp; de esse Angeli: quia lignum est 
+      <lb ed="#P" n="93"/>in loco situaliter, &amp; vt subiectum situs. Et ideo 
+      o<lb ed="#P" n="94" break="no"/>portet quod habeat ordinem mediatum ad aliud 
+      <lb ed="#P" n="95"/>extremum secundum situm. Non sic Angelu, vt 
+      <lb ed="#P" n="96"/>dictum est. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1781">
+               <lb ed="#P" n="97"/>Et ideo aliter dicendum, Angelus potest 
+      moue<lb ed="#P" n="98" break="no"/>ri &amp; transeundo medium si vult: &amp; quod petest non 
+      <lb ed="#P" n="99"/>transire per medium. Na si moueatur motu conti. 
+      <lb ed="#P" n="100"/>nuo modo quo expositum est: quia, scilicet mouet 
+      <lb ed="#P" n="101"/>aliquod corpus per aliquod spacium, propter 
+      a<lb ed="#P" n="102" break="no"/>ctum suecessiuum existentem in alio: tunc 
+      neces<lb ed="#P" n="103" break="no"/>le habet transire medium: sicut &amp; mobile quod 
+      <lb ed="#P" n="104"/>mouet. Quia necessario habet habitudinem ad to. 
+      <lb ed="#P" n="105"/>tum spacium medium per quod mouet suum 
+      <lb ed="#P" n="106"/>mobile. Si autem mouet motu discreto, non 
+      <lb ed="#P" n="107"/>est necesse eum transire medium. Nam si 
+      An<lb ed="#P" n="108" break="no"/>gelus vult mouere vnum eorpus in aliquo loco, 
+      pu<lb ed="#P" n="109" break="no"/>ta rotam, ad hoc quod faciat alium motum in 
+      a<lb ed="#P" n="110" break="no"/>lio loco distanti, oportet vt ostensum est, vt 
+      tran<lb ed="#P" n="111" break="no"/>seat medium, vel quod aliquid faciat in medio. 
+      <lb ed="#P" n="112"/>Sed si quaeratur, vtrum in motu discreto pessit 
+      <lb ed="#P" n="113"/>transire medium: Dicendum est quod vno modo 
+      <lb ed="#P" n="114"/>non, Nam si accipiatur aliquod med um 
+      deter<lb ed="#P" n="115" break="no"/>minatum inter duo extrema, puta inter a. locum, 
+      <lb ed="#P" n="116"/>&amp; clocum accipiatur aliquis locus medius 
+      deter<lb ed="#P" n="117" break="no"/>minatus; puta. b. Sic in motu discreto sic potest 
+      <lb ed="#P" n="118"/>transire medium. Si autem accipiatur, omnia 
+      me<lb ed="#P" n="119" break="no"/>dia possibilia, significari inter duo extrema, talia 
+      <lb ed="#P" n="120"/>media sia accepta, non potest transire motu 
+      dis<lb ed="#P" n="121" break="no"/>creto. Ita quod secundum vnumquodque signum 
+      <lb ed="#P" n="122"/>accipiatur vnus motus in actu discretus, &amp; 
+      discre<lb ed="#P" n="123" break="no"/>tus ab alio. Quia cum talia sint infinita, 
+      sequere<lb ed="#P" n="124" break="no"/>tur quod vteretur infinitis signis in actu, vt in quo 
+      <lb ed="#P" n="125"/>terminat vnum motum, incoat alium hoc autem 
+      <lb ed="#P" n="126"/>est impossibile: ideo, &amp;c. Et sic patet de tertio 
+      <lb ed="#P" n="127"/>principali. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1852">
+               <lb ed="#P" n="128"/>ARTICVLIS QVARIVS. 
+      <lb ed="#P" n="129"/>DE quarto, vtrum scilicet Angelus moueatur 
+      <lb ed="#P" n="130"/>Din tempore, vel in instanti, dicendum est, 
+      <lb ed="#P" n="131"/>quod est impossibile quod moueatur in 
+      in<lb ed="#P" n="132" break="no"/>stanti. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1865">
+               <lb ed="#P" n="133"/>Ad cuius euidentiam. sciendum quod cum 
+      tem<lb ed="#P" n="134" break="no"/>pus dicat quantitatem successiuam: successio 
+      po<lb ed="#P" n="135" break="no"/>test dupliciter esse. Vno modu secundum eundem 
+      <lb ed="#P" n="136"/>actum numero, etiam in accipiendo vnum post 
+      <lb ed="#P" n="137"/>aliud, in eodem actu habente alios gradus, vel in 
+      <lb ed="#P" n="138"/>esse, vel in essentia: &amp; talis successio facit tempus 
+      <lb ed="#P" n="139"/>continuum: quia proprium est continui habere 
+      <!--150.xml-->
+      <pb ed="#P" n="150"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>plures partes in eodem numero. Alio modu potest 
+      <lb ed="#P" n="2"/>esse successio secundum acceptionem diuersorum 
+      <lb ed="#P" n="3"/>actuum incompossibilium quorum vnusquisque 
+      <lb ed="#P" n="4"/>est indiuisibilis sicut diuersae cognitiones Angeli 
+      <lb ed="#P" n="5"/>sunt diuersi actus incompossibiles. Quia dum 
+      in<lb ed="#P" n="6" break="no"/>telligit vnum, non potest intelligere aliud, saltem 
+      <lb ed="#P" n="7"/>quantum ad illa quae non intelligunt per eandem 
+      <lb ed="#P" n="8"/>speciem, &amp; sunt actus, quorum quilibet est 
+      indiui<lb ed="#P" n="9" break="no"/>sibilis; &amp; successio talium plurium actuum 
+      consti<lb ed="#P" n="10" break="no"/>tuit tempus discretum. Ita quod tempus non est 
+      <lb ed="#P" n="11"/>acceptio vnius talis actus, nec acceptio alterius per 
+      <lb ed="#P" n="12"/>se accepti: sed successiua vnus post alium. Sicut 
+      <lb ed="#P" n="13"/>binarius non est ista vnitas vel illa, sed agregatum 
+      <lb ed="#P" n="14"/>ex his. Vlterius sciendum est quod in tempore 
+      dis<lb ed="#P" n="15" break="no"/>creto nunc est pars temporis, ita quod nunc in 
+      <lb ed="#P" n="16"/>quo est vnus actus indiuisibilis; &amp; aliud nunc in 
+      <lb ed="#P" n="17"/>quo est alius: sunt partes temporis discreti. Et quia 
+      <lb ed="#P" n="18"/>talia nunc sunt stantia, non possunt coexistere 
+      tem<lb ed="#P" n="19" break="no"/>pori nostro. Sed nunc temporis continui non est 
+      <lb ed="#P" n="20"/>pars ipsius. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1933">
+               <lb ed="#P" n="21"/>Vlterius sciendum est, quod aliquid potest 
+      suc<lb ed="#P" n="22" break="no"/>cedere alteri dupliciter. Vno modo quod vnum 
+      <lb ed="#P" n="23"/>sit in tempore continuo, &amp; aliud in termino illius 
+      <lb ed="#P" n="24"/>temporis: sicut quando fit ignis ex aere, in toto 
+      <lb ed="#P" n="25"/>tempore praecedente erat materia sub forma aeris, 
+      <lb ed="#P" n="26"/>&amp; in vltimo instanti illius temporis, est primo non 
+      <lb ed="#P" n="27"/>aer; &amp; primo materia sub forma ignis. His ergo 
+      <lb ed="#P" n="28"/>praemissis, ostendo quod necesse est Angelum 
+      mo<lb ed="#P" n="29" break="no"/>ueri in tempore, siue moueatur motu continuo, 
+      si<lb ed="#P" n="30" break="no"/>ue motu discreto. Quia omne quod mouetur, vel 
+      <lb ed="#P" n="31"/>etiam mutatur, se habet aliter nunc &amp; prius, 
+      secun<lb ed="#P" n="32" break="no"/>dum diuersa aliqua incompossibilia: quia omnis 
+      mo<lb ed="#P" n="33" break="no"/>tus habet terminos incompossibiles. Sed nunc &amp; 
+      <lb ed="#P" n="34"/>prius non potest dari in nunc indiuisili, sed 
+      tan<lb ed="#P" n="35" break="no"/>tum in tempore. Ergo omne quod mouetur, 
+      mo<lb ed="#P" n="36" break="no"/>uetur in tempore, &amp; non in nunc. Vnde etiam 
+      il<lb ed="#P" n="37" break="no"/>lae mutationes quae dicuntur instantaneae, sicut est 
+      <lb ed="#P" n="38"/>introductio formae substantialis, sunt annexae 
+      mo<lb ed="#P" n="39" break="no"/>tui, nec secundum se acceptae, habent rationem 
+      <lb ed="#P" n="40"/>mutationis, nisi in habitudine ad aliquid secum 
+      <lb ed="#P" n="41"/>incompossibile cui succedit. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e1981">
+               <lb ed="#P" n="42"/>Ad primum ergo in oppositum, dicendum quod 
+      <lb ed="#P" n="43"/>Angelus potest moueri transeundo medium, &amp; 
+      <lb ed="#P" n="44"/>potest moueri non transeundo medium, sicut 
+      pa<lb ed="#P" n="45" break="no"/>tuit. Et quando dicitur quod si transeat medium, 
+      <lb ed="#P" n="46"/>aut est totus in termino a quo, &amp;c. Dicendum est 
+      <lb ed="#P" n="47"/>quod non oportet quod sit totus in termino a quo 
+      <lb ed="#P" n="48"/>vel ad quem: vel partim in termino a quo, &amp; 
+      par<lb ed="#P" n="49" break="no"/>tim in termino ad quem. Si autem moueatur motu 
+      <lb ed="#P" n="50"/>discreto, non transeundo medium. Dicendum est 
+      <lb ed="#P" n="51"/>quod tempus illius motus erit successio composita 
+      <lb ed="#P" n="52"/>ex duobus nunc. Et in vno nunc quod est pars 
+      il<lb ed="#P" n="53" break="no"/>lius temporis, erit totus in. a. scilicet in termino a 
+      <lb ed="#P" n="54"/>quo &amp; in alio totus in termino ad quem. Nec est 
+      <lb ed="#P" n="55"/>quaerendum tempus inter illa duo nunc, ita quod 
+      <lb ed="#P" n="56"/>eius motus non est esse in a tantum, nec in b 
+      tan<lb ed="#P" n="57" break="no"/>tum esse, nec esse partim in a, &amp; partim in b, sed 
+      <lb ed="#P" n="58"/>elle successiue totus in a, &amp; totus in b. in duobus 
+      <lb ed="#P" n="59"/>nunc sibi immediate succedentibus. 
+      </p>
+            <p xml:id="hx2hx3-b48073-d1e2023">
+               <lb ed="#P" n="60"/>Ad secundum dicendum, quod mouetur in 
+      <lb ed="#P" n="61"/>tempore, vel continuo, vel discreto. Et si mouetur 
+      <lb ed="#P" n="62"/>motu continuo. Dicendum est quod in termino 
+      <lb ed="#P" n="63"/>motus, non oportet quod sit tantum in a, nec 
+      tan<lb ed="#P" n="64" break="no"/>tum in b, vel partim in vtroque secundum suum 
+      <lb ed="#P" n="65"/>mobile ad quod habet habitudinem in termino 
+      <lb ed="#P" n="66"/>motus: &amp; partim in vtroque. Si autem mouetur 
+      <lb ed="#P" n="67"/>motu discreto. Dicendum est quod in termino 
+      <lb ed="#P" n="68"/>motus, non oportet quod sit tantum in a, nec 
+      tan<lb ed="#P" n="69" break="no"/>tum in b, vel partim in vtroque. Sed quod totus 
+      <lb ed="#P" n="70"/>sit in a, in vno nunc, &amp; totus in b, in alio nunc, &amp; 
+      <!--150.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>sic erit totus successiue in duobus terminis, in 
+      duo<lb ed="#P" n="72" break="no"/>bus hunc ex quibus componitur tempus 
+      discre<lb ed="#P" n="73" break="no"/>tum: nec oportet dare tempus medium inter ipsa.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

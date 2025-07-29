@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="320"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c07897"><!-- l4d3q1 -->
+            <head xml:id="hx2hx3-c07897-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-c07897-Hd1e101" type="question-title">trum diffinitio baptismi sit bona, scilicet quod baptismus est ablutio exterior corporis facta sub forma praescripta verborum</head>
+            <p xml:id="hx2hx3-c07897-d1e104">
+               <lb ed="#P" n="50"/>Quid sit Baptismus. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e109">
+               <lb ed="#P" n="51"/>Post haec videndum est quid sit baptismum: 
+      <lb ed="#P" n="52"/>&amp; quae sit forma: &amp; quando institutus, 
+      <lb ed="#P" n="53"/>&amp; causa institurionis. Paptisimur dicitus 
+      <lb ed="#P" n="54"/>tinctio, id est, ablutio corporis exterior, 
+      fa<lb ed="#P" n="55" break="no"/>cta sub forma verborum praesertpta, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e122">
+               <lb ed="#P" n="56"/>Distinctio tertia. 
+      <lb ed="#P" n="57"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e130">
+               <lb ed="#P" n="58"/>CIrca tertiam distinctionem queritur vtrum 
+      <lb ed="#P" n="59"/>diffinitio baptismi sit bona, scilicet, quod 
+      ba<lb ed="#P" n="60" break="no"/>ptismus est ablutio exterior corporis facta sub 
+      for<lb ed="#P" n="61" break="no"/>ma praescripta verborum. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e141">
+        Et videtur quod non. 
+      <lb ed="#P" n="62"/>Nam omne sacramentum est causa alicuius sancti¬ 
+      <!--320.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>ficationis. Sed in ista diffinitione nulla mentio sit 
+      <lb ed="#P" n="64"/>de sanctificatione. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e154">
+               <lb ed="#P" n="65"/>Praeterea Hugo dicit quod baptismus est aqua 
+      <lb ed="#P" n="66"/>diluendis criminibus sanctificata verbo Dei. Sed 
+      <lb ed="#P" n="67"/>ablutio non est aqua. Ergo male dicitur quod 
+      ba<lb ed="#P" n="68" break="no"/>ptismus est ablutio. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e165">
+               <lb ed="#P" n="69"/>Praeterea Dionys. ponit aliam diffinitionem. Et 
+      <lb ed="#P" n="70"/>Ioan. Damascenus aliam. Cum ergo vnius rei fit 
+      <lb ed="#P" n="71"/>vna diffinitio: videtur quod vel istae vel illa 
+      super<lb ed="#P" n="72" break="no"/>fluat. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e176">
+               <lb ed="#P" n="73"/>In contrarium est Magister in littera.
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e181">
+               <lb ed="#P" n="74"/>Respondeo. Circa istam quaestionem 
+      premit<lb ed="#P" n="75" break="no"/>tendum est quod vnius rei est vna diffinitio sola 
+      <lb ed="#P" n="76"/>completa: illa scilicet quae comprehendit omnes 
+      <lb ed="#P" n="77"/>causas: de qua dicit Philosopus quod est tota 
+      de<lb ed="#P" n="78" break="no"/>monstratio sola positione differens inquantum 
+      ta<lb ed="#P" n="79" break="no"/>lis diffinitio includit iotam materiam 
+      demonstra<lb ed="#P" n="80" break="no"/>tionis, prout diffinitio data per vnam causam 
+      de<lb ed="#P" n="81" break="no"/>monstratur per diffinitionem datam per aliam 
+      <lb ed="#P" n="82"/>causam. Et dicitur sola positione differens: quia 
+      <lb ed="#P" n="83"/>non sunt sibi ordinatae prem issae per modum 
+      syl<lb ed="#P" n="84" break="no"/>logismi. Alia est diffinitio quae, non est completa 
+      <lb ed="#P" n="85"/>absolute: quia non comprehendit omnes causas: 
+      <lb ed="#P" n="86"/>sed aliquam vel aliquas: vt si aliquid diffiniatur per 
+      <lb ed="#P" n="87"/>causam materialem tantum, vel per causam 
+      ma<lb ed="#P" n="88" break="no"/>terialem, &amp; formalem tantum. Diffinitio ergo 
+      <lb ed="#P" n="89"/>Magistri conueniens est, licet non complete 
+      con<lb ed="#P" n="90" break="no"/>tineat omnes causas: sed continet causam 
+      mate<lb ed="#P" n="91" break="no"/>rialem in hoc quod dicit quod est ablutio 
+      cerpo<lb ed="#P" n="92" break="no"/>ris exterior facta, &amp; formalem cum dicit, sub 
+      for<lb ed="#P" n="93" break="no"/>ma praescripta verborum. Materia autem 
+      sacra<lb ed="#P" n="94" break="no"/>menti baptismi conuenientius exprimitur per 
+      v<lb ed="#P" n="95" break="no"/>sum aquae quam per ipsam aquam: quia materia 
+      <lb ed="#P" n="96"/>sacramenti debet significare proprium effectum 
+      <lb ed="#P" n="97"/>eius, non fieri tantum: proprius autem effectus 
+      ba<lb ed="#P" n="98" break="no"/>ptismi est ablutio mentis. Hanc autem 
+      ablutio<lb ed="#P" n="99" break="no"/>nem magis significat ablutio facta per aquam, 
+      <lb ed="#P" n="100"/>quam ipsam secundum se. Vnde istam 
+      ablutio<lb ed="#P" n="101" break="no"/>nem significat formaliter baptismus in hoc quod 
+      <lb ed="#P" n="102"/>dico, baptizo te, quod nihil aliud est quam abluo 
+      <lb ed="#P" n="103"/>te. Aliae autem diffinitiones quaedam tangunt 
+      ma<lb ed="#P" n="104" break="no"/>teriam &amp; formam, &amp; finem: aliae vero causam 
+      fi<lb ed="#P" n="105" break="no"/>nalem, &amp; diuersae tangunt fines diuersos. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e254">
+               <lb ed="#P" n="106"/>Ad cuius euidentiam praeintelligendum est 
+      <lb ed="#P" n="107"/>quod in sacramento est considerare tria. Aliquid 
+      <lb ed="#P" n="108"/>quod est sacramentum tantum, &amp; aliquid quod 
+      <lb ed="#P" n="109"/>res &amp; racramentum, &amp; aliquid quod est res 
+      tan<lb ed="#P" n="110" break="no"/>tum, sicut in bapuismo sacramentum tantum est 
+      <lb ed="#P" n="111"/>ablutio exterior, res &amp; sacramentum est 
+      chara<lb ed="#P" n="112" break="no"/>cter, quia dicitur res respectu ablutionis 
+      exterio<lb ed="#P" n="113" break="no"/>ris: sed dicitur sacramentum respectu gratiae 
+      gra<lb ed="#P" n="114" break="no"/>tia autem est res tantum. Vlterius sciendum quod 
+      <lb ed="#P" n="115"/>alicuius sacramenti possunt esse plures fines 
+      ordi<lb ed="#P" n="116" break="no"/>nati adinuicem: sicut baptismi immediatus finis 
+      <lb ed="#P" n="117"/>est character: &amp; iste ordinatur ad finem qui est 
+      <lb ed="#P" n="118"/>gratia: &amp; haec ad meritum vitae aeternae Vlterius ex 
+      <lb ed="#P" n="119"/>hoc quod ordinatur ad gratiam, ordinatur per 
+      <lb ed="#P" n="120"/>consequens ad tollenda peccata, &amp; character 
+      or<lb ed="#P" n="121" break="no"/>dinarur ad hoc quod homo efsiciatur potens ad 
+      <lb ed="#P" n="122"/>recipiendum effectus aliorum sacramentorum. 
+      <lb ed="#P" n="123"/>Tunc ergo dicendum est quod diffinitio Hugonis 
+      <lb ed="#P" n="124"/>tangit miateriam &amp; formam baptismi, &amp; finem 
+      <lb ed="#P" n="125"/>qui est ablatio peccatorum. Nam inhoc quod 
+      di<lb ed="#P" n="126" break="no"/>cit quod est aqua, tangit materiam eius 
+      remo<lb ed="#P" n="127" break="no"/>tam: quia magis propinqua est aqua vt in vsu 
+      exi<lb ed="#P" n="128" break="no"/>stens: formam tangit cum dicit: verbo Dei 
+      san<lb ed="#P" n="129" break="no"/>ctificata. Nam illa sanctificatio non significat 
+      <lb ed="#P" n="130"/>aliquam benedictionem qua consecretur aqua 
+      si<lb ed="#P" n="131" break="no"/>cut corsecratur oleum inhirmorum: vel aliqua alia 
+      <lb ed="#P" n="132"/>materia: quia aqua conseerata vel benedictio non 
+      <!--321.xml-->
+      <pb ed="#P" n="321"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>est de necessitate sacramenti: sed per sanctificari 
+      <lb ed="#P" n="2"/>verbo intelligit formam verborum quae fit in 
+      ba<lb ed="#P" n="3" break="no"/>ptisnio in qua fit inuocatio Trinitatis quando 
+      di<lb ed="#P" n="4" break="no"/>citur. Tgo te baptizo, &amp;c. Finem autem tangit 
+      <lb ed="#P" n="5"/>cum dicit diluendis criminibus 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e332">
+               <lb ed="#P" n="6"/>Diffinitio autem Dyon. datur per causam 
+      fina<lb ed="#P" n="7" break="no"/>lem quae talis est, baptismus est principium 
+      man<lb ed="#P" n="8" break="no"/>datorum sactae actionis ad aliorum diuinorum 
+      <lb ed="#P" n="9"/>eloquiorum, &amp; sacrarum actionum susceptiuam 
+      <lb ed="#P" n="10"/>oportunitatem, &amp; nostros animales habitus 
+      for<lb ed="#P" n="11" break="no"/>mans, &amp; ad supercaelestis quietis anagoge nostrum 
+      <lb ed="#P" n="12"/>iter faciens, &amp; diuinissimae nostrae regenerationis 
+      <lb ed="#P" n="13"/>traditio. In qua diffinitione ponit id quod 
+      perti<lb ed="#P" n="14" break="no"/>net ad essentiam baptismi: quando dicit sacrae &amp; 
+      <lb ed="#P" n="15"/>diuinissimae regenerationis traditio: ac si diceret: 
+      <lb ed="#P" n="16"/>baptismus est nostra regeneratio spiritualis qua 
+      ro<lb ed="#P" n="17" break="no"/>generamur in filios Dei. Alia autem tria dicunt 
+      <lb ed="#P" n="18"/>tres essectus ad quos ordinatur baptismus, 
+      pri<lb ed="#P" n="19" break="no"/>mum est, quod debet esse ianua aliorum 
+      sacra<lb ed="#P" n="20" break="no"/>mentorum: quia inter omnia sacramenta 
+      pri<lb ed="#P" n="21" break="no"/>mum, quod debet recipi, est baptismus sine quo 
+      <lb ed="#P" n="22"/>nullum aliud sacramentum potest recipi: &amp; per 
+      <lb ed="#P" n="23"/>ipsum recipitur primum posse sacramenta, 
+      actio<lb ed="#P" n="24" break="no"/>nem scilicet hierarchicam quae est in 
+      communi<lb ed="#P" n="25" break="no"/>tate christiana, scilicet communicare cum aliis 
+      fi<lb ed="#P" n="26" break="no"/>delibus in actibus christianis: &amp; propter hoc dicit 
+      <lb ed="#P" n="27"/>quod est principium sanctissimorum mandatorum: 
+      <lb ed="#P" n="28"/>&amp; accipit, ibi mandata pro sacramentis prout sunt 
+      <lb ed="#P" n="29"/>nobis sub praecepto tradita: ac si dicatur, quod est 
+      <lb ed="#P" n="30"/>principium &amp; ianua omnium sacramentorum, &amp; 
+      <lb ed="#P" n="31"/>inquantum efficimur per ipsum habiles ad 
+      actio<lb ed="#P" n="32" break="no"/>nes christianas dicit sacrae actionis. Secundus 
+      effe<lb ed="#P" n="33" break="no"/>ctus baptismi est, quod facit hominem habilem 
+      <lb ed="#P" n="34"/>ad recipiendum effectus omnes aliorum 
+      sacra<lb ed="#P" n="35" break="no"/>mentorum. Vnde sicut impossibile esset 
+      nonquan<lb ed="#P" n="36" break="no"/>tum figurari: ita impossibile est non habentem 
+      <lb ed="#P" n="37"/>characterem baptismalem recipere characteres, 
+      <lb ed="#P" n="38"/>vel ornatus qui causantur in aliis sacramentis. 
+      <lb ed="#P" n="39"/>Et hunc effectum tangit cum dicit, &amp; aliorum 
+      <lb ed="#P" n="40"/>mandatorum &amp; sacrarum actionum susceptiuam 
+      <lb ed="#P" n="41"/>oportunitatem, idest, idoneam susceptionem 
+      alio<lb ed="#P" n="42" break="no"/>rum sacramentorum formans nostros animales 
+      <lb ed="#P" n="43"/>habitus: idest dispositiones, vires nostrae animae in 
+      <lb ed="#P" n="44"/>quibus praedicti effectus recipiuntur. Tertius 
+      ef<lb ed="#P" n="45" break="no"/>fectus est mereri vitam aeternam. Et hoc tangit 
+      <lb ed="#P" n="46"/>cum dicit. Et ad supercelestis quietis, &amp;c. 
+      Ana<lb ed="#P" n="47" break="no"/>gogen enim idem est, quod sursum ductio. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e426">
+               <lb ed="#P" n="48"/>Diffinitio autem Damasceni, scilicet quod 
+      <lb ed="#P" n="49"/>haptismus est per quem primitias spiritus 
+      habe<lb ed="#P" n="50" break="no"/>mus, &amp; fit in nobis principium alterius vitae, 
+      rege<lb ed="#P" n="51" break="no"/>neratio, sigillum, custodia &amp; illuminatio tangit, 
+      di<lb ed="#P" n="52" break="no"/>uersos effectus siue sines baptismi. Vnum 
+      effe<lb ed="#P" n="53" break="no"/>ctm tangit in eo quod dicitur quod baptismus 
+      <lb ed="#P" n="54"/>est per quem primitias spiritus habemus, &amp; fit in 
+      <lb ed="#P" n="55"/>ncbis principium alterius vitae, ac si dicatur quod 
+      <lb ed="#P" n="56"/>per baptismum efficimur in quadam vita 
+      spiritua<lb ed="#P" n="57" break="no"/>li per quem baptismum accipimus primitias 
+      spiri<lb ed="#P" n="58" break="no"/>tus, scilicet qui est spiritualiter viuere. Hoc 
+      au<lb ed="#P" n="59" break="no"/>tem quod dicit regeneratio importat quandam 
+      <lb ed="#P" n="60"/>telationem nostri ad Deum vt filii ad patrem. 
+      <lb ed="#P" n="61"/>Sigillum autem, quod videtur importare 
+      quar<lb ed="#P" n="62" break="no"/>dam figurationem, importat conformitatem 
+      no<lb ed="#P" n="63" break="no"/>stii ad Deum. Custodia autem dicitur 
+      inquan<lb ed="#P" n="64" break="no"/>tum effectus baptisini custodit heminem in statu 
+      <lb ed="#P" n="65"/>gratiae quantum est in ipso. IIluminatio autem 
+      <lb ed="#P" n="66"/>dicitur inquantum est prima protestatio fidei, 
+      cu<lb ed="#P" n="67" break="no"/>ius est illuminare. Vnde etiam dicitur 
+      sacramen<lb ed="#P" n="68" break="no"/>tum fidei. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e474">
+               <lb ed="#P" n="69"/>Ad primum ergo in oppositum dicendum, 
+      <lb ed="#P" n="70"/>quod sacramentum importat sanctitatem vt ef¬ 
+      <!--321.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>secum vel finem: non autem vt illud quod ea 
+      <lb ed="#P" n="72"/>essentialiter sacramentum interius ex habitu, 
+      si<lb ed="#P" n="73" break="no"/>cut virtus calefactiua solis importat calorem vt 
+      <lb ed="#P" n="74"/>effectum: non autem vt id quod essentialiter est 
+      <lb ed="#P" n="75"/>ipsa virtus. Modo Magister diffinit baptismum 
+      <lb ed="#P" n="76"/>non quantum ad finem etus: sed quantum ad 
+      <lb ed="#P" n="77"/>principia eius intrinseca quae sunt materia &amp; 
+      for<lb ed="#P" n="78" break="no"/>ma eius: &amp; ideo inteius diffinitione non posuit 
+      <lb ed="#P" n="79"/>sanctificationem. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e505">
+               <lb ed="#P" n="80"/>Ad secundum dicendum, quod non est 
+      in<lb ed="#P" n="81" break="no"/>conueniens eiusdem esse diuersas diffinitiones, 
+      <lb ed="#P" n="82"/>si sint datae per diuersas causas, &amp; sic est in 
+      propo<lb ed="#P" n="83" break="no"/>sito. Nam diuersi tetigerunt diuersas causas 
+      ba<lb ed="#P" n="84" break="no"/>ptismi: in tangendo autem causam materialem, 
+      <lb ed="#P" n="85"/>magis tangit mate iam Magister, dicendo, quod 
+      <lb ed="#P" n="86"/>est ablutio, quam Hugo qui dicit, quod est aqua, 
+      <lb ed="#P" n="87"/>Non ablutio est materia propinqua baptismi qua 
+      <lb ed="#P" n="88"/>vtitur Magister, aqua vero non est materia 
+      remo<lb ed="#P" n="89" break="no"/>ta qua vtitur Hugo in sua diffinitione. Et sic 
+      vter<lb ed="#P" n="90" break="no"/>que tangit materiam. 
+      </p>
+            <p xml:id="hx2hx3-c07897-d1e531">
+               <lb ed="#P" n="91"/>Et per hoc patet solutio ad tertium 
+      agumen<lb ed="#P" n="92" break="no"/>tum. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

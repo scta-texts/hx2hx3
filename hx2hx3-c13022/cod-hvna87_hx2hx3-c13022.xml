@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="335"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c13022"><!-- l4d6q5 -->
+            <head xml:id="hx2hx3-c13022-Hd1e99">Quaestio 5</head>
+            <head xml:id="hx2hx3-c13022-Hd1e101" type="question-title">De catechismo qui est instructio</head>
+            <p xml:id="hx2hx3-c13022-d1e104">
+               <lb ed="#P" n="45"/>De Cathechismo &amp; exorcismo.
+      </p>
+            <p xml:id="hx2hx3-c13022-d1e109">
+               <lb ed="#P" n="46"/>Illa autem interroganio &amp; responsio fdei 
+      <lb ed="#P" n="47"/>fit in cathecumino, cui additur 
+      exorcis<lb ed="#P" n="48" break="no"/>mues. nte baptisinum enim sit 
+      carhechis<lb ed="#P" n="49" break="no"/>mus &amp; exorcisius, post cathechisinum se. 
+      <lb ed="#P" n="50"/>quitur exorcismus, vt ab eo qui tam 
+      fi<lb ed="#P" n="51" break="no"/>de instructus est aduer saria virtus 
+      pel<lb ed="#P" n="52" break="no"/>latur. Exorcisinus de Craeco in Latinum 
+      <lb ed="#P" n="53"/>dicitur adiuratio, Cathecismne instruttio, 
+      <lb ed="#P" n="54"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c13022-d1e131">
+               <lb ed="#P" n="55"/>QVAESTIO QVINTA 
+      </p>
+            <p xml:id="hx2hx3-c13022-d1e137">
+               <lb ed="#P" n="56"/>Quinto quaeritur de cathecismo qui est 
+      in<lb ed="#P" n="57" break="no"/>structio. 
+      </p>
+            <p xml:id="hx2hx3-c13022-d1e144">
+               <lb ed="#P" n="58"/>Ad cuius euidentiam est sciendum, quod 
+      du<lb ed="#P" n="59" break="no"/>plex est instructio. Vna est admonitoria ad 
+      con<lb ed="#P" n="60" break="no"/>uertendum, scilicet homines ad fidem Christi. Et 
+      <lb ed="#P" n="61"/>talis pertinet ad praelatos. Et ad habentes curam 
+      <lb ed="#P" n="62"/>animarum. Alia est per doctrinam &amp; haec est tri¬ 
+      <!--335.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>pler. Vna est qua aliquis docetur accedere ad 
+      <lb ed="#P" n="64"/>baptismum. Secunda est qua baptizatus 
+      nun<lb ed="#P" n="65" break="no"/>dum iustructus ad plenum in rudimentis fidei 
+      in<lb ed="#P" n="66" break="no"/>strultur in eis quae pertinent ad communem vsum 
+      <lb ed="#P" n="67"/>ecclesiae. Tertia est quae fit predicando &amp; 
+      instruen<lb ed="#P" n="68" break="no"/>do publice populum, &amp; peruinet ad Episcopos &amp; 
+      <lb ed="#P" n="69"/>curatos. Prima &amp; secunda instructio quae fiunt 
+      <lb ed="#P" n="70"/>per doctrinam pertinent ad cathecismum solum 
+      <lb ed="#P" n="71"/>proprie loquendo &amp; pertinet ad patrinum nisi 
+      <lb ed="#P" n="72"/>forte modo, quia paruuli sunt communiter inter 
+      <lb ed="#P" n="73"/>Christiano, fideles, &amp; possunt doceri ab eis. Et 
+      <lb ed="#P" n="74"/>inde est quod dicitur eathecizans puerum ante 
+      <lb ed="#P" n="75"/>baptismum dicit credis in Deum, &amp;c. Qui si 
+      <lb ed="#P" n="76"/>sit adultus respondit dicens. Credo: Si vero sit 
+      <lb ed="#P" n="77"/>puer respondet patrinus pro eo, eredo. Et sic patet 
+      <lb ed="#P" n="78"/>de cathecismo. 
+      </p>
+            <p xml:id="hx2hx3-c13022-d1e196">
+               <lb ed="#P" n="79"/>Ad euidentiam exorcismi qui dicitur 
+      coniura<lb ed="#P" n="80" break="no"/>tio quaedam diaboli vt recedat ab homine, est 
+      <lb ed="#P" n="81"/>sciendum quod diabolus nihil potest in homine, 
+      <lb ed="#P" n="82"/>nisi quantum Deus sibi permisit maxime in 
+      ani<lb ed="#P" n="83" break="no"/>mam, Deus autem permittit potestatem diabolo 
+      <lb ed="#P" n="84"/>in hominem fecundum quod demerita eius 
+      requi<lb ed="#P" n="85" break="no"/>runt. Et ideo quando homo est in peccato 
+      mor<lb ed="#P" n="86" break="no"/>tali diabolus permittitur agere circa res quibus 
+      <lb ed="#P" n="87"/>talis vtitur, puta cibum &amp; potum faciendo 
+      immu<lb ed="#P" n="88" break="no"/>tationes quasdam: &amp; etiam circa phantasiam. Et 
+      <lb ed="#P" n="89"/>ideo fit exorcismus ante baptismum ad 
+      expellen<lb ed="#P" n="90" break="no"/>dum demonem. Quod autem baptiz andus prius 
+      <lb ed="#P" n="91"/>debeat exorcizari, patet ex dictis sic, quia quando 
+      <lb ed="#P" n="92"/>aliquis efficitur &amp; applicatur vt sit templum Dei, 
+      <lb ed="#P" n="93"/>prius est remouere contrariam potestatem quam 
+      <lb ed="#P" n="94"/>inducatur dispositio &amp; sanctitas. Sed homo ante 
+      <lb ed="#P" n="95"/>baptismum erat in potestate dyaboli quae est 
+      con<lb ed="#P" n="96" break="no"/>traria potestati &amp; dispositioni quae requiritur in 
+      <lb ed="#P" n="97"/>eo qui efficitur templum Dei per baptiimum. 
+      Er<lb ed="#P" n="98" break="no"/>go ante baptismum oportet quod talis potestas 
+      <lb ed="#P" n="99"/>expellatur, quod fit per exorcismum. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c13022-d1e244">
+               <lb ed="#P" n="100"/>Seruatur autem iste modus in exorcizando. 
+      <lb ed="#P" n="101"/>Quia primo fit exufflatio, per quam significatur 
+      ex<lb ed="#P" n="102" break="no"/>pulsio daemonis quam Deus facit per 
+      exufflatio<lb ed="#P" n="103" break="no"/>nem sacerdotis. Deinde fit manus impositio, 
+      <lb ed="#P" n="104"/>per quam significatur clausio ne redeat diabolus. 
+      <lb ed="#P" n="105"/>Deinde fit cihatio salis in ore, per quam significatur, 
+      <lb ed="#P" n="106"/>quod baptizandus debet profiteri fidem 
+      Christi<lb ed="#P" n="107" break="no"/>Deinde sputi linitio in auribus &amp; natibus, per 
+      li<lb ed="#P" n="108" break="no"/>nitionem aurium significatur quod debet 
+      frequem<lb ed="#P" n="109" break="no"/>ter audire Euangelium &amp; verbum Dei. Per lini 
+      <lb ed="#P" n="110"/>tionem in naribus significaturquod debet habere 
+      sa<lb ed="#P" n="111" break="no"/>porem de doctrina Christi, &amp; per ista tria vltima 
+      <lb ed="#P" n="112"/>remouentur ea quibus diabolus potest eum 
+      im<lb ed="#P" n="113" break="no"/>pedire a dictis tribus. Deinde fit linitio olei in 
+      <lb ed="#P" n="114"/>spatula, per quod significatur quod debet esse 
+      <lb ed="#P" n="115"/>pugil contra daemones, &amp; fit per modum crucis, 
+      <lb ed="#P" n="116"/>ad denotandum quod erucis est fugare 
+      daemo<lb ed="#P" n="117" break="no"/>nes. Deinde quando venit ad fontem linitur 
+      <lb ed="#P" n="118"/>erismate in vertice, ad significandum confirmatio. 
+      <lb ed="#P" n="119"/>nem gratiae baptismalis, quae debet manere in eoi 
+      <lb ed="#P" n="120"/>Postmodum induitur caputio lineo albo, ad 
+      de<lb ed="#P" n="121" break="no"/>notandum candorem innocentiae quem recipit in 
+      <lb ed="#P" n="122"/>baptismo, quem debet seruare. Candela quae 
+      da<lb ed="#P" n="123" break="no"/>tur sibi significatlumem fidei quod recipitur in 
+      bap<lb ed="#P" n="124" break="no"/>tismo quae tamen nihil facit ad conferendum tale 
+      <lb ed="#P" n="125"/>lumen bonum: sed est signum tantum. 
+      </p>
+            <p xml:id="hx2hx3-c13022-d1e303">
+               <lb ed="#P" n="126"/>Notandum, quod exorcismus secundum 
+      Ma<lb ed="#P" n="127" break="no"/>gistros nihil facit ad sanctitatem &amp; sacramentum 
+      <lb ed="#P" n="128"/>directe: sed solum remouendo prohibens, quia 
+      <lb ed="#P" n="129"/>remouet impedimenta sanctitatis, tale autem non 
+      <lb ed="#P" n="130"/>est sacramentum. Et dicunt Magistri quod exore 
+      <lb ed="#P" n="131"/>cismus &amp; ea quae fiunt in eo habent virtutem 
+      ex<lb ed="#P" n="132" break="no"/>pellendi daemonem. Talem autem virtutem 
+      <!--336.xml-->
+      <pb ed="#P" n="336"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>habent sicut causam sine qua non, quia scilicet ex 
+      <lb ed="#P" n="2"/>pacto diuino quicumque recipit talia, 
+      remouen<lb ed="#P" n="3" break="no"/>tur ab eo impedimenta &amp; impedientia 
+      collatio<lb ed="#P" n="4" break="no"/>nem gratiae &amp; virtutem baptizato aliter non. 
+      </p>
+            <p xml:id="hx2hx3-c13022-d1e336">
+               <lb ed="#P" n="5"/>Vnde versus de baptismo, contulit effectum 
+      <lb ed="#P" n="6"/>baptismo passio Christi spiritus ipsum dat pro quo 
+      <lb ed="#P" n="7"/>duo tempora seruat. Et hoc intelligendum est 
+      <lb ed="#P" n="8"/>quantum ad adultos. 
+      </p>
+            <p xml:id="hx2hx3-c13022-d1e348">
+               <lb ed="#P" n="9"/>Notandum, quod baptismus gratiam auget: 
+      <lb ed="#P" n="10"/>fomitem debilitat, Ecclesiae coniungit, 
+      characte<lb ed="#P" n="11" break="no"/>rem imprimit, originale aufert, templum Dei 
+      fa<lb ed="#P" n="12" break="no"/>cit, ab omni poena liberat: vnde versus. Auger, 
+      <lb ed="#P" n="13"/>debilitat, coniungit, &amp; imprimit, aufert. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

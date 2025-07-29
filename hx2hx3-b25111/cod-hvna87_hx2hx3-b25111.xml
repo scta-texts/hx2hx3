@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="77"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b25111"><!-- l1d11q3 -->
+            <head xml:id="hx2hx3-b25111-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-b25111-Hd1e101" type="question-title">Utrum possit dici plures spiratores vel unus spirator</head>
+            <p xml:id="hx2hx3-b25111-d1e104">
+               <lb ed="#P" n="75"/>QVAESTIO TERTIA
+      </p>
+            <p xml:id="hx2hx3-b25111-d1e109">
+               <lb ed="#P" n="76"/>CIra hoc quaeritur. Vtrum possit dici plures 
+      <lb ed="#P" n="77"/>spiratores vel vnus spirator. Ad hoc dicunt 
+      <lb ed="#P" n="78"/>quidam quod debeant dici plures spiratores: licet 
+      <lb ed="#P" n="79"/>non debeant dici plures creatores sed vnus. Et 
+      ra<lb ed="#P" n="80" break="no"/>tionem huius assignant, nuia illud ihquo 
+      oonue<lb ed="#P" n="81" break="no"/>niunt plures personae creantis; creat. Nam ista 
+      <lb ed="#P" n="82"/>est vera, essentia creat: sed virtus spiratiua in qua 
+      <lb ed="#P" n="83"/>conueniunt Pater &amp; Filius cum dicat essentiam, 
+      <lb ed="#P" n="84"/>non spirat; quia essentia non spirat. Et ideo quia 
+      <lb ed="#P" n="85"/>spirare non conuenit essentiae sed supposito: ideo 
+      <lb ed="#P" n="86"/>dicuntur plures spiratores, &amp; non vnus spirator: 
+      <lb ed="#P" n="87"/>Ad hoc facit etiam auctoritas Hilarii dicenuis 
+      <lb ed="#P" n="88"/>quod. Spiritns sanctur prpcedieA Parre &amp; Filio ab 
+      <lb ed="#P" n="89"/>vtroque aucioribu. Aliis vero vsdetur quod quia 
+      <lb ed="#P" n="90"/>spitator quod est nomen verbale importatur ner 
+      <lb ed="#P" n="91"/>nomen substantiuum: quia nomen verbale 
+      non<lb ed="#P" n="92" break="no"/>est nomen adiectiuum, ideo quia ibi est vnus actus 
+      <lb ed="#P" n="93"/>spirandi, deberet. dici vnus spirator. Sustinendo 
+      <lb ed="#P" n="94"/>ergo istud potest dici ad illud, quod dicunt altt, 
+      <lb ed="#P" n="95"/>quod licet illud quod potentia spiratiua in qua 
+      <lb ed="#P" n="96"/>conueniunt Pater &amp; Filius non spiret: tamen 
+      po<lb ed="#P" n="97" break="no"/>test dici quod Pater &amp; Filius sunt vnus actus 
+      spi<lb ed="#P" n="98" break="no"/>randi quem actum nomen verbale per modum 
+      sub<lb ed="#P" n="99" break="no"/>stantiui nominis importat: &amp; sufficit ad hoc quod 
+      <lb ed="#P" n="100"/>dicantur vnus spirator. Nam quado dicitur quod 
+      <lb ed="#P" n="101"/>Pater &amp; Filius, sunt vnus spirator: non oportet 
+      <lb ed="#P" n="102"/>quod sit sensus, sunt vnum suppositum spirans: 
+      <lb ed="#P" n="103"/>quia hoc esset falsum: sed quod sunt vnum in 
+      spi<lb ed="#P" n="104" break="no"/>rando, siue in actu spirandi. 
+      </p>
+            <p xml:id="hx2hx3-b25111-d1e174">
+               <lb ed="#P" n="105"/>Ad auctoritatem Hilarsi potest dici quod 
+      ac<lb ed="#P" n="106" break="no"/>cipit ibi substantiuum pro adiectiuo; quasi 
+      dice<lb ed="#P" n="107" break="no"/>ret a pluribus habentibus auctoritatem.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

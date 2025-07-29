@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="107"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b35072"><!-- l1d20q1 -->
+            <head xml:id="hx2hx3-b35072-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b35072-Hd1e101" type="question-title">Utrum filius dei sit omnipotens</head>
+            <p xml:id="hx2hx3-b35072-d1e104">
+               <lb ed="#P" n="14"/>Distinctio vigesima 
+      <lb ed="#P" n="15"/>QVAESTIO PRIMA.
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e111">
+               <lb ed="#P" n="16"/>CIrca vigesimam distinctionem; quaeritur vtrum 
+      <lb ed="#P" n="17"/>Filius Dei sit omnipotens. Et arguitur quod 
+      <lb ed="#P" n="18"/>non, quia ille cui deficit aliquid quod ad 
+      omnipo<lb ed="#P" n="19" break="no"/>tentia pertinent non est omnipotens. Sed posse ge 
+      <lb ed="#P" n="20"/>nerare pertinet ad omnipotentiam, quia Augu. 
+      <lb ed="#P" n="21"/>dicit Patrem non esse omnipotentem si non posset 
+      <lb ed="#P" n="22"/>aequalem sibi Filium generare: sed Filio deficit 
+      <lb ed="#P" n="23"/>posse generare. Ergo &amp;c. Si dicatur quod posse 
+      <lb ed="#P" n="24"/>generare pertinet ad omnipotentiam Patris &amp; non 
+      <lb ed="#P" n="25"/>ad omnipotentiamT ilii. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e135">
+               <lb ed="#P" n="26"/>Contra. Omnipotentia Filii aut est simpliciter 
+      <lb ed="#P" n="27"/>omnipotentia, aut non, sed cum determinatione. 
+      <lb ed="#P" n="28"/>Si primo modo, Ergo debet habere quidquid 
+      per<lb ed="#P" n="29" break="no"/>tinet ad omnipotentiam simpliciter. Sed 
+      genera<lb ed="#P" n="30" break="no"/>re pertinet ad omnipotentiam simpliciter, 
+      alio<lb ed="#P" n="31" break="no"/>quin non pertineret ad omnipotentiam Patris. 
+      <lb ed="#P" n="32"/>Ergo deberet posse generare. Si autem 
+      omnipo<lb ed="#P" n="33" break="no"/>tentia Filii non est omnipotentia simpliciter, sed 
+      <lb ed="#P" n="34"/>cum determinatione, quia seilicet est omninotene 
+      <lb ed="#P" n="35"/>tia Filii, sequitur ex hoc quod non deberet dici 
+      <lb ed="#P" n="36"/>simpliciter omnipotens: sicut nec ignis dicitur sim 
+      <lb ed="#P" n="37"/>pliciter omnipotens, licet habeat omnipotentiam 
+      <lb ed="#P" n="38"/>ignis. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e167">
+               <lb ed="#P" n="39"/>In contrarium est Aug. &amp; Magister in littera. 
+      <lb ed="#P" n="40"/>Respondeo, Tota difficultas istius quaestionis 
+      <lb ed="#P" n="41"/>stat in hoc, quomodo scilicet possit stare quod 
+      Fi<lb ed="#P" n="42" break="no"/>lius sit omnipotens, &amp; tamen non possit generare. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e178">
+               <lb ed="#P" n="43"/>Ad hoc autem dicunt quidam qnod cum 
+      om<lb ed="#P" n="44" break="no"/>nipotentia respiciat solum ea quae non implicant 
+      <lb ed="#P" n="45"/>contradictionem, si aliquis non potest illud quod 
+      <lb ed="#P" n="46"/>implicat contradictionem non sequitur quod non 
+      <lb ed="#P" n="47"/>sit omnipotens. Filium autem generare implicat 
+      <lb ed="#P" n="48"/>contradictionem, quia si generaret, esset &amp; non 
+      <lb ed="#P" n="49"/>esset Filius: &amp; sic esset Filius &amp; non Filius, quia 
+      <lb ed="#P" n="50"/>in Diuinis non possunt esse duo Filii. Sed Patrem 
+      <lb ed="#P" n="51"/>ganerare non implicat contradictionem, ideo sxt 
+      <lb ed="#P" n="52"/>dicunt non obstante quod Filius non possit 
+      gene<lb ed="#P" n="53" break="no"/>rare, non sequitur quod non sit omnipotens, quia, 
+      <lb ed="#P" n="54"/>implicat contradictionem. Sed si Pater non posset 
+      <lb ed="#P" n="55"/>generare non esset omnipotens, quia ipsum 
+      gene<lb ed="#P" n="56" break="no"/>rare non implicat contradictionem. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e211">
+               <lb ed="#P" n="57"/>Sed istud parum valet, quia quando dicitur 
+      <lb ed="#P" n="58"/>quod omnipotentia est illa potentia qua potest 
+      <lb ed="#P" n="59"/>esse illud quod contradictionem non implicat, 
+      <lb ed="#P" n="60"/>aut intelligitur de eo quod contradictionem non 
+      <lb ed="#P" n="61"/>implicat absolute &amp; secundum se, aut de eo quod 
+      <lb ed="#P" n="62"/>contradictionem non implicat quoad istud. Si 
+      pri<lb ed="#P" n="63" break="no"/>mo modo, cum generare Filium qui sit Deus non 
+      <lb ed="#P" n="64"/>implicat absolute contradictionem, alioqum esset 
+      <lb ed="#P" n="65"/>omnino impossibile: sequitur quod qui nonhahet 
+      <!--107.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>potentiam quae est ad generandum Filium, 
+      nonn<lb ed="#P" n="67" break="no"/>omnipotens. Si secundo modo, sequitur quod 
+      <lb ed="#P" n="68"/>Qoelum esset omnipotens, quia potest omnia quae 
+      <lb ed="#P" n="69"/>non implicant cuntradictionem quantum ad 
+      Cue<lb ed="#P" n="70" break="no"/>lum siue virtutem coelestem. Nam vnumquodque 
+      <lb ed="#P" n="71"/>potest illud quod non est fibi impossibile. Quod 
+      <lb ed="#P" n="72"/>autem est impossibile alicui in quantum huiusmo. 
+      <lb ed="#P" n="73"/>di, quoad illud includit contradictionem, quia 
+      <lb ed="#P" n="74"/>omne impossibile in quantum impossibile includit 
+      <lb ed="#P" n="75"/>contradictionem &amp; incompossibilia. Hoc autem 
+      <lb ed="#P" n="76"/>est inconueniens quod Coelum sit omnipotens. 
+      <lb ed="#P" n="77"/>Ergo inconueniens est ponere quod aliquid sit 
+      om<lb ed="#P" n="78" break="no"/>nipotens, quia potest omnia quae non includunt 
+      <lb ed="#P" n="79"/>contradictionem quoad se. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e268">
+               <lb ed="#P" n="80"/>Authores huius opinionis ponunt aliam 
+      obie<lb ed="#P" n="81" break="no"/>ctionem &amp; solutionem impertinentem, in 
+      solu<lb ed="#P" n="82" break="no"/>tione etiam dicunt falsum, scilicet qnod in 
+      actio<lb ed="#P" n="83" break="no"/>ne, aliqua contradictio quam non includit 
+      omni<lb ed="#P" n="84" break="no"/>potentia, sed excludit, respiciat agens &amp; non 
+      ob<lb ed="#P" n="85" break="no"/>iectum possibile. Nam omnipotentia dicitur ex 
+      <lb ed="#P" n="86"/>hocl quod potest omne possibile: sub autem omni 
+      <lb ed="#P" n="87"/>possibili continetur illud quod non implicat 
+      con<lb ed="#P" n="88" break="no"/>tradictionem &amp; est natum esse obiectum alicuius 
+      <lb ed="#P" n="89"/>potentiae actiue, nec est accipiendum, vt dictum 
+      <lb ed="#P" n="90"/>est, non implicare contradictionem quoad hunc 
+      <lb ed="#P" n="91"/>sed implicare contradictionem abselute &amp; ex se. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e297">
+               <lb ed="#P" n="92"/>Alii dicunt quod relatio nihil ponit quantum 
+      <lb ed="#P" n="93"/>ad rationem suae quidditatatis, sed quantum ad 
+      <lb ed="#P" n="94"/>esse. Quantum autem ad esse transit in substantia 
+      <lb ed="#P" n="95"/>in diuinis, ideo relatio quantum ad illud quod po. 
+      <lb ed="#P" n="96"/>nit est communis omnibus, propter quod vt 
+      di<lb ed="#P" n="97" break="no"/>cunt siue potentia dicat relationem siue essentiam 
+      <lb ed="#P" n="98"/>eadem numero est potentia in Tatre &amp; Filio. 
+      <lb ed="#P" n="99"/>ldeo omninotentia Patris est in Filio &amp; per 
+      conle<lb ed="#P" n="100" break="no"/>quens est omnipotens. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e319">
+               <lb ed="#P" n="101"/>Sed hoc non videtur, nisi bene dictum. Primo, 
+      <lb ed="#P" n="102"/>quia omne quod est, aut dicitur positiue, aut 
+      pri<lb ed="#P" n="103" break="no"/>uatiue, vel omnino negatiue: quando autem 
+      di<lb ed="#P" n="104" break="no"/>citur de aliquo quod sit Pater, hoc non dicitur 
+      pri<lb ed="#P" n="105" break="no"/>uatiue, quia priuatiua includunt priuationem 
+      ali<lb ed="#P" n="106" break="no"/>cuius perfectionis vel absolute vel limitate: sicut 
+      <lb ed="#P" n="107"/>infinitum dicit formaliter negationem in aliquo 
+      <lb ed="#P" n="108"/>in quo fundatur talis priuatio; Et multo plus illud 
+      <lb ed="#P" n="109"/>quod dicitur negatiue includit negationem. Esse 
+      <lb ed="#P" n="110"/>autem aliquem Patrem non dicit aliquam 
+      nega<lb ed="#P" n="111" break="no"/>tionem, imo affirmationem: licet ad illam 
+      affir<lb ed="#P" n="112" break="no"/>mationemsequatur negatio, quia ad Patrem esse 
+      <lb ed="#P" n="113"/>sequitur non esse Filium eiusdem, vel non esse 
+      la<lb ed="#P" n="114" break="no"/>pidem. Ergo falsum est dicere quod relatio 
+      for<lb ed="#P" n="115" break="no"/>maliter loquendo nihil ponat. Non est idem 
+      dice<lb ed="#P" n="116" break="no"/>te relationem nihil ponere &amp; nihil addere 
+      diuer<lb ed="#P" n="117" break="no"/>sum a suo fundamento, quia licet relatio non ad. 
+      <lb ed="#P" n="118"/>dat rem aliam a fundamento: tamen positiue 
+      di<lb ed="#P" n="119" break="no"/>citur &amp; ponit suum fundamentum cum 
+      determni<lb ed="#P" n="120" break="no"/>nata ratione: sicut rationale nihil diuersum 
+      read<lb ed="#P" n="121" break="no"/>dit supra animal; tamen aliquid ponit, sed non 
+      a<lb ed="#P" n="122" break="no"/>liquid aliud re ab animali, sed aliud ratione. 
+      Se<lb ed="#P" n="123" break="no"/>cundo etiam hoc non videtur bene dictum, quia 
+      <lb ed="#P" n="124"/>si potentia formaliter significaret relationem, siue 
+      <lb ed="#P" n="125"/>relatio aliquid ponat,, siue non; non pollet dici, 
+      <lb ed="#P" n="126"/>quod simpliciter Filius haberet omnipotentiam, 
+      <lb ed="#P" n="127"/>sicut nec potest dici habere omnem relationem: 
+      <lb ed="#P" n="128"/>sed oporteret dicere quod Filius haberet 
+      omnipo<lb ed="#P" n="129" break="no"/>tentiam quantum ad illud quod est positiuum 
+      <lb ed="#P" n="130"/>Vnde, sicut non est verum Filium habere omnem 
+      <lb ed="#P" n="131"/>relationem nisi cum determinatione: supposito 
+      <lb ed="#P" n="132"/>quod illi vetum dicat, seilicet quantum ad illud 
+      <lb ed="#P" n="133"/>quod est positiuum in relatione: ita non esset 
+      sim<lb ed="#P" n="134" break="no"/>pliciter verum eumidicere esse omnipotentem vel 
+      <lb ed="#P" n="135"/>sibere omnipetentiam; si potentia fignihisasit 
+      <!--108.xml-->
+      <pb ed="#P" n="108"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>formaliter rationem procedentis nisi cum 
+      praedi<lb ed="#P" n="2" break="no"/>cta determinatione, scilicet quod non habeat 
+      re<lb ed="#P" n="3" break="no"/>sationem paternitatis. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e411">
+               <lb ed="#P" n="4"/>Ideo aliter est dicendum. Primo, ergo 
+      vi<lb ed="#P" n="5" break="no"/>dendum quid importat vel significat 
+      omnipoten<lb ed="#P" n="6" break="no"/>tia. Secundo, videndum est vtrum Filius habeat 
+      <lb ed="#P" n="7"/>omnipotentiam: Tertio, patebit vtrum ipse sit 
+      <lb ed="#P" n="8"/>omnipotens. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e424">
+               <lb ed="#P" n="9"/>Quantum ad primum sciendum, quod lv 
+      om<lb ed="#P" n="10" break="no"/>no importatum in omnipotentia potest facere 
+      di<lb ed="#P" n="11" break="no"/>stributionem; vel ex parte potentiae vt sit sensus, 
+      <lb ed="#P" n="12"/>omnipotentia id est omnis potentia tam creata 
+      <lb ed="#P" n="13"/>quam increata: vel ex parte ipossibilis vt sit sensus, 
+      <lb ed="#P" n="14"/>omnipotentia id est potentia quae possit in omnt 
+      <lb ed="#P" n="15"/>quod habet rationem possibilis. Modo in diuinis. 
+      <lb ed="#P" n="16"/>non accipitur omnipotentia primo modo, quia 
+      <lb ed="#P" n="17"/>constat quod in diuinis formaliter loquendo 
+      non<lb ed="#P" n="18" break="no"/>est omnis potentia: sed accipitur 2. modo quia in 
+      <lb ed="#P" n="19"/>diuinis est potentia quae potest actiue in omnc 
+      <lb ed="#P" n="20"/>illud quod habet rationem possibilis. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e453">
+               <lb ed="#P" n="21"/>Quantum ad secundum sciendum, quod sicut 
+      <lb ed="#P" n="22"/>supra dictum est potentia non est relatio, nec 
+      re<lb ed="#P" n="23" break="no"/>lationem intrinsece includit in sua ratione; licet 
+      <lb ed="#P" n="24"/>importet relationem vt quoddam consequens. Et 
+      <lb ed="#P" n="25"/>propter hoc licet non sit eadem relatio in Filio que 
+      <lb ed="#P" n="26"/>est in Patre formaliter loquendo: tamen est eadem 
+      <lb ed="#P" n="27"/>potentia in Patre &amp; Filio &amp; Spiritu sancto, quae 
+      qui<lb ed="#P" n="28" break="no"/>dem potentia est essentia diuina quae potest: in 
+      <lb ed="#P" n="29"/>omne quod habet rationem possibilis vel quod 
+      po<lb ed="#P" n="30" break="no"/>test produci vel fieri. Et ideo tam in Filio quam 
+      <lb ed="#P" n="31"/>in Spiritu sancto est omnipotentia. Et sic patet de 
+      <lb ed="#P" n="32"/>secundo. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e482">
+               <lb ed="#P" n="33"/>Quantum ad tertium sciendum, quod 
+      omni<lb ed="#P" n="34" break="no"/>potens in diuinis non dicitur, quia habeat 
+      poten<lb ed="#P" n="35" break="no"/>tiam quae potest in omnia possibilia cum respectu 
+      <lb ed="#P" n="36"/>nato fundari in ea, alioquin, nec Pater esset 
+      om<lb ed="#P" n="37" break="no"/>nipotens, quiae non habet essentiam diuinam cum 
+      <lb ed="#P" n="38"/>relatione filiationis: sed dicitur omnipotens, quia 
+      <lb ed="#P" n="39"/>habet potentiam quae potest in omnia possibilia 
+      <lb ed="#P" n="40"/>absolute, non contracte sicut dicebat prima 
+      opi<lb ed="#P" n="41" break="no"/>nio. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e504">
+               <lb ed="#P" n="42"/>Vlterius notandum, quod in creaturis 
+      secun<lb ed="#P" n="43" break="no"/>dum communem opinionem quae ponit quod 
+      <lb ed="#P" n="44"/>actio &amp; passio sunt vnus motus, &amp; sunt idem cum 
+      <lb ed="#P" n="45"/>forma acquisita per motum, actio &amp; passio sunt 
+      <lb ed="#P" n="46"/>aliquis actus productus. Sed in diuinis non est 
+      <lb ed="#P" n="47"/>aliqua forma vel aliquis actus productus, quia nec 
+      <lb ed="#P" n="48"/>esse nec essentia. Sed est actus communicatus, &amp; 
+      <lb ed="#P" n="49"/>idem actus numero qui est communicatus 
+      produ<lb ed="#P" n="50" break="no"/>cto est principium communicandi in producente, 
+      <lb ed="#P" n="51"/>Actus autem qui est principium producendi in 
+      <lb ed="#P" n="52"/>agente non potest esse idem actus numero cum 
+      <lb ed="#P" n="53"/>actu producto: &amp; ideo in talibus non potest esse 
+      <lb ed="#P" n="54"/>quod illud idem numero quod est potentia 
+      pro<lb ed="#P" n="55" break="no"/>ductiua in agente sit in producto actus productus. 
+      <lb ed="#P" n="56"/>Et ideo in talibus est aliquid praeter id quod 
+      rela<lb ed="#P" n="57" break="no"/>tiue dicitur in vno quod non est in alio, quia actus 
+      <lb ed="#P" n="58"/>qui est principium producendi, &amp; actus productus 
+      <lb ed="#P" n="59"/>non sunt idem actus numero. Sed in diuinis non 
+      <lb ed="#P" n="60"/>est actus productus, sed communicatus: &amp; cum 
+      <lb ed="#P" n="61"/>idem actus numero qui est communicatus 
+      produ<lb ed="#P" n="62" break="no"/>cto sit principium agendi in agente, non est 
+      ali<lb ed="#P" n="63" break="no"/>quid in agente quod non sit in producto excepto 
+      <lb ed="#P" n="64"/>eo quod relatiue dicitur. Et ideo hoc quod 
+      dici<lb ed="#P" n="65" break="no"/>tur Patrem posse generare &amp; non filium, non est 
+      <lb ed="#P" n="66"/>quia Pater habeat aliquod posse quod non habeat 
+      <lb ed="#P" n="67"/>filius: sed quia illud posse est in Patre cum 
+      rela<lb ed="#P" n="68" break="no"/>tione alia quam sit in Filio. Et ideo in Filio est 
+      po<lb ed="#P" n="69" break="no"/>tentia &amp; illud posse quod est in omne possibile, 
+      <lb ed="#P" n="70"/>propter quod Filius est omnipotens sicut &amp; Pater. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e569">
+      <!--108.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Ex hoc etiam patet quare dicitur quod posse 
+      <lb ed="#P" n="72"/>generare non est posse quid, sed posse ad aliquid, 
+      <lb ed="#P" n="73"/>quia posse generare super posse, non addit aliquid 
+      <lb ed="#P" n="74"/>absolutum, nec ex parte obiecti possibilis, quia 
+      <lb ed="#P" n="75"/>non est possibile producere actum absolutum 
+      di<lb ed="#P" n="76" break="no"/>uersum ab ipso posse; nec ex parte agentis, quia 
+      <lb ed="#P" n="77"/>agere in eo nihil absolutum addit super essentiami 
+      <lb ed="#P" n="78"/>&amp; ideo posse generare in diuinis dicitur esse posse 
+      <lb ed="#P" n="79"/>ad aliquid, quia nihil aliud dicit nisi posse cum 
+      <lb ed="#P" n="80"/>determinaro respectu ex neutra parte non sic est 
+      <lb ed="#P" n="81"/>vbi est actus productus. Ex hioc etiam patet 
+      quo<lb ed="#P" n="82" break="no"/>modo sit intelligendum quod possibile generare 
+      <lb ed="#P" n="83"/>pertinet ad omnipotentiam Patris &amp; non ad 
+      om<lb ed="#P" n="84" break="no"/>nipotentiam simpliciter; quia cum hoc torum 
+      pos<lb ed="#P" n="85" break="no"/>se generare dicat potentiam cum relatione quae 
+      <lb ed="#P" n="86"/>smportatur in hoc quod est generare per modum 
+      <lb ed="#P" n="87"/>actionis: ommipotentia autem non habet qued sit 
+      <lb ed="#P" n="88"/>omnipotentia cum tali relatione quae non 
+      inueni<lb ed="#P" n="89" break="no"/>tur inomni eo in quo inuenitur omnipotentia, sed 
+      <lb ed="#P" n="90"/>tantum in Patre: ideo dicitur pertinere ad 
+      omni<lb ed="#P" n="91" break="no"/>potentiam Patris non ad omnipotentiam 
+      simplici<lb ed="#P" n="92" break="no"/>ter, id est, vniuersaliter. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e625">
+               <lb ed="#P" n="93"/>Notandum etiam quod ad omnipotentiam 
+      <lb ed="#P" n="94"/>Patris sic pertinet posse generare quod si non 
+      pos<lb ed="#P" n="95" break="no"/>set generare non esset omnipotens supposito quod 
+      <lb ed="#P" n="96"/>generatio posset esse in diuinis: quia. si Pater non 
+      <lb ed="#P" n="97"/>potest generare, aut hoc est quia deficit sibi 
+      poton<lb ed="#P" n="98" break="no"/>tia per quam potest generare, aut quia inest ei 
+      op<lb ed="#P" n="99" break="no"/>positum repugnans respectui qui importatur per 
+      <lb ed="#P" n="100"/>generare. Non secundo modo, quia non includit 
+      <lb ed="#P" n="101"/>oppositum respectum respectui qui importatur 
+      <lb ed="#P" n="102"/>per generare. Ergo si non potest generare hoc est 
+      <lb ed="#P" n="103"/>primo modo, quia scilicet deficit ei potentia quae 
+      <lb ed="#P" n="104"/>est ad generandum, &amp; sic non haberet 
+      omnipo<lb ed="#P" n="105" break="no"/>tentiam. Filius autem non potest generare, non 
+      <lb ed="#P" n="106"/>quia non habeat illam potentiam quae est ad 
+      gene<lb ed="#P" n="107" break="no"/>randum. Sed quia habens eam non potest habere 
+      <lb ed="#P" n="108"/>cum generare propter oppositum respectum. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e662">
+               <lb ed="#P" n="109"/>Notandum autem quod illud quod dictum est, 
+      <lb ed="#P" n="110"/>non sic est intelligendum quasi potentia quae est 
+      <lb ed="#P" n="111"/>ad generandum existens quidem inFilio, licet non 
+      <lb ed="#P" n="112"/>nd generandum quasi nata procedere in actum vt 
+      <lb ed="#P" n="113"/>est in Filio impediatur, vel propter filiationem, vel 
+      <lb ed="#P" n="114"/>propter defectum paternitatis; sicut impediuntur 
+      <lb ed="#P" n="115"/>quandoque aliqua ab actu inquem nata sunt 
+      pro<lb ed="#P" n="116" break="no"/>rumpere. Sed sic est intelligendum quod, quia 
+      <lb ed="#P" n="117"/>essentia diuina non est nata esse nisi in vno Patre 
+      <lb ed="#P" n="118"/>&amp; in vno Filio ab eo genito, ex sua naturali 
+      pro<lb ed="#P" n="119" break="no"/>prietate ei repugnat, quod in illo in quo est cum 
+      <lb ed="#P" n="120"/>filiatione sit cum paternitate, vele conuerso: cum 
+      <lb ed="#P" n="121"/>impossibile sit idem esse Patremsui ipsius. Vnde 
+      <lb ed="#P" n="122"/>sicut diuinitas Filii vt est Filii non potest esse 
+      diui<lb ed="#P" n="123" break="no"/>nitas cum paternitate; ita nec eius omnipotentia 
+      <lb ed="#P" n="124"/>potest esse omnipotentia cum generare. &amp; hoc 
+      <lb ed="#P" n="125"/>habet ex suae naturae proprietate &amp; non ex hoc 
+      <lb ed="#P" n="126"/>quod impediatur ab aliquo quod sibi debitum sit, 
+      <lb ed="#P" n="127"/>quia quidquid est ei debitum inesse, necessario 
+      <lb ed="#P" n="128"/>inest actu. 
+      </p>
+            <p xml:id="hx2hx3-b35072-d1e708">
+               <lb ed="#P" n="129"/>Ad rationem in oppositum dicendum quod 
+      <lb ed="#P" n="130"/>ille cui deficit aliquid pertinens ad 
+      omnipoten<lb ed="#P" n="131" break="no"/>tiam absolute, ille non est omnipotens. Isto 
+      au<lb ed="#P" n="132" break="no"/>tem modo non deficit aliquid pertinens ad 
+      omni<lb ed="#P" n="133" break="no"/>potentiam ipsi Filio, quia in ipso est potentia quae 
+      <lb ed="#P" n="134"/>est respectu omnis eius quod habet rationem 
+      pos<lb ed="#P" n="135" break="no"/>sibilis cuiuscumque. Sed ille cui deficit aliquid 
+      <lb ed="#P" n="136"/>pertinens ad omnipotentiam non vt existens 
+      for<lb ed="#P" n="137" break="no"/>maliter potentia, sed quia coniuncta 
+      omnipoten<lb ed="#P" n="138" break="no"/>tiae vt est in determinato supposito: non 
+      opor<lb ed="#P" n="139" break="no"/>tet quin sit in potens ideo licet: paternitas quae 
+      <lb ed="#P" n="140"/>coniuncta est cum generare in Patre paternitati 
+      <!--109.xml-->
+      <pb ed="#P" n="109"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non sit in Filio; non tamen sequitur quin sit 
+      om<lb ed="#P" n="2" break="no"/>nipotens, nec sequitur quin habeat 
+      omnipoten<lb ed="#P" n="3" break="no"/>tiam simpliciter. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

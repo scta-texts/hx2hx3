@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="177"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b59210"><!-- l1d46q2 -->
+            <head xml:id="hx2hx3-b59210-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b59210-Hd1e101" type="question-title">Utrum voluntas dei infallibiliter et de necessitate semper impleatur</head>
+            <p xml:id="hx2hx3-b59210-d1e104">
+               <lb ed="#P" n="38"/>QVAESTIOSECVNDA. 
+      <lb ed="#P" n="39"/>VTrum voluntas Dei infallibilliter; &amp; de 
+      ne<lb ed="#P" n="40" break="no"/>cessitate semper impleatur.
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e113">
+               <lb ed="#P" n="41"/>Et arguitur, quod no: quia Deus vult omnes 
+      <lb ed="#P" n="42"/>homines saluos fieri. Scilicet non omnes 
+      saluan<lb ed="#P" n="43" break="no"/>tur. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e122">
+               <lb ed="#P" n="44"/>Praeterea effectus causae non impedibilis duae 
+      <lb ed="#P" n="45"/>semper infallibiliter impletur, eueniunt de neces 
+      <lb ed="#P" n="46"/>sitate. Sed non omnes esfectus voluntatis diuinae 
+      <lb ed="#P" n="47"/>queniunt de necessitate, alioquin omnid 
+      eueni<lb ed="#P" n="48" break="no"/>rent de necessitate. Ergo, &amp;c, 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e136">
+               <lb ed="#P" n="49"/>Praeterea illud quod agit mediante dausa 
+      se<lb ed="#P" n="50" break="no"/>eunda impedibili, non consequitur sempet &amp; 
+      in<lb ed="#P" n="51" break="no"/>fallibiliter suum effectum. Sed voluntas diuiha est 
+      <lb ed="#P" n="52"/>causa multorum, mediantibus eausis creatis 
+      im<lb ed="#P" n="53" break="no"/>pedibilibus, puta mediante libero arbitiio, &amp; 
+      eau<lb ed="#P" n="54" break="no"/>sis na uralibus inferioribus. Hrgo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e152">
+               <lb ed="#P" n="55"/>In contrarium est quod dicitut in primisi 
+      Om<lb ed="#P" n="56" break="no"/>ni a quaecumque voluit, fecnt 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e159">
+               <lb ed="#P" n="57"/>Respondeo hic tria suint facienda. Priruum est 
+      <lb ed="#P" n="58"/>onere quasdam distinctiones de voluntate. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e166">
+               <lb ed="#P" n="59"/>Secundum est, ostendere quod vuluntas Dei 
+      <lb ed="#P" n="60"/>qumtum ad voluntatem beneplaciti, qua aliquid 
+      <lb ed="#P" n="61"/>simpliciter vult, semper &amp; infallibiliter: 
+      imple<lb ed="#P" n="62" break="no"/>miri 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e177">
+               <lb ed="#P" n="63"/>Tertium est, ostendem quomudo ciun hue stat 
+      <lb ed="#P" n="64"/>contingentia rerum 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e184">
+      <!--177.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>ARTICVLVS PRIMVS. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e194">
+               <lb ed="#P" n="66"/>QVantum ergo ad primum, sciendum est, quod 
+      <lb ed="#P" n="67"/>voluntas Dei distinguitur in voluntatem siensi 
+      <lb ed="#P" n="68"/>&amp; in voluntatem beneplaciti. Voluntas beneplacit 
+      <lb ed="#P" n="69"/>dicitur finis actus volendi, quo aliquid ei placet. 
+      <lb ed="#P" n="70"/>Voluntas autem signi dicitur aliquod signum 
+      <lb ed="#P" n="71"/>praetendens Deum velle aliquid, vel praetendens 
+      <lb ed="#P" n="72"/>aliquid in Deo secundum quod se habet ad 
+      mo<lb ed="#P" n="73" break="no"/>dum voluntatis. Sicut punitio qua Deus punit 
+      a<lb ed="#P" n="74" break="no"/>liquem, ostendit seipsum habere ad modum irati: 
+      <lb ed="#P" n="75"/>litet non ita proprie dicatur Deus irasci, sicut 
+      dici<lb ed="#P" n="76" break="no"/>tur velle illa quorum illa sunt signa. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e220">
+               <lb ed="#P" n="77"/>Voluntas autem, siue signum voluntatis 
+      diuidi<lb ed="#P" n="78" break="no"/>tur in quinque, scilicet in praeceptum, consilium, 
+      <lb ed="#P" n="79"/>prohibitionem, opinionem, &amp; promissionem. 
+      <lb ed="#P" n="80"/>Ista enim significant aliquem velle. Nam qui 
+      a<lb ed="#P" n="81" break="no"/>liquid consulit, vel percipit, videtur velle illud, &amp; 
+      <lb ed="#P" n="82"/>sic de aliis. Sufficientia autem istorum accipitur sic 
+      <lb ed="#P" n="83"/>ex parte volitorum: primo, quia illud signum, 
+      <lb ed="#P" n="84"/>aut est respectu praesentis, aut respectu futuri. Si 
+      <lb ed="#P" n="85"/>respectu, aut boni, aut mali. Si respectu boni, sic 
+      <lb ed="#P" n="86"/>sunt duo, scilicet praeceptum respectu b oni 
+      neces<lb ed="#P" n="87" break="no"/>sarii ad salutem. Et consilium respectu boni 
+      su<lb ed="#P" n="88" break="no"/>perogationis, sine quo potest esse salus. Respectu 
+      <lb ed="#P" n="89"/>autem mali est vnum tantum, scificet 
+      prohi<lb ed="#P" n="90" break="no"/>bitio. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e253">
+               <lb ed="#P" n="91"/>Causa autem quare respectu boni sunt duo, &amp; 
+      <lb ed="#P" n="92"/>respectu mali non nisi vnum esti quia in bonis sunt 
+      <lb ed="#P" n="93"/>quaedam quae possunt licite dimitui: &amp; primo aliter 
+      <lb ed="#P" n="94"/>debuerant induci hiomines ad vtrumn: bonum: quia 
+      <lb ed="#P" n="95"/>compesciue inducidebuerunt ad vnum, &amp; 
+      suaso<lb ed="#P" n="96" break="no"/>rie ad aliud, scilitet in malis non est aliquid 
+      ma<lb ed="#P" n="97" break="no"/>lum quod possit licite tommitti.. Et primo 
+      om<lb ed="#P" n="98" break="no"/>nia eadunt sub ratione eius quod elt illicitum 
+      <lb ed="#P" n="99"/>commiti, &amp; ideo omnia sub prohibitione cadunt: 
+      <lb ed="#P" n="100"/>licet vnum sit magis prohibitum quam aliud: &amp; 
+      <lb ed="#P" n="101"/>sub maiori punitione vel poena. Respectu autem 
+      <lb ed="#P" n="102"/>praesentis sunt duo:quia respectu boni est 
+      opera<lb ed="#P" n="103" break="no"/>tio: sed respectu mali est permissio. Et dicitur 
+      per<lb ed="#P" n="104" break="no"/>misfio signum voluntatis, inquantum ille qui 
+      per<lb ed="#P" n="105" break="no"/>mnittit aliud fieri, cum possit impedire, videtur 
+      in<lb ed="#P" n="106" break="no"/>terpretatiue illud velle. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e290">
+               <lb ed="#P" n="107"/>Aliter accipitur sufficientia istorum ex parte 
+      <lb ed="#P" n="108"/>voluntatis sic: duia signum voluntatis aut 
+      signifi<lb ed="#P" n="109" break="no"/>cat illud quod Deus vult per alium, aut quod vult 
+      <lb ed="#P" n="110"/>facere per se. Si est fignum eius quod Deus vult 
+      <lb ed="#P" n="111"/>fieri per alium, aut est tespectu boni faciendi, aut 
+      <lb ed="#P" n="112"/>fespectu mali vitandi. Si. respectu boni necessarii 
+      <lb ed="#P" n="113"/>ad salutem, sic est praeceptumi. Si autem respectu 
+      <lb ed="#P" n="114"/>boni superogationis, sic est eonsilium. Si vero sit 
+      <lb ed="#P" n="115"/>respectu mali vitandi, sie est prohibitio. Si autem 
+      <lb ed="#P" n="116"/>istud signum significet Deum velle aliquid 
+      im<lb ed="#P" n="117" break="no"/>plendum per se, aut est respectu eius quod 
+      pro<lb ed="#P" n="118" break="no"/>prrie fit a Deo, &amp; sic est operatioi aut respectu eius 
+      <lb ed="#P" n="119"/>quod proprie non fit a Deo, sed interpretatiue, &amp; 
+      <lb ed="#P" n="120"/>sic est permissioi Et sie dicere solemus illum 
+      face<lb ed="#P" n="121" break="no"/>re qui permittit, cum possit impedire. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e325">
+               <lb ed="#P" n="122"/>Voluntas autem beneplaciti distinguitur in vde 
+      <lb ed="#P" n="123"/>luntatem antecedentem, &amp; consequentem, quae 
+      <lb ed="#P" n="124"/>distinctio potest dupliciter intelligi. Vno modo, 
+      <lb ed="#P" n="125"/>quod dicatur antecedens voluntas Dei. Quia tuilt 
+      <lb ed="#P" n="126"/>aliquid rei manenti in sua prima inftitutione: &amp; 
+      <lb ed="#P" n="127"/>quia ei vellet, si in illis quae a Deo recipit, staret, 
+      <lb ed="#P" n="128"/>nullum malum addendo: Sed voluntas conse 
+      <lb ed="#P" n="129"/>quens dicitut illa voluntar quae aliquid vult alicuis 
+      <lb ed="#P" n="130"/>secundum quod consideratur eum omnibus illis 
+      <lb ed="#P" n="131"/>quae statur in quo constitutus est, suint 
+      superaddi<lb ed="#P" n="132" break="no"/>ta a terbi gratia dicithi, quod tqluntaur antece¬ 
+      <!--178.xml-->
+      <pb ed="#P" n="178"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dente vult omnes homines saluos fieri. Voluntate 
+      <lb ed="#P" n="2"/>autem consequente vult quosdam damnare, &amp; 
+      <lb ed="#P" n="3"/>quosdam saluare: quia si considerentur homines 
+      <lb ed="#P" n="4"/>secundum illud tantum quod habent a Deo, nihil 
+      <lb ed="#P" n="5"/>habent repugnans saluti. Si autem 
+      consideren<lb ed="#P" n="6" break="no"/>tur secundum eaquae sunt superaddita, in 
+      quibus<lb ed="#P" n="7" break="no"/>dam inuenitur aliquid repugnans saluti, &amp; in 
+      qui<lb ed="#P" n="8" break="no"/>busdm non. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e375">
+               <lb ed="#P" n="9"/>Alio modo potest accipi volnintas antecedens &amp; 
+      <lb ed="#P" n="10"/>consequens. Vt dicatur voluntas antecedens, 
+      quan<lb ed="#P" n="11" break="no"/>do aliquid Deus vulti, non. in se &amp; simpliciter, sed 
+      <lb ed="#P" n="12"/>m suo antecedente, verbi gratia. Si aliquis daret 
+      <lb ed="#P" n="13"/>arma alicur,, &amp; ordinaret ipsum ad pugnandum, 
+      <lb ed="#P" n="14"/>inquantum vult eum ordinare sic ad pugnam, &amp; 
+      <lb ed="#P" n="15"/>per consequens ad victoriam. Diceretur velle ei 
+      <lb ed="#P" n="16"/>honorem in suo antecedente: &amp; per hoc ordinauit 
+      <lb ed="#P" n="17"/>eum ad habendum honorem. Sed voluntate 
+      con<lb ed="#P" n="18" break="no"/>sequente, dicitur ei velle id quod simpliciter vult 
+      <lb ed="#P" n="19"/>quae continentur in bello: &amp; secundum hanc 
+      vo<lb ed="#P" n="20" break="no"/>luntatem dicitur velle simpliciter ei honorem, 
+      <lb ed="#P" n="21"/>vel confusionem secundum ea quae gessit. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e407">
+               <lb ed="#P" n="22"/>Sic etiam ex hoc ipso quod Deus contulit 
+      ho<lb ed="#P" n="23" break="no"/>mini ea quibus ordinatur ad beatitudinem, dando 
+      <lb ed="#P" n="24"/>intellectum &amp; voluntatem, praecepta &amp; consilia, 
+      <lb ed="#P" n="25"/>dicitur velle salutem omnibus voluntate 
+      antece<lb ed="#P" n="26" break="no"/>dente: quia vult eis beatitudinem quodam modo 
+      <lb ed="#P" n="27"/>in suo antecedente, dum vult eis conferre illa 
+      qui<lb ed="#P" n="28" break="no"/>bus possunt assequi beatitudinem. Sed considerato 
+      <lb ed="#P" n="29"/>quomodo quilque se habet in vtendo eis 
+      simplici<lb ed="#P" n="30" break="no"/>ter &amp; in se, vult vni beatitudinem, &amp; alii 
+      damna<lb ed="#P" n="31" break="no"/>tionem. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e431">
+               <lb ed="#P" n="32"/>Sciendum autem est, quod siue accipiatur 
+      vo<lb ed="#P" n="33" break="no"/>luntas antecedens, &amp; consequens, illud quod 
+      <lb ed="#P" n="34"/>Deus vult voluntate antecedente tantum, non 
+      <lb ed="#P" n="35"/>vult simpliciter, sed secundum quid. Quia 
+      scili<lb ed="#P" n="36" break="no"/>cet vult illud, si aliud obsistens non esset, sicut 
+      <lb ed="#P" n="37"/>vult omnes homines saluos fieri. Quia scilicet 
+      <lb ed="#P" n="38"/>vult eis salutem, si aliquid non obsisteret, vel vult 
+      <lb ed="#P" n="39"/>eis salutem in suo antecedente possibili deficere: 
+      <lb ed="#P" n="40"/>scilicet in ordinando eos ad salutem per praecepta 
+      <lb ed="#P" n="41"/>&amp; consilia. Illud autem quod vult voluntate 
+      con<lb ed="#P" n="42" break="no"/>sequente, vult simpliciter &amp; in se: nec tamen ista 
+      <lb ed="#P" n="43"/>voluntas antecedens &amp; consequens accipiuntur 
+      <lb ed="#P" n="44"/>secundum diuersos actus in Deo, quorum vnus sit 
+      <lb ed="#P" n="45"/>perfectus, &amp; alius imperfectus. Quia in Deo non 
+      <lb ed="#P" n="46"/>est nisi vnus actus volendi perfectissimus, qui est 
+      <lb ed="#P" n="47"/>eius substantia, sed accipitur ista distinctio ex 
+      par<lb ed="#P" n="48" break="no"/>te voliti, secundum quod volitum consideratur 
+      se<lb ed="#P" n="49" break="no"/>cundum diuersas conditiones, secundum quarum 
+      <lb ed="#P" n="50"/>aliquas potest esse volita, &amp; secundum alias potest 
+      <lb ed="#P" n="51"/>esse nolita, &amp; secundum aliquas potest placere 
+      se<lb ed="#P" n="52" break="no"/>cundum quid, &amp; secundum alias simpliciter 
+      dis<lb ed="#P" n="53" break="no"/>plicere. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e481">
+               <lb ed="#P" n="54"/>ARIICVLVS SECVNDVS. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e486">
+               <lb ed="#P" n="55"/>QVantum ad secundum sciendum, quod 
+      <lb ed="#P" n="56"/>quando quaeritur, vtrum voluntas Dei 
+      sem<lb ed="#P" n="57" break="no"/>per &amp; infallibiliter impleatur. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e495">
+               <lb ed="#P" n="58"/>Specialiter intelligitur de voluntate 
+      benopla<lb ed="#P" n="59" break="no"/>citi. Voluntas enim signi quod est praeceptum, 
+      <lb ed="#P" n="60"/>consilium, prohibitio, non semper impletur: imo 
+      <lb ed="#P" n="61"/>multa fiunt, &amp; praeter eam, &amp; contra eam. 
+      Con<lb ed="#P" n="62" break="no"/>tra autem operationem nihil fit, quia tunc essent 
+      <lb ed="#P" n="63"/>simul opposita: fit tamen aliquid praeter eam: quia 
+      <lb ed="#P" n="64"/>mala inquantum mala non sunt a Deo. Sed 
+      neo<lb ed="#P" n="65" break="no"/>contra permissionem, nec praeter eam aliquid fit 
+      <lb ed="#P" n="66"/>quia quaecumque pars contradictionis ponatur, 
+      <lb ed="#P" n="67"/>oportet ponere a Deo permitti: quia nihil potest 
+      <lb ed="#P" n="68"/>cuenire quod ipse velit impedire vqluntate conse¬ 
+      <!--178.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>quente: tamen magis communiter &amp; magis 
+      pro<lb ed="#P" n="70" break="no"/>prie mala dicuntur permitti. Hona autem non 
+      so<lb ed="#P" n="71" break="no"/>lum non impediuntur a Deo, sed etiam 
+      <lb ed="#P" n="72"/>fiunt. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e534">
+               <lb ed="#P" n="73"/>Quantum autem ad voluntatem beneplaciti, 
+      <lb ed="#P" n="74"/>sciendum est quod voluntas antecedens non 
+      sem<lb ed="#P" n="75" break="no"/>per impletur: quia illud quod Deus vult taliter, 
+      <lb ed="#P" n="76"/>non simpliciter &amp; per se vult, vt dictum est. Sed 
+      <lb ed="#P" n="77"/>voluntas consequens, qua simpliciter &amp; absolure, 
+      <lb ed="#P" n="78"/>&amp; in se Deus vult aliquid, illa infallibiliter semper 
+      <lb ed="#P" n="79"/>impletur. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e553">
+               <lb ed="#P" n="80"/>Et hoc ostendunt Magistri duplici ratione. 
+      <lb ed="#P" n="81"/>Prima, sumitur ex conditione causae generaliter 
+      <lb ed="#P" n="82"/>dictae: &amp; est talis. Omnis causa quae est 
+      determina<lb ed="#P" n="83" break="no"/>ta ad agendum, &amp; ad producendum effectum, nec 
+      <lb ed="#P" n="84"/>potest impediri in se, nec in mediis, nec ex parte 
+      <lb ed="#P" n="85"/>subiecti in quod agat: infallibiliter &amp; semper 
+      con<lb ed="#P" n="86" break="no"/>sequitur suum effectum. Sed voluntas diuina est 
+      <lb ed="#P" n="87"/>huiusmodi. Ergo, &amp;c. Probatio maioris. Quia 
+      <lb ed="#P" n="88"/>si causa non consequitur suum effectum, &amp; ab eo 
+      <lb ed="#P" n="89"/>non deficit, hoc est, vel quia non est determinata 
+      <lb ed="#P" n="90"/>ad agendum. Vnde voluntas non determinata ad 
+      <lb ed="#P" n="91"/>agendum non sufficit ad agendum. Iterum etiam 
+      <lb ed="#P" n="92"/>deficeret ab effectu fi non esset sufficiens 
+      cau<lb ed="#P" n="93" break="no"/>sa: sicut modicus ignis non potest 
+      calefa<lb ed="#P" n="94" break="no"/>cere magnam aquam, si etiam impeditetur in se, 
+      <lb ed="#P" n="95"/>posset deficere ab efsectu: sicut si ignis 
+      extingue<lb ed="#P" n="96" break="no"/>retur non posset agere. Si eriam impediretur in 
+      <lb ed="#P" n="97"/>mediis per quae agir, posset deficere, sicut caelum 
+      <lb ed="#P" n="98"/>propter impedimentum causarum quae sunt 
+      im<lb ed="#P" n="99" break="no"/>pedibiles, frequenter deficit a suo effectu, vel 
+      <lb ed="#P" n="100"/>saltem quandoque &amp; ex parte subiecti recipientis, 
+      <lb ed="#P" n="101"/>sicut semen masculi propter indispositionem 
+      ma<lb ed="#P" n="102" break="no"/>teriae, non attingit quandoque ad masculum. Si 
+      <lb ed="#P" n="103"/>autem nihil istorum sit, nunquam eausa deficit 
+      ab<lb ed="#P" n="104" break="no"/>effectu. Minor similiter probatur: quia voluntas 
+      <lb ed="#P" n="105"/>est determinata ad alterum ab aeterno, scilicet ad 
+      <lb ed="#P" n="106"/>volendum ea que vult. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e614">
+               <lb ed="#P" n="107"/>Est etiam sufficiens causa &amp; perfectissima. 
+      <lb ed="#P" n="108"/>Non potest etiam impediri in se: quia tunc Deus 
+      <lb ed="#P" n="109"/>esset mobilis ab aliquo fortiori, sicut ignis 
+      extin<lb ed="#P" n="110" break="no"/>guitur a fortiori se. Nec potest etiamimpediri per 
+      <lb ed="#P" n="111"/>impedimentum causarum mediarum. Quia hoc 
+      <lb ed="#P" n="112"/>ideo est: quia aliquid est quod eius causalitati non 
+      <lb ed="#P" n="113"/>subiicitur per quod in causis mediis impeditur: 
+      si<lb ed="#P" n="114" break="no"/>cut virtuti solis mouenti arborem ad florendum, 
+      <lb ed="#P" n="115"/>non subest virtus frigefactiua, quae hoc impedit. 
+      <lb ed="#P" n="116"/>Sed nihil est quod non subsit causalitati voluntatis 
+      <lb ed="#P" n="117"/>diuinae, &amp; ideo non potest habere impedimentum 
+      <lb ed="#P" n="118"/>in causis mediis. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e643">
+               <lb ed="#P" n="119"/>Nec etiam ex parte subiecti recipientis. Quia 
+      <lb ed="#P" n="120"/>quod aliqua causa impediatur ex parte subiecti, est 
+      <lb ed="#P" n="121"/>quia illud subiectum est subiectum causalitati 
+      ali<lb ed="#P" n="122" break="no"/>cuius agentis contrarii quod non subiicitur illi 
+      cu<lb ed="#P" n="123" break="no"/>ius effectus impeditur. Sicnt quando flat ventus 
+      <lb ed="#P" n="124"/>Australis, propter nimiam humiditatem suam 
+      <lb ed="#P" n="125"/>reddit naturam foetus indispositam ad 
+      recipien<lb ed="#P" n="126" break="no"/>dum sexum masculinum, ad quem, quantum est 
+      <lb ed="#P" n="127"/>de se mouet semen masculi, quiquidem ventus 
+      <lb ed="#P" n="128"/>non subest causalitati ipsius subiecti. Sed nihil est 
+      <lb ed="#P" n="129"/>quod non subsit causalitati voluntatis diuine: &amp; 
+      <lb ed="#P" n="130"/>ideo non potest impediri ex parte subiecti 
+      recipie<lb ed="#P" n="131" break="no"/>tis. Et sic patet minor, scilicet quod nihil 
+      praedi<lb ed="#P" n="132" break="no"/>ctorum potest impedire voluntatem diuinam a 
+      <lb ed="#P" n="133"/>suo effectu: &amp; per consequens sequitur 
+      conclu<lb ed="#P" n="134" break="no"/>sio principalis. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e680">
+               <lb ed="#P" n="135"/>Secunda ratio sumitur ex conditione agentis 
+      <lb ed="#P" n="136"/>per voluntatem. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e687">
+               <lb ed="#P" n="137"/>Ad cuius euidentiam sciendum, quod agens 
+      <lb ed="#P" n="138"/>per voluntatem quando perfecte vult, &amp; eligit 
+      <!--179.xml-->
+      <pb ed="#P" n="179"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>aliquid facere, stutim sequitur effectus si sit 
+      po<lb ed="#P" n="2" break="no"/>tens ad id quod vult. Vnde Philosophus.S. 
+      Me<lb ed="#P" n="3" break="no"/>taphy. dicit quod volens, &amp; potens necessario 
+      <lb ed="#P" n="4"/>operatur. Nec oportet addere si aliquid non 
+      im<lb ed="#P" n="5" break="no"/>pediar: quia nihil umpedire, importatur in hoc 
+      <lb ed="#P" n="6"/>quod est simpliciter posse. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e713">
+               <lb ed="#P" n="7"/>Ex his sic arguitur. Agens per voluntatem 
+      in<lb ed="#P" n="8" break="no"/>sallibiliter efficit quicquid perfecte vult, &amp; potest 
+      <lb ed="#P" n="9"/>facere. Sed Deus est agens per voluntatem. Ergo 
+      <lb ed="#P" n="10"/>quiequid vult &amp; potest, agit infallibiliter. Sed 
+      po<lb ed="#P" n="11" break="no"/>test quicquid vult, cum possit quicquid non 
+      im<lb ed="#P" n="12" break="no"/>plicat contradictionem: &amp; non vust ea quae 
+      im<lb ed="#P" n="13" break="no"/>plicant contradictionem. Ergo Deus quicquid 
+      <lb ed="#P" n="14"/>vult simpliciter infallibiliter efficit: &amp; per 
+      conse<lb ed="#P" n="15" break="no"/>quens diuina voluntas qua vult simpssciter aliquid, 
+      <lb ed="#P" n="16"/>semper &amp; infallibiliter impletur. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e738">
+               <lb ed="#P" n="17"/>ARTICVLVS TERIIVS. 
+      <lb ed="#P" n="18"/>QVantum ad tertium, scilicet quomodo ster 
+      <lb ed="#P" n="19"/>contingentia rerum, cum hoc quod 
+      volun<lb ed="#P" n="20" break="no"/>tas diuina infallibiliter impleatur semper. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e749">
+               <lb ed="#P" n="21"/>Dicendum est, quod duae viae ponuntur huius 
+      <lb ed="#P" n="22"/>rei: quarum neutram credo sufficere, 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e756">
+               <lb ed="#P" n="23"/>Prima est. Quia omnia secundum relationem 
+      <lb ed="#P" n="24"/>ad causam diuinam, habent necessitatem, sed 
+      se<lb ed="#P" n="25" break="no"/>cundum relationes ad causas inferiores habent 
+      <lb ed="#P" n="26"/>contingentiam: ita quod si Socratem currere 
+      refe<lb ed="#P" n="27" break="no"/>ratur ad voluntatem diuinam, est necessariumt 
+      <lb ed="#P" n="28"/>quia non potest esse quud Deus velit, &amp; non eue 
+      <lb ed="#P" n="29"/>niat. Si autem referatur ad propositum, &amp; virtu. 
+      <lb ed="#P" n="30"/>tem motiuam Socratis, euenit contingenter. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e776">
+               <lb ed="#P" n="31"/>Istud autem non videtur mihi possibile: ita 
+      <lb ed="#P" n="32"/>quod cffectus voluntatis diuine habeant absolutam 
+      <lb ed="#P" n="33"/>necessitatem per comparationem ad ipsam: qum 
+      <lb ed="#P" n="34"/>sint contingentes simpliciter. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e787">
+               <lb ed="#P" n="35"/>Primo. Quia euentus illius effectus, qui 
+      abso<lb ed="#P" n="36" break="no"/>suta necessitate est respectu voluntatis diuinae 
+      ne<lb ed="#P" n="37" break="no"/>cessarius simpliciter &amp; absolute potest diei 
+      nece<lb ed="#P" n="38" break="no"/>ssarius. Sed cum necessitate non potest stare 
+      sim<lb ed="#P" n="39" break="no"/>pliciter contingentia. Ideo &amp;c. Si dicatur, quod. 
+      <lb ed="#P" n="40"/>non potest simpliciter dici contingentes: sed 
+      res<lb ed="#P" n="41" break="no"/>pectu inferioris. Non valet. Quia saltem 
+      seque<lb ed="#P" n="42" break="no"/>retur, quod omnia simpliciter necessario 
+      eueni<lb ed="#P" n="43" break="no"/>rent licet istam necessitatem non haberent abhac 
+      <lb ed="#P" n="44"/>causa, vel illo respectu voluntatis diuinae, 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e811">
+               <lb ed="#P" n="45"/>Secundo. Quia si propter hoc dicuntur 
+      effe<lb ed="#P" n="46" break="no"/>ctus diuinae voluntatis absolute necessarii: quia 
+      <lb ed="#P" n="47"/>cum hoc quod est Deum velle quod euenit: non 
+      <lb ed="#P" n="48"/>potest stare quin eueniat, eadem ratione cum hoc 
+      <lb ed="#P" n="49"/>quod est aistum effectum prouenire a tali causa 
+      <lb ed="#P" n="50"/>non potest stare quod atali causa non eueniat: &amp; 
+      <lb ed="#P" n="51"/>sic proueniret necessario a particulari causa, &amp; 
+      re<lb ed="#P" n="52" break="no"/>pectu eius erit necessario euentus necelsarius. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e832">
+               <lb ed="#P" n="53"/>Alii vero non referunt in aliquo necessitatem 
+      <lb ed="#P" n="54"/>vel contingentiam rerum, in volutatem diuinam, 
+      <lb ed="#P" n="55"/>sed tantum in in causas secundas necessarias: ita 
+      <lb ed="#P" n="56"/>quod effectus necessarii sunt quae habent causam 
+      <lb ed="#P" n="57"/>secundam necessariam: &amp; contingentes sunt quae 
+      <lb ed="#P" n="58"/>habent causam secundam contingentem. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e848">
+               <lb ed="#P" n="59"/>Hoc autem non sufficit propter duo. 
+      <lb ed="#P" n="60"/>Primo, quia causa quae in nullo potest 
+      impedi<lb ed="#P" n="61" break="no"/>ri in suo effectu per quancumque causam 
+      me<lb ed="#P" n="62" break="no"/>diam, vel per defectum cuiuscumque tausae 
+      me<lb ed="#P" n="63" break="no"/>diae. Non potest dici habere effectum 
+      contingen<lb ed="#P" n="64" break="no"/>tem solum ratione causarum mediarum. Ned 
+      <lb ed="#P" n="65"/>eius effectus debet dici necessarius vel contingens 
+      <lb ed="#P" n="66"/>ex causis mediis. Sed voluntas diuina est 
+      huius<lb ed="#P" n="67" break="no"/>modi: vt ostensum est supra. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e870">
+               <lb ed="#P" n="68"/>Secundo, quia si necessitas &amp; contingentia re¬ 
+      <!--179.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>rum solum rodiecuntur in secundas eausas: 
+      sequi<lb ed="#P" n="70" break="no"/>tur quod tales conditiones rerum non sunt 
+      inten<lb ed="#P" n="71" break="no"/>tae a Deo, sed sint a casu: quod est 
+      inconue<lb ed="#P" n="72" break="no"/>niens. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e888">
+               <lb ed="#P" n="73"/>bt ideo aliter est dicendum, quod 
+      infalsibt<lb ed="#P" n="74" break="no"/>tas voluntatis diuinae non tollit contingentiam a 
+      <lb ed="#P" n="75"/>rebus: &amp; hoc patet ex duobus. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e897">
+               <lb ed="#P" n="76"/>Primo, quia velle diuinum licet in se sit 
+      nece<lb ed="#P" n="77" break="no"/>ssarium necessitate absoluta, tamen non habet 
+      <lb ed="#P" n="78"/>habitudinem necessariam necessitate absoluta ad 
+      <lb ed="#P" n="79"/>tolita creata. Sed potest habere necessitatem ea 
+      <lb ed="#P" n="80"/>suppositione tantum, quia scilicet suppsito quod 
+      <lb ed="#P" n="81"/>velit, non potest non velle. Et quia sic aspe ctur 
+      <lb ed="#P" n="82"/>diuino sunt omnin praesentia ab aeterno, quaritum 
+      <lb ed="#P" n="83"/>ad suas existentias, secundum quas res habent 
+      ne<lb ed="#P" n="84" break="no"/>cessitatem ex suppositione: ita quod ab aererno 
+      <lb ed="#P" n="85"/>praesentantur voluntati diuinae. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e921">
+               <lb ed="#P" n="86"/>Et inde est quod coniundim non potist esse, 
+      <lb ed="#P" n="87"/>quod Deus aliquid velit, &amp; non eueuiat: sed di. 
+      <lb ed="#P" n="88"/>uisum potest esse, quod Deus aliquid velit, &amp; 
+      ali<lb ed="#P" n="89" break="no"/>quid secundum se consideratum potest non 
+      eue<lb ed="#P" n="90" break="no"/>nire. Licet non possit non euenire si sic est 
+      voli<lb ed="#P" n="91" break="no"/>tum. Et cum illud velit, non posse non eueuire 
+      <lb ed="#P" n="92"/>non ponit nec essitatem adsolutam in volito: sed 
+      <lb ed="#P" n="93"/>ex suppositione, scilicet suppt. fito quod sit 
+      voli<lb ed="#P" n="94" break="no"/>tum. Quia ad hoc sequitur quod eius exissentia 
+      <lb ed="#P" n="95"/>sit praesens Deo modo supra ex posito. Licet ergo 
+      <lb ed="#P" n="96"/>ista consequentia sit necessaria, Deus hoc vust, 
+      <lb ed="#P" n="97"/>ergo eueniet. Quia tamen consequens secundum 
+      <lb ed="#P" n="98"/>se &amp; absolute non est necessarium cum voluntate 
+      <lb ed="#P" n="99"/>diuina de aliquo, potest stare contingenda eiuse 
+      <lb ed="#P" n="100"/>dem secundum se &amp; absolute considerati. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e957">
+               <lb ed="#P" n="101"/>Secundo, hoc idem potest ostedi ex alio. Quia 
+      <lb ed="#P" n="102"/>in hoc differt naturale a voluntario. Quia agens 
+      <lb ed="#P" n="103"/>naturale tale facit, &amp; taliter, quale est: &amp; quali 
+      <lb ed="#P" n="104"/>ter est, nisi impediatur. Vnde agens naturale si 
+      <lb ed="#P" n="105"/>habet esse necessarium, habet effectum 
+      necessa<lb ed="#P" n="106" break="no"/>rium nisi aliunde impediatur: sed agens 
+      volunta<lb ed="#P" n="107" break="no"/>rium non agit tale quale est: sed quale vult esse: 
+      <lb ed="#P" n="108"/>nec oportet quod faciat effectum illius 
+      conditio<lb ed="#P" n="109" break="no"/>nis cuius est ipse: sed illius condirionis qualem vult 
+      <lb ed="#P" n="110"/>esdare. Et inde est, quod voluntas immutabilis &amp; 
+      <lb ed="#P" n="111"/>necessaria, potest velle aliqua esse mutabilia, &amp; 
+      <lb ed="#P" n="112"/>contingentia, &amp; contingenter euenire. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e986">
+               <lb ed="#P" n="113"/>Ex his arguitur sicad propositum. Ad 
+      perfe<lb ed="#P" n="114" break="no"/>ctionem causae agentis per voluntatem pertinet 
+      <lb ed="#P" n="115"/>non solum quod eius effectus eueniat: sed etiam 
+      <lb ed="#P" n="116"/>quod illo modo eueniat quo vult ipsum eueniae, 
+      <lb ed="#P" n="117"/>sed non obstante immutabilitate, &amp; nfallibilitate 
+      <lb ed="#P" n="118"/>voluntatis diuinae potest velle aliqua euenire 
+      con<lb ed="#P" n="119" break="no"/>tingenter, &amp; aliqua necessario: quia etiam in hec 
+      <lb ed="#P" n="120"/>est eius infallibilitas quod eueniat illo modo quo 
+      <lb ed="#P" n="121"/>vult ea euenire. Ergo infallibilitas volunratis 
+      di<lb ed="#P" n="122" break="no"/>uinae nontollit contingentiam a rebus. Cum ad 
+      <lb ed="#P" n="123"/>eius infallibilitatem pertineat, quod eueniant 
+      mo<lb ed="#P" n="124" break="no"/>do quo Deus vult. Prima erga causa 
+      contingen<lb ed="#P" n="125" break="no"/>tiae &amp; necessitatis in rebus, est voluntas diutna 
+      <lb ed="#P" n="126"/>qua vult quaedam euenire necessario, &amp; quaedam 
+      <lb ed="#P" n="127"/>contingenter: quo supposito praeuidit quibusdam 
+      <lb ed="#P" n="128"/>effectibus causas necessarias, &amp; quibusdam 
+      cau<lb ed="#P" n="129" break="no"/>sas comtingentes. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e1025">
+               <lb ed="#P" n="130"/>Est autem notandum, quod non est aliquid a 
+      <lb ed="#P" n="131"/>Deo contingens, quod non possit habere aliquam 
+      <lb ed="#P" n="132"/>necessitatem ex su positione, sicut &amp; effectus 
+      vo<lb ed="#P" n="133" break="no"/>luntatis diuinae contingentes simpsiciter 
+      inquan<lb ed="#P" n="134" break="no"/>tum causae cuiussibet eoru sune impedibiles. 
+      Sun<lb ed="#P" n="135" break="no"/>posito tamen quod nulla causa ordinem habens 
+      <lb ed="#P" n="136"/>ad ea impediatur: sequitur necessario necessitate 
+      <lb ed="#P" n="137"/>quae est ex supposit one quod euensant: quae 
+      qui<lb ed="#P" n="138" break="no"/>dem necessitas, est necessitas secundum quidiqusi 
+      <!--180.xml-->
+      <pb ed="#P" n="180"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non impedito quod supponitur, non est simpliciter 
+      <lb ed="#P" n="2"/>necessarium. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e1058">
+               <lb ed="#P" n="3"/>Ad primum ergo in oppositum, dicendum est, 
+      <lb ed="#P" n="4"/>quod sicut expositum est, Deus vult omnes 
+      ho<lb ed="#P" n="5" break="no"/>mines saluos fieri, non simpliciter, &amp; voluntate 
+      <lb ed="#P" n="6"/>consequente, quae semper infallibiliter impletur: 
+      <lb ed="#P" n="7"/>sed voluntate antecedente, quae non semper 
+      im<lb ed="#P" n="8" break="no"/>pletur. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e1074">
+               <lb ed="#P" n="9"/>Ad secundum dicendum est, quod sicut 
+      contin<lb ed="#P" n="10" break="no"/>gens esse contingens est necessarium, non tamen 
+      <lb ed="#P" n="11"/>contingens est simpliciter necessarium: ita id quod 
+      <lb ed="#P" n="12"/>Deus vult contingenter euenire, hoc supposito est 
+      <lb ed="#P" n="13"/>necessarium euenire contingenter: ita quod istud 
+      <lb ed="#P" n="14"/>necessarium non est necessarium absolute: sed ex 
+      <lb ed="#P" n="15"/>suppositione. Nec etiam ista necessitas ponitur 
+      <lb ed="#P" n="16"/>circa euentum secundum se &amp; absolute acceptum: 
+      <lb ed="#P" n="17"/>sed circa euentum cum sua conditione acceptum. 
+      <lb ed="#P" n="18"/>Vnde non dicitur simpliciter quod hoc est 
+      neces<lb ed="#P" n="19" break="no"/>sarium, sed quod hoc euenire contingenter, est 
+      <lb ed="#P" n="20"/>necessarium supposito quod Deus velit illud 
+      con<lb ed="#P" n="21" break="no"/>tingenter euenire. Ad maiorem ergo, dicendum 
+      <lb ed="#P" n="22"/>est. Quod effectus illius causae quae semper 
+      infal<lb ed="#P" n="23" break="no"/>libiliter impletur eueniunt de necessitate, vel 
+      ab<lb ed="#P" n="24" break="no"/>soluta vel ex suppositione: &amp; illo modo quo illa 
+      <lb ed="#P" n="25"/>causa habet ordinem ad eos. Nunc autem, vt 
+      di<lb ed="#P" n="26" break="no"/>ctum est, voluntas diuina non respicit ea quae vult 
+      <lb ed="#P" n="27"/>necessario euenire, sed ea quae vult contingenter 
+      <lb ed="#P" n="28"/>euenire: &amp; ipsa contingenter euenire est 
+      necessa<lb ed="#P" n="29" break="no"/>rium necessitate ex suppositione.
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e1122">
+               <lb ed="#P" n="30"/>Ad tertium, dicendum quod maior habet 
+      ve<lb ed="#P" n="31" break="no"/>ritatem de causa agente mediante causa 
+      impedi<lb ed="#P" n="32" break="no"/>dibili: cuius causalitati non subest illud 
+      impedi<lb ed="#P" n="33" break="no"/>mentum amouere. Voluntas autem diuina, non 
+      <lb ed="#P" n="34"/>est talis causa: quia ei subest impedimentum 
+      pos<lb ed="#P" n="35" break="no"/>se amouere ita, quod nihil potest impedire media 
+      <lb ed="#P" n="36"/>sua quod eius causalitati non subsit. 
+      </p>
+            <p xml:id="hx2hx3-b59210-d1e1141">
+               <lb ed="#P" n="37"/>Voluntas quippe Dei semper efficax est vt 
+      <lb ed="#P" n="38"/>fiat omne quod velit, &amp; nihil fiat quod 
+      <lb ed="#P" n="39"/>nolit, &amp;c. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

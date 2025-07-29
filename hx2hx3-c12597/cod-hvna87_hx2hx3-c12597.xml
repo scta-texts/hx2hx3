@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="334"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c12597"><!-- l4d6q3 -->
+            <head xml:id="hx2hx3-c12597-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-c12597-Hd1e101" type="question-title">Utrum requiritur intentio baptizantis</head>
+            <p xml:id="hx2hx3-c12597-d1e104">
+               <lb ed="#P" n="26"/>De illo qui pro ludo immergitur. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e109">
+               <lb ed="#P" n="27"/>Solet etiam quaeri de illo qui iorans ficur 
+      mi<lb ed="#P" n="28" break="no"/>mus commemoratione tamen Trinitatis 
+      <lb ed="#P" n="29"/>immergitur, vtrum baptizatus sit, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e118">
+               <lb ed="#P" n="30"/>QVAESTIO TERTIA. 
+      <lb ed="#P" n="31"/>TErtio: Quaeritur vtrum requiratur intentio 
+      <lb ed="#P" n="32"/>baptizantis. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e128">
+        Et videtur quod non, quia si hoc 
+      <lb ed="#P" n="33"/>esset iste non esset baptizatus, si ille non 
+      intende<lb ed="#P" n="34" break="no"/>ret baptizare. Sed nulli constat de intentione 
+      al<lb ed="#P" n="35" break="no"/>terius, ergo nec vtrum esset baptizatus vel non: 
+      <lb ed="#P" n="36"/>nec per consequens de salute sua; hoc est in 
+      conue<lb ed="#P" n="37" break="no"/>niens. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e141">
+               <lb ed="#P" n="38"/>Praeterea Augustinus dicit quod ebriosus 
+      <lb ed="#P" n="39"/>potest baptizare. Sed talis non habet 
+      intentio<lb ed="#P" n="40" break="no"/>nem. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e150">
+               <lb ed="#P" n="41"/>Praeterea, si intentio baptiz antis requiritur, 
+      <lb ed="#P" n="42"/>ergo peruersitas intentionis impediret actum, ita 
+      <lb ed="#P" n="43"/>quod nullum esset sacramentum nec character: 
+      <lb ed="#P" n="44"/>hoc est falsum. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e161">
+               <lb ed="#P" n="45"/>Oppositum dicitur in littera. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e166">
+               <lb ed="#P" n="46"/>Respondeo. Dicendum, quod ad 
+      baptis<lb ed="#P" n="47" break="no"/>mum requiritur de necessitate intentio ministri. 
+      <lb ed="#P" n="48"/>Et est aduertendum, quod ministrum habere 
+      in<lb ed="#P" n="49" break="no"/>tentionem baptizandi dupliciter potest 
+      contin<lb ed="#P" n="50" break="no"/>gere. Vno modo quod intendit facere quod 
+      fa<lb ed="#P" n="51" break="no"/>eit Ecclesia, &amp; talis intentio requiritur de 
+      neces<lb ed="#P" n="52" break="no"/>sitate. Alio modo, quod simul cum hoc quod 
+      di<lb ed="#P" n="53" break="no"/>ctum est intendit facere sanctificationem, &amp; talis 
+      <lb ed="#P" n="54"/>intentio ministri non requiritur de necessitate: nec 
+      <lb ed="#P" n="55"/>etiam fides &amp; sanctitas ex parte ministri. Cuius 
+      <lb ed="#P" n="56"/>ratio est, quia ad hoc quod agens instrumentale 
+      <lb ed="#P" n="57"/>possit producere effectum principalis agentis 
+      suf<lb ed="#P" n="58" break="no"/>ficit quod possit recipere principalis agentis 
+      mo<lb ed="#P" n="59" break="no"/>tionem. Sed minister in sacramento conferendo 
+      <lb ed="#P" n="60"/>est agens instrumentale, ergo ad hoc quod 
+      sacra<lb ed="#P" n="61" break="no"/>mentum conferatur, sufficit quod possit recipere 
+      <lb ed="#P" n="62"/>motionem principalis agentis, sed hoc potest si 
+      <lb ed="#P" n="63"/>intendat solum facere quod facit Ecclesia etiam 
+      <lb ed="#P" n="64"/>sine fide &amp; sanctitate. Ergo, &amp;c. Quod autem 
+      <!--334.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>minister intendat facere quod facit Ecclesia 
+      de<lb ed="#P" n="66" break="no"/>terminate sit necessarium ad baptismum 
+      proba<lb ed="#P" n="67" break="no"/>tur duplici ratione. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e221">
+               <lb ed="#P" n="68"/>Primo, quandocumque aliquid se habet 
+      in<lb ed="#P" n="69" break="no"/>determinate ad plura ad hoc quod determinetur 
+      <lb ed="#P" n="70"/>ad aliquod dictorum plurium, oporter quod 
+      de<lb ed="#P" n="71" break="no"/>terminetur per aliquid determinans. Sed 
+      ablu<lb ed="#P" n="72" break="no"/>tio quae fit inbaptismo potest fieri indeterminate 
+      <lb ed="#P" n="73"/>propter baptismum, &amp; multa alia &amp;: similiter 
+      <lb ed="#P" n="74"/>prolatio verborum, puta derisorie vel iocose. 
+      Er<lb ed="#P" n="75" break="no"/>go ad hoc quod ista determinetur ad aliquod 
+      ip<lb ed="#P" n="76" break="no"/>sorum determinate, oportet quod sit aliquid ipsa 
+      <lb ed="#P" n="77"/>determinans ad alterum ipsorum determinate: 
+      <lb ed="#P" n="78"/>istud autem nihil aliud potest esse nisi intentio 
+      <lb ed="#P" n="79"/>ministri, ergo ad baptismum requiritur intentio 
+      <lb ed="#P" n="80"/>ministri. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e253">
+               <lb ed="#P" n="81"/>Secundo, vnumquodque instrumentum 
+      mo<lb ed="#P" n="82" break="no"/>uet &amp; mouetur secundum conditionem suae 
+      na<lb ed="#P" n="83" break="no"/>turae: sed homo in conferendo baptismum est 
+      in<lb ed="#P" n="84" break="no"/>strumentum. Ergo mouet &amp; mouetur secundum 
+      <lb ed="#P" n="85"/>quod homo, &amp; secundum conditionem suae 
+      natu<lb ed="#P" n="86" break="no"/>rae. Sed homo secundum, quod homo mouet &amp; 
+      <lb ed="#P" n="87"/>mouetur secundum determinatam intentionem, 
+      <lb ed="#P" n="88"/>scilicet quod intendat facere quod facit Ecclesia. 
+      <lb ed="#P" n="89"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e275">
+               <lb ed="#P" n="90"/>Ad primum in oppositum dicendum, quod si 
+      <lb ed="#P" n="91"/>minister non intendit baptizare, &amp; qui 
+      baptizan<lb ed="#P" n="92" break="no"/>dus est puer, credendum est, quod Deus suppler 
+      <lb ed="#P" n="93"/>in paruulo. Si vero sit adultus sufficit fides 
+      pro<lb ed="#P" n="94" break="no"/>pria. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e288">
+               <lb ed="#P" n="95"/>Sed contra hoc potest obiici, quia licet 
+      pro<lb ed="#P" n="96" break="no"/>pria fides valeat &amp; sufficiat ad gratiam 
+      conferen<lb ed="#P" n="97" break="no"/>dam, non tamen ad causandum characterem. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e297">
+               <lb ed="#P" n="98"/>Ad hoc dicunt quidam, quod licet iste non 
+      <lb ed="#P" n="99"/>habeat talem intentionem, quia tamen profert 
+      <lb ed="#P" n="100"/>verba a Deo instituta sufficit intentio Ecclesiae 
+      <lb ed="#P" n="101"/>quae maxime exprimitur per verba quae ipse 
+      pro<lb ed="#P" n="102" break="no"/>fert, licet hoc ipse non intendat. Sed dices: ergo 
+      <lb ed="#P" n="103"/>intentio ministri non requiritur: quod est 
+      incon<lb ed="#P" n="104" break="no"/>uensens &amp; contra omnes. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e315">
+               <lb ed="#P" n="105"/>Et ideo dicendum, quod si iste habuit 
+      inten<lb ed="#P" n="106" break="no"/>tionem conferendi baptismum aliquando, &amp; non 
+      <lb ed="#P" n="107"/>interuenit opposita intentio, &amp; tunc proferr 
+      ver<lb ed="#P" n="108" break="no"/>ba, sufficit tunc intentio Ecclesiae. Si vero nihil 
+      <lb ed="#P" n="109"/>omnino intenderet, imo corde intendit 
+      opposi<lb ed="#P" n="110" break="no"/>tum, scilicet quod Deus nihil det baptizato, tunc 
+      <lb ed="#P" n="111"/>virtus sacramenti nihil fieret, sed pietas diuina 
+      <lb ed="#P" n="112"/>suppleret in paruulo &amp; in adulto fide propria, &amp; 
+      <lb ed="#P" n="113"/>similiter character non reciperetur virtute 
+      sacra<lb ed="#P" n="114" break="no"/>menti. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e339">
+               <lb ed="#P" n="115"/>Sed potest quaeri si talis fieret sacerdos de 
+      fa<lb ed="#P" n="116" break="no"/>cto ab Episcopo vtrum esset secundum veritatem 
+      <lb ed="#P" n="117"/>sacerdos. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e349">
+               <lb ed="#P" n="118"/>Dicendum, quod secundum reputationem 
+      <lb ed="#P" n="119"/>suam &amp; Ecclesiae est sacerdos, sed de virtute 
+      sa<lb ed="#P" n="120" break="no"/>cramenti non est sacerdos, quia nec recipit 
+      cha<lb ed="#P" n="121" break="no"/>racterem baptismalem nec characterem ordmis, 
+      <lb ed="#P" n="122"/>nec peccat ministrando sacramenta, quia nullus 
+      <lb ed="#P" n="123"/>potest obligari ad impossibile: sed impossibile est 
+      <lb ed="#P" n="124"/>quod iste sciat intentionem ministri. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e367">
+               <lb ed="#P" n="125"/>Ad secundum dicendum, quod ebriosus 
+      vo<lb ed="#P" n="126" break="no"/>catur qui consueuit inebriari. Talis autem 
+      quan<lb ed="#P" n="127" break="no"/>doque potest esse ebriosus quandoque non. Si sit 
+      <lb ed="#P" n="128"/>ebrius aut taliter quod in eo manet vsus rationis: 
+      <lb ed="#P" n="129"/>&amp; sic baptizat. Aut taliter quod non manet in eo 
+      <lb ed="#P" n="130"/>vsus rationis, &amp; sic non baptizat. Si vero non sit 
+      <lb ed="#P" n="131"/>actu ebrius tunc baptizat. 
+      </p>
+            <p xml:id="hx2hx3-c12597-d1e385">
+               <lb ed="#P" n="132"/>Ad tertium dicendum, quod peruersitas 
+      il<lb ed="#P" n="133" break="no"/>lius intentionis, quae requiritur de necessitate 
+      sa<lb ed="#P" n="134" break="no"/>cramenti baptismi, impediret baptismi effectum 
+      <!--335.xml-->
+      <pb ed="#P" n="335"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>&amp; solum: intentio autem quae requititur ad 
+      ba<lb ed="#P" n="2" break="no"/>ptismum est, quod minister intendat facere quod 
+      <lb ed="#P" n="3"/>facit Ecelesia, &amp; peruersitas talis intentionis 
+      im<lb ed="#P" n="4" break="no"/>pediret baptismum, &amp; nulla alia. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

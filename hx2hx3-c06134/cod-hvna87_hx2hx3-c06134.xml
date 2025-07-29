@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="315"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c06134"><!-- l4d1q6 -->
+            <head xml:id="hx2hx3-c06134-Hd1e99">Quaestio 6</head>
+            <head xml:id="hx2hx3-c06134-Hd1e101" type="question-title">De ritu circumcisionis</head>
+            <p xml:id="hx2hx3-c06134-d1e104">
+               <lb ed="#P" n="40"/>De institutione Circuncifionis &amp; causa.
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e109">
+               <lb ed="#P" n="41"/>FTic dicendum est in quo instituta fuerit 
+      <lb ed="#P" n="42"/>circuncisio, &amp; quare, &amp; cur mutatae 
+      <lb ed="#P" n="43"/>per daptismnum, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e118">
+               <lb ed="#P" n="44"/>QVAESTIO SEXTA. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e124">
+               <lb ed="#P" n="45"/>SExto quaeritur de ritu circuncisionis. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e129">
+        Et 
+      vide<lb ed="#P" n="46" break="no"/>tur quod non fuerit conueniens, primo ex 
+      <lb ed="#P" n="47"/>parte membri. 
+      <lb ed="#P" n="48"/>Quia sacramentum pertinens ad cognitionem 
+      <lb ed="#P" n="49"/>siuc ad protestationem fidei, debet fieri in 
+      mem<lb ed="#P" n="50" break="no"/>bro in quo viget cognitio: hoc autem est caput 
+      <lb ed="#P" n="51"/>vbi vigent sensus: Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e145">
+               <lb ed="#P" n="52"/>Secundo quantum ad tempus, quod, scilicet 
+      fie<lb ed="#P" n="53" break="no"/>ret octaua die, quia frequenter ante illum diem 
+      <lb ed="#P" n="54"/>imminebat mors: ergo ante illum diem debuit 
+      <lb ed="#P" n="55"/>adhiberi remedium contra peccatum originale. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e156">
+               <lb ed="#P" n="56"/>Iterum filij Israel fuerunt in deserto per 
+      quadra<lb ed="#P" n="57" break="no"/>ginta annos incircuncisi 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e163">
+               <lb ed="#P" n="58"/>Tertio quantum ad cultrum, quia cultro 
+      debue<lb ed="#P" n="59" break="no"/>runt significare Christum: sed hoc non ita bene 
+      <lb ed="#P" n="60"/>potuit fieri sicut cultro lapideo: ergo debuit fieri 
+      <lb ed="#P" n="61"/>cultrolapideo quod non fiebat communiter: ergo 
+      <lb ed="#P" n="62"/>male. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e176">
+               <lb ed="#P" n="63"/>In contrarium est ritus obseruatus. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e182">
+               <lb ed="#P" n="64"/>Respondeo. In quaestione praemittendae sunt 
+      <lb ed="#P" n="65"/>quaedam suppositiones. 
+      <!--315.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>Secundo prohandae sunt quaedum concluso. 
+      <lb ed="#P" n="67"/>nes declarantes hanc materiam. 
+      </p>
+            <!-- article 1 -->
+            <p xml:id="hx2hx3-c06134-d1e200">
+               <lb ed="#P" n="68"/>Quantum ad primum, sciendum est primo quoda 
+      <lb ed="#P" n="69"/>aliquod pertinens ad sacramentum aliquod potest 
+      <lb ed="#P" n="70"/>esse necessarium sacramento dupliciter. Vno 
+      mo<lb ed="#P" n="71" break="no"/>do quod sit de intentione sacramenti. Alio modo 
+      <lb ed="#P" n="72"/>quod sit de necessitate praecepti. De necessitate 
+      <lb ed="#P" n="73"/>sacramenti sunt illa sine quibus non est 
+      sactamen<lb ed="#P" n="74" break="no"/>tum: sicut in consecratione corporis Christi. De 
+      ne<lb ed="#P" n="75" break="no"/>cessitate sacramenti est quod minister sit sacerdos, 
+      <lb ed="#P" n="76"/>&amp; proferat verba cum intentione faciendi quod 
+      <lb ed="#P" n="77"/>facit Ecclesia: quorum quocumque ablato non est 
+      <lb ed="#P" n="78"/>sacramentum, nec fit ibi aliqua consecratio. 
+      Re<lb ed="#P" n="79" break="no"/>quiritur etiam quod panis sit de frumento. De 
+      ne<lb ed="#P" n="80" break="no"/>cessitate praecepti dicuntur illa quae ex praecepto 
+      <lb ed="#P" n="81"/>Dei vel ecclesiae adducuntur ad solemnitatem 
+      sa<lb ed="#P" n="82" break="no"/>cramenti: sicut quod aliquis conficiat super altare 
+      <lb ed="#P" n="83"/>benedictum, &amp; in talibus indumentis. Et 
+      dicun<lb ed="#P" n="84" break="no"/>tur esse de necessitate praecepti; quia 
+      quicum<lb ed="#P" n="85" break="no"/>que ea ohmiserit peccat mortaliter, sicut 
+      trans<lb ed="#P" n="86" break="no"/>gressor praecepti Dei &amp; Ecclesiae. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e244">
+               <lb ed="#P" n="87"/>Secundo sciendum quod cum sacramentum 
+      <lb ed="#P" n="88"/>habeat, significare aliqua significatio est de 
+      neces<lb ed="#P" n="89" break="no"/>sitate sacramenti, aliqua non: sed de bene esse. 
+      Si<lb ed="#P" n="90" break="no"/>gnificatio quae est de necessitate cuiuscunque 
+      sa<lb ed="#P" n="91" break="no"/>ermanti est illa qua sacramentum exterius 
+      signi<lb ed="#P" n="92" break="no"/>ficat proprium effectum, siue sit causa sine qua non, 
+      <lb ed="#P" n="93"/>vt circuncisio, siue sit causa propter quam, sicut 
+      sa<lb ed="#P" n="94" break="no"/>cramenta nouae legis. Significatio autem quae non 
+      <lb ed="#P" n="95"/>est de necessitate sacramenti, sed de bene esse, est 
+      <lb ed="#P" n="96"/>significatio qua sacramentum significat aliquid 
+      <lb ed="#P" n="97"/>aliud a suo effectu: verbi gratia, baptismus 
+      signifi<lb ed="#P" n="98" break="no"/>cat vt proprium effectum ablutionem interioris 
+      <lb ed="#P" n="99"/>mentis, sine qua signi ficatione nihil fierer. Vt ab 
+      <lb ed="#P" n="100"/>effectu significat sepulturam Christi vel aliquid 
+      <lb ed="#P" n="101"/>tale, &amp; sine ista significatione potest esse 
+      sacra<lb ed="#P" n="102" break="no"/>mentum. Vnde aspersio aquae qua fiat ablutio 
+      in<lb ed="#P" n="103" break="no"/>terior, dato quod non ita expresse significet 
+      sepul<lb ed="#P" n="104" break="no"/>turam vel triduum sepulturae, facit sacramentum 
+      <lb ed="#P" n="105"/>baptismi dummodo alia obseruentur. Quod 
+      au<lb ed="#P" n="106" break="no"/>tem significatio effectus sacramenti, &amp; rihil plus 
+      <lb ed="#P" n="107"/>sitde necessitate sacramenti, pater sio, quia ad 
+      ra<lb ed="#P" n="108" break="no"/>tionem sacramenti non pertinet significate de 
+      <lb ed="#P" n="109"/>necessitate nisi sacrationem illius qui per 
+      sacra<lb ed="#P" n="110" break="no"/>mentum insacratur, siue sanctificatur: sed hoc est 
+      <lb ed="#P" n="111"/>proprins effectus sacramenti: Ergo, &amp;c. Hoc 
+      con<lb ed="#P" n="112" break="no"/>firmatur ex diffinitione sacramenti nouae legi, 
+      <lb ed="#P" n="113"/>quod efficit quod figurat. Vnde non videtur quod 
+      <lb ed="#P" n="114"/>denecessitate eius sit quod figuret nisi quod efficit 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e307">
+               <lb ed="#P" n="115"/>His praemissis probo tres conclusiones. 
+      <lb ed="#P" n="116"/>Prima est quia illa incisio erat de nessitate 
+      sa<lb ed="#P" n="117" break="no"/>cramenti in circuncisione, quia de necessitate 
+      sa<lb ed="#P" n="118" break="no"/>cramenti est quod illud significet vt proprium 
+      ef<lb ed="#P" n="119" break="no"/>fectum, vt patet ex dictis. Sed praedicta incisio 
+      si<lb ed="#P" n="120" break="no"/>guificat proprium effectum circuncisionis, scilit 
+      <lb ed="#P" n="121"/>licet, ablationem peccati originalis: vt etiam 
+      pa<lb ed="#P" n="122" break="no"/>tet ex praedictis: Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e327">
+               <lb ed="#P" n="123"/>Secunda est quod dies octaua non erat de 
+      ne<lb ed="#P" n="124" break="no"/>cessitate sacramenti, sed de necessitate praeceptit 
+      <lb ed="#P" n="125"/>quia quod non esset de necessitate sacramenti 
+      pa<lb ed="#P" n="126" break="no"/>tet quantum ad quid est, quia secundum 
+      commu<lb ed="#P" n="127" break="no"/>niorem opinionem imminente morte ante octauum 
+      <lb ed="#P" n="128"/>diem fiebat circuncisio, &amp; erat verum 
+      sacramen<lb ed="#P" n="129" break="no"/>tum. Et similiter quando omittebatur octauo die, 
+      <lb ed="#P" n="130"/>&amp; fiebat post, erat verum sacramentum. Ratio 
+      au<lb ed="#P" n="131" break="no"/>tem hirtus est, quia illud in sacramento quod 
+      ha<lb ed="#P" n="132" break="no"/>bet alnid significare ab eius proprio effectu non 
+      <lb ed="#P" n="133"/>est de necessitate sacramenti. Sed omne illud 
+      <lb ed="#P" n="134"/>quod significatur pers. diem erat aliquid alind 2 
+      <lb ed="#P" n="135"/>proprio effectu circuncisionis sicut pater per om¬ 
+      <!--316.xml-->
+      <pb ed="#P" n="316"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nes significationes quae attribuuntur illi 
+      dieio<lb ed="#P" n="2" break="no"/>ctauo. Quid sit de necessitate praecepti patet 
+      e<lb ed="#P" n="3" break="no"/>tiam per textum Genes.1,, vbi a Deo praecipitur, 
+      <lb ed="#P" n="4"/>vt fierete. die. Et hoc praeceptum habuit rationem 
+      <lb ed="#P" n="5"/>spiritualem, vt scilicet, significaretur quod octaua 
+      <lb ed="#P" n="6"/>aetato, scilicet, in resurrectione amouebuntur ab 
+      <lb ed="#P" n="7"/>elementis omnes corruptiones, &amp; plures aliae 
+      pos<lb ed="#P" n="8" break="no"/>sent assignari. Et habuit specialem rationem. 
+      <lb ed="#P" n="9"/>Quia sicut dicit Rabi Moyses ante octauam diem 
+      <lb ed="#P" n="10"/>nimis erat tenera caro pueri, &amp; circuncisio fuisset 
+      <lb ed="#P" n="11"/>ei valde nociua: &amp; ideo expectabatur octaua dies 
+      <lb ed="#P" n="12"/>vt aliquantulum esset solidior. vlter ius non 
+      diffe<lb ed="#P" n="13" break="no"/>rebatur, quia quanto plus puer procedit in aetate, 
+      <lb ed="#P" n="14"/>tanto magis vigent sensus, &amp; tanto magis 
+      affli<lb ed="#P" n="15" break="no"/>gunt ea quae inferunt laesionem. Et ideo non 
+      diffe<lb ed="#P" n="16" break="no"/>rebatur vltras. diem vt minus sentiret laesionem 
+      <lb ed="#P" n="17"/>illam. Est autem sciendum quod circuncisienem 
+      <lb ed="#P" n="18"/>fieri6, die sic erat in praecepto, quod non licebat 
+      <lb ed="#P" n="19"/>praeuenire, nisi forte imminente morte secundum 
+      <lb ed="#P" n="20"/>opinionem illorum qui dicunt quod in tali casu 
+      <lb ed="#P" n="21"/>licebat circuncisionem fieri ante &amp; diem: secudum 
+      <lb ed="#P" n="22"/>autem opinionem aliorum nunquam licebat 
+      prae<lb ed="#P" n="23" break="no"/>uenire octauum diem; &amp; si puer moriebatur 
+      sal<lb ed="#P" n="24" break="no"/>uabatur in fide parentum. Similiter nunquam 
+      li<lb ed="#P" n="25" break="no"/>cebat differre nisi esset specialis dispensatio 
+      Do<lb ed="#P" n="26" break="no"/>mini, sicut fuit in deserto. Et ideo illi ad quos 
+      per<lb ed="#P" n="27" break="no"/>tinebat cura pueri, differendo vltra Sa diem 
+      pecca<lb ed="#P" n="28" break="no"/>bant mortaliter: sed si omissa erat circuncisio&amp;. 
+      <lb ed="#P" n="29"/>die non erat in praecepto quando fieret post. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e428">
+               <lb ed="#P" n="30"/>Tertia conclusio est, quod cultrum lapideum 
+      <lb ed="#P" n="31"/>non erat de necessitate sacramenti, nisi 
+      quan<lb ed="#P" n="32" break="no"/>tum ad aliquas speciales circuncisiones. Ratio 
+      <lb ed="#P" n="33"/>primi est quia ea quae non significant proprium 
+      sa<lb ed="#P" n="34" break="no"/>cramenti effectum non sunt de necessitate 
+      sacra<lb ed="#P" n="35" break="no"/>menti, vt dictum est supra: sed materia illius cultri 
+      <lb ed="#P" n="36"/>vt esset ferrea, vel lapidea nihil facit ad 
+      significan<lb ed="#P" n="37" break="no"/>dum proprium effectum circuncisionis, quae, est 
+      <lb ed="#P" n="38"/>ablatio peccati originalis. Ratio secundi est quia 
+      <lb ed="#P" n="39"/>hoc non inuenitur fuisse praeceptum a Domino 
+      <lb ed="#P" n="40"/>nisi de aliquibus circuncisionibus specialibus 
+      si<lb ed="#P" n="41" break="no"/>cut fuit de illa quam fecit rosue in Galgalis. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e457">
+               <lb ed="#P" n="42"/>Ad primum in oppositum dicendum, quod 
+      si<lb ed="#P" n="43" break="no"/>gnum protestans fidem potest inferri, vel ad ipsum 
+      <lb ed="#P" n="44"/>actum credendi: &amp; significat etiam illud quid sic 
+      <lb ed="#P" n="45"/>protestatur: &amp; significat idem debere pertinere 
+      <lb ed="#P" n="46"/>ad cognitionem, &amp; ad membri maxime 
+      cogni<lb ed="#P" n="47" break="no"/>tum. Sic autem protestantur sacramenta fidem 
+      <lb ed="#P" n="48"/>principaliter: potest etiam referri tale signum ad 
+      <lb ed="#P" n="49"/>rem cteditam, sicut ad significandum ablationem 
+      <lb ed="#P" n="50"/>culpae originalis, vel aliquid tale. Et sic 
+      sacramen<lb ed="#P" n="51" break="no"/>ta protestantur fidem, id est, rem creditam. Quod 
+      <lb ed="#P" n="52"/>autem sic protestatur fidem, scilicet, quantum ad 
+      <lb ed="#P" n="53"/>rem creditam: non opus quod fiat in parte 
+      ma<lb ed="#P" n="54" break="no"/>gis cognitiua, sed, magis in parte illa ad quam 
+      <lb ed="#P" n="55"/>res credita magis pertinet. Hoc autem est 
+      pecca<lb ed="#P" n="56" break="no"/>tum originale, vel eius oblatio quae magis 
+      perti<lb ed="#P" n="57" break="no"/>net ad membra deseruientia generationi, quam ad 
+      <lb ed="#P" n="58"/>alia. Et non ideo protestatio talis ablationis magis 
+      <lb ed="#P" n="59"/>debuit fieri in illis membris quam in aliis. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e499">
+               <lb ed="#P" n="60"/>Ad secundum dicendum quod secundum 
+      quos<lb ed="#P" n="61" break="no"/>dam in tali casu poterat fieri circuncisio ante S. 
+      <lb ed="#P" n="62"/>diem, secundum autem quosdam non, sed 
+      <lb ed="#P" n="63"/>pueri saluabantur in fide parentum. 
+      <lb ed="#P" n="64"/>Ad tertium dicendum quod ibi fuit 
+      dispensa<lb ed="#P" n="65" break="no"/>tio diuina, scilicet, quod non fuerunt circuncisi in 
+      <lb ed="#P" n="66"/>deserto &amp;. die, &amp; hoc fuit propter incertitudinem 
+      <lb ed="#P" n="67"/>mouendi castra, propter quid pueri non potuissent 
+      <lb ed="#P" n="68"/>commodo curari. 
+      </p>
+            <p xml:id="hx2hx3-c06134-d1e521">
+               <lb ed="#P" n="69"/>Ad quartum dicendum quod significatio illa 
+      <lb ed="#P" n="70"/>qua significatur aliquid aliud a preprio effectu 
+      <!--316.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>sacramenti, non est necessaria. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

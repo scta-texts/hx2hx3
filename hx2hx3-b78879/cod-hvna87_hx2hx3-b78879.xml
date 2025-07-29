@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="234"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b78879"><!-- l2d11q2 -->
+            <head xml:id="hx2hx3-b78879-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b78879-Hd1e101" type="question-title">Utrum angeli simul videant verbum et res in proprio genere</head>
+            <p xml:id="hx2hx3-b78879-d1e104">
+               <lb ed="#P" n="120"/>QVAESTIO SECVNDA. 
+      <lb ed="#P" n="121"/>DEinde quaeritur. Vtrum Angeli simul 
+      vi<lb ed="#P" n="122" break="no"/>deant verbum, &amp; res in proprio genere. 
+      </p>
+            <p xml:id="hx2hx3-b78879-d1e113">
+               <lb ed="#P" n="123"/>Et arguitur quod non, quia cum visio verbi 
+      <lb ed="#P" n="124"/>semper maneat nec vnquam interrumpatur; &amp; 
+      <lb ed="#P" n="125"/>cognitio rerum in proprio genere, scilicet per 
+      <lb ed="#P" n="126"/>proprias species sit alia a visione verbi: sequaeretur 
+      <lb ed="#P" n="127"/>quodduo actus intelligendi simul essent in eodem. 
+      <lb ed="#P" n="128"/>Hoc autem videtur inconueniens. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b78879-d1e129">
+               <lb ed="#P" n="129"/>Contra. Si cognitio rerum in proprio genere 
+      <lb ed="#P" n="130"/>non esset quandoque in Angelis, frustra haberent 
+      <lb ed="#P" n="131"/>species concreatas. 
+      </p>
+            <p xml:id="hx2hx3-b78879-d1e139">
+               <lb ed="#P" n="132"/>Respondeo. Quidam dicunt quod in his 
+      nul<lb ed="#P" n="133" break="no"/>la cognitio est nisi visio beata per quam vident 
+      <lb ed="#P" n="134"/>verbum, &amp; res in verbo, &amp; res in proprio genere: 
+      <lb ed="#P" n="135"/>ita quod accipiatur videre res in proprio genere, 
+      <lb ed="#P" n="136"/>videre eas per proprias species. Hoc autem 
+      quo<lb ed="#P" n="137" break="no"/>modo fiat declarant, quia vt dicunt quando 
+      spe<lb ed="#P" n="138" break="no"/>cie: huius rei vel illius, puta equi vel houis oppo¬ 
+      <!--235.xml-->
+      <pb ed="#P" n="235"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nitur illi visioni: tuneper iliam visionem termi¬ A 
+      <lb ed="#P" n="2"/>natam ad talem speciem quae habet vicem obiecti, 
+      <lb ed="#P" n="3"/>videt rem in proprio genere: ita quod per vnam 
+      <lb ed="#P" n="4"/>&amp; eandem visionem per quam prius videbat 
+      <lb ed="#P" n="5"/>equum in verbo, videt postea rem in proprio 
+      ge<lb ed="#P" n="6" break="no"/>nere. 
+      </p>
+            <p xml:id="hx2hx3-b78879-d1e176">
+               <lb ed="#P" n="7"/>Sed istud non potest esse, tum quia ex falsa 
+      <lb ed="#P" n="8"/>imaginatione procedit, quasi intelligere sit actum 
+      <lb ed="#P" n="9"/>intelligendi emitere versus obiectum positum ex 
+      <lb ed="#P" n="10"/>opposito: sicut mittitur sagitta ad signum, tum 
+      <lb ed="#P" n="11"/>quia supra frequenter ostensum est, quod non 
+      vi<lb ed="#P" n="12" break="no"/>detur possibile quod per eandem cognitionem 
+      ali<lb ed="#P" n="13" break="no"/>quis quandoque cognoscat aliquid in potentia, &amp; 
+      <lb ed="#P" n="14"/>postea cognoscat illud idem in actu, nulla 
+      varia<lb ed="#P" n="15" break="no"/>tione facta in illa cognitione. Ideo hoc quasi 
+      mi<lb ed="#P" n="16" break="no"/>hi improbabile dimitto. 
+      </p>
+            <p xml:id="hx2hx3-b78879-d1e200">
+               <lb ed="#P" n="17"/>Ad euidentiam ergo huius quastionis, primo 
+      <lb ed="#P" n="18"/>videndum est quare secundum praesentem statum 
+      <lb ed="#P" n="19"/>non possumus simul habere duos actus 
+      intelligen<lb ed="#P" n="20" break="no"/>di. Ad quod dicunt quidam, quod ideo est, quia 
+      <lb ed="#P" n="21"/>intentio quae copulat actum intelllgendicum 
+      in<lb ed="#P" n="22" break="no"/>tellectu siue cum memoria, non potest in diuersa 
+      <lb ed="#P" n="23"/>ferri: ideo non possumus habere duos actus 
+      in<lb ed="#P" n="24" break="no"/>telligendi sinul. Sed hoc non videtur multum 
+      <lb ed="#P" n="25"/>valere. Primo, quia non oportet quod semper 
+      <lb ed="#P" n="26"/>voluntas siue intentio coniungat actum 
+      intelligen<lb ed="#P" n="27" break="no"/>di intellectui: alioquin ante ommem actum 
+      intel<lb ed="#P" n="28" break="no"/>lectus oporteret praecedere aliquem actum 
+      volun<lb ed="#P" n="29" break="no"/>tatis quod falsum est, cum econuerso habeat esse. 
+      <lb ed="#P" n="30"/>Licet ergo voluntas impellat ad considerandum 
+      <lb ed="#P" n="31"/>hoc vel illud: &amp; hoc, vel mouendo fantasma, vel 
+      <lb ed="#P" n="32"/>vtendo hac specie, vel quae gerit vicem obiecti in 
+      <lb ed="#P" n="33"/>mouendo: non tamen semper voluntas est quae 
+      <lb ed="#P" n="34"/>copular actum intelligendi cum intellectu, imo 
+      <lb ed="#P" n="35"/>obiectum, siue hoc sit mediante specie, vel 
+      im<lb ed="#P" n="36" break="no"/>mediate. Vnde &amp; aliquando displicet homini 
+      <lb ed="#P" n="37"/>habere iudicium quod habet, nec ad hoc mouet 
+      <lb ed="#P" n="38"/>ipsum voluntas, sed obiectum imo frequenter 
+      <lb ed="#P" n="39"/>intellectui hominis occurrunt ea quae displicent 
+      <lb ed="#P" n="40"/>ei quod occurrant: ad quorum cognitionem non 
+      <lb ed="#P" n="41"/>mouet voluntas. 
+      </p>
+            <p xml:id="hx2hx3-b78879-d1e257">
+               <lb ed="#P" n="42"/>Item etiam non videtur inconueniens 
+      volunta<lb ed="#P" n="43" break="no"/>rem posse velle multa per intentionem, maxime 
+      <lb ed="#P" n="44"/>si sint ordinata ad vnum: sicut etiam intellectus 
+      <lb ed="#P" n="45"/>porest intelligere multavt habent habitudinem ad 
+      <lb ed="#P" n="46"/>ad aliquod vnum. Et sic si de se essent possibiles 
+      <lb ed="#P" n="47"/>duo actus intelligendi, posset voluntas velle 
+      vtru<lb ed="#P" n="48" break="no"/>que simul inesse eidem cuius perfectionem posset 
+      <lb ed="#P" n="49"/>simul velle secundum vtrumque actum. 
+      </p>
+            <p xml:id="hx2hx3-b78879-d1e277">
+               <lb ed="#P" n="50"/>Et ideo videtur aliter dicendum, quod scilicet omnis 
+      <lb ed="#P" n="51"/>incompossibilias, siue in essentia siue in subiecto est 
+      <lb ed="#P" n="52"/>per hoc quod vnum includit negationem alterius. 
+      Vn<lb ed="#P" n="53" break="no"/>dequod impossibile sit quantum ad identitatem esse 
+      <lb ed="#P" n="54"/>quod albedo sit calor: hoc ideo est, quia albedo 
+      <lb ed="#P" n="55"/>includit negationem caloris, &amp; econuerso: 
+      albe<lb ed="#P" n="56" break="no"/>do enim per essentiam suam est non calor, &amp; 
+      econ<lb ed="#P" n="57" break="no"/>so. Similiter aliqua sunt incompossibilia in 
+      eo<lb ed="#P" n="58" break="no"/>dem subiecto: quia vnum eorum includit 
+      nega<lb ed="#P" n="59" break="no"/>tionem, alterius in habitudine ad subiectum 
+      Vn<lb ed="#P" n="60" break="no"/>de non solum albedo est non nigredo, imo de 
+      ne<lb ed="#P" n="61" break="no"/>cessitate album est non nigrum. Causa autem 
+      <lb ed="#P" n="62"/>quare aliqua sic se habent quod vnum eorum 
+      in<lb ed="#P" n="63" break="no"/>cludit negationem alterius in eodem subiecto 
+      po<lb ed="#P" n="64" break="no"/>test esse, quia respiciunt subiectum secundum 
+      af<lb ed="#P" n="65" break="no"/>firmationem &amp; negationem alicuius vnius. Et 
+      <lb ed="#P" n="66"/>quia impossibile est quod affitmatio &amp; negatio 
+      <lb ed="#P" n="67"/>alicuius vnius conueniat eidem: ideo talla 
+      incom<lb ed="#P" n="68" break="no"/>possibilia sunt in eodem subiecto, vt si dicamus 
+      <lb ed="#P" n="69"/>quod albedo causatur ex hoc quod natura talis 
+      <lb ed="#P" n="70"/>corporis nata est habere multum de lumine, &amp; 
+      <!--235.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>nigredo causatur ex hoc quod corpus illud non 
+      <lb ed="#P" n="72"/>habet multum de lumine, albedo &amp; nigredo 
+      se<lb ed="#P" n="73" break="no"/>cundum hoc respiciunt subiectum secundum 
+      affir<lb ed="#P" n="74" break="no"/>mationem &amp; negationem eius quod est habere, &amp; 
+      <lb ed="#P" n="75"/>non habere mustum de lumine. Qualiter autem 
+      <lb ed="#P" n="76"/>debeat intelligi quod lumen est de substantia 
+      co<lb ed="#P" n="77" break="no"/>lorum, non intromitto me ad praesens: hoc 
+      acce<lb ed="#P" n="78" break="no"/>pi gratia exempli. Et quia vt communiter ea quae 
+      <lb ed="#P" n="79"/>sunt propinqui generis communicant in aliquo 
+      <lb ed="#P" n="80"/>tali, sicut patet de coloribus &amp; de figuris &amp; de 
+      <lb ed="#P" n="81"/>pluribus aliis: ideo communiter habet 
+      incompos<lb ed="#P" n="82" break="no"/>sibihtatem circa idem subiectum illa quae sunt 
+      go<lb ed="#P" n="83" break="no"/>neris propinqui. Non dito tamen quod hoc sit 
+      <lb ed="#P" n="84"/>necessarium vniuersaliter. Et ideo videtur quod 
+      <lb ed="#P" n="85"/>si duo actus intelligendi non possunt esse simul 
+      se<lb ed="#P" n="86" break="no"/>cundum statum praesentem, de quo tamen nihil 
+      <lb ed="#P" n="87"/>assero, quod est cansa quia communicant in vno 
+      <lb ed="#P" n="88"/>lumine, &amp; in vno modo intelligendi. Et potest 
+      es<lb ed="#P" n="89" break="no"/>se quod comparentur ad suum subiectum 
+      secun<lb ed="#P" n="90" break="no"/>dum affirmationem &amp; negationem alicuius 
+      con<lb ed="#P" n="91" break="no"/>rradictionis illius luminis: vel modi intelligendit 
+      <lb ed="#P" n="92"/>Sed visio beata &amp; intelligere res in proprio 
+      gene<lb ed="#P" n="93" break="no"/>ro non communicant in vno lumine, nec in 
+      eo<lb ed="#P" n="94" break="no"/>dem modo intelligendi: &amp; ideo non oportet 
+      <lb ed="#P" n="95"/>quod comparentur ad subiectum cui 
+      insuntiecun<lb ed="#P" n="96" break="no"/>dum affirmationem &amp; negationem alicuius enius. 
+      <lb ed="#P" n="97"/>Et propter hoc possunt stare simul, ita quod sicut 
+      <lb ed="#P" n="98"/>simul ignis potest lucere &amp; calere: ita idem 
+      intel<lb ed="#P" n="99" break="no"/>lectus potest simul habere hoc intelligere: &amp; illud 
+      <lb ed="#P" n="100"/>scilicet visionem beatam, &amp; cognitionem rerum 
+      <lb ed="#P" n="101"/>in proprio genere. 
+      </p>
+            <p xml:id="hx2hx3-b78879-d1e397">
+               <lb ed="#P" n="102"/>Ad rationem in oppositum patet ex dictis rquia 
+      <lb ed="#P" n="103"/>non est inconueniens duos actus intelligendi taler 
+      <lb ed="#P" n="104"/>esse similiter. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

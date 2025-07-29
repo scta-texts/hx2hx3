@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaesito 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaesito 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="79"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b25614"><!-- l1d13q1 -->
+            <head xml:id="hx2hx3-b25614-Hd1e99">Quaesito 1</head>
+            <head xml:id="hx2hx3-b25614-Hd1e101" type="question-title">Utrum sit aliqua processio in divinis</head>
+            <p xml:id="hx2hx3-b25614-d1e104">
+      <!--79.xml-->
+               <pb ed="#P" n="79"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Post haec considerandum est quantum a 
+      ta<lb ed="#P" n="2" break="no"/>libus quales nos sumus intelligi 
+      <lb ed="#P" n="3"/>potest, &amp;c.
+    </p>
+            <p xml:id="hx2hx3-b25614-d1e120">
+               <lb ed="#P" n="4"/>Distinctio decimatertia. 
+      <lb ed="#P" n="5"/>QVASTIO PRIMA
+    </p>
+            <p xml:id="hx2hx3-b25614-d1e127">
+               <lb ed="#P" n="6"/>CIrca distinctionem decimamtertiam. 
+    </p>
+            <p xml:id="hx2hx3-b25614-d1e133">
+               <lb ed="#P" n="7"/>Primo quaeritur vtrum sit aliqua 
+      proces<lb ed="#P" n="8" break="no"/>sio in diuinis. Et videtur quod non: quia 
+      signi<lb ed="#P" n="9" break="no"/>ficat modum: Ergo, &amp;c. Item aut est idem quod 
+      <lb ed="#P" n="10"/>generatio, &amp; sic non conueniet Spiritui sancto. 
+      <lb ed="#P" n="11"/>aut diuiditur contra generationem; &amp; sic non erit 
+      <lb ed="#P" n="12"/>commune vtrique: quod videtur inconueniens: 
+      <lb ed="#P" n="13"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b25614-d1e151">
+               <lb ed="#P" n="14"/>Contra Ioannis 16. Spiritus sanctus qui a Patre 
+      <lb ed="#P" n="15"/>procedit. 
+      </p>
+            <p xml:id="hx2hx3-b25614-d1e158">
+               <lb ed="#P" n="16"/>Respondeo, hic primo ostendendum est 
+      pro<lb ed="#P" n="17" break="no"/>cessionem esse in diuinis: secundo qualiter 
+      appro<lb ed="#P" n="18" break="no"/>priatur Spiritui sancto. 
+      </p>
+            <p xml:id="hx2hx3-b25614-d1e167">
+               <lb ed="#P" n="19"/>Quantum ad primum breuiter sciendum, quod 
+      <lb ed="#P" n="20"/>processio potest accipi pro motu progressiuo 
+      ani<lb ed="#P" n="21" break="no"/>malium, &amp; dicunt quidam quod dicitur 
+      proces<lb ed="#P" n="22" break="no"/>sio; &amp; sic in diuinis non habet socum nisi 
+      meta<lb ed="#P" n="23" break="no"/>phorice. Alio modo accipitur processio pro 
+      edu<lb ed="#P" n="24" break="no"/>ctione vel productione principiati a principio, &amp; 
+      <lb ed="#P" n="25"/>sic est processio in diuinis cum ibivna persona 
+      pro<lb ed="#P" n="26" break="no"/>ducatur ab alia. 
+      </p>
+            <p xml:id="hx2hx3-b25614-d1e187">
+               <lb ed="#P" n="27"/>Quantum ad secundum sciendum quod pe. 
+      <lb ed="#P" n="28"/>nuria vocabulorum est causa quare non habetur 
+      <lb ed="#P" n="29"/>nomen proprium ita vsitatum significans 
+      specia<lb ed="#P" n="30" break="no"/>lem modum quo procedit Spiritus sanctus: sicut 
+      <lb ed="#P" n="31"/>habetur nomen significans specialem modum quo 
+      <lb ed="#P" n="32"/>procedit filius, &amp; ideo retinet sibi nomen 
+      com<lb ed="#P" n="33" break="no"/>mune; sicut &amp; accidens conuertibile retinet sibi 
+      <lb ed="#P" n="34"/>nomen proprii cum tamen esse proprium sit 
+      com<lb ed="#P" n="35" break="no"/>mune tam definitioni quam proprio: nec tamen 
+      <lb ed="#P" n="36"/>processio prout stat in communi tenetur pro 
+      pro<lb ed="#P" n="37" break="no"/>rcessione Spiritus sancti tantum, sed prout 
+      intelli<lb ed="#P" n="38" break="no"/>gitur stare pro processione per modum voluntatis. 
+      <lb ed="#P" n="39"/>Ratio autem huius penuriae vt quidam dicunt, est 
+      <lb ed="#P" n="40"/>quod in creaturis illud quod generatur &amp; est 
+      Fi<lb ed="#P" n="41" break="no"/>lius, est ens simpliciter per se subsistens, illud 
+      au<lb ed="#P" n="42" break="no"/>rem quod procedit in creaturis per modum 
+      vo<lb ed="#P" n="43" break="no"/>luntatis scilicet amor, est tantum inherens: &amp; ideo 
+      <lb ed="#P" n="44"/>primum est magis notum quam secundum, sicut 
+      <lb ed="#P" n="45"/>ens simpliciter per se quam ens inhaerens. Sed 
+      <lb ed="#P" n="46"/>hoc non videtur sufficere, tum quia non multum 
+      <lb ed="#P" n="47"/>est euidens quod substantiae quae sunt entia per se 
+      <lb ed="#P" n="48"/>quantum ad suas essentias sint nobis magis notae 
+      <lb ed="#P" n="49"/>quam earum accidentia extrinsecus ad sensum 
+      <lb ed="#P" n="50"/>apparentia: tum quia non solum nominum quae 
+      <lb ed="#P" n="51"/>significant productionem Filii in speciali per 
+      mo<lb ed="#P" n="52" break="no"/>dum naturae non habemus penuriam: sed nec 
+      <lb ed="#P" n="53"/>etiam nominum quae eam significant prout habet 
+      <lb ed="#P" n="54"/>modum intellectus. Secundum autem rationem
+      <lb ed="#P" n="55"/>praedictam debemus habere penuriam in 
+      nomini<lb ed="#P" n="56" break="no"/>bus significantibus dictam processionem per 
+      mo<lb ed="#P" n="57" break="no"/>dum intellectus, cum verbum procedens per 
+      mo<lb ed="#P" n="58" break="no"/>dum intellectus vel ab intellectu sit in creaturis 
+      <lb ed="#P" n="59"/>accidens inhaerens: Ergo illa non est sufficiens 
+      ra<lb ed="#P" n="60" break="no"/>tio. Et ideo, dicendum aliter quod processio per 
+      <lb ed="#P" n="61"/>modum naturae est in creaturis nobis magis nota, 
+      <lb ed="#P" n="62"/>quia procedens est res nobis magis sensibilis, &amp; 
+      <lb ed="#P" n="63"/>productio ipsa est etiam aliquo modo nota per 
+      <lb ed="#P" n="64"/>sensum: &amp; ideo in ipsa marime inuenitur copia 
+      <lb ed="#P" n="65"/>nominum eam significantium &amp; in speciali &amp; in 
+      <!--79.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>generali. In eis autem quae sunt remota a sensu 
+      <lb ed="#P" n="67"/>sicut intellectus &amp; voluntas, intellectus &amp; ea qua 
+      <lb ed="#P" n="68"/>pertinent ad ipsum; sunt magis nota quoad ros 
+      <lb ed="#P" n="69"/>quam voluntas cum pertinentibus ad spsam, qula 
+      <lb ed="#P" n="70"/>immediatiorem ordinem habet ad sensibilia ea 
+      <lb ed="#P" n="71"/>quibus deuenimus in eognitionem eorum quae 
+      <lb ed="#P" n="72"/>sunt remota a sensu. Et inde est quod in 
+      nomi<lb ed="#P" n="73" break="no"/>nando productionem Filii, siue prout habet 
+      mo<lb ed="#P" n="74" break="no"/>dum naturae, siue prout habet modum intellectus, 
+      <lb ed="#P" n="75"/>non habemus tantam penuriam nominum sicut in 
+      <lb ed="#P" n="76"/>processione Spiritus sancti qui procedit per 
+      mo<lb ed="#P" n="77" break="no"/>dum voluntatis. 
+      </p>
+            <p xml:id="hx2hx3-b25614-d1e304">
+               <lb ed="#P" n="78"/>Ad primum ergo in oppositum dicendum, quod 
+      <lb ed="#P" n="79"/>processio prout importat motum non habet locum 
+      <lb ed="#P" n="80"/>in diuinis. Sed prout dicit productionem 
+      nrinci<lb ed="#P" n="81" break="no"/>piati a principio quod sine motu esse potest non 
+      <lb ed="#P" n="82"/>solum in Deo sed in creaturis; nam creatio etiam 
+      <lb ed="#P" n="83"/>spsa qua procedit creatura a Deo non est mo¬ 
+      </p>
+            <p xml:id="hx2hx3-b25614-d1e321">
+               <lb ed="#P" n="84"/>Ad secundum dicendum, quod processio 
+      com<lb ed="#P" n="85" break="no"/>muniter dicta est idem cum generatione, sicut 
+      su<lb ed="#P" n="86" break="no"/>perius cum inferiori, eo modo quo in diuinis 
+      po<lb ed="#P" n="87" break="no"/>test esse superius &amp; inferius, &amp; quod sic est idem 
+      <lb ed="#P" n="88"/>cum generatione potest conuenire processioni aln 
+      <lb ed="#P" n="89"/>a generationei prout autem accipitur in speciali 
+      <lb ed="#P" n="90"/>scilicet pro processione qua persona procedit per 
+      <lb ed="#P" n="91"/>modum voluntatis distinguitur contra 
+      generatio<lb ed="#P" n="92" break="no"/>nem: nec ex hoc sequitur quin processio 
+      commu<lb ed="#P" n="93" break="no"/>niter &amp; absolute accepta, conueniat procedenti 
+      <lb ed="#P" n="94"/>per generationem. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

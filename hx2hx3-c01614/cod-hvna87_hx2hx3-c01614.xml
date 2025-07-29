@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="301"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c01614"><!-- l3d11q1 -->
+            <head xml:id="hx2hx3-c01614-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-c01614-Hd1e101" type="question-title">Utrum christus secundum quod homo sit creatura</head>
+            <p xml:id="hx2hx3-c01614-d1e104">
+               <lb ed="#P" n="82"/>Distinctio vndecima 
+      <lb ed="#P" n="83"/>QVAESTIO VNICA. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e111">
+               <lb ed="#P" n="84"/>QVper vndecimam distinctionem quaeritur 
+      <lb ed="#P" n="85"/>Qvtrum Christus secundumquod homo, sit 
+      crea<lb ed="#P" n="86" break="no"/>tura. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e120">
+               <lb ed="#P" n="87"/>Et arguitur quod non. Quia quod conuenit 
+      <lb ed="#P" n="88"/>alicui cum reduplicatione, conuenit ei 
+      simplici<lb ed="#P" n="89" break="no"/>ter. Sed esse creaturam, vel incipere esse, non 
+      <lb ed="#P" n="90"/>conuenit simpliciter homini Christo: vnde ista 
+      es<lb ed="#P" n="91" break="no"/>set falsa. Iste homo de nouo incipit esse. Ergo. 
+      <lb ed="#P" n="92"/>&amp;caetera. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e137">
+               <lb ed="#P" n="93"/>Praeterea. Si esse creaturam conuenit 
+      Chri<lb ed="#P" n="94" break="no"/>sto secundum quod homo, Aut hoc est ratione 
+      <lb ed="#P" n="95"/>personae aut ratione naturae. Non ratione 
+      perso<lb ed="#P" n="96" break="no"/>nae, quia in Christo persona habens humanitatem 
+      <lb ed="#P" n="97"/>non est creatura. Nec etiam ratione naturae 
+      hu<lb ed="#P" n="98" break="no"/>manae, quia natura humana non praedicatur de 
+      <lb ed="#P" n="99"/>homine Christo: hac enim est falsa, Christus est 
+      <lb ed="#P" n="100"/>humanitas. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e157">
+               <lb ed="#P" n="101"/>Contra, videtur quod simplititer esse 
+      creatu<lb ed="#P" n="102" break="no"/>ra praedicetur de Christo. Quia de quocumque 
+      <lb ed="#P" n="103"/>praedicatur inferius, praedicatur &amp; superius. Sed 
+      <lb ed="#P" n="104"/>homo est inferius ad creaturam. Ergo de 
+      quocun<lb ed="#P" n="105" break="no"/>que praedicatur homo praedicatut creatura. Sed 
+      <lb ed="#P" n="106"/>simpliciter de Christo praedicatur homo: ergo &amp; 
+      <lb ed="#P" n="107"/>creatura. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e175">
+               <lb ed="#P" n="108"/>Praeterea, omne quod non fuit ab aeterno 
+      in<lb ed="#P" n="109" break="no"/>cepit esse. Sed nullus homo fuit ab aeterno. Ergo 
+      <lb ed="#P" n="110"/>omnis homo incepit esse: &amp; per consequens 
+      ho<lb ed="#P" n="111" break="no"/>mo qui est Christus. Probatio minoris: quia si 
+      <lb ed="#P" n="112"/>aliquis homo fuit ab aeterno, verum fuit semper 
+      <lb ed="#P" n="113"/>ab aeterno dicere horo est. Sed hoc est falsum, 
+      <lb ed="#P" n="114"/>quia ante mundum non fuit verum dicere quod 
+      <lb ed="#P" n="115"/>homo esset: ergo nullus homo fuit ab aeterno. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e195">
+               <lb ed="#P" n="116"/>Respondeo. Hic primo distinguendum de 
+      <lb ed="#P" n="117"/>creatura. Quod scillcet creatura dupliciter potest 
+      <lb ed="#P" n="118"/>accipi. Vno modo concretiue, scilicet pro eo 
+      <lb ed="#P" n="119"/>quod est creatum. Alio modo pro abstracto, 
+      sci<lb ed="#P" n="120" break="no"/>licet pro quidditare creata: sicut humanitas 
+      dici<lb ed="#P" n="121" break="no"/>tur creatura. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e211">
+               <lb ed="#P" n="122"/>Secundo, sciendum est quod sicut 
+      supradi<lb ed="#P" n="123" break="no"/>ctum est quod illud quod denominat aliquid sim. 
+      <lb ed="#P" n="124"/>pliciter secundum esse, quandoque non 
+      denomi<lb ed="#P" n="125" break="no"/>nat ipsum simpliciter secundum fieri. Et quod 
+      se<lb ed="#P" n="126" break="no"/>cundum esse infert ipsum simpliciter, non 
+      opor<lb ed="#P" n="127" break="no"/>tet quod inferat ipsum: fieri: sicut licet sequatur 
+      <lb ed="#P" n="128"/>quod si homo est albus, quod homo simpliciter 
+      <lb ed="#P" n="129"/>sit; non tamen sequitur quod si homo fiat albus, 
+      <lb ed="#P" n="130"/>simpliciter fiat. Vnde hominem fieri album, ad 
+      <lb ed="#P" n="131"/>hominem fieri simpliciter, se habet sicut 
+      secun<lb ed="#P" n="132" break="no"/>dum quid ad simpliciter, 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e237">
+               <lb ed="#P" n="133"/>Ulterius sciendum quod fieri secundum quid, 
+      <lb ed="#P" n="134"/>conuenit alicui secundum illud quod ei aduenit 
+      <lb ed="#P" n="135"/>post suum completum esse: sicut homo dicitur 
+      fie<lb ed="#P" n="136" break="no"/>ri albus: sed fiers simpliciter conuenit alicui 
+      secun<lb ed="#P" n="137" break="no"/>du suum esse simplieitet,scileet et mum ad 
+      <!--302.xml-->
+      <pb ed="#P" n="302"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>suppositum, &amp; esse suppositi Eieri enim 
+      simpli<lb ed="#P" n="2" break="no"/>ciren est sub stenctium. Vnde non dicitunhumo 
+      <lb ed="#P" n="3"/>fieri simpliciter: licet quantum ad suppositum 
+      <lb ed="#P" n="4"/>habuns naturam hiat. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e266">
+               <lb ed="#P" n="5"/>Tertio suendum est quod idem est iudiqium 
+      <lb ed="#P" n="6"/>quantum ad ssecundum quid &amp; simpliciter de in 
+      <lb ed="#P" n="7"/>cipere esse, &amp; de fieri: quia non dicitur aliquid 
+      <lb ed="#P" n="8"/>simpliciter incipere esse, nisi quantum ad 
+      suppo<lb ed="#P" n="9" break="no"/>situm, siue, quontum ad esse suppositt. Sed 
+      inci<lb ed="#P" n="10" break="no"/>pere esse hoc vel illud, beng potest conuenire 
+      ali<lb ed="#P" n="11" break="no"/>cui secundum aliud quam secundum esse 
+      suppo<lb ed="#P" n="12" break="no"/>siti: sicut dicimus quod homo incipit esse albus, 
+      <lb ed="#P" n="13"/>vel musicus. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e288">
+               <lb ed="#P" n="14"/>Quarto sciendum quod quando secundum 
+      <lb ed="#P" n="15"/>quid &amp; consimilia, sunt nota perseitatis; sicut 
+      <lb ed="#P" n="16"/>quando dicitur homo secunduni quod homo est 
+      <lb ed="#P" n="17"/>risibilis: ly secundum quod denotat quod 
+      praedi<lb ed="#P" n="18" break="no"/>catum insit subiecto per se, ita quod in subiecto 
+      <lb ed="#P" n="19"/>sit causa praedicati. Quandoque vero ly 
+      secun<lb ed="#P" n="20" break="no"/>dum quod non est nota perseitaris, sed est 
+      opposi<lb ed="#P" n="21" break="no"/>tum alicuius modi imperfecti, quo praedicatum 
+      <lb ed="#P" n="22"/>inest subiecto: vt si aliquis solum in pede sit albus, 
+      <lb ed="#P" n="23"/>&amp; dicatur albus secundum pedem, vel secundum 
+      <lb ed="#P" n="24"/>quod habens pedem; ly secundum quod non est 
+      <lb ed="#P" n="25"/>nota perseitatis, sed determinatiuum modi 
+      im<lb ed="#P" n="26" break="no"/>perfecti, in quo praedicatum inest subiecto: quasi 
+      <lb ed="#P" n="27"/>diceretur non est simpliciter albus, sed secundum 
+      <lb ed="#P" n="28"/>quod habens pedem. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e323">
+               <lb ed="#P" n="29"/>His praemissis dico ad quaestionem qua 
+      quaeri<lb ed="#P" n="30" break="no"/>tur, vtrum Christus sit creatura. Dicendum quod 
+      <lb ed="#P" n="31"/>si creatura accipiatur in abstracto, scilicet pro 
+      <lb ed="#P" n="32"/>quidditate creata, videlicet pro humanitare, 
+      sem<lb ed="#P" n="33" break="no"/>per est falsa propositio quae dicit Christum esse 
+      <lb ed="#P" n="34"/>cteaturam; siue absolute, siue secundum quod 
+      <lb ed="#P" n="35"/>homo. Vnde ista, Christus est humanitas, &amp; 
+      se<lb ed="#P" n="36" break="no"/>cundum quod homo est humanitas, falsa est: quia 
+      <lb ed="#P" n="37"/>nullo modo humanitas praedicatur de Christo. Si 
+      <lb ed="#P" n="38"/>autem ly creatura teneatur concretiue; vt si idem 
+      <lb ed="#P" n="39"/>quod creatum ita quod quaeratur vtrum ista sit 
+      <lb ed="#P" n="40"/>vera, Christus est creatus. Dicendum simpliciter 
+      <lb ed="#P" n="41"/>quod non: imo est falsa simpliciter. Quiat sicut 
+      <lb ed="#P" n="42"/>fieri, ita creari simpliciter non conuenit alicui, 
+      <lb ed="#P" n="43"/>nisi quantum ad suppositum, siue quantum ad 
+      es<lb ed="#P" n="44" break="no"/>se suppositi: Chriitus autem quantum ad 
+      suppo<lb ed="#P" n="45" break="no"/>situm, isiue quantum ad esse suppositi, non est 
+      fa<lb ed="#P" n="46" break="no"/>ctus, nec creatus. Et ideo haec Christus est 
+      crea<lb ed="#P" n="47" break="no"/>tura, ves creatus; vel iste homo, demonstrato 
+      <lb ed="#P" n="48"/>Christo, est creatus vel factus homo, est vera: quia 
+      <lb ed="#P" n="49"/>in hoc non denotatur creari vel fieri simpliciter 
+      <lb ed="#P" n="50"/>attribui supposito Christi: sed in ordine ad 
+      na<lb ed="#P" n="51" break="no"/>turam importatam in praedicato. Vnde est 
+      sen<lb ed="#P" n="52" break="no"/>sus quod suppositum Christi factum est habens 
+      <lb ed="#P" n="53"/>humanitatem per formam quae: est creatura. Ista 
+      <lb ed="#P" n="54"/>etiam, Christus secundum quod honio est 
+      creatu<lb ed="#P" n="55" break="no"/>ra, vel creatus, vera est. Sed aliquid conuenit 
+      <lb ed="#P" n="56"/>alicui secundum quid, licet simpliciter 
+      prola<lb ed="#P" n="57" break="no"/>tum non verificetur de illo: sicut homo habens 
+      <lb ed="#P" n="58"/>albedinem solum in pede, non potest vere dici 
+      <lb ed="#P" n="59"/>simpliciter albus: tamen quando attribuitur cum 
+      <lb ed="#P" n="60"/>conditione explieante modum quo conuenit 
+      se<lb ed="#P" n="61" break="no"/>cundum quid; tunc potest verificari de illo cui 
+      <lb ed="#P" n="62"/>secundum quid conuenit. Vnde vere posset dici 
+      <lb ed="#P" n="63"/>de illo albo secundum pedem; iste secundum 
+      pe<lb ed="#P" n="64" break="no"/>dem, siue secundum quod habens pedem, est 
+      al<lb ed="#P" n="65" break="no"/>bus. Nunc autem licet creari, vel fieri 
+      simplici<lb ed="#P" n="66" break="no"/>ter non congeniat Christo: tamen ista conueniunt 
+      <lb ed="#P" n="67"/>sibi secundum quid, scilicet secundum quod est 
+      <lb ed="#P" n="68"/>habens humanitatem. Nam haec est vera quod 
+      <lb ed="#P" n="69"/>suppositum est factum habens humanitatem: &amp; 
+      <lb ed="#P" n="70"/>ideo conditione illa apposita, per quam 
+      secun<lb ed="#P" n="71" break="no"/>num qmus fieri vel creari conuenit supposito diui¬ 
+      <!--302.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="72"/>no fiue Christo atrribuitur ei. Illa autem 
+      con<lb ed="#P" n="73" break="no"/>ditio imporratur quando dinitur secundum quod 
+      <lb ed="#P" n="74"/>homo &amp; ideo Christus secundum quod homo est 
+      <lb ed="#P" n="75"/>creatura, id est, creatus vel factus &amp; stat ibi 
+      ho<lb ed="#P" n="76" break="no"/>mo non pro natura in abstracto, nec 
+      prossuppo<lb ed="#P" n="77" break="no"/>sito Iecundum se; sed pro supposito secundum 
+      <lb ed="#P" n="78"/>quod est habens naturam, siue pro natura in 
+      con<lb ed="#P" n="79" break="no"/>creto: prout dictum est supra quod terminus 
+      con<lb ed="#P" n="80" break="no"/>cretus in praedicato, vel cum reduplicatione 
+      po<lb ed="#P" n="81" break="no"/>situs, tenetur formaliter: non quod supponar 
+      <lb ed="#P" n="82"/>pro natura abstracta in recto: sed quia supponit 
+      <lb ed="#P" n="83"/>pro habentenaturam secundum quod est habens 
+      <lb ed="#P" n="84"/>naturam. Eodem modo dicendum est de 
+      incipo<lb ed="#P" n="85" break="no"/>re esse: quia ista, Christus incipit esse, vel iste 
+      <lb ed="#P" n="86"/>homo incipit esse (demonstrato Christo) est 
+      fal<lb ed="#P" n="87" break="no"/>sa: &amp; propter eandem causam propter quam est 
+      <lb ed="#P" n="88"/>falsa, Christus est factus vel creatus: quia 
+      incipe<lb ed="#P" n="89" break="no"/>re simpliciter non conuenit nisi supposito: sed ista 
+      <lb ed="#P" n="90"/>incipit esse homo, &amp; ista, Christus secundum quod 
+      <lb ed="#P" n="91"/>homo incipit esse, sunt verae sicut dictum de 
+      crea<lb ed="#P" n="92" break="no"/>turis. Et quia vtrae que rationes aliquo modo 
+      con<lb ed="#P" n="93" break="no"/>cludunt falsum, ad vtrasque respondendum 
+      <lb ed="#P" n="94"/>est. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e473">
+               <lb ed="#P" n="95"/>Ad primum ergo dicendum quod illa maior 
+      <lb ed="#P" n="96"/>habet veritarem quando ly secundum quod est 
+      <lb ed="#P" n="97"/>nota perseitatis. Sic autem non est hic, vt patuit 
+      <lb ed="#P" n="98"/>in responsione principali: in o Iy secundum quod 
+      <lb ed="#P" n="99"/>est expositiuum modi quo recundum quid 
+      prae<lb ed="#P" n="100" break="no"/>dicatum oonuenit sub ecto. Vnde idem est ac si 
+      <lb ed="#P" n="101"/>dicatur quod Christus non est simpliciter 
+      crea<lb ed="#P" n="102" break="no"/>tura fiue creatus, sed secundum quod homo, fiue 
+      <lb ed="#P" n="103"/>secundum quod habens humanitatem. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e495">
+               <lb ed="#P" n="104"/>Ad secundum dicendum quod quando 
+      dici<lb ed="#P" n="105" break="no"/>tur, Christus secundum quod homo est 
+      creatu<lb ed="#P" n="106" break="no"/>ra, ista non verificatur ratione naturae absolute &amp; 
+      <lb ed="#P" n="107"/>in abstracto: quia numquam est verum quod 
+      Chri<lb ed="#P" n="108" break="no"/>sius sit humanitas: nec ratione suppositi 
+      secun<lb ed="#P" n="109" break="no"/>dum se &amp; absolute: sed ratione suppositi vt est 
+      ha<lb ed="#P" n="110" break="no"/>bens naturam. Nam suppositum factum est 
+      ha<lb ed="#P" n="111" break="no"/>bens naturam humana: &amp; hoc significatur 
+      quan<lb ed="#P" n="112" break="no"/>do dicitur quod est factus homo, vel quod 
+      secun<lb ed="#P" n="113" break="no"/>dum quod homo factus est creatura. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e519">
+               <lb ed="#P" n="114"/>Ad tertium dicendum, quod sicut factum non 
+      <lb ed="#P" n="115"/>est superius ad hominem: ita quod sit genus vel 
+      <lb ed="#P" n="116"/>differentia ad ipsum: sed est praedicatio 
+      denomi<lb ed="#P" n="117" break="no"/>natiua secundum quod denominatur a 
+      praedica<lb ed="#P" n="118" break="no"/>mento passionis. Ita etiam creatura, siue esse 
+      crea<lb ed="#P" n="119" break="no"/>tum. Et ideo non oportet quod de quocumque 
+      <lb ed="#P" n="120"/>praedicatur homo, necessario praedicetur 
+      absolu<lb ed="#P" n="121" break="no"/>te factum esse, vel esse creaturam; sed cum 
+      deter<lb ed="#P" n="122" break="no"/>minatione, secundum quod homo. Notandum 
+      <lb ed="#P" n="123"/>tamen quod secundum cursum naturalem, fieri 
+      <lb ed="#P" n="124"/>hominem est fieri simpliciter. Sed in Christo 
+      fie<lb ed="#P" n="125" break="no"/>ri hominem non est fieri simpliciter: sed fieri 
+      se<lb ed="#P" n="126" break="no"/>cundum quid: quia in Christo natura humana 
+      in<lb ed="#P" n="127" break="no"/>quantum aduenit supposiro praeexistenti in actu, 
+      <lb ed="#P" n="128"/>habet modum accidentis. 
+      </p>
+            <p xml:id="hx2hx3-c01614-d1e555">
+               <lb ed="#P" n="129"/>Ad quartum dicendum quod licet ista, nullu, 
+      <lb ed="#P" n="130"/>fuit homo ab aeterno, secundum scilicet quod ly 
+      <lb ed="#P" n="131"/>homo se renet ex parte praedicati, sit vera: quia 
+      <lb ed="#P" n="132"/>nullus est qui fuerit habens humanitatem ab 
+      aeter<lb ed="#P" n="133" break="no"/>no: tamen, ista nullus homo est ab aeterno 
+      secun<lb ed="#P" n="134" break="no"/>dum quod ly homo se tenet ex parte subiecti, est 
+      <lb ed="#P" n="135"/>falsa: quia est aliquis homo qui fuit ab aeterno, 
+      sei<lb ed="#P" n="136" break="no"/>licet Christus de quo potest dici, iste homo fuit 
+      ab<lb ed="#P" n="137" break="no"/>aetemno Nec oportet quod propter hoc verum 
+      fue<lb ed="#P" n="138" break="no"/>rit ab aeterno dicere quod homo est: sed sufficit 
+      <lb ed="#P" n="139"/>quod nunc sit verum dicere quod aliquis est 
+      ho<lb ed="#P" n="140" break="no"/>mo qui fuit ab aeterno, &amp; hoc est verum de 
+      Chri<lb ed="#P" n="141" break="no"/>sto. Qui est super omnia Deus benedictus in sae<!--missing linebreak-->cula. Amen
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

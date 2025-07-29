@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="101"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b33173"><!-- l1d19q1 -->
+            <head xml:id="hx2hx3-b33173-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b33173-Hd1e101" type="question-title">Utrum in divinis sit aequalitas</head>
+            <p xml:id="hx2hx3-b33173-d1e104">
+               <lb ed="#P" n="50"/>Distinctio decimanona. 
+      <lb ed="#P" n="51"/>QVAESTIO PRIMA 
+      </p>
+            <p xml:id="hx2hx3-b33173-d1e111">
+               <lb ed="#P" n="52"/>CIrca decimam nonam distinctionem. 
+      Quae<lb ed="#P" n="53" break="no"/>ritur vtrum indiuinis sit aequalitas. Et 
+      argui<lb ed="#P" n="54" break="no"/>tur quod non: quia ibi proprie non est quantitas, 
+      <lb ed="#P" n="55"/>nec commensuratio quantitatis. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b33173-d1e122">
+               <lb ed="#P" n="56"/>Contra, omnes coeternae sunt &amp; coequales. 
+      </p>
+            <p xml:id="hx2hx3-b33173-d1e128">
+               <lb ed="#P" n="57"/>Respondeo. Primo videndum est quomodo 
+      <lb ed="#P" n="58"/>se habent ista tria identitas, similitudo, &amp; 
+      aequali<lb ed="#P" n="59" break="no"/>tas. Secundo, apparebit de quaestione. 
+      </p>
+            <p xml:id="hx2hx3-b33173-d1e137">
+               <lb ed="#P" n="60"/>Quantum ad primum sciendum,, quod licet 
+      <lb ed="#P" n="61"/>communiter dicatur quod identitas dicat vnum in 
+      <lb ed="#P" n="62"/>substantia, tamen idem simpliciter dictum dicit 
+      <lb ed="#P" n="63"/>vnitatem numeralem in quacunque essentia, siue 
+      <lb ed="#P" n="64"/>sit substantia, siue accidens. Vnde suo modo, 
+      si<lb ed="#P" n="65" break="no"/>cut vel forma substantialis est eadem, vel subie¬ 
+      <!--101.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>ctum est idem sibi ipsi, ita etiam albedo Sortis est 
+      <lb ed="#P" n="67"/>eadem sibi ipsi. Similitudo autem fundatur super 
+      <lb ed="#P" n="68"/>vnum in qualitate, saluata diuersitate habentium 
+      <lb ed="#P" n="69"/>illam qualitatem, sicut vnum album dicitur 
+      simi<lb ed="#P" n="70" break="no"/>le alteri. Asqualitas autem fundatur super vnum 
+      <lb ed="#P" n="71"/>in quantitate, siue sit quantitas molis, siuc sit 
+      <lb ed="#P" n="72"/>quantitas vittutis: ita tamen quod ibi non sufficit 
+      <lb ed="#P" n="73"/>vnitas secundum speciem: alioquin omnes lineae 
+      <lb ed="#P" n="74"/>essent aequales, &amp; omnia calida essent aequaliter 
+      <lb ed="#P" n="75"/>calida, quod est falsum vnde cum vnitate in 
+      spe<lb ed="#P" n="76" break="no"/>cie oportet quod ista quantitar in aequalibus 
+      parti<lb ed="#P" n="77" break="no"/>cipetur non secundum plus &amp; minus quantum ad 
+      <lb ed="#P" n="78"/>quantitatem molis, nec secundum magis &amp; 
+      mi<lb ed="#P" n="79" break="no"/>nus quatum ad quantitatem virtutis. Et ideo in 
+      <lb ed="#P" n="80"/>creaturis quarum quantitas quaecumque est 
+      fini<lb ed="#P" n="81" break="no"/>ta, inuenitur commensuratio in quantitatibus 
+      ae<lb ed="#P" n="82" break="no"/>qualium. Sed hoc non est de necessitate 
+      aequali<lb ed="#P" n="83" break="no"/>tatis, nisi in habentibus quantitates finitas, in 
+      qui<lb ed="#P" n="84" break="no"/>bus hocde necessitate consequitur, scilicet 
+      com<lb ed="#P" n="85" break="no"/>mensurari: quia formaliter loquendo secundun 
+      <lb ed="#P" n="86"/>Philosophum decimo Metaphysicae. qequale 
+      di<lb ed="#P" n="87" break="no"/>citur secundum priuationem maioris &amp; minoris, 
+      <lb ed="#P" n="88"/>prout igitur inter personas diuinas est vnitas 
+      nu<lb ed="#P" n="89" break="no"/>meralis essentiae, dicitur vna persona essentialiter 
+      <lb ed="#P" n="90"/>eadem alii personae. Prout vero essentia diuina 
+      <lb ed="#P" n="91"/>habet modum qualitatis communis pluribus 
+      sup<lb ed="#P" n="92" break="no"/>positis eam habentibus, dicitur vna persona 
+      simi<lb ed="#P" n="93" break="no"/>lis alteri: ita quod similitudo proprie dicta vltra 
+      <lb ed="#P" n="94"/>identitatem requirit pluralitatem suppositorum, 
+      <lb ed="#P" n="95"/>quod non requirit identitas: sed quodlibet 
+      suppo<lb ed="#P" n="96" break="no"/>situm est idem sibiipsi, non autem simile. Prout 
+      <lb ed="#P" n="97"/>vero essentia diuina in quantum est perfectio 
+      quae<lb ed="#P" n="98" break="no"/>dam est magnitudo virtualis, dicuntur personat 
+      <lb ed="#P" n="99"/>elle aequales in ea, inquantum habent eam sine 
+      <lb ed="#P" n="100"/>maiori &amp; minori, sed cum priuatione maioritatis 
+      <lb ed="#P" n="101"/>&amp; minoritatis, vel maioris &amp; minoris perfectionis, 
+      <lb ed="#P" n="102"/>&amp; sic patet de primo. 
+      </p>
+            <p xml:id="hx2hx3-b33173-d1e237">
+               <lb ed="#P" n="103"/>Secundum ex dictis satis de facili patet: quia 
+      <lb ed="#P" n="104"/>quae habent eandem quantitatem molis vel 
+      virtu<lb ed="#P" n="105" break="no"/>tis, cum priuatione maioritatis &amp; minoritatis, &amp; 
+      <lb ed="#P" n="106"/>cum priuatione maioris &amp; minoris perfectionis 
+      <lb ed="#P" n="107"/>sunt aequalia: personae diuinae sunt huiusmodi. 
+      Er<lb ed="#P" n="108" break="no"/>go, &amp;c. Probatio Minoris: quia quantitas 
+      perfe<lb ed="#P" n="109" break="no"/>ctionis &amp; virtutis personarum diuinarum est 
+      essen<lb ed="#P" n="110" break="no"/>tia diuina: quia vna numero est in tribus personis, 
+      <lb ed="#P" n="111"/>sed vna &amp; eadem numero quantitas non potest esse 
+      <lb ed="#P" n="112"/>maior &amp; minor seipsa. Ergo in eis est quantitas 
+      <lb ed="#P" n="113"/>eadem, siuc magnitudo eadem cum priuatione 
+      <lb ed="#P" n="114"/>maioris &amp; minoris. Illud etiam quod est vna 
+      quae<lb ed="#P" n="115" break="no"/>que persona per essentiam non potest esse magis 
+      <lb ed="#P" n="116"/>&amp; minus participatum: sed magnitudo diuina est 
+      <lb ed="#P" n="117"/>vnaqueque persona per suam essentiam: &amp; sic 
+      pa<lb ed="#P" n="118" break="no"/>tet minor. 
+      </p>
+            <p xml:id="hx2hx3-b33173-d1e274">
+               <lb ed="#P" n="119"/>Ad rationem in oppositum dicendum quod 
+      <lb ed="#P" n="120"/>formale in ratione aequalitatis non est 
+      commensu<lb ed="#P" n="121" break="no"/>ratio, sed vnitas quantitatis cum priuatione 
+      maio<lb ed="#P" n="122" break="no"/>ris &amp; minoris. Licet autem in diuinis personis non 
+      <lb ed="#P" n="123"/>sint quantirates commensurabiles. tum quia non 
+      <lb ed="#P" n="124"/>sunt ibi plures quantitates, tum quia quantitas 
+      <lb ed="#P" n="125"/>vel magnitudo diuina est infinita, tum quia est 
+      <lb ed="#P" n="126"/>prima mensura: tamen ibi vna quantitas virtualis 
+      <lb ed="#P" n="127"/>cum priuatione maioris vel minoris sufficit ad 
+      ra<lb ed="#P" n="128" break="no"/>tionem aequalitatis cum pluralitate suppositorum. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

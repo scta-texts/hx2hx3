@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="180"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b60264"><!-- l1d47q1 -->
+            <head xml:id="hx2hx3-b60264-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b60264-Hd1e101" type="question-title">Utrum id quod est contra voluntatem antecedentem Dei obsequatur voluntati consequenti</head>
+            <p xml:id="hx2hx3-b60264-d1e104">
+               <lb ed="#P" n="40"/>Distinctio <sic>quadragesima tertia</sic>. 
+      <lb ed="#P" n="41"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-b60264-d1e113">
+               <lb ed="#P" n="42"/>CIrca distinctionem <sic>quadragesimam tertiam</sic>. 
+      <lb ed="#P" n="43"/>Quaeritur vtrum id quod est contra 
+      vo<lb ed="#P" n="44" break="no"/>luntatem antecedentem Dei, obsequatur 
+      volun<lb ed="#P" n="45" break="no"/>tati consequenti. 
+      </p>
+            <p xml:id="hx2hx3-b60264-d1e126">
+               <lb ed="#P" n="46"/>Et arguitur quod non: quia illa voluntas cui 
+      <lb ed="#P" n="47"/>obsequitur id quod est contra voluntatem 
+      antece<lb ed="#P" n="48" break="no"/>dentem. Videtur esse contraria voluntati 
+      antece<lb ed="#P" n="49" break="no"/>denti Sed in Deo voluntas consequens non est 
+      <lb ed="#P" n="50"/>contraria voluntati antecedenti. Ergo &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b60264-d1e140">
+               <lb ed="#P" n="51"/>Praeterea quicumque obsequitur voluntati Dei, 
+      <lb ed="#P" n="52"/>meretur Sed ille qui facit contra voluntatem 
+      an<lb ed="#P" n="53" break="no"/>tecedentem non meretur. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b60264-d1e149">
+               <lb ed="#P" n="54"/>In contrarium est Augustinus &amp; Magister in 
+      lit<lb ed="#P" n="55" break="no"/>tera. 
+      </p>
+            <p xml:id="hx2hx3-b60264-d1e156">
+               <lb ed="#P" n="56"/>Respondeo. Dicendum est, quod aliquid 
+      ob<lb ed="#P" n="57" break="no"/>sequi voluntati alicuius, dupliciter est. Vno modo 
+      <lb ed="#P" n="58"/>directe &amp; per se, sicut quando aliquis ex intentione 
+      <lb ed="#P" n="59"/>facit quod credit placere alteri. In agentibus enim 
+      <lb ed="#P" n="60"/>per intellectum &amp; voluntatem id dicitur per se 
+      <lb ed="#P" n="61"/>fieri, quod fit ex intentione agentis. Per accidens 
+      <lb ed="#P" n="62"/>autem quod propter intentionem eius euenit. Isto 
+      <lb ed="#P" n="63"/>modo obsequuntur voluntati diuinae illi qui 
+      inten<lb ed="#P" n="64" break="no"/>dentes placere Deo faciunt bona opera in 
+      obse<lb ed="#P" n="65" break="no"/>quium eius.
+      </p>
+            <p xml:id="hx2hx3-b60264-d1e180">
+      <!--180.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>Alio modo contingit aliquem obsequi 
+      volun<lb ed="#P" n="67" break="no"/>tati alicui per accidens, &amp; praeter intentionem sicut 
+      <lb ed="#P" n="68"/>si aliqui ponerent insidias hostibus, si hostes 
+      po<lb ed="#P" n="69" break="no"/>stea inuenirent medias insidias &amp; debellarent 
+      as<lb ed="#P" n="70" break="no"/>sistentes insidiis: tales per accidens obsequerentur 
+      <lb ed="#P" n="71"/>hostibus, non ex intentione quod intenderent 
+      fa<lb ed="#P" n="72" break="no"/>cere quod placeret eis: sed per accidens quantum 
+      <lb ed="#P" n="73"/>ex facto eorum fit illud quod placuit &amp; fuit 
+      com<lb ed="#P" n="74" break="no"/>modum hostibus. 
+      </p>
+            <p xml:id="hx2hx3-b60264-d1e206">
+               <lb ed="#P" n="75"/>Modo illi qui faciunt contra voluntatem 
+      anteceden<lb ed="#P" n="76" break="no"/>tem sunt mali, qui faciunt contra Dei praecepta 
+      ob<lb ed="#P" n="77" break="no"/>sequuntur per accidens voluntati Dei consequenti 
+      <lb ed="#P" n="78"/>Quod enim Deus vult quosdam damnare per 
+      iusti<lb ed="#P" n="79" break="no"/>tiam, &amp; quosdam saluare per misericordiam, mali 
+      pec<lb ed="#P" n="80" break="no"/>cantes dicuntur obsequi voluntati consequenti 
+      in<lb ed="#P" n="81" break="no"/>quantum reddunt se dignos eo, quod Deus vult eis 
+      <lb ed="#P" n="82"/>inferre scilicet damnationem: ita quod potest sic 
+      <lb ed="#P" n="83"/>formari ratio. llle obsequitur voluntati diuinae qui 
+      <lb ed="#P" n="84"/>facit illud de quo voluntas Dei impletur. Sed 
+      pec<lb ed="#P" n="85" break="no"/>cans est huiusmodi: quia facit peccatum. De quo 
+      <lb ed="#P" n="86"/>ordinando per poenam, fit voluntas Dei. Hoc 
+      ta<lb ed="#P" n="87" break="no"/>men est praeter intentionem peccantis, qui suam 
+      <lb ed="#P" n="88"/>culpam nollet ordinari per poenam. 
+      </p>
+            <p xml:id="hx2hx3-b60264-d1e239">
+               <lb ed="#P" n="89"/>Ad primum ergo in oppositum, dicendum est. 
+      <lb ed="#P" n="90"/>quod licet illud quod est contra voluntatem 
+      ante<lb ed="#P" n="91" break="no"/>cedentem obsequatur voluntati consequenti, non 
+      <lb ed="#P" n="92"/>tamen sequitur quod voluntas consequens sit 
+      con<lb ed="#P" n="93" break="no"/>traria antecedenti: quia velle voluntatis antecedenti 
+      <lb ed="#P" n="94"/>non est velle simpliciter: sed subconditione: velle 
+      <lb ed="#P" n="95"/>autem aliquid sub conditione aliqua, qua stante illud 
+      <lb ed="#P" n="96"/>amatur, &amp; tamen simpliciter nolle illud quando 
+      <lb ed="#P" n="97"/>conditio non stat, non repugat. Sicut si volote ire 
+      <lb ed="#P" n="98"/>ad forum si non pluat, &amp; pluuia existente 
+      simpli<lb ed="#P" n="99" break="no"/>citer nolo te ire ad forum non repugnat. 
+      </p>
+            <p xml:id="hx2hx3-b60264-d1e266">
+               <lb ed="#P" n="100"/>Et sic est in proposito nam quod Deus velit 
+      or<lb ed="#P" n="101" break="no"/>dinare aliquem ad vitam aeternam per praeceptum, 
+      <lb ed="#P" n="102"/>&amp; velit ei dare vitam eternam si impleuerit quod 
+      <lb ed="#P" n="103"/>praecipitur: stat bene cum hoc quod nolit ei, non 
+      <lb ed="#P" n="104"/>facienti quod praecipitur vitam aeternam. 
+      </p>
+            <p xml:id="hx2hx3-b60264-d1e279">
+               <lb ed="#P" n="105"/>Ad secundum dicendum est, quod ille qui 
+      ob<lb ed="#P" n="106" break="no"/>sequitur Deo per se ex intentione meretur. Sic 
+      <lb ed="#P" n="107"/>autem non obsequuntur mali, licet illi 
+      obsequun<lb ed="#P" n="108" break="no"/>tur Deo per accidens, &amp; praeter intentionem suam 
+      <lb ed="#P" n="109"/>non merentur. Quia quantum, in eis est, faciunt 
+      <lb ed="#P" n="110"/>contra Dei voluntatem: &amp; sic obsequuntur mali. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="174"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b58284"><!-- l1d46q1 -->
+            <head xml:id="hx2hx3-b58284-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b58284-Hd1e101" type="question-title">Utrum deus agat res per voluntatem</head>
+            <p xml:id="hx2hx3-b58284-d1e104">
+               <lb ed="#P" n="77"/>HIc icoritur: questio dictum est enim superius 
+      <lb ed="#P" n="78"/>
+               <!-- line coord error -->
+               <lb ed="#P" n="79"/>&amp; auctoritatibus communitum, &amp;c. 
+      <lb ed="#P" n="80"/>Distinctio <sic>quadragesima secunda</sic>. 
+      <lb ed="#P" n="81"/>QVAAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e122">
+               <lb ed="#P" n="82"/>CIrca distinctionem <sic>quadragesimam secundam</sic>. 
+      <lb ed="#P" n="83"/>Quaeritur vtrum Deus agat res per 
+      volun<lb ed="#P" n="84" break="no"/>tatem. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e133">
+               <lb ed="#P" n="85"/>Et arguitur quod non. Quia illud in quo non 
+      <lb ed="#P" n="86"/>est voluntas non agit per voluntatem. Sed Deus 
+      <lb ed="#P" n="87"/>est huiusmodi. Ergo, &amp;c. Probo minorem. Quia 
+      <lb ed="#P" n="88"/>vbi non est obiectum voluntatis, nec voluntas. Sed 
+      <lb ed="#P" n="89"/>in Deo non est obiectum voluntatis. Frgo, &amp;c. 
+      <lb ed="#P" n="90"/>Adhuc probatio minoris persimile. Quia 
+      obie<lb ed="#P" n="91" break="no"/>ctum voluntatis est finis. Sed Dei non est aliquis 
+      <lb ed="#P" n="92"/>finis: quia non est ad finem: sed est finis 
+      omnium<lb ed="#P" n="93" break="no"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e156">
+               <lb ed="#P" n="94"/>Praeterea qui facit aliquid per voluntatem vult 
+      <lb ed="#P" n="95"/>illi illud bonum quod facit in eo, &amp; per 
+      conse<lb ed="#P" n="96" break="no"/>quens amat ipsam. Sed Deus non amat res alias a 
+      <lb ed="#P" n="97"/>se. Ergo non facit eas per voluntatem. Quia 
+      om<lb ed="#P" n="98" break="no"/>ne quod amatur. Vel amatur vt finis, vel amatur 
+      <lb ed="#P" n="99"/>vt medium assequendi finem. Sed nutro modo 
+      <lb ed="#P" n="100"/>conuenit Deo amare aliud cum non fit finis eius, 
+      <lb ed="#P" n="101"/>nec in digeat eis vt medio assequendi suam 
+      honi<lb ed="#P" n="102" break="no"/>tatem. Ergo, &amp;c, 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e178">
+               <lb ed="#P" n="103"/>Sed contrarium est veritas: &amp; Magister in 
+        litte<!-- missin line break -->ra
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e185">
+               <lb ed="#P" n="104"/>Respondeo. Hic declaranda sunt quatuor. 
+      <lb ed="#P" n="105"/>Primo, ostendendum est quod in Deo elt 
+      vo<lb ed="#P" n="106" break="no"/>luntas. 
+      <lb ed="#P" n="107"/>Secundo, quod diligat alia a se. 
+      <lb ed="#P" n="108"/>Tertio, quomodo causalitas attribuitur eius 
+      <lb ed="#P" n="109"/>voluntati. 
+      <lb ed="#P" n="110"/>Quarto, quid imediatius se habet ad effectum, 
+      <lb ed="#P" n="111"/>vtrum scilicet voluntas, vel intellectus, siue ipsat 
+      <lb ed="#P" n="112"/>idea. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e207">
+               <lb ed="#P" n="113"/>ARTICVLVS PRIMVS 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e212">
+               <lb ed="#P" n="114"/>QVantum ad primum. Primo sciendum est, 
+      <lb ed="#P" n="115"/>Squod omnis res quaecumque sit illa, habet 
+      <lb ed="#P" n="116"/>aliqua, vel nata est habere, quaesunt ei 
+      conuenien<lb ed="#P" n="117" break="no"/>tia &amp; bona. Sicut homo habet visum 
+      corpora<lb ed="#P" n="118" break="no"/>lem, &amp; ignis calorem &amp; sic de aliis. Et ad talia 
+      con<lb ed="#P" n="119" break="no"/>uenientia assequenda quando non habentur habet 
+      <lb ed="#P" n="120"/>vnaquaeque res inclinationem per quam 
+      inten<lb ed="#P" n="121" break="no"/>dit in ea: &amp; quando habentur ea, quiescunt in 
+      <lb ed="#P" n="122"/>eis. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e234">
+               <lb ed="#P" n="123"/>vlterius sciendum est, quod quaedam sunt quae 
+      <lb ed="#P" n="124"/>de talibus sibi conuenientibus non habent 
+      cogni<lb ed="#P" n="125" break="no"/>tionem sicut ignis non cognoscit calorem: nec 
+      ma<lb ed="#P" n="126" break="no"/>teria formam: &amp; inclinatio talium in talia sibi 
+      <lb ed="#P" n="127"/>conuenientia, vocatur appetitus naturalis. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e248">
+               <lb ed="#P" n="128"/>Alia vero sunt quae habent appetitum 
+      natura<lb ed="#P" n="129" break="no"/>lem qui est inelinatio naturalis. nullam 
+      cognitio<lb ed="#P" n="130" break="no"/>nem requirens in eo in quo est: sed etiam cum hoc 
+      <lb ed="#P" n="131"/>habent appetitum qui est inclinatio consequens 
+      <lb ed="#P" n="132"/>cognitionem appetentis: ita quod non solum 
+      re<lb ed="#P" n="133" break="no"/>quiritur quod sit bonum ad hoc quod talis 
+      incli<lb ed="#P" n="134" break="no"/>natio tendat in ipsum: imo cum hoc oportet quod 
+      <!--175.xml-->
+      <pb ed="#P" n="175"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sit in sua bonitate apprehensum. Et horum sunt 
+      <lb ed="#P" n="2"/>duo genera: nam quaedam habent cognitionem 
+      <lb ed="#P" n="3"/>sensitiuuam quae exercetur per organum 
+      corpora<lb ed="#P" n="4" break="no"/>le: sicut bruta. Et eorum inclinatio secundum 
+      <lb ed="#P" n="5"/>quod talia, vocatur appetitus sensitiuus: qui 
+      prae<lb ed="#P" n="6" break="no"/>exigit cognitionem ser sitiuam. Alia vero sunt 
+      <lb ed="#P" n="7"/>quae habent cognitionem intellectiuam quae ab 
+      <lb ed="#P" n="8"/>omnt conditione materiali &amp; corporali abstrahit 
+      <lb ed="#P" n="9"/>Et inclinatio consequens talem apprehensionem, 
+      <lb ed="#P" n="10"/>vocatur appetitus iutellectualis, siue voluntas. Ex 
+      <lb ed="#P" n="11"/>hoc, saciliter ostenditur quod in Deo sit 
+      volun<lb ed="#P" n="12" break="no"/>tas. Quia in quocumque est cognitio intellectiua, 
+      <lb ed="#P" n="13"/>idest, inclinatio in bonum cognitum per 
+      intelle<lb ed="#P" n="14" break="no"/>ctum, per quem in bonum tendit non habitum, vt 
+      <lb ed="#P" n="15"/>quiescat: &amp; delectetur in bono habito: siue illa 
+      <lb ed="#P" n="16"/>inclinatio differat &amp; consequatur secundum rem 
+      <lb ed="#P" n="17"/>ad cognitionem, siue secundum rationem. Sed 
+      <lb ed="#P" n="18"/>in Deo est cognitio in ellectiua. Ergo est in eo 
+      ta<lb ed="#P" n="19" break="no"/>lis inclinatio, vel potius firma &amp; immobilis 
+      adhae<lb ed="#P" n="20" break="no"/>sio bono habito sic cognito. Sed talis inclinatio 
+      <lb ed="#P" n="21"/>vel adhaesio vocatur voluntas. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e318">
+               <lb ed="#P" n="22"/>ARTICVLVS SECVNDVS.
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e323">
+               <lb ed="#P" n="23"/>QVantum ad secundum faciliter ostenditur. 
+      <lb ed="#P" n="24"/>Quia est quod scilicet Deus diligat omnia 
+      <lb ed="#P" n="25"/>alia, &amp; a se. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e332">
+               <lb ed="#P" n="26"/>Quia omne agens per intellectum &amp; 
+      volunta<lb ed="#P" n="27" break="no"/>tem vult effectui suo illud bonum quod facit in eo. 
+      <lb ed="#P" n="28"/>Sed Deus agens per voluntatem &amp; intellectum, 
+      <lb ed="#P" n="29"/>facit mediate vel immediate omne quod est in 
+      <lb ed="#P" n="30"/>quacumque creatura. Ergo omni creaturae, vult 
+      <lb ed="#P" n="31"/>aliquod binum. Sed velle bonum alicui, est 
+      ama<lb ed="#P" n="32" break="no"/>re ipsum. Ergo ipse amat omnem creaturam. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e350">
+               <lb ed="#P" n="33"/>Sed decentia huius, scilicet quod Deum 
+      ama<lb ed="#P" n="34" break="no"/>re alia sit decens &amp; conueniens, potest ostendi 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e357">
+               <lb ed="#P" n="35"/>Primo distinguendo de amare: quia aliquis 
+      po<lb ed="#P" n="36" break="no"/>test amare aliud a se dupliciter. Vno modo 
+      pro<lb ed="#P" n="37" break="no"/>pter proprium commodum, quia scilicet aliquid 
+      <lb ed="#P" n="38"/>boni acquiritur sibi per illud. Alio modo 
+      conue<lb ed="#P" n="39" break="no"/>nit aliquem amare aliud a se, non propter 
+      com<lb ed="#P" n="40" break="no"/>modum suum: sed propter commodum illius quod 
+      <lb ed="#P" n="41"/>amat, &amp; propter abundantiam bonitatis suae: vt 
+      <lb ed="#P" n="42"/>scilicet bonitas sua cui nihil potest praeexistere, 
+      re<lb ed="#P" n="43" break="no"/>luceat in alium. Sicut ille, qui vult benefacere 
+      <lb ed="#P" n="44"/>alteri ex abundanti bonitate sua, a quo nihil 
+      in<lb ed="#P" n="45" break="no"/>tendit. Primo modo, nec decet nec potest esse 
+      <lb ed="#P" n="46"/>quod Deus dilig at alia a se. Quia ille qui habet 
+      <lb ed="#P" n="47"/>infinitam bonitatem ex se, in nullo ab alio 
+      depen<lb ed="#P" n="48" break="no"/>dentem: nec quantum ad esse, nec quantum ad 
+      be<lb ed="#P" n="49" break="no"/>ne esse: non diligit alia a se propter commodum 
+      <lb ed="#P" n="50"/>suum: cum ab aliis nullum commodum possit sibi 
+      <lb ed="#P" n="51"/>accrescere. Sed Deus est huiusmodi. Ergo, 
+      <lb ed="#P" n="52"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e400">
+               <lb ed="#P" n="53"/>Secundo modo decens est Ieum alia a se 
+      dili<lb ed="#P" n="54" break="no"/>gere. Quia illum cuius bonitas est infinita, &amp; cui 
+      <lb ed="#P" n="55"/>nihil deperit ex conmunicatione illius bonitatis 
+      fa<lb ed="#P" n="56" break="no"/>cta aliis, decet velle bonum aliis. Quia hoc 
+      pro<lb ed="#P" n="57" break="no"/>uenit ex abundantia bonitatis suae. Sed Deus est 
+      <lb ed="#P" n="58"/>huiusmodi. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e416">
+               <lb ed="#P" n="59"/>Notandum tamen est, quod non ita est 
+      intel<lb ed="#P" n="60" break="no"/>figendum, quod sic amare alia deceat Deum: 
+      <lb ed="#P" n="61"/>quod eius decentia sine hoc non possit esse. Quia 
+      <lb ed="#P" n="62"/>si nullam creaturam vellet esse: sua decentia 
+      nia<lb ed="#P" n="63" break="no"/>neret sine diminutione aliqua. Sed ita decet 
+      ip<lb ed="#P" n="64" break="no"/>sum quod non repugnat sibi oppositum. Sicut 
+      <lb ed="#P" n="65"/>salua decentia alicuius potest ite in equo, albo vel 
+      <lb ed="#P" n="66"/>nigro.
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e436">
+      <!--175.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>ARIICVLVS TERIIVS.
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e445">
+               <lb ed="#P" n="68"/>Qvantum ad tertium. Primo videndum est, 
+      <lb ed="#P" n="69"/>quando voluntas se habet in nobis ad 
+      agen<lb ed="#P" n="70" break="no"/>dum. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e454">
+               <lb ed="#P" n="71"/>Ad cuius euidentiam, sciendum est quod 
+      quue<lb ed="#P" n="72" break="no"/>dam sunt agentia quorum potentia actiua est 
+      ne<lb ed="#P" n="73" break="no"/>cessario &amp; ex se formaliter loquendo determina. 
+      <lb ed="#P" n="74"/>ta ad agendum, ita quod quantum est ex se, non 
+      <lb ed="#P" n="75"/>potest non agere nisi aliunde impediatur: sicut 
+      <lb ed="#P" n="76"/>ignis quantum est ex se, dummodo habeat 
+      prae<lb ed="#P" n="77" break="no"/>sens passiuum conueniens, est necessario deter. 
+      <lb ed="#P" n="78"/>minatus ad calefaciendum per calorem. Et tales 
+      <lb ed="#P" n="79"/>sunt potentiae actiuae naturales, quae nullam 
+      co<lb ed="#P" n="80" break="no"/>gnitionem vel appetitum sequentem cognitionem 
+      <lb ed="#P" n="81"/>consequuntui in actionibus suis: sicut patet 
+      deca<lb ed="#P" n="82" break="no"/>lore. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e483">
+               <lb ed="#P" n="83"/>Alia sunt agentia, quorum potentiae non sic 
+      <lb ed="#P" n="84"/>sunt necessario determinatae ad agendum: sicut 
+      <lb ed="#P" n="85"/>etiam patet in instrumentis agentium per artem. 
+      <lb ed="#P" n="86"/>Vnde durities securis cum sua acutie, non sufficit 
+      <lb ed="#P" n="87"/>ad agendum nisi ab aliquo moueatur &amp; 
+      determi<lb ed="#P" n="88" break="no"/>netur per talem motioncm, ad secandum. Sicut 
+      <lb ed="#P" n="89"/>etiam est in potentia executiua, in agen e per 
+      vo<lb ed="#P" n="90" break="no"/>luntatem, quae non est determinata ad agendum 
+      <lb ed="#P" n="91"/>nisi per voluntatem impellentem ad agendum: ita 
+      <lb ed="#P" n="92"/>quod in agente per voluntatem &amp; intellectum, 
+      <lb ed="#P" n="93"/>completa determinatio ad agendum, est per 
+      volun<lb ed="#P" n="94" break="no"/>tatem. Et sic patet quod in agente per voluntatem, 
+      <lb ed="#P" n="95"/>&amp; intellectum: non est dare nisi intellectum, &amp; 
+      vo<lb ed="#P" n="96" break="no"/>luntatem, &amp; potentiam executiuam. Si tamen 
+      o<lb ed="#P" n="97" break="no"/>porteat ponere in omnino separatis a materia 
+      po<lb ed="#P" n="98" break="no"/>tentiam executiuam aliam a voluntate. Modo in 
+      <lb ed="#P" n="99"/>talibus non potest esse determinatio ad 
+      agen<lb ed="#P" n="100" break="no"/>dum, a potentia executiua. Quia agens. per 
+      po<lb ed="#P" n="101" break="no"/>tentiam quae ex natura sua, &amp; seipsa, est 
+      necessa<lb ed="#P" n="102" break="no"/>rio determinata ad agendum &amp; non ab aliquo 
+      im<lb ed="#P" n="103" break="no"/>pulsu voluntatis, non est agens per voluntate 
+      in<lb ed="#P" n="104" break="no"/>quantum huiusmodi. Quia actio talis potentiae prae 
+      <lb ed="#P" n="105"/>uenit voluntatem. Sed agens per voluntatem 
+      di<lb ed="#P" n="106" break="no"/>citur etiam agere per potentiam executiuam. 
+      Ei<lb ed="#P" n="107" break="no"/>go in agente per intellectum &amp; voluntatem: 
+      de<lb ed="#P" n="108" break="no"/>terminatio ad agendum non est per potentiam 
+      <lb ed="#P" n="109"/>executiuam. In talibus etiam determinatio ad 
+      a<lb ed="#P" n="110" break="no"/>gendum non habetur per intellectum complete: 
+      <lb ed="#P" n="111"/>sed magis per voluntatem. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e549">
+               <lb ed="#P" n="112"/>Ad cuius euidentiam, sciendum est quod 
+      in<lb ed="#P" n="113" break="no"/>fellectus duplex iudicium potest habere de 
+      opera<lb ed="#P" n="114" break="no"/>bili. Vnum iudicium est quid sit illud operabile, 
+      <lb ed="#P" n="115"/>&amp; cuius naturae sit: vt quid est sanitas, vel quid est 
+      <lb ed="#P" n="116"/>infirmitas. Et illud iudicium non determinat ad 
+      <lb ed="#P" n="117"/>agendum: quia secundum hoc, intellectus se 
+      ha<lb ed="#P" n="118" break="no"/>bet ad opposita. Non dico ad oppositas 
+      intelle<lb ed="#P" n="119" break="no"/>ctiones, sed ad opposita intellecta, puta ad 
+      iani<lb ed="#P" n="120" break="no"/>tatem, &amp; egritudinem: ita scit medicus per artem 
+      <lb ed="#P" n="121"/>medicinae naturam aegritudinis sicut naturam 
+      sa<lb ed="#P" n="122" break="no"/>nitatis. Et propter hoc dicit Philosophos 1x. 
+      Me<lb ed="#P" n="123" break="no"/>taph. quod quia scientia est oppositorum, &amp; 
+      op<lb ed="#P" n="124" break="no"/>posita simul hieri elt impossibile: ideo oportet 
+      pre<lb ed="#P" n="125" break="no"/>ter scientiam talem, ponere aliquod determinans. 
+      <lb ed="#P" n="126"/>Vnde per scire quid sanitas, vel quid aegritudo: 
+      <lb ed="#P" n="127"/>nullo plus habitudo nunquam operabitur 
+      medi<lb ed="#P" n="128" break="no"/>cus. Aliud est iudicium intellectus, quo aliquis 
+      <lb ed="#P" n="129"/>sudicat aliquid sibi bonum ad persequendum. 
+      Si<lb ed="#P" n="130" break="no"/>cut homo famescens, iudicat quod bonum esset 
+      <lb ed="#P" n="131"/>sibi habere ad comedendum, &amp; procurare 
+      comne<lb ed="#P" n="132" break="no"/>stionem. Et istud iudicium est determinatum ad 
+      <lb ed="#P" n="133"/>agendum, determinando voluntatem ad 
+      volen<lb ed="#P" n="134" break="no"/>dum.
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e601">
+      <!--176.xml-->
+               <pb ed="#P" n="176"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Est autem sciendum, quod illud iudicium est 
+      <lb ed="#P" n="2"/>quasi medium inter dispositionem appetitus &amp; vo. 
+      <lb ed="#P" n="3"/>luntatem, &amp; actum eius. Nam tale iudicium 
+      de<lb ed="#P" n="4" break="no"/>endet ex conformitate appetitus ad rem 
+      appeti<lb ed="#P" n="5" break="no"/>bilem. Vnde vnicuique est appetibile, quod est ei 
+      <lb ed="#P" n="6"/>conforme secundum appetitum. Vnde quia 
+      con<lb ed="#P" n="7" break="no"/>forme &amp; conueniens est appetitui &amp; naturae meae, 
+      <lb ed="#P" n="8"/>vt quando famelco, comedam. Ideo sic mihi 
+      dis<lb ed="#P" n="9" break="no"/>posito, apparet quod bonum est comedere. Et 
+      si<lb ed="#P" n="10" break="no"/>mile est de aliis, quae quis, iudicat sibi bona ad 
+      <lb ed="#P" n="11"/>prosequendum, vel etiam ad agendum, vel com 
+      <lb ed="#P" n="12"/>municandum Et ad istud autem iudicium, 
+      sequi<lb ed="#P" n="13" break="no"/>tur electio voluntatis, qua determinate vult illud 
+      <lb ed="#P" n="14"/>prosequi. Et in hoc completur perfecta &amp; deter, 
+      <lb ed="#P" n="15"/>minata causalitas agentis per intellectum &amp; 
+      vo<lb ed="#P" n="16" break="no"/>liintatem. Nam quando est per intellectum, &amp; 
+      <lb ed="#P" n="17"/>voluntatem perfecta electio alicuius prolequendt, 
+      <lb ed="#P" n="18"/>statim sequitur actio ad prosequendum, nisi aliud 
+      <lb ed="#P" n="19"/>impediat. Et propter hoc dicit Philosophus o. 
+      <lb ed="#P" n="20"/>Metaphysicorum, quod volens &amp; potens 
+      necessa<lb ed="#P" n="21" break="no"/>rio openatur. Quia igitur talis determinatio 
+      inci<lb ed="#P" n="22" break="no"/>pit a voluntate, &amp; terminatur in voluntate: quia 
+      <lb ed="#P" n="23"/>incipit a conformitate. voluntatis ad rem 
+      prose<lb ed="#P" n="24" break="no"/>quendam a qua conformitate habet ortum 
+      iudi<lb ed="#P" n="25" break="no"/>cium quo id iudicatur esse persequendum, etiam 
+      <lb ed="#P" n="26"/>terminatur in voluntate eligente prosequi id 
+      <lb ed="#P" n="27"/>quod est iudicatum. Quia completa 
+      determina<lb ed="#P" n="28" break="no"/>tione, vel electione habita, habetur peifecta cau 
+      <lb ed="#P" n="29"/>salitas in agente per voluntatem, &amp; intellectum, 
+      <lb ed="#P" n="30"/>Ideo praedicta causalitas magis attribuitur 
+      volun<lb ed="#P" n="31" break="no"/>tati, quam aliis. Ista autem conformitas appetitus 
+      <lb ed="#P" n="32"/>ad rem prosequendam vel potest esse ex natura. 
+      <lb ed="#P" n="33"/>Sicut conforme est temperato quod sit castus, siue 
+      <lb ed="#P" n="34"/>caste viuere: vel ex passione, sicut conforme est 
+      ira<lb ed="#P" n="35" break="no"/>to vindicare. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e686">
+               <lb ed="#P" n="36"/>Ex his patet, quare causa effectiua rerum 
+      attri<lb ed="#P" n="37" break="no"/>buitur voluntati diuinae plusquam aliis, puta 
+      po<lb ed="#P" n="38" break="no"/>tentiae executiuae, vel intellectui, que ponimus in 
+      <lb ed="#P" n="39"/>Deo quasi quaedam plura secundum modum 
+      no<lb ed="#P" n="40" break="no"/>strum intelligendi. Quia in agente per 
+      intelle<lb ed="#P" n="41" break="no"/>ctum, plena causalitas &amp; plena determinatio ad 
+      <lb ed="#P" n="42"/>agendum, qua posita necessario sequitur effectus, 
+      <lb ed="#P" n="43"/>attribuitur voluntati. Sed Deus est agens per 
+      in<lb ed="#P" n="44" break="no"/>tellectum. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e708">
+               <lb ed="#P" n="45"/>Notandum tamen est quod licet ea quae fiunt 
+      <lb ed="#P" n="46"/>exterius, a nobis fiant a voluntate, mediante 
+      ali<lb ed="#P" n="47" break="no"/>qua potentia executiua: tamen non oporter 
+      po<lb ed="#P" n="48" break="no"/>nere aliquid extra voluntatem immediate, siue in 
+      <lb ed="#P" n="49"/>fantasia, siue in organo virtutis executiuae: ita quod 
+      <lb ed="#P" n="50"/>re pectu illius effectus voluntatis non habet 
+      po<lb ed="#P" n="51" break="no"/>tentiam executiuam mediam: imo sicut ad 
+      calo<lb ed="#P" n="52" break="no"/>rem qui manet intra calefacientem, sequitur 
+      im<lb ed="#P" n="53" break="no"/>mediate calefacere: ita ad velle mouere, 
+      quod<lb ed="#P" n="54" break="no"/>quidem velle manet intra, sequitur immediate 
+      a<lb ed="#P" n="55" break="no"/>liquod mouere quo immediate aliquid extra vo 
+      <lb ed="#P" n="56"/>luntatem moueatur a voluntate, quicquid sit illud. 
+      <lb ed="#P" n="57"/>Sed respectu effectuum exteriorum sicut est 
+      mo<lb ed="#P" n="58" break="no"/>uere lapides, vel aliquid tale habet potentiam 
+      ex<lb ed="#P" n="59" break="no"/>ecutiuam mediam. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e743">
+               <lb ed="#P" n="60"/>ARTICVLVS QVARIVS.
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e748">
+               <lb ed="#P" n="61"/>QVantum ad quartum, scilicet 
+      quidim<lb ed="#P" n="62" break="no"/>Nmediatius respicit essectum, scilicet 
+      <lb ed="#P" n="63"/>exemplar, siue idaea, siue voluntas. Dicunt 
+      qui<lb ed="#P" n="64" break="no"/>dam, quod idaea immediatius se habet. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e760">
+               <lb ed="#P" n="65"/>Ad cuius euidentiam, sciendum est quod 
+      du<lb ed="#P" n="66" break="no"/>plex est exemplar, siue dupliciter potest se habere 
+      <lb ed="#P" n="67"/>exemplar. Vno modo vt visum, sicut si aliquis 
+      vi<lb ed="#P" n="68" break="no"/>deat nnaginem aliquam, &amp; vt facsiuam: sicut si 
+      <!--176.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>aliquis vtatur sigillo non vt viso, sed vt instrua 
+      <lb ed="#P" n="70"/>monto quo vult figurare ceram. Exemplar 
+      acce<lb ed="#P" n="71" break="no"/>ptum vt visum, non se habet immediatius ad 
+      ef<lb ed="#P" n="72" break="no"/>fectum exteriorem, quam voluntas. Quia 
+      excm<lb ed="#P" n="73" break="no"/>plar tale, prius facit suam similitudinem in aliquo 
+      <lb ed="#P" n="74"/>oog noscente: &amp; postea ille cognoscens per 
+      intel<lb ed="#P" n="75" break="no"/>lectum &amp; voluntatem, facit effectum exteriorem. 
+      <lb ed="#P" n="76"/>Puta imago quam ego video, prius facit in me 
+      <lb ed="#P" n="77"/>suam similitudinem: postea ergo per intellectum 
+      <lb ed="#P" n="78"/>&amp; voluntatem, facio effectum exteriorem. Sed 
+      <lb ed="#P" n="79"/>exemplar factiuum, sicut est exemplar existens in 
+      <lb ed="#P" n="80"/>mente artificis, est immediatius effectui quam 
+      vo<lb ed="#P" n="81" break="no"/>luntas, siue ipsum velle. Et hoc probant tali 
+      ratio<lb ed="#P" n="82" break="no"/>ne. Quia si tale exemplar non immediate 
+      impri<lb ed="#P" n="83" break="no"/>meret suam similitudinem effectui: sed hoc 
+      face<lb ed="#P" n="84" break="no"/>ret mediante quodam alio, puta mediante 
+      <lb ed="#P" n="85"/>voluntate, oporteret quod prius imprimeret 
+      <lb ed="#P" n="86"/>suam similitudinem illi alii quam effectui 
+      exterio<lb ed="#P" n="87" break="no"/>ri, sicut patet de imagine visa, quae prius 
+      impri<lb ed="#P" n="88" break="no"/>mit suam similitudinem ipsi videnti, quam videns 
+      <lb ed="#P" n="89"/>imprimat materiae exteriori. Sed exemplar 
+      artifi<lb ed="#P" n="90" break="no"/>cis non potest imprimere similitudinem suam 
+      vo<lb ed="#P" n="91" break="no"/>luntati: quia voluntas non est capax talis impres. 
+      <lb ed="#P" n="92"/>sionis. Ergo exemplar existens in mente artificis, 
+      <lb ed="#P" n="93"/>immediate imprimit suam similitudinem effectui 
+      <lb ed="#P" n="94"/>exteriori: imo potius voluntas imprimit mediante 
+      <lb ed="#P" n="95"/>exemplari, sicut etiam mediante sigillo in quo est 
+      <lb ed="#P" n="96"/>figura mouens sigillum, imprimit caerae eius 
+      simili<lb ed="#P" n="97" break="no"/>tudinem. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e838">
+               <lb ed="#P" n="98"/>lstud autem, vt mihi videtur quantum ad 
+      v<lb ed="#P" n="99" break="no"/>trumque acceptum, est falsum. Quia deberent 
+      di<lb ed="#P" n="100" break="no"/>cere econuerso, quod exemplar visum imprimit 
+      <lb ed="#P" n="101"/>suam similitudinem immediate alicui diuerso ab 
+      <lb ed="#P" n="102"/>eo, saltem ipsi videnti: &amp; hoc est planum: 
+      <lb ed="#P" n="103"/>licet immediate non imprimat effectui 
+      fa<lb ed="#P" n="104" break="no"/>cto a vidente. Sed exemplar existens in mente 
+      <lb ed="#P" n="105"/>artificis, non immediate imprimit suam 
+      similitu<lb ed="#P" n="106" break="no"/>dinem effectui exteriori: imo mediante voluntate 
+      <lb ed="#P" n="107"/>quam mouet. Et hoc sic patet. Quia in 
+      mouenti<lb ed="#P" n="108" break="no"/>bus &amp; motis talis est ordo: quod quanto aliquid 
+      <lb ed="#P" n="109"/>est posterius motum, tanto se habet immediatius 
+      <lb ed="#P" n="110"/>vltimo esse actui. Sicut in motione lapidis per 
+      bac<lb ed="#P" n="111" break="no"/>culum, baculus qui est posterius motus, quam 
+      bra<lb ed="#P" n="112" break="no"/>chium, immediatius se habet ad motum lapidis. 
+      <lb ed="#P" n="113"/>Sed in motione qua aliquid fit per intellectum, 
+      <lb ed="#P" n="114"/>&amp; voluntatem: voluntas se habet vt posterius 
+      mo<lb ed="#P" n="115" break="no"/>ta respectu intellectus habentis exemplar ipsius 
+      <lb ed="#P" n="116"/>factibilis: prius est enim intellectum concipero 
+      <lb ed="#P" n="117"/>naturam ipsius fictibilis: &amp; postea 
+      sequi<lb ed="#P" n="118" break="no"/>tur iudicium quo iudicatur quod bonum est hoc 
+      <lb ed="#P" n="119"/>facere: &amp; postremo quantum ad motionem 
+      exi<lb ed="#P" n="120" break="no"/>stentem in artifice, est electio voluntatis qua vult 
+      <lb ed="#P" n="121"/>illud prosequi: &amp; ad hanc statim sequitur motio 
+      <lb ed="#P" n="122"/>in aliis immediate. Ergo voluntas immediatius se 
+      <lb ed="#P" n="123"/>habet ad effectum exteriorem quam exemplar 
+      <lb ed="#P" n="124"/>existens apud intellectum. Imaginatio enim qua 
+      <lb ed="#P" n="125"/>imaginamur, quod voluntas impellat intellectum 
+      <lb ed="#P" n="126"/>ad imprimendum suam similitudinem rei 
+      exterio<lb ed="#P" n="127" break="no"/>ri, sicut facit impellens sigillum: est falsa &amp; 
+      val<lb ed="#P" n="128" break="no"/>de rudis. Quia voluntas mouens intellectum ad 
+      <lb ed="#P" n="129"/>exercitium actus, non potest mouere ipsum imme¬. 
+      <lb ed="#P" n="130"/>diate nisi ad suum actum, scilicet ad exercendum 
+      <lb ed="#P" n="131"/>actum intelligendi: voluntas autem mota ab 
+      intel<lb ed="#P" n="132" break="no"/>lectu artificis non potest mouere artificem ad 
+      co<lb ed="#P" n="133" break="no"/>sidetationem illius cuius est exemplar pet quam 
+      <lb ed="#P" n="134"/>practice iudicans dicitur agere: quia illa cognitio 
+      <lb ed="#P" n="135"/>praecedit motionem voluntatis: &amp; ideo falso 
+      ima<lb ed="#P" n="136" break="no"/>ginatur. Secus est de exteriori impressiuo, sicut est 
+      <lb ed="#P" n="137"/>figillum: quod potest moueri a voluntate, vel ab 
+      <lb ed="#P" n="138"/>aliquo moto ab ea.
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e929">
+      <!--177.xml-->
+               <pb ed="#P" n="177"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Ad rationem eorum facile est respondere. 
+      <lb ed="#P" n="2"/>quia non oportet quod omne illud mediante quo 
+      <lb ed="#P" n="3"/>cx emplar arti scis imprimit suam similitudinem 
+      <lb ed="#P" n="4"/>essectui exteriori, recipiat similitudinem illius 
+      exen<lb ed="#P" n="5" break="no"/>plaris: vel sit capax talis similitudinis: nisi forte, vt 
+      <lb ed="#P" n="6"/>quidam dicunt, habeat illud intentionaliter: sed sufficit 
+      <lb ed="#P" n="7"/>quod moueatur aliquo modo ab inrellectu 
+      haben<lb ed="#P" n="8" break="no"/>te tale exemplar sicut paret de instrumento 
+      me<lb ed="#P" n="9" break="no"/>diante quo artifer impfimit effectui similitudinem 
+      <lb ed="#P" n="10"/>suae ideae. Nec tamen oportet quod imprimatur 
+      <lb ed="#P" n="11"/>instrumento: sed sufficit quod moueatur ab eo vt 
+      <lb ed="#P" n="12"/>instrumentum non similiter participans formam: 
+      <lb ed="#P" n="13"/>sacut cffectus intentus principalirer. Et primo non 
+      <lb ed="#P" n="14"/>opor et quod voluntas recipiat simslitudinem 
+      <lb ed="#P" n="15"/>exemplaris: sed sufficit quod absque tali 
+      similitu<lb ed="#P" n="16" break="no"/>dine recipiat eius motionem: &amp; sici patet de 
+      <lb ed="#P" n="17"/>quarto. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e975">
+               <lb ed="#P" n="18"/>Ad primum ergo in oppositum, dicendum quod 
+      <lb ed="#P" n="19"/>non oportet quod obiectum voluntatis sit finis: si 
+      <lb ed="#P" n="20"/>per finem intellipatur causa finalis ipsius volunta. 
+      <lb ed="#P" n="21"/>tis, vel ipsius volentis: ita quod sit ibi causa finalis 
+      <lb ed="#P" n="22"/>realiter, nisi volens &amp; voluntas habeant causa 
+      secun<lb ed="#P" n="23" break="no"/>dum rem, sicut est in creaturis. Sed ad obiectum 
+      <lb ed="#P" n="24"/>voluntatis, requiritur quod aliquid sit bonum, &amp; 
+      <lb ed="#P" n="25"/>conueniens ipsi voluntati: siue differat ab eo re, 
+      <lb ed="#P" n="26"/>siue non: hioc autem inuenitur in Deo: nam 
+      bo<lb ed="#P" n="27" break="no"/>nitas eius, &amp; bona est; &amp; sibi 
+      conuenientissi<lb ed="#P" n="28" break="no"/>ma. 
+      </p>
+            <p xml:id="hx2hx3-b58284-d1e1001">
+               <lb ed="#P" n="29"/>Ad secundum dicendum, quod ille qui habet 
+      <lb ed="#P" n="30"/>habitudinem ad finem vel ad bonum quo caret: 
+      <lb ed="#P" n="31"/>amat alia a se, vt quoddam commodum ad 
+      exe<lb ed="#P" n="32" break="no"/>quendum finem. Sed ille qui habet suum bonum 
+      <lb ed="#P" n="33"/>in summo, nullo bono sibi conuenienti carens; 
+      <lb ed="#P" n="34"/>non amat alia vt medium assequendi finem: sed 
+      <lb ed="#P" n="35"/>magis amat ea, vt quibus vnlt bonum &amp; finem 
+      <lb ed="#P" n="36"/>nommunicare, vt sua bonntas in eis ueldeen, sic 
+      <lb ed="#P" n="37"/>autem est de Deo. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

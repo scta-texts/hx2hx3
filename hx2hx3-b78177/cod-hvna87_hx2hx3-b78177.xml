@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="232"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b78177"><!-- l2d11q1 -->
+            <head xml:id="hx2hx3-b78177-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b78177-Hd1e101" type="question-title">Utrum unus angelus loquatur alii</head>
+            <p xml:id="hx2hx3-b78177-d1e104">
+               <lb ed="#P" n="117"/>Ilud quoque sciendum est, quod Angeli 
+      <lb ed="#P" n="118"/>boni, &amp;c.
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e111">
+               <lb ed="#P" n="119"/>Distinctio vndecima. 
+      <lb ed="#P" n="120"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e118">
+               <lb ed="#P" n="121"/>Svper vndecimam distinctionem. Quaeritur 
+      <lb ed="#P" n="122"/>vtrum vnus Angelus loquatur alii.
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e126">
+        Et 
+      argui<lb ed="#P" n="123" break="no"/>tur quod non, quia loqui alii est suum conceptum 
+      <lb ed="#P" n="124"/>alii manifestare. Sed vnus Angelus non 
+      manife<lb ed="#P" n="125" break="no"/>stat suum conceptum alii. Ergo, &amp;c. Probatio 
+      <lb ed="#P" n="126"/>minoris, quia si vnus Angelus manifestar suum 
+      <lb ed="#P" n="127"/>conceptum alii, hoc erit per alium conceptum: 
+      <lb ed="#P" n="128"/>quia in Angelis non sunt alia verba quam 
+      concep<lb ed="#P" n="129" break="no"/>tus mentis. Sed per alium conceptum non 
+      mani<lb ed="#P" n="130" break="no"/>festat: quia si primus conceptus fuit in se notus alii 
+      <lb ed="#P" n="131"/>Angelo: non oportuit ipsum manifestare per 
+      secun<lb ed="#P" n="132" break="no"/>dum. Si aurem non fuit notus, eadem ratione nec 
+      <lb ed="#P" n="133"/>secundus. Et per consequens non manifestabitur 
+      <lb ed="#P" n="134"/>per: secundum. Et per consequens nullo modo 
+      <lb ed="#P" n="135"/>vnus manifesta alii suum conceptum. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e157">
+      <!--233.xml-->
+               <pb ed="#P" n="233"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Praeterea quicunque loquitur alii oportet quod 
+      <lb ed="#P" n="2"/>habeat aliquod signum ad excitandum eum vt 
+      at<lb ed="#P" n="3" break="no"/>tendat ad id quod ei dicitur. Sed in Angelis in 
+      <lb ed="#P" n="4"/>quibus non sunt voces non videtur quod sit tale 
+      si<lb ed="#P" n="5" break="no"/>gnum. Ergo vnus Angelus non loquitur alteri. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e177">
+               <lb ed="#P" n="6"/>In contrarium est, quia substantiae spirituales 
+      <lb ed="#P" n="7"/>non haberent conuenientem conuictum: si sibisuas 
+      <lb ed="#P" n="8"/>affectiones &amp; conceptus non possunt exprimere. 
+      <lb ed="#P" n="9"/>Sed inter Angelos est perfectissimus conuictus. 
+      <lb ed="#P" n="10"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e190">
+               <lb ed="#P" n="11"/>Respondeo. Quod inter Angelos sit aliqua 
+      <lb ed="#P" n="12"/>locutio, necesse est ponere: quia &amp; sacra scriptura 
+      <lb ed="#P" n="13"/>hoc testatur, &amp; conuictus eotum hoc requirit. Sed 
+      <lb ed="#P" n="14"/>de quibus &amp; qualiter sit haec locutio est dubium 
+      <lb ed="#P" n="15"/>proquo sit. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e203">
+               <lb ed="#P" n="16"/>ARTICVLVS PRIMVS. 
+      <lb ed="#P" n="17"/>Qvantum ad primum scilicet de quibus sit 
+      <lb ed="#P" n="18"/>locutio Angelorum: patet aliquo modo ex 
+      <lb ed="#P" n="19"/>dictis. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e214">
+               <lb ed="#P" n="20"/>Nam sicut tactum est, locutio fit inter aliquos 
+      <lb ed="#P" n="21"/>ad manifestandum conceptus suos &amp; affectiones 
+      <lb ed="#P" n="22"/>suas, Nam quando aliquis loquitur alii de rebus 
+      <lb ed="#P" n="23"/>etiam exterioribus, hoc non facit nisi mediante 
+      <lb ed="#P" n="24"/>proprio conceptu scilicet ostendendo quid de re 
+      <lb ed="#P" n="25"/>coneipit. Modo dictum est supra, quod vnus 
+      An<lb ed="#P" n="26" break="no"/>gelus licet videat fubstantiam cogitationis &amp; actus 
+      <lb ed="#P" n="27"/>voluntatis un alio: non tamen videt ita complete 
+      <lb ed="#P" n="28"/>sicut alius, &amp; quantum ad ea quae latent eum: 
+      il<lb ed="#P" n="29" break="no"/>le cogitans loquitur alii, illa latentia sibi 
+      manife<lb ed="#P" n="30" break="no"/>stando. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e241">
+               <lb ed="#P" n="31"/>De modo autem quo ista locutio fiat, dicunt 
+      <lb ed="#P" n="32"/>quidam quod vnus Angelus potest quatuor modis 
+      <lb ed="#P" n="33"/>loqui alteri. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e250">
+               <lb ed="#P" n="34"/>Primo modo est, vt dicunt, quia Angelus 
+      po<lb ed="#P" n="35" break="no"/>test formare in aere voces significatiuas per quam 
+      <lb ed="#P" n="36"/>alius Angelus possit eius conceptum cognoscere. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e259">
+               <lb ed="#P" n="37"/>Secundus modus est per hoc quod potest 
+      face<lb ed="#P" n="38" break="no"/>re aliquas impressiones in imaginatione alicuius 
+      <lb ed="#P" n="39"/>animalis ordinando species existentes in memoria 
+      <lb ed="#P" n="40"/>per quas vnus potest exprimere suum conceptum 
+      <lb ed="#P" n="41"/>alteri. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e272">
+               <lb ed="#P" n="42"/>Tertius modus est describendo diuersas 
+      figu<lb ed="#P" n="43" break="no"/>ras in coelo empyreo per applicationem suae 
+      vir<lb ed="#P" n="44" break="no"/>tutis imprimendo illi coelo: &amp; per tales figuras 
+      <lb ed="#P" n="45"/>possunt mutuo exprimere sibi suos conceptus. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e283">
+               <lb ed="#P" n="46"/>Quartus modus est per hoc quod ipsi formant 
+      <lb ed="#P" n="47"/>quaedam signa intelligibilia, quae (vt ipsi dicunt,) 
+      <lb ed="#P" n="48"/>non sunt conceptus vel verbum mentis, sed sunt 
+      <lb ed="#P" n="49"/>signa magis determinata &amp; per consequens magis 
+      <lb ed="#P" n="50"/>notificantia: &amp; per talia signa sibi loquentur 
+      mu<lb ed="#P" n="51" break="no"/>tuo. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e299">
+               <lb ed="#P" n="52"/>Duo modi primi &amp; si sint possibiles, mihi tamen 
+      <lb ed="#P" n="53"/>videntur inutiles. Quia impossibile est dicere 
+      <lb ed="#P" n="54"/>quod Angelus in suo conuictu &amp; in eis quae ad hoc 
+      <lb ed="#P" n="55"/>pertinent dependeat a corpore, nec quantum ad 
+      <lb ed="#P" n="56"/>esse talis conuictus: ita quod non possunt loqui 
+      <lb ed="#P" n="57"/>nisi mediante corpore, nec etiam quantum ad 
+      be<lb ed="#P" n="58" break="no"/>ne esse: ita quod melius possint exprimere per 
+      im<lb ed="#P" n="59" break="no"/>pressionem quantumcumque corpoream suos 
+      con<lb ed="#P" n="60" break="no"/>ceptus quam per aliud quod naturae suae debetur 
+      <lb ed="#P" n="61"/>vnde spiritualis est. Vnde possibilitas illa 
+      loquen<lb ed="#P" n="62" break="no"/>di per tales impressiones vel motiones corporales 
+      <lb ed="#P" n="63"/>nihil valet eis: sicut nec habenti liberum vsum vocis 
+      <lb ed="#P" n="64"/>&amp; expraessum parum valerent alia, imo multo 
+      mi<lb ed="#P" n="65" break="no"/>nus valerent illa signa corporalia aliis Angelis, 
+      <lb ed="#P" n="66"/>quan valeant alia signa a voce, hominibus 
+      elo<lb ed="#P" n="67" break="no"/>quentibus. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e337">
+               <lb ed="#P" n="68"/>Tertius modus loquendi conuenit eum, hoc 
+      <!--233.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>quod possit inprobari sicur &amp; primiduo quantum 
+      <lb ed="#P" n="70"/>ad hoc quod sit omnino inutilis icum habeat altum 
+      <lb ed="#P" n="71"/>deffectum scilicet quod est omnino impossibilis &amp; 
+      <lb ed="#P" n="72"/>in inte ligibilis. Quia illa siguratio cueli empyrei 
+      <lb ed="#P" n="73"/>aut intelllgitur secundum aliquam alterationem, 
+      <lb ed="#P" n="74"/>puta quod secundum determinatam figuram, siue 
+      <lb ed="#P" n="75"/>secundum partem determinate sigurae, alteretur 
+      <lb ed="#P" n="76"/>vel calido vel frigido, vel tali alteratione, sicur fit 
+      <lb ed="#P" n="77"/>in speculo: vel aliquo simili modo. Et talia neo 
+      <lb ed="#P" n="78"/>esse possunt nec imaginabilia. Vel etiam 
+      intesli<lb ed="#P" n="79" break="no"/>gitur ista figuratio pet impressionem factam ipsi 
+      <lb ed="#P" n="80"/>eoelo, sicut siguratur cera sigillo : vel per 
+      incisio<lb ed="#P" n="81" break="no"/>nem. Quae ambo planum est esse absurda. Aut 
+      <lb ed="#P" n="82"/>hoc est per aliquem contactum, &amp; tunc, aut est 
+      <lb ed="#P" n="83"/>per contactum qui est secundum quantitatem: 
+      si<lb ed="#P" n="84" break="no"/>cut si aliquod corpus triangulare aplicaretur 
+      ali<lb ed="#P" n="85" break="no"/>cui corpori excedenti ipiam descriptionem ex sua 
+      <lb ed="#P" n="86"/>applicatione ad illud, talem figuram in ipso 
+      coap<lb ed="#P" n="87" break="no"/>tando lineam ad lineam aliquo modo describit. 
+      <lb ed="#P" n="88"/>Et hoc non potest conuenire Angelo: quia non 
+      ha<lb ed="#P" n="89" break="no"/>bet quantitatem molis. Si Angelus deseribat 
+      bi<lb ed="#P" n="90" break="no"/>figuram per contactum virtutis, sequitur quod 
+      <lb ed="#P" n="91"/>per suam virtutem aliquam figuram realiter 
+      im<lb ed="#P" n="92" break="no"/>primat cuelo. Quia aliquid tagere aliud per 
+      coura<lb ed="#P" n="93" break="no"/>ctum virtutis non est aliud quam eius virtutem 
+      ha<lb ed="#P" n="94" break="no"/>bere aliquem effectum in eo quod dicitur 
+      tangi<lb ed="#P" n="95" break="no"/>Hoc autem est impessibile; ita quod Angelus 
+      fa<lb ed="#P" n="96" break="no"/>ciat aliquam figuram in coelo: imo cum etiam ipsi 
+      <lb ed="#P" n="97"/>dicunt quod nihil imprimunt Ani eli coelo empiy 
+      <lb ed="#P" n="98"/>roo, videtur mihi quod auctores dictae positionis 
+      <lb ed="#P" n="99"/>ignorent vocem propriam. Nam dicere aliquid 
+      <lb ed="#P" n="100"/>contactu virtutis aliquid tangere, &amp; non 
+      imprime<lb ed="#P" n="101" break="no"/>re ei aliquem effectum, est ignorare quid est 
+      tan<lb ed="#P" n="102" break="no"/>gere contactu virtutis. Quia hoc nihil aliud est 
+      <lb ed="#P" n="103"/>quam per ipsam virtutem agere in in rem quae 
+      tan<lb ed="#P" n="104" break="no"/>gitur: vnd breuiter iste modus tertius nec in 
+      ima<lb ed="#P" n="105" break="no"/>ginationem hominis debet cadere. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e426">
+               <lb ed="#P" n="106"/>Quartus modus quantum ad hoc quod dicit 
+      <lb ed="#P" n="107"/>illa signa intelligibilia non esse verba mentis, non 
+      <lb ed="#P" n="108"/>videtur habere veritatem. Quia constat quod 
+      ra<lb ed="#P" n="109" break="no"/>tionem verbi habent. Omne enim illud quod 
+      <lb ed="#P" n="110"/>formatur ad manifestandum aliquid quod 
+      intelli<lb ed="#P" n="111" break="no"/>gitur habet rationem verbi, siue hoc faciat alteri, 
+      <lb ed="#P" n="112"/>siue sibi. Vnde &amp; voces quibus manifestamus 
+      <lb ed="#P" n="113"/>conceptus nostros vere verba vocalia sunt. Sed 
+      il<lb ed="#P" n="114" break="no"/>la sigua supposito quod sint verba non possunt 
+      es<lb ed="#P" n="115" break="no"/>se verba alterius quam mentis formantur enim in 
+      <lb ed="#P" n="116"/>mente &amp; a mente: licet secundum diuersa mens 
+      <lb ed="#P" n="117"/>formet &amp; formetur. Et ideo dicere talia signa ad 
+      <lb ed="#P" n="118"/>repraesentendum sic formata non esse verba 
+      men<lb ed="#P" n="119" break="no"/>tis, est inconueniens. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e459">
+               <lb ed="#P" n="120"/>Et ideo aliter est dicendum scilicet quod sicut 
+      <lb ed="#P" n="121"/>apud nos vnum verbum vo cale potest manifestari 
+      <lb ed="#P" n="122"/>per aliud. Sicut quado vna propositio non bene 
+      in<lb ed="#P" n="123" break="no"/>tellecta explicatur per alias propositiones quae 
+      <lb ed="#P" n="124"/>magis explicite significant illud quod in prima 
+      <lb ed="#P" n="125"/>propositione impsieite includebantur: ita etiam 
+      <lb ed="#P" n="126"/>quano Angelus vnus videt conceptum alterius 
+      <lb ed="#P" n="127"/>non vider explicite illum conceptum. Vnde non 
+      <lb ed="#P" n="128"/>videt quantum ad omnia, vt dictum est iam saepe, 
+      <lb ed="#P" n="129"/>quaecumque ille cogitat. Sicut antem Angelus 
+      <lb ed="#P" n="130"/>potest formare conceptus de rebus ad loquendum 
+      <lb ed="#P" n="131"/>sibi ipsi: ita etiam potest formare conceptus de eis 
+      <lb ed="#P" n="132"/>quae cogitat &amp; de cogitatione sua ad loquendum 
+      <lb ed="#P" n="133"/>&amp; manifestandum alii quod cogitat, uel quid vulr. 
+      <lb ed="#P" n="134"/>Eat sic per vnum conceptum magis explicitum 
+      po<lb ed="#P" n="135" break="no"/>test man festari illud quod latebat in alio 
+      concep<lb ed="#P" n="136" break="no"/>tu minus explicito. Nec est inconueniens quod 
+      <lb ed="#P" n="137"/>vnus conceptus manifestetur per alium: sicut 
+      <lb ed="#P" n="138"/>vnum verbum vocale explicatur &amp; manifestatur 
+      <!--234.xml-->
+      <pb ed="#P" n="234"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>per aliud, vt iam dictum est, ita quod 
+      Angelilo<lb ed="#P" n="2" break="no"/>quuntur sibi manifestando suum velle: scilicet quid 
+      <lb ed="#P" n="3"/>volunt, &amp; manifestando suos concepius minus 
+      <lb ed="#P" n="4"/>notos &amp;minus explicitos, per alios conceptus 
+      ma<lb ed="#P" n="5" break="no"/>gis explicatos. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e520">
+               <lb ed="#P" n="6"/>Si autem quaeratur quomodo vnus Angelus 
+      <lb ed="#P" n="7"/>moueatur de nouo ab alio per talem locutionem. 
+      <lb ed="#P" n="8"/>Dicunt quidam, quod hoc non fit per hoc quod 
+      <lb ed="#P" n="9"/>Angelus loquens aliquid imprimat alii: imo 
+      pro<lb ed="#P" n="10" break="no"/>ponendo sibi suum conceptum, ille alius Angelus 
+      <lb ed="#P" n="11"/>per speciem prius apud ipsum ex istentem 
+      conuer<lb ed="#P" n="12" break="no"/>tit se &amp; vider quid alius vult loqui, siue quid alius 
+      <lb ed="#P" n="13"/>loquitur. Sed quia, vt supra dictum est, non 
+      pos<lb ed="#P" n="14" break="no"/>suntvidere quod ad illa cognoscende quae Angelus 
+      <lb ed="#P" n="15"/>per suassolas species cognoscit, Anpelus indigeat 
+      <lb ed="#P" n="16"/>praesentia cuiuscunque alterius extra ipsum, nisi 
+      il<lb ed="#P" n="17" break="no"/>lud faciat ad motionem qua Angelus mouetur ad 
+      <lb ed="#P" n="18"/>intelligendum. Ideo magis videtur mihi quod 
+      si<lb ed="#P" n="19" break="no"/>cut sensibile exterius puta sonus vel aliqu daliud 
+      <lb ed="#P" n="20"/>natum est mouere sensum: ita ille conceptus quem 
+      <lb ed="#P" n="21"/>vnus Angelus format ad loquendum alteri, natus 
+      <lb ed="#P" n="22"/>sit mouere intellectum Angeli cui lo quitur, &amp; ad 
+      <lb ed="#P" n="23"/>attendendum &amp; ad intelligendum. Hoc expresse 
+      <lb ed="#P" n="24"/>dico doctor noster sanctus Tomas primo articulo 
+      <lb ed="#P" n="25"/>de locutione Angelorum in solutione cuiusdam 
+      <lb ed="#P" n="26"/>argumenti: ita quod quando aliquis eorum vult 
+      lo<lb ed="#P" n="27" break="no"/>qui alii, format in se conceptum qui natus est 
+      mo<lb ed="#P" n="28" break="no"/>nere ipsum. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e572">
+               <lb ed="#P" n="29"/>Si autem quaeratur quomodo vnus applicar se 
+      <lb ed="#P" n="30"/>ad alium ad loquendum fibi. Dico quod in 
+      An<lb ed="#P" n="31" break="no"/>gelis non est considerandum ordo secundum 
+      si<lb ed="#P" n="32" break="no"/>tum qua si inter eos sit propinquitas localis vel 
+      di<lb ed="#P" n="33" break="no"/>stantia: sed est ibi ordo potentiae actiuae, siue 
+      prin<lb ed="#P" n="34" break="no"/>cipii actiui &amp; principii passiui. Et ideo ad hoc 
+      <lb ed="#P" n="35"/>quod vnus moueat alium ad cognoscendum vel 
+      <lb ed="#P" n="36"/>attendendum, non oportet imaginari applicatio. 
+      <lb ed="#P" n="37"/>nem localem: sed sufficit quod vnus habeat 
+      ali<lb ed="#P" n="38" break="no"/>quid per quod possit agere, &amp; alius habeat 
+      ali<lb ed="#P" n="39" break="no"/>quid per quod possit pati: Ita quod ex hoc 
+      appli<lb ed="#P" n="40" break="no"/>cat se Angelus ad mouendum alium per loquelam, 
+      <lb ed="#P" n="41"/>quod format eonceptum qui natus sit mouere 
+      po<lb ed="#P" n="42" break="no"/>tentiam intellectiuam alterius: sicut si non 
+      require<lb ed="#P" n="43" break="no"/>retur situs determinatus secundum locum in 
+      audi<lb ed="#P" n="44" break="no"/>tione, ex hoc ipso aliquis se applicaret ad motum 
+      <lb ed="#P" n="45"/>alium per verbum vocale quod voces formaret. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e611">
+               <lb ed="#P" n="46"/>Sed contra praemissa potest obiici tripliciter. 
+      <lb ed="#P" n="47"/>Primo. Quia si in locutione Angelorum non 
+      <lb ed="#P" n="48"/>requiritur nisi ordo principii actiui ad passiuum: 
+      <lb ed="#P" n="49"/>tunc sequitur quod semper loquatur sibi, &amp; quod 
+      <lb ed="#P" n="50"/>quilibet ita loquatur omnibus sicut vni. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e625">
+               <lb ed="#P" n="51"/>Secundo. Quia si vnus mouet alium ad 
+      intel<lb ed="#P" n="52" break="no"/>ligendum, sequitur quod Angelus possit mouere 
+      <lb ed="#P" n="53"/>motione quae est ad formam: quia actus 
+      intelli<lb ed="#P" n="54" break="no"/>gendi, quaedam forma &amp; quidam actus est. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e636">
+               <lb ed="#P" n="55"/>Tertio. Quia conceptus superioris cum sint 
+      <lb ed="#P" n="56"/>improportionati inferioribus, eo quod sunt 
+      vni<lb ed="#P" n="57" break="no"/>uersaliores quam requiteret intellectus 
+      inferio<lb ed="#P" n="58" break="no"/>rum, inferiores nibil poterunt intelligere per 
+      lo<lb ed="#P" n="59" break="no"/>cutionem superiorum. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e649">
+               <lb ed="#P" n="60"/>Ad primum ergo istorum dicendum, quod 
+      <lb ed="#P" n="61"/>non oportet quod semper vnus loquatur alteri. 
+      <lb ed="#P" n="62"/>Quia non semper format conceptum qui natus est 
+      <lb ed="#P" n="63"/>mouere alium, qui conceptus est principium actiuum 
+      <lb ed="#P" n="64"/>quo loquens mouet iutellectum illius cui loquitur. 
+      <lb ed="#P" n="65"/>Quantum autem ad loquendum omnibus vel 
+      qui<lb ed="#P" n="66" break="no"/>buidam. Dico quod Angelus quantum est ex 
+      in<lb ed="#P" n="67" break="no"/>tentione loquentis, nen oportet quod loquatur 
+      <lb ed="#P" n="68"/>omnibus: quia intentio sua est dirigere loquaelam 
+      <lb ed="#P" n="69"/>suam ad vnum, &amp; non ad alium. Sed quantum 
+      <lb ed="#P" n="70"/>est pro vetitare locutionis, nata est indidetenee 
+      <!--234.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>mouere quemlibet alium. Quia vt dictum est, non 
+      <lb ed="#P" n="72"/>requiritur inter eos ad agendum &amp; patiendum: 
+      ni<lb ed="#P" n="73" break="no"/>si ordo principii actiui &amp; passiui. Tamen in hoc 
+      <lb ed="#P" n="74"/>differunt quod secundum quod quilibet est magis 
+      <lb ed="#P" n="75"/>per spicax: secundum hoc melius potest videre 
+      lo<lb ed="#P" n="76" break="no"/>quelam alterius. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e693">
+               <lb ed="#P" n="77"/>Ad secuudum dicendum, quod quando 
+      dici<lb ed="#P" n="78" break="no"/>tur quod Angelus non potest mouere ad formam, 
+      <lb ed="#P" n="79"/>intelligendum est quantum ad corporalia &amp; 
+      for<lb ed="#P" n="80" break="no"/>mas corporales, non autem est intelligendum 
+      <lb ed="#P" n="81"/>quantum ad formas intelligibiles quae sunt 
+      con<lb ed="#P" n="82" break="no"/>ceptus vel actus intelligendi, ad quas Angelus 
+      po<lb ed="#P" n="83" break="no"/>test mouere mouendo seipsum vel alium ad 
+      intel<lb ed="#P" n="84" break="no"/>ligendum. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e713">
+               <lb ed="#P" n="85"/>Ad tertium dicendum, quod licet conceptus 
+      <lb ed="#P" n="86"/>superiorum qui scilicet sufficiunt superioribus ad 
+      <lb ed="#P" n="87"/>intelligendum, sint improportionati inferioribus; 
+      <lb ed="#P" n="88"/>ita quod conceptus qui sufficeret superiori non 
+      suf<lb ed="#P" n="89" break="no"/>ficeret inferiori: tamen fuperiores possunt 
+      forma<lb ed="#P" n="90" break="no"/>re tales conceptus, &amp; ita explicitos &amp; quasi 
+      parti<lb ed="#P" n="91" break="no"/>culatos quos possint capere interiores. Sicut licet 
+      <lb ed="#P" n="92"/>proportiones quae sufficiuut subtilibus ad 
+      intelli<lb ed="#P" n="93" break="no"/>gendum non essent nec sufficerent rudibus: tamen 
+      <lb ed="#P" n="94"/>subtiles pe ssent illas propositiones magis 
+      explici<lb ed="#P" n="95" break="no"/>tas loqui rudibus, sic qued possent formarestales 
+      <lb ed="#P" n="96"/>quae a tudibus possent capi. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e742">
+               <lb ed="#P" n="97"/>Ad primum ergo principale factum ad 
+      quae<lb ed="#P" n="98" break="no"/>stionem dicendum, quod vnus Angelus potest 
+      vi<lb ed="#P" n="99" break="no"/>dere modo quo super dictum est, quando 
+      quaere<lb ed="#P" n="100" break="no"/>batur de cognoscendo cogitationes cordium, 
+      con<lb ed="#P" n="101" break="no"/>ceptum alterius, non tamen ita perfecte sicut ille 
+      <lb ed="#P" n="102"/>qui cogitat, &amp; quantum ad hoc indiger quod 
+      ma<lb ed="#P" n="103" break="no"/>nifestnetur ei. Nec sequitur quod fimili modo 
+      <lb ed="#P" n="104"/>videat vnum conceptum sicut alium, vel quod 
+      si<lb ed="#P" n="105" break="no"/>mile sit de vno conceptu sicut de alio. Quia vnus 
+      <lb ed="#P" n="106"/>conceptus est magis explicatus quam alius: &amp; 
+      v<lb ed="#P" n="107" break="no"/>nus conceptus ordinatur ad explicandum &amp; 
+      ma<lb ed="#P" n="108" break="no"/>nifestandum quod latet in alio; ita quod per vnum 
+      <lb ed="#P" n="109"/>conceptum Angelus loquitur sibi ad explicite 
+      in<lb ed="#P" n="110" break="no"/>telligendum naturas rerum: &amp; per alium 
+      conce<lb ed="#P" n="111" break="no"/>ptum lequitur alteri explicando quid intelligitur 
+      <lb ed="#P" n="112"/>per primum conceptum. 
+      </p>
+            <p xml:id="hx2hx3-b78177-d1e780">
+               <lb ed="#P" n="113"/>Ad secundum dicendum, quod signa per quae 
+      <lb ed="#P" n="114"/>vnus mouet alium ad attendendum sunt sui 
+      con<lb ed="#P" n="115" break="no"/>ceptus, qui conceptus vnius nati sunt mouere 
+      in<lb ed="#P" n="116" break="no"/>tellectum alterius, &amp; ad attendendum, &amp; ad 
+      in<lb ed="#P" n="117" break="no"/>telligendum sicut apud nos signa sensibilia nata 
+      <lb ed="#P" n="118"/>sunt mouere sensum: &amp; mediante sensu 
+      intelle<lb ed="#P" n="119" break="no"/>ctum. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

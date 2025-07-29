@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="85"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b27596"><!-- l1d15q1 -->
+            <head xml:id="hx2hx3-b27596-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b27596-Hd1e101" type="question-title">Utrum divinis personis conveniat missio</head>
+            <p xml:id="hx2hx3-b27596-d1e104">
+      <!--85.xml-->
+               <pb ed="#P" n="85"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Tam nunc accedamus ad assignandam 
+      mis<lb ed="#P" n="2" break="no"/>sionem Spiritus sancti qua inuisibiliter 
+      <lb ed="#P" n="3"/>mittitur in corda fidelium, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e120">
+               <lb ed="#P" n="4"/>Distinctio decimaquinta. 
+      <lb ed="#P" n="5"/>QVAESTIO PRIMA 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e127">
+               <lb ed="#P" n="6"/>CIrca distinctionem decimamquintam. 
+      Pri<lb ed="#P" n="7" break="no"/>mo quaeritur vtrum personis diuinis 
+      conue<lb ed="#P" n="8" break="no"/>niat missio. Et arguitur quod non: quia mitti 
+      qui<lb ed="#P" n="9" break="no"/>busdam creaturis nobilioribus, sicut angelis 
+      su<lb ed="#P" n="10" break="no"/>perioribus, non conuenit propter earum 
+      dignita<lb ed="#P" n="11" break="no"/>tem: Sed quaelibet persona diuina est dignior in 
+      <lb ed="#P" n="12"/>infinitum omni creatura: Ergo nulli personae 
+      di<lb ed="#P" n="13" break="no"/>uinae conuenit mitti. Praeterea missio importat 
+      <lb ed="#P" n="14"/>distantiam missia mitrente: Sed in diuinis nulla 
+      <lb ed="#P" n="15"/>persona distat ab alia: Ergo, &amp;c, 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e152">
+               <lb ed="#P" n="16"/>Contra Ioannis 16, dicitur. Cum venerit 
+      para<lb ed="#P" n="17" break="no"/>clitus quem ego mittam vobis, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e159">
+               <lb ed="#P" n="18"/>Respondeo hic quatuor sunt facienda. Primo, 
+      <lb ed="#P" n="19"/>videndum est quid missio importat. Secundo, 
+      o<lb ed="#P" n="20" break="no"/>stendendum est quod missio conueniat personae 
+      <lb ed="#P" n="21"/>diuinae, &amp; quomodo. Tertio, ostendetur cui 
+      per<lb ed="#P" n="22" break="no"/>sonae conueniat mitti. Quarto, secundum quae 
+      do<lb ed="#P" n="23" break="no"/>na missio attenditur. 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e175">
+               <lb ed="#P" n="24"/>Quantum ad primum sciendum, quod 
+      mis<lb ed="#P" n="25" break="no"/>sio penes eum qui mittitur respicit duo: scilicet 
+      <lb ed="#P" n="26"/>mittentem, &amp; terminum ad quem mittitur. Ex 
+      <lb ed="#P" n="27"/>parte primi requiruntur duo: scilicet distinctio 
+      <lb ed="#P" n="28"/>missi a mittente, quia nullus seipsum mittit: 
+      se<lb ed="#P" n="29" break="no"/>cundum est quod sit ab eo aliquo modo 
+      inquan<lb ed="#P" n="30" break="no"/>tum est missus; vel secundum imperium, sicut 
+      <lb ed="#P" n="31"/>seruum mittit dominus: vel secundum concilium, 
+      <lb ed="#P" n="32"/>sicuti consiliarius mittit regem: vel secundum 
+      ori<lb ed="#P" n="33" break="no"/>ginem, sicut si dicam arborem emittere fsorem: 
+      <lb ed="#P" n="34"/>ita quod missus habeat aliquid a mittente, vel 
+      ali<lb ed="#P" n="35" break="no"/>quid saltem ab aliquo aliocum quo dicitur mittens 
+      <lb ed="#P" n="36"/>mittere; quod ideo dico quia ab aliquibus 
+      conce<lb ed="#P" n="37" break="no"/>ditur quod persona potest mittere seipsam. Ea 
+      <lb ed="#P" n="38"/>parte autem termini ad quem requiruntur alia duo: 
+      <lb ed="#P" n="39"/>scilicet quod per missionem fiat missus alicubi vbi 
+      <lb ed="#P" n="40"/>prius non erat: &amp; quod ibi faciat aliquem 
+      effe<lb ed="#P" n="41" break="no"/>ctum, ad quem efficiendum mittitur. 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e217">
+               <lb ed="#P" n="42"/>Ex isto primo potest faciliter patere secundum; 
+      <lb ed="#P" n="43"/>quia illud potest dici mitti quod est ab aliquo 
+      mit<lb ed="#P" n="44" break="no"/>tente distinctum, &amp; accipit a mittente quod possit 
+      <lb ed="#P" n="45"/>esse ibi vbi non erat, vel nouo modo vbi prius erat 
+      <lb ed="#P" n="46"/>alio modo, &amp; facere ibi effectum nouum: Sed 
+      <lb ed="#P" n="47"/>hoc totum potest conuenire vni personae diuinae 
+      <lb ed="#P" n="48"/>respectu alterius: Ergo, &amp;c. Vna enim persona 
+      <lb ed="#P" n="49"/>est distincta ab alia: Item persona producta 
+      acci<lb ed="#P" n="50" break="no"/>pit omnem virtutem quam habet a per sona pro¬1 
+      <lb ed="#P" n="51"/>ducente; &amp; accipit virtutem perquam potest esse 
+      <lb ed="#P" n="52"/>nouo modo vbi prius non erat secundu illum 
+      mo<lb ed="#P" n="53" break="no"/>dum essendi, &amp; faciendo nouum effectum. Vnde 
+      <lb ed="#P" n="54"/>quantum ad ista duo vltima, contrario modo se 
+      <lb ed="#P" n="55"/>habet missio creaturae saltem corporalis, ad 
+      missio<lb ed="#P" n="56" break="no"/>nen diuinam: Nam missus in creaturis 
+      corpora<lb ed="#P" n="57" break="no"/>libus habet esse in loco ad quem mittitur antequa 
+      <lb ed="#P" n="58"/>faciat illud ad quod mittitur. Sed persona diuina 
+      <lb ed="#P" n="59"/>prius habet operari in loco vel in eo ad quem mit. 
+      <lb ed="#P" n="60"/>titur, quam haboat esse ibi: quia non habet esse ibi 
+      <lb ed="#P" n="61"/>nisi per effectum nouum quem facit, ita tamen 
+      <lb ed="#P" n="62"/>quod istud prius sit ordine naturae &amp; non tempio. 
+      <lb ed="#P" n="63"/>ris 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e267">
+               <lb ed="#P" n="64"/>Ad euidentiam tertii sciendum, quod ista 
+      diffe<lb ed="#P" n="65" break="no"/>tunt, scilicet processio, missio, datio, quia pro¬ 
+      <!--85.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>cessiio absolute non dicit aliud nisi exitum a 
+      prin<lb ed="#P" n="67" break="no"/>cipio, &amp; indifferens est vt terminetur ad 
+      termi<lb ed="#P" n="68" break="no"/>sum aeternum, sicut generatio terminatur ad filium 
+      <lb ed="#P" n="69"/>&amp; spiratio ad amorem spiratum, &amp; ad amatum 
+      a<lb ed="#P" n="70" break="no"/>fnore spirato; cui tamen pet talem amorem nihil 
+      <lb ed="#P" n="71"/>communicatur, sicut est Pater vel Filius: &amp; ad 
+      <lb ed="#P" n="72"/>terminum temporalem cui aliquid ex amore 
+      spi<lb ed="#P" n="73" break="no"/>tato, siue per amorem spitatum communicatur. 
+      <lb ed="#P" n="74"/>Missio autem importat originem personae missae 
+      <lb ed="#P" n="75"/>ab aliquo communicante vel dante authoritatem 
+      <lb ed="#P" n="76"/>ei, &amp; importat effectum nouum, &amp; nouum mo. 
+      <lb ed="#P" n="77"/>dum essendi in creaturas. Sed datio non importar 
+      <lb ed="#P" n="78"/>originem dati, quia idem potest dare seipsum, sed 
+      <lb ed="#P" n="79"/>importat nouum effectum secundum quem 
+      atten<lb ed="#P" n="80" break="no"/>ditur datio ipsa. Ex hiis patet ad tertium &amp; ad 
+      plu<lb ed="#P" n="81" break="no"/>ra alia quae possent quaeri. Nam quia processio 
+      im<lb ed="#P" n="82" break="no"/>portat originem, ideo non eonuenit nisi personae 
+      <lb ed="#P" n="83"/>habenti originem ab alia. Quia vero est 
+      indiffe<lb ed="#P" n="84" break="no"/>rens ad terminnm aeternum &amp; temporalem secun. 
+      <lb ed="#P" n="85"/>dum quod accipitur cum vno termino vel cum 
+      a<lb ed="#P" n="86" break="no"/>lio; potest conuenire vel ab aeterno vel ea 
+      tempo<lb ed="#P" n="87" break="no"/>re. Missio vero quae importat originem, non 
+      con<lb ed="#P" n="88" break="no"/>uenit nisi personae productae. Quia vero 
+      impor<lb ed="#P" n="89" break="no"/>tat nouum effectum, non conuenit nisi ex tem. 
+      <lb ed="#P" n="90"/>pore. 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e332">
+               <lb ed="#P" n="91"/>Notandum etiam quod semper processio prin. 
+      <lb ed="#P" n="92"/>cipaliter importat notionem siue respectum 
+      ori<lb ed="#P" n="93" break="no"/>ginis, quia processio qualitercunque accipiatur 
+      <lb ed="#P" n="94"/>importat formaliter &amp; determinate exitum a 
+      prin<lb ed="#P" n="95" break="no"/>cipio; sed effectum temporalem quando 
+      accipi<lb ed="#P" n="96" break="no"/>tur processio temporalis non importat ita 
+      forma<lb ed="#P" n="97" break="no"/>liter quia saltem non importat ipsum in recto sicut 
+      <lb ed="#P" n="98"/>exitum Sed missio, e conuerso importat 
+      determi<lb ed="#P" n="99" break="no"/>nate &amp; expresse nouum effectum; vnde 
+      formali<lb ed="#P" n="100" break="no"/>ter dicitur importare essentiale; quia effectus 
+      om<lb ed="#P" n="101" break="no"/>hiis pertinet ad essentiam sicut ad causam. Notio.¬ 
+      <lb ed="#P" n="102"/>nale autem non importat ita erpresse ex suo 
+      for<lb ed="#P" n="103" break="no"/>mali significato, sed tantum gratia materiae: quia 
+      <lb ed="#P" n="104"/>quod missus sit a mittente per originem, non est 
+      <lb ed="#P" n="105"/>necessarium nisi indiuinis vbi persona nulla est, 
+      <lb ed="#P" n="106"/>vel accipit aliquid ab alia nisi per originem. Nec 
+      <lb ed="#P" n="107"/>dicitur missio formalius significare essentiale, quia 
+      <lb ed="#P" n="108"/>illud importat in recto, imo importat in obliquo. 
+      <lb ed="#P" n="109"/>Nam personam mitti, nihil aliud est quam ipsam 
+      <lb ed="#P" n="110"/>esse ab alio nouo modo in creatura recipiente 
+      <lb ed="#P" n="111"/>eius esfectum; ita quod esse ab alio, est ibi in 
+      re<lb ed="#P" n="112" break="no"/>cto. Sed expressius importat ipsum effectum quam 
+      <lb ed="#P" n="113"/>briginem. Datio autem, quantum est de se dieit 
+      <lb ed="#P" n="114"/>essentiale tantum: quia posito per impossibile quod 
+      <lb ed="#P" n="115"/>non esset distinctio personarum in diuinis: adhuc 
+      <lb ed="#P" n="116"/>posset se Deus dare vnde non importat necessarid 
+      <lb ed="#P" n="117"/>nisi id quod est causa noui effectus absque aliqua 
+      <lb ed="#P" n="118"/>originc ipsius dati. 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e396">
+               <lb ed="#P" n="119"/>Quantum ad quartum, sciendum quod haec 
+      <lb ed="#P" n="120"/>per sona vel illa, dicitur determinate mitti alicur 
+      <lb ed="#P" n="121"/>inquantum ille per donum receptum, natus ess 
+      <lb ed="#P" n="122"/>duci in cognitionem perfectam, &amp; amorosam, 
+      <lb ed="#P" n="123"/>qua cognoscat personam quam accipit vt sibi 
+      mil<lb ed="#P" n="124" break="no"/>sam esse ab alio &amp; modum suae processionis 
+      se<lb ed="#P" n="125" break="no"/>eundum correspondentiam donorum ad personas 
+      <lb ed="#P" n="126"/>missis, quae respondentia est secundum quandam 
+      <lb ed="#P" n="127"/>pproptiationem secundum quod amor 
+      apnro<lb ed="#P" n="128" break="no"/>priatur Spiritui sancto, &amp; notitia Filio. Talis 
+      au<lb ed="#P" n="129" break="no"/>tem amor perfectus, &amp; talis notitia perfecta &amp; 
+      sa<lb ed="#P" n="130" break="no"/>pida, vel amoroia: non potest esse nisi in donis 
+      <lb ed="#P" n="131"/>gratum facientibus: &amp; ideo solum secundum 
+      ta<lb ed="#P" n="132" break="no"/>lia dona mittuntur personae diuinae. 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e429">
+               <lb ed="#P" n="133"/>Contra premissa quantum ad illud quod dictum 
+      <lb ed="#P" n="134"/>est de formali significato praedictorum nominum 
+      <lb ed="#P" n="135"/>scilicet processio missio &amp; cetera: Dbiieiunt qui¬ 
+      <!--86.xml-->
+      <pb ed="#P" n="86"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dam quod principale in significato processionis 
+      <lb ed="#P" n="2"/>remporalis non sit notio, quia constat quod 
+      perso<lb ed="#P" n="3" break="no"/>na procedit a seipsa temporaliter. Hoc autem 
+      <lb ed="#P" n="4"/>non esset nisi propessio temporalis principaliter 
+      di<lb ed="#P" n="5" break="no"/>ceret notionem: cum nulla persona habeat 
+      respe<lb ed="#P" n="6" break="no"/>ctum notionalem ad sespsam. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e458">
+               <lb ed="#P" n="7"/>Sed hoc parum valet. Vnde dicendum quod 
+      <lb ed="#P" n="8"/>Minor est falsa. Nam ad hoc quod aliquod 
+      ag<lb ed="#P" n="9" break="no"/>Sfegatum dicatur esse ab aliquo vel fieri, non 
+      re<lb ed="#P" n="10" break="no"/>quuritur quod sit ab illo quantum ad hoc quod est 
+      <lb ed="#P" n="11"/>in eo principalius: sed sufficit quod sit factum ab 
+      <lb ed="#P" n="12"/>illo a quo dicitur esse quantum ad aliquid sui siue 
+      <lb ed="#P" n="13"/>sit minus principale siue magis: sicut hoc totum 
+      <lb ed="#P" n="14"/>homo iratus, habet pro principaliori homo, quam 
+      <lb ed="#P" n="15"/>iratus: &amp; tamen ista est vera, homo est factus 
+      ho<lb ed="#P" n="16" break="no"/>mo iratus a seipso. Ita etiam, ad hoc quod 
+      ali<lb ed="#P" n="17" break="no"/>qua persona dicatur procedere a seipsa 
+      tempora<lb ed="#P" n="18" break="no"/>liter, non oportet quod sit quantum ad ipsam 
+      pro<lb ed="#P" n="19" break="no"/>cessionem quae est principale a seipsa: sed suffieit 
+      <lb ed="#P" n="20"/>quod sit a seipsa quantum ad temporale 
+      adiun<lb ed="#P" n="21" break="no"/>ctum. Vnde quando dicitur persona procedit a 
+      <lb ed="#P" n="22"/>seipsa temporaliter, non est quod ipsa processio 
+      <lb ed="#P" n="23"/>sit ab ipsa &amp; temporalitas adiuncta. Sed est 
+      sen<lb ed="#P" n="24" break="no"/>lus, quod ipsa persona procedens, siue existens 
+      <lb ed="#P" n="25"/>ab alia, fiat in isto temporaliter a seipsa. Et hoc 
+      <lb ed="#P" n="26"/>magis patebit in sequenti quaesito. 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e504">
+               <lb ed="#P" n="27"/>Ad primum ergo in oppositum dicendum, quod 
+      <lb ed="#P" n="28"/>mitti modo quo conuenit personae diuinae mitti, 
+      <lb ed="#P" n="29"/>non importat indignitatem quia nec est sub 
+      au<lb ed="#P" n="30" break="no"/>ctoritas in misso, nec aliqua mutatio realis, imo 
+      <lb ed="#P" n="31"/>illa missio est: quia effectus ille exeedit creaturam. 
+      <lb ed="#P" n="32"/>Et ideo sicet esset indignitas etiam angelis mitti 
+      <lb ed="#P" n="33"/>modo quo conuenit eis mitti, non tamen mitti 
+      <lb ed="#P" n="34"/>modo quo conuenit personae diuinae mitti; est 
+      in<lb ed="#P" n="35" break="no"/>dignitas. 
+      </p>
+            <p xml:id="hx2hx3-b27596-d1e526">
+               <lb ed="#P" n="36"/>Ad secundum, dicendum quod in missione 
+      <lb ed="#P" n="37"/>personae diuinae, non oportet ponere distantiam 
+      <lb ed="#P" n="38"/>localem: sed distinctionem personalem. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

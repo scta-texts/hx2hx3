@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="296"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b99938"><!-- l3d7q1 -->
+            <head xml:id="hx2hx3-b99938-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b99938-Hd1e101" type="question-title">Utrum haec sit vera Deus factus est homo</head>
+            <p xml:id="hx2hx3-b99938-d1e104">
+               <lb ed="#P" n="87"/>Positum sententiu probatisque testimoniar, 
+      <lb ed="#P" n="88"/>intelligentiaa propositarum locutionum 
+      <lb ed="#P" n="89"/>exequitur secundum singulas sententiaer: 
+      <lb ed="#P" n="90"/>&amp; priua secundum primam. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e115">
+               <lb ed="#P" n="91"/>Secundum primam vero dicitur Deus factus 
+      <lb ed="#P" n="92"/>homo: &amp; homo factus Deue. Quia Deua 
+      <lb ed="#P" n="93"/>caepit esse quidam sub ftantia rationalis: 
+      <lb ed="#P" n="94"/>quae ante non fuerar, &amp; illia substantia 
+      <lb ed="#P" n="95"/>cepit esse Deus: &amp; haecgratia, non 
+      na<lb ed="#P" n="96" break="no"/>tura vel meritis habuit Vnde recte 
+      di<lb ed="#P" n="97" break="no"/>citur Christus inquantum homo 
+      praede<lb ed="#P" n="98" break="no"/>stinatus esse Filius Dei, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e135">
+               <lb ed="#P" n="99"/>Distinctio septima. 
+      <lb ed="#P" n="100"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e143">
+               <lb ed="#P" n="101"/>Svper septimam ditindionem quaeriturvtium 
+      <lb ed="#P" n="102"/>haec sit vera, Deus factus est homo. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e150">
+        Et 
+      argui<lb ed="#P" n="103" break="no"/>tur quod non. Quia fieri est nutari. Sed mutari 
+      <lb ed="#P" n="104"/>non conuenit Deo. Ergo nee fieri conuenit sibi 
+      <lb ed="#P" n="105"/>aliquo modo. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e159">
+               <lb ed="#P" n="106"/>Praeterea quod non est factum, non est 
+      fa<lb ed="#P" n="107" break="no"/>ctum homo; patet per locum a superiori ad 
+      infe<lb ed="#P" n="108" break="no"/>rius negatiue: quia fieri est superius adfieri 
+      homi<lb ed="#P" n="109" break="no"/>nem. Sed Deus non potest dici factus, haec enim 
+      <lb ed="#P" n="110"/>est falfa Deus est factus. Ergo ista est falsa Deus est 
+      <lb ed="#P" n="111"/>factus homo. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e175">
+               <lb ed="#P" n="112"/>Praeterea, cuicumque conuenit fieri aliiquid 
+      <lb ed="#P" n="113"/>est subiectum alicuius fieri: sicut homo est 
+      subie<lb ed="#P" n="114" break="no"/>ctum fieriper quod fit album. Sed vnum fieri 
+      po<lb ed="#P" n="115" break="no"/>test esse in Deo sicut in subiecto. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e186">
+               <lb ed="#P" n="116"/>Praeterea, si Deusfactus est homo, Deus 
+      estho<lb ed="#P" n="117" break="no"/>mo. Sed haec est falsa, Deus est homo. Ergo &amp; 
+      <lb ed="#P" n="118"/>haec est falsa, Deus factus est homo. Probatio 
+      Mi<lb ed="#P" n="119" break="no"/>noris. Quia si Deus est hrimo; aut hoc est per se; 
+      <lb ed="#P" n="120"/>aut per accidens. Non per se, quia aut esset in 
+      <lb ed="#P" n="121"/>primo modo dicendi per se: aut in secundo. Non 
+      <lb ed="#P" n="122"/>in primo, quia praedicatum non est de ratione 
+      sub<lb ed="#P" n="123" break="no"/>iecti: nec in secundo, quia subiectum non est de 
+      <lb ed="#P" n="124"/>ratione praedicati, &amp; praedicatum non est per se 
+      <lb ed="#P" n="125"/>passio subiecti, vt de se patet. Non est ergo per 
+      <lb ed="#P" n="126"/>se, nec per accidens: quia tunc humanitas 
+      adue<lb ed="#P" n="127" break="no"/>niret accidentaliter personae diuinae, quod falsum 
+      <lb ed="#P" n="128"/>est. Ergo nullo modo potest virificari. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e217">
+               <lb ed="#P" n="129"/>Praeterea, ista Deus factus est hemo 
+      conuer<lb ed="#P" n="130" break="no"/>titur in hac, homo factus est Deus. Sed secun¬ 
+      <!--297.xml-->
+      <pb ed="#P" n="297"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dum omner propie accipiendo haec est falsa, homo 
+      <lb ed="#P" n="2"/>factus est Deus. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e236">
+               <lb ed="#P" n="3"/>Contra. Quicquid incipit esse homo factus 
+      <lb ed="#P" n="4"/>est homo. Sed Deus incipit esse homo, cum prius 
+      <lb ed="#P" n="5"/>non esset. Ergo Deus factus est homo 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e245">
+               <lb ed="#P" n="6"/>ARTICVLVS PRIMVS
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e250">
+               <lb ed="#P" n="7"/>REspondeo. Circa hanc questionem tria sunt 
+      <lb ed="#P" n="8"/>Radia, 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e257">
+               <lb ed="#P" n="9"/>Primo videndum est quomodo terminus, 
+      pre<lb ed="#P" n="10" break="no"/>cipue concretus diuersimode potest accipi in 
+      sub<lb ed="#P" n="11" break="no"/>iecto &amp; in praedicato. Nam communiter dicitur 
+      <lb ed="#P" n="12"/>quod quando est a parte subiecti, tenetur materia. 
+      <lb ed="#P" n="13"/>liter: quia scilicet tenetur pro supposito habente 
+      <lb ed="#P" n="14"/>formam siue naturam importatam per tertium, &amp; 
+      <lb ed="#P" n="15"/>praecipue loquendo de tertio substantiali, sicut est 
+      <lb ed="#P" n="16"/>homo, vel animal, vel aliquod tale. Sed in 
+      prae<lb ed="#P" n="17" break="no"/>dicato pro forma. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e279">
+               <lb ed="#P" n="18"/>Istud autem dictum non videtur sic 
+      intelligen<lb ed="#P" n="19" break="no"/>dum quasi concretum aliquando supponat pro 
+      na<lb ed="#P" n="20" break="no"/>tura abstracta in recto. Nunquam enm homo 
+      <lb ed="#P" n="21"/>supponit per humanitate in recto, nisi forte 
+      <lb ed="#P" n="22"/>homo esset gratia materialiter: vt sit suppositum 
+      <lb ed="#P" n="23"/>hominis ipsa humanitas. Accipiendo autem 
+      ter<lb ed="#P" n="24" break="no"/>tium formaliter, sem persupponit pro habente 
+      hu<lb ed="#P" n="25" break="no"/>manitatem. Et ideo semper importat hnmanitatem 
+      <lb ed="#P" n="26"/>inobliquo. Et ideo illa distinctio videtur mihi sic 
+      <lb ed="#P" n="27"/>accipienda, quod tertius concretus qui est idem 
+      <lb ed="#P" n="28"/>quod hubens naturam aliquam, puta homo, 
+      quan<lb ed="#P" n="29" break="no"/>tum potest accipi magis secundum quod est 
+      ali<lb ed="#P" n="30" break="no"/>quid in se, quam secundum quod est habens: sicut 
+      <lb ed="#P" n="31"/>si dicam album currit, album magis accipitur pro 
+      <lb ed="#P" n="32"/>ipso supposito habente secundum illud quod in se 
+      <lb ed="#P" n="33"/>est, quam secundum est habens. Quia &amp; si non 
+      <lb ed="#P" n="34"/>potest virificari propositio qua dicitur album 
+      cur<lb ed="#P" n="35" break="no"/>rit; nisi subiectum cursus habeat albedinem: 
+      ta<lb ed="#P" n="36" break="no"/>men albedo subiecti nihil facit ad hoc quod 
+      par<lb ed="#P" n="37" break="no"/>tum insit subiecto. Albedo enim nihil facit ad hoc 
+      <lb ed="#P" n="38"/>quod aliquis currat. Sed quando dicitur homo 
+      <lb ed="#P" n="39"/>est albus: album stat ibi pro habente, vt habens est. 
+      <lb ed="#P" n="40"/>Vnde esse album prout ly album ponitur a parte 
+      <lb ed="#P" n="41"/>praedicati, non conuenit alicui nisi per hoc quod 
+      <lb ed="#P" n="42"/>habet albedinem formaliter loquendo. Sed 
+      ali<lb ed="#P" n="43" break="no"/>quid bene eonuenit albo in subiecto posito: non 
+      <lb ed="#P" n="44"/>per hoc quod habet albedinem. Hoc sit dictum 
+      <lb ed="#P" n="45"/>de primo: 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e342">
+               <lb ed="#P" n="46"/>ARTICVLVS SECNDVSI 
+      <lb ed="#P" n="47"/>SEcundo: Distinguendum est de fieri. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e350">
+               <lb ed="#P" n="48"/>Ad cuius euidentiam sciendum quod 
+      ali<lb ed="#P" n="49" break="no"/>quid dicitur fieri dupliciter. Vno modo 
+      simplici<lb ed="#P" n="50" break="no"/>ter &amp; absque determninatione, vt cum dicitur ho: 
+      <lb ed="#P" n="51"/>mo fit: &amp; sic fieri intelligitur de supposito cui 
+      at<lb ed="#P" n="52" break="no"/>tribuitur fieri. Alio modo dicitur aliquid fiericum 
+      <lb ed="#P" n="53"/>determinatione; vt cum dicitur homo fit albus 
+      <lb ed="#P" n="54"/>vel aliquid tale: &amp; tale fieri non oportet intelligi 
+      <lb ed="#P" n="55"/>de supposito cui attribuitur quasi fiat suppositum: 
+      <lb ed="#P" n="56"/>sed attribuitut sibi in ordine ad partum. Sed tale 
+      <lb ed="#P" n="57"/>fieri dicitur aliquid fieri non simpliciter: sed 
+      <lb ed="#P" n="58"/>secundum quid. Vnde quando dicitur homo 
+      <lb ed="#P" n="59"/>fieri albus, non attribuitur ei fieri simpliciter: sed 
+      <lb ed="#P" n="60"/>secundum quid. Vnde si quis inferat homo non 
+      <lb ed="#P" n="61"/>fit. Ergo non fit albus, non esset processus a 
+      su<lb ed="#P" n="62" break="no"/>periori ad inferius negado; imo esset processus ad 
+      <lb ed="#P" n="63"/>simplicirer ad secundum quid: vt si diceretur, non 
+      <lb ed="#P" n="64"/>est albus: ergo non albus secundum dentes. 
+      Vn<lb ed="#P" n="65" break="no"/>de sciendum quod quaedam sunt quorum esse 
+      in<lb ed="#P" n="66" break="no"/>fert esse simpliciter sicut esse album infert esse sim¬ 
+      <!--297.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>plicitur. Eorum tamen fieri, est fieri secundum 
+      <lb ed="#P" n="68"/>quid, nec infert fieri simpliciter: sicut hominem 
+      <lb ed="#P" n="69"/>fieri album non infert simpliciter hominem 
+      fie<lb ed="#P" n="70" break="no"/>ri. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e407">
+               <lb ed="#P" n="71"/>Secundo distinguendum est de fieri quod 
+      ac<lb ed="#P" n="72" break="no"/>cipitur cum additione, quia quintum denominat 
+      <lb ed="#P" n="73"/>illud in quo sicut in subiecto est ipsum fieri; sicut 
+      <lb ed="#P" n="74"/>quando dicitur homo fieri album: illud fieri est 
+      <lb ed="#P" n="75"/>in homine sicut in subiecto. Quintum vero fien 
+      <lb ed="#P" n="76"/>denominat illud in quo non est fieri sicut in 
+      subie<lb ed="#P" n="77" break="no"/>cto, sed habet habitudinem ad id in quo est fiert 
+      <lb ed="#P" n="78"/>sicut in subiecto, sicut res quae viderur dicitur fieri 
+      <lb ed="#P" n="79"/>visa eam quando aliquis de nouo videt, non 
+      fie<lb ed="#P" n="80" break="no"/>ri existens realiter inre visa, sed per fieti existens 
+      <lb ed="#P" n="81"/>in vidente: ita quod per illud res visa non fit 
+      ali<lb ed="#P" n="82" break="no"/>quid realiter, nec in ea aliqua mutatio fadta est 
+      <lb ed="#P" n="83"/>realiter, sed in alio. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e438">
+               <lb ed="#P" n="84"/>Tertio, sciendum quid, quando aliquid 
+      di<lb ed="#P" n="85" break="no"/>eitur fiericum additione illud dicitur, &amp; dicitur esse 
+      <lb ed="#P" n="86"/>terminus factionis quae est aparte positi, vt cum 
+      di<lb ed="#P" n="87" break="no"/>citur homo fit albus: esse album est terminus huius 
+      <lb ed="#P" n="88"/>factionis. IIlud quod est a parte subiecti 
+      signifi<lb ed="#P" n="89" break="no"/>catur vt subiectum factionis vt secundum rem; 
+      si<lb ed="#P" n="90" break="no"/>cut cum dicitur houo fit albus: vel secundum 
+      ra<lb ed="#P" n="91" break="no"/>tionem, vt cum dicitur lignum fit visum. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e458">
+               <lb ed="#P" n="92"/>Quarto, sciendum quod quando dicitur homo 
+      <lb ed="#P" n="93"/>fit Deus, vel Deus factus est homo, potest esse 
+      tri<lb ed="#P" n="94" break="no"/>plex sensus, quorum duo sunt extorti &amp; inproprij: 
+      <lb ed="#P" n="95"/>tertius est proprius. Vnus est secundum quod 
+      <lb ed="#P" n="96"/>fieri determinat totam compositionem, &amp; est 
+      <lb ed="#P" n="97"/>sensus, quod factum est vt homo sit Deus, vel 
+      <lb ed="#P" n="98"/>quod Deus sit homo: &amp; secundum istum sensum 
+      <lb ed="#P" n="99"/>vtraque est vera. Secundus sensus est secundum 
+      <lb ed="#P" n="100"/>quod fieri absolute habet determinare vel 
+      subie<lb ed="#P" n="101" break="no"/>ctum vel positum, &amp; est sensus quod Deus factus 
+      <lb ed="#P" n="102"/>est homo, &amp; homo factus est Deus, id est, ille 
+      <lb ed="#P" n="103"/>Deus qui est factus ille homo inquantum est 
+      ho<lb ed="#P" n="104" break="no"/>mo: &amp; sic simpliciter fieri attribuitur Deo, &amp; 
+      po<lb ed="#P" n="105" break="no"/>stea Deo faicto attriturtur quod sit homo, vel e 
+      <lb ed="#P" n="106"/>conuerso quod deitas dicatur osse, &amp; quod ille 
+      ho<lb ed="#P" n="107" break="no"/>mo sit simpliciter factus: &amp; iste sensus super est 
+      <lb ed="#P" n="108"/>falsus, siue dicatur quod Deus factus est homo, 
+      si<lb ed="#P" n="109" break="no"/>ue quod homo factus est Deus. Et isui duo sensus 
+      <lb ed="#P" n="110"/>sunt inproprii. Et ideo nolo eos plus pertractaria 
+      <lb ed="#P" n="111"/>Tertius sensus est secundum quod licet factus 
+      deter<lb ed="#P" n="112" break="no"/>minat subiectum in comparatione ad positum: &amp; 
+      <lb ed="#P" n="113"/>hunc sensum importat directe propositio de se. 
+      <lb ed="#P" n="114"/>Modo quando dicitur Deus factus est homo, 
+      sen<lb ed="#P" n="115" break="no"/>sus est quod Deus factus est habens 
+      humanita<lb ed="#P" n="116" break="no"/>tem. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e515">
+               <lb ed="#P" n="117"/>ARTICVLVS TERTIVS. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e520">
+               <lb ed="#P" n="118"/>HIs praemissis, tertio principaliter 
+      descen<lb ed="#P" n="119" break="no"/>dendo ad propositum dicendum, quod 
+      ac<lb ed="#P" n="120" break="no"/>cipiendo propositiones in vltimo sensu, qui est 
+      <lb ed="#P" n="121"/>sensus proprius, fit illa propositio Deus factus 
+      <lb ed="#P" n="122"/>homo simpliciter est vera: alia autem scilicet 
+      ho<lb ed="#P" n="123" break="no"/>mo factus est Deus, est simpliciter falsa. Ratio 
+      <lb ed="#P" n="124"/>primtest, quta quando dicitur Deus factus est 
+      ho<lb ed="#P" n="125" break="no"/>mo, fieri attribuitur in ordine ad hunc tertium, 
+      <lb ed="#P" n="126"/>quod est esse hominem. Hoc autem est verum. 
+      <lb ed="#P" n="127"/>Nam licet fieri non sit realiter in Deo. Tamen 
+      po<lb ed="#P" n="128" break="no"/>test vere denominari a fiere existente realiter in 
+      <lb ed="#P" n="129"/>aliquo dependente ab eo scilicet in natura 
+      huma<lb ed="#P" n="130" break="no"/>na assun pta: sicut lignum dicitur fieri visum per 
+      <lb ed="#P" n="131"/>fieri existens in vidente. Esse etiam hominem est 
+      ter<lb ed="#P" n="132" break="no"/>minus huius fieri. Quia licet suppositum secundumi 
+      <lb ed="#P" n="133"/>id quod est non sit tertius dictae factionis: tam en 
+      <lb ed="#P" n="134"/>secundum quod est habens humanitatem est 
+      ter<lb ed="#P" n="135" break="no"/>minus illius factionis. Nam per illum facuone fa¬ 
+      <!--298.xml-->
+      <pb ed="#P" n="298"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ctum est quod sit humanitum. Sicut autem dictum 
+      <lb ed="#P" n="2"/>est homo in parto positus stat non pro eo quod est 
+      <lb ed="#P" n="3"/>habens, secundu nquod in se est quoddam 
+      suppo<lb ed="#P" n="4" break="no"/>situm: sed secundum quud est habens 
+      humanita<lb ed="#P" n="5" break="no"/>tem, secundum quam factionem est terminus 
+      fa<lb ed="#P" n="6" break="no"/>ctionis illius: &amp; ideo vere dicitur quod Deus 
+      fa<lb ed="#P" n="7" break="no"/>ctus est homo. Ratio autem secundi faciliter 
+      pa<lb ed="#P" n="8" break="no"/>tet. Qura Deus scilicet suppositum habens 
+      deita<lb ed="#P" n="9" break="no"/>tem, uec secundum quod in se est quoddam 
+      sup<lb ed="#P" n="10" break="no"/>positum, nec secundum quod habens deitarem, 
+      <lb ed="#P" n="11"/>potest esse terminus alicuius factionis. Vnde 
+      sup<lb ed="#P" n="12" break="no"/>positum illud diuinum quod est habens 
+      humani<lb ed="#P" n="13" break="no"/>tatem per nullam factionem habet deitatem, nec 
+      <lb ed="#P" n="14"/>per aliquem effectum essicitur habens deitatem: 
+      <lb ed="#P" n="15"/>sed quando dicitur homo factus est Deus, 
+      sigui<lb ed="#P" n="16" break="no"/>ficatur quod illud suppositum diuinum quod 
+      ha<lb ed="#P" n="17" break="no"/>bet humanitatem per illam factionem, sic est 
+      fa<lb ed="#P" n="18" break="no"/>ctum habens deitatem quasi illa factio terminetur ad 
+      <lb ed="#P" n="19"/>hoc quod illud suppositum habeat deitatem. Et 
+      <lb ed="#P" n="20"/>ideo hoc praeposito, homo est factus Deus, est 
+      sim<lb ed="#P" n="21" break="no"/>pliciter falsa. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e615">
+               <lb ed="#P" n="22"/>Ad primum ergo in oppositum dicendum 
+      <lb ed="#P" n="23"/>quod fieri est mutari illius in quo est realiter sicut 
+      <lb ed="#P" n="24"/>in subiecto: non autem oportet quod fieri sit 
+      mu<lb ed="#P" n="25" break="no"/>tari illius quod denominatur a fieri, quod est in 
+      <lb ed="#P" n="26"/>alio secundum rem. Et ideo non oportet quod 
+      <lb ed="#P" n="27"/>Deus dicatur mutari, licet dicatur fieri aliquio. 
+      <lb ed="#P" n="28"/>Sed si quaeratur quare fieri denominat aliquid a 
+      <lb ed="#P" n="29"/>mutari existente in alio. Dicendum quod fieri 
+      <lb ed="#P" n="30"/>simpliciter conuenit termino factionis &amp; subiecto: 
+      <lb ed="#P" n="31"/>Et subiecto factionis non attribuitur nisi quod 
+      ha<lb ed="#P" n="32" break="no"/>bet habitudinem ad terminum factioni,: sicut in 
+      <lb ed="#P" n="33"/>dealbatione non dicimus quod homo fiat 
+      simpli<lb ed="#P" n="34" break="no"/>citer, sed quod fiat albus. Et ideo fieri attribuitur 
+      <lb ed="#P" n="35"/>omni ei quod per perfectionem habet 
+      habitudi<lb ed="#P" n="36" break="no"/>nem nouam &amp; rationis ad terminum factionis: sicut 
+      <lb ed="#P" n="37"/>dictum est supra quod lignum factum est visum 
+      <lb ed="#P" n="38"/>propter hoc quod habet h bitudinem ad visionem 
+      <lb ed="#P" n="39"/>factam in vidente. Mutari vero simpliciter importat 
+      <lb ed="#P" n="40"/>habere habitudinem ad terminum ad quem: nec 
+      <lb ed="#P" n="41"/>conuenit termino ad quem, sed sub ecto. Vnde 
+      <lb ed="#P" n="42"/>quando homo dealbatur, verum est dicere 
+      simpli<lb ed="#P" n="43" break="no"/>citer quod homo mutatur. Et ideo non dicitur 
+      pro<lb ed="#P" n="44" break="no"/>prie mutari: nisi illud quod vere &amp; realiter est 
+      <lb ed="#P" n="45"/>subiectum mutationis in quo succedunt duo 
+      ter<lb ed="#P" n="46" break="no"/>mini, scilicet a quo &amp; ad quem. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e672">
+               <lb ed="#P" n="47"/>Ad secundum dicendum quod quaedam sunt 
+      <lb ed="#P" n="48"/>quae secundum esse inferunt esse simpliciter de eo 
+      <lb ed="#P" n="49"/>de quo dicuntur, &amp; tamen corum fieri pertiner 
+      <lb ed="#P" n="50"/>ad secundum quid, &amp; est determinatio 
+      dimi<lb ed="#P" n="51" break="no"/>nuens. Sequitur enim, iste est homo albus: ergo 
+      <lb ed="#P" n="52"/>est homo. Sed non sequitur hemo fit albus: ergo 
+      <lb ed="#P" n="53"/>simpliciter fit homo, &amp; illud est vniuersaliter vetum 
+      <lb ed="#P" n="54"/>in omni accidente, &amp; in omni eo quod haber 
+      mo<lb ed="#P" n="55" break="no"/>dum accidentis, quod esse eius in quo est non de 
+      <lb ed="#P" n="56"/>pendet ab illo. Et sic sumitur quantum ad hoc 
+      <lb ed="#P" n="57"/>natura humana in persona diuina quae habet 
+      mo<lb ed="#P" n="58" break="no"/>dum accidentis: quia suppositum in quo est non 
+      <lb ed="#P" n="59"/>dependet simpliciter ab illa. Ideo fieri homo 
+      res<lb ed="#P" n="60" break="no"/>pectu personae diuinae, non est fieri simpliciter: 
+      <lb ed="#P" n="61"/>sed fieri secundum quid. Dicendum ergo, quod 
+      <lb ed="#P" n="62"/>non sequitur, quod si Deus non est factus, quod 
+      <lb ed="#P" n="63"/>non sit factus homo. Nec est ibi processus a 
+      su<lb ed="#P" n="64" break="no"/>periori ad inferius negando, sed est processus a 
+      <lb ed="#P" n="65"/>simpliciter ad secundum quid negando: sicut si 
+      <lb ed="#P" n="66"/>dicererur non est albus: ergo non albus dente. 
+      <lb ed="#P" n="67"/>Quidam respondent ad illud argumentum 
+      dicen<lb ed="#P" n="68" break="no"/>do, quod non sequitur, Deus non est factus: 
+      er<lb ed="#P" n="69" break="no"/>go non est factus homo, quia Deo non conuenit 
+      <lb ed="#P" n="70"/>quod sit factus homo per fieri existens in Christo. 
+      <!--298.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Sed ista responsio nulia est. Quia sequeretur quod 
+      <lb ed="#P" n="72"/>per oppositum aliquid diceretur fieri simpliciter, 
+      <lb ed="#P" n="73"/>si fieri esse: in eo sicut in subiecto: hoc autem est 
+      <lb ed="#P" n="74"/>falsum. Nam licet haec sit vera Socrates fit 
+      ho<lb ed="#P" n="75" break="no"/>die albus per fieri quod est in ipso sicut in 
+      subie<lb ed="#P" n="76" break="no"/>cto: tamen non est verum quod Socrates hodie 
+      <lb ed="#P" n="77"/>fit. Vnde non sequitur Socrates hodie non est 
+      <lb ed="#P" n="78"/>factus: Ergo non est hod e factus albus, cum 
+      ta<lb ed="#P" n="79" break="no"/>men fieri quod est dealbatio ponatur in Soerat. 
+      <lb ed="#P" n="80"/>sicut in subiecto secundum rem. Et ideo alius 
+      <lb ed="#P" n="81"/>modus respondendi est melior. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e755">
+               <lb ed="#P" n="82"/>Ad tertium, patet ex dictis. Nam ostensum 
+      <lb ed="#P" n="83"/>est quod aliquid denominatur factum per fieri 
+      <lb ed="#P" n="84"/>existens in alio sicut in subiecto: &amp; sic est in 
+      pro<lb ed="#P" n="85" break="no"/>posito. Nam Deus dicitur factus homo per fieri 
+      <lb ed="#P" n="86"/>existens in natura humana, per quod fieri factam 
+      <lb ed="#P" n="87"/>est dependens a persona diuina, &amp; ex hoc 
+      deno<lb ed="#P" n="88" break="no"/>minatur Deus factus homo. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e773">
+               <lb ed="#P" n="89"/>Ad quartum dicendum, quod haec est vera 
+      <lb ed="#P" n="90"/>Deus est homo. Ad hoc autem quod postea que 
+      <lb ed="#P" n="91"/>ritur vtrum homo sit per se partum vel per 
+      acci<lb ed="#P" n="92" break="no"/>dens. Communiter tenetur, quod si attendatur 
+      <lb ed="#P" n="93"/>ad suppositum sic est per se: quia scilicet 
+      suppo<lb ed="#P" n="94" break="no"/>situm habens deitate est per essentiam suam 
+      sup<lb ed="#P" n="95" break="no"/>positum habens humanitatem. Sed quantum ad 
+      <lb ed="#P" n="96"/>formam, est per accidens: quia Deus in eo quod 
+      <lb ed="#P" n="97"/>Deus, non est homo. Si enim ex hoc ipso 
+      forma<lb ed="#P" n="98" break="no"/>liter quod est habens deitarem, esset habens 
+      hu<lb ed="#P" n="99" break="no"/>manitatem: sequeretur quod Deus non posset non 
+      <lb ed="#P" n="100"/>esse homo. Sed quid debet magis concedi quod 
+      <lb ed="#P" n="101"/>sit per accidens quam sit per se: videtur 
+      quibus<lb ed="#P" n="102" break="no"/>dam quod magis debet dici per accidens quam per 
+      <lb ed="#P" n="103"/>se. Quia terminus quando accipitur cum 
+      redu<lb ed="#P" n="104" break="no"/>plicatione, licet sit ex parte subiecti, semper 
+      te<lb ed="#P" n="105" break="no"/>netur formaliter. Vnde Deus secundum quod 
+      <lb ed="#P" n="106"/>Deus, stat pro habente deitatem, secundum quod 
+      <lb ed="#P" n="107"/>est habens deitatem. Et ideo quando dicitur Deus 
+      <lb ed="#P" n="108"/>secundum quod Deus est homo, denotatur 
+      habi<lb ed="#P" n="109" break="no"/>tudo per se inter formam parti &amp; subiecti, &amp; non 
+      <lb ed="#P" n="110"/>inter suppositum vtriusque formae: nisi 
+      inquan<lb ed="#P" n="111" break="no"/>tum est habens formas illas, &amp; hoc videtur mihi 
+      <lb ed="#P" n="112"/>probabile. vnde ista Deus est homo, videtur 
+      ma<lb ed="#P" n="113" break="no"/>gis accedere ad naturam propositionis per 
+      acci<lb ed="#P" n="114" break="no"/>dens: qum ad naturam propositionis perse. Ita 
+      <lb ed="#P" n="115"/>tamen quod per accidens, non accipitur hic pro 
+      <lb ed="#P" n="116"/>propositione habente partum quod sit accidens: 
+      <lb ed="#P" n="117"/>sed quod habeat modum accidentis quantum ad 
+      <lb ed="#P" n="118"/>hoc quod partum sit ex ratione subiecti, siue 
+      <lb ed="#P" n="119"/>quantum ad hoc quod non sit habitudo &amp; per se 
+      <lb ed="#P" n="120"/>necessiria ex natura rei inter formam parti &amp; 
+      sub<lb ed="#P" n="121" break="no"/>iecti. Vnde etiam ista, animal est homo, ponitur 
+      <lb ed="#P" n="122"/>esse per accidens: &amp; tamen partum est idem per 
+      <lb ed="#P" n="123"/>essentiam cum subiecto. Si ergo concedatur quod 
+      <lb ed="#P" n="124"/>ali quo modo sit per se. Dicendum ad illud quod 
+      <lb ed="#P" n="125"/>obiicitur in contrarium, quod est in primo modo 
+      <lb ed="#P" n="126"/>dicendi per se. Et quando dicitur quod non, quia 
+      <lb ed="#P" n="127"/>partum non est de ratione subiecti. Dicendum quod 
+      <lb ed="#P" n="128"/>licet quantum ad formam parti &amp; subiecti, 
+      par<lb ed="#P" n="129" break="no"/>tum non sit de ratione subiecti; tamen quantum 
+      <lb ed="#P" n="130"/>ad suppositum partum est idem essentialitet cum 
+      <lb ed="#P" n="131"/>subiecto: &amp; hoc sufficit quod aliquo modo sit ibi 
+      <lb ed="#P" n="132"/>primus modus dicendi per se. Sustinendo autem 
+      <lb ed="#P" n="133"/>quod sit formaliter lo quendo per accidens. 
+      Di<lb ed="#P" n="134" break="no"/>cendum ad illud quod obiicitur in contrarium, 
+      <lb ed="#P" n="135"/>quod nen sequitur, ex hoc quod vnio illa 
+      acciden<lb ed="#P" n="136" break="no"/>talis sit secundum quod vna substantia 
+      acciden<lb ed="#P" n="137" break="no"/>taliter aduenit alteri: sicut vestis homini. Quia sic 
+      <lb ed="#P" n="138"/>nec per se, nec per accidens Deus esset homo: 
+      si<lb ed="#P" n="139" break="no"/>cut nec homo vestis. Sed bene sequitur, quod 
+      <lb ed="#P" n="140"/>natura humana se habeat respectu Dei aliquomo¬ 
+      <!--299.xml-->
+      <pb ed="#P" n="299"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>do ad madum accidentis: quia scilicet nonest de 
+      <lb ed="#P" n="2"/>formali ratione huins termini quod est Deus. 
+      </p>
+            <p xml:id="hx2hx3-b99938-d1e899">
+               <lb ed="#P" n="3"/>Ad quintum dicendum, quod hae Deus 
+      fa<lb ed="#P" n="4" break="no"/>ctus est homo, non conuertitur in hanc homo 
+      fa<lb ed="#P" n="5" break="no"/>ctus est Deus: Sed in hanc, ille qui factus est homo 
+      <lb ed="#P" n="6"/>est Deus, &amp; haec est vera. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

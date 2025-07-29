@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="299"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c00753"><!-- l3d8q1 -->
+            <head xml:id="hx2hx3-c00753-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-c00753-Hd1e101" type="question-title">Utrum in Christo sint duae filiationes reales</head>
+            <p xml:id="hx2hx3-c00753-d1e104">
+               <lb ed="#P" n="7"/>An diuina natura debeat dici nata de 
+      vir<lb ed="#P" n="8" break="no"/>gine. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e111">
+               <lb ed="#P" n="9"/>Post praedictam inquiri dicitur vtrum de 
+      <lb ed="#P" n="10"/>natura diuina concedendum sit, quod de 
+      <lb ed="#P" n="11"/>Virgine sit nata: sicut dicitur in 
+      Firgi<lb ed="#P" n="12" break="no"/>ne incarnata: &amp; videtur vtique non 
+      de<lb ed="#P" n="13" break="no"/>bere dici nata de Virgine: cum non sit 
+      <lb ed="#P" n="14"/>nara de Patre, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e127">
+               <lb ed="#P" n="15"/>Distinctio octaua. 
+      <lb ed="#P" n="16"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e135">
+               <lb ed="#P" n="17"/>Svper octauam distinctionem: Queritut vtrum 
+      <lb ed="#P" n="18"/>in Christo sint duae filiationts reales. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e142">
+        Et 
+      ar<lb ed="#P" n="19" break="no"/>guitur quod sic: quia filiatio fundatur vel super 
+      <lb ed="#P" n="20"/>natiuitatem, vel tuper naturam per natiuitatem 
+      <lb ed="#P" n="21"/>habitam. Sed in Christo sunt duae natiuitates, &amp; 
+      <lb ed="#P" n="22"/>duae naturae per natiuitate habitae. Ergo m 
+      Chri<lb ed="#P" n="23" break="no"/>sto suut duae fillationes reales. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e155">
+               <lb ed="#P" n="24"/>Contra: filiatio pertinet ad personam. Sed in 
+      <lb ed="#P" n="25"/>persona diuina non potest esse relatio realis ad 
+      <lb ed="#P" n="26"/>creaturam. Ergo in persona Christi non est 
+      rela<lb ed="#P" n="27" break="no"/>tio realis ad matrem. Et sic in Christo non est 
+      ni<lb ed="#P" n="28" break="no"/>si vna filiatio realis, quae est ad pattem. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e168">
+               <lb ed="#P" n="29"/>Respondeo. Hic 5. sunt videnda. 
+      <lb ed="#P" n="30"/>Primo, vnde relationes habent 
+      multipli<lb ed="#P" n="31" break="no"/>cari. 
+      <lb ed="#P" n="32"/>Secundo, videndum est de fundamento 
+      re<lb ed="#P" n="33" break="no"/>lationis. 
+      <lb ed="#P" n="34"/>Tertio, videndum est de subiecto. 
+      <lb ed="#P" n="35"/>Quarto, videndum est de subiecto &amp; 
+      funda<lb ed="#P" n="36" break="no"/>mento filiationis. 
+      <lb ed="#P" n="37"/>Quinto, ponendae sunt opiniones de 
+      quae<lb ed="#P" n="38" break="no"/>stione prinopali. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e192">
+               <lb ed="#P" n="39"/>ARTICVLVS PRIMVS.
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e197">
+               <lb ed="#P" n="40"/>Qvantum ad primum breuiter licendum est, 
+      <lb ed="#P" n="41"/>quod relationes multiplicantur ex tribus, 
+      <lb ed="#P" n="42"/>scilicet ex suppositis in quibus sunt, &amp; ex 
+      funda<lb ed="#P" n="43" break="no"/>mentis, &amp; ex termins. Ex suppositis sicut duae 
+      <lb ed="#P" n="44"/>filiationes quae sunt in duobus filis ad eundem 
+      <lb ed="#P" n="45"/>Patrem, Ex fundamentis: sicut similitudo &amp; 
+      e<lb ed="#P" n="46" break="no"/>qualitas eiusdem differunt paenes fundamenta 
+      <lb ed="#P" n="47"/>quae sunt qualitas &amp; quantitas. Ex terminis sicut 
+      <lb ed="#P" n="48"/>similitudo &amp; dissimilitudo eiusdem, &amp; 
+      secun<lb ed="#P" n="49" break="no"/>dum eamdem qualitatem ad diuersa: sicut album 
+      <lb ed="#P" n="50"/>aliquod per eamdem albedinem refertur et 
+      simi<lb ed="#P" n="51" break="no"/>le ad aliud album &amp; vt dissimile ad nigrum. In 
+      <lb ed="#P" n="52"/>hoc tamen differt inter ista, quia pluralitas quae 
+      <lb ed="#P" n="53"/>ace ipitur secundum supposita; si accipiatur 
+      se<lb ed="#P" n="54" break="no"/>cundum supposita tantum manente eodem 
+      fun<lb ed="#P" n="55" break="no"/>damento &amp; termino formali: est tantum 
+      secun<lb ed="#P" n="56" break="no"/>dum numerum, sicut patet de filiatione duorum 
+      <lb ed="#P" n="57"/>filiorum. Illa autem quae est secundum 
+      funda<lb ed="#P" n="58" break="no"/>menta tantum, manente eodum subiecto: 
+      opor<lb ed="#P" n="59" break="no"/>tet qued sit secundum speciem: quia plura 
+      abso<lb ed="#P" n="60" break="no"/>lura numero non possunt esse ineodem subiecto 
+      <lb ed="#P" n="61"/>super quo possunt fundati diuersse relationes solo 
+      <lb ed="#P" n="62"/>numero diff rentes. Illa similiter pluralitas quae 
+      <!--299.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>est paener terminqs, oponet quod sit: secundum 
+      <lb ed="#P" n="64"/>speciem. Num si accipiantur diuersi termini d 
+      f<lb ed="#P" n="65" break="no"/>ferentes numero tantum: relatio qua aliquod 
+      <lb ed="#P" n="66"/>vnum subiectum refertur ad omnes illos 
+      termi<lb ed="#P" n="67" break="no"/>nos, est vna relatio realiter tantum: sicut pacer 
+      <lb ed="#P" n="68"/>vna paternitate refertur ad omnes filios suos. Si 
+      <lb ed="#P" n="69"/>autem termini differant formaliter, oportet 
+      rela<lb ed="#P" n="70" break="no"/>tiones quibus aliquid refertur ad illos ter minos 
+      <lb ed="#P" n="71"/>form iliter diuersos differre formaliter &amp; per 
+      <lb ed="#P" n="72"/>consequens differre secundum speciem: sicut 
+      pa<lb ed="#P" n="73" break="no"/>tet de eo quod refertur ad album vt ad sinusle, &amp; 
+      <lb ed="#P" n="74"/>ad nigrum vt ad dissimile. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e281">
+               <lb ed="#P" n="75"/>ARTIQVLVS SECVNDVS. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e286">
+               <lb ed="#P" n="76"/>SEcundo videndum est de fundamento relatio 
+      <lb ed="#P" n="77"/>Dnis. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e293">
+               <lb ed="#P" n="78"/>Circa quod sciendum quod aliud est esse 
+      <lb ed="#P" n="79"/>fundamentum relationis, &amp; esse causam aliquo 
+      <lb ed="#P" n="80"/>modo ipsius. Nam actio &amp; passio sunt aliquo 
+      mo<lb ed="#P" n="81" break="no"/>do causa paternitatis &amp; filiationis, quia 
+      impossi<lb ed="#P" n="82" break="no"/>bile est quod aliquis sit pater alicuius nisi 
+      genue<lb ed="#P" n="83" break="no"/>rit eum: tamen actio &amp; passio secundum quod 
+      <lb ed="#P" n="84"/>homini non sunt fundamento paternitatis &amp; 
+      filia<lb ed="#P" n="85" break="no"/>tionis, sed aliquid derelictum ex actione &amp; 
+      passio<lb ed="#P" n="86" break="no"/>ne, vel saltem aliquid manens post actionem &amp; 
+      <lb ed="#P" n="87"/>passionem: alioquin pater &amp; filius non manerent 
+      <lb ed="#P" n="88"/>pater &amp; filius nisi durante generatione, quod 
+      fal<lb ed="#P" n="89" break="no"/>sum est. Et sic generatio actiua &amp; passiua sunt 
+      <lb ed="#P" n="90"/>causa filiationis &amp; paternitatis, &amp; non 
+      fundamen<lb ed="#P" n="91" break="no"/>tum: ita forte impossibile est quod aliquid 
+      ma<lb ed="#P" n="92" break="no"/>nens in ipso relato sir causa relationis tantum, &amp; 
+      <lb ed="#P" n="93"/>non fundamentum: &amp; de hoc plur tangetur in 
+      <lb ed="#P" n="94"/>quarto articulo. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e332">
+               <lb ed="#P" n="95"/>ARTICVLVS TERTIVS 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e337">
+               <lb ed="#P" n="96"/>Tertio videndum est de subiecto relationis.
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e342">
+               <lb ed="#P" n="97"/>Ad cuius euidentiam est sciendum, quod 
+      <lb ed="#P" n="98"/>subiectum relationis vel cuiuscumque alterius 
+      ac<lb ed="#P" n="99" break="no"/>cidentis, dupliciter potest accipi. Vnomodo pro 
+      <lb ed="#P" n="100"/>supposito habente ipsum accidens: sicur si 
+      dica<lb ed="#P" n="101" break="no"/>tur quod homo est subiectum omnium 
+      acciden<lb ed="#P" n="102" break="no"/>tium quae sunt in ipso. Et sic subiectum relationis 
+      <lb ed="#P" n="103"/>dicitur suppositum quod refertur per relationem: 
+      <lb ed="#P" n="104"/>sicut homo est subiectum paternitatis. Asio 
+      mo<lb ed="#P" n="105" break="no"/>do dicitur relationis subiectum vel alterius 
+      acci<lb ed="#P" n="106" break="no"/>dentis illud mediante quo inest ipsi substantiae 
+      sub<lb ed="#P" n="107" break="no"/>sistenti: sicut si dicatur quod quantitas est 
+      subie<lb ed="#P" n="108" break="no"/>ctum figurae, &amp; intellectus est subiectum speciei 
+      <lb ed="#P" n="109"/>intelligibilis. Et accipiendo sic subiectum 
+      relatio<lb ed="#P" n="110" break="no"/>nis: sic fund mentum est subiectum relationis. 
+      <lb ed="#P" n="111"/>vnde illud in quo fundatur similitudo est 
+      subie<lb ed="#P" n="112" break="no"/>ctum similltudinis mediante quo inest ipsi 
+      suppo<lb ed="#P" n="113" break="no"/>sito quod dicitur smmile. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e382">
+               <lb ed="#P" n="114"/>ARTICVLVS QVARTVS. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e387">
+               <lb ed="#P" n="115"/>Qvarto videndum est specialiter in quo sit 
+      fi<lb ed="#P" n="116" break="no"/>tutio sicut in subiecto. Er ad hoc dicendum 
+      <lb ed="#P" n="117"/>quoo recundum quod dicitur subsectum 
+      relatio<lb ed="#P" n="118" break="no"/>nis est suppositum habens relationem in aliquo sui 
+      <lb ed="#P" n="119"/>fundatam: sic planum est secundum omnes quid 
+      <lb ed="#P" n="120"/>sit subiectum, vt dictum est, ipfius filiationis: quia 
+      <lb ed="#P" n="121"/>hoc est suppositum habens filiationem. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e405">
+               <lb ed="#P" n="122"/>Sed accipiendo subiectum pro fundamento in 
+      <lb ed="#P" n="123"/>quo filiatio fundatur sunt diuersae opmiones de 
+      <lb ed="#P" n="124"/>subiecto filiationis. Nam quidam dicunt quod 
+      <lb ed="#P" n="125"/>fundamentum filianonis est ipsa natura viuens per 
+      <lb ed="#P" n="126"/>generationem acquisita, fiue peream subsistrrhia¬ 
+      <!--300.xml-->
+      <pb ed="#P" n="300"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>bens naturam lllam, sicut conuenit alijs 
+      viuenti<lb ed="#P" n="2" break="no"/>bus a Christo: siue non subsistat per eum, sicut 
+      <lb ed="#P" n="3"/>conuenit Christo. Alij vero dicunt quod natura 
+      <lb ed="#P" n="4"/>fundamentum non est immediatum ipsius 
+      filia<lb ed="#P" n="5" break="no"/>tionis, sed est causa ex qua derelinquitur in ipso 
+      <lb ed="#P" n="6"/>supposito subsistente quaedam subiectio, siue 
+      quae<lb ed="#P" n="7" break="no"/>dam seuitius filialis correspondens viri cuidam in 
+      <lb ed="#P" n="8"/>patre &amp; in matre; ita quod sicut generatio actiua 
+      <lb ed="#P" n="9"/>&amp; passiua, licet sint causa ex qua derelinquitur 
+      il<lb ed="#P" n="10" break="no"/>lud in quo fundatur paternitas &amp; filiatio: non 
+      ta<lb ed="#P" n="11" break="no"/>men sunt fundamentum relationis. Ita esset 
+      natu<lb ed="#P" n="12" break="no"/>ra acquisita per generationem, licet sit causa ex 
+      <lb ed="#P" n="13"/>qua in supposito habente, filiationem acquiritur 
+      <lb ed="#P" n="14"/>aliquid in quo fundatur filiatio: non tamen est 
+      <lb ed="#P" n="15"/>fundamentum in quo immediate fundatur ipsa 
+      <lb ed="#P" n="16"/>filiatio, nisi forte ipsa natura esset idem cum 
+      sup<lb ed="#P" n="17" break="no"/>posito quod est filius. Et tunc saltem esset 
+      funda<lb ed="#P" n="18" break="no"/>mentum mediatum: quia subiectio illa quae est 
+      <lb ed="#P" n="19"/>fundamentum filiationis, vel quae forte est ipsa 
+      <lb ed="#P" n="20"/>filiatio (vt dicunt) habet esse immediate in 
+      sup<lb ed="#P" n="21" break="no"/>posito, siue in subsistente, ita quod ipsa subiectio, 
+      <lb ed="#P" n="22"/>vel debitum cuiusdam filialis seruitutis, vel est 
+      ip<lb ed="#P" n="23" break="no"/>sa filiatio fundata in ipso subsistentae acquirente 
+      <lb ed="#P" n="24"/>naturam viuentem per natiuitatem, vel est 
+      fun<lb ed="#P" n="25" break="no"/>damentum filiationis, quod quidem 
+      fundamen<lb ed="#P" n="26" break="no"/>tum oportet vlterius fundari in subsistente, 
+      secun<lb ed="#P" n="27" break="no"/>dum quod subsistens est. Quia habere ius, siue 
+      <lb ed="#P" n="28"/>possidere aliud vt subiectum, est suppositi solius vt 
+      <lb ed="#P" n="29"/>primi &amp; immediati subiecti: licet hoc possit sibi 
+      <lb ed="#P" n="30"/>inesse ex aliquo actu, vel ex aliqua natura 
+      acqui<lb ed="#P" n="31" break="no"/>sita. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e492">
+               <lb ed="#P" n="32"/>ARTICVLVS QVINTVS
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e497">
+               <lb ed="#P" n="33"/>QVinto. Ponendae sunt opiniones de 
+      que<lb ed="#P" n="34" break="no"/>stione principali. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e504">
+               <lb ed="#P" n="35"/>Ad quam dicunt illi, qui ponunt quod 
+      fun<lb ed="#P" n="36" break="no"/>damentum filiationis, in quo immediate est 
+      filia<lb ed="#P" n="37" break="no"/>tio, est ipsa natura viuens per generationem 
+      ac<lb ed="#P" n="38" break="no"/>quisitam: Quod in Christo sunt duae filiationes 
+      <lb ed="#P" n="39"/>reales. Cuius ratio est: Quia ad pluralitatem 
+      rea<lb ed="#P" n="40" break="no"/>lem relationum diuersarum rationum in eodem, 
+      <lb ed="#P" n="41"/>sufficit quod in eodem inueniantur diuersa 
+      funda<lb ed="#P" n="42" break="no"/>menta realia, &amp; diuersarum rationum fundandi: 
+      <lb ed="#P" n="43"/>scilicet diuersae filiationes, vna ad matrem; scilicet 
+      <lb ed="#P" n="44"/>temporalem: &amp; alia ad patrem. Et ideo videtur 
+      <lb ed="#P" n="45"/>eis quod sint in Christo duae filiationes reales. 
+      <lb ed="#P" n="46"/>Nec potest dici quod non multiplicentur per 
+      vni<lb ed="#P" n="47" break="no"/>tatem subiecti: Quia subiectum immediatum in 
+      <lb ed="#P" n="48"/>quo fundantur, scilicet natura diuina &amp; humana, 
+      <lb ed="#P" n="49"/>non est vnum, nec vnius rationis. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e540">
+               <lb ed="#P" n="50"/>Alij qui ponunt quod fundamentum 
+      filiatio<lb ed="#P" n="51" break="no"/>nis non est natura nisi subsistens, sit vel ipsum 
+      sup<lb ed="#P" n="52" break="no"/>positum, vel aliquod debitum subiectionis 
+      im<lb ed="#P" n="53" break="no"/>mediate in supposito fundatum: Ponunt quod in  
+      <lb ed="#P" n="54"/>Christo non est nisi vna filiatio realis, illa scilicet 
+      <lb ed="#P" n="55"/>qua refertur ad patrem ab aeterno: filiatio autem 
+      <lb ed="#P" n="56"/>secundum quam temporaliter refertur, non est 
+      <lb ed="#P" n="57"/>secundum eos relatio realis, sed relatio rationis 
+      <lb ed="#P" n="58"/>tantum: Quare in Christo bene ponunt diuersas 
+      <lb ed="#P" n="59"/>filiationes diuersarum rationum; sed vna earum 
+      <lb ed="#P" n="60"/>non est filiatio vel relatio realis. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e566">
+               <lb ed="#P" n="61"/>Et ratio eorum est: quia secundum eos filiatio 
+      <lb ed="#P" n="62"/>ad matrem; nec vniuersaliter aliqua filiatio 
+      po<lb ed="#P" n="63" break="no"/>test fundari super naturam nisi sit subsistens. 
+      Na<lb ed="#P" n="64" break="no"/>tura autem humana in Christo non est subsistens 
+      <lb ed="#P" n="65"/>vel suppositum: &amp; ideo oportet omnem 
+      filiatio<lb ed="#P" n="66" break="no"/>nem Christi fundari supra suppositum diuinum, 
+      <lb ed="#P" n="67"/>vel mediate vel immediate praedicto modo 
+      subie<lb ed="#P" n="68" break="no"/>ctionis. Super autem suppositum diuinum non 
+      po<lb ed="#P" n="69" break="no"/>test fundari relatio temporalis. Nec sequitur quod 
+      <!--300.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>Christus non sit realiter Filius Virginis, propter 
+      <lb ed="#P" n="71"/>talem relationem matris ad eum: sicut non 
+      se<lb ed="#P" n="72" break="no"/>quitur quin Christus non sit realiter Dominus, 
+      li<lb ed="#P" n="73" break="no"/>cet dominium non dicat relationem realem in 
+      <lb ed="#P" n="74"/>Deo. Et licet prima positio sit probabilis, &amp; 
+      vi<lb ed="#P" n="75" break="no"/>deatur plana; secunda tamen est magis famosa: &amp; 
+      <lb ed="#P" n="76"/>ad ipsam facit quod ea quae pertinent ad agere &amp; 
+      <lb ed="#P" n="77"/>pati, vel etiam ad alias relationes a paternitate &amp; 
+      <lb ed="#P" n="78"/>filiatione; aliquo modo, licet improprie 
+      attribuun<lb ed="#P" n="79" break="no"/>tur formis &amp; materijs. Vnde &amp; voluntas 
+      superio<lb ed="#P" n="80" break="no"/>ris dicitur aliquo modo domina: &amp; natura dicitur 
+      <lb ed="#P" n="81"/>serua vel nata aliquo medo: &amp; sic de alijs. Sed 
+      <lb ed="#P" n="82"/>natura filij vel filiae vel patris nunquam 
+      attribui<lb ed="#P" n="83" break="no"/>tur nisi supposito. Vnde nullo modo, nec stricte 
+      <lb ed="#P" n="84"/>nec large dicitur natum filia, pater vel mater. Ex 
+      <lb ed="#P" n="85"/>quo videtur quod semper filiatio necessario 
+      fun<lb ed="#P" n="86" break="no"/>detur super ipsum suppositum subsistens, vel in 
+      <lb ed="#P" n="87"/>aliquo fundato in ipso supposito. vel subiectum 
+      <lb ed="#P" n="88"/>reale filiationis vel paternitatis non potest 
+      multi<lb ed="#P" n="89" break="no"/>plicati, nisi multiplicato supposito: vel nisi sit 
+      ta<lb ed="#P" n="90" break="no"/>le suppositum, in quo secundum quod subsistit, 
+      <lb ed="#P" n="91"/>possint recipi diuersa realia accidentia, in quibus 
+      <lb ed="#P" n="92"/>filiationes aliae fundentur: quorum neutrum potest 
+      <lb ed="#P" n="93"/>esse in Christo: quia suppositum in eo non 
+      plurifi<lb ed="#P" n="94" break="no"/>catur, nec eius supposito potest inhaerere aliquod 
+      <lb ed="#P" n="95"/>acidens reale: licet in eius supposito ratio naturae 
+      <lb ed="#P" n="96"/>assumptae possit esse accidens realiter inherens 
+      il<lb ed="#P" n="97" break="no"/>li naturae. Accides autem inhaerens illi 
+      natu<lb ed="#P" n="98" break="no"/>rae non potest, vt dictum est, esse fundamentum 
+      <lb ed="#P" n="99"/>filiationis, nec filiatio. 
+      </p>
+            <p xml:id="hx2hx3-c00753-d1e657">
+               <lb ed="#P" n="100"/>Sustinendo ergo hanc opinionem, potest 
+      res<lb ed="#P" n="101" break="no"/>ponderi breuiter ad rationem alterius; quod 
+      as<lb ed="#P" n="102" break="no"/>sumit falsum scilicet quod fundamentum 
+      filiatio<lb ed="#P" n="103" break="no"/>nis realis sit natura viua acquisita per 
+      generatio<lb ed="#P" n="104" break="no"/>nem: nisi sit talis quod per eam generatus 
+      subsi<lb ed="#P" n="105" break="no"/>stat. Filius autem Dei natus de Virgine, non 
+      sub<lb ed="#P" n="106" break="no"/>sistit per naturam acceptam a Virgine. Et ideo non 
+      <lb ed="#P" n="107"/>potest esse fundamentum filiationis; sed solum 
+      <lb ed="#P" n="108"/>suppositum, in quo non potest fundari relatio 
+      rea<lb ed="#P" n="109" break="no"/>lis ad creaturam: &amp; per hoc patet quod ad 
+      argu<lb ed="#P" n="110" break="no"/>mentum dicendum quod assumit idem quod 
+      di<lb ed="#P" n="111" break="no"/>ctum est.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="333"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c12195"><!-- l4d6q1 -->
+            <head xml:id="hx2hx3-c12195-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-c12195-Hd1e101" type="question-title">Utrum ad baptismum requiratur nativitas ex utero</head>
+            <p xml:id="hx2hx3-c12195-d1e104">
+               <lb ed="#P" n="11"/>Hoc etiam sciendum est, quod licet ter 
+      im<lb ed="#P" n="12" break="no"/>mergatur propter mysterium Trinitatis, 
+      <lb ed="#P" n="13"/>tamen vnus baptisinua reputatur. 
+      II<lb ed="#P" n="14" break="no"/>lud etiam ignorandum non est quod in 
+      <lb ed="#P" n="15"/>materno vtero nullus baptizari potesi, 
+      <lb ed="#P" n="16"/>etiam si mater baptizetur. Vnde 
+      1fido<lb ed="#P" n="17" break="no"/>rus. Qui in maternir vteris, sunt 
+      bapti<lb ed="#P" n="18" break="no"/>zari non possunt. Quia qui natus 
+      ad<lb ed="#P" n="19" break="no"/>huc secundum ddam non est, secundum 
+      <lb ed="#P" n="20"/>Christum non potest renasci: Neqne 
+      re<lb ed="#P" n="21" break="no"/>generatio in eum dici potest in quem 
+      ge<lb ed="#P" n="22" break="no"/>neratio non praecessit, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e133">
+               <lb ed="#P" n="23"/>Distinctio sextae. 
+      <lb ed="#P" n="24"/>QVAESTIO PRIMA.
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e140">
+               <lb ed="#P" n="25"/>Circa sextam distinctionem, quaeritur vtrum 
+      <lb ed="#P" n="26"/>ad baptismum requiratur natiuitas ex vtero.
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e148">
+               <lb ed="#P" n="27"/>Et videtur quod non, quia actio quae fit in totum 
+      <lb ed="#P" n="28"/>redundat in partem. Sed puer quamdiu est in 
+      <lb ed="#P" n="29"/>vtero est pars matris, ergo actio quae potest fieri in 
+      <lb ed="#P" n="30"/>matrem potest redundare in puerum. Sed 
+      po<lb ed="#P" n="31" break="no"/>test mater baptizari. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e161">
+               <lb ed="#P" n="32"/>Praeterea, peior est mors spiritualis quam 
+      cor<lb ed="#P" n="33" break="no"/>poralis, ergo antequam puer moriatur mater 
+      de<lb ed="#P" n="34" break="no"/>bet scindi. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e170">
+               <lb ed="#P" n="35"/>Iuxta hoc potest quaeri quid debet fieri si pars 
+      <lb ed="#P" n="36"/>pueri apparet extra matrem. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e177">
+               <lb ed="#P" n="37"/>Contra regenerare praesupponit generari; sed 
+      <lb ed="#P" n="38"/>baptismus est quaedam regeneratio. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e184">
+               <lb ed="#P" n="39"/>Iuxta hoc quaeritut vtrum sanctificati in vtero 
+      <lb ed="#P" n="40"/>debeant baptizari. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e191">
+               <lb ed="#P" n="41"/>Ad primam quaestionem dicendum, quod 
+      <lb ed="#P" n="42"/>oportet ad haptismum supponere natiuitatem ex 
+      <lb ed="#P" n="43"/>vtero, vel secundum totum vel secundum partem. 
+      <lb ed="#P" n="44"/>Nullus enim potest recipere effectum 
+      sacramen<lb ed="#P" n="45" break="no"/>ti virtute sacramenti, nisi operario exterior 
+      sacra<lb ed="#P" n="46" break="no"/>menti exerceatur citea ipsuni. Sed operatio 
+      bap<lb ed="#P" n="47" break="no"/>tismi, puta ablutio, non potest exerceri circa 
+      pue<lb ed="#P" n="48" break="no"/>rum nisi sit natus ex vtero vel secundum totum vel 
+      <lb ed="#P" n="49"/>secundum partem. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e214">
+               <lb ed="#P" n="50"/>Ad secundum dicendum, quod si illa pars que 
+      <lb ed="#P" n="51"/>apparet sit caput in quo vigent omnes sensus, &amp; 
+      <lb ed="#P" n="52"/>periculum imminet, baptizandus est in capite &amp; 
+      <lb ed="#P" n="53"/>baptismus redundat in totum: nec est 
+      rebaptizan<lb ed="#P" n="54" break="no"/>dus. Si vero alia pars quaecumque apparet &amp; 
+      <lb ed="#P" n="55"/>imminet periculum, Ecclesia debet facere quod 
+      <lb ed="#P" n="56"/>potest, &amp; debet baptizare. Si postmodum 
+      nas<lb ed="#P" n="57" break="no"/>catur viuus rebaptizandus est sub hac forma. Si 
+      <lb ed="#P" n="58"/>non est baptizatus ego te baptizo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e236">
+               <lb ed="#P" n="59"/>Ad euidentiam tertiae quaestionis sciendum, 
+      <lb ed="#P" n="60"/>quod aliqui possunt sanctificari in vtero, quia 
+      si<lb ed="#P" n="61" break="no"/>cut Deus non alligauit potentiam suam rebus 
+      na<lb ed="#P" n="62" break="no"/>turalibus, ita nec sacramentis, sed multa facit 
+      <lb ed="#P" n="63"/>Deus in naturalibus praeter communem cursum 
+      <!--333.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>naturae. Ergo praeter cuisum sacramentorum 
+      <lb ed="#P" n="65"/>communem potest facere sanctisicationem. Rtatio 
+      <lb ed="#P" n="66"/>autem quare aliqui sanctificati fuerunt in vtero, 
+      <lb ed="#P" n="67"/>non est propter necessitatem sanctificand, vel 
+      pro<lb ed="#P" n="68" break="no"/>pter periculum, quia tunc illi qui moriuntur in 
+      <lb ed="#P" n="69"/>vtero matris essent sanctificandi. Sed hoc fit ad 
+      <lb ed="#P" n="70"/>ostendendam aliquam specialem praerogatiuam 
+      <lb ed="#P" n="71"/>eotum respectu Christi, sicut praecursorem, 
+      Bea<lb ed="#P" n="72" break="no"/>tam Virginem vt Matrem Christi, Hieremiam vt 
+      <lb ed="#P" n="73"/>de ipso apertissime Prophetaturum sanctificauit. 
+      <lb ed="#P" n="74"/>Vnde dixit mulier circundabit vntum Quod non 
+      <lb ed="#P" n="75"/>potest exponi nisi de Christo: vtrum dixit, quia 
+      <lb ed="#P" n="76"/>Christus in vtero habuit plenissimum vsim 
+      ratio<lb ed="#P" n="77" break="no"/>nis. Quando ergo quaeritur vtium talis debeat 
+      <lb ed="#P" n="78"/>baptizari: dicendum quod sic 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e286">
+               <lb ed="#P" n="79"/>Primo, propter vnifornirtatem Ecclesiae 
+      con<lb ed="#P" n="80" break="no"/>ferendam, vt scilicet omnia membra Ecclesiae 
+      <lb ed="#P" n="81"/>sint vniformta baptismo. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e295">
+               <lb ed="#P" n="82"/>Secundo, vt recipiant characterem bapuismi, 
+      <lb ed="#P" n="83"/>quem nullus habet sine bapuismo. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e302">
+               <lb ed="#P" n="84"/>Tertio, propter praeceptum Ecclesiae. 
+      Quae<lb ed="#P" n="85" break="no"/>dam enim sacramenta Eccl: siae cadunt sub 
+      prae<lb ed="#P" n="86" break="no"/>cepto, sicut baptismus qui est maximae 
+      recessita<lb ed="#P" n="87" break="no"/>tis: quidam pro loco &amp; tempore, sicut oinnia alia 
+      <lb ed="#P" n="88"/>ercepto matrimonio: ideo ad praeceptum 
+      implen<lb ed="#P" n="89" break="no"/>dum debet baprizari. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e318">
+               <lb ed="#P" n="90"/>Ad primum in oppositum dicendum, quod 
+      <lb ed="#P" n="91"/>actio quae fit in totum redundat in partim, si fit 
+      <lb ed="#P" n="92"/>pars secundum veritatem. Ad minorem 
+      dicen<lb ed="#P" n="93" break="no"/>dum, quod puer non est pars matris secundum 
+      <lb ed="#P" n="94"/>veritatem: sed est distinctum suppositum a 
+      mna<lb ed="#P" n="95" break="no"/>tre, secundum corpus &amp; secundum animam. 
+      <lb ed="#P" n="96"/>Ad aliud dicendu, quod licet sit peror mors 
+      aetet<lb ed="#P" n="97" break="no"/>na quam temporalis, non sunt tamen facienda 
+      <lb ed="#P" n="98"/>mala vt veniant bona. Et ideo mater non debet 
+      <lb ed="#P" n="99"/>seindi si est viua, imo potius committenda est 
+      sa<lb ed="#P" n="100" break="no"/>lus pueri Deo. Sed si mater sit mottua, &amp; 
+      appa<lb ed="#P" n="101" break="no"/>tet motio pueri, tunc scindenda est. 
+      </p>
+            <p xml:id="hx2hx3-c12195-d1e348">
+               <lb ed="#P" n="102"/>Ad aliam rationem in oppositum dicendum, 
+      <lb ed="#P" n="103"/>quod duplex est natiuitas vna, scilicet in vtero, 
+      <lb ed="#P" n="104"/>quando anima vnitur corpori, alia ex vtero: 
+      pri<lb ed="#P" n="105" break="no"/>ma requititur ad sanctificationem &amp; sufficit: sed 
+      <lb ed="#P" n="106"/>ad baptismum requiritur secunda, scilicet 
+      nati<lb ed="#P" n="107" break="no"/>uitas ex vtero. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

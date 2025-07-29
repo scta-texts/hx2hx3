@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="164"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b54750"><!-- l1d43q1 -->
+            <head xml:id="hx2hx3-b54750-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b54750-Hd1e101" type="question-title">Utrum potentia dei sit infinita</head>
+            <p xml:id="hx2hx3-b54750-d1e104">
+               <lb ed="#P" n="47"/>Distinctio <sic>quadragesimo</sic>,
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e111">
+               <lb ed="#P" n="48"/>QVAESTIO PRIMA
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e116">
+               <lb ed="#P" n="49"/>SVper <sic>quadragesimam</sic> distinctionem, quae: 
+      <lb ed="#P" n="50"/>ritur vtrum potentia Dei sit infinita. Et 
+      <lb ed="#P" n="51"/>arguitur quod non: quia potentia innotescit ex 
+      <lb ed="#P" n="52"/>effectu: sed nullus essectus Dei est infinitus. Ergo. 
+      <lb ed="#P" n="53"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e133">
+               <lb ed="#P" n="54"/>Contra est quod dicitur inPsalmis: magnus Dns 
+      <lb ed="#P" n="55"/>est &amp; laudabilis nimis, &amp; magnitudinis eius non 
+      <lb ed="#P" n="56"/>est finis. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e142">
+               <lb ed="#P" n="57"/>stespondeo. Primo distingo de infinitate 
+      po<lb ed="#P" n="58" break="no"/>tentiae, &amp; dico quod potest dici infinta, vel in 
+      <lb ed="#P" n="59"/>duratione, vel in vigore. Si loquamur de intini ate 
+      <lb ed="#P" n="60"/>in duratione: quia eius duratio non finitur. Sic 
+      <lb ed="#P" n="61"/>constat potentiam Dei esse infinitam: &amp; etiam 
+      a<lb ed="#P" n="62" break="no"/>lia sunt &amp; possunt esse sic infinita, sicut sol, &amp; ea 
+      <lb ed="#P" n="63"/>quae sunt intransmutabilia secundum substantiam 
+      <lb ed="#P" n="64"/>&amp; proprietates suas: quia ad hod quod aliquid sit 
+      <lb ed="#P" n="65"/>infinitum duratione, sufficit quod sit natum sem¬ 
+      <!--164.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>per manere in eadem dispositione. Ialia autem 
+      <lb ed="#P" n="67"/>sunt intransmutabilia inquantum sunt 
+      huiusmo<lb ed="#P" n="68" break="no"/>di. Ideo, &amp;c. Alio modo dicitur infinitas 
+      poten<lb ed="#P" n="69" break="no"/>tiae secundum vigorem: vt si aliquis calor esset in 
+      <lb ed="#P" n="70"/>in infinitum intensus: talis calor esset potentia 
+      <lb ed="#P" n="71"/>calefactiua infinita in vigore. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e181">
+               <lb ed="#P" n="72"/>Si ergo quaeratur, vtrum potentia Dei sic sit 
+      infini<lb ed="#P" n="73" break="no"/>ta in vigore &amp; perfectione, tunc adhuc 
+      distin<lb ed="#P" n="74" break="no"/>guendum est de infinitate talis potentiae diuinae. 
+      <lb ed="#P" n="75"/>Quia potentia Dei potest comparari vel 
+      conside<lb ed="#P" n="76" break="no"/>rari per comparationem ad essentiam in qua 
+      radi<lb ed="#P" n="77" break="no"/>catur, vel per comparationem ad obiectum 
+      possi<lb ed="#P" n="78" break="no"/>bile in quod potest: vel per comparationem ad 
+      mo<lb ed="#P" n="79" break="no"/>dum agendi. Si ergo comparetur potentia diuina 
+      <lb ed="#P" n="80"/>nd essentiam in qua radicatur, sic est planum 
+      <lb ed="#P" n="81"/>quod potentia Dei est infinita: quia potentia 
+      dici<lb ed="#P" n="82" break="no"/>tur infinita perfectione, per comparationem ad 
+      <lb ed="#P" n="83"/>essentiam in qua radicatur, quando essentia in qua 
+      <lb ed="#P" n="84"/>radicatur est illimitata &amp; infinitae perfectionis: sed 
+      <lb ed="#P" n="85"/>essentia diuina in qua radicatur potentia diuina est 
+      <lb ed="#P" n="86"/>infinitae perfectionis. Ergo, &amp;c. Maior patet. 
+      Mi<lb ed="#P" n="87" break="no"/>nor probatur. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e218">
+               <lb ed="#P" n="88"/>Ad cuius euidentiam, sciendum est quod 
+      du<lb ed="#P" n="89" break="no"/>plex est infinitum, scilicet priuatiue, scilicet quod 
+      <lb ed="#P" n="90"/>natu est finiri, &amp; non finitur: sicut si motus caeli 
+      <lb ed="#P" n="91"/>duraret in infinitum, diceret infinitum priuatiue, 
+      <lb ed="#P" n="92"/>&amp; tale in finitum est possibile &amp; imperfectum, &amp; 
+      <lb ed="#P" n="93"/>talis infinitas non habet locum indiuinis. Alio 
+      mo<lb ed="#P" n="94" break="no"/>do dicitur infinitum negatiue, quod caret fine &amp; 
+      <lb ed="#P" n="95"/>limitatione, quae est ad genus &amp; speciem: &amp; sic vt 
+      <lb ed="#P" n="96"/>patebit diciuur essentia diuina infinita. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e240">
+               <lb ed="#P" n="97"/>Nec refert, vtrum dicatur infinita negatiue, vel 
+      <lb ed="#P" n="98"/>priuatiue, largo modo accipiendo priuationem, 
+      <lb ed="#P" n="99"/>non pro carentia aliciuus nati haberi ab eo qui 
+      ca<lb ed="#P" n="100" break="no"/>ret, quia hoc est imperfectionis, &amp; non habet 
+      lo<lb ed="#P" n="101" break="no"/>cum in Deo. Sed accipiendo priuationem pro 
+      ca<lb ed="#P" n="102" break="no"/>rentia alicuius nati haberi ab aliquo, nontamem ab eo 
+      <lb ed="#P" n="103"/>qui earet. Et sic accipiondo priuationem, potesi 
+      <lb ed="#P" n="104"/>Deus dici priuatiue infinitus, quia caret termino 
+      <lb ed="#P" n="105"/>qui natus est haberi ab aliquo alio, sed non ab 
+      ip<lb ed="#P" n="106" break="no"/>so: quia ipse non est natus habere finem. Dicendus 
+      <lb ed="#P" n="107"/>autem quod Deus sic sit infinitus, &amp; illimitatus ad 
+      <lb ed="#P" n="108"/>penus &amp; speciem: patet sic. Nam tunc dicitur 
+      asi<lb ed="#P" n="109" break="no"/>quid limitati ad genus, quia ei conuenit tantu illud 
+      <lb ed="#P" n="110"/>quod formaliter importat ratio generis, &amp; non 
+      <lb ed="#P" n="111"/>plus: ita quod per illud formaliter loquendo, nihil 
+      <lb ed="#P" n="112"/>plus conuenit fibi, nisi aliquid aliud sibi addatur. 
+      <lb ed="#P" n="113"/>Vnde ex hoc aliqua essentia limitatur ad genus 
+      <lb ed="#P" n="114"/>substantie, que per eum aliquid habet formaliter 
+      <lb ed="#P" n="115"/>tantum subsistere, nec plus habet per eum, nisi 
+      ali<lb ed="#P" n="116" break="no"/>quid aliud addatur. Similiter aliquiddicitur 
+      limita<lb ed="#P" n="117" break="no"/>ri ad specie alicuius generis, quod praeter ipsum no 
+      <lb ed="#P" n="118"/>habet aliquid aliud, nisi illud quod formaliter 
+      im<lb ed="#P" n="119" break="no"/>portatur in ratione speciei, sicut qualitas aliqua 
+      <lb ed="#P" n="120"/>dicitur limitari ad speciem iustitiae: quia habens 
+      <lb ed="#P" n="121"/>illam, per eam nonplus habet quam bene se 
+      habe<lb ed="#P" n="122" break="no"/>re, in tenendo medium in hiis quae sunt ad 
+      alte<lb ed="#P" n="123" break="no"/>rum. Vnde si esset vna qualitas per quam aliquis 
+      <lb ed="#P" n="124"/>esset sciens, &amp; bene dispositus ad tenendum 
+      me<lb ed="#P" n="125" break="no"/>dium in his quae sunt ad alterum: talis qualitas nec 
+      <lb ed="#P" n="126"/>ad speciem scientiae, nec ad speciem iustitiae esset 
+      <lb ed="#P" n="127"/>limitata. Ex hiis potest accipi ista maior, illa 
+      es<lb ed="#P" n="128" break="no"/>sentia in qua includitur, &amp; importatur quicquid 
+      <lb ed="#P" n="129"/>perfectionis simpliciter est in quocumque genere 
+      <lb ed="#P" n="130"/>vel specie, est illimitata ad genus &amp; speciem, &amp; 
+      <lb ed="#P" n="131"/>per consequens est infinitae perfectionis, &amp; hoc 
+      <lb ed="#P" n="132"/>patet ex dictis. Quia non esset illimitata ad genus 
+      <lb ed="#P" n="133"/>vel speciesi nonimportaret, nisi illud quod 
+      forma<lb ed="#P" n="134" break="no"/>liter includitur in ratione illius generis vel 
+      speci<lb ed="#P" n="135" break="no"/>ci. Sed essentia diuina est huiusmodi. Quia in ipsu 
+      <!--165.xml-->
+      <pb ed="#P" n="165"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nullo addito, includitur quicquid perfectionis est 
+      <lb ed="#P" n="2"/>simpliciter in aliquo genere: per ipsam enim Deus 
+      <lb ed="#P" n="3"/>est subsistens, sciens iustus, volens &amp; poteris, &amp; 
+      <lb ed="#P" n="4"/>omnia alia quae simpliciter perfectionem 
+      impor<lb ed="#P" n="5" break="no"/>tant. Ergo essentia diuina in qua potentia diuina 
+      <lb ed="#P" n="6"/>radicatur est finitae perfectionis: &amp; sic patet minor 
+      <lb ed="#P" n="7"/>principalis syllogismi. Si autem consideretur 
+      po<lb ed="#P" n="8" break="no"/>tentia diuina per comparationem ad obiecta 
+      posi<lb ed="#P" n="9" break="no"/>sihilia in quae potest adhuc ostendi infinitam esse; 
+      <lb ed="#P" n="10"/>&amp; hoc diiecte est considerare infinitatem eius 
+      se<lb ed="#P" n="11" break="no"/>cundum rationem potententiae. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e357">
+               <lb ed="#P" n="12"/>Ad cuius euidentiam, sciendum quod de 
+      pro<lb ed="#P" n="13" break="no"/>cessu creaturarum in infinstum, est duplex 
+      opi<lb ed="#P" n="14" break="no"/>nio. Nam quidam ponunt quod processus 
+      creatu<lb ed="#P" n="15" break="no"/>rarum differentium secudum spem, est sic possibi. 
+      <lb ed="#P" n="16"/>lis in infinitum: quod quacumque creatura data 
+      <lb ed="#P" n="17"/>potest Deus facere nobiliorem, &amp; hoc in 
+      infini<lb ed="#P" n="18" break="no"/>tum. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e376">
+               <lb ed="#P" n="19"/>Alii vero dicunt, quod processus in infinitum 
+      <lb ed="#P" n="20"/>in creaturis, non est possibilis secundum diuersas 
+      <lb ed="#P" n="21"/>species, sed tantum secundum diuersa numero. 
+      <lb ed="#P" n="22"/>Vnde omnes conueniunt inihoc, quod Deus 
+      po<lb ed="#P" n="23" break="no"/>test facere plura nunero, quacumque 
+      multitudi<lb ed="#P" n="24" break="no"/>ne data: &amp; hioc est in infinitum. Ita quod facere 
+      <lb ed="#P" n="25"/>posset plures mundos, &amp; adhuc plures in 
+      infini<lb ed="#P" n="26" break="no"/>tum: ita tamen quod actu non attingeretur ad 
+      <lb ed="#P" n="27"/>muititudinem infinitam. Secundum ergo illos 
+      <lb ed="#P" n="28"/>qui ponunt quod processus creaturarum est 
+      possi<lb ed="#P" n="29" break="no"/>bilis in infinitum secundum diuersas species, 
+      opor<lb ed="#P" n="30" break="no"/>tet diccre quod potentia Dei est infinita in 
+      vigo<lb ed="#P" n="31" break="no"/>re respectu obiectorum possibilium: quia quanto 
+      <lb ed="#P" n="32"/>potentia pot est in plura secundum speciem siue 
+      si<lb ed="#P" n="33" break="no"/>mul, siue successiuie: tanto est maior in vigore, &amp; 
+      <lb ed="#P" n="34"/>hoc patet. Quanto enim effectus est nobilior, 
+      <lb ed="#P" n="35"/>tanto oportet quod potentia sit maior. Nunc 
+      au<lb ed="#P" n="36" break="no"/>tem ita est quod illa quae differunt specie: vnum 
+      <lb ed="#P" n="37"/>est nobilior alio, &amp; altioris entitatis. Sed 
+      secun<lb ed="#P" n="38" break="no"/>dum istam viam, Deus potest in infinitum 
+      produ<lb ed="#P" n="39" break="no"/>cere creaturam, post creaturam, diuersas speciest 
+      <lb ed="#P" n="40"/>ita quod in infinitum potest facere nobiliorem, 
+      <lb ed="#P" n="41"/>quacumque data: ergo oporter ponere, quod 
+      po<lb ed="#P" n="42" break="no"/>tentia Dei est infinita in vigore secundum istam 
+      <lb ed="#P" n="43"/>viam, in respectu obiectorum possihiium. fsi 
+      <lb ed="#P" n="44"/>autem ponatur quod processus in infinitum in 
+      <lb ed="#P" n="45"/>creaturis possit esse secundum diuersa numero, 
+      ad<lb ed="#P" n="46" break="no"/>huc idem sequitur.
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e439">
+               <lb ed="#P" n="47"/>Ad cuius euidentiam, sciendum quod aliquam 
+      <lb ed="#P" n="48"/>causam esse causam infinitorum numero 
+      successi<lb ed="#P" n="49" break="no"/>ue dupliciter conuenit. Vno modo quod 
+      adue<lb ed="#P" n="50" break="no"/>nientibus posterioribus, recedunt a sua causalitate 
+      <lb ed="#P" n="51"/>priora, veibi gratia si faciat hodie decem, &amp; cras 
+      <lb ed="#P" n="52"/>iilis corruptis alia decem, &amp; sic est potentia 
+      infini<lb ed="#P" n="53" break="no"/>taduratione, dato quod non sit infinita in vipore. 
+      <lb ed="#P" n="54"/>Vnde sol posset successiue esse causa infinitotum. 
+      <lb ed="#P" n="55"/>dta quod aduenientibua priorihus, polteriora 
+      rece<lb ed="#P" n="56" break="no"/>dunt a causalitate sua: ad hoc enim sufficit, quod 
+      <lb ed="#P" n="57"/>virtus eiusdutet in infinitum. Alio modo potest esse 
+      <lb ed="#P" n="58"/>aliquid causa infinitorum successiue: ita quod 
+      adue<lb ed="#P" n="59" break="no"/>ntentibus posterioribus maneant priora sub 
+      causali<lb ed="#P" n="60" break="no"/>tate sua: sic quod non possit simul in tot: qum 
+      pos<lb ed="#P" n="61" break="no"/>sit idest plura simul existentia, Et sic, posse in 
+      plu<lb ed="#P" n="62" break="no"/>ra simul existentia exigit maiorem virtutem in 
+      vi<lb ed="#P" n="63" break="no"/>gore: quia plus est posse simul in xx. quam in x. &amp; 
+      <lb ed="#P" n="64"/>plus est posse in al. quam in vx. &amp; sic deinceps. Sed 
+      <lb ed="#P" n="65"/>ad hoc quod successiue possint in plura: puta quod 
+      <lb ed="#P" n="66"/>semper inaequalia, puta hodie in 2. cras in alia x. 
+      <lb ed="#P" n="67"/>primis ablatis non requirit maiorem vigorem, sed 
+      <lb ed="#P" n="68"/>maiorem durationem. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e489">
+               <lb ed="#P" n="69"/>Ex hiis sic arguitur. Illa virtus quae potest 
+      si<lb ed="#P" n="70" break="no"/>mul plura quotcunquedatis: ita quod non sit da¬ 
+      <!--165.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>re tot, quando possit in plura etiam numero simul 
+      <lb ed="#P" n="72"/>existentia, est infinita in vigore: quia virtus quan. 
+      <lb ed="#P" n="73"/>to potest in plura simul existentia, tanto est ma. 
+      <lb ed="#P" n="74"/>ior in vigore. Sed virtus, siue potentia Dei est 
+      hu<lb ed="#P" n="75" break="no"/>iusmodi. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e511">
+               <lb ed="#P" n="76"/>Ex parte etiam modi agendi potest ostendi 
+      inn<lb ed="#P" n="77" break="no"/>nitas potentiae diuinae secundum tationem quam 
+      <lb ed="#P" n="78"/>potentia. Et primo accipiendo modum agendi ex 
+      <lb ed="#P" n="79"/>parte rei factie secundum quod aliquid fit ex nihilor 
+      <lb ed="#P" n="80"/>&amp; aliquid ex aliquo praesupposito: ita secundum 
+      <lb ed="#P" n="81"/>quod minus praesupponit secundum hoc 
+      requita<lb ed="#P" n="82" break="no"/>tur maior virtus. Et potest sic formari ratio. Quia 
+      <lb ed="#P" n="83"/>potentia tanto est maior in vigore, quanto minus 
+      <lb ed="#P" n="84"/>praesupponit in suo est ctu. Sed Deus in infinitum 
+      <lb ed="#P" n="85"/>minus praesupponit quam quaecun: que alia virtuis 
+      <lb ed="#P" n="86"/>quia quaecumque alia virtus suppponit aliquid, 
+      <lb ed="#P" n="87"/>Deus autem nihil praesupponit: niul autem: &amp; 
+      a<lb ed="#P" n="88" break="no"/>liquid in infinitum distat. Ergo videtur quod 
+      vir<lb ed="#P" n="89" break="no"/>tus Dei sit in infinitum maior in vigore quacum. 
+      <lb ed="#P" n="90"/>que alia virtute: accipiendo etiam modum 
+      agen<lb ed="#P" n="91" break="no"/>di. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e548">
+               <lb ed="#P" n="92"/>Ex parte agentis potest idem ollendi. 
+      <lb ed="#P" n="93"/>Ad cuius euidentiam sciendum, quod duples 
+      <lb ed="#P" n="94"/>est agens, scilicet vniuocum &amp; aequiuocum. A 
+      <lb ed="#P" n="95"/>pens autem vniuocum est infra limites eiusdem 
+      <lb ed="#P" n="96"/>speciei cum suo effectu, vnde nec simpliciter, nce 
+      <lb ed="#P" n="97"/>secundum quid habet infiniratem respectu sui et 
+      <lb ed="#P" n="98"/>ctus: sicut quando calidum generat calidum, 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e566">
+               <lb ed="#P" n="99"/>Agens autem aequiuocum, sicut quando sol qul 
+      <lb ed="#P" n="100"/>non est calidus sormaliter, est extra limites specier 
+      <lb ed="#P" n="101"/>in qua continetur suus effectus: &amp; ideo, relpectu 
+      <lb ed="#P" n="102"/>sui effectus est saltem infinitus, &amp; illimitatus 
+      se<lb ed="#P" n="103" break="no"/>cundum quid. Et si ealor cresceret semper plus &amp; 
+      <lb ed="#P" n="104"/>plus in infinitum non attingeret ad nobilitatem 
+      <lb ed="#P" n="105"/>virtutis actiuae solis. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e585">
+               <lb ed="#P" n="106"/>Ex hiis sic arguitur. Sicut se habet particulare 
+      <lb ed="#P" n="107"/>agens aequiuocum ad hoc quod sit infinitum 
+      se<lb ed="#P" n="108" break="no"/>cundum quid respectu sui effectus particularis: ita 
+      <lb ed="#P" n="109"/>vniuersale agens aequiuocum quod est causa 
+      om<lb ed="#P" n="110" break="no"/>nis factibilis, se habet ad hoc quod sit simpliciter 
+      <lb ed="#P" n="111"/>infinitae potentiae, respectu omnium factibilium 
+      <lb ed="#P" n="112"/>generaliter. Sed sicut dictum est, particulare agens 
+      <lb ed="#P" n="113"/>aequiuocum est potentiae infinite secundum quid 
+      <lb ed="#P" n="114"/>respectu effectus particularis cuius est causa: quia 
+      <lb ed="#P" n="115"/>extra fines illius: ergo agens aequiuocum quod est 
+      <lb ed="#P" n="116"/>causa vniuersalis omnium factibilium est 
+      simnplici<lb ed="#P" n="117" break="no"/>ter infiuitum: quia est extra fines &amp; limites 
+      cuius<lb ed="#P" n="118" break="no"/>cumque generis &amp; speciei rerum creatatum. 
+      Qua<lb ed="#P" n="119" break="no"/>re est v niuersalis causa, &amp; per consequens eius 
+      oo<lb ed="#P" n="120" break="no"/>tentia secundum quod est potentia, est simpliciter 
+      <lb ed="#P" n="121"/>infinita in vigore, &amp; extra fines cuiuscumque 
+      po<lb ed="#P" n="122" break="no"/>tententiae fin tae. 
+      </p>
+            <p xml:id="hx2hx3-b54750-d1e624">
+               <lb ed="#P" n="123"/>Ad rationem in oppositum porest dici primo ad 
+      <lb ed="#P" n="124"/>inaiorem, quod causa innotescit ex effectu, non 
+      <lb ed="#P" n="125"/>solum attendendo ad quantitatem effectus, siuc 
+      <lb ed="#P" n="126"/>ad ipsum effectum in se, sed etiam attendendo ad 
+      <lb ed="#P" n="127"/>modum faciendi. Non ita est, quod dato quod 
+      <lb ed="#P" n="128"/>totus effectus Dei sit sinitus, ramen ex modo 
+      fa<lb ed="#P" n="129" break="no"/>ciendi potest innotescere suam potentiam esse 
+      in<lb ed="#P" n="130" break="no"/>finiti vigoris, sicut ostensum est, Concedendo 
+      <lb ed="#P" n="131"/>etiam maiotem, potest dici ad minorem, quod 
+      ef<lb ed="#P" n="132" break="no"/>ctus Dei est in potentia infinitus tali infinitate que 
+      <lb ed="#P" n="133"/>requitit v gorem infinitum, siue per hoc quod 
+      <lb ed="#P" n="134"/>potest facere creaturam nobilinrem quacumque 
+      <lb ed="#P" n="135"/>dati in infinitum, siue per huc quod porest in 
+      nlu<lb ed="#P" n="136" break="no"/>ra simul exsstentia a quihuscumque datis: ita quod 
+      <lb ed="#P" n="137"/>non possunt dari tot, quin possit in plura silicet 
+      <lb ed="#P" n="138"/>existentia. Non sic de potentia finiia, possent enim 
+      <lb ed="#P" n="139"/>dari tot mundi, quod vnus sol non sufficeret ad 
+      <lb ed="#P" n="140"/>illuminandum eos
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

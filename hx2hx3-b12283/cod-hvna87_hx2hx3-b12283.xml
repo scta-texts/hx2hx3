@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#HerveusNatalis">Herveus Natalis</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2025-07-29">July 29, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="38"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hx2hx3-b12283"><!-- l1d3q4 -->
+        <head xml:id="hx2hx3-b12283-Hd1e99">Quaestio 4</head>
+        <head xml:id="hx2hx3-b12283-Hd1e101" type="question-title">Utrum anima sit suae potentiae</head>
+        <p xml:id="hx2hx3-b12283-d1e104">
+          <lb ed="#P" n="59"/>QVAESTIO QVARIA. 
+          <lb ed="#P" n="60"/>Quaeritur quarto vtrum anima sit suae 
+          <lb ed="#P" n="61"/>potentiae: 
+        </p>
+        <p xml:id="hx2hx3-b12283-d1e113">
+          <lb ed="#P" n="62"/>ET arguitur quod sic, quia secundum 
+          Phi<lb ed="#P" n="63" break="no"/>losophum secundo de anima, si oculus esset 
+          <lb ed="#P" n="64"/>animal, potentia visiua esset anima eius. Sed hoc 
+          <lb ed="#P" n="65"/>non esset verum nisi anima esset idem quod 
+          po<lb ed="#P" n="66" break="no"/>tentia visiua: Ergo, &amp;c. Praeterea si forma acci¬ 
+          <!--38.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="67"/>dentalis posset esse principium immediatum suae 
+          <lb ed="#P" n="68"/>operationis, multo fortius forma substantialis 
+          <lb ed="#P" n="69"/>Praeterea, forma substantialis ignis est principium 
+          <lb ed="#P" n="70"/>immediatum igniendi, quia ipsa est principium 
+          <lb ed="#P" n="71"/>immediatum formae substantialis in igne 
+          genera<lb ed="#P" n="72" break="no"/>to, licet alterationis praecedentis calor fuerit 
+          cau<lb ed="#P" n="73" break="no"/>sa. Ergo forma substantialis ignis est potentia 
+          ioni<lb ed="#P" n="74" break="no"/>tiua siue igniendi, &amp; eadem ratione aliae formm 
+          <lb ed="#P" n="75"/>substantiales poterunt esse potentiae quibus 
+          exer<lb ed="#P" n="76" break="no"/>centur propriae operationes earum. Praeterea hoc 
+          <lb ed="#P" n="77"/>videtur velle August. qui ostendit quod memoria, 
+          <lb ed="#P" n="78"/>intelligentia &amp; voluntas sunt vna mens, vna vita 
+          <lb ed="#P" n="79"/>&amp; vna essentia. Praeterea si anima mediante po 
+          <lb ed="#P" n="80"/>tentia necessario est principium operationum sua 
+          <lb ed="#P" n="81"/>rum, eadem ratione orit principium potentiarum 
+          <lb ed="#P" n="82"/>suarum mediante quadam alia virtute vel 
+          poten<lb ed="#P" n="83" break="no"/>tia;, &amp; sic ibitur in infinitum, quod est inconueniens. 
+          <lb ed="#P" n="84"/>Cotra, potetia est de genere qualitatis. Ergo 
+          nul<lb ed="#P" n="85" break="no"/>la potentia creaturae potest esse forma substantialis. 
+        </p>
+        <p xml:id="hx2hx3-b12283-d1e172">
+          <lb ed="#P" n="86"/>Respondeo: de ista quaestione est duplex opinio. 
+          <lb ed="#P" n="87"/>Vna opinio ponit quod anima est idem re cum stia 
+          <lb ed="#P" n="88"/>potentia, ita quod potentia non addit supra 
+          es<lb ed="#P" n="89" break="no"/>sentiam animae nisi respectum ad actum, &amp; 
+          secun<lb ed="#P" n="90" break="no"/>dum respectum ad diuersos actus sunt ibi diuersae 
+          <lb ed="#P" n="91"/>potentiae. Et praeter rationes inductas inducunt 
+          <lb ed="#P" n="92"/>duas alias. 
+        </p>
+        <p xml:id="hx2hx3-b12283-d1e191">
+          <lb ed="#P" n="93"/>Prima est quia secundum Philosophum 
+          se<lb ed="#P" n="94" break="no"/>cundo de anima, anima est id quo sentimus &amp; 
+          <lb ed="#P" n="95"/>intelligimus: sed quo sentimus &amp; intelligimus 
+          <lb ed="#P" n="96"/>sunt potentia sensitiua &amp; intellectiua: Ergo, 
+          <lb ed="#P" n="97"/>&amp;c. Secunda est, quia eo ipso aliquid est 
+          intelle<lb ed="#P" n="98" break="no"/>ctualis naturae quod est immateriale. Sed anima 
+          <lb ed="#P" n="99"/>per essentiam est immaterialis: Ergo per essentiam 
+          <lb ed="#P" n="100"/>suam est intellectualis sine aliquo addito. Sed hoc 
+          <lb ed="#P" n="101"/>non esset si potentia intellectiua diceret rem 
+          ali<lb ed="#P" n="102" break="no"/>quam additam ad essentiam animae: Ergo, &amp;c. 
+        </p>
+        <p xml:id="hx2hx3-b12283-d1e215">
+          <lb ed="#P" n="103"/>Istam opinionem intendo improbare. Primo 
+          o<lb ed="#P" n="104" break="no"/>stendendo generaliter quod anima non est suae 
+          <lb ed="#P" n="105"/>potentiae. Secundo ostendo hoc de potentiis orga 
+          <lb ed="#P" n="106"/>nicis. Tertio de potentiis immaterialibus. Primum 
+          <lb ed="#P" n="107"/>ostendo primo per famosum dictum quodicitur 
+          <lb ed="#P" n="108"/>quod potentia actiua &amp; passiua continentur sub 
+          <lb ed="#P" n="109"/>specie qualitatis. Ergo non potest esse forma 
+          sub<lb ed="#P" n="110" break="no"/>stantialis: licet enim forma substantialis possit 
+          ha<lb ed="#P" n="111" break="no"/>bere modum qualitatis in praedicando vt quando 
+          <lb ed="#P" n="112"/>dicimus rationale vel animatum quod in den 
+          omi<lb ed="#P" n="113" break="no"/>nando habet modum qualitatis; impossibile tame 
+          <lb ed="#P" n="114"/>est quod illud quod realiter est in praedicamento 
+          <lb ed="#P" n="115"/>qualitatis sit realiter substantia. Secundo hoc 
+          pa<lb ed="#P" n="116" break="no"/>tet, quia in potentiis cognitiuis potentia 
+          intellecti<lb ed="#P" n="117" break="no"/>ua &amp; potentia sensitiua ponuntur esse diuersae 
+          po<lb ed="#P" n="118" break="no"/>tentiae in esse reali potentiae, &amp; similiter potentia 
+          <lb ed="#P" n="119"/>auditiua &amp; visiua. Sed hoc non potest esse si anima 
+          <lb ed="#P" n="120"/>essentialiter sit sua potentia. Ergo, &amp;c. Probatio 
+          <lb ed="#P" n="121"/>minoris, quia si potentia intellectiua &amp; sensitiua 
+          <lb ed="#P" n="122"/>sunt realiter diuersae potentiae in esse reali 
+          poten<lb ed="#P" n="123" break="no"/>tiae, aut ista differentia est per respectum, aut 
+          se<lb ed="#P" n="124" break="no"/>cundum aliquid absolutum; non per respectum: &amp; 
+          <lb ed="#P" n="125"/>hoc patet. Primo, quia respectus est posterior 
+          po<lb ed="#P" n="126" break="no"/>tentia, cum potentia sit fundamentum respect 
+          <lb ed="#P" n="127"/>qui est vel ad operationem vel ad obiectum, nec 
+          <lb ed="#P" n="128"/>includit illu: licet ipse respectus ad eam sequatur, 
+          <lb ed="#P" n="129"/>Prius autem non potest plurificari per posterius, 
+          <lb ed="#P" n="130"/>&amp; praecipue per illud quod nullo modo includitur 
+          <lb ed="#P" n="131"/>in ratione essentiali eius. Ergo nom plurificatur per 
+          <lb ed="#P" n="132"/>respectus. Secundo, quia qua ratione potentia 
+          audi<lb ed="#P" n="133" break="no"/>tiua &amp; visiua essent potentiae diuersae, ita etia ratio 
+          <lb ed="#P" n="134"/>intelligendi lapidem &amp; ratio intelligedi boue: quia 
+          <lb ed="#P" n="135"/>si relatio ad diuersos actus genere facit diuersas 
+          <lb ed="#P" n="136"/>potentias genere, ita &amp; diuersa relatio ad diuersos 
+          <!--39.xml-->
+          <pb ed="#P" n="39"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>actus specie facit diuersas potentias realiter 
+          secun<lb ed="#P" n="2" break="no"/>dum specicm. Et similiter etiam videre album &amp; 
+          <lb ed="#P" n="3"/>videre nigrum erunt diuersae potentiae realiter 
+          quan<lb ed="#P" n="4" break="no"/>tum ad realitatem potentiae, quae videntur 
+          incon<lb ed="#P" n="5" break="no"/>uenientia: Ergo &amp;c. Si per absoluta: ant ista 
+          abso<lb ed="#P" n="6" break="no"/>luta sunt ipsae potentiae vel inclusa in essentia eorum 
+          <lb ed="#P" n="7"/>aut sunt quaedam coniuncta ipsi potentiae, ita quod 
+          <lb ed="#P" n="8"/>essentia animae vt coniuncta diuersis absolutis est 
+          <lb ed="#P" n="9"/>reali er ipsae diuersae potentiae: quae tamen diuersa 
+          <lb ed="#P" n="10"/>absoluta in nullo sunt de essentia potentiae. Si 
+          pri<lb ed="#P" n="11" break="no"/>mo modo, tunc impossibile est quod sola essentia 
+          <lb ed="#P" n="12"/>animae sit potentia eius, sed vel aliquid additum 
+          <lb ed="#P" n="13"/>ad essentiam animae, vel saltem aliquid includens 
+          <lb ed="#P" n="14"/>vna cum essentia animae aliquid absolutum additum 
+          <lb ed="#P" n="15"/>potentiae, quia sola anima non dicit plura absoluta, 
+          <lb ed="#P" n="16"/>Secundo etiam modo non potest esse, quia si sola 
+          <lb ed="#P" n="17"/>essentia animae est sua potentia ita quod illa 
+          abso<lb ed="#P" n="18" break="no"/>luta quibus coniungitur non sunt de essentia 
+          po<lb ed="#P" n="19" break="no"/>tentiae, tunc potentia non plurificantur realiter 
+          qua<lb ed="#P" n="20" break="no"/>tum ad realitatem potentiae nisi secundum ratione 
+          <lb ed="#P" n="21"/>intelligendi. Et si dicatur quod potentia materiae sit 
+          <lb ed="#P" n="22"/>eius essentia, talis potentia materiae respectu 
+          cu<lb ed="#P" n="23" break="no"/>iuscunque non plurificatur secundum rem, sed 
+          tan<lb ed="#P" n="24" break="no"/>tum secundum rationcm. Licet enim potentia 
+          <lb ed="#P" n="25"/>materiae respectu determinatae formae vocando 
+          <lb ed="#P" n="26"/>potentiam eius hiabilitates secundum determinatam 
+          <lb ed="#P" n="27"/>proportionem qualitatum actiuarum &amp; passiuaru 
+          <lb ed="#P" n="28"/>plurificetur realiter, quia talis propoitio realiter 
+          <lb ed="#P" n="29"/>plurificaur, tamen potentia quae est essentia ma 
+          <lb ed="#P" n="30"/>teriae secundum quancunque coniunctionem non 
+          <lb ed="#P" n="31"/>plurificatur secundum reni in eadem parte 
+          mate<lb ed="#P" n="32" break="no"/>riae quantumcunque transmutetur ad diuersas 
+          for<lb ed="#P" n="33" break="no"/>mas. Si dicatur ad hoc concedendo totum 
+          proces<lb ed="#P" n="34" break="no"/>sum, quod potentiae animae non sint diuersae 
+          po<lb ed="#P" n="35" break="no"/>tentiae realiter, fed tantum secundum rationem 
+          <lb ed="#P" n="36"/>intelligendi, videtur quod hoc sit valde 
+          irrationa<lb ed="#P" n="37" break="no"/>bile. Primo quia realiter loquendo non plus 
+          dif<lb ed="#P" n="38" break="no"/>ferret potentia intellectiua &amp; potentia sensitiua, 
+          <lb ed="#P" n="39"/>quam potentia qua intelligitur bos, &amp; potentia 
+          <lb ed="#P" n="40"/>qua intelligitur asinus. Vnde secundum hoc 
+          quan<lb ed="#P" n="41" break="no"/>tum ad rem pertinet, tantum differt notentia: ntel 
+          <lb ed="#P" n="42"/>lectiua a seipsa comparata diuersis obiectis: sicut 
+          <lb ed="#P" n="43"/>auditiua &amp; intellectiua, licet enim possint plus 
+          <lb ed="#P" n="44"/>vel minus differre secnndum rationes: non tamen 
+          <lb ed="#P" n="45"/>secuncium resn. Secundo, quia si potentia au. 
+          <lb ed="#P" n="46"/>ditiua est realiter potentia visiua, potentia 
+          auditi<lb ed="#P" n="47" break="no"/>ua realiter loquendo habet esse naturaliter in 
+          ali<lb ed="#P" n="48" break="no"/>quo in quo repugnat ei per naturam exire in 
+          <lb ed="#P" n="49"/>actum, quia essentia animae naturaliter est in 
+          <lb ed="#P" n="50"/>qualibet parte corporis animati. Dictum etiam 
+          <lb ed="#P" n="51"/>de se videtur satis irrationabile. Tertio, quia non 
+          <lb ed="#P" n="52"/>est niultum rationabile quod illi duo appetitus 
+          <lb ed="#P" n="53"/>sint eac em potertia realiter, qui quandoque 
+          <lb ed="#P" n="54"/>sic se habent quod illud quod vnus respuit 
+          al<lb ed="#P" n="55" break="no"/>ter appetit &amp; acceptat. Sed sic est frequenter 
+          <lb ed="#P" n="56"/>de appetitu sensitiuo &amp; intellectiuo. Ergo, 
+          <lb ed="#P" n="57"/>&amp;c. 
+        </p>
+        <p xml:id="hx2hx3-b12283-d1e421">
+          <lb ed="#P" n="58"/>Ostenso in generali quod anima non sit sua 
+          <lb ed="#P" n="59"/>potentiat, modo intendo idem ostendere de 
+          po<lb ed="#P" n="60" break="no"/>tentiis organicis in speciali. Primo, quia cum 
+          <lb ed="#P" n="61"/>potentia sensitiua sit illud in quo per se est actus 
+          <lb ed="#P" n="62"/>sentiendi, ita quod est primo &amp; per se ratio 
+          sus<lb ed="#P" n="63" break="no"/>cipiendi actum sentien si, a quocunque causetur 
+          <lb ed="#P" n="64"/>essectiue; oportet ponere quod potentia sensitiua 
+          <lb ed="#P" n="65"/>sit illud quod primo &amp; per se est subiectum sen 
+          <lb ed="#P" n="66"/>tiendi. Sed subiectum per se actus sentiendi non 
+          <lb ed="#P" n="67"/>est sola anima, sed coniunctum. Ergo oporter 
+          <lb ed="#P" n="68"/>quod vel potentia sensitiua sit essentialiter ipsa 
+          <lb ed="#P" n="69"/>composita substantia, &amp; non sola anima; vel 
+          <lb ed="#P" n="70"/>quod sit aliquod accidens siue passio substantiae 
+          <!--39.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="71"/>compositae. Si dieatur ad hoc quod coniundum 
+          <lb ed="#P" n="72"/>pro tanto dicitur esse subiectum actus sentiendi 
+          <lb ed="#P" n="73"/>qui sic recipitur in essentia animae sicut in subiecto 
+          <lb ed="#P" n="74"/>quod etiam recipitur in materia informata 
+          ab<lb ed="#P" n="75" break="no"/>ipsa anima sicut in subiedto: sicut figura inest 
+          <lb ed="#P" n="76"/>substantiae mediante quantitate rel. Hoc non 
+          <lb ed="#P" n="77"/>valet. Primo, quia actus senuiendi aut est 
+          quan<lb ed="#P" n="78" break="no"/>tus per accidens, aut non: si sic. Ergo videtur quod 
+          <lb ed="#P" n="79"/>ratio passiua recipiendi ipsum sit quanta per se 
+          <lb ed="#P" n="80"/>vel per accidens, quia ipse actus non habet quod 
+          <lb ed="#P" n="81"/>sit quantus nisi ratione recipientis: sicut nec 
+          <lb ed="#P" n="82"/>aliae formae, aliae a quantitate. Sed hoc est im. 
+          <lb ed="#P" n="83"/>possibile in homine si anima per essentiam est 
+          <lb ed="#P" n="84"/>receptiua immediate actus sentiendi, quia 
+          ani<lb ed="#P" n="85" break="no"/>ma humana nec per se nec per accidens potest 
+          <lb ed="#P" n="86"/>esse quanta; si autem actus sentiendi nec per 
+          <lb ed="#P" n="87"/>se nec per accidens est quantus, nulla 
+          necessi<lb ed="#P" n="88" break="no"/>tas videtur quin possit esse in sola essentia animae 
+          <lb ed="#P" n="89"/>sicut in subiecto, &amp; sic poterit esse in anima 
+          <lb ed="#P" n="90"/>separata. Item actus sentiendi aut habet 
+          in<lb ed="#P" n="91" break="no"/>formare vt proprium subiectum suum solam 
+          <lb ed="#P" n="92"/>essentiam animae vna cum materia, aut oporter 
+          <lb ed="#P" n="93"/>quod cum hoc informet ipsum organum 
+          quan<lb ed="#P" n="94" break="no"/>tum ad aliqua eius essentialia puta quantitatem 
+          <lb ed="#P" n="95"/>vel diaphaneitatem, vel aliquid tale. Si primo 
+          <lb ed="#P" n="96"/>modo, tunc licet ad actum sentiendi a 
+          princi<lb ed="#P" n="97" break="no"/>pio inducendum &amp; causandum posset requini 
+          <lb ed="#P" n="98"/>praeter substantiam animati aliqua dispositio 
+          ha<lb ed="#P" n="99" break="no"/>bilitans potentiam ad hoc quod inducatur talis 
+          <lb ed="#P" n="100"/>actus a tali agente, sicut ad figurandam ceram 
+          <lb ed="#P" n="101"/>requiritur mollities. Postquam tamen actus 
+          in<lb ed="#P" n="102" break="no"/>ductus est non videtur requiri ad hoc quod 
+          ma<lb ed="#P" n="103" break="no"/>neat nisi tantum substantia animati, sicut nec 
+          <lb ed="#P" n="104"/>etiam ad mansionem figurae impressae requiritur 
+          <lb ed="#P" n="105"/>mollities cerae: &amp; sic actus sentiendi causatus 
+          <lb ed="#P" n="106"/>posset quantum esset ex parte principii 
+          recep<lb ed="#P" n="107" break="no"/>tiui, manere quacunque dipositione organi 
+          re<lb ed="#P" n="108" break="no"/>mota. Quod est manifeste falsum. Si autem 
+          <lb ed="#P" n="109"/>actus sentiendi informat aliquam dispositionem 
+          <lb ed="#P" n="110"/>accidentalem organi, aut informat illam 
+          me<lb ed="#P" n="111" break="no"/>diante substantia aut e conuerso. Primo modo 
+          <lb ed="#P" n="112"/>non potest esie; quia tunc oporter aliquod 
+          acci<lb ed="#P" n="113" break="no"/>dens esse subiectum substantiae. Si secundo 
+          mo<lb ed="#P" n="114" break="no"/>do, receptiuum immediatum actus sentiendi 
+          <lb ed="#P" n="115"/>erit accidens. Sed hic vocamus potentiam 
+          sen<lb ed="#P" n="116" break="no"/>sitiuam scilicet principium immediatum 
+          reci<lb ed="#P" n="117" break="no"/>prendi actum sentiendi in aliquo sicut in 
+          sub<lb ed="#P" n="118" break="no"/>iecto, sicut etiam dicimus quod potentia per 
+          <lb ed="#P" n="119"/>quam aliquid est illuminabile, est diaphaneitas 
+          <lb ed="#P" n="120"/>&amp; non quantitas, quia ipsa est immediata ratio 
+          <lb ed="#P" n="121"/>suscipiendi lumen: licet quantitas requiratur 
+          <lb ed="#P" n="122"/>vt susceptiuum remotum. Secundo videtur hoc 
+          <lb ed="#P" n="123"/>idem ex priuatione potentiarum sensitiuarum, 
+          <lb ed="#P" n="124"/>quod enim aliquis sit simpliciter caecus; aut hoc 
+          <lb ed="#P" n="125"/>est propter priuationem actus, &amp; tuinc dormiens 
+          <lb ed="#P" n="126"/>dicitur caecus; aut propter priuationem alterius 
+          <lb ed="#P" n="127"/>dispositionis a potentia vlliua, ita quod potentia 
+          <lb ed="#P" n="128"/>visiua maneat: &amp; si ita est, tunc habens 
+          poten<lb ed="#P" n="129" break="no"/>tiam visiuam est caecus, quod non videtur 
+          mul<lb ed="#P" n="130" break="no"/>tum rationabile. 
+        </p>
+        <p xml:id="hx2hx3-b12283-d1e586">
+          <lb ed="#P" n="131"/>Quantum ad potentias immateriales, hoc idem 
+          <lb ed="#P" n="132"/>ostenditur, quia Intellectus agens &amp; possibilis aut 
+          <lb ed="#P" n="133"/>sunt idem per essentiam, aut non. Si sunt idem, 
+          <lb ed="#P" n="134"/>quaero vtrum intellectus agens agat in intelle. 
+          <lb ed="#P" n="135"/>ctum possibilem aut non e si sic: Ergo idem per 
+          es<lb ed="#P" n="136" break="no"/>sentiam est principium actiuum &amp; passiuum &amp; 
+          <lb ed="#P" n="137"/>respectu eiusdem, quod deberet reputari 
+          inconue<lb ed="#P" n="138" break="no"/>niens. Item secundum ponentes ellentiam animae 
+          <lb ed="#P" n="139"/>esse suam potentiam, in sola voluntate hoc 
+          inueni<lb ed="#P" n="140" break="no"/>tur quod idem per essentiam absoluta sit actiuum i 
+          <!--40.xml-->
+          <pb ed="#P" n="40"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>seipsum immediate. Ergo hoc non conueniet 
+          in<lb ed="#P" n="2" break="no"/>tellectui. Si dicatur quod hoc non conueniet 
+          in<lb ed="#P" n="3" break="no"/>tellectui nisi facto in actu per habitum vel 
+          spe<lb ed="#P" n="4" break="no"/>ciem: tunc quaero de eo quod primo causatur in 
+          <lb ed="#P" n="5"/>tellectui possibili; si ponatur quod causa actiua 
+          <lb ed="#P" n="6"/>illius immediata sit illud quod est essentialiter 
+          <lb ed="#P" n="7"/>intellectus possibilis, sequitur prius dictum quod 
+          <lb ed="#P" n="8"/>ita est intellectus potentia actlua &amp; passiua 
+          se<lb ed="#P" n="9" break="no"/>cundum idem sicut etiam voluntas. Si autem 
+          <lb ed="#P" n="10"/>ponatur quod intellectus agens non agit imme 
+          <lb ed="#P" n="11"/>diate in intellectum possibilem, sed per hoc 
+          <lb ed="#P" n="12"/>quod mouet phantasma siue illustrat, a quo 
+          <lb ed="#P" n="13"/>postea mouetur intellectus possibilis; sequitur 
+          <lb ed="#P" n="14"/>non minus inconueniens quam prius, scilicet 
+          <lb ed="#P" n="15"/>quod idem per essentiam est causa effectiua eius 
+          <lb ed="#P" n="16"/>a quo postea mouetur. Licet enim intellectus 
+          <lb ed="#P" n="17"/>factus in actu moueat phantasmata ad 
+          praesen<lb ed="#P" n="18" break="no"/>tandum hoc vel illud a quo postea mouetur, 
+          <lb ed="#P" n="19"/>non tamen secundum idem mouent &amp; 
+          mouen<lb ed="#P" n="20" break="no"/>tur, quia ratio per quam mouent est actus 
+          ipsa<lb ed="#P" n="21" break="no"/>rum potentiarum, sed ratio per quam 
+          mouen<lb ed="#P" n="22" break="no"/>tur sunt ipsae potentiae. Si autem potentiae prae 
+          <lb ed="#P" n="23"/>dictae non sunt idem per essentiam, sequitur 
+          <lb ed="#P" n="24"/>quod dictae potentiae non sunt idem essentialitet 
+          <lb ed="#P" n="25"/>quod anima, cum in vno non sit nisi vna 
+          ani<lb ed="#P" n="26" break="no"/>ma. Item in diuinis persona procedens per 
+          mo<lb ed="#P" n="27" break="no"/>dum intellectus &amp; persona procedens per 
+          mo<lb ed="#P" n="28" break="no"/>dum voluntatis distinguitur realiter non per 
+          res<lb ed="#P" n="29" break="no"/>pectum ad volitum &amp; intellectum, sed per 
+          res<lb ed="#P" n="30" break="no"/>pectus qui in earum rationibus includuntur, &amp; 
+          <lb ed="#P" n="31"/>per respectus oppositos vt communius tenetur, 
+          <lb ed="#P" n="32"/>quia si differrent solum per respectum ad 
+          voli<lb ed="#P" n="33" break="no"/>tum &amp; intellectum extra, rediret error Sabellii, 
+          <lb ed="#P" n="34"/>quia non esset inter dictas personas realis 
+          distin<lb ed="#P" n="35" break="no"/>ctio, sed tantum rationis. Ergo voluntas &amp; 
+          in<lb ed="#P" n="36" break="no"/>tellectus debent inter se realiter differre, quod 
+          <lb ed="#P" n="37"/>esse non potest, vt faciliter potest patere ex dictis 
+          <lb ed="#P" n="38"/>nisi addant ad absolutum aliquod diuersum ab 
+          <lb ed="#P" n="39"/>essentia animae. 
+        </p>
+        <p xml:id="hx2hx3-b12283-d1e701">
+          <lb ed="#P" n="40"/>Ad primum ergo dicendum, quod illud 
+          di<lb ed="#P" n="41" break="no"/>ctum nihil facit ad propositum quacunque parte 
+          <lb ed="#P" n="42"/>data, quia per illud dictum non vult Philosophus 
+          <lb ed="#P" n="43"/>quod potentia sit anima, sed quod sic se habet 
+          <lb ed="#P" n="44"/>potentia visiua ad oculum secundum quod 
+          ocu<lb ed="#P" n="45" break="no"/>lus est quid formaliter distinctum ab aliis sicut 
+          ani<lb ed="#P" n="46" break="no"/>ma ad animal. Et ex hoc vult quod sicut potentia 
+          <lb ed="#P" n="47"/>visiua est forma oculi secundum quod est 
+          orga<lb ed="#P" n="48" break="no"/>num potens videre, sic anima est forma animalis. 
+          <lb ed="#P" n="49"/>Si enim intentio sua esset probare per illud 
+          di<lb ed="#P" n="50" break="no"/>ctum quod potentia visiua esset anima, eadem 
+          ra<lb ed="#P" n="51" break="no"/>tione sequeretur quod forma dolabrae secundum 
+          <lb ed="#P" n="52"/>eum esset anima. Est ergo dicendum quod 
+          Philo<lb ed="#P" n="53" break="no"/>sophus ad declarandum suum propositum non 
+          <lb ed="#P" n="54"/>vtitur veritate istarum categoricarum scilicet 
+          <lb ed="#P" n="55"/>quod potentia visiua sit anima, vel etiam quod 
+          <lb ed="#P" n="56"/>forma dolabrae sit anima, quasi istae sint verae, imo 
+          <lb ed="#P" n="57"/>constat saltem de altera quod sit impossibilis: sed 
+          <lb ed="#P" n="58"/>vvtitur veritate conditionalium istarum quae sunat, 
+          <lb ed="#P" n="59"/>quod si oculus vel dolabra essent animalia, 
+          po<lb ed="#P" n="60" break="no"/>tentia visiua &amp; forma dolabrae essent animae, quae 
+          <lb ed="#P" n="61"/>quidem conditionales verae sunt, licet categoricae 
+          <lb ed="#P" n="62"/>sint impossibiles: Et si illud dictum aliquid 
+          face<lb ed="#P" n="63" break="no"/>ret ad propositum, magis esset contra ponentes 
+          <lb ed="#P" n="64"/>animam esse suas potentias, quam contra alios. 
+          <lb ed="#P" n="65"/>Quia constat quod si oculus &amp; auris essent 
+          ani<lb ed="#P" n="66" break="no"/>malia distincta differrent specie, cum ommino 
+          <lb ed="#P" n="67"/>non communicarent in propria operatione, quia 
+          <lb ed="#P" n="68"/>vnum eorum tantum videret &amp; aliud tantum 
+          <lb ed="#P" n="69"/>hudiret. Ergo sicut tunc haberent diuersas for¬ 
+          <!--40.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="70"/>mas specie per quas constituerentur species 
+          di<lb ed="#P" n="71" break="no"/>uersorum animalium, ita &amp; nunc dicuntur 
+          ha<lb ed="#P" n="72" break="no"/>berediuersas formas specie per quas constiuuntur 
+          <lb ed="#P" n="73"/>in esse diuerso secundum quod auris. Sed hoc non 
+          <lb ed="#P" n="74"/>potest esse anima, quia tunc differret a seipsa spe 
+          <lb ed="#P" n="75"/>cie. Ergo, &amp;c. Ad secundum dicendum quod 
+          <lb ed="#P" n="76"/>cumforma accidentalis sit instrumentum formae 
+          <lb ed="#P" n="77"/>substantialis, sicut instrumentum immediate 
+          at<lb ed="#P" n="78" break="no"/>tingit effectum &amp; agens principale non nisi 
+          me<lb ed="#P" n="79" break="no"/>diante instrumento attingit; ita etiam non est 
+          in<lb ed="#P" n="80" break="no"/>conueniens, accidens esse immediatum 
+          princi<lb ed="#P" n="81" break="no"/>pium operationis, &amp; quod forma substantialis 
+          <lb ed="#P" n="82"/>non nisi mediante accidentali attingat. Nec ex 
+          <lb ed="#P" n="83"/>hoc debet iudicari forma substantialis minus 
+          nobi<lb ed="#P" n="84" break="no"/>sis forma accidentali, sicut nec agens principale 
+          <lb ed="#P" n="85"/>minus nobile instrumento: quia intalibus 
+          imme<lb ed="#P" n="86" break="no"/>diatius id est propinquius effectui, simpliciter est 
+          <lb ed="#P" n="87"/>posterius &amp; agit in virtute prioris. Ad tertiu 
+          dicen<lb ed="#P" n="88" break="no"/>dum, quod sicut agens principale tam illud quod 
+          com<lb ed="#P" n="89" break="no"/>uenit instrumento ex sua natura, quam illud quod 
+          <lb ed="#P" n="90"/>transcendit virtutem instrumenti, secundum se 
+          <lb ed="#P" n="91"/>consideratum totum agit mediante instrumento 
+          <lb ed="#P" n="92"/>&amp; nonaliter: Ita etiam ignis nec calorem nec 
+          for<lb ed="#P" n="93" break="no"/>mam substantialem quae post dispositionem 
+          fa<lb ed="#P" n="94" break="no"/>ctam per calorem introducitur non attingit nisi 
+          <lb ed="#P" n="95"/>mediante calore qui est quasi eius instrumentum. 
+          <lb ed="#P" n="96"/>Nec est inconueniens calorem in virtute formae 
+          <lb ed="#P" n="97"/>substantialis attingere etiam ipsam formam 
+          sub<lb ed="#P" n="98" break="no"/>stantialem effectiue. Ad quartum dicendum, quod 
+          <lb ed="#P" n="99"/>est locutio emphatica quando dicitur quod 
+          me<lb ed="#P" n="100" break="no"/>moria, intelligentia, &amp; voluntas sunt vna mens, &amp; 
+          <lb ed="#P" n="101"/>etiam propter magnam intimitatem quam habent 
+          <lb ed="#P" n="102"/>ad essentiam animae. Et licet aliter pluribus aliis 
+          <lb ed="#P" n="103"/>modis dicatur, ad hoc sufficit mihi istud ad 
+          prae<lb ed="#P" n="104" break="no"/>sens. Ad quintum dicendum quod non oportet 
+          <lb ed="#P" n="105"/>quod si anima sit principium immediatum 
+          ali<lb ed="#P" n="106" break="no"/>cuius vel aliquarum potentiarum, quod similiter 
+          <lb ed="#P" n="107"/>sit principium immediatum suarum 
+          operatio<lb ed="#P" n="108" break="no"/>num. Primo, quia illi qui ponunt animam 
+          es<lb ed="#P" n="109" break="no"/>se principium originans suas potentias, dicunt 
+          <lb ed="#P" n="110"/>quod hoc sit quodam ordine, ita quod non 
+          <lb ed="#P" n="111"/>est principium immediatum nisi vnius. Si 
+          au<lb ed="#P" n="112" break="no"/>tem per se sola esset principium suarum 
+          opera<lb ed="#P" n="113" break="no"/>tionum, esset principium plurium immediate, 
+          <lb ed="#P" n="114"/>Secundo, quia non est inconueniens ab 
+          eo<lb ed="#P" n="115" break="no"/>dem procedere, multa dummodo recipiantur in 
+          <lb ed="#P" n="116"/>diuersis organis sicut in proprio subiecto; si 
+          <lb ed="#P" n="117"/>autem anima esset potentiae suae respectu 
+          sua<lb ed="#P" n="118" break="no"/>rum omnium operationum cognitiuarum, o. 
+          <lb ed="#P" n="119"/>porteret quod ab eadem essentia essentialiter 
+          pro<lb ed="#P" n="120" break="no"/>cederent multa recepta in eodem si ponatur 
+          <lb ed="#P" n="121"/>potentia cognitiua esse principium actiuum 
+          res<lb ed="#P" n="122" break="no"/>pectu cognitionis. Tertio, quia sicut agens 
+          ar<lb ed="#P" n="123" break="no"/>tificiale requirit instrumentum per quod agat 
+          <lb ed="#P" n="124"/>propter limitationem suae virtutis quae in vno 
+          <lb ed="#P" n="125"/>non potest simul habere illud quod est in ipso 
+          <lb ed="#P" n="126"/>&amp; in instrumento necessarium ad agendum, 
+          <lb ed="#P" n="127"/>ita etiam nulla substantia creata potest esse 
+          <lb ed="#P" n="128"/>sufficiens principium essendi &amp; operandi. Ad 
+          <lb ed="#P" n="129"/>sextum soluit ipse Philosophus, quia dicit ipse 
+          <lb ed="#P" n="130"/>quod anima est quo primo sentimus &amp; 
+          intelligi<lb ed="#P" n="131" break="no"/>mus; non autem quo immediate: Vel dato quod 
+          <lb ed="#P" n="132"/>intelligeret de principio immediato, posset dici, 
+          <lb ed="#P" n="133"/>quod sicut aliquando accipitur viuere pro esse 
+          vi<lb ed="#P" n="134" break="no"/>uetis, ita intelligere &amp; sentire potest accipi quado 
+          <lb ed="#P" n="135"/>que pro operatione, quandoque pro esse 
+          intelligen<lb ed="#P" n="136" break="no"/>tis &amp; sentientis. Ad septimu dicendu quod anima 
+          <lb ed="#P" n="137"/>eo ipso quod est immaterialis, est &amp; naturae intel, 
+          <lb ed="#P" n="138"/>lectualis, ex quo cotingit quod ipsa immaterialis 
+          <!--41.xml-->
+          <pb ed="#P" n="41"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>existens ex hoc ipse habet potentiam 
+          smmateria<lb ed="#P" n="2" break="no"/>lem per quam conueniat ei operatio immat 
+          eria<lb ed="#P" n="3" break="no"/>lis. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

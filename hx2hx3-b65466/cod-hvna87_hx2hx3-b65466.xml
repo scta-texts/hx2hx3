@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="196"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b65466"><!-- l2d1q2 -->
+            <head xml:id="hx2hx3-b65466-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b65466-Hd1e101" type="question-title">Utrum soli deo conveniat creare posse</head>
+            <p xml:id="hx2hx3-b65466-d1e104">
+      <!--196.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Creator etenim est, qui de nihilo aliquid 
+      fa<lb ed="#P" n="72" break="no"/>cit, &amp; creare proprie est de nihilo aliquid 
+      <lb ed="#P" n="73"/>facere: facere vero non modo de nihilo 
+      ali<lb ed="#P" n="74" break="no"/>quid operari, sed etiam de materia; vnam 
+      <lb ed="#P" n="75"/>&amp; homo &amp; Angelus dicitur aliqua 
+      face<lb ed="#P" n="76" break="no"/>re, sed non creare, vocaturque factor, siue 
+      <lb ed="#P" n="77"/>artifex, sed non creator: hoc enim nomen 
+      <lb ed="#P" n="78"/>soli Deo proprie conuenit, qui &amp; de nihilo 
+      <lb ed="#P" n="79"/>quaedam, &amp; de aliquo aliqua facit. Ipse est 
+      <lb ed="#P" n="80"/>ergo creator, &amp; opifex, &amp; factor: sed 
+      crea<lb ed="#P" n="81" break="no"/>toris nomen sibi proprie retinuit, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e135">
+               <lb ed="#P" n="82"/>DISTINCTIO PRIMA. 
+      <lb ed="#P" n="83"/>QVAESTIO SECVNDA. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e142">
+               <lb ed="#P" n="84"/>QVaeritur secundo: vtrum soli Deo 
+      conue<lb ed="#P" n="85" break="no"/>niat creare posse. Et arguitur quod non: 
+      <lb ed="#P" n="86"/>quia quod in se est impossibile, Deo non potest 
+      <lb ed="#P" n="87"/>conuenire. Sed creare est huiusmodi. Ergo, &amp;c. 
+      Mi<lb ed="#P" n="88" break="no"/>nor probatur: quia creare est producere aliquid ex 
+      <lb ed="#P" n="89"/>nihilo praesupposito. Sed hoc est impossibile. Ergo 
+      <lb ed="#P" n="90"/>&amp;c. Quod hoc sit impossibile probatur primo: 
+      <lb ed="#P" n="91"/>quia cum creatio passio sit quoddam accidens, 
+      o<lb ed="#P" n="92" break="no"/>portet quod praesupponat subiectum in quo 
+      recipia<lb ed="#P" n="93" break="no"/>tur. Ergo non potest dici quod nihil supponat. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e167">
+               <lb ed="#P" n="94"/>Item quod creatur de nouo, aliter se habet nunc 
+      <lb ed="#P" n="95"/>quam prius. Sed quod se habet aliter nunc quam 
+      <lb ed="#P" n="96"/>prius mutatur. Ergo creari est mutari. Sed 
+      muta<lb ed="#P" n="97" break="no"/>tio requirit subiectum in quo recipiatur. Ergo si 
+      <lb ed="#P" n="98"/>aliquid crearetur de nouo, creatio requireret 
+      ali<lb ed="#P" n="99" break="no"/>quod subiectum praesuppositum, quod est contra 
+      <lb ed="#P" n="100"/>rationem creationis. Quod autem illud quod 
+      crea<lb ed="#P" n="101" break="no"/>tur aliter se habeat nunc quam prius, probo: quia 
+      <lb ed="#P" n="102"/>aut aliter, aut eodem modo: non eodem modo, 
+      <lb ed="#P" n="103"/>quia sequeretur, quod sicut prius non erat, ita nec 
+      <lb ed="#P" n="104"/>post. Relinquitur ergo quod aliter. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e193">
+               <lb ed="#P" n="105"/>Item quod producitur de nouo possibile est 
+      es<lb ed="#P" n="106" break="no"/>se. Sed nihil est in potentia ad esse, nisi per 
+      mate<lb ed="#P" n="107" break="no"/>riam. Ergo oportet praesuponi creationi materiam, 
+      <lb ed="#P" n="108"/>si aliquid creetur de nouo. Sed praesuponere 
+      mate<lb ed="#P" n="109" break="no"/>riam, est contra rationem creationis Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e206">
+               <lb ed="#P" n="110"/>Item omne compositum praesupponit partes ex 
+      <lb ed="#P" n="111"/>quibus constituitur, &amp; sic constitutio compositi 
+      <lb ed="#P" n="112"/>aliquid praesupponit. Creatio autem nihil 
+      praesup<lb ed="#P" n="113" break="no"/>ponit. Ergo nullum compositum creatur. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e217">
+               <lb ed="#P" n="114"/>Item quod potest communicari creaturae, non 
+      <lb ed="#P" n="115"/>est necessarium soli Deo conuenire. Sed posse 
+      <lb ed="#P" n="116"/>creare est huiusmodi. Ergo, &amp;c. Probatio minoris. 
+      <lb ed="#P" n="117"/>Quia cum effectus creatus sit aliquid finitum, ad 
+      <lb ed="#P" n="118"/>eius creationem sufficit potentia finita. Sed illud 
+      <lb ed="#P" n="119"/>producere potest communicari creaturae, ad quod 
+      <lb ed="#P" n="120"/>sufficit potentia finita. Ergo creare est 
+      communica<lb ed="#P" n="121" break="no"/>re creaturae. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e237">
+               <lb ed="#P" n="122"/>In contrarium videtur, quod soli Deo conueniat 
+      <lb ed="#P" n="123"/>aliquid producere: quia si aliquid aliud a Deo 
+      <lb ed="#P" n="124"/>agat, aut mediate, aut immediate. Non mediate, 
+      <lb ed="#P" n="125"/>ita quod dicatur agere mediante Deo: quia tunc 
+      <lb ed="#P" n="126"/>creatura esset prior causa quam Deus: quia causa 
+      <lb ed="#P" n="127"/>quae agit mediate est prior illa qua mediante agit. 
+      <lb ed="#P" n="128"/>Nec etiam immediate. Quia cum Deus ponatur 
+      <lb ed="#P" n="129"/>agere immediate in productione omnis rei, 
+      seque<lb ed="#P" n="130" break="no"/>retur quod eiusdem essent duae causae immediatae, 
+      <lb ed="#P" n="131"/>quod est inconueniens. Item nulla res agit nisi illa 
+      <lb ed="#P" n="132"/>cui conuenit dare esse. Sed hoc soli Deo qui creat, 
+      <lb ed="#P" n="133"/>conuenit, quia esse est per creationem, vt habetur 
+      <lb ed="#P" n="134"/>in libro de causis. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e268">
+               <lb ed="#P" n="135"/>Respondeo hic quinque declaranda sunt.
+      <lb ed="#P" n="136"/>Primo quod est necessarium esse vnum primum 
+      <!--197.xml-->
+      <pb ed="#P" n="197"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>principium omnium, quod vocamus Deum. 
+      <lb ed="#P" n="2"/>Secundo inquiretur quid importat creatio. 
+      <lb ed="#P" n="3"/>Tertio concludemus, quod necessarium est 
+      po<lb ed="#P" n="4" break="no"/>nere quod Deo conueniat creare. 
+      <lb ed="#P" n="5"/>Quarto, vtrum potentia creandi possit 
+      commu<lb ed="#P" n="6" break="no"/>nicari creaturae. 
+      <lb ed="#P" n="7"/>Quinto, vtrum alia a Deo aganti 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e298">
+               <lb ed="#P" n="8"/>ARTICVLVS PRIMVS,
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e303">
+               <lb ed="#P" n="9"/>Qvantum ad primum sciendum, quod esse 
+      <lb ed="#P" n="10"/>plura prima principia dupliciter potest 
+      in<lb ed="#P" n="11" break="no"/>telligi. Vno modo accipiendo nomen simpliciter. 
+      <lb ed="#P" n="12"/>sed in genere: verbi gratia, vt dicatur, quod sicut 
+      <lb ed="#P" n="13"/>est deuenire ad primum efficiens quo non est dare 
+      <lb ed="#P" n="14"/>aliud prius esficiens: ita etiam contingit dare in 
+      <lb ed="#P" n="15"/>compositis aliquam primam materiam qua 
+      impos<lb ed="#P" n="16" break="no"/>sibile est dare aliam materiam priorem. Et sic bene 
+      <lb ed="#P" n="17"/>contingit dare plura principia. Alio modo 
+      conue<lb ed="#P" n="18" break="no"/>nit intelligi esse plura prima principia, accipiendo 
+      <lb ed="#P" n="19"/>primum simpliciter: ita quod neutrum eorum 
+      re<lb ed="#P" n="20" break="no"/>ducatur in aliquam causam priorem secundum 
+      <lb ed="#P" n="21"/>genus quodeumque causae. Et hoc contingit 
+      du<lb ed="#P" n="22" break="no"/>pliciter intelligi.: Vno modo, quod sit dare 
+      ali<lb ed="#P" n="23" break="no"/>quod principium intrinsecum rei, puta materiam 
+      <lb ed="#P" n="24"/>primam, quae non solum non reducitur in aliam 
+      <lb ed="#P" n="25"/>causum sicut in causam materialem; sed etiam non 
+      <lb ed="#P" n="26"/>possit reduci in aliud sicut in causam efficientem: 
+      <lb ed="#P" n="27"/>vt si poneretur quod materia prima non habeat 
+      <lb ed="#P" n="28"/>aliquam causam essicientem, nec per modum 
+      crea<lb ed="#P" n="29" break="no"/>tionis, nec per alium modumt Alio modo ponunt 
+      <lb ed="#P" n="30"/>poni duo prima principia extrinseca, scilicet duo 
+      <lb ed="#P" n="31"/>agentia prima, quorum vnum non reducatur in 
+      <lb ed="#P" n="32"/>aliud, nec ambo in tertium, sicut in causam 
+      effi<lb ed="#P" n="33" break="no"/>cientem. Et neutro istorum duorum modorum vle 
+      <lb ed="#P" n="34"/>timorum possunt esse plura prima principia. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e362">
+               <lb ed="#P" n="35"/>Et hoc patet primo quantum ad primum modum 
+      <lb ed="#P" n="36"/>tribus rationibus. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e369">
+               <lb ed="#P" n="37"/>Primo, quia illud quod ex se habet esse sine 
+      ali<lb ed="#P" n="38" break="no"/>qua causa efficiente, eius esse non videtur 
+      depen<lb ed="#P" n="39" break="no"/>dere ab aliquo, &amp; sic materia non dependeret a 
+      <lb ed="#P" n="40"/>forma in esse, vnde possit in suo esse manere, 
+      abla<lb ed="#P" n="41" break="no"/>ta quacumquerforma: hoc enim posito, eius esse 
+      <lb ed="#P" n="42"/>videretur minus dependens quam esse formae, vel 
+      <lb ed="#P" n="43"/>compositi, quae requirunt causam efficientem. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e387">
+               <lb ed="#P" n="44"/>Secundo, quia sequeretur ex hoc quod materia 
+      <lb ed="#P" n="45"/>esset perfectius &amp; nobilus ens quam forma vel 
+      <lb ed="#P" n="46"/>compositum: quia quanto vnumquodque minus 
+      <lb ed="#P" n="47"/>habet de actualitate, entitate &amp; perfectione, 
+      ma<lb ed="#P" n="48" break="no"/>gis dependet in sua entitate ab aliqua causa 
+      essi<lb ed="#P" n="49" break="no"/>ciente, &amp; e conuerso quanto est perfectius, minus 
+      <lb ed="#P" n="50"/>dependet. Et quanto minus indiget, tanto est 
+      per<lb ed="#P" n="51" break="no"/>fectius &amp; actualius. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e407">
+               <lb ed="#P" n="52"/>Tertio, quia cum habitudo generalis quam 
+      ma<lb ed="#P" n="53" break="no"/>teria habet ad formas substantiales conueniat sibi 
+      <lb ed="#P" n="54"/>per essentiam; si materia non est producta ab 
+      ali<lb ed="#P" n="55" break="no"/>quo intendente hanc habitud inem materiae ad 
+      for<lb ed="#P" n="56" break="no"/>mam: habitudo quam habet materia general ter 
+      <lb ed="#P" n="57"/>ex natura sua ad formam esset a casu quod est 
+      in<lb ed="#P" n="58" break="no"/>conueniens. Et haec ratio confirmatur: quia illud 
+      <lb ed="#P" n="59"/>qaod hab et ordinari ad aliquid sicut ad finem, 
+      ne<lb ed="#P" n="60" break="no"/>cessario habet aliquam causam effectiuam per 
+      <lb ed="#P" n="61"/>quam ordinatur ad illud, nisi fiat a casu: materin 
+      <lb ed="#P" n="62"/>autem ordinatur ad formam sicut ad suum finem, 
+      <lb ed="#P" n="63"/>nam forma est per se finis materiae. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e437">
+               <lb ed="#P" n="64"/>Similiter secundus modus non potest esse, 
+      scili<lb ed="#P" n="65" break="no"/>cet quod sint duae causae efficientes primae, 
+      qua<lb ed="#P" n="66" break="no"/>rum vna non reducatur ad aliam, nec ambae ad 
+      ter<lb ed="#P" n="67" break="no"/>tiam: quia illae duae causae aut differunt specie aut 
+      <lb ed="#P" n="68"/>numero soelei quia vt prebatum fuit inprio loco, 
+      <!--197.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>impossibile est, id quod est simpliciter primum, 
+      <lb ed="#P" n="70"/>plurifieari numero solo. Si autem differunt sper ie, 
+      <lb ed="#P" n="71"/>oportet quod vnum sit imperfectius, &amp; possibile 
+      <lb ed="#P" n="72"/>respectu alterius: quod autem est imperfectum &amp; 
+      <lb ed="#P" n="73"/>possibile, oportet reduci in aliquid simpliciter 
+      <lb ed="#P" n="74"/>perfectum, &amp; quod sit purus actus. Item aut 
+      <lb ed="#P" n="75"/>causantur eadem, aut diuersa; si eadem, aut 
+      neu<lb ed="#P" n="76" break="no"/>trum est per se sufficiens ad ea causanda, aut 
+      v<lb ed="#P" n="77" break="no"/>trumque, aut alterum tantum. Si neutrum, 
+      sequi<lb ed="#P" n="78" break="no"/>tur quod neutrum est simpliciter perfectum, quod 
+      <lb ed="#P" n="79"/>repugnat primae causae. Si vtrumque alterum 
+      su<lb ed="#P" n="80" break="no"/>perfluit. Si alterum tantum, illud erit prima causa 
+      <lb ed="#P" n="81"/>tantum. Item aut ambo concordant, &amp; hoc non 
+      <lb ed="#P" n="82"/>potest esse, nisi vnum moueat alterum aut ambo 
+      <lb ed="#P" n="83"/>moueantur a tertio: quia oportet vnitatem 
+      effe<lb ed="#P" n="84" break="no"/>ctus reducere in vnitatem causae propriae. Si 
+      au<lb ed="#P" n="85" break="no"/>tem vnum eorum mouet alterum, illud quod 
+      mo<lb ed="#P" n="86" break="no"/>uetur non est prima causa. Si autem an bo 
+      mo<lb ed="#P" n="87" break="no"/>ueantur, tunc neutrum eorum erit prima causa. 
+      <lb ed="#P" n="88"/>Si autem ambo non concordant, mututuo se 
+      im<lb ed="#P" n="89" break="no"/>pedient, &amp; a casu &amp; propter intentionem 
+      proue<lb ed="#P" n="90" break="no"/>nient effectus ab eis, &amp; sic omnia erunt a casu. Et 
+      <lb ed="#P" n="91"/>idem sequitur, si vnus sit crusa vnius partis 
+      eius<lb ed="#P" n="92" break="no"/>dem vniuersi, &amp; alius sit causa alterius partis: quia 
+      <lb ed="#P" n="93"/>connexus &amp; ordo talis vniuersi erit a casu nisi vnus 
+      <lb ed="#P" n="94"/>eorum moueantur ab alio, &amp; ille non erit prima 
+      <lb ed="#P" n="95"/>causa. Aut ambo mouentur a tertio, &amp; sic 
+      neu<lb ed="#P" n="96" break="no"/>trum erit prima causa. Si autem ponantur duae 
+      <lb ed="#P" n="97"/>causae diuersorum vniuersorum: aut illa 
+      vniuer<lb ed="#P" n="98" break="no"/>sae differunt numero &amp; possunt reduci in vnum. 
+      <lb ed="#P" n="99"/>Et sic necesse est eareduci in vnam causam: quia 
+      o<lb ed="#P" n="100" break="no"/>porteret sicut vniuersas: ita &amp; ambas causas 
+      illo<lb ed="#P" n="101" break="no"/>rum differre solo numero, quod non contingit in 
+      <lb ed="#P" n="102"/>prima causa. Si autem differunt specie, oportebit 
+      <lb ed="#P" n="103"/>etiam causas differre specie. Et sic vnum 
+      vniuer<lb ed="#P" n="104" break="no"/>sum cum sua causa erit perfectius altero, &amp; causa 
+      <lb ed="#P" n="105"/>eius: &amp; sic oportebit vnum corum cum sua causa 
+      <lb ed="#P" n="106"/>reduci in causam alterius vniuersi sicut 
+      imperfe<lb ed="#P" n="107" break="no"/>ctum ad perfectissimum Licet multa alia soleant 
+      <lb ed="#P" n="108"/>adduci, haec sufficiant de primo. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e541">
+               <lb ed="#P" n="109"/>Ex dictis ergo habemus, quod solus Deus est 
+      <lb ed="#P" n="110"/>causa prima omnium: &amp; quod est causa effectiua 
+      <lb ed="#P" n="111"/>omnium quae rebus aliis a se sunt, siue materia, 
+      si<lb ed="#P" n="112" break="no"/>ue forma, siue aliquid aliud sit. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e552">
+               <lb ed="#P" n="113"/>ARTICVLVS SECVNDVS. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e557">
+               <lb ed="#P" n="114"/>QVantum ad secundum sciendum, quod 
+      qui<lb ed="#P" n="115" break="no"/>dam dicunt, quod creatio est idem quod esse 
+      <lb ed="#P" n="116"/>rei creatae, Ipsa enim creatura quantum ad 
+      essen<lb ed="#P" n="117" break="no"/>tiam, est subiectum ipsius creationis, ita quod 
+      si<lb ed="#P" n="118" break="no"/>cut in calefactione illud quod est formale in 
+      cale<lb ed="#P" n="119" break="no"/>facto, scilicet calor est calefactio: ita in creatione 
+      <lb ed="#P" n="120"/>illud quod est form de in creato, est creatio: hoc 
+      <lb ed="#P" n="121"/>autem est esse creati quod ponunt differre ab 
+      es<lb ed="#P" n="122" break="no"/>sentia, Sed dicunt in hoc differre, quia per 
+      calefa<lb ed="#P" n="123" break="no"/>ctionem, quae est idem quod calor, non 
+      produci<lb ed="#P" n="124" break="no"/>tur subiectum calefactionis vel caleris: sed per 
+      <lb ed="#P" n="125"/>creationem quae est idem re quod esse creatum, 
+      <lb ed="#P" n="126"/>producitur subiectum creationis, scilicet ipsa res 
+      <lb ed="#P" n="127"/>creata, 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e590">
+               <lb ed="#P" n="128"/>Sed quicquid sit de differentia reali esse, &amp; 
+      es<lb ed="#P" n="129" break="no"/>sentiae, istud non videtur mihi bene dictum. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e597">
+               <lb ed="#P" n="130"/>Primo quia sequeretur, quod creatio haberet 
+      <lb ed="#P" n="131"/>subiectum proprie dictum in quo reciperetur, 
+      ac<lb ed="#P" n="132" break="no"/>cipiendo creationem pro aliquo abse luto, non 
+      <lb ed="#P" n="133"/>tantum pro relatione sicut &amp; calefactio. Quia 
+      vi<lb ed="#P" n="134" break="no"/>detur inconueniens. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e611">
+               <lb ed="#P" n="135"/>Secundo, quia pari ratione posset dici, quod 
+      <lb ed="#P" n="136"/>generatio substantiae non esser forma substantia¬ 
+      <!--198.xml-->
+      <pb ed="#P" n="198"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>lis, sed esse ipsius formae, quod in generatione est 
+      <lb ed="#P" n="2"/>formale, &amp; teius subiectum erit eius essentia formae, 
+      <lb ed="#P" n="3"/>Et sicut in creatione per esse producitur eius 
+      to<lb ed="#P" n="4" break="no"/>tum subiectum: ita per esse formae substantialis 
+      <lb ed="#P" n="5"/>produceretur subiectum eius, quod est esse formae. 
+      <lb ed="#P" n="6"/>Et idem potest dici de forma accidentali. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e637">
+               <lb ed="#P" n="7"/>Tertio quod si creatura produceretur per esse, 
+      <lb ed="#P" n="8"/>videtur quod in creatione esse sit causa media, 
+      si<lb ed="#P" n="9" break="no"/>cut calor aquae est causa media per quam fit calor 
+      <lb ed="#P" n="10"/>in aqua: quod videretur inconueniens; tum quia 
+      <lb ed="#P" n="11"/>sequeretur quod creatura cooptaretur ad 
+      crean<lb ed="#P" n="12" break="no"/>dum creaturam ei substractam: tum quia 
+      secun<lb ed="#P" n="13" break="no"/>dum hoc esse non flueret a principiis essentiae: sed 
+      <lb ed="#P" n="14"/>potius esset e conuerso: quia est contra eos. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e657">
+               <lb ed="#P" n="15"/>Et ideo aliter est dicendum, quod sicut forma 
+      <lb ed="#P" n="16"/>acquisita per motum vel mutationem est realiter 
+      <lb ed="#P" n="17"/>actio &amp; passio &amp; motus: ita etiam realiter creatio 
+      <lb ed="#P" n="18"/>actio, &amp; creatio passio, est idem quod tota res 
+      <lb ed="#P" n="19"/>creata. Quia, vt videtur, sicut se habet calefactio 
+      <lb ed="#P" n="20"/>ad illud quod per calefactionem acquiritur: ita 
+      vi<lb ed="#P" n="21" break="no"/>detur se habere creatio ad illud quod per 
+      creatio<lb ed="#P" n="22" break="no"/>nem acquiritur. Sed illud quod per calefactionem 
+      <lb ed="#P" n="23"/>acquiritur, dicitur calefactio. Ergo illud quod per 
+      <lb ed="#P" n="24"/>creationem acquiritur, est substantia rei creatae: 
+      <lb ed="#P" n="25"/>accidentia enim proprie non sunt creata, sed 
+      con<lb ed="#P" n="26" break="no"/>creata. Ergo tota substantia rei creatae est realiter 
+      <lb ed="#P" n="27"/>ipsa creatio: ita quod creatura dicitur crta o actio 
+      <lb ed="#P" n="28"/>prout denominat Deum vt causam agentem a qua 
+      <lb ed="#P" n="29"/>est creatura. Et dicitur actio passio prout est a Deo, 
+      <lb ed="#P" n="30"/>&amp; prout conuenit ei esse illud quod est secundum 
+      <lb ed="#P" n="31"/>se totum ab alio. Nec hoc est contra dictum 
+      quo<lb ed="#P" n="32" break="no"/>rumdam magnorum qui dicunt, quod creatio est 
+      <lb ed="#P" n="33"/>actio in Deo: quia vel accipiunt creationem 
+      actio<lb ed="#P" n="34" break="no"/>nem pro operatione interiori: sicut intelligere &amp; 
+      <lb ed="#P" n="35"/>velle: vel pro relatione creantis ad creatum: ita 
+      <lb ed="#P" n="36"/>quod creare sit habere relationem eius a quo est 
+      <lb ed="#P" n="37"/>creatura ad ipsam creaturam. Et hoc est vti largo 
+      <lb ed="#P" n="38"/>modo nomine creationis: sed proprie videtur esse 
+      <lb ed="#P" n="39"/>illud esse illud quod dictum est. Nam vbi est 
+      pro<lb ed="#P" n="40" break="no"/>ductio alicuius absoluta, productio videtur esse 
+      il<lb ed="#P" n="41" break="no"/>lud absolutum quod per productionem 
+      acquiri<lb ed="#P" n="42" break="no"/>tur, &amp; nonrelatio quae consequitur agens vel 
+      pas<lb ed="#P" n="43" break="no"/>sum. Si autem quaeratur quomodo dicitur 
+      ali<lb ed="#P" n="44" break="no"/>quid fieri per creationem, videtur mihi quod sicut 
+      <lb ed="#P" n="45"/>per causam formalem formali er denominantem; 
+      <lb ed="#P" n="46"/>licet secundum nostram imaginationem videatur, 
+      <lb ed="#P" n="47"/>quod creatum fiat per creationem sicut per viam 
+      <lb ed="#P" n="48"/>ad esse: quia ea quae fuit per motum, &amp; 
+      praeci<lb ed="#P" n="49" break="no"/>pue quando motus praecedens introductionem 
+      for<lb ed="#P" n="50" break="no"/>mae substantialis, dicitur fieri vel generatio 
+      sub<lb ed="#P" n="51" break="no"/>stantiae: talia dicunt fieri per motum, sicut per 
+      <lb ed="#P" n="52"/>viam tendendi ad esse. Vnde quando dicitur ignis 
+      <lb ed="#P" n="53"/>fieri per generationem, accipiendo generationem 
+      <lb ed="#P" n="54"/>pro alteratione praecedente introductionem 
+      for<lb ed="#P" n="55" break="no"/>mae substantialis, Iy per denominat viam tendendi 
+      <lb ed="#P" n="56"/>ad esse: sed quando dicitur quod calorvel calidum fit 
+      <lb ed="#P" n="57"/>per generationem, Iper partim denominat 
+      for<lb ed="#P" n="58" break="no"/>mam denominantem, partim denominat viam 
+      <lb ed="#P" n="59"/>tendendi ad esse. Nam inquantum calor est idem 
+      <lb ed="#P" n="60"/>realiter quod calefactio, quando dicitur calefieri, 
+      <lb ed="#P" n="61"/>vel fieri calidum per calefactionem, ly per 
+      deno<lb ed="#P" n="62" break="no"/>tat habitudinem formae denominantis: 
+      inquan<lb ed="#P" n="63" break="no"/>tum vero durante motu non habetur perfecte 
+      for<lb ed="#P" n="64" break="no"/>ma, sed tendit continue ad perfectum esse 
+      for<lb ed="#P" n="65" break="no"/>mae i dicitur aliquid calidum fieri per 
+      calefactio<lb ed="#P" n="66" break="no"/>nem formaliter: sicut per viam ad esse. Iu fieri autem 
+      <lb ed="#P" n="67"/>modo inursibili, quod non est terminus motus 
+      dici<lb ed="#P" n="68" break="no"/>tur aliquid fieri per creationem: ita quod dicitur 
+      ali<lb ed="#P" n="69" break="no"/>quid fieri creatum per creationem, &amp; fieri lucidum per 
+      <lb ed="#P" n="70"/>illumnationeformalter aita qued sieut albede, vt 
+      <!--198.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>est color denominar formaliter aliquid coloratum, &amp; 
+      <lb ed="#P" n="72"/>vt albedo denominat ipsum esse album: ita eriam 
+      ea<lb ed="#P" n="73" break="no"/>dem res quae est calefactio actio, &amp; calefactio 
+      pas<lb ed="#P" n="74" break="no"/>sio, &amp; calor diuersemode denominat calefactum 
+      <lb ed="#P" n="75"/>&amp; calidum formaliter, tamen vtrumque: sed agens 
+      <lb ed="#P" n="76"/>calefaciens denominat sicut effectus denominat 
+      <lb ed="#P" n="77"/>causam efficientem: &amp; similiter creatio 
+      denomi<lb ed="#P" n="78" break="no"/>nat formaliter creatum, prout res creata accipitur 
+      <lb ed="#P" n="79"/>passiue, &amp; denominat creantem, prout effectus 
+      <lb ed="#P" n="80"/>denominat causam. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e807">
+               <lb ed="#P" n="81"/>ARTICVLVS TERTIVS.
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e812">
+               <lb ed="#P" n="82"/>Qvantum ad tertium sciendum est, quod cum 
+      <lb ed="#P" n="83"/>creare sit nullo praesupposito aliquid 
+      produ<lb ed="#P" n="84" break="no"/>cere: nihil autem praesupponere in actione 
+      du<lb ed="#P" n="85" break="no"/>pliciter potest intelligi. vno modo ex parte 
+      agen<lb ed="#P" n="86" break="no"/>tis. Et sic creare idem est quod nulla priori causa 
+      <lb ed="#P" n="87"/>in cuius virtute agat praesupposita agere. Et agere, 
+      <lb ed="#P" n="88"/>soli causae primae conuenit: quia Deus est causa 
+      <lb ed="#P" n="89"/>prima omnium, vt probatum est: &amp; solus Deus 
+      <lb ed="#P" n="90"/>est talis causa. Et ideo sic creare soli Deo conuenit 
+      <lb ed="#P" n="91"/>secundum Philosophos. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e836">
+               <lb ed="#P" n="92"/>Alio modo potest dici nihil praesupponere, 
+      sci<lb ed="#P" n="93" break="no"/>licet ex parte effectus, &amp; hoc dupliciter. Vno 
+      mo<lb ed="#P" n="94" break="no"/>do vt intelligatur, quod res creata nihil prius se 
+      <lb ed="#P" n="95"/>praesupponat, sicut totum praesupppnit partes; &amp; 
+      <lb ed="#P" n="96"/>sic nihil prae supponere non est de rationc 
+      creatio<lb ed="#P" n="97" break="no"/>nis: imo cum realiter tota creatio sit ipsa tota res 
+      <lb ed="#P" n="98"/>creata secundum rem loquendo: etiam ipsa tota 
+      <lb ed="#P" n="99"/>creatio composita praesupponit partes compositae 
+      <lb ed="#P" n="100"/>substantiae sui. Alio modo dicitur nihil 
+      praesuppo<lb ed="#P" n="101" break="no"/>ners ex parte rei factae: quia creatio non 
+      praesup<lb ed="#P" n="102" break="no"/>ponit aliquod subiectum diuersum a tota 
+      creatio<lb ed="#P" n="103" break="no"/>ne, sic vt in subiecto praesupposito, &amp; per 
+      crea<lb ed="#P" n="104" break="no"/>tionem non producto recipiatur, sicut recipiunt 
+      <lb ed="#P" n="105"/>actiones &amp; passiones habentes subiectum. Et 
+      <lb ed="#P" n="106"/>sic creare idem est, quod totam rem: quantum ad 
+      <lb ed="#P" n="107"/>totum quod est in ea, nullo praesupposito in quo 
+      <lb ed="#P" n="108"/>recipiatur creatio, producere. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e876">
+               <lb ed="#P" n="109"/>Hoc autem adhuc dupliciter potest 
+      continge<lb ed="#P" n="110" break="no"/>re. Vno modo cum in hoc importetur nouitas 
+      es<lb ed="#P" n="111" break="no"/>sendi, vt idem sit creare quod de nouo aliquid 
+      <lb ed="#P" n="112"/>nullo praesupposito producere. Alio modo 
+      acci<lb ed="#P" n="113" break="no"/>piatur absolute absque nouitate essendi, &amp; absque 
+      <lb ed="#P" n="114"/>perpetuitate, vt sit idem quod absolute nullo 
+      <lb ed="#P" n="115"/>prae supposito aliquid producere. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e894">
+               <lb ed="#P" n="116"/>Primo modo supponimus secundum fidem 
+      <lb ed="#P" n="117"/>quod de eo conuenit creare: sed vt supra in prima 
+      <lb ed="#P" n="118"/>quaestione probatum est, hoc non fuit 
+      necessa<lb ed="#P" n="119" break="no"/>rium, nec posset demonstratiue probari, quod 
+      <lb ed="#P" n="120"/>Deus non posset sic creare: quia constat quod sic 
+      <lb ed="#P" n="121"/>de facto creauit, &amp; oppositum veritatis non 
+      po<lb ed="#P" n="122" break="no"/>test efficaciter probari¬ 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e912">
+               <lb ed="#P" n="123"/>Et sic et quod Deus posset sic creare, probetur 
+      <lb ed="#P" n="124"/>ex hoc quod agat per liberum arbitrium, tactum 
+      <lb ed="#P" n="125"/>fuit in primo, etiam secundum viam Aristotelis 
+      <lb ed="#P" n="126"/>ponentis Deum necessario velle quae vult: non 
+      <lb ed="#P" n="127"/>posset efficaciter probari, quod Deus non posset 
+      <lb ed="#P" n="128"/>facere mundum de nouo. Et hoc ostendo: quia 
+      <lb ed="#P" n="129"/>non oportet quod illud quod fit ab agente per 
+      in<lb ed="#P" n="130" break="no"/>tellectum &amp; voluntatem sit tale quale est ipsum 
+      <lb ed="#P" n="131"/>velle: sed hoc requiritur, quod illud fit tale quale 
+      <lb ed="#P" n="132"/>volens vult ipsum esse. Non est autem 
+      inconue<lb ed="#P" n="133" break="no"/>niens, quod aliquis voluntate immutabili velit 
+      ali<lb ed="#P" n="134" break="no"/>quid esse mutabile, &amp; voluntate aeterna velit esse 
+      <lb ed="#P" n="135"/>aliquid ex tempore, dummodo hoc conueniat fini 
+      <lb ed="#P" n="136"/>quem intendit etiam si ex natura sua necessario 
+      <lb ed="#P" n="137"/>inclinaretur ad volendum illud. Ergo non est 
+      in<lb ed="#P" n="138" break="no"/>conueniens Deum velle aliqud ese ex tempere, 
+      <!--199.xml-->
+      <pb ed="#P" n="199"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>mmo velle totum mundum esse ex tempore: &amp; si de 
+      <lb ed="#P" n="2"/>necessitate velit alia a se, dummodo mundum esse 
+      <lb ed="#P" n="3"/>ex tempore conueniat fini quem Deus intendito 
+      <lb ed="#P" n="4"/>Finis autem quem Deus intendit, est manifestare 
+      <lb ed="#P" n="5"/>bonitatem suam in rebus, &amp; communicare eis 
+      bo<lb ed="#P" n="6" break="no"/>tatem suam. Non posset autem demonstrari quod 
+      <lb ed="#P" n="7"/>huic fini magis conueniat mundum esse ab aeterno 
+      <lb ed="#P" n="8"/>quam ex tempore. Et ideo, posito quod Deus de 
+      <lb ed="#P" n="9"/>necessitate vellet alia a se prout decet bonitatem 
+      <lb ed="#P" n="10"/>suam, non posset probari per hoc quod vellet 
+      ne<lb ed="#P" n="11" break="no"/>cessario ea ab aeterno esse: nec per consequens 
+      <lb ed="#P" n="12"/>posset probari quod ea ab aeterno creauerit. Si 
+      au<lb ed="#P" n="13" break="no"/>tem accipiatur creare pro eo quod est ratio, nullo 
+      <lb ed="#P" n="14"/>praesupposito, producere non addendo, nec ab 
+      ae<lb ed="#P" n="15" break="no"/>terno, nec ex tempore. Sic potest demonstratiue 
+      <lb ed="#P" n="16"/>probari, quod Deo conueniat creare. Quia sicut 
+      <lb ed="#P" n="17"/>supra ostensum est, omnia alia a Deo, quantum 
+      <lb ed="#P" n="18"/>ad omnia, quae sunt in eis: oportet reducere in Deum 
+      <lb ed="#P" n="19"/>sicut in causam effectiuam. Causa autem effectina 
+      <lb ed="#P" n="20"/>quae producit totum quod est in re nihil 
+      praesup<lb ed="#P" n="21" break="no"/>ponit in actione sua vt subiectum in quo 
+      recipia<lb ed="#P" n="22" break="no"/>tur. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1003">
+               <lb ed="#P" n="23"/>ARTICVLVS QVARTVS.
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1008">
+               <lb ed="#P" n="24"/>Qvantum ad quartum scilicet, vtrum creare possit 
+      <lb ed="#P" n="25"/>communicari creaturae. Primo planum est 
+      <lb ed="#P" n="26"/>secundum fidem, &amp; secundum Philosophos: quia 
+      <lb ed="#P" n="27"/>ei non conuenit posse creare, prout creare est 
+      nul<lb ed="#P" n="28" break="no"/>lam causam in virtute cuius agat, supponere: quia 
+      <lb ed="#P" n="29"/>cum creatura quaecumque sit effectus Dei, 
+      opor<lb ed="#P" n="30" break="no"/>tet quod agat in virtute alterius a se, scilicet in 
+      vir<lb ed="#P" n="31" break="no"/>tute Dei a quo habet esse &amp; agere. 
+      <lb ed="#P" n="32"/>Sed vtrum posset communicari quod creet 
+      pro<lb ed="#P" n="33" break="no"/>vt creare importat nihil praesupponere, sicut 
+      po<lb ed="#P" n="34" break="no"/>suerunt Philosophi creaturam creare; vt si 
+      ponere<lb ed="#P" n="35" break="no"/>tur quod caelum esset causa omnium inferiorum, 
+      <lb ed="#P" n="36"/>&amp; quantum ad formam, &amp; quantum ad 
+      mate<lb ed="#P" n="37" break="no"/>riam. Modo communiter tenet Magistri non 
+      so<lb ed="#P" n="38" break="no"/>lum quod non est ita factum, sed etiam quod non 
+      <lb ed="#P" n="39"/>possit esse. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1045">
+               <lb ed="#P" n="40"/>Et hoc ostendendum ex quatuor, scilicet ex 
+      po<lb ed="#P" n="41" break="no"/>tentia creandi, ex conditione agentis, ex modo 
+      a<lb ed="#P" n="42" break="no"/>gendi, &amp; ex totalitate entitatis. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1055">
+               <lb ed="#P" n="43"/>Ex parte potentiae, ponunt talem rationem. 
+      <lb ed="#P" n="44"/>Creatura non est capax potentiae infinitae. Sed 
+      po<lb ed="#P" n="45" break="no"/>tentia creandi oportet esse potentiam infinitam. 
+      <lb ed="#P" n="46"/>Ergo, &amp;c. Maior supponitur. Minor probatur 
+      du<lb ed="#P" n="47" break="no"/>pliciter. Primo ostensiue, quia potentia quae 
+      tran<lb ed="#P" n="48" break="no"/>sit distantiam infinitam est infinita. Sed potentia 
+      <lb ed="#P" n="49"/>creandi est huiusmodi, cum transeat distantia quae 
+      <lb ed="#P" n="50"/>est inter ens &amp; nihil, quae est infinita: nam creans 
+      <lb ed="#P" n="51"/>facit aliquid ex nihilo. Secundo idem probatur, 
+      <lb ed="#P" n="52"/>deducendo ad impossibile: quia si potentia finita 
+      <lb ed="#P" n="53"/>potest aliquid facere ex nihilo, tunc poterit esse 
+      <lb ed="#P" n="54"/>dererminata proportio inter potentiam 
+      producen<lb ed="#P" n="55" break="no"/>tem aliquid ex nihilo, &amp; potentiam producentem 
+      <lb ed="#P" n="56"/>aliquid ex aliquo. Sed hoc est impossibile: quia 
+      se<lb ed="#P" n="57" break="no"/>quetetur quod etiam inter ens, &amp; nihil esset 
+      deter<lb ed="#P" n="58" break="no"/>minata proportio: quia sicut potentiae actiuae 
+      pro<lb ed="#P" n="59" break="no"/>portionantur: ita oportet proportionari terminos 
+      <lb ed="#P" n="60"/>actionum. Impossibile est autem, quod inter ens 
+      <lb ed="#P" n="61"/>&amp; nihil sit proportio aliqua. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1099">
+               <lb ed="#P" n="62"/>Ex parte agentis adducuntur tres tationes 
+      <lb ed="#P" n="63"/>quarum prima talis est Agens quod producit rem 
+      <lb ed="#P" n="64"/>totam se toro debet apere. Sed agens se toto debet 
+      <lb ed="#P" n="65"/>esse purus actus: quia vnumquodque in tantum 
+      a<lb ed="#P" n="66" break="no"/>git inquantum est actu. Erpo creans quod producit 
+      <lb ed="#P" n="67"/>totam rem debet esse purus actus Sed esse purum 
+      <lb ed="#P" n="68"/>actum soli Deo conuenit: Ergo, &amp;c.
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1117">
+      <!--199.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>Secunda ratio talis est: quia secunda causa 
+      prae<lb ed="#P" n="70" break="no"/>supponit effectum primae causae, sicut ars 
+      presup<lb ed="#P" n="71" break="no"/>ponit materiam praeparatam a materia. Sed omne 
+      <lb ed="#P" n="72"/>agens creatum comparatur ad Deum, sicut 
+      secun<lb ed="#P" n="73" break="no"/>da causa ad primam. Ergo creatura praesupponit 
+      <lb ed="#P" n="74"/>effectum primae causae, &amp; per consequens non 
+      po<lb ed="#P" n="75" break="no"/>test agere, nullo praesupposito. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1139">
+               <lb ed="#P" n="76"/>Tertia ratio talis est, si creat, oportet quod 
+      <lb ed="#P" n="77"/>creet vt instrumentum Dei. Sed instrumentum 
+      <lb ed="#P" n="78"/>impossibile est aliquid creare: quia instrumentum 
+      <lb ed="#P" n="79"/>semper agit in aliquam materiam praesuppositam, 
+      <lb ed="#P" n="80"/>disponendo eam ad recipiendum effectum 
+      prin<lb ed="#P" n="81" break="no"/>cipalis agentis. Ergo, &amp;o. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1155">
+               <lb ed="#P" n="82"/>Ex paute actionis, siue modi agendi ponuntur 
+      <lb ed="#P" n="83"/>duae rationes, quarum prima talis est. Illud cuius 
+      <lb ed="#P" n="84"/>actio non est substantia, non potest agere nisi 
+      prae<lb ed="#P" n="85" break="no"/>supponendo subiectum: quia oportet quod ectio 
+      <lb ed="#P" n="86"/>cum sit accidens, recipiatur in aliquo subiecto. Sed 
+      <lb ed="#P" n="87"/>actio solius Dei est substantia eius: omnis autem 
+      <lb ed="#P" n="88"/>actio creaturae est accidens. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1173">
+               <lb ed="#P" n="89"/>Secunda ratio talis est. Semper primum agens 
+      <lb ed="#P" n="90"/>imponit modum agendi secundo agenti: sed agens 
+      <lb ed="#P" n="91"/>in modo agendi non dependet ab aliquo, nsi 
+      <lb ed="#P" n="92"/>inquantum eius actio dependet ab aliquo 
+      sub<lb ed="#P" n="93" break="no"/>secto determinato in quod agit. Ergo nullum 
+      a<lb ed="#P" n="94" break="no"/>gens secundarium potest agere nisi in subiectum 
+      <lb ed="#P" n="95"/>praesuppositum, nec per consequens potest 
+      crea<lb ed="#P" n="96" break="no"/>re. Sed omne agens creatum est agens 
+      secunda<lb ed="#P" n="97" break="no"/>rium. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1196">
+               <lb ed="#P" n="98"/>Ex totalitate entis arguitur sic. Illud quod 
+      <lb ed="#P" n="99"/>producit remtotam, est causa torius eius quod 
+      per<lb ed="#P" n="100" break="no"/>tinet ad esse rei, &amp; sic est causa totius esse rei. Sed 
+      <lb ed="#P" n="101"/>quod est causa totius esse rei, est causa entis in 
+      qua<lb ed="#P" n="102" break="no"/>tum ens. Ergo creans est causa entis secundum 
+      <lb ed="#P" n="103"/>quod ens. Sed non potest conuenire crearurae 
+      ali<lb ed="#P" n="104" break="no"/>cui: quia sequeretur quod esset causa suiipsius. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1214">
+               <lb ed="#P" n="105"/>Licet autem supponendum sit, quod istae 
+      ratio<lb ed="#P" n="106" break="no"/>nes concludant verum, &amp; sint valde probabiles. 
+      <lb ed="#P" n="107"/>tamen non videtur quod necessario demonstrent. 
+      <lb ed="#P" n="108"/>Nec hoc est inconueniens: quia multae sunt veritaa 
+      <lb ed="#P" n="109"/>tes quae a nobis demonstrari non possunt. Et ideo 
+      <lb ed="#P" n="110"/>vt hoc teneamus magis tanquam auctoritate 
+      fir<lb ed="#P" n="111" break="no"/>matum, quamque rationibus humanis 
+      demonstra<lb ed="#P" n="112" break="no"/>tum, potest responderi ad rationes inductas. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1234">
+               <lb ed="#P" n="113"/>Ad primum ergo potest dici, quod creatio non 
+      <lb ed="#P" n="114"/>habet terminum a quo proprie: quia creatura 
+      nun<lb ed="#P" n="115" break="no"/>quam in rerum natura fuit subiecta ipsi nihil, 
+      fic<lb ed="#P" n="116" break="no"/>que quod mouet ad albedinem fuit tempus in 
+      re<lb ed="#P" n="117" break="no"/>rum natura subiectum nigredinis vel priuationis 
+      <lb ed="#P" n="118"/>albedinis. Et ideo creans non respicit distantiam 
+      <lb ed="#P" n="119"/>inter ens &amp; nihil vt quam transeat: sed tantum 
+      <lb ed="#P" n="120"/>respicit obiectum productum, rem srilicet creatam 
+      <lb ed="#P" n="121"/>quae finita est. Et primo potest dici, quod illud 
+      <lb ed="#P" n="122"/>quod ratio supponit, non habet veritatem. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1258">
+               <lb ed="#P" n="123"/>Ad secundum dicendum, quod sicut in istis 
+      in<lb ed="#P" n="124" break="no"/>ferioribus forma accidentalis agit in virture suae 
+      <lb ed="#P" n="125"/>formae substantialis, &amp; ideo instrumenta iter 
+      at<lb ed="#P" n="126" break="no"/>tingit ad formam fubstantialem inducendam &amp; 
+      <lb ed="#P" n="127"/>eausandam: ita potest dici, quod illud per quod 
+      <lb ed="#P" n="128"/>agit substantia immaterialis, agit in virtute formae 
+      <lb ed="#P" n="129"/>suae substantialis qua subsistit: &amp; ideo virture eius 
+      <lb ed="#P" n="130"/>poterit creare aliquod totum subsistens. Creatura 
+      <lb ed="#P" n="131"/>ergo, licet non agat se tota immediate: tamen 
+      po<lb ed="#P" n="132" break="no"/>test agere se tota, ita quod secundum aliquid sui 
+      <lb ed="#P" n="133"/>immediate, &amp; secundum aliquid mediate. Nec 
+      <lb ed="#P" n="134"/>ad hoc requiritur quod sit actus purus absquc 
+      im<lb ed="#P" n="135" break="no"/>mixtione alicuius possibilitatis: sed sufficit, quod 
+      <lb ed="#P" n="136"/>quicquid in eo est, sit aliquis actus, vel substanualis, 
+      <lb ed="#P" n="137"/>vel accidentalis, &amp; nihil sit in eo quod sit pura 
+      potenm<lb ed="#P" n="138" break="no"/>tia Possunt Philosophi dicere, quod ad hoc quod 
+      <!--200.xml-->
+      <pb ed="#P" n="200"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>aliquam totam rem producat, non oportet quod 
+      <lb ed="#P" n="2"/>agat se toto: sed id quo agit, contineat virtute 
+      to<lb ed="#P" n="3" break="no"/>tam illam rem. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1308">
+               <lb ed="#P" n="4"/>Ad tertium dicendum est etiam, quod 
+      <lb ed="#P" n="5"/>causa in agendo praesupponit effectum primae 
+      <lb ed="#P" n="6"/>causae inquantum agere secundae causae 
+      praesuppo<lb ed="#P" n="7" break="no"/>nit esse ipsius causae secundae, quae est effectus 
+      pri<lb ed="#P" n="8" break="no"/>mae: sed non oportet quod praesupponat, vt 
+      sub<lb ed="#P" n="9" break="no"/>iectum in quo recipiatur. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1324">
+               <lb ed="#P" n="10"/>Ad quartum dicendum, quod illud quod est 
+      <lb ed="#P" n="11"/>proprie instrumentum quod scilicet non agit per 
+      <lb ed="#P" n="12"/>virtutem immanentem, sicut apud nos videmus, non 
+      <lb ed="#P" n="13"/>potest agere nisi aliquod subiectum disponat ad 
+      <lb ed="#P" n="14"/>aliud: sed vocando large instrumentum quicquid 
+      <lb ed="#P" n="15"/>agit in virtute alterius, non oportet quod agat in 
+      <lb ed="#P" n="16"/>aliquod subiectum quod disponat. Quia non est 
+      <lb ed="#P" n="17"/>inconueniens, potentiam quae agit in virtute 
+      alte<lb ed="#P" n="18" break="no"/>rius, attingere ad effectum principalem: alioquin 
+      <lb ed="#P" n="19"/>alia agentia a Deo nunquam agerent ad 
+      effe<lb ed="#P" n="20" break="no"/>ctum principalem, sed solum ad 
+      dispositio<lb ed="#P" n="21" break="no"/>nem. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1354">
+               <lb ed="#P" n="22"/>Ad quintum dicendum, quod cum, vt dictum 
+      <lb ed="#P" n="23"/>est, actio &amp; passio sint de re cum re facta: sicut 
+      <lb ed="#P" n="24"/>res facta est substantia, ita actio &amp; passio. Vnde 
+      <lb ed="#P" n="25"/>etiam &amp; forma substantialis est genetatio actio, &amp; 
+      <lb ed="#P" n="26"/>generatio passio, accipiendo generationem pro 
+      in<lb ed="#P" n="27" break="no"/>stantanea introductione formae. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1370">
+               <lb ed="#P" n="28"/>Et si arguatur contra, tunc sequeretur, quod 
+      <lb ed="#P" n="29"/>actio &amp; passio non pertinerent ad genus 
+      acciden<lb ed="#P" n="30" break="no"/>tis. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1379">
+               <lb ed="#P" n="31"/>Sed quantum ad nunc potest breuiter dici, quod 
+      <lb ed="#P" n="32"/>omnis actio &amp; passio creaturae pertinet ad genus 
+      <lb ed="#P" n="33"/>accidentis: quia propter naturam acquisitam 
+      im<lb ed="#P" n="34" break="no"/>portant habitudinem ad aliquid extra, &amp; sic 
+      im<lb ed="#P" n="35" break="no"/>portat quoddam accidens. Quando dicitur quod 
+      <lb ed="#P" n="36"/>actio &amp; passio sunt accidentia, intelligitur de 
+      a<lb ed="#P" n="37" break="no"/>ctionibus. &amp; passionibus quae apparent in 
+      inferiori<lb ed="#P" n="38" break="no"/>bus quae sunt cum quadam transmutatione 
+      acci<lb ed="#P" n="39" break="no"/>dentali. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1401">
+               <lb ed="#P" n="40"/>Ad sextum potest dici, quod agens in modo 
+      a<lb ed="#P" n="41" break="no"/>gendi non solum dependet a subiecto in quod agit. 
+      <lb ed="#P" n="42"/>sed etiam a virtute per quam agit: ita quod dato 
+      <lb ed="#P" n="43"/>quod aliquod agens causatum non indigeret subiecto 
+      <lb ed="#P" n="44"/>in quod ageret: tamen dependeret in modo 
+      agen<lb ed="#P" n="45" break="no"/>di ab illo a quo haberet virtutem: ita quod 
+      secun<lb ed="#P" n="46" break="no"/>dum quod ille conferret diuersas virtutes diuersis 
+      <lb ed="#P" n="47"/>agentibus secundum hoc diuersimode diuersa 
+      a<lb ed="#P" n="48" break="no"/>gerent.
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1423">
+               <lb ed="#P" n="49"/>Ad septimum potest dici, quod illud est causa 
+      <lb ed="#P" n="50"/>totius entitatis, quantum ad totalitatem 
+      integra<lb ed="#P" n="51" break="no"/>lem alicuius determinati entis, puta quia 
+      produ<lb ed="#P" n="52" break="no"/>cit totum quod pertinet intranee ad naturam 
+      a<lb ed="#P" n="53" break="no"/>quae, vel aeris; nec oportet quod sit causa entis 
+      <lb ed="#P" n="54"/>inquantum ens, nec etiam inquantum ens 
+      crea<lb ed="#P" n="55" break="no"/>tum; sicut nec tota aqua, nec totus aer includit 
+      <lb ed="#P" n="56"/>totum ambitum entis secundum suam totalitatem 
+      <lb ed="#P" n="57"/>vniuersalem: quia scilicet essent causa communis 
+      <lb ed="#P" n="58"/>eius quod esse participat: &amp; si causa essent entis 
+      <lb ed="#P" n="59"/>particularis in eo quod tale, &amp; esset causa 
+      om<lb ed="#P" n="60" break="no"/>nis entis particularis: sed ad hoc quod creatura 
+      <lb ed="#P" n="61"/>ponatur creare, non oportet quod isto modo sit 
+      cau<lb ed="#P" n="62" break="no"/>sa totius entis, sed primo modo: quia scilicet esset in 
+      <lb ed="#P" n="63"/>aliquo determinato particulari ente. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1458">
+               <lb ed="#P" n="64"/>ARTICVLVS QVINTVS. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1464">
+               <lb ed="#P" n="65"/>QVantum ad quintum, licet fuerint diuersae 
+      <lb ed="#P" n="66"/>opinones : tamen contra sensum est negare, 
+      <lb ed="#P" n="67"/>quod alia a Deo agant, alioquin non plus 
+      face<lb ed="#P" n="68" break="no"/>ret ignis ad combustionem quam aqua. Et si dica¬ 
+      <!--200.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>tur quod imo: quis Deus sic istituit quod cui 
+      ap<lb ed="#P" n="70" break="no"/>plicatur ignis calefieret. Non valet, quia tunc Deus 
+      <lb ed="#P" n="71"/>instituisset aliquod vanum instituendo quod ignis 
+      <lb ed="#P" n="72"/>aliquem non calefaceret nisi applicaretur ignis: 
+      <lb ed="#P" n="73"/>igtur ignis applicatus nihil ageret. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1490">
+               <lb ed="#P" n="74"/>Ad rationes ad quaestionem factas, 
+      responden<lb ed="#P" n="75" break="no"/>dum est. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1497">
+               <lb ed="#P" n="76"/>Ad primum ergo dicendum, quod secudum 
+      <lb ed="#P" n="77"/>praemissa, creatio passio non est accidens, sed est 
+      <lb ed="#P" n="78"/>realiter ipsa substantia rei creatae, &amp; primo non 
+      in<lb ed="#P" n="79" break="no"/>diget subiecto diuerso a se realiter in quo 
+      recipia<lb ed="#P" n="80" break="no"/>tur: sed verum est quod importat quandam 
+      <lb ed="#P" n="81"/>relationem, siue sit relatio secundum esse, siue 
+      se<lb ed="#P" n="82" break="no"/>cundum dici. Sed illa relatio non est proprie 
+      rela<lb ed="#P" n="83" break="no"/>tio, sed illud in quo fundatur. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1517">
+               <lb ed="#P" n="84"/>Ad secundum dicendum, quod maior est falsae 
+      <lb ed="#P" n="85"/>Et quando dicitur quod illud quod creatur de 
+      no<lb ed="#P" n="86" break="no"/>uo, aut se habet eodem modo nunc sicut prius, 
+      <lb ed="#P" n="87"/>aut aliter. Dicendum quod neutrum est 
+      conceden<lb ed="#P" n="88" break="no"/>dum: quia nec eodem modo, nec aliter: quia in 
+      <lb ed="#P" n="89"/>suo esse reali extra nullo modo se habebat prius, 
+      <lb ed="#P" n="90"/>quia simpliciter prius non erat. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1535">
+               <lb ed="#P" n="91"/>Ad tertium dicendum, quod est impossibile 
+      <lb ed="#P" n="92"/>subiectiue. Modo illud quod est possibile esse 
+      sub<lb ed="#P" n="93" break="no"/>iectiue, est possibile per materiam quae est in 
+      po<lb ed="#P" n="94" break="no"/>tentia subiectiua ad esse acquirendum. Sed illud 
+      <lb ed="#P" n="95"/>quod dicitur possibile obiectiue, non oportet quod 
+      <lb ed="#P" n="96"/>sit possibile per aliquod subiectum potens recipere 
+      <lb ed="#P" n="97"/>actum, sed sufficit quod sit natum esse subiectum 
+      <lb ed="#P" n="98"/>alicuius potentiae producentis. Et sic creatura 
+      dici<lb ed="#P" n="99" break="no"/>tur possibile a potentia creantis, cuius potentia 
+      <lb ed="#P" n="100"/>potest esse obiectum productum. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1559">
+               <lb ed="#P" n="101"/>Ad quartum dicendum quod creare dicitur 
+      <lb ed="#P" n="102"/>nihil praesupponere, non quia creatum 
+      composi<lb ed="#P" n="103" break="no"/>tum non supponat aliquid, sicut totum 
+      praesup<lb ed="#P" n="104" break="no"/>ponit suas partes: sed pro tanto illud quod 
+      crea<lb ed="#P" n="105" break="no"/>tur dicitur, nihil praesupponere, quia non 
+      requi<lb ed="#P" n="106" break="no"/>rit subiectum in quo recipiatur. Et isto modo 
+      crea<lb ed="#P" n="107" break="no"/>tio totius compositi nihil praesupponit. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1578">
+               <lb ed="#P" n="108"/>Ad quartum dicendum quod sicut 
+      communi<lb ed="#P" n="109" break="no"/>ter dicitur quantitas potentiae non solum 
+      attendi<lb ed="#P" n="110" break="no"/>tur penes quantitatem rei factae: sed penes 
+      mo<lb ed="#P" n="111" break="no"/>dum faciendi. Et ideo licet creatura sit finita: 
+      <lb ed="#P" n="112"/>modus tamen faciendi, quia fit ex nihilo, requirit 
+      <lb ed="#P" n="113"/>potentiam infinitam. Et ad minus hoc est 
+      probabi<lb ed="#P" n="114" break="no"/>le ita esse. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1596">
+               <lb ed="#P" n="115"/>Ad rationes etiam in oppositum quia falsum 
+      <lb ed="#P" n="116"/>concludunt scilicet quod soli Deo conueniat 
+      age<lb ed="#P" n="117" break="no"/>re, respondendum est. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1605">
+               <lb ed="#P" n="118"/>Ad primum ergo dicendum, quod eundem 
+      ef<lb ed="#P" n="119" break="no"/>fectum produci a duobus agentibus immediate 
+      es<lb ed="#P" n="120" break="no"/>set inconueniens: si immediatio vtrobique 
+      accipe<lb ed="#P" n="121" break="no"/>retur eodem modo. Sed accipiendo 
+      immediatio<lb ed="#P" n="122" break="no"/>nem diuersimode, non est inconueniens: sicut 
+      pa<lb ed="#P" n="123" break="no"/>tet in instrumento &amp; artifice. Nam prout 
+      instru<lb ed="#P" n="124" break="no"/>mentum attingit effectum suum per virtutem 
+      artifi<lb ed="#P" n="125" break="no"/>cis, dicitur artifex immediate agere: sed secundum 
+      <lb ed="#P" n="126"/>quod artifex per prius dat virtutem agendi 
+      instru<lb ed="#P" n="127" break="no"/>mento quem attingat effectum vltimum, sic 
+      dici<lb ed="#P" n="128" break="no"/>tur instrumentum immediate agere, &amp; artifex 
+      me<lb ed="#P" n="129" break="no"/>diante instrumento. Et hoc est quod dicitur 
+      com<lb ed="#P" n="130" break="no"/>muniter quod considerando ordinem penes 
+      vir<lb ed="#P" n="131" break="no"/>tutem agendi, quanto agens est prius &amp; vlterius, 
+      <lb ed="#P" n="132"/>tanto agit immediatius. Sed considerando 
+      ordi<lb ed="#P" n="133" break="no"/>nem suppositorum agentium: quanto agens est 
+      po<lb ed="#P" n="134" break="no"/>sterius, tanto agit immediatius. Et simile quantum 
+      <lb ed="#P" n="135"/>ad hoc est de Deo &amp; creatura sicut de artifice &amp; 
+      in<lb ed="#P" n="136" break="no"/>strumento: inquantum creatura agit in virtute 
+      <lb ed="#P" n="137"/>Dei: licet quantum ad alia &amp; valde in multis sit 
+      <lb ed="#P" n="138"/>differentia 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1653">
+      <!--201.xml-->
+               <pb ed="#P" n="201"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Ad secundum dicendum quod illa propositio, 
+      <lb ed="#P" n="2"/>ly de causis, qua dicitur quod esse est per 
+      creatio<lb ed="#P" n="3" break="no"/>nem, est intelligenda (vt mihi videtur) quantum 
+      <lb ed="#P" n="4"/>ad hoc quod esse generaliter sumptum secundum 
+      <lb ed="#P" n="5"/>totum ambitum esse participati non potest reduci 
+      <lb ed="#P" n="6"/>in aliquam causam per se totius talis esse nisi in 
+      <lb ed="#P" n="7"/>creatorem, nec in aliquam actionem quae 
+      vniuer<lb ed="#P" n="8" break="no"/>saliter se extendat ad omne esse nisi in creationem: 
+      <lb ed="#P" n="9"/>non quod omnino esse sit immediate per 
+      creatio<lb ed="#P" n="10" break="no"/>nem, sed vel mediate vel immedate. Nam illa quae 
+      <lb ed="#P" n="11"/>fiunt a rebus creatis, fiunt per creationem 
+      media<lb ed="#P" n="12" break="no"/>te: licet immediate sit per generationem. Est 
+      er<lb ed="#P" n="13" break="no"/>go intellectus propositionis, quod esse est per 
+      <lb ed="#P" n="14"/>creationem: quia scilicet esse participatum 
+      vni<lb ed="#P" n="15" break="no"/>uersaliter non potest reduci in aliquam actionem 
+      <lb ed="#P" n="16"/>per quam sit tale esse nisi in creationem, &amp; hoc 
+      <lb ed="#P" n="17"/>mediate vel immediate. Non autem est 
+      intele<lb ed="#P" n="18" break="no"/>ctus propositionis quando aliquod esse 
+      determi<lb ed="#P" n="19" break="no"/>natum possit causari per generationem: sicut si 
+      <lb ed="#P" n="20"/>diceretur, quod corpus non potest reduci sicut in 
+      <lb ed="#P" n="21"/>causam per se, nisi in causam incorpoream. Nec 
+      <lb ed="#P" n="22"/>ex hoc sequeretur quando aliquod corpus 
+      deter<lb ed="#P" n="23" break="no"/>minatum posset reduci in aliquod corpus sicut in 
+      <lb ed="#P" n="24"/>per se causam: sicut corpus generabile habet 
+      re<lb ed="#P" n="25" break="no"/>duci in corpus coeleste. 
+      </p>
+            <p xml:id="hx2hx3-b65466-d1e1716">
+               <lb ed="#P" n="26"/>Simul ergo cum tempore facta est corporalis 
+      <lb ed="#P" n="27"/>&amp; spiritualis creatura, &amp; simul cum 
+      mun<lb ed="#P" n="28" break="no"/>do: nec fuit ante Angelica creatura quam 
+      <lb ed="#P" n="29"/>mundus, &amp;c. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

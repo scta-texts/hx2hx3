@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="47"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b15348"><!-- l1d5q1 -->
+            <head xml:id="hx2hx3-b15348-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b15348-Hd1e101" type="question-title">Utrum essentia generet</head>
+            <p xml:id="hx2hx3-b15348-d1e104">
+               <lb ed="#P" n="122"/>Post haec quaeritur vtrum concedendum 
+      <lb ed="#P" n="123"/>sit quod Nater genuit diuinam 
+      <lb ed="#P" n="124"/>essentiam, &amp;c: 
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e113">
+               <lb ed="#P" n="125"/>Distinctio quinta. 
+      <lb ed="#P" n="126"/>QVAESTIO PRIMA. 
+      <lb ed="#P" n="127"/>Vtrum essentia generet?
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e122">
+               <lb ed="#P" n="128"/>ET arguitur quod sic, quia illud quud 
+      praedi<lb ed="#P" n="129" break="no"/>catur de aliquo potest supponere pro eo. Sed 
+      <lb ed="#P" n="130"/>essentia praedicatur de persona, quia haec est vera, 
+      <lb ed="#P" n="131"/>Pater est essentia diuina: Ergo essentia diuina 
+      <lb ed="#P" n="132"/>potest supponere pro Patre vt de ea praedicetur 
+      il<lb ed="#P" n="133" break="no"/>lud quod praedicatur de Patre. Sed generare 
+      prae<lb ed="#P" n="134" break="no"/>dicatur de Patre: Ergo, &amp;c. Praeterea in diuinis1 
+      <!--48.xml-->
+      <pb ed="#P" n="48"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>abstractum &amp; concretum sunt idem. Sed haec est 
+      <lb ed="#P" n="2"/>vera, Deus generat: Ergo haec est vera, diuinitas 
+      <lb ed="#P" n="3"/>generat. 
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e154">
+               <lb ed="#P" n="4"/>Contra, haec non est vera vt videtur, Deus 
+      ge<lb ed="#P" n="5" break="no"/>nerat. Ergo multo minus ista erit vera, essentia 
+      <lb ed="#P" n="6"/>generat. Consequentia patet. Probatio 
+      antece<lb ed="#P" n="7" break="no"/>dentis. Primo quia sequitur quod si Deus generat 
+      <lb ed="#P" n="8"/>Deum, quod Deus distinguatur a Deo, quod est 
+      <lb ed="#P" n="9"/>inconueniens. Secundo, quia aut generat se 
+      <lb ed="#P" n="10"/>Deum, aut alium Deum. Neutrum conceditur. 
+      <lb ed="#P" n="11"/>Ergo, &amp;c. Tertio, quia sicut potest dici. Deus 
+      <lb ed="#P" n="12"/>generat, ratione Patris: ita, Deus non generat, 
+      ra<lb ed="#P" n="13" break="no"/>tione Filii, &amp; sic erit Deus generans &amp; Deus non 
+      <lb ed="#P" n="14"/>generans, 
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e180">
+               <lb ed="#P" n="15"/>Respondeo, hic tria sunt declaranda. Primo 
+      <lb ed="#P" n="16"/>vtrum actus essentiales conueniant essentiae in 
+      ab<lb ed="#P" n="17" break="no"/>stracto, &amp; hoc vt agenti. Secundo vtrum actus 
+      <lb ed="#P" n="18"/>notionales ei conueniant in abstracto vt agenti, 
+      <lb ed="#P" n="19"/>Tertio vtrum ei conueniant in concreto, vt 
+      di<lb ed="#P" n="20" break="no"/>catur, Deus generat. 
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e196">
+               <lb ed="#P" n="21"/>Quantum ad primum dicunt quidam quod 
+      <lb ed="#P" n="22"/>actus essentiales non attribuuntur essentiae in 
+      ab<lb ed="#P" n="23" break="no"/>stracto: vnde dicunt quod ista non est vera, 
+      essen<lb ed="#P" n="24" break="no"/>tia siue diuinitas intelligit. Et hoc probant, quia 
+      <lb ed="#P" n="25"/>quaecunque sunt vnum re cuicunque attribuitur 
+      <lb ed="#P" n="26"/>vnum &amp; reliquum. Sed dicere &amp; intelligere sunt 
+      <lb ed="#P" n="27"/>vnum re. Ergo cui attribuitur intelligere &amp;, dice 
+      <lb ed="#P" n="28"/>re. Sed dicere non potest vere attribui essentiae, 
+      <lb ed="#P" n="29"/>alioquin esset distincta a verbo producto: Ergo, 
+      <lb ed="#P" n="30"/>&amp;c. Sed istud non videtur verum. Quia quod 
+      <lb ed="#P" n="31"/>non possit vere dici quod diuinitas intelligit &amp; 
+      <lb ed="#P" n="32"/>creat: Aut hoc est, quia ipsa non est subsistens, &amp; 
+      <lb ed="#P" n="33"/>hoc non potest esse, quia ipsa diuinitas est Deus 
+      <lb ed="#P" n="34"/>subsistens: Aut quia abstractum non praedicatur 
+      <lb ed="#P" n="35"/>de concreto, &amp; per consequens quod 
+      praedica<lb ed="#P" n="36" break="no"/>tur de concreto non praedicatur de abstracto. Er 
+      <lb ed="#P" n="37"/>similiter hoc non potest esse, quia indiuinis 
+      ab<lb ed="#P" n="38" break="no"/>stractum praedicatur de concreto &amp; e conuerso 
+      <lb ed="#P" n="39"/>Aut propter formalitatem praedicationis quam 
+      <lb ed="#P" n="40"/>requirunt propositiones in quibus praedicantur 
+      <lb ed="#P" n="41"/>verba quae significant operationem; ita quod 
+      ta<lb ed="#P" n="42" break="no"/>les praedicationes non solum requirunt ad suam 
+      <lb ed="#P" n="43"/>veritatem, identitatem inter praedicatum &amp; 
+      sub<lb ed="#P" n="44" break="no"/>iectum: sed etiam correspondentiam secundum 
+      <lb ed="#P" n="45"/>modum significandi, vt scilicet illud cui tales 
+      <lb ed="#P" n="46"/>actus attribuuntur non significetur per modum 
+      <lb ed="#P" n="47"/>eius quo aliquid est, sed per modum eius quod est 
+      <lb ed="#P" n="48"/>&amp; habet esse. Sed nec hoc videtur: verum esse, 
+      <lb ed="#P" n="49"/>quia non videtur quod modi signifieandi in 
+      qua<lb ed="#P" n="50" break="no"/>cunque praedicatione impediant veritatem 
+      prae<lb ed="#P" n="51" break="no"/>dicationis quae est per identitatem realem, nisi 
+      <lb ed="#P" n="52"/>aliqua diuersitas realis importetur ex illis modis 
+      <lb ed="#P" n="53"/>rggnificandi. Hoc ettam patet in expositiua istius, 
+      <lb ed="#P" n="54"/>essentia intelligit, quia nihil aliud est quam quod 
+      <lb ed="#P" n="55"/>essentia est habens actum intelligendi: &amp; haec est 
+      <lb ed="#P" n="56"/>vera. Ergo, &amp;c. Aut thoc prouenit ex hoc quod 
+      <lb ed="#P" n="57"/>actus tales important distinctionem realem ab 
+      ali<lb ed="#P" n="58" break="no"/>quo a quo realiter distinguatur persona &amp; non 
+      <lb ed="#P" n="59"/>essentia. Et hoc simifiter esse non potest, quia 
+      <lb ed="#P" n="60"/>creare, gubernare vel intelligere non important 
+      <lb ed="#P" n="61"/>aliquam distinctionem ab aliquo quo distinguatur 
+      <lb ed="#P" n="62"/>persona plus quam essentia vel e conuerso. Et ideo 
+      <lb ed="#P" n="63"/>videtur quod istae sint verae, essentia intelligit, 
+      <lb ed="#P" n="64"/>creat vel rgubernat; licet non sint propriae 
+      locu<lb ed="#P" n="65" break="no"/>riones; sicut dicendo Deus creat, intelligit, vel 
+      <lb ed="#P" n="66"/>ggubernat. Motiurim autem ipsorum falsum est, 
+      <lb ed="#P" n="67"/>qura ad illud motiuum sequuntur multa falsa &amp; 
+      <lb ed="#P" n="68"/>impossibilia in diuinis. Nam si hoc est verum 
+      <lb ed="#P" n="69"/>quod in diuinis quando aliqua sunt idem re 
+      cui<lb ed="#P" n="70" break="no"/>cunque attribuitur vnum &amp; reliquum, sequitur 
+      <!--48.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>infallibiliter quod filius sit Pater, &amp; quod 
+      quae<lb ed="#P" n="72" break="no"/>cunque persona sit alia, &amp; quod vna relatio sit 
+      a<lb ed="#P" n="73" break="no"/>lia. Nam constat quod essentia &amp; persona sunt 
+      <lb ed="#P" n="74"/>vnum re simplici; vnde etiam paternitas est idem 
+      <lb ed="#P" n="75"/>re quod diuinitas. Si ergo illaMaior est vera quod 
+      <lb ed="#P" n="76"/>de quocunque vere possit dici essentia diuina, 
+      <lb ed="#P" n="77"/>quod de illo possit dici Pater vel paternitas; cum 
+      <lb ed="#P" n="78"/>essentia diuina possit vere dici de filio &amp; Spiritu 
+      <lb ed="#P" n="79"/>sancto. Ergo istae erunt verae, filius est Pater &amp; 
+      pa<lb ed="#P" n="80" break="no"/>ternitas, &amp; similiter Spiritus sanctus: &amp; 
+      breui<lb ed="#P" n="81" break="no"/>ter quaecunque persona de qualibet praedieatetur: 
+      <lb ed="#P" n="82"/>vnde illud motiuum non est bonum. Ad illud 
+      <lb ed="#P" n="83"/>autem motiuum dicunt quidam sic, quod 
+      intel<lb ed="#P" n="84" break="no"/>ligere &amp; dicere differunt plus quam ratione, quia 
+      <lb ed="#P" n="85"/>differunt re relatiua. Et ideo non oportet quod 
+      <lb ed="#P" n="86"/>de quocunque verificarur vnum eorum, quod 
+      <lb ed="#P" n="87"/>verificetur &amp; reliquum. Et illi concedunt illam 
+      <lb ed="#P" n="88"/>maiorem quam credo esse falsam. Sed istud est 
+      <lb ed="#P" n="89"/>falsum, nam licet vna persona differat relatiue ab 
+      <lb ed="#P" n="90"/>alia, non tamen relatio vel persona differt re 
+      ab<lb ed="#P" n="91" break="no"/>essentia, nec re absoluta, nec re relata. 
+      Quaecun<lb ed="#P" n="92" break="no"/>que enim in diuinis differunt re relata, differunt 
+      <lb ed="#P" n="93"/>re, quia alia differentia realis non est ibi. Sed 
+      <lb ed="#P" n="94"/>quaecunque vere differunt, vnum realiter non est 
+      <lb ed="#P" n="95"/>aliud: vnde etiam realiter Pater non est Filius nec 
+      <lb ed="#P" n="96"/>e conuerso. Ergo si intelligere &amp; dicere differunt 
+      <lb ed="#P" n="97"/>relatiue, ergo realiter loquendo ipse actus intel. 
+      <lb ed="#P" n="98"/>ligendi non est actus dicendi, nec eadem ratione 
+      <lb ed="#P" n="99"/>essentia realiter est paternitas. Vnde etiam &amp; 
+      om<lb ed="#P" n="100" break="no"/>nes volunt quod relatio comparata ad essentiam 
+      <lb ed="#P" n="101"/>nondicit aliam rem, sed aliam rationem tantum: 
+      <lb ed="#P" n="102"/>propter quod dicta solutio falsum continet. Et 
+      <lb ed="#P" n="103"/>ideo aliter dicitur, quod non oportet quod 
+      quae<lb ed="#P" n="104" break="no"/>cunque sunt vnum re, quod cui attribuitur 
+      v<lb ed="#P" n="105" break="no"/>num &amp; reliquum: nisi cum hoc quod sicut sunt 
+      <lb ed="#P" n="106"/>vnum re sint etiam vnum ratione. Sed quamuis 
+      <lb ed="#P" n="107"/>hoc veritatem habeat quod non quaecunque sunt 
+      <lb ed="#P" n="108"/>idem re, quod cuiattribuitur vnum &amp; reliquum; 
+      <lb ed="#P" n="109"/>si tamen non sit ibi nisi sola differentia rationis vi 
+      <lb ed="#P" n="110"/>detur difficile inuenire cui conuenit vnum &amp; non 
+      <lb ed="#P" n="111"/>conueniat &amp; reliquum. Et ideo potest dici ad 
+      il<lb ed="#P" n="112" break="no"/>lam Maiorem quod debet hoc addi scilicet 
+      quae<lb ed="#P" n="113" break="no"/>cunque suntidem re, nec vnum eorum importat 
+      <lb ed="#P" n="114"/>aliam remquam aliud, necdistinctionem ab 
+      ali<lb ed="#P" n="115" break="no"/>qua re a qua non importet aliud de quocunque 
+      <lb ed="#P" n="116"/>praedicatur vnum &amp; reliquum. Modo licet 
+      dice<lb ed="#P" n="117" break="no"/>re &amp; intelligere in diuinis sint idem re, sicut etiam 
+      <lb ed="#P" n="118"/>esse &amp; generare, tamen dicere importat 
+      distin<lb ed="#P" n="119" break="no"/>ctionem realem a verbo producto, a quo non 
+      im<lb ed="#P" n="120" break="no"/>portat distinctionem realem intelligere: propter 
+      <lb ed="#P" n="121"/>quod non oportet quod de quocunque 
+      praedica<lb ed="#P" n="122" break="no"/>tur vnum &amp; reliquum: sicut etiam patet de esse 
+      <lb ed="#P" n="123"/>&amp; generare. 
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e426">
+               <lb ed="#P" n="124"/>Quantum autem ad secundum Articulum,, 
+      <lb ed="#P" n="125"/>Sciendum quod essentia diuina est realiter idem 
+      <lb ed="#P" n="126"/>cum omni eo quod est indiuinis, siue sit absolutum, 
+      <lb ed="#P" n="127"/>siue relatiuum: siue proprietas personalis, vel etiam 
+      <lb ed="#P" n="128"/>communis. Et ideo omnis propositio qua aliquid 
+      <lb ed="#P" n="129"/>diuinum praedicatur de essentia, si tantum vnitas 
+      <lb ed="#P" n="130"/>realis inter praedicatum &amp; subiectum importetur 
+      <lb ed="#P" n="131"/>in propositione illa, omnis talis est vera, siue 
+      prae<lb ed="#P" n="132" break="no"/>dicatum sit essentiale, siue personale: vnde 
+      essen<lb ed="#P" n="133" break="no"/>tia est Pater, &amp; essentia est res generans. Si res 
+      <lb ed="#P" n="134"/>stet pro persona &amp; est generare &amp; est generari: &amp; 
+      <lb ed="#P" n="135"/>omnes verae sunt, quia verum est omne quod est 
+      <lb ed="#P" n="136"/>in diuinis esse idemcum essentia. Si autem aliquid 
+      <lb ed="#P" n="137"/>attribuatur essentiae sic quod non importetur 
+      tan<lb ed="#P" n="138" break="no"/>tum identitas realis inter essentiam &amp; illud quod 
+      <lb ed="#P" n="139"/>praedicatur de ea: sed etiam importetur distinctio 
+      <lb ed="#P" n="140"/>realis ipsius essentiae cui tale praedicatum attribui¬ 
+      <!--49.xml-->
+      <pb ed="#P" n="49"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>trir ab aliquo existente in diuinis, erit propositio 
+      <lb ed="#P" n="2"/>falsa, quia essentia diuinam realiter distingui ab 
+      ali<lb ed="#P" n="3" break="no"/>quo existente, est falsum: &amp; propter hoc quia produ. 
+      <lb ed="#P" n="4"/>cere &amp; produci, puta generare &amp; generari, spirare 
+      <lb ed="#P" n="5"/>&amp; spirari important distinctionem realem 
+      producen<lb ed="#P" n="6" break="no"/>tis a producto, &amp; producentis a producente. Ideo 
+      <lb ed="#P" n="7"/>nullus terminus qui significat producere vel 
+      pro<lb ed="#P" n="8" break="no"/>duci porest praedicari de essentia in abstracto, quia 
+      <lb ed="#P" n="9"/>cssentia in abstracto non habet ex virtute 
+      locutio<lb ed="#P" n="10" break="no"/>nis supponere pro supposito: &amp; ideo omnes istae 
+      <lb ed="#P" n="11"/>sunt falsae, essentia generat; &amp; essentia generatur 
+      <lb ed="#P" n="12"/>producit vel producitur, &amp; consimiles. 
+      <lb ed="#P" n="13"/>Quantum ad tertium articulum. Sciendum quod 
+      diffe<lb ed="#P" n="14" break="no"/>rentia suppositi &amp; naturae potest intelligi 
+      dupliei<lb ed="#P" n="15" break="no"/>ter: vno modo secundum conmunicabile &amp; 
+      inconmmu<lb ed="#P" n="16" break="no"/>nicabile, &amp; sic in diuinis differunt deitas, vel etiam 
+      <lb ed="#P" n="17"/>Deus &amp; Pater, nam tam diuinitas quam Deus 
+      di<lb ed="#P" n="18" break="no"/>cit quid comune; Pater autem dicit 
+      inconmunicabi<lb ed="#P" n="19" break="no"/>cabile. Alio modo potest intelligi differentia inter 
+      <lb ed="#P" n="20"/>natura &amp; suppositum secundum rationem abstracti &amp; 
+      <lb ed="#P" n="21"/>concreti: &amp; hoc modo differt Deus &amp; deitas, &amp; 
+      neu<lb ed="#P" n="22" break="no"/>tru istorum impedit quin vnum praedicetur de alio. Na 
+      <lb ed="#P" n="23"/>&amp; Deus est deitas, &amp; Pater est Deus &amp; deitas, quia 
+      <lb ed="#P" n="24"/>sicut dictu est modo, id quod importat tantu 
+      iden<lb ed="#P" n="25" break="no"/>titatem realem inter essentiam &amp; 
+      quodcunquediui<lb ed="#P" n="26" break="no"/>num, siue accipiatur essentia in abstracto siue in 
+      con<lb ed="#P" n="27" break="no"/>creto, habet veritatem: istae tamen differentiae, faciunt 
+      <lb ed="#P" n="28"/>quod non quidquid dicitur de vno potest vere dici 
+      <lb ed="#P" n="29"/>de alio, vnde vere dicitur quod Pater generat, &amp; 
+      <lb ed="#P" n="30"/>quod est distinctus a filio, quae de essentia in abstra 
+      <lb ed="#P" n="31"/>cto no possunt dici. Qausa autem quae impedit quod 
+      <lb ed="#P" n="32"/>illud quod praedicatur de supposito no praedicatur 
+      <lb ed="#P" n="33"/>de natura est directe ex prima differentia, quia ex 
+      <lb ed="#P" n="34"/>hoc quod in diuinis est aliquid inconmunicabile &amp; 
+      <lb ed="#P" n="35"/>non conmune omnibus, habet quod distinguatur 
+      ab<lb ed="#P" n="36" break="no"/>aliis quae sunt in diuinis a quibus essentia conmunis 
+      <lb ed="#P" n="37"/>non potest esse distincta. Differentia autem quae est 
+      <lb ed="#P" n="38"/>secundum abstractum &amp; concretum non ita directe 
+      ha<lb ed="#P" n="39" break="no"/>bet impedire, quia differentia secundum abstractum &amp; 
+      <lb ed="#P" n="40"/>concretum habet impedire ne quod praedicatur de 
+      <lb ed="#P" n="41"/>vno praedicetur de altero quando habens &amp; habitum 
+      <lb ed="#P" n="42"/>sunt diuersa re. Quod in diuinis locum non habet, 
+      <lb ed="#P" n="43"/>Decundario tame differentia secundum abstractum &amp; 
+      <lb ed="#P" n="44"/>concretu facit ad hoc quod possit verificari de vno 
+      <lb ed="#P" n="45"/>quod no verificetur de altero in quantu exsuo 
+      mo<lb ed="#P" n="46" break="no"/>do significadi concretum potest supponere pro 
+      sun<lb ed="#P" n="47" break="no"/>posito, non solu quia est habens, sed etiam quia est 
+      <lb ed="#P" n="48"/>inconmunicabile. Deus enim significat vt habens 
+      di<lb ed="#P" n="49" break="no"/>uiinitatem vnde supponit ex modo significadi pro eo 
+      <lb ed="#P" n="50"/>eui conuenit quod sit ille qui habet diuinitatem. Et 
+      <lb ed="#P" n="51"/>fioc est non solun conmmunicabile, sed etiam 
+      incomu<lb ed="#P" n="52" break="no"/>nicabile: nec hoc est directe propter habere, quia 
+      <lb ed="#P" n="53"/>etiam hoc quod dico quod ille qui est deitas potest 
+      <lb ed="#P" n="54"/>supponere pro supposito: vnde quotiescunque im 
+      <lb ed="#P" n="55"/>plicatur aliquid quod non stat determninate pro na¬ T 
+      <lb ed="#P" n="56"/>tura absoluta, sed potest accipi indifferenter &amp; pro 
+      <lb ed="#P" n="57"/>absoluto &amp; pro relato &amp; pro conmunicabili &amp; 
+      in<lb ed="#P" n="58" break="no"/>comunicabili, siue illa implicatio sit per modum 
+      ha<lb ed="#P" n="59" break="no"/>bentis, vt in termino concreto, siue per alium modum: 
+      si<lb ed="#P" n="60" break="no"/>cut quando dico ille qui est essentia, quia habes &amp; 
+      <lb ed="#P" n="61"/>ctiam ly ille, indisferenter possunt accipi &amp; pro hoc 
+      <lb ed="#P" n="62"/>&amp; pro illo: ideo non solum possunt supponere pro 
+      es<lb ed="#P" n="63" break="no"/>sentia, sed etia pro supposito: &amp; propter hoc potest 
+      <lb ed="#P" n="64"/>verificari de iis quae non verificantut de essentia in 
+      <lb ed="#P" n="65"/>abstracto: vnde istae sunt verae, Deus generat Deum 
+      <lb ed="#P" n="66"/>&amp; ille qui est deitas generat illu qui est diuinitas, 
+      <lb ed="#P" n="67"/>quia Nv ille potest stare pro supposito. Sed haec, 
+      di<lb ed="#P" n="68" break="no"/>uinitas generat diuinitate, est falsa. Vnde notandum 
+      <lb ed="#P" n="69"/>quod duplex est implicatio: vna qua praeter forma 
+      <lb ed="#P" n="70"/>a qua terminus imponitur, implicatur aliquid di¬ 
+      <!--49.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>uersum re habens formam: sicut musicus 
+      implica<lb ed="#P" n="72" break="no"/>subiectum vel suppositum quod est diuersum re a 
+      <lb ed="#P" n="73"/>musica: &amp; talis implicatio in diuinis non habet 
+      <lb ed="#P" n="74"/>locum. Alia est implicatio qua terminus implicat 
+      <lb ed="#P" n="75"/>aliquid differens ratione tantum a forma a qua 
+      <lb ed="#P" n="76"/>imponitur terminus cuins implicatu suppositio sit 
+      <lb ed="#P" n="77"/>communior quam suppositio formae absolutae: &amp; 
+      <lb ed="#P" n="78"/>talis implicatio est in diuinis isiue per modum 
+      ha<lb ed="#P" n="79" break="no"/>bentis, vt quando diciturmabens vel ille qui habet 
+      <lb ed="#P" n="80"/>diuinitatem; siue per modu alium, vt quando dicitur 
+      <lb ed="#P" n="81"/>slle qui est deitas. Ft sic patet quod ista est veta, 
+      <lb ed="#P" n="82"/>Deus generat Deum, quia concretum potest stare pro 
+      <lb ed="#P" n="83"/>supposito ratione dictae implicationis: &amp; per 
+      conse<lb ed="#P" n="84" break="no"/>quens patet quod actus notionales possunt attribui 
+      <lb ed="#P" n="85"/>terminis essentialibus concretis ratione dictae 
+      impli<lb ed="#P" n="86" break="no"/>cationis. Alii aute dicunt aliter, scilicet quod licet 
+      <lb ed="#P" n="87"/>Pater sit essentia &amp; Prater generet, non tamem 
+      essen<lb ed="#P" n="88" break="no"/>tia generatur; quia generare non couenit essentiae 
+      <lb ed="#P" n="89"/>per se, cum in hoc distinguatur a Patre cui per le 
+      <lb ed="#P" n="90"/>conuenit generareinec per accidemns cum non 
+      impli<lb ed="#P" n="91" break="no"/>cet subiectum, cum non sit concretum: &amp; adducunt 
+      si<lb ed="#P" n="92" break="no"/>mile, quia licet aedificet musicus, non tamen 
+      aedifi<lb ed="#P" n="93" break="no"/>cat musica, quia non implicat suppositum, 
+      etiam<lb ed="#P" n="94" break="no"/>si ista esset vera, aedificaior est musicus. Sed isti 
+      <lb ed="#P" n="95"/>decepti sunt, quia praedicare per accidens accipiut 
+      <lb ed="#P" n="96"/>tantum praedicare per formam additam: sicut 
+      mu<lb ed="#P" n="97" break="no"/>sicus de aedificatore vel e conuerso, quae praedicatio 
+      <lb ed="#P" n="98"/>non potest esse nisi per implicationem quam 
+      impor<lb ed="#P" n="99" break="no"/>tat terminus concretus. Sed alio modo dicitur 
+      <lb ed="#P" n="100"/>conuenire per accidens quod non est de rationo 
+      <lb ed="#P" n="101"/>eius cui attribuitur: &amp; sic ista est per accidens, 
+      co<lb ed="#P" n="102" break="no"/>lor est albedo, quia quod conuenit albedini per se 
+      <lb ed="#P" n="103"/>scilicet disgregare, conuenit eolori per accides 
+      ra<lb ed="#P" n="104" break="no"/>tione dictae accidentalitatis quae est albedinis ad 
+      <lb ed="#P" n="105"/>colorem. Et verificationem quae fit secundum tale 
+      <lb ed="#P" n="106"/>accidens generationis de essensia ipsi non 
+      impro<lb ed="#P" n="107" break="no"/>bant vel non possunt improbare ex dicto suo: vnde 
+      <lb ed="#P" n="108"/>ista ratio satis friuola est, &amp; ideo tenendum elt 
+      <lb ed="#P" n="109"/>praecedens dictum. Quod autemdicunt quodsi 
+      <lb ed="#P" n="110"/>aedificator esset musicus, ista esset falsa: musica 
+      aedi<lb ed="#P" n="111" break="no"/>ficati credo quod dicunt falsum: licet enim non 
+      es<lb ed="#P" n="112" break="no"/>set propria, esset tamen verai &amp; sicut si ista, 
+      aedifica<lb ed="#P" n="113" break="no"/>tor est musicus, non esset praedicatio formalis; sed 
+      <lb ed="#P" n="114"/>per identitatem. Tunc etiam dicendo musica 
+      aedihi<lb ed="#P" n="115" break="no"/>cat, esset vera praedicatio per identitate licet in 
+      pro<lb ed="#P" n="116" break="no"/>pria. Quod autem dicitur a quibusdam, quod verba 
+      <lb ed="#P" n="117"/>requirunt formalem praedicatione, supra solutum 
+      <lb ed="#P" n="118"/>est. Si enim aedificator esset musica, nihil 
+      repu<lb ed="#P" n="119" break="no"/>gnans musicae importaretur in aedificatione. Non 
+      <lb ed="#P" n="120"/>enim importaret distinctionem realem musicae a 
+      <lb ed="#P" n="121"/>quo realiter nondistingueretur. 
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e738">
+               <lb ed="#P" n="122"/>Contra, quia vt dicunt quidam licet non 
+      gene<lb ed="#P" n="123" break="no"/>retur obiectiue, quod scilicet sit terminus genera 
+      <lb ed="#P" n="124"/>tionis, generatur tamen subiectiue &amp; quasi subie 
+      <lb ed="#P" n="125"/>ctum generationis. Et probant hoc tripliciter. 
+      Pri<lb ed="#P" n="126" break="no"/>mo, quia illud est subiectum generationis &amp; per 
+      <lb ed="#P" n="127"/>consequens habet subiectiue generari quod 
+      ma<lb ed="#P" n="128" break="no"/>net idem in vtroque termino generationis. Sed 
+      <lb ed="#P" n="129"/>essentia est huiusmodi, cum maneat eadem in 
+      <lb ed="#P" n="130"/>Patre &amp; Filio qui sunt termini generationis: 
+      Er<lb ed="#P" n="131" break="no"/>go, &amp;c. Secundo, quia generatio diuina sicut 
+      <lb ed="#P" n="132"/>omne fieri habet aliquid pro fundamento siue 
+      sub<lb ed="#P" n="133" break="no"/>iecto in quo fundatur tale fieri cui conueniat ge 
+      <lb ed="#P" n="134"/>nerari subiectiue. Sed hoc non potest esse nisi 
+      es<lb ed="#P" n="135" break="no"/>sentia, quia Pater &amp; Filius non possunt esse 
+      sub<lb ed="#P" n="136" break="no"/>iectum generationis diuinae cum sit terminus: 
+      Er<lb ed="#P" n="137" break="no"/>go, &amp;c. Tertio, quia cum generatio praecedat 
+      <lb ed="#P" n="138"/>filium secundum rationem intelligendi, oporter 
+      <lb ed="#P" n="139"/>rationem fundari in aliquo quod sit prius filio 
+      se<lb ed="#P" n="140" break="no"/>cundum rationem intelligendi cui coueniat generari 
+      <!--50.xml-->
+      <pb ed="#P" n="50"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>subiectiue: hocmo potert esse nisi essemntia: Brgo, &amp;c, 
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e790">
+               <lb ed="#P" n="2"/>Ad euidentiam praemissorum. Primo videndum est 
+      <lb ed="#P" n="3"/>quomodo subiectum generationis se habeat ad 
+      gene<lb ed="#P" n="4" break="no"/>rationenm in rebus creatis eSecundo ostendetur 
+      quo<lb ed="#P" n="5" break="no"/>modo se habeat essemia diuina ad gengrationen 
+      di<lb ed="#P" n="6" break="no"/>uiinam quantum ad propositum sufficit. Tertio 
+      osfen<lb ed="#P" n="7" break="no"/>detur vtrum essentiae diuinae coueniat subiectiue ge 
+      <lb ed="#P" n="8"/>nerari. Et respondebitur rationibus praemisfis, 
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e809">
+               <lb ed="#P" n="9"/>Quantum ergo ad primum, Sciendunquod in 
+      creatu<lb ed="#P" n="10" break="no"/>ris subtectu generationis est subsectum formae 
+      comnti<lb ed="#P" n="11" break="no"/>nicate producto ab ipso prodncente, quae quidie 
+      fof<lb ed="#P" n="12" break="no"/>ma est realiter idem cum ipsa generatione: nisi 
+      ac<lb ed="#P" n="13" break="no"/>cipiaturgeneratio pro alterationepraecedente 
+      intro<lb ed="#P" n="14" break="no"/>ductionem formae substantialis: Et hoc maxime veru 
+      <lb ed="#P" n="15"/>est suppoisito quod omnis motus &amp; mutatio sint ide 
+      <lb ed="#P" n="16"/>realiter cum foma acquisita per motum vel 
+      mutatio<lb ed="#P" n="17" break="no"/>nem Tale aute subiectum non producitur proprie 
+      lo<lb ed="#P" n="18" break="no"/>quendo, nec per se nec per accidens, cum quantu ad 
+      <lb ed="#P" n="19"/>essentiam suam ipsi productiomi praesupponatur. Vl 
+      <lb ed="#P" n="20"/>terius sciendum quod sicut pater per Philosophum, 
+      <lb ed="#P" n="21"/>primno Phvsicorum dupliciter couenit alicui fieri: vno 
+      <lb ed="#P" n="22"/>modo absolute, &amp; sic solus tefminus siue obiectum 
+      <lb ed="#P" n="23"/>factionis dicitur fieri, vt si fiat homo albus, albun: 
+      di<lb ed="#P" n="24" break="no"/>citur simpliciter fieri. Alio modo dicitur aliquid 
+      <lb ed="#P" n="25"/>fieri no simpliciter fed sseri hoc, sicut in dicto 
+      exe<lb ed="#P" n="26" break="no"/>plo subiectii dealbationis sputa homo) non dicitur 
+      <lb ed="#P" n="27"/>simpliciter &amp; absolute fieri: sed bene dicitur quod 
+      <lb ed="#P" n="28"/>homo fit albus, qui quide homo est subiectum huius 
+      <lb ed="#P" n="29"/>factionis. Et similiter etiam subiectum generationis 
+      <lb ed="#P" n="30"/>simpliciter quod est materia non dicitur in 
+      genera<lb ed="#P" n="31" break="no"/>tione absolute fieri, cum sit ingenerabilis &amp; 
+      incor<lb ed="#P" n="32" break="no"/>ruptibilis. Sed posset dici fieri hoc, quia posset dici 
+      <lb ed="#P" n="33"/>quod materia per generationem sit formata. Et quia 
+      <lb ed="#P" n="34"/>ilsi conuenit proprie generari eui conuenit proprie 
+      <lb ed="#P" n="35"/>sieris in illis in quibus inuenitur proprie fieri. Iquod 
+      <lb ed="#P" n="36"/>dicoppropter generatione diuinam, ideo proprie &amp; 
+      <lb ed="#P" n="37"/>absolute loquendo non dicitur generari subiectum 
+      <lb ed="#P" n="38"/>generationis, sed tantum obiectum siue terminus. Vnde 
+      <lb ed="#P" n="39"/>notandum quod generari &amp; fieri ex vna parte, &amp;( 
+      <lb ed="#P" n="40"/>moueri &amp; mutari ex alia, aliter &amp; aliter se hiabent 
+      <lb ed="#P" n="41"/>ad subiectum &amp; obiectum siue terminum. Nam 
+      mouc<lb ed="#P" n="42" break="no"/>ri &amp; mutari proprie conuenit subiecto, quia 
+      subie<lb ed="#P" n="43" break="no"/>ctum est illud proprie quod aliter se habet nunc &amp; 
+      <lb ed="#P" n="44"/>prius fecundum diuersas formas sibi succedentes; 
+      <lb ed="#P" n="45"/>generari aute proprie sibi non conuenit, quia non 
+      <lb ed="#P" n="46"/>producitur per ipsam generationem cum ei 
+      praesup<lb ed="#P" n="47" break="no"/>ponatur, sed est de termino vel obiecto. Nam illis 
+      <lb ed="#P" n="48"/>absolute couenit generari &amp; fieri cum ipsa per 
+      ge<lb ed="#P" n="49" break="no"/>nerationem producuntur: sed eis non conuenit 
+      muta<lb ed="#P" n="50" break="no"/>ri vel moueri, cum quodlibet istorum importet se 
+      ha<lb ed="#P" n="51" break="no"/>bere aliter nunc quam prius secundum noua 
+      acquisi<lb ed="#P" n="52" break="no"/>tionem alicuius perfectionis de nouo habitae. 
+      Termi<lb ed="#P" n="53" break="no"/>nus autem non est illud cui vt subiecto noua 
+      perfe<lb ed="#P" n="54" break="no"/>ctio acquiratur, sed est illud quod acquiritur. Ex 
+      <lb ed="#P" n="55"/>quo patet quod subiecto gener ationis nec fieri 
+      ab<lb ed="#P" n="56" break="no"/>solute loquendo nec generari couenit, licet possit 
+      <lb ed="#P" n="57"/>dici fieri hoc, puta album vel nigrum, quis ei acquiritur 
+      <lb ed="#P" n="58"/>albedo vel nigredo vel aliquid tale. Vlteri sciendum 
+      <lb ed="#P" n="59"/>mauod non est de ratione materiae vel subiecti 
+      gene<lb ed="#P" n="60" break="no"/>rationis quod sit eade numero in generate &amp; 
+      geni<lb ed="#P" n="61" break="no"/>to, imo hoc sibi repugnat: sed bene est eadem sub 
+      pri<lb ed="#P" n="62" break="no"/>uatione &amp; subforma acquirenda &amp; hoc successiuen 
+      <lb ed="#P" n="63"/>puta si ex aere fiat ignis: eadem materia quae prr erat 
+      <lb ed="#P" n="64"/>sub forma aeris &amp; priuata forma ignis, est postea 
+      <lb ed="#P" n="65"/>sub forma Ignis. Et hoc sit dictum de primo. 
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e935">
+               <lb ed="#P" n="66"/>Quantum ad secundum: sciendum quod essentia diuina 
+      <lb ed="#P" n="67"/>se habet ad generationem in diuinis non, sicut subie, 
+      <lb ed="#P" n="68"/>ctu generationis se habet in creaturis, sed magis si 
+      <lb ed="#P" n="69"/>cut forma comunicata per generatione. Ad cuius 
+      <lb ed="#P" n="70"/>euidentiam sciendum quod in generatione substantia¬ 
+      <!--50.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>tu generabisium est considerare tria, scilicet subiectur 
+      <lb ed="#P" n="72"/>quod subiicitur generationi &amp; formae acquitendue 
+      <lb ed="#P" n="73"/>per generationem, &amp; ipsam formam quae acquiritur &amp; 
+      <lb ed="#P" n="74"/>relationen geniti ad generante &amp; e couerso. Nuno 
+      <lb ed="#P" n="75"/>autem ita est quod subiectum est id in quo recipitur 
+      <lb ed="#P" n="76"/>forma geniti, &amp; quod substernitur, in mutatione: in 
+      <lb ed="#P" n="77"/>diuinis autem non est aliquod subiectum snbstratum 
+      ali<lb ed="#P" n="78" break="no"/>cui mutationi, nec etiam alicui formae proprie IO. 
+      <lb ed="#P" n="79"/>quendo: sed est ibi conmmunicatio formae &amp; actus, 
+      <lb ed="#P" n="80"/>qui quidem actus non est aliud quam essentia diuina 
+      <lb ed="#P" n="81"/>que conmmunicatur vni personae ab alia persona: ideo 
+      <lb ed="#P" n="82"/>essentia se habet in generatione diuina vtforma 
+      con<lb ed="#P" n="83" break="no"/>municata per generatione: &amp; quia eadem essentia 
+      <lb ed="#P" n="84"/>quae est inPatre &amp; estPater comunicatur filio&amp;t est 
+      <lb ed="#P" n="85"/>filius, ideo impossibile est quod Pater producat 
+      es<lb ed="#P" n="86" break="no"/>sentiam, quia tunc produceret essentiam suam, &amp; idem 
+      <lb ed="#P" n="87"/>generarer seipsum vt essentia, quod est impossibiles 
+      <lb ed="#P" n="88"/>&amp; ideo etia est impossibile quod essetia dicatur ger 
+      <lb ed="#P" n="89"/>nerari vel per se vel per accidens, sicut produgum per 
+      <lb ed="#P" n="90"/>generatione. Vlterius sciendum quod in creaturis num 
+      <lb ed="#P" n="91"/>est idem esse subiectum generationis &amp; fundamentun 
+      <lb ed="#P" n="92"/>relationis consequentis generationem. Nam subiectu 
+      <lb ed="#P" n="93"/>generationis est illud quod est subiectumformae 
+      <lb ed="#P" n="94"/>prout est in fieri &amp; in fsuxu: quae forma vt est in 
+      fiu<lb ed="#P" n="95" break="no"/>xu &amp; in fieri, vt comunius ponitur, est ipsa genera, 
+      <lb ed="#P" n="96"/>tiq: fundamentu autem respectus consequentis in 
+      <lb ed="#P" n="97"/>genito est forma comunicata ipsi genito per 
+      geno<lb ed="#P" n="98" break="no"/>rationem: nec est proprie Illud quod refertur; sed 
+      <lb ed="#P" n="99"/>est illud per quod fundamentum genitumrefertur, 
+      <lb ed="#P" n="100"/>Et dato quod aliquo modo fundamentum posset 
+      <lb ed="#P" n="101"/>referri in creaturis, tamen hoc nullo modo potest 
+      <lb ed="#P" n="102"/>esse in diuinis, vt statim oftendetur, 
+      <lb ed="#P" n="103"/>His praemissis ostendo tres conclusaones. Prima ess 
+      <lb ed="#P" n="104"/>quod impossibile est quod essentiadiuina 
+      subiecti<lb ed="#P" n="105" break="no"/>ue generetur. Secunda est quod impossibile est. 
+      <lb ed="#P" n="106"/>quod generetur abiectiue vel per se vel per 
+      acci<lb ed="#P" n="107" break="no"/>des. Tertia est quod impossibile est ipsam generari 
+      <lb ed="#P" n="108"/>ficut relatum relatione geniti. Prima patet. Primo vt 
+      <lb ed="#P" n="109"/>sam pstensum est, vbi vere &amp; proprie generatio 
+      ha<lb ed="#P" n="110" break="no"/>bet subiectu, subiectu non generatur: 
+      alioquinma<lb ed="#P" n="111" break="no"/>teria ganeraretur, quae tamensecundu Philosophu 
+      <lb ed="#P" n="112"/>est ingenerabilis: vnde dier aliquid generari 
+      subie<lb ed="#P" n="113" break="no"/>ctiue, &amp; quod dicatur ex hoc quod est subiectu ge 
+      <lb ed="#P" n="114"/>nerationis generari, est ignorare propriam vocem. 
+      So<lb ed="#P" n="115" break="no"/>cundo, quia vt dictu est, essentia diuina no se habee 
+      <lb ed="#P" n="116"/>proprie vt subiectum generationis, quia 
+      necgenera<lb ed="#P" n="117" break="no"/>tio diuina proprie habet subiectu: quia forma 
+      ed<lb ed="#P" n="118" break="no"/>municata ibi no acquiritur alicui subiecto sibi 
+      sub<lb ed="#P" n="119" break="no"/>strato. Nec potest dici etiam fieti hoc: sicut dicitur 
+      <lb ed="#P" n="120"/>homo iam existens fieri albus, quia fieri hoc vel 
+      ta<lb ed="#P" n="121" break="no"/>le non conuenit nisi ei cui subiectiue acquiritur de 
+      <lb ed="#P" n="122"/>nouo aliqua perfectio absoluta, quod in diuinis 
+      lo<lb ed="#P" n="123" break="no"/>cum non habet. Secunda conclusio satis patet 
+      faci<lb ed="#P" n="124" break="no"/>liter, quia soli illi conuenitobiectiue generari quod 
+      <lb ed="#P" n="125"/>est productum per generationem: &amp; tale non potest 
+      <lb ed="#P" n="126"/>esse essentia, quia oporteret quod distingueretur ae 
+      <lb ed="#P" n="127"/>fatre sicut productum a producente, quod est 
+      impos<lb ed="#P" n="128" break="no"/>sibile. Tertia etiam de facili patet, quia nulla res 
+      <lb ed="#P" n="129"/>refertur relatione reali nisi ad aliud; impossibile 
+      <lb ed="#P" n="130"/>enim est idem ad seipsum referri realiter: essentia 
+      <lb ed="#P" n="131"/>autem diuina realiter est idem cumomni eo quod 
+      <lb ed="#P" n="132"/>est in diuinis: &amp; ideo realiter non potest referri ad 
+      <lb ed="#P" n="133"/>aliquid eorum, sed bene potest esse fundamentum 
+      <lb ed="#P" n="134"/>reale relationum realiu quibus. personae referuntur. 
+      </p>
+            <p xml:id="hx2hx3-b15348-d1e1091">
+               <lb ed="#P" n="135"/>Ad primum quod opponitur ab aliis est 
+      dicen<lb ed="#P" n="136" break="no"/>dum quod illa ratio dupliciter deficit. Primo, 
+      <lb ed="#P" n="137"/>quia ingeneratione quae proprie habet subiectur, 
+      <lb ed="#P" n="138"/>subsectu generationis nullo modo conuenit 
+      gene<lb ed="#P" n="139" break="no"/>rari Secudo, quia generatio diuina non habet 
+      sub<lb ed="#P" n="140" break="no"/>iectu led obiectum &amp; formam communicata, quae 
+      <!--51.xml-->
+      <pb ed="#P" n="51"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>in nullo subiecto recipitur. Quod autem inducitur 
+      <lb ed="#P" n="2"/>quod sslud quod mnanet in vtroque termino 
+      gene<lb ed="#P" n="3" break="no"/>rarionis est eius subiectum: verum est accipiendo 
+      <lb ed="#P" n="4"/>ter minos pon generantem &amp; genitum, sed formam 
+      <lb ed="#P" n="5"/>&amp; priuationem, vel duas formas oppositas, sicut 
+      <lb ed="#P" n="6"/>quando aliquid sit ex albo niprum. Ratio autem 
+      <lb ed="#P" n="7"/>pi ocedit accipiendo generantem &amp; genitum proter. 
+      <lb ed="#P" n="8"/>minis, &amp; ideo non valet. Ad secundum dicendum quod 
+      <lb ed="#P" n="9"/>indiuinis non est fieri secundum rem, quia vbi est ve 
+      <lb ed="#P" n="10"/>re fieri, ibi est motus &amp; forma in fsuxu, cui formae 
+      <lb ed="#P" n="11"/>in ssuxu substernitur aliquod subiectum: vnde non 
+      <lb ed="#P" n="12"/>est ibi forma in fluxu, nec per consequens est ibi 
+      <lb ed="#P" n="13"/>proprie ficri: sed est ibi communicatio formae non 
+      <lb ed="#P" n="14"/>fsuentis nec indigentis subiecto. Sed hene est ibi 
+      <lb ed="#P" n="15"/>fundamentum respectus producentis &amp; producti. Et 
+      <lb ed="#P" n="16"/>si sieri acciperetur pro tali respectu, essentia esset 
+      <lb ed="#P" n="17"/>fundamentum fieri sic dicti: sed inconuenienter 
+      di<lb ed="#P" n="18" break="no"/>ceretur hoc esse fieri; sed referri talibus respectib 
+      <lb ed="#P" n="19"/>est produci &amp; producere in diuinis. Referri autem 
+      <lb ed="#P" n="20"/>non conuenit essentiae in diuinis, sed supposito, vt 
+      <lb ed="#P" n="21"/>ostensum. Ad tertium dicunt quidam quod generatio 
+      <lb ed="#P" n="22"/>passiua vt proprietas praecedit filium, sed vt relatio 
+      <lb ed="#P" n="23"/>sequitur. Sed melius videtur dicendum quod 
+      gene<lb ed="#P" n="24" break="no"/>rari etiam licet non sit fieri proprie loquendo, 
+      secu<lb ed="#P" n="25" break="no"/>dum tamen rationem int elligendi accipitur vt quod. 
+      <lb ed="#P" n="26"/>dam fieri: &amp; ideo secundum modum nostru 
+      intel<lb ed="#P" n="27" break="no"/>ligendi est vt sit prius filio, &amp; fundetur secundum 
+      <lb ed="#P" n="28"/>modum nostrum intelligendi in aliquo quod est prius 
+      <lb ed="#P" n="29"/>filio: non tamen oportet quod ipsum generetur, 
+      <lb ed="#P" n="30"/>quia non oportet qued illi quod est fundamentum 
+      <lb ed="#P" n="31"/>ipsius generari respondeat quod generetur, sed 
+      <lb ed="#P" n="32"/>tantum supposito habenti hoc fundamentum &amp; 
+      <lb ed="#P" n="33"/>cui ratio fundamenti huius conuenit.
+        
+      <lb ed="#P" n="34"/>Ad primum ergo dicendum quod non oportet quod 
+      <lb ed="#P" n="35"/>illud quod priedicatur de aliquo possit supponere 
+      <lb ed="#P" n="36"/>pro eo respectu cuiuscunque praedicati, sed tantum 
+      <lb ed="#P" n="37"/>respectu praedicati respectu cuius no differunt. 
+      Res<lb ed="#P" n="38" break="no"/>pectu autem eorum quae eis coueniunt in quantum 
+      <lb ed="#P" n="39"/>differunt, non oporter quod vnum supponat pro alio. 
+      <lb ed="#P" n="40"/>Sed contra hoc dicunt quidam quod musicus &amp; 
+      aedi<lb ed="#P" n="41" break="no"/>ficator differut secundum aedificare &amp; cantare &amp; 
+      ta<lb ed="#P" n="42" break="no"/>men respectu istorum vnum supponit pro alio; nam haeo 
+      <lb ed="#P" n="43"/>est vera, musicus aedificat, &amp; aedificator cantat. Et 
+      <lb ed="#P" n="44"/>ad hoc potest dici quod illa quae differunt, non 
+      opor<lb ed="#P" n="45" break="no"/>tet semper quod non possint supponere pro 
+      inui<lb ed="#P" n="46" break="no"/>cem respectu illorum in quibus differunt. Nec etiam 
+      <lb ed="#P" n="47"/>oportet quod semper supponant pro inuicem respe 
+      <lb ed="#P" n="48"/>ctu taliu: obiectio aute procedit ac si solutio supra 
+      <lb ed="#P" n="49"/>posita posuifset quod semper oportet vnum non 
+      sup<lb ed="#P" n="50" break="no"/>ponere pro alio respectu talium. Quod autem talia no 
+      <lb ed="#P" n="51"/>suoponunt pro inuicem respectu talium in quibus sic 
+      <lb ed="#P" n="52"/>differunt, est quia in eis habent repugnantiam ad 
+      in<lb ed="#P" n="53" break="no"/>uicem: &amp; sic differut essentia &amp; persona indiuinis 
+      <lb ed="#P" n="54"/>respectu eius quod est esse conmunicabile &amp; 
+      incom<lb ed="#P" n="55" break="no"/>municabile, &amp; respectu eius quod est distingui vel 
+      <lb ed="#P" n="56"/>non distingui, &amp; respectu illoru quae distingui vel 
+      <lb ed="#P" n="57"/>non distingui important, &amp; respectu quorum persona 
+      <lb ed="#P" n="58"/>non potest supponere pro essentia, nec e conuerso, 
+      <lb ed="#P" n="59"/>Edificator aute &amp; musicus non sicdifferunt 
+      secun<lb ed="#P" n="60" break="no"/>du aedificare &amp; cantare quod in istis habeant 
+      renu<lb ed="#P" n="61" break="no"/>gnantiam. Adsecundum dicendum quod licet in di 
+      <lb ed="#P" n="62"/>uinis abstractum &amp; concretum non differant secundum 
+      <lb ed="#P" n="63"/>rem, cum vnn praedicetur de altero, tamen penes 
+      <lb ed="#P" n="64"/>modum significandi differunt, ratione cuius vnu 
+      <lb ed="#P" n="65"/>habet magis implicare suppositum quam aliud vt pro 
+      <lb ed="#P" n="66"/>eo supponat, sicut in principali solutione expositum 
+      <lb ed="#P" n="67"/>est. Ad tertium quod inducitur ad probandum quod 
+      a<lb ed="#P" n="68" break="no"/>ctus notionales non praedicantur de cocretis 
+      essen<lb ed="#P" n="69" break="no"/>tialibus. Dicendum est quod non oportet quod De 
+      <lb ed="#P" n="70"/>distinguatur a Deo, sed sufficit quod illi pro quibus 
+      <!--51.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Deus supponit vtrobique sint distincti, scilicet 
+      ile<lb ed="#P" n="72" break="no"/>le qui est generans &amp; ille qui est genitus. Causa 
+      au<lb ed="#P" n="73" break="no"/>tem quare non dicitur Deus distinctus a Deo, sicut 
+      <lb ed="#P" n="74"/>Deus generat Deum; est, quia distingui cum non 
+      <lb ed="#P" n="75"/>dicat actum nisi grammatice, non facit teneriDeum 
+      <lb ed="#P" n="76"/>in subiecto positum pro persona: &amp; ideo denotare. 
+      <lb ed="#P" n="77"/>tur distinctio in natura non in persona. Sed generare 
+      <lb ed="#P" n="78"/>dicit actum realem conuenientem soli supposito &amp; 
+      <lb ed="#P" n="79"/>facit teneri terminum concretum de quo praedicatur 
+      <lb ed="#P" n="80"/>pro supposito. Ad quartum dicendum quod nec ge 
+      <lb ed="#P" n="81"/>nerat seDeum nec alium Deum, quia enim ille que 
+      <lb ed="#P" n="82"/>generat, Pater est idem cum eo in natura, non est 
+      <lb ed="#P" n="83"/>concedendum quod peneret alium Deum, ne 
+      de<lb ed="#P" n="84" break="no"/>notetur quod generet alium in natura diuina. Quia 
+      <lb ed="#P" n="85"/>vero est alius in persona, non est concedendum quod 
+      <lb ed="#P" n="86"/>generet seipsum Deum, ne denoterur quod ille quem 
+      <lb ed="#P" n="87"/>generat sit vnacum eo persona. Sed bene potelt 
+      <lb ed="#P" n="88"/>concedi quod generat alium qui est Deus sed non 
+      <lb ed="#P" n="89"/>alius Deus. Ad quintum dicunt quidam quod 
+      quan<lb ed="#P" n="90" break="no"/>tum est de virtute locutionis potest concedi quod 
+      <lb ed="#P" n="91"/>Deus non generat ratione filii, sicut etiam potest 
+      <lb ed="#P" n="92"/>concedi quod Deus generat ratione Patris: nec se 
+      <lb ed="#P" n="93"/>quitur quod sint duo Dii scilicet Deus generans &amp; 
+      <lb ed="#P" n="94"/>Deus non generans: sicut non sequitur quod Deus 
+      <lb ed="#P" n="95"/>generans &amp; Deus genitus sint duo Dii. Alii autem 
+      <lb ed="#P" n="96"/>dicunt quod cum Deus possit suoponere &amp; pro 
+      sup<lb ed="#P" n="97" break="no"/>posito determinato &amp; pro natura comuni, tamen 
+      <lb ed="#P" n="98"/>quantum est de se, nisi per terminum in praedicato 
+      posi<lb ed="#P" n="99" break="no"/>tum fiat quod stet pro supposito, semper stat pro 
+      na<lb ed="#P" n="100" break="no"/>tura, vel pro omni supposito naturae. Et hoc ideo est 
+      <lb ed="#P" n="101"/>quia natura quantum est ex principali significato 
+      <lb ed="#P" n="102"/>quod importat hoc nome Deus, est vna numero in 
+      <lb ed="#P" n="103"/>tribus personis. Vnde quod attribuitur Deo, 
+      attri<lb ed="#P" n="104" break="no"/>bueretur Patri &amp; Filio &amp; Spiritui sancto omni 
+      sun<lb ed="#P" n="105" break="no"/>posito diuino. Et quod negatur a Deo negatur ab 
+      <lb ed="#P" n="106"/>omni supposito diuino, nisi praedicatum sit tale 
+      <lb ed="#P" n="107"/>quod faciat ipsum stare pro determinato supposito: 
+      <lb ed="#P" n="108"/>e conuerso autem est in creaturis, quia terminus 
+      com<lb ed="#P" n="109" break="no"/>mumis concretus stat pro aliquo supposito hoc vel 
+      <lb ed="#P" n="110"/>illo, &amp; non pro natura communi, nisi praedicatum 
+      <lb ed="#P" n="111"/>sit tale quod faciat ipsum teneri pro illa, vt quando 
+      <lb ed="#P" n="112"/>dicitur, rosa est pulcherrima florum. Et hoc ideo est, 
+      <lb ed="#P" n="113"/>quia natura in creaturis plurificatur realiter 
+      secun<lb ed="#P" n="114" break="no"/>dum pluralitatem suppositorum, nec habet vnitate 
+      <lb ed="#P" n="115"/>realem in pluribus suppositis. Quia ergo generare 
+      <lb ed="#P" n="116"/>cum sit actus determinatae personae facit hoc quod 
+      <lb ed="#P" n="117"/>dico. Deus, stare pro determinato supposito: ideo 
+      <lb ed="#P" n="118"/>bene dicitur, Deus generat, nec sequitur pronter 
+      <lb ed="#P" n="119"/>hoc quod quaelibet persona generet. Sed non 
+      ge<lb ed="#P" n="120" break="no"/>nerare cum dicat negationem, non facitDeum sta re 
+      <lb ed="#P" n="121"/>pro determinato supposito. Et ideo quando dicitur 
+      <lb ed="#P" n="122"/>quod Deus non generat, denotatur quod non ge 
+      <lb ed="#P" n="123"/>nerare conueniat toti naturae, id est, omni supposito 
+      <lb ed="#P" n="124"/>naturae diuinae, quod est falsum: propter quod non 
+      <lb ed="#P" n="125"/>concedunt quod haec sit vera, Deus non generat. 
+      <lb ed="#P" n="126"/>Sed contra hoc obiiciunt quidam quod si ista, Deu 
+      <lb ed="#P" n="127"/>non generat, est falsa, quia Deus supponit ibi pro 
+      <lb ed="#P" n="128"/>natura: multo plus esset istafalsa, essentia nom 
+      gene<lb ed="#P" n="129" break="no"/>rat, quae tamem vera est. Et ad hoc dicendum est, quod 
+      <lb ed="#P" n="130"/>illa procedit ex malo intellectu eius quod dicitur 
+      <lb ed="#P" n="131"/>natura, quia in praedicta responsione non accipitur 
+      <lb ed="#P" n="132"/>natura pro abstracto prout diuiditur contra 
+      con<lb ed="#P" n="133" break="no"/>cretum: sed pro concreto prout accipitur non pro 
+      <lb ed="#P" n="134"/>vno determinato supposito, sed pro omni 
+      supposi<lb ed="#P" n="135" break="no"/>to naturae. Qbiectio autem procedit ac si natura 
+      <lb ed="#P" n="136"/>acciperetur pro abstracto prout distinguitur 
+      con<lb ed="#P" n="137" break="no"/>tra concretum. Quid sit de veritate dictae 
+      proposi<lb ed="#P" n="138" break="no"/>tionis scilicet, Deus non generat, nondefinio. Sed 
+      <lb ed="#P" n="139"/>tamen obiectio facta in contrarium nulla videtus 
+      <lb ed="#P" n="140"/>esse, quidquid sit de veritate eius.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

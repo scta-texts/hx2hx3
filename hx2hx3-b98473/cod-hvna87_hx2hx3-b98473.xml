@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="292"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b98473"><!-- l3d5q1 -->
+            <head xml:id="hx2hx3-b98473-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b98473-Hd1e101" type="question-title">Utrum natura assumpserit naturam</head>
+            <p xml:id="hx2hx3-b98473-d1e104">
+               <lb ed="#P" n="31"/>Si persena, vel natura, personam, vel 
+      na<lb ed="#P" n="32" break="no"/>turam assumpsit: &amp; si natura Dei sit 
+      <lb ed="#P" n="33"/>incarnatae. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e113">
+               <lb ed="#P" n="34"/>Praeterea inquiri operuet, cum ex praemisi: 
+      <lb ed="#P" n="35"/>conster Verbum Dei &amp; carnem &amp; anima 
+      <lb ed="#P" n="36"/>Fuul assumpsisse in vnitatem personae, 
+      <lb ed="#P" n="37"/>quid horum potius concedendum sit, 
+      scili<lb ed="#P" n="38" break="no"/>cet quod per sona personam, vel quod 
+      na<lb ed="#P" n="39" break="no"/>tura naturam; vel per sona naturam, vel 
+      <lb ed="#P" n="40"/>natura personam assumpserit, &amp; an ita 
+      <lb ed="#P" n="41"/>conuentat dici diuinam naturum esse 
+      in<lb ed="#P" n="42" break="no"/>carnatam: sicut Deue incarnatua &amp; 
+      ver<lb ed="#P" n="43" break="no"/>bum incarnatum sane dicitur, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e137">
+               <lb ed="#P" n="44"/>Distinctio quinta. 
+      <lb ed="#P" n="45"/>QVAESTIO PRIMA 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e145">
+               <lb ed="#P" n="46"/>Svper quintam distinctionem, quaeritur vtrum 
+      <lb ed="#P" n="47"/>natura assumpserit naturam. Etarguitur quod  
+      <lb ed="#P" n="48"/>non, quia afsumere non conuenit ei quod est 
+      com<lb ed="#P" n="49" break="no"/>mune tribus personis, alioquin cuilibet personae 
+      <lb ed="#P" n="50"/>conueniret. Sed essentia, siue natura est 
+      commu<lb ed="#P" n="51" break="no"/>nis tribus personis. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e161">
+               <lb ed="#P" n="52"/>Praeterea, sicut se habet persona ad personam: 
+      <lb ed="#P" n="53"/>ita se habet natura ad naturam. Sed persona non 
+      <lb ed="#P" n="54"/>potest assumere personam. Quia tunc essent duae 
+      <lb ed="#P" n="55"/>personae in Christo, scilicet aisumens &amp; assumpta 
+      <lb ed="#P" n="56"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e174">
+               <lb ed="#P" n="57"/>Contra: sicut se habet persona ad personam, 
+      <lb ed="#P" n="58"/>ita natura ad naturam. Sed personae conuenit 
+      as<lb ed="#P" n="59" break="no"/>sumere personam (vt probabo) Ergo, &amp;c. 
+      Pro<lb ed="#P" n="60" break="no"/>batio minoris; quia Filius Dei qui est persona 
+      as<lb ed="#P" n="61" break="no"/>sumpfit animam rationalem, quae etiam dicitur 
+      <lb ed="#P" n="62"/>esse persona: cum sit naturae rationalis indiuidna 
+      <lb ed="#P" n="63"/>substantia &amp; per se subsistens. 
+      <!--292.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>Respondeo. Primo videndum est quid fit 
+      v<lb ed="#P" n="65" break="no"/>nio secundum quam dicuntur vniri naturae in 
+      sup<lb ed="#P" n="66" break="no"/>posito diuino. 
+      <lb ed="#P" n="67"/>Secundo, videndum est quomodo differunt 
+      <lb ed="#P" n="68"/>vnio &amp; assumptio. 
+      <lb ed="#P" n="69"/>Tertio, cui conueniat assumere: &amp; cuinon. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e209">
+               <lb ed="#P" n="70"/>ARTICVLVS PRIMVS. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e214">
+               <lb ed="#P" n="71"/>Qvantum ad primum dicendum est breuiten 
+      <lb ed="#P" n="72"/>quod vnio est quaedam relatio vnitorum: 
+      <lb ed="#P" n="73"/>Vnde vnio naturarum in supposito diuino, vei 
+      <lb ed="#P" n="74"/>etiam vnio naturae humanae ad suppositum 
+      diui<lb ed="#P" n="75" break="no"/>num, est relatio quaedam inter naturam 
+      assum<lb ed="#P" n="76" break="no"/>ptam ex vna parte: &amp; naturam &amp; personam ex 
+      a<lb ed="#P" n="77" break="no"/>lia parte. Ista autem relatio est realis in natura 
+      <lb ed="#P" n="78"/>vnita, quae realem dependentiam habet ad 
+      sup<lb ed="#P" n="79" break="no"/>positum diuinum: ex parte autem suppositi diuini 
+      <lb ed="#P" n="80"/>ponitur relatio rationis Qualiter autem relatio 
+      <lb ed="#P" n="81"/>Dei ad creaturam, dicatur rationis: dictum est 
+      <lb ed="#P" n="82"/>in primo. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e243">
+               <lb ed="#P" n="83"/>ARTICVLVS SECVNDVS 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e249">
+               <lb ed="#P" n="84"/>Qvantum ad secundum, sciendum quod 
+      <lb ed="#P" n="85"/>vnio &amp; assumptio principaliter differunt in 
+      <lb ed="#P" n="86"/>quatuor; primum est quod vnio proprie dicit 
+      ip<lb ed="#P" n="87" break="no"/>sam relationem ipsorune vnitorum, sed assumptio 
+      <lb ed="#P" n="88"/>magis dicit actionem assumentis, vel passionem 
+      <lb ed="#P" n="89"/>assumpti. Vnio enim proprie non dicit actionem 
+      <lb ed="#P" n="90"/>vel passionem: sed vnitio hoc videtur dicere. 
+      Se<lb ed="#P" n="91" break="no"/>cundo, quia vnio non importat terminum ad quem 
+      <lb ed="#P" n="92"/>est vnio, vel terminum a quo: sed assumptio hoc 
+      <lb ed="#P" n="93"/>importat. Nam assumptio idem est quod 
+      sum<lb ed="#P" n="94" break="no"/>ptio alicuius ab alio a se. Vnde in nomine 
+      assum<lb ed="#P" n="95" break="no"/>ptionis importatur assumens &amp; terminus 
+      assum<lb ed="#P" n="96" break="no"/>ptionis: non sic in nomine vnionis. Tertio, quia 
+      <lb ed="#P" n="97"/>assumptio requirit alterum extremorum esse fixum 
+      <lb ed="#P" n="98"/>&amp; stabile: scilicet illud ad quod aliud sumitur 
+      <lb ed="#P" n="99"/>Aliud aliquis requirit vt mobile &amp; trahibile ad 
+      al<lb ed="#P" n="100" break="no"/>terum scilicet id quod assumitur: vnio autem non 
+      <lb ed="#P" n="101"/>sic. Quia ad hoc quod aliqua dicantur vniri, non 
+      <lb ed="#P" n="102"/>requiritur vt vnum eorum trahatur ad alterum, 
+      si<lb ed="#P" n="103" break="no"/>
+               <!-- line coord error -->a
+      <lb ed="#P" n="104"/>cut ad fixum &amp; stans, vel ambo ad constituendum 
+      <lb ed="#P" n="105"/>tertium, quartum in quo differunt est, quia vnio 
+      <lb ed="#P" n="106"/>sicut quaed.m relatio aequiparantiae respicit 
+      vni<lb ed="#P" n="107" break="no"/>formiter vtrumque extremum, non autem 
+      assum<lb ed="#P" n="108" break="no"/>ptio respicit assumens vt illud ad quod trahitur 
+      a<lb ed="#P" n="109" break="no"/>liquod, &amp; assumptum vt quod ad aliquid trahitur. 
+      <lb ed="#P" n="110"/>Et ex hoc sequitur quod licet vniens sit vnitum: 
+      <lb ed="#P" n="111"/>non tamen assumens est assumptum. Quod 
+      au<lb ed="#P" n="112" break="no"/>tem dicitur quod relatio aequiparantiae est inter 
+      <lb ed="#P" n="113"/>personamdiuinam &amp; assumptam: nonest 
+      intelli<lb ed="#P" n="114" break="no"/>gendum secundum rem Quia impossibile est eam 
+      <lb ed="#P" n="115"/>aequiparari in aliquo reali: sed secundum nomen, 
+      <lb ed="#P" n="116"/>inquantum indifferenter attribuitur vtrique. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e325">
+               <lb ed="#P" n="117"/>ARTICVLVS TERTIVS. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e330">
+               <lb ed="#P" n="118"/>Qvantum ad tertium sciendum, quod in 
+      no<lb ed="#P" n="119" break="no"/>minibus significantibus dictam vnionem est 
+      <lb ed="#P" n="120"/>quaedam differentia. Nam quaedam nomina 
+      im<lb ed="#P" n="121" break="no"/>portant solam actionem ipsam absolute, non 
+      im<lb ed="#P" n="122" break="no"/>plieando illum ad quem: sed solum id cui 
+      attri<lb ed="#P" n="123" break="no"/>buitur quod sit principium actiuum vnionis. Et 
+      <lb ed="#P" n="124"/>ista indifferenter conueniunt toti Trinitati, &amp; 
+      es<lb ed="#P" n="125" break="no"/>set sicut vit ire, facere assumptionem, &amp; talia. Que 
+      <lb ed="#P" n="126"/>dam autem sunt quae important cum hoc 
+      termi<lb ed="#P" n="127" break="no"/>num ad quem fit vnio: &amp; talia non conueniunt 
+      <lb ed="#P" n="128"/>toti Trinitari: sicut assumere non conuenit toti Tri¬ 
+      <!--293.xml-->
+      <pb ed="#P" n="293"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ninati. Quia neque patri conuenit, nec Spiritui 
+      <lb ed="#P" n="2"/>sancto: cum non sit torminus ad quem terminetur 
+      <lb ed="#P" n="3"/>ista vnio. Illud autem ad quod terminatur vnio 
+      <lb ed="#P" n="4"/>dupliciter potest accipi. Vno modo quia est id ad 
+      <lb ed="#P" n="5"/>quod &amp; in quo est vnio: &amp; sic sola persona Filii 
+      <lb ed="#P" n="6"/>est terminus vnionis iam factae, licet aliae personae 
+      <lb ed="#P" n="7"/>possent esse termini vnius alterius possibilis fieri: 
+      <lb ed="#P" n="8"/>cum soli personae Filii ad ipsam &amp; in ipsam facta 
+      <lb ed="#P" n="9"/>sit vnio. Aliomodo dicitur terminus vnionis id ad 
+      <lb ed="#P" n="10"/>quod est vnio, in quo tamen non est vnio. Et sic 
+      <lb ed="#P" n="11"/>natura diuina vt est in persona Filii est terminus 
+      <lb ed="#P" n="12"/>vnionis. Et ideo potest dici ad se: non tamen in 
+      <lb ed="#P" n="13"/>se sumere. Vnde dicitur assumere, quia assumpsit 
+      <lb ed="#P" n="14"/>id est ad se sumpsit naturam humanam in natura 
+      <lb ed="#P" n="15"/>Filii. Et quia naturae secundum se &amp; absolute 
+      con<lb ed="#P" n="16" break="no"/>sideratae non conuenit assumere, sed vt est in 
+      per<lb ed="#P" n="17" break="no"/>sona Filii: quia non sumit ad se nisi in persona 
+      fi<lb ed="#P" n="18" break="no"/>lii. Ideo non oportet quod assumere conueniat 
+      <lb ed="#P" n="19"/>toti Trinitati. Sicut accipi per generationem, quia 
+      <lb ed="#P" n="20"/>non conuenit secundum se &amp; absolute naturae: sed 
+      <lb ed="#P" n="21"/>vt est in persona Filii. Ideo non opportet quod 
+      <lb ed="#P" n="22"/>accipi per generationem conueniat toti 
+      Trini<lb ed="#P" n="23" break="no"/>tati. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e413">
+               <lb ed="#P" n="24"/>Et per hoc pater solutio ad primum in 
+      opposi<lb ed="#P" n="25" break="no"/>tum. Nam quando dicitur quod assumere non 
+      <lb ed="#P" n="26"/>conuenit ei quod est commune toti Trinitati, 
+      ve<lb ed="#P" n="27" break="no"/>rum est accipiendo illud commune absolute &amp; 
+      se<lb ed="#P" n="28" break="no"/>cundum se: sed bene potest conuenire 
+      assume<lb ed="#P" n="29" break="no"/>re ei quod est commune toti Trinitati prout 
+      acci<lb ed="#P" n="30" break="no"/>pitur in determinata persona. Et quod ei sic 
+      con<lb ed="#P" n="31" break="no"/>uenit, non oportet quod sit commune toti 
+      Trini<lb ed="#P" n="32" break="no"/>tati: sicut patet in exemplo nostro posito.
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e435">
+               <lb ed="#P" n="33"/>Ad secundum dicendum, quod quantum 
+      per<lb ed="#P" n="34" break="no"/>tinet ad propositum: facile est respondere sicut 
+      <lb ed="#P" n="35"/>magister respondet. Nam dato quod ita esset 
+      <lb ed="#P" n="36"/>quod anima quando per se subsistit esset persona, 
+      <lb ed="#P" n="37"/>non tamen oportet quod sit persona quando alii 
+      <lb ed="#P" n="38"/>cui innititur in essendo vnire, prout est anima 
+      <lb ed="#P" n="39"/>Christi in supposito diuino. Sicut etiam dato quod 
+      <lb ed="#P" n="40"/>humanitas esset realiter persona humana quando 
+      <lb ed="#P" n="41"/>non innititur alieno supposito: tamen non 
+      opor<lb ed="#P" n="42" break="no"/>tet quod habeat rationem suppositi quando 
+      inni<lb ed="#P" n="43" break="no"/>titur alieno supposito, sicut humanitas Christi 
+      in<lb ed="#P" n="44" break="no"/>nititur supposito diuino. Et ideo non sequitur 
+      <lb ed="#P" n="45"/>quod persona sit assumpto. 
+      </p>
+            <p xml:id="hx2hx3-b98473-d1e466">
+               <lb ed="#P" n="46"/>Sed quantum ad id quod in quaestione 
+      impli<lb ed="#P" n="47" break="no"/>eatur: vtrum anima separata quando per se 
+      sub<lb ed="#P" n="48" break="no"/>sistit, sit persona. Breuiter dicendum quod non. 
+      <lb ed="#P" n="49"/>Quia de ratione personae non solum est quod 
+      sub<lb ed="#P" n="50" break="no"/>sistat: sed etiam quod dicat ens perfectum quod 
+      <lb ed="#P" n="51"/>hec actu aptitudine sit natum esse perfectum 
+      alicu<lb ed="#P" n="52" break="no"/>ius naturae. Anima autem separata non est talis. 
+      <lb ed="#P" n="53"/>Quod ergo dicitur quod est naturae rationalis 
+      in<lb ed="#P" n="54" break="no"/>diuidua substantia &amp; subsistens. Dicendum quod 
+      <lb ed="#P" n="55"/>non sufficit, quod qualitercumque sit naturae 
+      ra<lb ed="#P" n="56" break="no"/>tionalis indiuidua substantia: nisi sit substantia 
+      <lb ed="#P" n="57"/>completa quae non sit nata esse pars alicuius 
+      na<lb ed="#P" n="58" break="no"/>turae. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="201"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b67097"><!-- l2d2q1 -->
+            <head xml:id="hx2hx3-b67097-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b67097-Hd1e101" type="question-title">Utrum sit unum tempus omnium temporalium</head>
+            <p xml:id="hx2hx3-b67097-d1e104">
+               <lb ed="#P" n="30"/>Distinctio secunda. 
+      <lb ed="#P" n="31"/>QVAESTIO PRIMA 
+      <lb ed="#P" n="32"/>SVper scundam distinctionem. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e113">
+               <lb ed="#P" n="33"/>Quaeritur, vtrum sit vnum tempus omnium 
+      <lb ed="#P" n="34"/>temporalium. Et arguitur quod non: quia 
+      se<lb ed="#P" n="35" break="no"/>cundum Angustinum cessante motu coeli adhuc 
+      <lb ed="#P" n="36"/>non cesseret tempus si moueretur rota figuli. Sed 
+      <lb ed="#P" n="37"/>hoc non esset nisi tempus esset in aliquo alio 
+      mo<lb ed="#P" n="38" break="no"/>tu sicut in subiecto quam in motu coeli. Ergo 
+      tem<lb ed="#P" n="39" break="no"/>pus est in alio motu quam in motu coeli sicut in 
+      <lb ed="#P" n="40"/>subiecto: &amp; per consequens est in pluribus: ergo 
+      <lb ed="#P" n="41"/>plurificatur sicut &amp; subiectum. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e135">
+               <lb ed="#P" n="42"/>Praeterea tempore Iosue, sole stante contra 
+      Ga<lb ed="#P" n="43" break="no"/>baon cessauit motus coeli. Sed constat quod tunc 
+      <lb ed="#P" n="44"/>erat tempus in inferioribus cum esset motus in eis, 
+      <lb ed="#P" n="45"/>&amp; illud tempus erat in alio motu sicut in subiecto, 
+      <lb ed="#P" n="46"/>alio a motu coeli. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e149">
+               <lb ed="#P" n="47"/>Praeterea, secundum auctorem libro sexto 
+      prin<lb ed="#P" n="48" break="no"/>cipiorum in quo est tempus, est &amp; quando. Sed 
+      <lb ed="#P" n="49"/>quando est in pluribus sicut in subiecto. Ergo, 
+      <lb ed="#P" n="50"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e160">
+               <lb ed="#P" n="51"/>In contrarium est Philosophus in quarto 
+      Phy<lb ed="#P" n="52" break="no"/>sicorum. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e167">
+               <lb ed="#P" n="53"/>Respondeo. Hic declaranda sunt 
+      qua<lb ed="#P" n="54" break="no"/>tuor. 
+      <lb ed="#P" n="55"/>Primum, quomodo differant tempus 
+      conti<lb ed="#P" n="56" break="no"/>nuum &amp; discretum, aeuum &amp; aeternitas. 
+      <lb ed="#P" n="57"/>Secundum est ostendere quomodo se habeat 
+      <lb ed="#P" n="58"/>tempus, siue discretum, siue continuum ad 
+      <lb ed="#P" n="59"/>nunc. 
+      <lb ed="#P" n="60"/>Tertium, est videre vtrum tempus habeat esse 
+      <lb ed="#P" n="61"/>reale extra animam. 
+      <lb ed="#P" n="62"/>Quartum est ostendere, vtrum omnium 
+      tem<lb ed="#P" n="63" break="no"/>poralium fit vnum tempus.
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e193">
+      <!--201.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>ARTICVLUS PRIMVS.
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e202">
+               <lb ed="#P" n="65"/>QVantum ad primum omissis quibusdam 
+      dif<lb ed="#P" n="66" break="no"/>ferentiis quas quidam ponunt &amp; quas 
+      do<lb ed="#P" n="67" break="no"/>dores reprobant intendo statim ponere 
+      differen<lb ed="#P" n="68" break="no"/>tiam quam credo esse per se differentiam 
+      dicto<lb ed="#P" n="69" break="no"/>rum. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e215">
+               <lb ed="#P" n="70"/>Notandum est igitur quod tempus &amp; aeuum &amp; 
+      <lb ed="#P" n="71"/>aeternitas quasdam mensuras dicunt secundum quas 
+      <lb ed="#P" n="72"/>actus nati sunt mensurari secundum quod habent 
+      <lb ed="#P" n="73"/>durare tantum vel tantum. Et ideo secundum 
+      <lb ed="#P" n="74"/>dfferentiam quae per se inuenitur in actibus 
+      se<lb ed="#P" n="75" break="no"/>cundum quod diuersimode habent durare: est 
+      ac<lb ed="#P" n="76" break="no"/>cipienda differentia inter praedicta. Inter actus 
+      <lb ed="#P" n="77"/>autem inuenitur talis differentia in durando, quia 
+      <lb ed="#P" n="78"/>quidam est actus quo vno numero existente est 
+      <lb ed="#P" n="79"/>successio: ita quod eius duratio consistit in 
+      acci<lb ed="#P" n="80" break="no"/>piendo partem post partem continue. Et 
+      menso<lb ed="#P" n="81" break="no"/>ra talis actus est tempus continuum: habere enim 
+      <lb ed="#P" n="82"/>partes continuas primo &amp; per se est quantitatis 
+      <lb ed="#P" n="83"/>continuae, siue sit successiua, siue permanens. 
+      A<lb ed="#P" n="84" break="no"/>lius est actus cuius duratio non consistit in 
+      acci<lb ed="#P" n="85" break="no"/>piendo successiue partem post partem: imo eius 
+      <lb ed="#P" n="86"/>duratio consistit in hoc quod idem indiuisibile 
+      <lb ed="#P" n="87"/>manens stat. Et iste est duplex. Nam quidam est 
+      <lb ed="#P" n="88"/>actus indiuisibilis in quo nulla est successio; 
+      ta<lb ed="#P" n="89" break="no"/>men natus est ei alius succedere, &amp; ipse natus est 
+      <lb ed="#P" n="90"/>succedere alteri: sicut patet in operationibus 
+      An<lb ed="#P" n="91" break="no"/>gelorum quarum vnaquaeque est indiuisibilis, &amp; 
+      <lb ed="#P" n="92"/>vna nata est succedere alteri, &amp; vnusquisque 
+      ta<lb ed="#P" n="93" break="no"/>lium actuum mensuratur nunc temporis discreti, 
+      <lb ed="#P" n="94"/>&amp; successio quae est inter tales actus indiuisibiles 
+      <lb ed="#P" n="95"/>mensuratur tempore disereto: quia tempus 
+      Ari<lb ed="#P" n="96" break="no"/>stoteles intellexit quando posuit orationem esse 
+      <lb ed="#P" n="97"/>speciem quantitatis successiuae quam ponit esse 
+      <lb ed="#P" n="98"/>discretam. Constat enim quod ibi non accipit 
+      <lb ed="#P" n="99"/>proprie orationem pro sono illo qui est qualitas, 
+      <lb ed="#P" n="100"/>sed pro mensura prolationis ipsius soni. Et vult 
+      <lb ed="#P" n="101"/>quod sit alia species quantitatis a tempore continuo 
+      <lb ed="#P" n="102"/>&amp; numero: alioquin non diuideret eam contra 
+      <lb ed="#P" n="103"/>illas Quia enim ibi non solum est dare plura, 
+      <lb ed="#P" n="104"/>sed etiam est dare plus durare secundum quod talia 
+      <lb ed="#P" n="105"/>plura indiuisibilia plus durant quam vnum: ideo 
+      <lb ed="#P" n="106"/>oportet ponere ibi aliam quantitatem quam 
+      nu<lb ed="#P" n="107" break="no"/>merum pertinentem ad mensuram alicuius 
+      dura<lb ed="#P" n="108" break="no"/>tionis. Hoc autem, vt de se patet, nec est 
+      aeter<lb ed="#P" n="109" break="no"/>nitas, nec aeuum, nec etiam tempus continuum; 
+      <lb ed="#P" n="110"/>vt dicatur esse constituta ex diuersis partibus 
+      con<lb ed="#P" n="111" break="no"/>tinuis: quia hoc non adderet nouam speciem 
+      <lb ed="#P" n="112"/>quantitatis differentem a quantitate continua, &amp; 
+      <lb ed="#P" n="113"/>a numero: sicut &amp; quantitas permanens diuisa in 
+      <lb ed="#P" n="114"/>multas partes non addit nouam quantitatem 
+      dif<lb ed="#P" n="115" break="no"/>ferentem a quantitatibus permanentibus quae sunt 
+      <lb ed="#P" n="116"/>longitudo, latitudo &amp; profundum: &amp; a numero. In 
+      <lb ed="#P" n="117"/>talibus etiam actibus indiuisibilibus indiuisibile facit 
+      <lb ed="#P" n="118"/>plus vel maius quod non habet veritatem in partibus 
+      <lb ed="#P" n="119"/>quantitatis continuae actu diuisis. Et hoc non potest 
+      <lb ed="#P" n="120"/>poni nisi quantitas successiua discreta. Alius autem 
+      <lb ed="#P" n="121"/>est actus indiuisibilis qui non est natus succedere 
+      <lb ed="#P" n="122"/>alteri, nec alius natus est succedere sibi: sicut est 
+      <lb ed="#P" n="123"/>actus essendi Dei &amp; Angelorum. Et hic est 
+      du<lb ed="#P" n="124" break="no"/>plex, quia quidam est in quo intranee non est 
+      <lb ed="#P" n="125"/>successio: tamen ex adiuncta imperfectione sibi 
+      <lb ed="#P" n="126"/>annexa aliquid expectat in posterum, &amp; aliquid 
+      <lb ed="#P" n="127"/>sibi annexum cedit in praeteritum. Et hoc ideo est, 
+      <lb ed="#P" n="128"/>quia licet duratio talis esse fit aliquo modo 
+      infini<lb ed="#P" n="129" break="no"/>ta inquantum eius duratio non includitur inter 
+      <lb ed="#P" n="130"/>quo nunc quorum vnum inchoat eam &amp; aliud 
+      <lb ed="#P" n="131"/>terminat: tamen simpliciter loquendo secundum 
+      <!--202.xml-->
+      <pb ed="#P" n="202"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>perfectionem, iste actus est finitus &amp; limitatus 
+      <lb ed="#P" n="2"/>Et ideo oportet quod superaddatur ei perfectio 
+      <lb ed="#P" n="3"/>secunda in qua aliquid expectetur in posterum, &amp; 
+      <lb ed="#P" n="4"/>aliquid cedit in praeteritum. Et mensura talis actus 
+      <lb ed="#P" n="5"/>vocatur aeuum quasi aeternitas participata siue 
+      de<lb ed="#P" n="6" break="no"/>terminata, quia quantum ad hoc quod eius 
+      dura<lb ed="#P" n="7" break="no"/>tio non includitur inter duo nunc est 
+      quodammo<lb ed="#P" n="8" break="no"/>do extra terminos: sed inquantum habet 
+      limita<lb ed="#P" n="9" break="no"/>tionem ad genus &amp; speciem est aliquo modo intra 
+      <lb ed="#P" n="10"/>terminos, scilicet generis sui &amp; speciei. Et ex hoc 
+      <lb ed="#P" n="11"/>habet quod indiget perfectione secundaria 
+      adiun<lb ed="#P" n="12" break="no"/>cta. Alius autem est actus indiuisibilis qui nec 
+      al<lb ed="#P" n="13" break="no"/>teri succedit nec alius est natus ei succedere; nec 
+      <lb ed="#P" n="14"/>solum non includitur inter duo nunc sicut inter 
+      <lb ed="#P" n="15"/>terminos suae durationis: sed nec ineluditur infra 
+      <lb ed="#P" n="16"/>limites alicuius speciei vel generis: sed est sicut in 
+      <lb ed="#P" n="17"/>vnico simplici compraehendens omnem 
+      perfectio<lb ed="#P" n="18" break="no"/>nem. Et talis actus nec in se, nec ex adiuncto 
+      ali<lb ed="#P" n="19" break="no"/>quid expectat in posterum ad suam perfectionem 
+      <lb ed="#P" n="20"/>secundam pertinens: eo quod ipse est suum 
+      in<lb ed="#P" n="21" break="no"/>telligere, &amp; vno &amp; eodem actu intelligendi qui 
+      <lb ed="#P" n="22"/>est sua essentia intelligit omnia, &amp; vno velle vult 
+      <lb ed="#P" n="23"/>omnia quaecumque vult vel respuit. Et talis actus 
+      <lb ed="#P" n="24"/>quia est simpliciter &amp; vniuersaliter extra terminos 
+      <lb ed="#P" n="25"/>mensuratur aeternitate simpliciter dicta: non quod 
+      <lb ed="#P" n="26"/>proprie esse diuinum habeat mensuram, sed 
+      se<lb ed="#P" n="27" break="no"/>cundum modum intelligendi. Vnde ipsum esse 
+      <lb ed="#P" n="28"/>aeternum est realiter ipsum mensurari, &amp; esse 
+      ex<lb ed="#P" n="29" break="no"/>tra mensuram. Et sic patet de primo quomodo 
+      <lb ed="#P" n="30"/>differant istae mensurae quae sunt tempus 
+      conti<lb ed="#P" n="31" break="no"/>nuum &amp; discretum, aeuum &amp; aeternitas. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e427">
+               <lb ed="#P" n="32"/>Sed contra differentiam arguitur sic, quia 
+      cir<lb ed="#P" n="33" break="no"/>cumseripta operationum successione ab Angelo 
+      <lb ed="#P" n="34"/>adhuc eius esse differret ab esse Dei: &amp; per 
+      con<lb ed="#P" n="35" break="no"/>sequens mensura differret a mensura. Ergo 
+      habe<lb ed="#P" n="36" break="no"/>re adiunctam successionem nihil facit ad 
+      proposi<lb ed="#P" n="37" break="no"/>tum. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e443">
+               <lb ed="#P" n="38"/>Et ad hoc est dicendum, quod circumscribere 
+      <lb ed="#P" n="39"/>successionem operationum ab Angelo dupliciter 
+      po<lb ed="#P" n="40" break="no"/>test intelligi, scilicet vel actu, vel aptitudine. 
+      Re<lb ed="#P" n="41" break="no"/>mota ergo successione operationum in actu ab 
+      An<lb ed="#P" n="42" break="no"/>gelo, adhuc eius esse differret ab esse Dei: quia 
+      <lb ed="#P" n="43"/>virtute diuina posset manere in eodem actu. Sed 
+      <lb ed="#P" n="44"/>remota successione operationum in habitu siue 
+      <lb ed="#P" n="45"/>aptitudine non haberet esse differens a Deo: quia 
+      <lb ed="#P" n="46"/>sequeretur quod in vnico actu haberet omnem 
+      <lb ed="#P" n="47"/>perfectionem, &amp; esset Deus. Modo quando 
+      di<lb ed="#P" n="48" break="no"/>citur quodad differentiam pertinet adiuncta 
+      suc<lb ed="#P" n="49" break="no"/>cessio, accipiendum est secundum aptitudinem: 
+      <lb ed="#P" n="50"/>quia ex limitatione essentiae suae habet 
+      aptitudi<lb ed="#P" n="51" break="no"/>nem ad istam successionem per quam contingit 
+      <lb ed="#P" n="52"/>quod in illo actu indiuisibili non habeat Angelus 
+      <lb ed="#P" n="53"/>quicquid pertinet qualitercumque ad 
+      perfectio<lb ed="#P" n="54" break="no"/>nem suam: sed aliquid adiunctum expectat in 
+      <lb ed="#P" n="55"/>posterum. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e485">
+               <lb ed="#P" n="56"/>ARTICVLVS SECVNDVS.
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e490">
+               <lb ed="#P" n="57"/>QVantum ad secundum, sciendum est quod 
+      <lb ed="#P" n="58"/>secundum omnes nunc temporis discreti se 
+      <lb ed="#P" n="59"/>habet ad tempus discretum, sicut pars ad totum, 
+      <lb ed="#P" n="60"/>sicut vnitas ad numerum. Et de hoc non est 
+      diuer<lb ed="#P" n="61" break="no"/>sitas opinionum. Sed de nunc temporis continui 
+      <lb ed="#P" n="62"/>est diuersitas opinionum. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e506">
+               <lb ed="#P" n="63"/>Nam quidam dicunt quod in tempore 
+      conti<lb ed="#P" n="64" break="no"/>nuo est quoddam nunc intraneum quod non 
+      ma<lb ed="#P" n="65" break="no"/>nent idem in toto tempore quod mensurat 
+      muta<lb ed="#P" n="66" break="no"/>tum esse, &amp; est aliud nunc quod manet idem 
+      se<lb ed="#P" n="67" break="no"/>cundum subiectum siue secundum substantiam in 
+      <lb ed="#P" n="68"/>toto mom siue in toto tempore: &amp; est idem quod 
+      <!--202.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>substantia mobilis, vt dicunt. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e528">
+               <lb ed="#P" n="70"/>Hoc autem videtur mihi non bene dictum:, 
+      <lb ed="#P" n="71"/>quia indiuisibile temporis se habet ad rempus sicut, 
+      <lb ed="#P" n="72"/>punctus ad lineam, subiectum autem temporis non n 
+      <lb ed="#P" n="73"/>sic se habet ad tempus. Alia enim est habitudo 
+      <lb ed="#P" n="74"/>subiecti &amp; habitudo ipsius nunc ad tempus: sicut 
+      <lb ed="#P" n="75"/>est alia habitudo puncti &amp; habstudo subiecti ad 
+      <lb ed="#P" n="76"/>lineam. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e547">
+               <lb ed="#P" n="77"/>Nec valer quod dicunt, quod subiectum 
+      in<lb ed="#P" n="78" break="no"/>quantum est terminus in quem tendit motus a 
+      mo<lb ed="#P" n="79" break="no"/>uente, est nunc, siue habet rationem ipsius nunc: 
+      <lb ed="#P" n="80"/>quia haec est falsa imaginatio. Nam motus non est 
+      <lb ed="#P" n="81"/>a mouente in motum sicut atermino in terminum: 
+      <lb ed="#P" n="82"/>sed sicut a causa effectiua in subiectum passiuum. 
+      <lb ed="#P" n="83"/>Vnde ex hoc quod ipse motus est in ipsa re mota 
+      <lb ed="#P" n="84"/>ab ipso mouente; non oportet quod mouens 
+      res<lb ed="#P" n="85" break="no"/>piciat rem motam vt terminum: ita quod eius 
+      <lb ed="#P" n="86"/>mensura sit nunc, sed respicit ipsum vt 
+      subie<lb ed="#P" n="87" break="no"/>ctum. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e573">
+               <lb ed="#P" n="88"/>Quod autem Philosophus &amp; quidam magistri 
+      <lb ed="#P" n="89"/>dicunt quod sicut tempus respicit motum, ita 
+      <lb ed="#P" n="90"/>nunc respicit mobile, dupliciter potest exponi. 
+      <lb ed="#P" n="91"/>Vno modo quod hoc sit dictum per quandam 
+      si<lb ed="#P" n="92" break="no"/>militudinem: quia scilicet sicut motus non est 
+      si<lb ed="#P" n="93" break="no"/>mul, ita nec tempus. Et sicut mobile quantum ad 
+      <lb ed="#P" n="94"/>id quod est, est simul existens; ita &amp; nunc. Non 
+      <lb ed="#P" n="95"/>autem ita quod sicut tempus est mensura motus, 
+      <lb ed="#P" n="96"/>ita &amp; nunc sit mensura ipsius mobilis secundum 
+      <lb ed="#P" n="97"/>substantiam. Alio modo quod intelligatur quod 
+      <lb ed="#P" n="98"/>nunc mensurat mobile non secundum 
+      substan<lb ed="#P" n="99" break="no"/>tiam: sed secundum quod est sub determinata 
+      dis<lb ed="#P" n="100" break="no"/>positione motus, scilicet sub determinato mutato 
+      <lb ed="#P" n="101"/>esse, sicut etiam magistri exponunt. 
+      <lb ed="#P" n="102"/>Ex hoc etiam patet quid mensuret nunc temporis 
+      <lb ed="#P" n="103"/>continui, quia sicut tempus se habet ad motum, ita 
+      <lb ed="#P" n="104"/>nune ad mutatum esse: ideo nunc habet mensura. 
+      <lb ed="#P" n="105"/>re mutatum esse quod est terminus ipsius motus; 
+      <lb ed="#P" n="106"/>ita quod si in motu sit mutatum esse in actu habet 
+      <lb ed="#P" n="107"/>mensurari nunc in actu; vel secundum rem: vt si 
+      <lb ed="#P" n="108"/>accipiatur nunc quod respicit mutatum esse, non 
+      <lb ed="#P" n="109"/>solum vt mensuram, sed etiam vt subiectum ver 
+      <lb ed="#P" n="110"/>saltem secundum significationem animae: vt 
+      quan<lb ed="#P" n="111" break="no"/>do vtimur nunc quod est intraneum tempori, quod, 
+      <lb ed="#P" n="112"/>est in motu caeli, sicut in subiecto ad mensurandum 
+      <lb ed="#P" n="113"/>aliquod mutatum esse in actu istorum inferioruma 
+      <lb ed="#P" n="114"/>vtimur secundum nostram imaginationem illo 
+      <lb ed="#P" n="115"/>nunc vt in actu. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e636">
+               <lb ed="#P" n="116"/>De nunc autem temporis discreti quid 
+      men<lb ed="#P" n="117" break="no"/>surat, patet ex dictis. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e643">
+               <lb ed="#P" n="118"/>Sed quid mensurat esse substantiale rei 
+      cor<lb ed="#P" n="119" break="no"/>ruptibilis, est dubium. Et quamuis de hoc diuersi 
+      <lb ed="#P" n="120"/>diuersimode teneant, mihi videtur quod esse 
+      sub<lb ed="#P" n="121" break="no"/>stantiale rei corruptibilis mensuretur nunc 
+      tem<lb ed="#P" n="122" break="no"/>poris discreti: &amp; successio formarum 
+      substantia<lb ed="#P" n="123" break="no"/>lium in eadem materia cum suo esse mensuretur 
+      <lb ed="#P" n="124"/>tempore discreto. Et hoc patet dupliciter. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e661">
+               <lb ed="#P" n="125"/>Primo, quia sicut dictum est, actus 
+      indiuisibi<lb ed="#P" n="126" break="no"/>les qui per se nati sunt habere successionem ita 
+      <lb ed="#P" n="127"/>quod vnus natus est succedere alteri, habent sic 
+      <lb ed="#P" n="128"/>mensurati quantum ad suam durationem quod 
+      <lb ed="#P" n="129"/>vnusquisque est natus mensurari nunc temporis 
+      <lb ed="#P" n="130"/>discreti: &amp; successio eorum mensuratur 
+      tempo<lb ed="#P" n="131" break="no"/>re discreto. Sed formae substantiales rerum 
+      corrup<lb ed="#P" n="132" break="no"/>tibilium sunt huiusiodi, &amp; etiam in suo esse: 
+      <lb ed="#P" n="133"/>nam quilibet actus est indiuisibilis &amp; nati sunt 
+      <lb ed="#P" n="134"/>per se habere successionem circa eandem mate 
+      <lb ed="#P" n="135"/>riam. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e687">
+               <lb ed="#P" n="136"/>Secundo, idem patet sic: quia substantia 
+      cor<lb ed="#P" n="137" break="no"/>ruptibilis quantum ad durationem tui esse quod 
+      <lb ed="#P" n="138"/>vt suppono est indiusibile, aut mensuratur aeter¬ 
+      <!--203.xml-->
+      <pb ed="#P" n="203"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nitate, aut aeuo, aut tempore continuo, aut eiuer 
+      <lb ed="#P" n="2"/>nunc, aut tempore discreto, aut eius nunc, 
+      con<lb ed="#P" n="3" break="no"/>stat autem quod non mensuratur aeuo, vel 
+      aeternita<lb ed="#P" n="4" break="no"/>te; cum actui substantiae corruptibilis natus sit 
+      a<lb ed="#P" n="5" break="no"/>lius actus succedere: non sic accidit aeterno, vel 
+      ae<lb ed="#P" n="6" break="no"/>uiterno. Nec tempore continuo, cum non sit in 
+      eo<lb ed="#P" n="7" break="no"/>dem esse, vel actu substantiali successio, vel aliqua 
+      <lb ed="#P" n="8"/>latitudo. Nec etiam nunc temporis conntinui, cum 
+      <lb ed="#P" n="9"/>non mensuret nisi mutatum esse, quod est 
+      intrinse<lb ed="#P" n="10" break="no"/>cum motui: forma autem substantialis licet 
+      intro<lb ed="#P" n="11" break="no"/>ducatur post motum alterationis, non tamen est 
+      in<lb ed="#P" n="12" break="no"/>trinsecus terminus istius motus. Rtelinquitur ergo 
+      <lb ed="#P" n="13"/>quod omnis talis actus mensuretur nunc temporis 
+      <lb ed="#P" n="14"/>discreti, &amp; successio talium actuum in materia, 
+      <lb ed="#P" n="15"/>mensuretur tempore disereto. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e736">
+               <lb ed="#P" n="16"/>ARTICVLVS TERTIVS. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e741">
+               <lb ed="#P" n="17"/>Qvantum ad tertium dicunt quidam quod 
+      <lb ed="#P" n="18"/>tempus estens secundum animam sicut 
+      vni<lb ed="#P" n="19" break="no"/>uersale: ita quod non habet esse completum extra 
+      <lb ed="#P" n="20"/>animam. Et hoc probatur sic quia illud quod 
+      com<lb ed="#P" n="21" break="no"/>plet rationem temporis quod est prius &amp; 
+      poste<lb ed="#P" n="22" break="no"/>rius non est in actu extra animam, sed tantum 
+      ip<lb ed="#P" n="23" break="no"/>sum nunc. Nam praeteritum &amp; futurum quae sunt 
+      <lb ed="#P" n="24"/>prius &amp; posterius temporis, non sunt in actu extra 
+      <lb ed="#P" n="25"/>animam. Sed tempus non potest esse sine eo quod 
+      <lb ed="#P" n="26"/>complet rationem eius. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e765">
+               <lb ed="#P" n="27"/>Istud autem non videtur mihi habere veritatem. 
+      <lb ed="#P" n="28"/>Ad cuius euidentiam, est sciendum quod quaedam 
+      <lb ed="#P" n="29"/>dicuntur esse entia secundum animam tantum, 
+      <lb ed="#P" n="30"/>quae dicuntur esse figmenta, sicut chymera. 
+      Quae<lb ed="#P" n="31" break="no"/>dam autem esse entia secundum animam quae non 
+      <lb ed="#P" n="32"/>sunt figmenta, sed sunt quaedam habitudines 
+      re<lb ed="#P" n="33" break="no"/>rum intellectarum, vel modi consequentes res 
+      in<lb ed="#P" n="34" break="no"/>tellectas prout sunt obiectiue in intellectu, sicut 
+      v<lb ed="#P" n="35" break="no"/>niuersale, &amp; consimilia. Illa autem quae dicuntur 
+      <lb ed="#P" n="36"/>primo modo secundum animam sunt quaedam 
+      in<lb ed="#P" n="37" break="no"/>tellecta &amp; imaginata, &amp; non dicunt ipsum 
+      mo<lb ed="#P" n="38" break="no"/>dum intelligendi, vel habitudinem ad 
+      intelle<lb ed="#P" n="39" break="no"/>ctum directe: sed accipiuntur sicut fundamentum 
+      <lb ed="#P" n="40"/>talis habitudinis, &amp; dicuntur figmenta: quia 
+      inclu<lb ed="#P" n="41" break="no"/>dunt opposita entia incompossibilia, quae in rerum 
+      <lb ed="#P" n="42"/>natura esse non possunt, vt hircoceruus: quia 
+      im<lb ed="#P" n="43" break="no"/>possibile est esse aliquod animal compositum ex 
+      <lb ed="#P" n="44"/>hireo &amp; ceruo. Alia autem fundantur super res 
+      in<lb ed="#P" n="45" break="no"/>tellectas prout sunt obiectiue in intellectu, scilicet 
+      <lb ed="#P" n="46"/>habitudo intellecta ad rem intellectam, vt 
+      vniuer<lb ed="#P" n="47" break="no"/>sale, &amp; consimilia: quia talia secundum rem nihil 
+      <lb ed="#P" n="48"/>ponunt in eo de quo dicuntur. Modo constat quod 
+      <lb ed="#P" n="49"/>tempus non est ens secundum animam primo 
+      mo<lb ed="#P" n="50" break="no"/>do: quia non est tale figmentum. Nec secundo 
+      mo<lb ed="#P" n="51" break="no"/>do: quia Philosophus sexto Metaphysicotum 
+      diui<lb ed="#P" n="52" break="no"/>dit ens secundum animam secundo modo dictum, 
+      <lb ed="#P" n="53"/>contra ens quod diuiditur in decem praedicamenta, 
+      <lb ed="#P" n="54"/>Sed tempus pertinet ad ens quod diuiditur x2. 
+      praedi<lb ed="#P" n="55" break="no"/>camenta cum sit per se species quantitatis. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e830">
+               <lb ed="#P" n="56"/>Secundo, quia circumscripto quod nullus 
+      intel<lb ed="#P" n="57" break="no"/>ligeret motum; sit ita tamen quod coelum 
+      mouea<lb ed="#P" n="58" break="no"/>tur sicut modo mouetur: tunc quaero, aut mouetur 
+      <lb ed="#P" n="59"/>solum successiue secundum rem, aut non: Si sic. 
+      <lb ed="#P" n="60"/>Ergo erit successio secundum rem extra animam in 
+      <lb ed="#P" n="61"/>rerum natura. Sed impossibile est ponere 
+      realita<lb ed="#P" n="62" break="no"/>tem in successione motus, quin ponatur 
+      consi<lb ed="#P" n="63" break="no"/>milis tealitas in tempore, praecipue cum videatur 
+      <lb ed="#P" n="64"/>quod tempus non sit aliud quam talis successio 
+      <lb ed="#P" n="65"/>formaliter accepta. Ergo, &amp;c. Si non. Contra. 
+      Il<lb ed="#P" n="66" break="no"/>lud quod nihil reale ponit in motu vel mobili, 
+      im<lb ed="#P" n="67" break="no"/>possibile est quod det esse suecessiuum. Sed anima 
+      <lb ed="#P" n="68"/>intelligedo motum nihil reale ponit in motuvel mo¬ 
+      <!--203.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>bili, eum intelligere secundum quod huiusmodi 
+      <lb ed="#P" n="70"/>nihd ponat in re intellecta. Ergo anima nihil facit 
+      <lb ed="#P" n="71"/>ad hoc quod successio sit in motu: nec per 
+      conse<lb ed="#P" n="72" break="no"/>quens successio motus: vel ipsum tempu habet 
+      <lb ed="#P" n="73"/>esse ab anima nisi ponatur aliqua anima quae sit 
+      <lb ed="#P" n="74"/>causa effectiua motus caeli. vnde videtut mihi 
+      <lb ed="#P" n="75"/>quod esse temporis sit esse reale in rerum natura 
+      <lb ed="#P" n="76"/>extra animim. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e882">
+               <lb ed="#P" n="77"/>Ad rationem dicunt quidum, quod de tempo. 
+      <lb ed="#P" n="78"/>re nihil est actu nisi nunc, nec tamen sequitur quod 
+      <lb ed="#P" n="79"/>tempus non sit in actu: quia ad hoc quod tempus 
+      <lb ed="#P" n="80"/>sit in actu, sufficit quod sit nune in actu, quod est 
+      <lb ed="#P" n="81"/>ordo partium temporis quod est finis praeteriti, &amp; 
+      <lb ed="#P" n="82"/>vnitiuum futuri. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e898">
+               <lb ed="#P" n="83"/>Sed hoc nihil est: quia sicut se habet punctus ad 
+      <lb ed="#P" n="84"/>lineam, ita nunc ad tempus. Sed ponere solum 
+      <lb ed="#P" n="85"/>punctum esse, non est ponere lineam esse, sed 
+      ne<lb ed="#P" n="86" break="no"/>gare quamcumque quantitatem esse: ita ponere 
+      <lb ed="#P" n="87"/>solum nunc esse, est negare tempus esse. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e912">
+               <lb ed="#P" n="88"/>Et ideo aliter est dicendum, quod non solum 
+      <lb ed="#P" n="89"/>nunc habet esse in actu, sed etiam praeteritum &amp; 
+      <lb ed="#P" n="90"/>&amp; fututum. Et quando dicitur quod non, quia, 
+      <lb ed="#P" n="91"/>praeteritum iam non est: tunc dico quod 
+      duplici<lb ed="#P" n="92" break="no"/>ter aliquid est in actu. Vno modo in actu siniul 
+      en<lb ed="#P" n="93" break="no"/>te, &amp; sic partes temporis non sunt actu: imo 
+      on<lb ed="#P" n="94" break="no"/>tra rationem temporis esset esse sic in actu. Alio 
+      <lb ed="#P" n="95"/>modo potest dici esse in actu aliquid, scilicet in 
+      <lb ed="#P" n="96"/>actu successiuo, &amp; sic tempu &amp; motus sunt in actu. 
+      <lb ed="#P" n="97"/>Hoc enim est esse eorum esse in actu successiuo. 
+      <lb ed="#P" n="98"/>Vnde &amp; Philosophus quarto Physicorum 
+      addu<lb ed="#P" n="99" break="no"/>cens hanc rationem contra esse temporis, dicit ea 
+      <lb ed="#P" n="100"/>extraneam: quia illud quod est actus simul entis 
+      <lb ed="#P" n="101"/>applicat ad actum successiuum. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e945">
+               <lb ed="#P" n="102"/>ARTICVLVS QVARTVS
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e950">
+               <lb ed="#P" n="103"/>Qvantum ad quartum, dicunt quidam quod 
+      <lb ed="#P" n="104"/>non est tantum vnum tempus, sed sunt tor 
+      <lb ed="#P" n="105"/>tempora quot sunt motus, &amp; sunt moti rationibus 
+      <lb ed="#P" n="106"/>tactis in opponendo. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e961">
+               <lb ed="#P" n="107"/>Sed istud non videtur mihi verum: quia 
+      Philo<lb ed="#P" n="108" break="no"/>phus quarto Physicorum, volens probare quod 
+      <lb ed="#P" n="109"/>tempus non sit motus, probat per hoc quod plures 
+      <lb ed="#P" n="110"/>motus possunt esse simuli quorum vnus non est pars 
+      <lb ed="#P" n="111"/>alterius. Sed plura tempora non possunt esse simul, 
+      <lb ed="#P" n="112"/>nisi vnum sit pars alterius, sicut simul sunt dies &amp; 
+      <lb ed="#P" n="113"/>hore, &amp; duo dies non possunt esse simul. De 
+      men<lb ed="#P" n="114" break="no"/>te ergo Philosophi est, quod non sit nisi vnum 
+      tem<lb ed="#P" n="115" break="no"/>pus numero. Nam ex hac ratione statim conciudit 
+      <lb ed="#P" n="116"/>&amp; ex quibusdam aliis, quod cum tempus sit motus, 
+      <lb ed="#P" n="117"/>vel aliquid ipsius, oportet ponere quod tempus non 
+      <lb ed="#P" n="118"/>sit motus, sed etus passio: quia in fine quarti inuesti. 
+      <lb ed="#P" n="119"/>gat naturaliter vnitatem temporis ex vnitate morus 
+      <lb ed="#P" n="120"/>primi. Vnde secundum intentionem eius: sicut est 
+      <lb ed="#P" n="121"/>vnus numero motus primus: ita est vnum numero 
+      <lb ed="#P" n="122"/>tempus, vocando proprie tempus. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e998">
+               <lb ed="#P" n="123"/>Secundo, quia sicut se habent locata ad vbi, ita 
+      <lb ed="#P" n="124"/>temporalia ad quando. Sed illa locata de quibus 
+      <lb ed="#P" n="125"/>verificatur, quod vbi est vnum, ibi est aliud, sunt 
+      <lb ed="#P" n="126"/>in eodem loco. Ergo illa temporalia de quibus 
+      ve<lb ed="#P" n="127" break="no"/>rificatur, quod quando est vnum, est &amp; reliquum, 
+      <lb ed="#P" n="128"/>sunt in eodem tempore. Vnde vere dicitur, quod 
+      <lb ed="#P" n="129"/>quando currit Socrates, equitat plato &amp; scribit 
+      <lb ed="#P" n="130"/>Cicero, &amp; sic de omnibus aliis quae simul sunt. 
+      <lb ed="#P" n="131"/>Ergo impossibile est plura tempora proprie dicta 
+      <lb ed="#P" n="132"/>esse simul. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e1022">
+               <lb ed="#P" n="133"/>Et primo videtur aliter dicendum. Sciendum 
+      <lb ed="#P" n="134"/>est ergo quod quantitas potest accipi dupliciter. 
+      <lb ed="#P" n="135"/>vno modo large &amp; minus proprie, scilicet pro 
+      <lb ed="#P" n="136"/>onuni quantitate successiua: Et accipiendo sic tem¬ 
+      <!--204.xml-->
+      <pb ed="#P" n="204"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>pus, quot sunt motus, tot sunt tempora: quia 
+      om<lb ed="#P" n="2" break="no"/>nis motus habet quantitatem successiuam ipsum 
+      <lb ed="#P" n="3"/>facientem formaliter quantum quantitate 
+      succes<lb ed="#P" n="4" break="no"/>siua. Nec pono quod ista quantitas sit motus, sed 
+      <lb ed="#P" n="5"/>accidens faciens ipsum formaliter quantum: vel 
+      <lb ed="#P" n="6"/>magis proprie dicitur accidens rei motae, &amp; 
+      exi<lb ed="#P" n="7" break="no"/>stens ei mediante motu, sicut qualitas inest 
+      median<lb ed="#P" n="8" break="no"/>te qualitate. Alio modo potest dici magis proprie 
+      <lb ed="#P" n="9"/>&amp; stricte tempus illa quantitas successiua quae est 
+      <lb ed="#P" n="10"/>vniformissima, &amp; est nata certificare quantitates 
+      <lb ed="#P" n="11"/>alias per suam applicationem ad alias: secundum 
+      <lb ed="#P" n="12"/>quod dicimus quod hoc durauit per diem, vel 
+      ho<lb ed="#P" n="13" break="no"/>ram, vel aliquid tale. Et sic accipiendo tempus, 
+      <lb ed="#P" n="14"/>non est dare nisi vnum tempus numero, vt dictum 
+      <lb ed="#P" n="15"/>est. Praeter tamen istam durationem quam tempus 
+      <lb ed="#P" n="16"/>proprie vocamus, quae est in solo primo motu sicut 
+      <lb ed="#P" n="17"/>in subiecto, oportet ponere quantitatem 
+      successi<lb ed="#P" n="18" break="no"/>uam in aliis motibus, qua formaliter quilibet 
+      mo<lb ed="#P" n="19" break="no"/>tus quatus sit &amp; successiuus. Quod pater faciliter 
+      in<lb ed="#P" n="20" break="no"/>tuenti rationes quibus probatur supra esse plura 
+      <lb ed="#P" n="21"/>tempora. Nam bene concludunt, saltem aliqua 
+      ea<lb ed="#P" n="22" break="no"/>rum, quod in diuersis sint diuersae quantitates 
+      suc<lb ed="#P" n="23" break="no"/>cessiuae: quia sicur locatum habet quantitatem qua 
+      <lb ed="#P" n="24"/>formaliter est quantum aliam a quantitate 
+      corpo<lb ed="#P" n="25" break="no"/>ris locantis; &amp; pannus habet aliam quantitatem 
+      <lb ed="#P" n="26"/>qua formaliter est quantus, aliam a quantitate 
+      vl<lb ed="#P" n="27" break="no"/>nae mensurantis: ita videtur mihi quod quilibet 
+      <lb ed="#P" n="28"/>morus habeat propriam qualitatem successiuam 
+      a<lb ed="#P" n="29" break="no"/>liam a quantitate successiua primi motus, quod est 
+      <lb ed="#P" n="30"/>tempus proprie dictum quo alii motus 
+      mensuran<lb ed="#P" n="31" break="no"/>tur, sicut mensura extrinseca. Quod autem sit dare 
+      <lb ed="#P" n="32"/>inter eas vnam mensuram numero communem 
+      <lb ed="#P" n="33"/>omnibus qua extrinsece mensurentur omnes 
+      mo<lb ed="#P" n="34" break="no"/>tus alii, ostensum est supra in isto articulo. Et eius 
+      <lb ed="#P" n="35"/>causa vel ratio ex duobus potest assignari. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e1117">
+               <lb ed="#P" n="36"/>Primo ex hoc quod inter motus est dare aliquem 
+      <lb ed="#P" n="37"/>vniformissimum numero vnum, &amp; eius mensura 
+      <lb ed="#P" n="38"/>habet aptitudinem vt mensura communis aliarum 
+      <lb ed="#P" n="39"/>certificans quantitates omnium aliorum. Non sic 
+      <lb ed="#P" n="40"/>est in quantitate permanente: quia in eis non est 
+      <lb ed="#P" n="41"/>dare aliquam vnam quantitatem numero, quae 
+      <lb ed="#P" n="42"/>ita sit vniformis, quin inueniantur mille aeque 
+      <lb ed="#P" n="43"/>certae &amp; aeque vniformes. Et ideo in eis datur in 
+      <lb ed="#P" n="44"/>generali vna mensura, puta linea bipedalis, vel 
+      <lb ed="#P" n="45"/>tripedalis, non potest tamen dari vna numero talis 
+      <lb ed="#P" n="46"/>linea quae sit vniformior omnibus aliis. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e1143">
+               <lb ed="#P" n="47"/>Secunda ratio huius potest assignari ex hoc quod 
+      <lb ed="#P" n="48"/>in quantitate permanente duae quantitates simul 
+      exi<lb ed="#P" n="49" break="no"/>stentes comparatae ad inuicem non solum faciunt 
+      plu<lb ed="#P" n="50" break="no"/>ra quanta, sed etiam maiorem quantitatem 
+      dimen<lb ed="#P" n="51" break="no"/>siuam. Quo enim cubiti non solum sunt plura 
+      <lb ed="#P" n="52"/>quanta quam vnus: imo etiam faciunt maiorem 
+      <lb ed="#P" n="53"/>quantitatem quam vnus. Inde est etiam quod duo 
+      <lb ed="#P" n="54"/>corpora impossibile est quod simul immediate 
+      ap<lb ed="#P" n="55" break="no"/>plicentur ad tertium, vel sicut ad mensuram, vel 
+      <lb ed="#P" n="56"/>sicut ad locum: Sed omnes motus simul existentes 
+      <lb ed="#P" n="57"/>comparati ad inuicem, non faciunt plus vel minus 
+      <lb ed="#P" n="58"/>secundum quantitatem successiuam quam vnus 
+      <lb ed="#P" n="59"/>tantum, licet faciant plura: quia plus &amp; minus in 
+      <lb ed="#P" n="60"/>duratione successiua accipitur secundum prius &amp; 
+      <lb ed="#P" n="61"/>posterius duratione. Motus autem simul existentes 
+      <lb ed="#P" n="62"/>comparati ad inuicem non se habent sicut prius, &amp; 
+      <lb ed="#P" n="63"/>posterius in duratione. Vnde plures motus existentes 
+      <lb ed="#P" n="64"/>fimul, licet habeant plures successiones, non tamen 
+      <lb ed="#P" n="65"/>plus constituunt de successione quam vnus motus 
+      <lb ed="#P" n="66"/>tantum: quia prius &amp; posterius in duratione non 
+      <lb ed="#P" n="67"/>potest accipi per se, nisi secundum partes durationis, 
+      <lb ed="#P" n="68"/>vnius quantum ad tempus continuum: vel 
+      secun<lb ed="#P" n="69" break="no"/>dum diuersa indiuisibilia succedentia in eodem 
+      sub<lb ed="#P" n="70" break="no"/>iecto, quantum ad tempus discretum. Et inde est 
+      <!--204.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>quod ad omnes motus simul existentes 
+      potestim<lb ed="#P" n="72" break="no"/>mediate vna numero successio applicari &amp; 
+      men<lb ed="#P" n="73" break="no"/>sura commnnis omnium: quia mediatio &amp; 
+      imme<lb ed="#P" n="74" break="no"/>diatio &amp; prius in tempore accipiuntur, non 
+      indi<lb ed="#P" n="75" break="no"/>uersis motibus comparatis ad inuicem: sed in 
+      eo<lb ed="#P" n="76" break="no"/>dem motu secundum diuersas partes. Sicut 
+      dici<lb ed="#P" n="77" break="no"/>mus quod inter diem tertium &amp; nunc in quo 
+      su<lb ed="#P" n="78" break="no"/>mus cadit medium dies tertius: inter autem 
+      dura<lb ed="#P" n="79" break="no"/>tionem motus caeli, &amp; aliquam durationem simul 
+      <lb ed="#P" n="80"/>existentem cum ea in aliis motibus secundum prius 
+      <lb ed="#P" n="81"/>&amp; posterius temporis nihil incurrit medium. Et 
+      in<lb ed="#P" n="82" break="no"/>de est quod omnes tales durationes possunt 
+      habe<lb ed="#P" n="83" break="no"/>re immediate vnam durationem numero quae sit 
+      <lb ed="#P" n="84"/>mensura immediata omnium aliorum simul 
+      exi<lb ed="#P" n="85" break="no"/>stentium. Et hanc vocamus tempus proprie 
+      di<lb ed="#P" n="86" break="no"/>ctum. Vnde non est quantum ad simul existentia 
+      <lb ed="#P" n="87"/>nisi vnum tempus numero. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e1239">
+               <lb ed="#P" n="88"/>Ad primum ergo in oppositum, dicendum, 
+      <lb ed="#P" n="89"/>quod stante illa hypothesi adhuc esset tempus: &amp; 
+      <lb ed="#P" n="90"/>quia ablato motu caeli, esset alius motus, cuius 
+      <lb ed="#P" n="91"/>successio esset nata mensurare successionem 
+      alio<lb ed="#P" n="92" break="no"/>rum Nec sequitur quod migret accidens de 
+      sub<lb ed="#P" n="93" break="no"/>iecto in subiectum: sed sequitur quod accidens 
+      si<lb ed="#P" n="94" break="no"/>mul tunc existens habeat quandam nouam 
+      ratio<lb ed="#P" n="95" break="no"/>nem quam prius non habebat, scilicet quod non 
+      <lb ed="#P" n="96"/>habeat secum successionem aliam vniformiorem 
+      <lb ed="#P" n="97"/>se. Sicut etiam si Deus modo amoueret motum 
+      <lb ed="#P" n="98"/>primi caeli qui mouetur, motus sequentis caeli qui 
+      <lb ed="#P" n="99"/>nunc non habet rationem primi motus, traheretur 
+      <lb ed="#P" n="100"/>ad rationem primi motus: &amp; in hoc nihil 
+      acquire<lb ed="#P" n="101" break="no"/>retur ei, sed tolleretur habitudo ad aliquid prius: &amp; 
+      <lb ed="#P" n="102"/>similiter est in proposito. Et per hoc patet solutio 
+      <lb ed="#P" n="103"/>ad secundum.
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e1276">
+               <lb ed="#P" n="104"/>Ad tertium dicendum, quod ille intelligit, quod 
+      <lb ed="#P" n="105"/>in illo in quo est tempus, est quando: sed non 
+      in<lb ed="#P" n="106" break="no"/>telligit quod in omni in quo est quando, sit tempus. 
+      </p>
+            <p xml:id="hx2hx3-b67097-d1e1285">
+               <lb ed="#P" n="107"/>Notandum tamen, quod sicut aliquando vbi 
+      <lb ed="#P" n="108"/>dicit situm partium in roto, vt quando aliquis 
+      di<lb ed="#P" n="109" break="no"/>cit, quod vna pars ligni est ibi situata, &amp; alia ibi: 
+      <lb ed="#P" n="110"/>aliquando vero dicitur esse inloco, vt quando 
+      di<lb ed="#P" n="111" break="no"/>citur, quod homo, vel bos est ibi: ita etiam 
+      quan<lb ed="#P" n="112" break="no"/>do, quandoque dicit habitudinem quantitatum 
+      <lb ed="#P" n="113"/>successiuarum ad mensuram extrinsecam, quae est 
+      <lb ed="#P" n="114"/>tempus. Et sic quando proprie non est in eo in quo 
+      <lb ed="#P" n="115"/>est tempus: sed in illis quae extrinsece mensurantur 
+      <lb ed="#P" n="116"/>a tempore. Quandoque vero dicit habitudinem 
+      <lb ed="#P" n="117"/>partium motus primi ad partes temporis quae sunt 
+      <lb ed="#P" n="118"/>earum mensura intrinseca, vt quando dicimus 
+      <lb ed="#P" n="119"/>quando fuit talis circulatio: &amp; respondemus, quod 
+      <lb ed="#P" n="120"/>heri, &amp; ante heri. Et sic de aliis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

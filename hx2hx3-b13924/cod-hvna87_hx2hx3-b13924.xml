@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="43"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b13924"><!-- l1d4q1 -->
+            <head xml:id="hx2hx3-b13924-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b13924-Hd1e101" type="question-title">Utrum generatio sit in divinis</head>
+            <p xml:id="hx2hx3-b13924-d1e104">
+      <!--43.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Hic vritur quaestio satsi necessaria, conftat 
+      <lb ed="#P" n="72"/>enm eg ineffabiliter verum est quod 
+      <lb ed="#P" n="73"/>Deus Aater genntit Filium, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b13924-d1e117">
+               <lb ed="#P" n="74"/>Distinctio quarta. 
+      <lb ed="#P" n="75"/>QVIAESTIO PRIMA 
+      <lb ed="#P" n="76"/>Vtrum generatio sit in dininis;
+      </p>
+            <p xml:id="hx2hx3-b13924-d1e126">
+               <lb ed="#P" n="77"/>Et arguitur quod non, quia generatio est 
+      spe<lb ed="#P" n="78" break="no"/>cies mutationis, in diuinis non ess mutano, 
+      <lb ed="#P" n="79"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b13924-d1e136">
+               <lb ed="#P" n="80"/>Contra, vbi est vera paternitas &amp; filiatio, ibi est 
+      <lb ed="#P" n="81"/>vera generatio: Sed ista sunt in diuinis: Erge 
+      <lb ed="#P" n="82"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b13924-d1e145">
+               <lb ed="#P" n="83"/>Respondeo, dicendum quod generatio est in 
+      <lb ed="#P" n="84"/>diuinis: ad cuius euidentiam primo ossendentur 
+      <lb ed="#P" n="85"/>&amp; declarabuntur quaedanm suppositiones, postea ex 
+      <lb ed="#P" n="86"/>dictis formabitur quaedam breuis ratio ad 
+      propo<lb ed="#P" n="87" break="no"/>situm. Prima ergo suppositio est quod generatio 
+      <lb ed="#P" n="88"/>generaliter loquendo importat productionem qua 
+      <lb ed="#P" n="89"/>producens communicat producto eandem 
+      natu<lb ed="#P" n="90" break="no"/>ram secundum speciem: &amp; hoc praecipue &amp; 
+      per<lb ed="#P" n="91" break="no"/>fectissimehabet rationem generationis quando est 
+      <lb ed="#P" n="92"/>in viuentibus: vnde sciendum quod quando ignis 
+      <lb ed="#P" n="93"/>producit ignem &amp; homo hominem &amp; sic de aliis, 
+      <lb ed="#P" n="94"/>dicitur ibi esse generatio. Sunt autem ibi duo 
+      con<lb ed="#P" n="95" break="no"/>sideranda scilicet quod producens communicat 
+      <lb ed="#P" n="96"/>producto eandem naturam specie quam habet. 
+      <lb ed="#P" n="97"/>Et quia agens creatum communicando tale esse 
+      <lb ed="#P" n="98"/>non potest hoc facere nisi agendo prius in 
+      mate<lb ed="#P" n="99" break="no"/>riam carentem forma quam intendit producere, 
+      <lb ed="#P" n="100"/>hinc est quod agens creatum non potest generare 
+      <lb ed="#P" n="101"/>nisi transmutando subiectum de forma in 
+      for<lb ed="#P" n="102" break="no"/>mam, quia materia non potest esse sine aliqua 
+      for<lb ed="#P" n="103" break="no"/>ma substantiali: talis tamen productio non habet 
+      <lb ed="#P" n="104"/>formaliter quod sit generatio ex hoc quod est 
+      mu<lb ed="#P" n="105" break="no"/>tatio, alioquin corruptio esset formaliter 
+      genera<lb ed="#P" n="106" break="no"/>tio, &amp; breuiter omnis motus &amp; mutatio esset ge 
+      <lb ed="#P" n="107"/>neratio: sed illud quod est formaliter importatum 
+      <lb ed="#P" n="108"/>in generatione est communicare esse, ita tamen 
+      <lb ed="#P" n="109"/>quod sit ibi aliquid communicatum non 
+      produ<lb ed="#P" n="110" break="no"/>ctum de quo dicitur generatum generari, quia si 
+      <lb ed="#P" n="111"/>per impossibile homo produceret alium hominem 
+      <lb ed="#P" n="112"/>ex nihilo non esset proprie generatio: licet autem 
+      <lb ed="#P" n="113"/>communicare esse de aliquo non producto, sed 
+      <lb ed="#P" n="114"/>per productionem communicatum, dicatur 
+      gene<lb ed="#P" n="115" break="no"/>raliter generatio &amp; ibi aequiuoce, &amp; ibi vniuoce 
+      <lb ed="#P" n="116"/>agentibus, sicut dicimus quod homo hominem 
+      <lb ed="#P" n="117"/>generat &amp; sol, tamen magis proprie dicitur 
+      gene<lb ed="#P" n="118" break="no"/>ratio productio in qua est vniuoce quam in qua 
+      <lb ed="#P" n="119"/>est agens aequiuocum: vnde magis proprie dicitur 
+      <lb ed="#P" n="120"/>ignis generare ignem &amp; homo hominem quam 
+      <lb ed="#P" n="121"/>caelum hominem vel ignem: &amp; hoc magis 
+      pro<lb ed="#P" n="122" break="no"/>prie dicitur in viuentibus: &amp; hoc dicunt 
+      qui<lb ed="#P" n="123" break="no"/>dam quia in viuentibus genitum est de substantia 
+      <lb ed="#P" n="124"/>generantis. Quod quidem si intelligant sic, sicut 
+      <lb ed="#P" n="125"/>sonat, falsum est &amp; a Philosopho improbatum, 
+      <lb ed="#P" n="126"/>quia naturaliter fit foetus de menstruo foeminae 
+      <lb ed="#P" n="127"/>quod non est pars substantiae maris vel foeminae: 
+      <lb ed="#P" n="128"/>etiam semen quod ministrat vtrumque, vt idem 
+      <lb ed="#P" n="129"/>Philosophus probat, non est aliqua pars substanniae 
+      <lb ed="#P" n="130"/>generantis. Sed si hoc inueniatur didum ab 
+      ali<lb ed="#P" n="131" break="no"/>quo authentico viro intelligendum est pro tanto, 
+      <lb ed="#P" n="132"/>quia semen viri quod se habet in ratione agentis, 
+      <lb ed="#P" n="133"/>nec eedit in naturam foetus &amp; menstruum mulieris 
+      <lb ed="#P" n="134"/>quod cedit in materiam foetus est residuum 
+      ali<lb ed="#P" n="135" break="no"/>menti digesti quoderat in via transeundi in sub¬ 
+      <!--44.xml-->
+      <pb ed="#P" n="44"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>stantiam parentum: &amp; pro tanto dicitur ab 
+      ali<lb ed="#P" n="2" break="no"/>quibus quod generatio foetus est de parte subst 
+      n<lb ed="#P" n="3" break="no"/>tiae, quia est de tal quiod erat in via qiod 
+      conuer<lb ed="#P" n="4" break="no"/>teretur, oportet etiam quod producatur modo 
+      <lb ed="#P" n="5"/>naturae. Secunda suppositio est quod quando 
+      il<lb ed="#P" n="6" break="no"/>lud qiod formaliter importatur in termino, &amp; a 
+      <lb ed="#P" n="7"/>quo principaliter &amp; formaliter accipitur ratio 
+      si<lb ed="#P" n="8" break="no"/>gnificata per terminum, inuenitur in aliquo, illi 
+      <lb ed="#P" n="9"/>simpliciter &amp; vete potest attribui ilse terminus, 
+      si<lb ed="#P" n="10" break="no"/>cut illi in quo inuenitur certa &amp; euidens cognitio 
+      <lb ed="#P" n="11"/>attribuitur scire, quia hoc formalier importatur, 
+      <lb ed="#P" n="12"/>per scire, siue cognitio ipsa di fferat re ab essentia 
+      <lb ed="#P" n="13"/>cognoscentis, siue non: vnde &amp; Deus dicitur 
+      pro<lb ed="#P" n="14" break="no"/>prie scire in quo actus sciendi est sua substantia, 
+      <lb ed="#P" n="15"/>&amp; creatura etiam dicitur proptie scire in quo 
+      sci<lb ed="#P" n="16" break="no"/>re differt re ab essentia scientis: Et hoc dico ideo 
+      <lb ed="#P" n="17"/>quia talis identitas vel diuersitas non importatur 
+      <lb ed="#P" n="18"/>formaliter in cire nsi contrahatur ad seire 
+      crea<lb ed="#P" n="19" break="no"/>tum vel diuinum. Tertia suppositio est quiod 
+      o<lb ed="#P" n="20" break="no"/>portet indiuinis ponere productionem qua 
+      predu<lb ed="#P" n="21" break="no"/>cens com nunicat producto eandem natura numero 
+      <lb ed="#P" n="22"/>&amp; non tantum pecie; ita quod productum sit 
+      produ<lb ed="#P" n="23" break="no"/>ctum de al qua substantia non producta, licet sit per 
+      <lb ed="#P" n="24"/>productionem communicata &amp; modo naturae: &amp; 
+      <lb ed="#P" n="25"/>hoc magis patebit infra quando ostendetur quod 
+      <lb ed="#P" n="26"/>distinctio personarum diuinarum est per rationes 
+      <lb ed="#P" n="27"/>reales originis. Ex. his potest formari breuis ratio 
+      <lb ed="#P" n="28"/>sic. Quia vbi est productio qua producens 
+      com<lb ed="#P" n="29" break="no"/>municat producto eandem naturam secundum 
+      <lb ed="#P" n="30"/>speciem, &amp; multo plus vbi est communicatio 
+      eius<lb ed="#P" n="31" break="no"/>dem naturae secundum numerum &amp; modo 
+      natu<lb ed="#P" n="32" break="no"/>rae, ibi vere &amp; proprie est generatio: &amp; haec 
+      ma<lb ed="#P" n="33" break="no"/>ior patet per primam &amp; secundam suopositionem. 
+      <lb ed="#P" n="34"/>bed hoc inuenitur in diuinis, &amp; hoc habetur ex 
+      <lb ed="#P" n="35"/>tertia suppositione: Ergo &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b13924-d1e345">
+               <lb ed="#P" n="36"/>Ad rationem dicitur communiter quod in 
+      di<lb ed="#P" n="37" break="no"/>uinis inuenitur species sine genere, &amp; ideo licet 
+      <lb ed="#P" n="38"/>generatio sit indiuinis, non tamen est ibi mutatio 
+      <lb ed="#P" n="39"/>cuius species est generatio. Hoc autem dictum si 
+      <lb ed="#P" n="40"/>accipiatur sicut haec verba sonunt est omnino 
+      fal<lb ed="#P" n="41" break="no"/>sum &amp; impossibile: impossibile est enim quod id 
+      <lb ed="#P" n="42"/>quod est vere species alicuius generis possit 
+      attri<lb ed="#P" n="43" break="no"/>bui alicui, &amp; non genus: alquid enim esse 
+      spe<lb ed="#P" n="44" break="no"/>ciem qualitatis nihil aliud est quam ipsum esse 
+      <lb ed="#P" n="45"/>quandam quialitatem. Quod autem aliquid sit 
+      <lb ed="#P" n="46"/>quaedam qualitas &amp; non sit qualitas est ponere 
+      <lb ed="#P" n="47"/>contradictoria esse vera, &amp; quod idem negetur de 
+      <lb ed="#P" n="48"/>seipso. Et ideo dicendum quod generatio quae est 
+      <lb ed="#P" n="49"/>in diuinis non est species mutationis. Vnde quando 
+      <lb ed="#P" n="50"/>dicitur in maiori quod generatio est species 
+      muta<lb ed="#P" n="51" break="no"/>tionis, dicendum quod non est verumde 
+      omnige<lb ed="#P" n="52" break="no"/>neratione, nam ad rationem gene rationis sufficit 
+      <lb ed="#P" n="53"/>communicatio eiusdem naturae sccundum 
+      spe<lb ed="#P" n="54" break="no"/>ciem modo naturae quo dictum est. Et quia hoc est 
+      <lb ed="#P" n="55"/>formale quod addit generatio in creaturis super 
+      <lb ed="#P" n="56"/>mutationem communiter dictam, ideo dicitur 
+      <lb ed="#P" n="57"/>quod species est indiuinis sine genere id est illud 
+      <lb ed="#P" n="58"/>formale quod includitur in specie vltra genus 
+      in<lb ed="#P" n="59" break="no"/>uenitur in diuinis, sed non prout includit illud 
+      ge<lb ed="#P" n="60" break="no"/>nus. Vnde etiam generatio non dicitur vniuoce in 
+      <lb ed="#P" n="61"/>diuinis &amp; in creaturis, sed analogice. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

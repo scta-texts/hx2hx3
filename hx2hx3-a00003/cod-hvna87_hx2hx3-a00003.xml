@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="1"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-a00003"><!-- l1prolq1 -->
+            <head xml:id="hx2hx3-a00003-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-a00003-Hd1e101" type="question-title">Utrum theologia sit scientia</head>
+            <p xml:id="hx2hx3-a00003-d1e104"><!--1.xml-->
+               <pb ed="#P" n="1"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ALLVLALRLDNOIIRTA 
+      <lb ed="#P" n="2"/>DVTDITRTIITV 
+      <lb ed="#P" n="3"/>SENIENIIARTN, 
+      <lb ed="#P" n="4"/>DOCtoris acutissimi Magissri HRRVEI BrItonis, dui Tuit Gientralis QIdinIa 
+      <lb ed="#P" n="5"/>Praedlcatorum: nuperrime maxima cum diligentia emendatliiTl.
+   </p>
+            <p xml:id="hx2hx3-a00003-d1e123">
+               <lb ed="#P" n="6"/>PROLOGVS 
+      <lb ed="#P" n="7"/>Cuspientes aliquid de penntia ac tenoltate nastra cum panpercila in pat ophilatium 
+      <lb ed="#P" n="8"/>Domimt mttere, &amp;c. 
+  </p>
+            <p xml:id="hx2hx3-a00003-d1e132">
+      <!--1.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="9"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e142">
+               <lb ed="#P" n="10"/>QVAERITUR vtrum Theologia 
+      <lb ed="#P" n="11"/>sit scientia. Et arguitur quod sic: 
+      <lb ed="#P" n="12"/>Quia plus potest intellectus 
+      via<lb ed="#P" n="13" break="no"/>toris adiutus lumine fidei, quam 
+      <lb ed="#P" n="14"/>intellectus damnati in puris 
+      na<lb ed="#P" n="15" break="no"/>turalibus: Sed intellectus 
+      dam<lb ed="#P" n="16" break="no"/>nati potest habere scientiam quod ea quae 
+      nerti<lb ed="#P" n="17" break="no"/>nent ad Theologiam sint dicta a Deo; Ergo 
+      intel<lb ed="#P" n="18" break="no"/>lectus viatoris adiutus fide potest habere scientiam 
+      <lb ed="#P" n="19"/>de theologicis quod sint dicta a Deo. Quod autem 
+      <lb ed="#P" n="20"/>dictum est a Deo certum est esse verum: Ergo, &amp;c. 
+      <lb ed="#P" n="21"/>Probatio assumpti, quod scilicet intellectus dam. 
+      <lb ed="#P" n="22"/>nati possit habere scientiam de theologicis: quia 
+      <lb ed="#P" n="23"/>lacobi2. dicitur quod demponer eredint e 
+      contre<lb ed="#P" n="24" break="no"/>miscunr; nec possunt credere nisi propter 
+      euiden<lb ed="#P" n="25" break="no"/>tiam; Ergo habent euidentiam, &amp; per consequens 
+      <lb ed="#P" n="26"/>scientiam quod theologica sint dicta a Deo. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e181">
+               <lb ed="#P" n="27"/>Praeterea habitus ille potest haberi ex creditis, 
+      <lb ed="#P" n="28"/>cui non repugnat imperfecta cognitibus Sed 
+      scien<lb ed="#P" n="29" break="no"/>tiae proprie dictae non repugnat imperfecta 
+      cogni<lb ed="#P" n="30" break="no"/>tio: Ergo &amp;c. Probatio Minoris: quia subiectum 
+      <lb ed="#P" n="31"/>inquaritum est imperfecte eognitum, habet 
+      ratio<lb ed="#P" n="32" break="no"/>nem obiecti, sed inquantum perfecte cognitum, 
+      <lb ed="#P" n="33"/>habet rationem finis: &amp; ideo scientiae de aliquo 
+      <lb ed="#P" n="34"/>vt de obiecto non repugnat impertecta cognitio. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e201">
+               <lb ed="#P" n="35"/>Praeterea nullus scit soluere rationes adductas 
+      <lb ed="#P" n="36"/>contra aliquam rem, nisi rem illam sciat, Sed vt 
+      <lb ed="#P" n="37"/>quibusdam videtur, homo potest soluere rationes 
+      <lb ed="#P" n="38"/>omnes contra dicta de quibus est fides, &amp; sciunt 
+      <lb ed="#P" n="39"/>se hene loluere; Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e214">
+               <lb ed="#P" n="40"/>Praeterca Theologia viuor&amp; Theologia patriae 
+      <lb ed="#P" n="41"/>suntidem habitus specie, cum habeant idem 
+      ob<lb ed="#P" n="42" break="no"/>iectum formale a quo habitus habet speciem; sed 
+      <lb ed="#P" n="43"/>Theologia patriae est scientia proprie dicta: Ergo, 
+      <lb ed="#P" n="44"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e227">
+               <lb ed="#P" n="45"/>Contra: Theologia non procedit ex per se 
+      no<lb ed="#P" n="46" break="no"/>tio, sed ex creditis: Ergo non est scientia. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e234">
+               <lb ed="#P" n="47"/>Respondeo: Licet circa hoc sint multae 
+      opi<lb ed="#P" n="48" break="no"/>niones, tamen in generali possunt reduci ad tres 
+      <lb ed="#P" n="49"/>modios dicendi. Primus est, quod Theologia est 
+      <!--1.xml-->
+      <cb ed="#P" n="c"/>
+               <lb ed="#P" n="50"/>scientia simpliciter dicta. Secundus modus est, 
+      <lb ed="#P" n="51"/>quod est scientia subalterna proprie dicta, quii 
+      <lb ed="#P" n="52"/>dicunt subalternam non esse scientiam proprie 
+      di<lb ed="#P" n="53" break="no"/>ct. m. Tertius modus est, quod Theologia non elt 
+      <lb ed="#P" n="54"/>scientia proprie dicta &amp; subalterna, sed largo 
+      <lb ed="#P" n="55"/>modo potest dici scientia subalterna. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e261">
+               <lb ed="#P" n="56"/>Primus diuiditur in tres, quorum primus est. 
+      <lb ed="#P" n="57"/>Quod Theologia est scietia simpliciter dicta: quia 
+      <lb ed="#P" n="58"/>procedit ex principiis per se notis, scilicet ex 
+      oom<lb ed="#P" n="59" break="no"/>munibus animi conceptionibus: ita quod 
+      seciin<lb ed="#P" n="60" break="no"/>dum eos principia Theologiae non sunt articuli, led 
+      <lb ed="#P" n="61"/>solae praedictae communes conceptiones; &amp; ea qua 
+      <lb ed="#P" n="62"/>a Metaphisico probantur per eas: sicut est, Deum 
+      <lb ed="#P" n="63"/>elle simplicem; &amp; ex istis probantur ea quae sunt 
+      <lb ed="#P" n="64"/>Theologiae. Quod ostendunt tripliciter. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e283">
+               <lb ed="#P" n="65"/>Primio: Quia posteriora nata sunt probari per 
+      <lb ed="#P" n="66"/>priora; Sed theo ogica sunt posteriora secundum 
+      <lb ed="#P" n="67"/>intellectum, quam ea quae pertinent 
+      adMsetaphysi<lb ed="#P" n="68" break="no"/>cam: quia tum ens sit comimune, prius est 
+      secun<lb ed="#P" n="69" break="no"/>dum rationem quam Deus; Ergo, &amp;c. Secundo, 
+      <lb ed="#P" n="70"/>quia ex simplic tate Diuina quam probat 
+      Meta<lb ed="#P" n="71" break="no"/>physicus, probat distinctionem perscnarum in 
+      Di<lb ed="#P" n="72" break="no"/>uinis fieri per relationes, supposito quod sit ibi di 
+      <lb ed="#P" n="73"/>stinctio: Ergo, &amp;c. Item ex lumine naturali 
+      po<lb ed="#P" n="74" break="no"/>test haberi quod omnis operatio terminatur ad 
+      ali<lb ed="#P" n="75" break="no"/>quid operatum; Sed in Duinis scimus esse duas 
+      <lb ed="#P" n="76"/>operationes, scilicet intelligere &amp; velle: Ergo 
+      <lb ed="#P" n="77"/>oportet ponere in Diuinis duo producta ad quae 
+      <lb ed="#P" n="78"/>terminentur intelligere &amp; velle: &amp; illa sunt 
+      Ver<lb ed="#P" n="79" break="no"/>bum &amp; Spiritus sanctus: &amp; sic ex principiis 
+      scili<lb ed="#P" n="80" break="no"/>cet naturaliter notis possunt sciri tres personae. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e320">
+               <lb ed="#P" n="81"/>Istud autem facillime improbari potest, quia 
+      <lb ed="#P" n="82"/>illud quod potelt efficaciter probani per sola 
+      prin<lb ed="#P" n="83" break="no"/>cipia per se nota lumine naturali, non transcendit 
+      <lb ed="#P" n="84"/>virtutem luminis naturalis. Sed ea quae sunt fider 
+      <lb ed="#P" n="85"/>transcendunt virtutem luminis naturalis, 
+      videli<lb ed="#P" n="86" break="no"/>cet, Deum esse trinum, vel Filium fuisse 
+      incarna<lb ed="#P" n="87" break="no"/>tum: Ergo, &amp;c. Probatio Minoris: Quia ad ea 
+      <lb ed="#P" n="88"/>quae non transcendunt virtutem luminis naturalis 
+      <lb ed="#P" n="89"/>potueruntPhilosophi per inuestigationem 
+      natura<lb ed="#P" n="90" break="no"/>sein attingere; nec ad talia indigemus 
+      reuelatio<lb ed="#P" n="91" break="no"/>ne supernaturali: Sed ad ea que sunt fidei, nec Phi¬ 
+      <!--2.xml-->
+      <pb ed="#P" n="2"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>losophi potuerunt per inuestigationem naturalem 
+      <lb ed="#P" n="2"/>attingere, nec sine reuelatione possunt attingi: 
+      <lb ed="#P" n="3"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e359">
+               <lb ed="#P" n="4"/>Si dicatur quod articuli adiunguntur illis 
+      prin<lb ed="#P" n="5" break="no"/>cipiis per se notis, sed non sunt principia, nihil est 
+      <lb ed="#P" n="6"/>dictu: Quia ambae praemissae sunt causa 
+      conclusio<lb ed="#P" n="7" break="no"/>nis inferendae &amp; innotescendae: &amp; ideo oportet 
+      <lb ed="#P" n="8"/>ponere articulum assumptum cum propositione 
+      <lb ed="#P" n="9"/>per se nota esse principium conclusionis 
+      theologi<lb ed="#P" n="10" break="no"/>cae: omnis enim processus syllogisticus stat 
+      necessa<lb ed="#P" n="11" break="no"/>rio ad duas propositiones indemonstrabiles, 
+      qua<lb ed="#P" n="12" break="no"/>rum vna non probat alteram. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e381">
+               <lb ed="#P" n="13"/>Ad primam ergo rationem dicendum, quod si 
+      <lb ed="#P" n="14"/>comparetur propositio ad propositionem &amp; vna sit 
+      <lb ed="#P" n="15"/>in terminis communibus, alia in specialibus, &amp; 
+      di<lb ed="#P" n="16" break="no"/>catur vna prior respectu alterius, sicut ista: Omne 
+      <lb ed="#P" n="17"/>ens est vnum, &amp;, Omnis homo est risibilis, nullo 
+      <lb ed="#P" n="18"/>modo vna probari potest per aliam: si autem 
+      acci<lb ed="#P" n="19" break="no"/>piantur duo simplices termini, puta ens &amp; homo, 
+      <lb ed="#P" n="20"/>quorum ens secundum rationem est prius; &amp; 
+      di<lb ed="#P" n="21" break="no"/>catur quod per prius natae sunt aliquae passiones 
+      <lb ed="#P" n="22"/>probari de posteriori. Dicendum quod verum est 
+      <lb ed="#P" n="23"/>quantum ad passiones quae sunt per se ipsius 
+      com<lb ed="#P" n="24" break="no"/>munioris, quod est prius. nam per hoc quod homo 
+      <lb ed="#P" n="25"/>est quoddam ens potest probari de homine quod 
+      <lb ed="#P" n="26"/>est vnum &amp; verum, &amp; consimilia, ea tamen quae 
+      <lb ed="#P" n="27"/>sunt propria inferioris non possunt per superius 
+      <lb ed="#P" n="28"/>probari. Sicut quod homo sit risibilis non potest 
+      <lb ed="#P" n="29"/>probari per ens: quia superius aut accipietur 
+      in<lb ed="#P" n="30" break="no"/>definite, &amp; sic non inferet inferius: aut 
+      vniuer<lb ed="#P" n="31" break="no"/>saliter, &amp; sic erit falsa propositio: quia passio 
+      in<lb ed="#P" n="32" break="no"/>ferioris non probatur de superiori vniuersaliter. 
+      <lb ed="#P" n="33"/>Vnde nec per ens nec per eaquae sunt entis, possunt 
+      <lb ed="#P" n="34"/>probati de Deo ea quae sunt propria Dei: sed ea 
+      <lb ed="#P" n="35"/>quae sunt communia omni enti possunt probari de 
+      <lb ed="#P" n="36"/>Deo per ens; vt quod sit bonum &amp; verum, &amp; sic de 
+      <lb ed="#P" n="37"/>aliis: sed per hoc non posset probari quod sit trinus 
+      <lb ed="#P" n="38"/>&amp; vnus. Quando ergo dicitur quod posteriora 
+      <lb ed="#P" n="39"/>possunt probari per priora; vetum est accipiendo 
+      <lb ed="#P" n="40"/>propositiones, quarum vna virtualiter continet 
+      al<lb ed="#P" n="41" break="no"/>teram, sicut praemissae conclusionem, &amp; quarum 
+      <lb ed="#P" n="42"/>vna quoad nos est notior altera: per talem enim 
+      <lb ed="#P" n="43"/>priorem propositionem posset probari posterior 
+      <lb ed="#P" n="44"/>correspondens. Sic autem non se habet ens &amp; ea 
+      <lb ed="#P" n="45"/>quae sunt entis ad theologica, quia omnes 
+      propo<lb ed="#P" n="46" break="no"/>sitiones formatae de ente in generali non possent 
+      <lb ed="#P" n="47"/>concludere quod Deus est trinus, vel quod homo 
+      <lb ed="#P" n="48"/>sit risibilis: licet per ens possint de Deo probari 
+      <lb ed="#P" n="49"/>proprietates entis. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e464">
+               <lb ed="#P" n="50"/>Alij autem dicunt ad rationem hanc, quod ens 
+      <lb ed="#P" n="51"/>non est prius secundum rationem, quam Deus: 
+      <lb ed="#P" n="52"/>quia licet Deus non sit commune per 
+      praedicatio<lb ed="#P" n="53" break="no"/>nem, sicut ens, est tamen commune per 
+      attribu<lb ed="#P" n="54" break="no"/>tionem ad ipsum. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e478">
+               <lb ed="#P" n="55"/>Sed hoc non valet, quia illud quod est 
+      commu<lb ed="#P" n="56" break="no"/>nius per praedicationem, semper est prius 
+      secun<lb ed="#P" n="57" break="no"/>dum intellectum, eo quod est minus commune 
+      <lb ed="#P" n="58"/>isto modo: ita quod primum potest cadere in 
+      con<lb ed="#P" n="59" break="no"/>ceptionem intellectus sine secundo: sed non e 
+      con<lb ed="#P" n="60" break="no"/>uerso; quod patet in dictis terminis: nam qui 
+      in<lb ed="#P" n="61" break="no"/>telligit Deum, intelligit ens, &amp; non e conuerso. 
+      <lb ed="#P" n="62"/>Vnde etiam quando ens ponitur tertium adiacens 
+      <lb ed="#P" n="63"/>ad Deum, sequitur ens, &amp; non e conuerso. 
+      Sequi<lb ed="#P" n="64" break="no"/>tur enim hoc est Deus: ergo ens: &amp; non e 
+      conuer<lb ed="#P" n="65" break="no"/>so: non enim sequitur si hoc est ens, quod hoc sit 
+      <lb ed="#P" n="66"/>Deus: sed verum est quod quando duo adiacent, 
+      <lb ed="#P" n="67"/>mutuo se inferunt, propter vniuersalem 
+      causali<lb ed="#P" n="68" break="no"/>tatem. Sequitur enim ens est, Deus est, sicut e 
+      <lb ed="#P" n="69"/>conuerso; quia nullum ens potest esse sine Deo 
+      <lb ed="#P" n="70"/>conseruante. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e515">
+      <!--2.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Ad secundum dicendum, quod ex illo dicto 
+      <lb ed="#P" n="72"/>non sequitur quod sola principia naturaliter nota 
+      <lb ed="#P" n="73"/>probent aliquam conclusionem theologicam: sed 
+      <lb ed="#P" n="74"/>bene sequitur quod ex aliqua propositione 
+      natura<lb ed="#P" n="75" break="no"/>liter possibili sciri, scilicet ex hoc quod Deus est 
+      <lb ed="#P" n="76"/>simplex: &amp; ex alia propositione sola fide tradita, 
+      <lb ed="#P" n="77"/>scilicet quod pluralitas personarum sit in Deo, 
+      po<lb ed="#P" n="78" break="no"/>test probari ista conclusio, quod personae 
+      distin<lb ed="#P" n="79" break="no"/>guantur relationibus. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e541">
+               <lb ed="#P" n="80"/>Ad tertium dicendum, quod illa ratio ita 
+      pro<lb ed="#P" n="81" break="no"/>bat oppositum sicut propositum: quia si secundum 
+      <lb ed="#P" n="82"/>operationes sint producta, cum intelligere &amp; velle 
+      <lb ed="#P" n="83"/>in Deo sint vnum secundum rem, erit tantum 
+      <lb ed="#P" n="84"/>vnum productum in Diuinis: quod est manifeste 
+      <lb ed="#P" n="85"/>falsum. Et ideo dicendum est ad Maiorem, quod 
+      <lb ed="#P" n="86"/>veritatem habet de operatione transeunte in 
+      ali<lb ed="#P" n="87" break="no"/>quid realiter distinctum ab agente, vel secundum 
+      <lb ed="#P" n="88"/>essentiam, vel secundum suppositum: Intelligere 
+      <lb ed="#P" n="89"/>autem &amp; velle non est necessario tale, saltem in 
+      <lb ed="#P" n="90"/>Diuinis. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e567">
+               <lb ed="#P" n="91"/>Secundus modus ponendi Theologiam esse 
+      sim<lb ed="#P" n="92" break="no"/>pliciter scientiam est, quod Theologia procedit ex 
+      <lb ed="#P" n="93"/>aliqua propositione per se nota vniuersaliter, &amp; 
+      <lb ed="#P" n="94"/>alia fide credita: sicut si dicam, Omnis homo habet 
+      <lb ed="#P" n="95"/>carnem veram: Filius Dei est hoimo: Ergo, &amp;c. 
+      <lb ed="#P" n="96"/>Et ex hoc, vt dicunt, sequitur quod Theologia sit 
+      <lb ed="#P" n="97"/>scientia: quia virtus causae semper manet in 
+      effe<lb ed="#P" n="98" break="no"/>ctu: Sed causa siue principium conclusionis 
+      theo<lb ed="#P" n="99" break="no"/>logicae est non solum propositio credita, imo etiam 
+      <lb ed="#P" n="100"/>propositio naturaliter nota, vt patet in dicto 
+      syllo<lb ed="#P" n="101" break="no"/>gismo: Ergo virtus propositionis naturaliter notae 
+      <lb ed="#P" n="102"/>manet in conclusione theologica: Sed non 
+      ma<lb ed="#P" n="103" break="no"/>neret virtus propositionis naturaliter notae in 
+      con<lb ed="#P" n="104" break="no"/>clusione theologica, si solum esset credita: Ergo 
+      <lb ed="#P" n="105"/>patet quod sit scita. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e602">
+               <lb ed="#P" n="106"/>Hoc etiam faciliter improbatur duplici 
+      ratio<lb ed="#P" n="107" break="no"/>ne. Primo quia sicut in eo quod quid est 
+      praemis<lb ed="#P" n="108" break="no"/>sarum se habet ad inferendum in eo quod quid est 
+      <lb ed="#P" n="109"/>in conclusione; ita euidentia praemissarum se 
+      ha<lb ed="#P" n="110" break="no"/>bet ad caulandum euidentiam conclusionis: Sed 
+      <lb ed="#P" n="111"/>ex quod quid est praemissarum non infertur in eo 
+      <lb ed="#P" n="112"/>quod quid est in conclusione, nisi in eo quod quid 
+      <lb ed="#P" n="113"/>est accipiatur in vtraque praemissarum: Ergo 
+      simi<lb ed="#P" n="114" break="no"/>liter nisi vtraque praemissarum sit euidens non 
+      fa<lb ed="#P" n="115" break="no"/>ciet euidentiam in conclusione. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e626">
+               <lb ed="#P" n="116"/>Secundo, quia sicut necessitas causae se habet 
+      <lb ed="#P" n="117"/>ad necessitatem effectus; ita euidentia 
+      praemissa<lb ed="#P" n="118" break="no"/>rum ad euidentiam conclusionis: Sed quando 
+      ali<lb ed="#P" n="119" break="no"/>qua causa necessaria applicatur ad aliquem 
+      effe<lb ed="#P" n="120" break="no"/>ctum mediante causa contingente, effectus est 
+      <lb ed="#P" n="121"/>contingens: Ergo quando aliqua propositio 
+      eui<lb ed="#P" n="122" break="no"/>dens adiungitur ineuidenti ad inferendum aliquam 
+      <lb ed="#P" n="123"/>conclusionem, conclusio erit ineuidens. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e647">
+               <lb ed="#P" n="124"/>Vnde notandum est, quod quia praemissae sunt 
+      <lb ed="#P" n="125"/>causa inferendi &amp; notificandi conclusionem, sed 
+      <lb ed="#P" n="126"/>non sunt causa essendi, nisi quando fit 
+      demonstra<lb ed="#P" n="127" break="no"/>tio per causam realem eius quod concluditur: 
+      in<lb ed="#P" n="128" break="no"/>de est quod semper conclusio se tenet cum 
+      prae<lb ed="#P" n="129" break="no"/>missa infirmiore quantum ad illa quae pertinent ad 
+      <lb ed="#P" n="130"/>inferendum vel notificandum: &amp; quia praecipue 
+      <lb ed="#P" n="131"/>quantitas &amp; qualitas propositionum faciunt ad 
+      il<lb ed="#P" n="132" break="no"/>lationem; vnde ad inferendum necessario 
+      requiri<lb ed="#P" n="133" break="no"/>tur vna vniuersalis &amp; vna affirmatiua: propter hoc 
+      <lb ed="#P" n="134"/>si altera praemissarum est negatiua, &amp; conclusio est 
+      <lb ed="#P" n="135"/>negatiua: &amp; si altera particularis, conclusio est 
+      <lb ed="#P" n="136"/>particularis: Ita etiam quia praemissae per suam 
+      eui<lb ed="#P" n="137" break="no"/>dentiam sunt causa notificandi conclusionem, 
+      in<lb ed="#P" n="138" break="no"/>de est quod si altera praemissarum est ineuidens, 
+      <lb ed="#P" n="139"/>conclusio est ineuidens, nisi sciatur aliter quam per 
+      <lb ed="#P" n="140"/>illas praemissas: In his autem in quibus non opor¬ 
+      <!--3.xml-->
+      <pb ed="#P" n="3"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ret praemissam esse causam conclusionis, non 
+      opor<lb ed="#P" n="2" break="no"/>ter conclusionem sequi praemissam infirmiorem. 
+      <lb ed="#P" n="3"/>Vnde quia veritas praemissae non est causa in 
+      infe<lb ed="#P" n="4" break="no"/>rendo; ideo bene potest conclusio vera sequi ex 
+      <lb ed="#P" n="5"/>ambabus falsis, vel ex altera falsa. Et sic dico; 
+      im<lb ed="#P" n="6" break="no"/>posibile est Itera praemissarum existente ineuidente 
+      <lb ed="#P" n="7"/>conclusionem non esse ineuidentem: quia 
+      euiden<lb ed="#P" n="8" break="no"/>tia praemissae est causa euidentiae conclusionis. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e710">
+               <lb ed="#P" n="9"/>Ad rationem eius dicendum, quod virtus causae 
+      <lb ed="#P" n="10"/>remanet in effectu secundum quod causa 
+      applica<lb ed="#P" n="11" break="no"/>tur ad effectum: Et ideo quando propositio 
+      na<lb ed="#P" n="12" break="no"/>turaliter nota applicatur ad probandum 
+      conclu<lb ed="#P" n="13" break="no"/>sionem cum propositione credita &amp; ineuidente, 
+      <lb ed="#P" n="14"/>eius virtus manebit quantum ad hoc quod 
+      con<lb ed="#P" n="15" break="no"/>clusio sequatur: sed conclusio erit tantum 
+      credi<lb ed="#P" n="16" break="no"/>ta: quia mediante illa applicata fuit propositio 
+      <lb ed="#P" n="17"/>nota: sicut in prioribus altera propositionum 
+      exi<lb ed="#P" n="18" break="no"/>stente de necessario, &amp; altera de contingenti; 
+      <lb ed="#P" n="19"/>conclusio semper erit de contingenti. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e736">
+               <lb ed="#P" n="20"/>Tertius modus ponendi, Theologiam esse 
+      scien<lb ed="#P" n="21" break="no"/>tiam simpliciter, est quia, vt dicunt, quoddam 
+      <lb ed="#P" n="22"/>lumen additur lumini fidei quod facit ipsam esse 
+      <lb ed="#P" n="23"/>scientiam. Ad cuius euidentiam, quia iste modus 
+      <lb ed="#P" n="24"/>magnos habet deffensores: ideo primo ponetur 
+      <lb ed="#P" n="25"/>positio cum sua probatione. Est autem positio 
+      ta<lb ed="#P" n="26" break="no"/>lis, quod praeter lumen fidei infunditur 
+      quibus<lb ed="#P" n="27" break="no"/>dam perfectis viris quoddam lumen 
+      supernatura<lb ed="#P" n="28" break="no"/>le, in quo fiunt articuli fidei euidentes, quantum 
+      <lb ed="#P" n="29"/>sufficit ad scientiam proprie dictam: non tamen 
+      <lb ed="#P" n="30"/>est ita clarum quod euacuet fidem: Et hoc 
+      pro<lb ed="#P" n="31" break="no"/>bant. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e765">
+               <lb ed="#P" n="32"/>Primo, quia Deus prouidit ecclesiae suae, quod 
+      <lb ed="#P" n="33"/>sint semper in ea aliqui viri perfecti, illuminati 
+      <lb ed="#P" n="34"/>super conmunem starum fidelium, vt possint 
+      <lb ed="#P" n="35"/>fidem deffendere: Sed esse illuminatos super 
+      com<lb ed="#P" n="36" break="no"/>munem statum fidelium, non conuenit nisi illis 
+      <lb ed="#P" n="37"/>qui habent aliquod lumen supernaturale, vltra 
+      lu<lb ed="#P" n="38" break="no"/>men fidei per quod habeant dictam euidentiam: 
+      <lb ed="#P" n="39"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e785">
+               <lb ed="#P" n="40"/>Secundo, probant quod saltem tale lumen 
+      <lb ed="#P" n="41"/>scientificum non repugnet fidei: Quia non plus 
+      <lb ed="#P" n="42"/>repugnat obscuritas fidei scientiae de credibilibus. 
+      <lb ed="#P" n="43"/>quam obscuritas phantasmatis scientiae de 
+      sensi<lb ed="#P" n="44" break="no"/>bilibus: Sed non obstante obscuritate 
+      phantas<lb ed="#P" n="45" break="no"/>matis habetur certa scientia de sensibilibus: Ergo 
+      <lb ed="#P" n="46"/>non obstante obscuritate fidei potest haberi 
+      scien<lb ed="#P" n="47" break="no"/>tia de credibilibus. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e805">
+               <lb ed="#P" n="48"/>Tertio, probant idem cum ista secunda sic: 
+      <lb ed="#P" n="49"/>Quia non plus repugnat euidens quod pertinet ad 
+      <lb ed="#P" n="50"/>scientiam, &amp; ineuidens quod pertinet ad fidem, 
+      <lb ed="#P" n="51"/>quàm clarum &amp; obscurum: Sed idem potest 
+      ha<lb ed="#P" n="52" break="no"/>bere claram &amp; obscuram cognitionem de eodem; 
+      <lb ed="#P" n="53"/>sicut beati qui habent claram cognitionem de 
+      re<lb ed="#P" n="54" break="no"/>bus in Verbo, &amp; cognitionem obscuram de 
+      eis<lb ed="#P" n="55" break="no"/>dem in propria natura, quae est obscura respectu 
+      <lb ed="#P" n="56"/>cognitionis in Verbo: Ergo idem &amp; de eodem 
+      po<lb ed="#P" n="57" break="no"/>test habere fidem &amp; scientiam. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e830">
+               <lb ed="#P" n="58"/>Secundo, ponendae sunt quedam deffensiones 
+      <lb ed="#P" n="59"/>quibus se deffendunt contra quasdam rationes 
+      fa<lb ed="#P" n="60" break="no"/>ctis contra eos sic. Primo, quia euidentia &amp; 
+      ineui<lb ed="#P" n="61" break="no"/>dentia cum sint opposita, non possunt inesse eidem 
+      <lb ed="#P" n="62"/>de eodem: Sed fides importat ineuidentiam, 
+      scien<lb ed="#P" n="63" break="no"/>tia autem euidentiam: Ergo, &amp;c. Secundo sic: 
+      <lb ed="#P" n="64"/>quia non plus opponuntur fides &amp; opinio, quam 
+      <lb ed="#P" n="65"/>fides &amp; scientia: Sed secundum eos fides &amp; 
+      opi<lb ed="#P" n="66" break="no"/>nio non stant simul: Ergo nec fides &amp; scientia. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e852">
+               <lb ed="#P" n="67"/>Ad primum ergo dicunt, quod duplex est 
+      eui<lb ed="#P" n="68" break="no"/>dentia, scilicet euidentia visionis, scilicet 
+      quan<lb ed="#P" n="69" break="no"/>do res in se nude videtur: alia est euidentia 
+      intelli<lb ed="#P" n="70" break="no"/>gentiae, qua res non praesens est; sed per discussio¬ 
+      <!--3.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>nem rationis cognoscitur; Et haec secunda sufficit 
+      <lb ed="#P" n="72"/>ad scientiam. Tunc ergo dicunt ad rationem, quod 
+      <lb ed="#P" n="73"/>ineuidentia fidei opponitur &amp; repugnat primae 
+      <lb ed="#P" n="74"/>euidentiae, sed non secundae. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e876">
+               <lb ed="#P" n="75"/>Ad secundum dicunt, quod Maior est falsa: 
+      <lb ed="#P" n="76"/>quia fides &amp; opinio opponuntur contradictorie, 
+      <lb ed="#P" n="77"/>scilicet secundum firmiter &amp; non firmiter 
+      adhaere<lb ed="#P" n="78" break="no"/>re: Sed fides &amp; scientia opponuntur contrariè, 
+      <lb ed="#P" n="79"/>scilicet sicut clarum &amp; obscurum; contraria 
+      au<lb ed="#P" n="80" break="no"/>tem remissa, sicut est obscuritas fidei &amp; euidentia 
+      <lb ed="#P" n="81"/>scientiae, possunt esse simul. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e894">
+               <lb ed="#P" n="82"/>Tertio ponendae sunt rationes ad ostendendum 
+      <lb ed="#P" n="83"/>istam opinionem non esse veram: &amp; hoc intendo 
+      <lb ed="#P" n="84"/>ostendere tribus rationibus. Ad quarum euidentiam 
+      <lb ed="#P" n="85"/>sciendum est, quod dato quod habitus fidei possit 
+      <lb ed="#P" n="86"/>manere cum scientia, &amp; cum visione patriae, sicut 
+      <lb ed="#P" n="87"/>ponitur mansisse in Pauli raptu: tamen impossibile 
+      <lb ed="#P" n="88"/>est quod necessitas habenti fidem ad 
+      assentien<lb ed="#P" n="89" break="no"/>dum eis de quibus est scientia, maneat cum 
+      scien<lb ed="#P" n="90" break="no"/>tia. Et hoc probo tripliciter. In prima suppono 
+      <lb ed="#P" n="91"/>quòd id quod tollit necessitatem habendi 
+      authori<lb ed="#P" n="92" break="no"/>tatem alicuius dicentis cui credatur, tollit 
+      neces<lb ed="#P" n="93" break="no"/>sitatem habendi fidem de qua loquimur: quod 
+      au<lb ed="#P" n="94" break="no"/>tem scientia proprie dicta tollat necessitatem 
+      ha<lb ed="#P" n="95" break="no"/>bendi authoritatem vel fidem, probo triplici 
+      ra<lb ed="#P" n="96" break="no"/>tione. Quia ille habitus qui sic per se est veridicus, 
+      <lb ed="#P" n="97"/>quod habenti habitum ex natura sui habitus 
+      con<lb ed="#P" n="98" break="no"/>stat se verum cognoscere, &amp; non posse decipi circa 
+      <lb ed="#P" n="99"/>ea quae subsunt suo habitui, non indiget 
+      authori<lb ed="#P" n="100" break="no"/>tate alicuius dicentis respectu illorum quae sunt 
+      il<lb ed="#P" n="101" break="no"/>lius habitus: Sed scientia est talis habitus; Ergo 
+      <lb ed="#P" n="102"/>cum scientia non stat necessitas habendi 
+      authori<lb ed="#P" n="103" break="no"/>tatem. Consequentia patet; Vtramque 
+      assum<lb ed="#P" n="104" break="no"/>ptam probo. Et primò Maiorem. Quia ille qui ex 
+      <lb ed="#P" n="105"/>natura sui habitus habet ita euidentiam de re, 
+      <lb ed="#P" n="106"/>quod constat sibi se non posse decipi, eodem 
+      mo<lb ed="#P" n="107" break="no"/>do se habet in assentiendo, qualitercunque alius 
+      <lb ed="#P" n="108"/>se habeat in dicendo: Sed ille qui necessario 
+      indi<lb ed="#P" n="109" break="no"/>get authoritate alterius ad assentiendum, non 
+      eo<lb ed="#P" n="110" break="no"/>dem modo se habet in assentiendo, 
+      qualitercun<lb ed="#P" n="111" break="no"/>que alius se habeat in dicendo; qua non potest 
+      <lb ed="#P" n="112"/>assentiri nisi ei quod dicitur ab alio, inquantum 
+      di<lb ed="#P" n="113" break="no"/>citur ab alio: Ergo iste qui habitum habet 
+      veridi<lb ed="#P" n="114" break="no"/>cum sic, quod ex natura sui habitus constat sibi de 
+      <lb ed="#P" n="115"/>euidentia rei, &amp; se non posse decipi, non indiget 
+      <lb ed="#P" n="116"/>authoritate cuiuscunque dicentis: Quicunque 
+      <lb ed="#P" n="117"/>enim non habet quod assentiatur nisi authoritati 
+      <lb ed="#P" n="118"/>alterius quantum est ex parte sua &amp; modo 
+      cognos<lb ed="#P" n="119" break="no"/>cendi suo, non habet quod non possit decipi: Sed 
+      <lb ed="#P" n="120"/>si non potest decipi, sicut ponimus de fide, hoc est 
+      <lb ed="#P" n="121"/>proper infallibilem veritatem dicentis. Minor 
+      <lb ed="#P" n="122"/>etiam patet per Philosophum sexto Ethicorum 
+      <lb ed="#P" n="123"/>capite quarto, vbi vult quod sapientia, scientia, &amp; 
+      <lb ed="#P" n="124"/>ars in hoc differunt ab opinione &amp; fide, quod 
+      scien<lb ed="#P" n="125" break="no"/>tia, &amp;c. sunt semper verorum, &amp; ex natura 
+      ip<lb ed="#P" n="126" break="no"/>sorum habituum non sit fides, quae est habitus 
+      ac<lb ed="#P" n="127" break="no"/>quisitus, &amp; opinio quae est habitus opinatiuus. Et 
+      <lb ed="#P" n="128"/>sic patet quod cum scientia proprie dicta non stat 
+      <lb ed="#P" n="129"/>necessitas habendi authoritatem: nec per 
+      conse<lb ed="#P" n="130" break="no"/>quens necessitas habendi fidem. Licet enim 
+      ha<lb ed="#P" n="131" break="no"/>bens scientiam possit credere dictum alterius: non 
+      <lb ed="#P" n="132"/>tamen habet necessitatem credendi, vel 
+      assen<lb ed="#P" n="133" break="no"/>tiendi propter dictum alterius. Secunda ratio est 
+      <lb ed="#P" n="134"/>talis. Istud lumen aut facit euidentiam talem de 
+      <lb ed="#P" n="135"/>re, quod sufficit ad assentiendum sine aliqua 
+      au<lb ed="#P" n="136" break="no"/>thoritate, aut non: si sic, habetur propositum, 
+      sci<lb ed="#P" n="137" break="no"/>licet quod habens tale lumen non necessario 
+      indi<lb ed="#P" n="138" break="no"/>get authoritate; quia res de se sufficit ad mouendum 
+      <lb ed="#P" n="139"/>intellectum ad assentiendum sine aliqua 
+      authori<lb ed="#P" n="140" break="no"/>tate: Si non; Ergo istud lumen superfluit, quia ad 
+      <!--4.xml-->
+      <pb ed="#P" n="4"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>assentiendum authoritati sufficit lumen fidei: &amp; 
+      <lb ed="#P" n="2"/>sic istud lumen in nullo deseruiet. Tertia ratio 
+      ta<lb ed="#P" n="3" break="no"/>lis est. Istud lumen aut necessario supponit fidem, 
+      <lb ed="#P" n="4"/>aut non; si non, habetur propositum, scilicet quod cum 
+      <lb ed="#P" n="5"/>tali lumine non stat necessitas habendi fidem vel 
+      <lb ed="#P" n="6"/>authoritatem. Si sic, aut dependet ex fide, sicut 
+      ha<lb ed="#P" n="7" break="no"/>bitus complexorum ex habitu simplicium; aut 
+      si<lb ed="#P" n="8" break="no"/>cut habitus complexi, ab habitu alterius complexi. 
+      <lb ed="#P" n="9"/>Non primo modo, quia habitus fidei est habitus 
+      <lb ed="#P" n="10"/>complexorum, vt quod Deus est trinus &amp; vnus, &amp; 
+      <lb ed="#P" n="11"/>quod Filius Dei est incarnatus, &amp; sic de aliis: quia 
+      <lb ed="#P" n="12"/>scire quid est, quod dicitur per terminos simplices, 
+      <lb ed="#P" n="13"/>Ita potest conuenire infideli, sicut fideli. Nec 
+      secun<lb ed="#P" n="14" break="no"/>do modo, quia vnum complexum non dependet ab 
+      <lb ed="#P" n="15"/>alio, nisi quia vnum est principium alterius ex quo 
+      <lb ed="#P" n="16"/>sequitur, vt conclusio: Et sic sequeretur quod lumen 
+      <lb ed="#P" n="17"/>illud esset habitus conclusionum, &amp; lumen fidei 
+      ha<lb ed="#P" n="18" break="no"/>bitus principiorum: quod est contra eos qui ponunt 
+      <lb ed="#P" n="19"/>lumen illud esse habitum principiorum: &amp; contra 
+      ra<lb ed="#P" n="20" break="no"/>tionem, quia tunc conclusio esset euidentior quam 
+      <lb ed="#P" n="21"/>praemissae, cum illud lumen ponatur euidentius quam 
+      <lb ed="#P" n="22"/>lumen fidei. Sed sic videtur quod necessitas 
+      ha<lb ed="#P" n="23" break="no"/>bendi fidem vel authoritatem non potest stare cum 
+      <lb ed="#P" n="24"/>dicto lumine; ita quod habens tale lumen indigeat 
+      <lb ed="#P" n="25"/>fide ad assentiendum. Si dicatur quod indiget fide 
+      <lb ed="#P" n="26"/>ad merendum, non valet: quia hoc esset aut 
+      pro<lb ed="#P" n="27" break="no"/>pter difficultatem &amp; obscuritatem, quam facit fides, 
+      <lb ed="#P" n="28"/>aut propter promptitudinem: sed neutro modo hoc 
+      <lb ed="#P" n="29"/>contingit: quia habens scientiam, siue habeat fidem, 
+      <lb ed="#P" n="30"/>siue non, non patitur difficultatem in assentiendo: 
+      <lb ed="#P" n="31"/>habens etiam scientiam potest habere promptum 
+      <lb ed="#P" n="32"/>animum ad assentiendum eis quae sunt fidei, si 
+      scien<lb ed="#P" n="33" break="no"/>tiam non habeat: sicut fidelis habens scientiam 
+      <lb ed="#P" n="34"/>quod Deus sit vnus, habet promptum animum 
+      <lb ed="#P" n="35"/>credendi hoc, si scientiam non haberet. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1107">
+               <lb ed="#P" n="36"/>Quarto, restat ostendere quod defensiones 
+      <lb ed="#P" n="37"/>adductae contra rationes aliorum non valent. Et 
+      <lb ed="#P" n="38"/>primo quod illa distinctio de euidentia non 
+      va<lb ed="#P" n="39" break="no"/>let: quia aut intelligunt per euidentiam visionis 
+      <lb ed="#P" n="40"/>visionem corporalem, aut visionem patriae, aut 
+      <lb ed="#P" n="41"/>visionem apprehensionis; quia intellectus aliqua 
+      <lb ed="#P" n="42"/>prima apprehendit absque discursu. Primum non 
+      <lb ed="#P" n="43"/>potest stare: quia tunc visio patriae non 
+      exclude<lb ed="#P" n="44" break="no"/>ret fidem: neque secundum potest stare, quia 
+      <lb ed="#P" n="45"/>tunc scientia quam philosophi habuerunt de 
+      re<lb ed="#P" n="46" break="no"/>bus, non excluderet fidem, vel etiam necessitatem 
+      <lb ed="#P" n="47"/>habendi fidem; quod falsum est. Si ponunt 
+      ter<lb ed="#P" n="48" break="no"/>tio modo, sequitur quòd impossibile est esse 
+      eui<lb ed="#P" n="49" break="no"/>dentiam intelligentiae sine euidentia visionis: &amp; 
+      <lb ed="#P" n="50"/>sic euidentia intelligentiae excluderet fidem, 
+      cu<lb ed="#P" n="51" break="no"/>ius oppositum dicunt. Secunda etiam responsio 
+      <lb ed="#P" n="52"/>qua respondent ad secundam rationem, includit 
+      <lb ed="#P" n="53"/>duo falsa. Primum est quod fides &amp; opinio 
+      oppo<lb ed="#P" n="54" break="no"/>nantur contradictorie: quia de quolibet ente vel 
+      <lb ed="#P" n="55"/>non ente oportet verificari alterum 
+      contradicto<lb ed="#P" n="56" break="no"/>riorum: fidem autem vel opinionem non oportet; 
+      <lb ed="#P" n="57"/>verificari de quolibet ente vel non ente; quia est 
+      <lb ed="#P" n="58"/>dare aliquod ens quod nec fidem habet nec 
+      opi<lb ed="#P" n="59" break="no"/>nionem. Nec est verum quod dicitur, quod 
+      scili<lb ed="#P" n="60" break="no"/>cet includunt affirmationem &amp; negationem, 
+      scili<lb ed="#P" n="61" break="no"/>cet firmiter &amp; non firmiter adhaerere; quia opinio 
+      <lb ed="#P" n="62"/>dicit aliquid positiuum, includens non firmiter 
+      ad<lb ed="#P" n="63" break="no"/>haerere, ratione cuius habet quod sit contrarium, &amp; 
+      <lb ed="#P" n="64"/>non pura negatio opposita contradictoriè: nam 
+      in<lb ed="#P" n="65" break="no"/>cludit adhaerere debiliter: Et similiter etiam de 
+      <lb ed="#P" n="66"/>scientia &amp; fide: quia opponuntur secundum 
+      eui<lb ed="#P" n="67" break="no"/>dens, &amp; non euidens: tamen semper in omni 
+      op<lb ed="#P" n="68" break="no"/>positione includitur contradictio, quia album est 
+      <lb ed="#P" n="69"/>non nigrum. Secundum etiam falsum est, quod 
+      <lb ed="#P" n="70"/>contraria remissa sunt simul: quia aut intelligunt 
+      <lb ed="#P" n="71"/>quod contraria remissa sunt simul, quia formae cen¬ 
+      <!--4.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="72"/>trariae quoad suas essentias remaneant in eodem 
+      gra<lb ed="#P" n="73" break="no"/>du remisso: aut quod dicantur manere virtualiter, 
+      <lb ed="#P" n="74"/>sicut albedo &amp; nigredo in rubeo. Primo modo non 
+      <lb ed="#P" n="75"/>potest esse: quia contrarietas est oppositio secundum 
+      <lb ed="#P" n="76"/>formam specificam: Ergo duae formae manentes 
+      con<lb ed="#P" n="77" break="no"/>trariae in natura speciei suae, non possunt esse simul 
+      <lb ed="#P" n="78"/>in eodem secundum quencunque gradum; quia tunc 
+      op<lb ed="#P" n="79" break="no"/>posita essent in eodem: Et cum omnia opposita 
+      inclu<lb ed="#P" n="80" break="no"/>dant contradictionem, affirmatio &amp; negatio simul 
+      ve<lb ed="#P" n="81" break="no"/>rificarentur de eodem. Item si fides &amp; scientia sunt in 
+      <lb ed="#P" n="82"/>viatore, sicut contraria remissa; tunc vnum ipsorum 
+      <lb ed="#P" n="83"/>ita poterit intendi, quod aliud totaliter excludat, &amp; 
+      <lb ed="#P" n="84"/>sic scientia posset intendi, quod quandoque totaliter 
+      <lb ed="#P" n="85"/>excluderet fidem. Si autem ponantur manere in 
+      <lb ed="#P" n="86"/>quodam medio resultante ex eis, tunc ille in quo 
+      <lb ed="#P" n="87"/>erit tale medium, nec fidem nec scientiam 
+      habe<lb ed="#P" n="88" break="no"/>bit: sicut rubeum nec album nec nigrum est. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1229">
+               <lb ed="#P" n="89"/>Quinto, respondendum est ad rationes eorum 
+      <lb ed="#P" n="90"/>distinguendo de lumine: quia vno modo potest 
+      acci<lb ed="#P" n="91" break="no"/>pi lumen proprie, quia scilicet illustrat intellectum, 
+      <lb ed="#P" n="92"/>sicut dicimus lumen fidei, vel lumen intellectus 
+      <lb ed="#P" n="93"/>agentis. Alio modo potest dici lumen quicunque 
+      <lb ed="#P" n="94"/>habitus manifestatiuus vel acquisitus per exercitium 
+      <lb ed="#P" n="95"/>studii, siue sit infusus, vel etiam quaecunque maior 
+      <lb ed="#P" n="96"/>manifestatio. Quando ergo dicitur quod aliqui 
+      <lb ed="#P" n="97"/>maiores sunt illuminati vltra communem statum 
+      <lb ed="#P" n="98"/>fidelium; si intelligatur quòd in ecclesia sint tales 
+      <lb ed="#P" n="99"/>habentes lumen proprie dictum, aliud a lumine 
+      <lb ed="#P" n="100"/>fidei, &amp; supra lumen fidei existens, nego: si autem 
+      <lb ed="#P" n="101"/>intelligatur, sunt magis illuminati, quia lumen 
+      fi<lb ed="#P" n="102" break="no"/>dei habent copiosius: cum lumen fidei intendi 
+      <lb ed="#P" n="103"/>possit, potest concedi. Si etiam intelligatur quod 
+      <lb ed="#P" n="104"/>aliqui prae alijs habent excellentiorem notitiam &amp; 
+      <lb ed="#P" n="105"/>maiorem euidentiam cuiusdam manuductionis 
+      <lb ed="#P" n="106"/>quam alij, siue per exercitium studij, siue per 
+      infu<lb ed="#P" n="107" break="no"/>sionem, absque tamen euidentia scientiae proprie 
+      <lb ed="#P" n="108"/>dictae: concedendum est. Et sic possunt intelligi 
+      <lb ed="#P" n="109"/>omnia quae dicuntur de illuminatione spirituam 
+      <lb ed="#P" n="110"/>quorumdam. Nec oportet propter hoc ponere 
+      lu<lb ed="#P" n="111" break="no"/>men faciens scientiam proprie dictam. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1282">
+               <lb ed="#P" n="112"/>Ad secundam rationem dicunt quidam, quod 
+      <lb ed="#P" n="113"/>non est simile quod accipitur pro simili: quia si 
+      si<lb ed="#P" n="114" break="no"/>des &amp; scientia essent in eodem, essent in eadem 
+      po<lb ed="#P" n="115" break="no"/>tentia: &amp; sic in eadem potentia esset obscurum &amp; 
+      <lb ed="#P" n="116"/>euidens: non sic est de phantasmate &amp; scientia. Sed 
+      <lb ed="#P" n="117"/>quia ad hoc quod aliquis habeat certam scientiam, 
+      <lb ed="#P" n="118"/>oportet quod sibi certitudinaliter praesentetur 
+      ob<lb ed="#P" n="119" break="no"/>iectum in phantasmate. (Vnde incertitudo in 
+      phan<lb ed="#P" n="120" break="no"/>tasmate faceret incertitudinem in intellectu.) Ideo 
+      <lb ed="#P" n="121"/>videtur dicendum aliter, quod certitudo scientiae 
+      <lb ed="#P" n="122"/>non potest stare cum incertitudine vel obscuritate 
+      <lb ed="#P" n="123"/>phantasmatis, quae faciat incertitudinem. Vnde 
+      om<lb ed="#P" n="124" break="no"/>nem scientiam certam oportet reducere ad certa 
+      <lb ed="#P" n="125"/>phantasmata. Et si aliqua phantasmata incerte 
+      re<lb ed="#P" n="126" break="no"/>praesentent, sicut patet de phantasmate quantitatis 
+      <lb ed="#P" n="127"/>solis, oportet illa reducere ad alia phantasmata 
+      cer<lb ed="#P" n="128" break="no"/>ta: sicut quod pro certo vidit rem quando erat 
+      pro<lb ed="#P" n="129" break="no"/>pe, maiorem, &amp; eandem quando erat longe, vidit 
+      <lb ed="#P" n="130"/>minorem. Sed verum est quod certitudo 
+      phantas<lb ed="#P" n="131" break="no"/>matis non sufficeret sine virtute intellectus 
+      confe<lb ed="#P" n="132" break="no"/>rentis vnum ad aliud. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1330">
+               <lb ed="#P" n="133"/>Ad tertium dicendum, quod in Beatis non est, 
+      <lb ed="#P" n="134"/>cognitio clara &amp; obscura de eodem obiecto 
+      for<lb ed="#P" n="135" break="no"/>mali: quia cognitio quae est in Verbo habet 
+      diui<lb ed="#P" n="136" break="no"/>nam essentiam pro obiecto formali: cognitio 
+      au<lb ed="#P" n="137" break="no"/>tem quae est rerum in proprio genere habet res 
+      <lb ed="#P" n="138"/>creatas pro obiecto formali: Vnde non est 
+      incon<lb ed="#P" n="139" break="no"/>ueniens quod res aliqua videatur clare per vnum 
+      <lb ed="#P" n="140"/>habitum prout relucet in Deo, &amp; per alium habitum 
+      vi<lb ed="#P" n="141" break="no"/>deatur minus clare prout est in seipsa per se obiectum 
+      <lb ed="#P" n="142"/>illius alterius habitus. Sed in proposito non est ita. 
+      <!--5.xml-->
+      <pb ed="#P" n="5"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quia de eodem subiecto formali ponitur fides &amp; 
+      <lb ed="#P" n="2"/>scientia. Item etiam daro quod fides posset stare 
+      <lb ed="#P" n="3"/>cum scientia de eodem obiecto: tamen ex 
+      prae<lb ed="#P" n="4" break="no"/>dicta ratione non sequitur quod necessitas 
+      haben<lb ed="#P" n="5" break="no"/>di fidem stet cum scientia, ad hoc quod 
+      assentia<lb ed="#P" n="6" break="no"/>mur eis de quibus est scientia: sicut ad hoc quod 
+      <lb ed="#P" n="7"/>beatus assentiatur eis quae videt in verbo de rebus, 
+      <lb ed="#P" n="8"/>non necessario indiget alia cognitione ab illa qua 
+      <lb ed="#P" n="9"/>cognoscit res in verbo. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1380">
+               <lb ed="#P" n="10"/>Secundus modus principalis est, quod licet 
+      <lb ed="#P" n="11"/>Theologia non sit scientia proprie dicta, est tamen 
+      <lb ed="#P" n="12"/>scientia subalterna proprie dicta: quia isti 
+      vole<lb ed="#P" n="13" break="no"/>bant quod scientia subalterna non sit simpliciter 
+      <lb ed="#P" n="14"/>&amp; proprie scientia. Et hoc probant sic. Quia ad 
+      <lb ed="#P" n="15"/>scientiam subalternam sufficit arguere ex 
+      princi<lb ed="#P" n="16" break="no"/>piis creditis, sed Theologia est huiusmodi: Ergo, 
+      <lb ed="#P" n="17"/>&amp;c. Minor supponitur: quia Theologia arguit ex 
+      <lb ed="#P" n="18"/>creditis. Maior probatur, quia icientia 
+      subalter<lb ed="#P" n="19" break="no"/>na aut vtitur principiis suis vt per se notis; aut vt 
+      <lb ed="#P" n="20"/>demonstratis in superiori scientia; aut vt creditis. 
+      <lb ed="#P" n="21"/>Non vt per se notis, cum sint conclusiones super 
+      o<lb ed="#P" n="22" break="no"/>ris scientiae: nec vt demonstratis in superiori 
+      scien<lb ed="#P" n="23" break="no"/>tia, quia tunc non essent diuersae scientiae, 
+      subal<lb ed="#P" n="24" break="no"/>ternans &amp; subalternata: Ergo relinquitur quod 
+      <lb ed="#P" n="25"/>vtitur eis vt creditis: Et si dicatur quod tunc 
+      scien<lb ed="#P" n="26" break="no"/>tia subalterna vtitur syllogismo topico fundato 
+      su<lb ed="#P" n="27" break="no"/>per authoritate humana: dicunt quod non; quia 
+      <lb ed="#P" n="28"/>scientia subalterna non credit alicui vt homini, 
+      <lb ed="#P" n="29"/>sed vt demonstratori. Sed hoc non videtur 
+      ve<lb ed="#P" n="30" break="no"/>rum. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1428">
+               <lb ed="#P" n="31"/>Primo, quia habitus quo habet aliquis credere 
+      <lb ed="#P" n="32"/>tantum dicto alterius: ita quod res est in se 
+      eui<lb ed="#P" n="33" break="no"/>dens, non habet ex se quod sibi non possit sub esse 
+      <lb ed="#P" n="34"/>falsum, talis autem habitus nullo modo est 
+      scien<lb ed="#P" n="35" break="no"/>tia subalterna: Ergo scientia subalterna nullo 
+      <lb ed="#P" n="36"/>modo esset scientia nisi aequiuoce. 
+      <lb ed="#P" n="37"/>Secundo, quia ille qui adinuenit aliquam 
+      scien<lb ed="#P" n="38" break="no"/>tiam, non accipit principia credendo alteri: sed 
+      <lb ed="#P" n="39"/>scientiae subalternae, sicut &amp; aliae scientiae humanae 
+      <lb ed="#P" n="40"/>sunt habitae per inuentionem; Ergo scientia 
+      subal<lb ed="#P" n="41" break="no"/>terna non habet credere alteri de principiis suis, 
+      <lb ed="#P" n="42"/>sed habet euidentiam de eis. Dicere autem quod 
+      <lb ed="#P" n="43"/>scientiae subalternae, quantum ad inuentores, 
+      vte<lb ed="#P" n="44" break="no"/>rentur principiis euidentibus, &amp; quantum ad alios 
+      <lb ed="#P" n="45"/>principiis ei editis, esset irrationabile; quia 
+      seque<lb ed="#P" n="46" break="no"/>retur quod in doctore vel inuentore &amp; in 
+      discipu<lb ed="#P" n="47" break="no"/>lo ab eo edocto non esset similis scientia. Et quod 
+      <lb ed="#P" n="48"/>dicitur quod credit non vt homini, sed vt 
+      demonstra<lb ed="#P" n="49" break="no"/>tori, nisi videat rationem demonstratiuam &amp; 
+      ha<lb ed="#P" n="50" break="no"/>beat euidentiam, non valet Nec valet etiam dicere 
+      <lb ed="#P" n="51"/>quod famae communi credit: quia fama communis 
+      <lb ed="#P" n="52"/>&amp; dictum vnius hominis non differunt, nisi 
+      secun<lb ed="#P" n="53" break="no"/>dum dictum vnius &amp; plurium: &amp; hoc non facit 
+      <lb ed="#P" n="54"/>differre secundum scientiam &amp; opinionem, sed 
+      <lb ed="#P" n="55"/>secundum opinionem magis &amp; minus firmam. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1485">
+               <lb ed="#P" n="56"/>Ad illud quod dicitur in oppositum dicendum, 
+      <lb ed="#P" n="57"/>quod scientia subalterna vtitur principiis suis vt 
+      <lb ed="#P" n="58"/>per se notis quantum ad quia est: licet non sint 
+      si<lb ed="#P" n="59" break="no"/>bi nota quantum ad propter quid est: sicut 
+      per<lb ed="#P" n="60" break="no"/>spectiuus vtitur isto principio, quanto lineae rectae 
+      <lb ed="#P" n="61"/>plus protrahuntur manente eadem basi, tanto est 
+      <lb ed="#P" n="62"/>angulus magis acurus, vt per se noto quantum ad 
+      <lb ed="#P" n="63"/>quia est, quia hoc patet ad sensum; licet non sit 
+      <lb ed="#P" n="64"/>per se notum quantum ad propter quid est: ita 
+      <lb ed="#P" n="65"/>quod non est inconueniens quod principium 
+      sub<lb ed="#P" n="66" break="no"/>alternum sit conclusio probata in superiori 
+      scien<lb ed="#P" n="67" break="no"/>tia quantum ad propter quid est, &amp; per se notum 
+      <lb ed="#P" n="68"/>quantum ad quia est. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1516">
+               <lb ed="#P" n="69"/>Tertius modus principalis est quod Theologia 
+      <lb ed="#P" n="70"/>proprie non est scientia simpliciter dicta, nec 
+      <!--5.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>scientia subaltetra; sed large loquendo dicitur 
+      <lb ed="#P" n="72"/>scientia, &amp; magis dicitur scientia subilterna 
+      <lb ed="#P" n="73"/>quam alia. Cuius ratio est: quia vt dictum est, 
+      <lb ed="#P" n="74"/>scientia proprie dicti siue subalterna siue non 
+      sub<lb ed="#P" n="75" break="no"/>alterna requirit euidentiam manifestam suorom 
+      <lb ed="#P" n="76"/>principiorum. Theologia non est huiusmodi Ergo 
+      <lb ed="#P" n="77"/>non est scientia proprie dicti. Sed quia ille qui 
+      ha<lb ed="#P" n="78" break="no"/>bet habitum Theologiae vltra simplices fideles scit 
+      <lb ed="#P" n="79"/>quomodo exponendae sunt authoritates sacrae 
+      scri<lb ed="#P" n="80" break="no"/>pturae, &amp; quomodo ea quae videntur ibi 
+      repugna<lb ed="#P" n="81" break="no"/>re non repugnant, &amp; habet sciendam certam de 
+      <lb ed="#P" n="82"/>consequentiis quae ibi fiunt, sicut Filius Dei est 
+      <lb ed="#P" n="83"/>homo, sequutur quod habet animam: &amp; habet 
+      <lb ed="#P" n="84"/>etiam aliquam euidentiam non scientificam, sed 
+      <lb ed="#P" n="85"/>manuductiuam ex aliqua similitudine 
+      creatura<lb ed="#P" n="86" break="no"/>rum de antecedente &amp; consequente quae sunt in 
+      <lb ed="#P" n="87"/>Theologia: ideo large dicitur scientia. Dicitur 
+      <lb ed="#P" n="88"/>autem magis scientia subalterna quam alia. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1567">
+               <lb ed="#P" n="89"/>Ad cuius euidentiam sciendum est, quod vna 
+      <lb ed="#P" n="90"/>sclentia (vt large accipiamus scientiam) potest 
+      <lb ed="#P" n="91"/>subalternari alteri dupliciter: vno modo ex parte 
+      <lb ed="#P" n="92"/>scibilis; sicut subalternatur perspectiua 
+      Geome<lb ed="#P" n="93" break="no"/>triae, &amp; haec est proptiè subalternatio scientiae ad 
+      <lb ed="#P" n="94"/>scientiam: alio modo potest ista subalternatio esse 
+      <lb ed="#P" n="95"/>ex parte scientis, sicut quando aliquis nihil videt 
+      <lb ed="#P" n="96"/>de re nisi quantum ei dicitur ab alio: &amp; sic proprie 
+      <lb ed="#P" n="97"/>subalternatur scientiae fides: non autem scientia 
+      <lb ed="#P" n="98"/>proprie dicta: &amp; sic Theologia nostra 
+      subalterna<lb ed="#P" n="99" break="no"/>tur scientiae beatorum: quia de Theologicis puris 
+      <lb ed="#P" n="100"/>nil possumus scire, nisi quantum nobis dicitur ab 
+      <lb ed="#P" n="101"/>alio; quia non possunt inueniri per 
+      inuestigatio<lb ed="#P" n="102" break="no"/>nem humanam, &amp; sic dicitur large Theologia 
+      <lb ed="#P" n="103"/>scientia subalterna: quia magis conuenit cum 
+      su<lb ed="#P" n="104" break="no"/>balternis quam cum aliis. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1604">
+               <lb ed="#P" n="105"/>Ad primum in oppositum, dicendum est quod 
+      <lb ed="#P" n="106"/>quidam dicunt quod bene possumus habere 
+      scien<lb ed="#P" n="107" break="no"/>tiam quod ea quae sunt in scriptura sacra sint dicta 
+      <lb ed="#P" n="108"/>a Deo: Sed non habetur scientia de iis quod ita 
+      <lb ed="#P" n="109"/>sint vt dicunt. Sed istud est impossibile, quia 
+      cer<lb ed="#P" n="110" break="no"/>tum est Deum non posse falsum dicere. Et ideo si 
+      <lb ed="#P" n="111"/>sciremus quod essent dicta a Deo, sciremus ea esse 
+      <lb ed="#P" n="112"/>vera: Licet autem multa possent adduci contra 
+      <lb ed="#P" n="113"/>hoc, supersedeo propter prolixitatem. Ad 
+      Ma<lb ed="#P" n="114" break="no"/>iorem tantum dicendum est, quod damnati licet 
+      <lb ed="#P" n="115"/>non possint tantum quantum viator fidelis 
+      quan<lb ed="#P" n="116" break="no"/>tum ad merendum vel quantum ad 
+      promptitudi<lb ed="#P" n="117" break="no"/>nem animi ad assentiendum non visis: tamen de 
+      <lb ed="#P" n="118"/>aliquibus possunt habere euidentiam, de quibus 
+      <lb ed="#P" n="119"/>fidelis viator non potest; sicut de poenis 
+      damnato<lb ed="#P" n="120" break="no"/>rum quas manifeste experiuntur praecipue 
+      daemo<lb ed="#P" n="121" break="no"/>nes, nam multa sciunt quae non potest viator 
+      fide<lb ed="#P" n="122" break="no"/>lis secundum communem cursum attingere, 
+      ha<lb ed="#P" n="123" break="no"/>bendo de eis euidentiam: &amp; ideo non oportet si 
+      <lb ed="#P" n="124"/>habent euidentiam de aliquibus quae pertinent ad 
+      <lb ed="#P" n="125"/>fidem, quod haec fidelis habcat. Ad Minorem 
+      <lb ed="#P" n="126"/>etiam potest dici quod daemones credunt non 
+      pro<lb ed="#P" n="127" break="no"/>pter scientificam euidentiam, sed propter 
+      conie<lb ed="#P" n="128" break="no"/>cturam ex aliquibus signis: sicut &amp; infideles 
+      pos<lb ed="#P" n="129" break="no"/>sunt habere coniecturam de veritate fidei propter 
+      <lb ed="#P" n="130"/>signa quae quandoque vident. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1663">
+               <lb ed="#P" n="131"/>Ad secundum, dicendum quod subiectum 
+      scien<lb ed="#P" n="132" break="no"/>tiae &amp; perfecte &amp; imperfecte cognitum habet 
+      ra<lb ed="#P" n="133" break="no"/>tionem obiecti: &amp; quando dicitur, quod quando 
+      <lb ed="#P" n="134"/>est perfecte cognitum habet rationem finis: dico 
+      <lb ed="#P" n="135"/>quod verum est, &amp; cum hoc habet rationem 
+      ob<lb ed="#P" n="136" break="no"/>iecti. Vnde sciendum est quod duplex est finis: 
+      <lb ed="#P" n="137"/>scilicet res quam quis assequitur, &amp; ipsa assequutio 
+      <lb ed="#P" n="138"/>rei; sicut finis auaritiae est pecunia vt res, &amp; 
+      pos<lb ed="#P" n="139" break="no"/>sessio vt assequtio rei. Sic etiam obiectum est finis 
+      <lb ed="#P" n="140"/>scientiae, vt res quam quis assequitur per scientiam: 
+      <!--6.xml-->
+      <pb ed="#P" n="6"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sed cognitio obiecti est finis vt assequutio rei. Nec 
+      <lb ed="#P" n="2"/>quando perfecte cognoscitur amittit rationem 
+      <lb ed="#P" n="3"/>obiecti: quia de ratione omnis cognitionis est 
+      ha<lb ed="#P" n="4" break="no"/>bere obiectim. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1702">
+               <lb ed="#P" n="5"/>Ad tertium, dicendum quod rationes quae 
+      ad<lb ed="#P" n="6" break="no"/>ducuntur contra ea quae sunt Theologiae, possunt 
+      <lb ed="#P" n="7"/>peccare in forma vel in materia. Si peccent in 
+      for<lb ed="#P" n="8" break="no"/>ma, bene potest constare illi qui habet scientiam 
+      <lb ed="#P" n="9"/>Libri Elenchorum: quia potest videre quod non 
+      <lb ed="#P" n="10"/>est ibi debita forma syllogisandi. Si autem peccet 
+      <lb ed="#P" n="11"/>in materia; &amp; alius respondeat interimendo: vt 
+      <lb ed="#P" n="12"/>si quis dicat quod vna essentia numero non potest 
+      <lb ed="#P" n="13"/>esse tres personae siue tria supposita; &amp; alius 
+      di<lb ed="#P" n="14" break="no"/>cat quod hoc non habet veritatem in Diuinis: 
+      ta<lb ed="#P" n="15" break="no"/>lis non habet scientiam de hoc quod assumit in 
+      sol<lb ed="#P" n="16" break="no"/>uendo, sed tantum fidem: vnde sicut sola fide 
+      te<lb ed="#P" n="17" break="no"/>net Deum esse trinum &amp; vnum, ita sola fide tenet 
+      <lb ed="#P" n="18"/>certitudinaliter id quod assumit in soluendo. Et 
+      <lb ed="#P" n="19"/>quando dicunt quidam Doctores, quod constat 
+      <lb ed="#P" n="20"/>quod ea quae adducuntur contra fidem sunt 
+      solu<lb ed="#P" n="21" break="no"/>bilia: dicendum quod verum est quod hoc 
+      con<lb ed="#P" n="22" break="no"/>stat fide, non autem scientia: quia propter hoc 
+      di<lb ed="#P" n="23" break="no"/>cunt quod constat alia esse solubilia, quia fidei 
+      <lb ed="#P" n="24"/>non potest subesse falsum: constat antem; quod 
+      <lb ed="#P" n="25"/>sola fide constat nobis fidei non subesse falsum, 
+      <lb ed="#P" n="26"/>qua de hoc non habemus scientiam. 
+      </p>
+            <p xml:id="hx2hx3-a00003-d1e1752">
+               <lb ed="#P" n="27"/>Ad quartum, dicendum quod Maior est falsa 
+      <lb ed="#P" n="28"/>quia sicut lumen fidei &amp; lumen gloriae non sunt 
+      <lb ed="#P" n="29"/>idem lumen specie: ita nec Theologia viae &amp; 
+      <lb ed="#P" n="30"/>Theologia patriae sunt habitus idem specie. Ad 
+      <lb ed="#P" n="31"/>probationern dicendum, quod manente eodem 
+      <lb ed="#P" n="32"/>obiecto formali, &amp; eodem lumine, &amp; eodem 
+      me<lb ed="#P" n="33" break="no"/>dio cognoscendi, est idem habituis specie: sed 
+      ma<lb ed="#P" n="34" break="no"/>nente eodem obiecto formali, dummodo sit aliud 
+      <lb ed="#P" n="35"/>lumen vel medium cognoscendi, non oportet 
+      <lb ed="#P" n="36"/>quod sit idem habitus specie. Vnde credo quod sit 
+      <lb ed="#P" n="37"/>idem obiectum formale visionis qua Deus se videt, 
+      <lb ed="#P" n="38"/>&amp; visionis qua alii beati vident eum: nec tamen 
+      <lb ed="#P" n="39"/>illae visiones sunt eiusdem speciei, cum vna sit 
+      <lb ed="#P" n="40"/>creata &amp; alia increata. Vnde scientiae possunt 
+      dif<lb ed="#P" n="41" break="no"/>ferre non solum penes obiecta formalia, sed 
+      <lb ed="#P" n="42"/>etiam penes lumina &amp; media. De subiecto &amp; 
+      sub<lb ed="#P" n="43" break="no"/>alternatione sufficit quod alibi dictum est. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

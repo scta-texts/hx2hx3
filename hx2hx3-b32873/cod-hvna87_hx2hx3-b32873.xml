@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="100"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b32873"><!-- l1d17q7 -->
+            <head xml:id="hx2hx3-b32873-Hd1e99">Quaestio 7</head>
+            <head xml:id="hx2hx3-b32873-Hd1e101" type="question-title">Utrum charitas possit diminui</head>
+            <p xml:id="hx2hx3-b32873-d1e104">
+      <!--100.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="68"/>QVAESTIO SEPTIMA. 
+      <lb ed="#P" n="69"/>DEinde, quaeritur vtrum charitas possit 
+      mi<lb ed="#P" n="70" break="no"/>nui. 
+      </p>
+            <p xml:id="hx2hx3-b32873-d1e117">
+               <lb ed="#P" n="71"/>Ad hoc dicendum, quod videtur satis 
+      pro<lb ed="#P" n="72" break="no"/>babile quod non minuatur in se, licet possit eius 
+      <lb ed="#P" n="73"/>feruor, siue effectus minui: quia per peccatum 
+      <lb ed="#P" n="74"/>mortale non minuitur, sed tollitur. Per veniale 
+      <lb ed="#P" n="75"/>autem non minuitur tum quia venialo non est 
+      res<lb ed="#P" n="76" break="no"/>pectu finis, respectu cuius est directe charitas, tum 
+      <lb ed="#P" n="77"/>quia nullum veniale est tantae offensae, quod 
+      me<lb ed="#P" n="78" break="no"/>reatur homo per ipsum pati aliquod detrimentum 
+      <lb ed="#P" n="79"/>in charitate quae secundum se, &amp; secundum 
+      om<lb ed="#P" n="80" break="no"/>nem gradum in infinitum excedit quodcunque 
+      ve<lb ed="#P" n="81" break="no"/>niale. Tum quia si veniale diminueret possent 
+      <lb ed="#P" n="82"/>tantum venialia multiplicari, quod finaliter per 
+      <lb ed="#P" n="83"/>sola venialia totaliter tolleretur: quod est 
+      incon<lb ed="#P" n="84" break="no"/>ueniens. Ad istud autem vltimum quod tamen 
+      <lb ed="#P" n="85"/>mihi videtur difficilius, dicunt quidam quod 
+      ali<lb ed="#P" n="86" break="no"/>quis potest toties iterare venialia quod talem 
+      dis<lb ed="#P" n="87" break="no"/>positionem causabunt in ipso, quod si procedat 
+      <lb ed="#P" n="88"/>vltra secundum dispositionem illam non poterit 
+      <lb ed="#P" n="89"/>exire in actum, quin incidat in talem contemptu, 
+      <lb ed="#P" n="90"/>&amp; talem libidinem improbam quae sit peccatum 
+      <lb ed="#P" n="91"/>mortale. 
+      </p>
+            <p xml:id="hx2hx3-b32873-d1e165">
+               <lb ed="#P" n="92"/>Sed hoc non videtur sufficere. Primo, quia 
+      <lb ed="#P" n="93"/>cum homo sit dominus suorum actuum, nec sit 
+      <lb ed="#P" n="94"/>necessarium ipsum sequi inclinationem sui 
+      habi<lb ed="#P" n="95" break="no"/>tus, vel dispositionis quantumcunque frequenter 
+      <lb ed="#P" n="96"/>iteret venialia, &amp; habeat inordinatam 
+      dispositio<lb ed="#P" n="97" break="no"/>nem ex eis generatam, nam oportet quod sic 
+      pec<lb ed="#P" n="98" break="no"/>cet mortaliter, imo poterit vel non peccare, vel 
+      <lb ed="#P" n="99"/>peccare venialiter. Secundo, quia quaedam sunt 
+      <lb ed="#P" n="100"/>venialia, quae non sunt ad plenum in potestate 
+      no<lb ed="#P" n="101" break="no"/>stra: talia autem possunt euenire homini 
+      qualiter<lb ed="#P" n="102" break="no"/>cunque per alia venialia disposito, vel etiam per 
+      <lb ed="#P" n="103"/>mortalia. Ergo nullus ita disponitur per venialia 
+      <lb ed="#P" n="104"/>quod oportet ipsum si peccet peccare mortaliter: 
+      <lb ed="#P" n="105"/>&amp; per consequens non est dare tantum processum 
+      <lb ed="#P" n="106"/>in venialibus, quin contingat procedere plus in 
+      <lb ed="#P" n="107"/>eis, sine aliquo peccato mortali. Primus 
+      opposi<lb ed="#P" n="108" break="no"/>tum supponit alia ratio. Tertio, quia dato quod 
+      <lb ed="#P" n="109"/>venialia non procederent in infinitum, adhuc 
+      ra<lb ed="#P" n="110" break="no"/>tio stat: quia quidquid sit de hoc nullus potest 
+      ne<lb ed="#P" n="111" break="no"/>gare quin ista consequentia sit vera si venialia 
+      di<lb ed="#P" n="112" break="no"/>minuunt charitatem, venialibus multiplicatis in 
+      <lb ed="#P" n="113"/>infinitum necessario finaliter totaliter tolletur 
+      cha<lb ed="#P" n="114" break="no"/>ritas per sola venialia. Sed consequens est falsum 
+      <lb ed="#P" n="115"/>scilicet charitatem posse tolli per sola venialia. 
+      <lb ed="#P" n="116"/>Ergo &amp; antecedens, scilicet charitatem posse 
+      di<lb ed="#P" n="117" break="no"/>minui per venialia: 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

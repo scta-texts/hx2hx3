@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="342"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c15469"><!-- l4d8q2 -->
+            <head xml:id="hx2hx3-c15469-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-c15469-Hd1e101" type="question-title">Circa formam sanguinis</head>
+            <p xml:id="hx2hx3-c15469-d1e104">
+               <lb ed="#P" n="64"/>QVAESTIO SECVNDA.
+      </p>
+            <p xml:id="hx2hx3-c15469-d1e109">
+               <lb ed="#P" n="65"/>SEcundo. Circa formam sanguinis. 
+      <lb ed="#P" n="66"/>vbi sciendum, quod aliqui dicunt quod de 
+      <lb ed="#P" n="67"/>forma non sunt nisi haec verba, hic est calix 
+      San<lb ed="#P" n="68" break="no"/>ginis mei. Et ex iis verbis prolatis solum est ibi 
+      <!--342.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>Sanguinis Christi. 
+      </p>
+            <p xml:id="hx2hx3-c15469-d1e127">
+               <lb ed="#P" n="70"/>Alii vero dicunt, quod de forma est totum 
+      <lb ed="#P" n="71"/>quicquid sequitur vsque ibi in remissionem 
+      pec<lb ed="#P" n="72" break="no"/>catorum inclusiue. Ratio primae opinionis est 
+      <lb ed="#P" n="73"/>ista, quia verba efficiunt quod figurant: sed haec 
+      <lb ed="#P" n="74"/>sola verba, scilicet hic est calix Sanguinis mei, sine 
+      <lb ed="#P" n="75"/>aliis significant Sanguinem Christi ihi esse 
+      con<lb ed="#P" n="76" break="no"/>tentum. Ergo, &amp;c. Ratio secundae opinionis 
+      <lb ed="#P" n="77"/>est quod in oratione in qua aliquod praedicatum 
+      <lb ed="#P" n="78"/>accipitur cum aliqua determinatione, 
+      determi<lb ed="#P" n="79" break="no"/>natio praedicati est de integritate orationis. Vnde 
+      <lb ed="#P" n="80"/>si dicam Socrates est homo albus, haec oratio non 
+      <lb ed="#P" n="81"/>habet completam significationem nisi expresso 
+      <lb ed="#P" n="82"/>albo vnam cum homine. Cum ergo quicquid 
+      poni<lb ed="#P" n="83" break="no"/>tur post illa verba vsque ibi in remissionem 
+      pecca<lb ed="#P" n="84" break="no"/>torum fit determinatio praedicati, oratio non 
+      ha<lb ed="#P" n="85" break="no"/>bet completam significationem enisi cum totum 
+      <lb ed="#P" n="86"/>illud est prolatum, nec per consequens 
+      effica<lb ed="#P" n="87" break="no"/>ciam. Nec hic dicitur quod haec oratio hic est 
+      ca<lb ed="#P" n="88" break="no"/>lix Sanguinis mei, si per se accipiatur non possit 
+      ha<lb ed="#P" n="89" break="no"/>bere significationem completam: sed hoc ideo 
+      <lb ed="#P" n="90"/>dicitur quod si cum hac oratione hic calix 
+      Sangui<lb ed="#P" n="91" break="no"/>nis mei accipiatur, quod sequitur non pocest esse 
+      <lb ed="#P" n="92"/>quod faciantdistinctos sensus perfectos: quia quod 
+      <lb ed="#P" n="93"/>sequitur non potest facere aliquem sensum 
+      per<lb ed="#P" n="94" break="no"/>fectum nisi vt determinatio praecedentis, sicur 
+      <lb ed="#P" n="95"/>etiam licet Socrates est homo si per se accipiatur 
+      <lb ed="#P" n="96"/>habet significationem perfectam, tamen si 
+      dica<lb ed="#P" n="97" break="no"/>tur Socrates est homo albus, non potest esse quod 
+      <lb ed="#P" n="98"/>vna pars, puta Socrates est homo &amp; alia, scilicet, 
+      <lb ed="#P" n="99"/>albus, faciant duos sensus distinctos: imo totum 
+      <lb ed="#P" n="100"/>facit vnum sensum completum. Vnde etiam &amp; si 
+      <lb ed="#P" n="101"/>Christus dixisset &amp; deinde instituisset, Hoc est 
+      <lb ed="#P" n="102"/>Corpus meum natum de Virgine, Ly natum de 
+      <lb ed="#P" n="103"/>Virgine fuisset de forma sacramenti, tamen 
+      quic<lb ed="#P" n="104" break="no"/>quid sit de veritate tutius est tenere viam vltimam, 
+      <lb ed="#P" n="105"/>&amp; sacerdos semper debet totum proferre sub vna 
+      <lb ed="#P" n="106"/>intentione vsque ibi, in remissionem peccatorum 
+      <lb ed="#P" n="107"/>inclusiue. Et si ex proposito interrumperet 
+      in<lb ed="#P" n="108" break="no"/>tentionem suam, peccaret grauiter, quia 
+      commu<lb ed="#P" n="109" break="no"/>nis vsus Ecclesiae habet quod calix non eleuatur, 
+      <lb ed="#P" n="110"/>nec deponitur nisi omnibus illis verbis dictis. 
+      In<lb ed="#P" n="111" break="no"/>telligendum est post praemissa, hic est calix 
+      San<lb ed="#P" n="112" break="no"/>guinis mei. Congrue autem subditur noui &amp; aeter. 
+      <lb ed="#P" n="113"/>ni testamenti, quia in Sanguine magis 
+      significa<lb ed="#P" n="114" break="no"/>tur passio quam in corpore, &amp; maxime in Sangum 
+      <lb ed="#P" n="115"/>ne effuso in quo intelligitur vulneratio. Et 
+      signi<lb ed="#P" n="116" break="no"/>ficant dicta verba triplicem effectum Passionis 
+      <lb ed="#P" n="117"/>Christi. 
+      </p>
+            <p xml:id="hx2hx3-c15469-d1e235">
+               <lb ed="#P" n="118"/>Primo, glorificationem futuram, quod 
+      no<lb ed="#P" n="119" break="no"/>tatur cum dicitur noui &amp; aeterni testamenti, quia 
+      <lb ed="#P" n="120"/>testamentum est collatio haereditatis haeredibus 
+      <lb ed="#P" n="121"/>quod hic ipse disposuit. Dicitur autem 
+      testamen<lb ed="#P" n="122" break="no"/>tum nouum quantum ad institutionem, aeternum 
+      <lb ed="#P" n="123"/>quantum ad haereditatem aeternam habendam. 
+      </p>
+            <p xml:id="hx2hx3-c15469-d1e251">
+               <lb ed="#P" n="124"/>Secundo, significat institutionem fidelium 
+      <lb ed="#P" n="125"/>cum dicitur misterium fidei, id est, obiectum 
+      so<lb ed="#P" n="126" break="no"/>la fide iustificante creditum. Et dicitur misterium 
+      <lb ed="#P" n="127"/>non per oppositionem ad veritatem, ita quod 
+      <lb ed="#P" n="128"/>Corpus Christi non sitibi: sed per oppositionem 
+      <lb ed="#P" n="129"/>ad manifestum, quia est ibi obiectum occultum 
+      <lb ed="#P" n="130"/>vt dictum est. 
+      </p>
+            <p xml:id="hx2hx3-c15469-d1e269">
+               <lb ed="#P" n="131"/>Tertio, significat remissionem peccatorum, 
+      <lb ed="#P" n="132"/>cum dicitur remissionem peccatorum. Et hoc 
+      <lb ed="#P" n="133"/>omnibus quantum ad sufficientiam: fed solum 
+      <lb ed="#P" n="134"/>bonis quantum ad efficaciam pro nobis, quod ibi 
+      <lb ed="#P" n="135"/>ponitur refertur ad Iudeos, per ly multis ad 
+      agen<lb ed="#P" n="136" break="no"/>tiles. Quare autem non dicitur in consecratione 
+      <lb ed="#P" n="137"/>Sanguinis hic est Sanguis meus, sicut in 
+      consecra<lb ed="#P" n="138" break="no"/>tione corporiadicitur hoc est corpus meum: sed 
+      <!--343.xml-->
+      <pb ed="#P" n="343"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>drcitur hic est calix Sanguinis mei. Potest esse 
+      <lb ed="#P" n="2"/>ratio, quia hoc sacramento vtimur per modum 
+      ci<lb ed="#P" n="3" break="no"/>bi &amp; potus. Modo corpus habet rationem cibi, &amp; 
+      <lb ed="#P" n="4"/>ideo dicitur hoc est corpus meum. Sanguis autem 
+      <lb ed="#P" n="5"/>non habet rationem potus: sed natura abhorret. 
+      <lb ed="#P" n="6"/>Et ideo non dicitur hic est Sanguis meus: sed hic 
+      <lb ed="#P" n="7"/>est calix Sanguinis mei, ita quod accipitur 
+      con<lb ed="#P" n="8" break="no"/>tinens pro contento, sicut si diceretur bibe 
+      ci<lb ed="#P" n="9" break="no"/>phum vini vel contentum in cipho. 
+      </p>
+            <p xml:id="hx2hx3-c15469-d1e315">
+               <lb ed="#P" n="10"/>Notandum etiam, quod hoc sacramentum 
+      <lb ed="#P" n="11"/>dicitur Hostia, id est, immolatio vel oblatio, 
+      in<lb ed="#P" n="12" break="no"/>quantum continet Christum passum. Dicitur 
+      Eu<lb ed="#P" n="13" break="no"/>charistia, id est, bona gratia, inquantum 
+      conti<lb ed="#P" n="14" break="no"/>net Christum fontem gratiae: imo omnem 
+      gra<lb ed="#P" n="15" break="no"/>tiam. Dicitur communio, inquantum vnit 
+      fide<lb ed="#P" n="16" break="no"/>les Deo &amp; inter se inuicem. Dicitur viaticum 
+      in<lb ed="#P" n="17" break="no"/>quantum praefigurat illam viam eaelestem, &amp; 
+      du<lb ed="#P" n="18" break="no"/>cit ad eam. 
+      </p>
+            <p xml:id="hx2hx3-c15469-d1e337">
+               <lb ed="#P" n="19"/>Notandum etiam, quod aqua in hoc 
+      sacra<lb ed="#P" n="20" break="no"/>mento non est de necessitate sacramenti: sed de 
+      <lb ed="#P" n="21"/>necessitate praecepti, &amp; in significationem aquae 
+      <lb ed="#P" n="22"/>effusae de latere Christi. Quae sacramenta 
+      fue<lb ed="#P" n="23" break="no"/>runt figurata in lege veteri &amp; quae non, &amp; 
+      quomo<lb ed="#P" n="24" break="no"/>do, &amp; qua ratione, quaere in scriptis sancti 
+      Tho<lb ed="#P" n="25" break="no"/>maede Aquino. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

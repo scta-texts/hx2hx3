@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="207"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b69119"><!-- l2d2q3 -->
+            <head xml:id="hx2hx3-b69119-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-b69119-Hd1e101" type="question-title">Utrum in aevo sit successio</head>
+            <p xml:id="hx2hx3-b69119-d1e104">
+               <lb ed="#P" n="27"/>Distinctio, secunda. 
+      <lb ed="#P" n="28"/>QVAESTIO TERTIA.
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e111">
+               <lb ed="#P" n="29"/>TErtio quaeritur, vtrum in aeuo sit successio? 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e116">
+               <lb ed="#P" n="30"/>Et arguitur, quod sic, quia si in aeuo non sit 
+      <lb ed="#P" n="31"/>successio, sequeretur quod in Angelo non 
+      differ<lb ed="#P" n="32" break="no"/>rent fuisse, &amp; esse, &amp; futurum esse. Sed hoc est 
+      <lb ed="#P" n="33"/>falsum, quia sequeretur quod sicut non potest non 
+      <lb ed="#P" n="34"/>fuisse, ita non posset non futurum esse: &amp; sic non&amp; 
+      <lb ed="#P" n="35"/>posset annihilari. 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e133">
+               <lb ed="#P" n="36"/>Si dicatur, quod in Angelo secundum se non 
+      dif<lb ed="#P" n="37" break="no"/>ferunt fuisse, &amp; fore, sed per comparationem ad 
+      <lb ed="#P" n="38"/>tempus extra. 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e142">
+               <lb ed="#P" n="39"/>Contra. Circumscripto quocunque diuerso ab 
+      <lb ed="#P" n="40"/>Angelo, Deus posset annihilare Angelum, &amp; 
+      crea<lb ed="#P" n="41" break="no"/>re: aut ergo in eodem nunc crearet, &amp; annihilaret, 
+      <lb ed="#P" n="42"/>aut in alio &amp; alio. Si eodem nunc, tunc Angelus 
+      <lb ed="#P" n="43"/>similiter efset, &amp; non esset, quod est impossibile. 
+      <lb ed="#P" n="44"/>Si in alio: ergo sequitur quod in aeuo sit successio. 
+      <lb ed="#P" n="45"/>Item vnum aeuiternum est prius alio: sicut 
+      Ange<lb ed="#P" n="46" break="no"/>lus est prius creatus quam anima, &amp; posset etiam 
+      <lb ed="#P" n="47"/>prius creari quam anima, circumscripto tempore. 
+      <lb ed="#P" n="48"/>Sed non esset hoc, nisi esset successio inaeuo. 
+      Er<lb ed="#P" n="49" break="no"/>go, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e168">
+               <lb ed="#P" n="50"/>Contra. In hoc differt aeuum a tempore quod 
+      <lb ed="#P" n="51"/>non importat successionem sicut tempus. Quia 
+      <lb ed="#P" n="52"/>omne quod succesfionem importat, est tempus. 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e177">
+               <lb ed="#P" n="53"/>Respondeo circa istam quaestionem, 
+      distin<lb ed="#P" n="54" break="no"/>guendum est quomodo alicui conuenit successio. 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e184">
+               <lb ed="#P" n="55"/>Dupliciter ergo successio potest conuenire aeuo, 
+      <lb ed="#P" n="56"/>vel illicutus aeuum est mensura: vno modo quod 
+      <lb ed="#P" n="57"/>in ipso aeuo intranee sit successio: ita quod ipsum 
+      <lb ed="#P" n="58"/>aeuum habeat partes succedentes sibi. Et hoc est 
+      <lb ed="#P" n="59"/>imposs ibile: quia omnis actus qui mensuratur 
+      menm<lb ed="#P" n="60" break="no"/>sura quanta &amp; successiua, habet necessariam 
+      lati<lb ed="#P" n="61" break="no"/>tudinem, &amp; eius mensura est tempus: &amp; 
+      secun<lb ed="#P" n="62" break="no"/>dum talem actum, natum est aliquid moueri. Sed 
+      <lb ed="#P" n="63"/>actus quem mensurat aeuum qui est actus essendi 
+      <lb ed="#P" n="64"/>aeuiterni, est indiuisibilis, nec secundum ipsum 
+      <lb ed="#P" n="65"/>natum est aliquid moueri, nec eius mensura 
+      po<lb ed="#P" n="66" break="no"/>test esse tempus: alioquin idem esset realiter 
+      tem<lb ed="#P" n="67" break="no"/>pus &amp; aeuum. Ergo imposs ibile est in aeuo intranee 
+      <!--207.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="68"/>esse succestionem Alio modo potest inter 
+      <lb ed="#P" n="69"/>quod successso conueniat aeuo sic, quod aeuum 
+      <lb ed="#P" n="70"/>succedat cuidam alteri, &amp; aliud sibi. Et sic dicunt 
+      <lb ed="#P" n="71"/>quidam, quod successio conuenit aeuo, &amp; conue 
+      <lb ed="#P" n="72"/>nire potest. Nam aeuum &amp; aeuiternum potest 
+      ha<lb ed="#P" n="73" break="no"/>bere esse post non esse, &amp; sic potest succedere ipsi 
+      <lb ed="#P" n="74"/>non esse, &amp; non esse potest ei succedere, si 
+      pona<lb ed="#P" n="75" break="no"/>tur annihilari. Et similiter sicut in arguendo tactu 
+      <lb ed="#P" n="76"/>est, vnum aeuiternum non potest succedere 
+      al<lb ed="#P" n="77" break="no"/>teri. 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e241">
+               <lb ed="#P" n="78"/>Hoc autem sicut iacet, non videtur milii verum. 
+      <lb ed="#P" n="79"/>scilicer, quod aeuo nata sit conuenire successin: sic 
+      <lb ed="#P" n="80"/>quod habere poss it per se ordinem ad aliquid cui 
+      <lb ed="#P" n="81"/>succedat. Et hoc ostendo dupliciter, quia si ita 
+      es<lb ed="#P" n="82" break="no"/>set, tunc aeuum non differtet a nunc tem poris 
+      dis<lb ed="#P" n="83" break="no"/>creti. Sed hoc est inconueniensi Ergo, &amp;c. 
+      Proba<lb ed="#P" n="84" break="no"/>tio assumptae. Nam sicut supra dictum est de 
+      ra<lb ed="#P" n="85" break="no"/>tione nunc temporis discreti, &amp; actus quem 
+      men<lb ed="#P" n="86" break="no"/>surat, est quod sit indiuisibile in se absque 
+      succes<lb ed="#P" n="87" break="no"/>sione intrinseca. Sed in hoc, vt dicebatur, 
+      differe<lb ed="#P" n="88" break="no"/>bat ab aeuo, quia tale indiuisibile, licet n se nomn 
+      ha<lb ed="#P" n="89" break="no"/>beat successionem: tamen per se natum est 
+      succe<lb ed="#P" n="90" break="no"/>dere alteri &amp; aliud sibi. Vnde si istud conuenit 
+      <lb ed="#P" n="91"/>aeuo, non videtur vnde differat a nunc temporis 
+      <lb ed="#P" n="92"/>discreti. 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e277">
+               <lb ed="#P" n="93"/>Secundo idem ostendo ex natura rei quam 
+      men<lb ed="#P" n="94" break="no"/>surat aeuunt: quia quaecunque nata sunt habere 
+      suc<lb ed="#P" n="95" break="no"/>cessionem per se loquendo, non se compatiuntur 
+      <lb ed="#P" n="96"/>simul: imo vno superueniente, aliud cedit. Sed 
+      il<lb ed="#P" n="97" break="no"/>lud quod mensuratur aeuo, habet talem habitudi. 
+      <lb ed="#P" n="98"/>nem ad anliquid. Ergo, &amp;c Probatio minoris: quia 
+      <lb ed="#P" n="99"/>si illud quod mensuratur aeuo est natum per se 
+      suc<lb ed="#P" n="100" break="no"/>cedere alicui; aut illud est non esse, aut aliquid 
+      <lb ed="#P" n="101"/>positiuum, non potest esse non esse simpliciter, 
+      <lb ed="#P" n="102"/>quia ordo realis succedentis &amp; ei cui succeditur, 
+      <lb ed="#P" n="103"/>non potest esse nisi inter posiriua: nihiil autem, vel 
+      <lb ed="#P" n="104"/>non esse non est positiuum. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e306">
+               <lb ed="#P" n="105"/>Quando ergo dicimus, quod Angelus habet 
+      es<lb ed="#P" n="106" break="no"/>se post non esse: ly post non ponit ordinem realem 
+      <lb ed="#P" n="107"/>successionis, sed ponit imaginatum ordinem. Nec 
+      <lb ed="#P" n="108"/>etiam potest esse aliquid positiuum ad quod 
+      aeui<lb ed="#P" n="109" break="no"/>tetnum natum sit habere suecessionem per se. quia 
+      <lb ed="#P" n="110"/>non est aliquid positiuum quod necessanun: si 
+      suc<lb ed="#P" n="111" break="no"/>cedere aeuiterno: nec aeuo necessarium sit 
+      succede<lb ed="#P" n="112" break="no"/>re aeuiternum. Cum enim fit aeuiternum, non ei 
+      <lb ed="#P" n="113"/>cedit aeternum: Sed tota aeternitas stat cum eo; 
+      <lb ed="#P" n="114"/>nec etiam aliud aeuiternum, nec breuiter aliud 
+      dif<lb ed="#P" n="115" break="no"/>rens ab eo supposito: quia quae differunt supposito 
+      <lb ed="#P" n="116"/>se compatiuntur simul, nisi sit repugnantia aliunde. 
+      <lb ed="#P" n="117"/>vnde solum inter illa nata est esse per se successio, 
+      <lb ed="#P" n="118"/>quae sunt opposita &amp; nata esse circa idem esse. In 
+      <lb ed="#P" n="119"/>talibus enim oportet, quod adueniente vno cedat 
+      <lb ed="#P" n="120"/>alterum: subiectum autem actus aeuiterni non est 
+      <lb ed="#P" n="121"/>in potentia ad oppositum eius: &amp; ideo per se non 
+      <lb ed="#P" n="122"/>est natum respicere aliquem vt cui succedat, vel vt 
+      <lb ed="#P" n="123"/>quod sibi succedat: nec habet aptitudinem vt 
+      ce<lb ed="#P" n="124" break="no"/>dat alicui, vel econuerso. Vnde quando dicimus, 
+      <lb ed="#P" n="125"/>quod aeternitas precessit aeuum, vel vnum 
+      aeuiter<lb ed="#P" n="126" break="no"/>num praecedit alterum, non intelligitur successio 
+      <lb ed="#P" n="127"/>per se &amp; proprie dicta. Sic enim aeternitas non 
+      <lb ed="#P" n="128"/>posset esse cum aeuo, &amp; cederet fibi quod est 
+      fal<lb ed="#P" n="129" break="no"/>sum; quia quicquid Deus habuit ab aeterno, simul 
+      <lb ed="#P" n="130"/>est cum aeuo: Sed accipimus ibi secundum 
+      imagi<lb ed="#P" n="131" break="no"/>nationem suecessionem, inquantum imaginamur 
+      <lb ed="#P" n="132"/>non esse aeuiterni quasi coexistere aeternitati 
+      Simi<lb ed="#P" n="133" break="no"/>liter non esse vnius aeuiterni cum esse alterus: cum 
+      <lb ed="#P" n="134"/>tamen non esse proprie nec coexistentiam, nec 
+      <lb ed="#P" n="135"/>praecedentiam habeat ad aliquid. Vnde aeuum 
+      <lb ed="#P" n="136"/>quado fit aeuiternu, magis oportet dici adesse 
+      aeter<lb ed="#P" n="137" break="no"/>nitati per quandam coeristentiam, quam succedere ei,
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e380">
+      <!--208.xml-->
+               <pb ed="#P" n="208"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Ad primum ergo dicendum, quod in aeuo 
+      se<lb ed="#P" n="2" break="no"/>cundum se nec est fore, nec fuisse, sed simpliciter 
+      <lb ed="#P" n="3"/>esse. Sed per quamdam coexistentiam ad tempua 
+      <lb ed="#P" n="4"/>dicitur ibi fore &amp; fuisse: &amp; secundum hoc differt 
+      <lb ed="#P" n="5"/>in aeuiterno fuisse &amp; fore. Vnde licet Deus non 
+      <lb ed="#P" n="6"/>possit facere aeuiternum non fuisse, quia non 
+      po<lb ed="#P" n="7" break="no"/>test facere quod ei non coexisterit tempus 
+      praeteri<lb ed="#P" n="8" break="no"/>tum: posset tamen facere non fore, quia posset 
+      <lb ed="#P" n="9"/>facere ipsum non esse cum tempore futuro. Sed 
+      <lb ed="#P" n="10"/>hoc non est propter successionem aeui cui coexstit. 
+      <lb ed="#P" n="11"/>Sed sine tempore bene posset facere Angelum 
+      <lb ed="#P" n="12"/>esse &amp; non esse: hoc tamen sine sucdessione: sicut 
+      <lb ed="#P" n="13"/>patet in solutione sequentis argumenti. 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e417">
+               <lb ed="#P" n="14"/>Ad secundum dicendum, quod si Deus 
+      cir<lb ed="#P" n="15" break="no"/>cumscripto omni tempore extrinsecus existente 
+      <lb ed="#P" n="16"/>crearet &amp; annihilaret Angelum non annihilaret 
+      <lb ed="#P" n="17"/>eum in eodem instanti siue nunc in quo creatus 
+      es<lb ed="#P" n="18" break="no"/>set, nec in alio: quia annihilatio in nullo nunc esta 
+      <lb ed="#P" n="19"/>sicut non esse simpliciter non est. Nam 
+      annihila<lb ed="#P" n="20" break="no"/>tio non dicit aliquid positiuum: sed dicit 
+      sub<lb ed="#P" n="21" break="no"/>tractionem influentiae diuinae &amp; desitionem ipsius 
+      <lb ed="#P" n="22"/>esse, vt desitio non sit successiue tendere ad non 
+      es<lb ed="#P" n="23" break="no"/>se futurum, sed primo non esse: ita tamen quod 
+      <lb ed="#P" n="24"/>etiam primo accipiatur non positiue. Non erit 
+      er<lb ed="#P" n="25" break="no"/>go simul creatio &amp; annihilatio, non quia sint in 
+      <lb ed="#P" n="26"/>diuersis instantibus: sed quia vnum eorum est in 
+      <lb ed="#P" n="27"/>quodam, &amp; aliud in nullo. 
+      </p>
+            <p xml:id="hx2hx3-b69119-d1e450">
+               <lb ed="#P" n="28"/>Ad tertium patet ex dictis in quaestione. 
+      <lb ed="#P" n="29"/>E2 quatuor quidem Ingelit vidintur esset 
+      <lb ed="#P" n="30"/>attributa in initio subsistentiae suae, scihicer 
+      <lb ed="#P" n="31"/>essentia simpliciter, idest, indiuisibilit &amp; 
+      <lb ed="#P" n="32"/>vnmaterialit &amp; disererio personali, &amp;c. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

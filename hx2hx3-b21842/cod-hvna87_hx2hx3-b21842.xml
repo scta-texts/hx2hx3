@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="67"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b21842"><!-- l1d10q1 -->
+            <head xml:id="hx2hx3-b21842-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b21842-Hd1e101" type="question-title">Utrum spiritus sanctus procedat per modum voluntatis</head>
+            <p xml:id="hx2hx3-b21842-d1e104">
+               <lb ed="#P" n="83"/>Nunc post filii eeternitatem, de Spiritu 
+      <lb ed="#P" n="84"/>fancto quantum Den donante, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e111">
+               <lb ed="#P" n="85"/>Distinctio decima. 
+      <lb ed="#P" n="86"/>QVESTIO PRIMA
+      <lb ed="#P" n="87"/>Circa decimam distinctionem primo.
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e120">
+               <lb ed="#P" n="88"/>QVaeritur vtrum Spiritus sanctus procedat 
+      <lb ed="#P" n="89"/>per modum voluntatis: &amp; arguitur quod 
+      <lb ed="#P" n="90"/>non quia illud quod producitur ab agente 
+      ne<lb ed="#P" n="91" break="no"/>cessario agente &amp; ex proprietate naturae necessa 
+      <lb ed="#P" n="92"/>rio determinato ad vnum scilicet necessario 
+      pro<lb ed="#P" n="93" break="no"/>ducendum, ita quod suus actus non est in potestate 
+      <lb ed="#P" n="94"/>sua, tale producitur naturaliter, &amp; per modum 
+      <lb ed="#P" n="95"/>naturae. Sed sic producitur Spiritus sanctus: 
+      Er<lb ed="#P" n="96" break="no"/>go, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e143">
+               <lb ed="#P" n="97"/>Praeterea si Spiritus sanctus procedit ter modum 
+      <lb ed="#P" n="98"/>voluntatis, auc hoc est prout voluntas est natura: 
+      <lb ed="#P" n="99"/>aut prout voluntas distinguitur contaa naturam, 
+      <lb ed="#P" n="100"/>re vel ratione: si primo modo contra, quia. 
+      Pro<lb ed="#P" n="101" break="no"/>cedere per modum voluntatis vt voluntas est 
+      na<lb ed="#P" n="102" break="no"/>tura, est procedere per modum naturae, quia 
+      pro<lb ed="#P" n="103" break="no"/>cedere per modum alicuius prout illud est natura, 
+      <lb ed="#P" n="104"/>idem est quod procedere per modum naturae, 
+      <lb ed="#P" n="105"/>Sed in procedendo per modum naturae: nondit. 
+      <lb ed="#P" n="106"/>fert a filio: Ergo nec in procedendo sic per 
+      mo<lb ed="#P" n="107" break="no"/>dum voluntatis. Si secundo modo, tunc cum 
+      vo<lb ed="#P" n="108" break="no"/>luntas in hoc distinguitur a natura, quia est ad 
+      <lb ed="#P" n="109"/>oposita; natura vero ad vnun solum, tunc 
+      seque<lb ed="#P" n="110" break="no"/>tur quod producens Spiritum sanctum sit 
+      indi<lb ed="#P" n="111" break="no"/>ferens ad opposita; &amp; possit producere, &amp; non 
+      <lb ed="#P" n="112"/>producere: &amp; per consequens, erit contingens, 
+      <lb ed="#P" n="113"/>quod est absurdum. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e182">
+               <lb ed="#P" n="114"/>In contnrarium est Magister.
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e187">
+               <lb ed="#P" n="115"/>REspondeo, quia tota difficultas istius 
+      quae<lb ed="#P" n="116" break="no"/>stionis est, in videndo quomodo aliqua per 
+      <lb ed="#P" n="117"/>sona procedit per modum voluntatis in diuinis: 
+      <lb ed="#P" n="118"/>Ideo circa hoc est insistendum: primo ergo 
+      ponen<lb ed="#P" n="119" break="no"/>tur positiones quas non credo esse veras: secundo 
+      <lb ed="#P" n="120"/>ponetur positio quae videtur mihi vera. Tertio 
+      <lb ed="#P" n="121"/>ponentur quaedam difficultates quae sunt circa hoc 
+      <lb ed="#P" n="122"/>&amp; soluuntur, quarto ex his patebit faciliter rropo. 
+      <lb ed="#P" n="123"/>situm. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e209">
+               <lb ed="#P" n="124"/>Quantum ad primum sciendum quod 
+      perso<lb ed="#P" n="125" break="no"/>nam diuinam procedere per modum voluntatis, 
+      <lb ed="#P" n="126"/>potest tripliciter intelligi: vno modo ex parte 
+      pnin<lb ed="#P" n="127" break="no"/>cipii actiui: secundo, ex parte acticnis: tertio, ex 
+      <lb ed="#P" n="128"/>parte modi agendis secundum hoc sunt diuersae 
+      <lb ed="#P" n="129"/>opiniones, quidam ergo ponunt quod Apiritus 
+      <lb ed="#P" n="130"/>sanctus procedit pet modum voluntatis: quia 
+      sci<lb ed="#P" n="131" break="no"/>licet essentia diuina est principium Spiritus sancti 
+      <lb ed="#P" n="132"/>vt est praecise voluntas: ita quod illud quod volun¬ 
+      <!--68.xml-->
+      <pb ed="#P" n="68"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tas vnde voluntas nata est communicare: commu: 
+      <lb ed="#P" n="2"/>nicat Spiritus sanctus &amp; non aliud. Haec autem 
+      po<lb ed="#P" n="3" break="no"/>sitio est impossibilis vt mihi videtur: quia 
+      volun<lb ed="#P" n="4" break="no"/>tas non est principium nisi amoris, vel alicuius 
+      <lb ed="#P" n="5"/>operati per amorem: si ergo essentia diuina; vt 
+      <lb ed="#P" n="6"/>per se est principium Spiritus sancti, non 
+      commu<lb ed="#P" n="7" break="no"/>nicat nisi illud quod praecise est voluntatis vt 
+      vo<lb ed="#P" n="8" break="no"/>luntas est: hinc non conmunicabit sibi nisi quod sit 
+      <lb ed="#P" n="9"/>tantum amor, vel operatu per amore: quod est 
+      absur<lb ed="#P" n="10" break="no"/>dum: si dicatur quod quia in diuinis voluntas est ide 
+      <lb ed="#P" n="11"/>quod naturaid eo communicando illud quod est 
+      <lb ed="#P" n="12"/>voluntatis communicatur quidquid est in natura 
+      di<lb ed="#P" n="13" break="no"/>uina absolutum: hoc non valet, quia aut ex sua 
+      pro<lb ed="#P" n="14" break="no"/>cessione habet per se Spiritus sanctus alias 
+      perfe<lb ed="#P" n="15" break="no"/>ctiones absolutas, aut non: si sic, non est nisi fictio 
+      <lb ed="#P" n="16"/>ponere quod virtus productiua Spiritus sanctima 
+      <lb ed="#P" n="17"/>gis ptoducat ipsum vt est communicatiua eius 
+      <lb ed="#P" n="18"/>quod est voluntatis; quam etus quod est naturae 
+      <lb ed="#P" n="19"/>vel intellectus: si non, sequitur quod Spiritus 
+      <lb ed="#P" n="20"/>sanctus non habet per se ex processione quod sit 
+      <lb ed="#P" n="21"/>sapiens, vel intelligens; vel sequeretur quod ista 
+      <lb ed="#P" n="22"/>sibi vel non conuenirent simpliciter, vel non tisi 
+      <lb ed="#P" n="23"/>per accidens; quod est absurdum: Item actio qua 
+      <lb ed="#P" n="24"/>spiratur Spiritus sanctus, aut est vniuoca, aut 
+      aequi<lb ed="#P" n="25" break="no"/>uoca: si aequiuoca: Ergo Spiritus sanctus distert 
+      <lb ed="#P" n="26"/>am Patre &amp; Filio specie, si vniuoca, sequitur quod 
+      <lb ed="#P" n="27"/>natura in qua communicant Pater &amp; Filus cum 
+      <lb ed="#P" n="28"/>Spiritu sancto, sit principium in Patre, &amp; Filio. 
+      <lb ed="#P" n="29"/>Sed illud in quo communicant est ipsa natura 
+      di<lb ed="#P" n="30" break="no"/>uina, non secundum quod voluntas determinata, 
+      <lb ed="#P" n="31"/>vel intellectus, vel aliquid simile; sed secundum 
+      <lb ed="#P" n="32"/>quod omnem perfectionem absolutam 
+      compre<lb ed="#P" n="33" break="no"/>hendens: Ergo etiam sic erit principium agendi 
+      <lb ed="#P" n="34"/>in Patre &amp; Filio: &amp; alia multa possent adduci. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e311">
+               <lb ed="#P" n="35"/>Alia opinio dicit quod Filius producitur pet 
+      <lb ed="#P" n="36"/>actum intelligendi: &amp; Spiritus sanctus per actum 
+      <lb ed="#P" n="37"/>amandinec istud potest stare. Primo, quia 
+      in<lb ed="#P" n="38" break="no"/>telligere &amp; amare non est idem quod producere 
+      <lb ed="#P" n="39"/>personam aliquam, alioquin quaecunque 
+      perso<lb ed="#P" n="40" break="no"/>na amans aut intelligens produceret aliam 
+      perso<lb ed="#P" n="41" break="no"/>nam: quod est falsum: sicut patet de Spiritu 
+      san<lb ed="#P" n="42" break="no"/>cto. Secundo, quia amare, &amp; intelligere nullo 
+      <lb ed="#P" n="43"/>modo differunt, &amp; consequuntur indifferenter 
+      <lb ed="#P" n="44"/>quamcunque personam diuinam: vnde penes 
+      a<lb ed="#P" n="45" break="no"/>mare, vel amari, intelligere, vel intelligi; non 
+      po<lb ed="#P" n="46" break="no"/>test esse aliqua differentia in diuinis; &amp; si dicas, 
+      <lb ed="#P" n="47"/>quod similiter spirare &amp; generare sunt idem re, 
+      <lb ed="#P" n="48"/>cum sint in eadem per sona: non valet, quia dato 
+      <lb ed="#P" n="49"/>quod ita sit, tamen spirari &amp; generari, non sunt 
+      <lb ed="#P" n="50"/>idem re: Ex hoc etiam sequitur quod generare, &amp; 
+      <lb ed="#P" n="51"/>spirare, important aliquas diuersat res: dato 
+      <lb ed="#P" n="52"/>quod inter se sint idem re, &amp; de hoc alias dixi satis. 
+      <lb ed="#P" n="53"/>Alii ponunt istam differentiam penes modum 
+      a<lb ed="#P" n="54" break="no"/>gendi, &amp; videntur ponere duplicem differentiam. 
+      <lb ed="#P" n="55"/>Prima est, quia illud quod fit per modum natur ae, 
+      <lb ed="#P" n="56"/>vel intellectus, fit per impressionem factam in 
+      <lb ed="#P" n="57"/>intellectu possibili, qui materialiter in hoc se 
+      ha<lb ed="#P" n="58" break="no"/>bet: illud autem quod fit per modum voluntatis, 
+      <lb ed="#P" n="59"/>sit vt dicunt non per talem impresiionem factam 
+      <lb ed="#P" n="60"/>de illo de quo fit materialiter: vnde vt dieunt, actus 
+      <lb ed="#P" n="61"/>volendi non fit per hoc quod voluntati, aliquid 
+      <lb ed="#P" n="62"/>imprimatur; sed per hoc quod ipsa exprimit aliquid 
+      <lb ed="#P" n="63"/>extra se, sicut fsamma fit de carbone per ex 
+      suffla<lb ed="#P" n="64" break="no"/>tionem, &amp; fit non per impressionem: quia 
+      carbo<lb ed="#P" n="65" break="no"/>ni nihil imprimitur: sed per ex pressionem: quia 
+      <lb ed="#P" n="66"/>fsamma exprimitur de carbonc: &amp; sic etiam 
+      di<lb ed="#P" n="67" break="no"/>cunt Spiritum sanctum produci quasi per 
+      expres<lb ed="#P" n="68" break="no"/>sionem de essentia diuina, vt est voluntas de qua 
+      <lb ed="#P" n="69"/>quasi de materia dicunt produci Spiritum sanctu. 
+      <lb ed="#P" n="70"/>Secunda differentia est, quia vt dicunt, illud quod 
+      <!--68.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>sit per modum naturae non fit libere: sed per 
+      ini<lb ed="#P" n="72" break="no"/>petum, &amp; per quandam necessitatem 
+      praeuenien<lb ed="#P" n="73" break="no"/>tem actum: illud autem quod fit per modum 
+      vo<lb ed="#P" n="74" break="no"/>lnntatis, fit libere &amp; cum quadam vltroncitate, 
+      <lb ed="#P" n="75"/>siue necessitate praeueniente actum, licet sit ne 
+      <lb ed="#P" n="76"/>cessitas concomitans actum: quia productio 
+      Spi<lb ed="#P" n="77" break="no"/>ritus sancti necessaria est. Ista positio est impossi 
+      <lb ed="#P" n="78"/>bilis, &amp; videtur quasi fictio quaedam, &amp; fabula, 
+      <lb ed="#P" n="79"/>Primo ergo intendo improbare primam 
+      differen<lb ed="#P" n="80" break="no"/>tiam, primo. Quia impressio alicuius formalis suo 
+      <lb ed="#P" n="81"/>materiali, nihil est aliud quam facere quod for¬ E 
+      <lb ed="#P" n="82"/>ma sit in eo cuius est forma: sieut forma deber esse 
+      <lb ed="#P" n="83"/>in materia, sed numquam fit aliquid vnum ex 
+      <lb ed="#P" n="84"/>duobus, sicut ex materiali, &amp; formali: nisi per hoc 
+      <lb ed="#P" n="85"/>quod formale est in materiali, vel forma in 
+      mate<lb ed="#P" n="86" break="no"/>ria, &amp; sicut in materia. Ergo impossibile est aliquid 
+      <lb ed="#P" n="87"/>fieri ex duobus, ex vno sicut ex materiali, &amp; alio 
+      <lb ed="#P" n="88"/>sichit ex formali: nisi per impressionem iplrus for 
+      <lb ed="#P" n="89"/>malis in ipso mateaiali: Et ideo nihil est dictu quod 
+      <lb ed="#P" n="90"/>quaedam sunt per impressionem in ipso materialia 
+      <lb ed="#P" n="91"/>quia omnia fiunt per impressionem in ipso 
+      mate<lb ed="#P" n="92" break="no"/>riali quantum ad illa quae habent materiam, vel 
+      <lb ed="#P" n="93"/>materiale: potest etiam omnis talis productio dici 
+      <lb ed="#P" n="94"/>erpressio, in quantum forma quae pritis erat in 
+      po<lb ed="#P" n="95" break="no"/>tentia materiae tantum, nunc est in esse propriae 
+      <lb ed="#P" n="96"/>naturae &amp; quasi extra: non propter diuersitatem 
+      <lb ed="#P" n="97"/>essentiae: quia ante productionem compositi non 
+      <lb ed="#P" n="98"/>erat nisi vna essentia tantum in esse propriae 
+      natu<lb ed="#P" n="99" break="no"/>rae: scilicet materia in qua in potentia dicitur esse 
+      <lb ed="#P" n="100"/>forma: sed post productionem compositi sunt ibi 
+      <lb ed="#P" n="101"/>duae essentiue realiter differentes. Secundo idem 
+      <lb ed="#P" n="102"/>improbo sic, quia, secundum eos flamma fit per 
+      <lb ed="#P" n="103"/>expressionem: non per impressionem: sed ssamma 
+      <lb ed="#P" n="104"/>sit naturaliter, &amp; virtute naturae; &amp; modo natu. 
+      <lb ed="#P" n="105"/>rae: Ergo illud quod fit per modum naturae, fit 
+      <lb ed="#P" n="106"/>per expressionem: cuius oppositum ipsi dicunt. 
+      <lb ed="#P" n="107"/>Tertio, quia in persona filii, vel Spiritus sancti, 
+      <lb ed="#P" n="108"/>non est dare nisi duo scilicet essentiam, &amp; relatio 
+      <lb ed="#P" n="109"/>nem: nec potest poni quod relatio plus in prima 
+      <lb ed="#P" n="110"/>tur essentiae, vel exprimatur de ea in vna persona 
+      <lb ed="#P" n="111"/>quam in alia; vtrobique enim relatio est idem re 
+      <lb ed="#P" n="112"/>cum essentia; &amp; est ei intranea per identitatem 
+      <lb ed="#P" n="113"/>realem &amp; differt sola ratione: vnde ponere in vno 
+      <lb ed="#P" n="114"/>plusquam in alio impressionem formalis in 
+      ma<lb ed="#P" n="115" break="no"/>teriali, est fictio: Exemplum autem quod ponitur 
+      <lb ed="#P" n="116"/>de carbone est trupha, quia flamma non fit de 
+      car<lb ed="#P" n="117" break="no"/>bone qui remanet: sed de fumo resoluto ab eo in 
+      <lb ed="#P" n="118"/>quo fumo imprimitur forma fsammae. Ponunt 
+      e<lb ed="#P" n="119" break="no"/>tiam exemplum de corpore concauo quod 
+      figu<lb ed="#P" n="120" break="no"/>tetur in toto, scilicet a superficie in 
+      supersi<lb ed="#P" n="121" break="no"/>ciem, figura interior fiet per impressionem, quia 
+      <lb ed="#P" n="122"/>fiet intra; sed exterior fiet per expressionem, 
+      <lb ed="#P" n="123"/>quia fiei extra: hoc etiam exemplum nimis 
+      trui<lb ed="#P" n="124" break="no"/>phatorium est: quia prouenit ex ignorantia de Iu 
+      <lb ed="#P" n="125"/>intra, &amp; extra; prout aciuntur in loco, vel situ; 
+      <lb ed="#P" n="126"/>&amp; prout accipiuntur secundum esse in subiecto, 
+      <lb ed="#P" n="127"/>vel materia. Nam figura quae est interior quantum 
+      <lb ed="#P" n="128"/>ad situm partium, &amp; intra suum subiectum: sicut 
+      <lb ed="#P" n="129"/>&amp; illa quae est in concauo: vtraque enim est in suo 
+      <lb ed="#P" n="130"/>subiecto, siue intra suum subiectum, &amp; non extrae 
+      <lb ed="#P" n="131"/>accipiendo intra &amp; extra secundum esse in 
+      sub<lb ed="#P" n="132" break="no"/>secto. Dicere etiam quod persone diuinae 
+      produ<lb ed="#P" n="133" break="no"/>catur de essentia diuina materialiter, vel quod 
+      es<lb ed="#P" n="134" break="no"/>sentia sit materia, non videtur 
+      conueniens<lb ed="#P" n="135" break="no"/>quia actus communicatus a producente, producto: 
+      <lb ed="#P" n="136"/>est essentia diuina, &amp; non materia in qua recipia. 
+      <lb ed="#P" n="137"/>tur actus: sed verum est quod in creaturis 
+      speciali<lb ed="#P" n="138" break="no"/>ter, simul producitur actus, &amp; commnnicatur 
+      <lb ed="#P" n="139"/>actus, per hoc quod fit compositum quantum ad 
+      <lb ed="#P" n="140"/>ipsum actum, vel formam: illud autem quod sic 
+      <!--69.xml-->
+      <pb ed="#P" n="69"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>communicatur, quod non producitur: sed 
+      prae<lb ed="#P" n="2" break="no"/>supponitur: quantum ad illud quod est ipsi 
+      produ<lb ed="#P" n="3" break="no"/>ctioni: est materia, in diuinis autem actus qui 
+      <lb ed="#P" n="4"/>communicatur, non producitur, &amp; secundum 
+      <lb ed="#P" n="5"/>rationem intelligendi praesupponitur ipsi 
+      produ<lb ed="#P" n="6" break="no"/>ctioni: ita quod essentia diuina prout est in patte 
+      <lb ed="#P" n="7"/>secundum rationem intelligendi praesupponitur 
+      <lb ed="#P" n="8"/>suae communicationi, qua communicatur Filio1 
+      <lb ed="#P" n="9"/>&amp; quantum ad hoc videtur habere quandam 
+      si<lb ed="#P" n="10" break="no"/>militudinem cum materia: sed in hoc disfert, quia 
+      <lb ed="#P" n="11"/>materia in creaturis quae praesupponitur 
+      produ<lb ed="#P" n="12" break="no"/>ctioni rei materialis praeexistit, non in agente, 
+      <lb ed="#P" n="13"/>sed in passo: Ex quo fit quod materia quae existit 
+      <lb ed="#P" n="14"/>igni qui generatur, non praeexistit in igne 
+      gene<lb ed="#P" n="15" break="no"/>rante: sed in aqua, vel aere ex quo corrupto sicut 
+      <lb ed="#P" n="16"/>ex materia transeunte fit ignis: essentia autem 
+      diui<lb ed="#P" n="17" break="no"/>na non praeex issit in aliquo passo vt ex vno 
+      corrup<lb ed="#P" n="18" break="no"/>to, vel transeunte producatur materialiter 
+      perso<lb ed="#P" n="19" break="no"/>na diuina, neque potest dici produci realiter 
+      lo<lb ed="#P" n="20" break="no"/>quendo sicut ex materia : &amp; si dicatur, improprie 
+      <lb ed="#P" n="21"/>dicitur: Secunda etiam differentia nulla est: quia 
+      <lb ed="#P" n="22"/>siue per impetum intelligant carentiam 
+      suecessio<lb ed="#P" n="23" break="no"/>nis, quia in impetu dicitur fieri, quod cito fit: 
+      si<lb ed="#P" n="24" break="no"/>ue intelligant necessitatem aequalis impetus: esse 
+      <lb ed="#P" n="25"/>vtrobique: constat enim quod vtraque emanatio 
+      <lb ed="#P" n="26"/>est sine successione: Tertium tantum est de 
+      ne<lb ed="#P" n="27" break="no"/>cessitate praeueniente tam in vna quum in alia, nam 
+      <lb ed="#P" n="28"/>necessitas praeueniens actum, non potest intelligi 
+      <lb ed="#P" n="29"/>nisi necessitas agentis in agendo: ita quod 
+      neces<lb ed="#P" n="30" break="no"/>sitas agentis virtutis actiuae ad agendum, 
+      praein<lb ed="#P" n="31" break="no"/>telligitur ei qued est actum vel actionem esse 
+      ne<lb ed="#P" n="32" break="no"/>cessariam: constat enim quod virtus spiratiua in 
+      <lb ed="#P" n="33"/>Patre &amp; Filio, est ita necessario determinata ad 
+      <lb ed="#P" n="34"/>spirandum: sicut virtus generatiua in Patre ad 
+      ge<lb ed="#P" n="35" break="no"/>nerandum: Ergo aequaliter ibi nacessitas 
+      praeue<lb ed="#P" n="36" break="no"/>niens nisi velint dicere quod necessitas quae est in 
+      <lb ed="#P" n="37"/>patre ad generandum: sit necessitas violentiae, &amp; 
+      <lb ed="#P" n="38"/>alia sit necessitas ex propria natura rei, hoc autem 
+      <lb ed="#P" n="39"/>esset valde ertoneum, ponere necessitatem vio 
+      <lb ed="#P" n="40"/>lentiae in Deo: Iterum etiam non potest dici quod 
+      <lb ed="#P" n="41"/>aliquid praeexistat virtuti generatiuae, imponens 
+      <lb ed="#P" n="42"/>ei necessitatem ad generandum, plus quam 
+      virtu<lb ed="#P" n="43" break="no"/>ti spiratiuae: imo minus: quia virtus generatiua 
+      <lb ed="#P" n="44"/>inest generanti ab alio: sed virtus spiratiua inest 
+      <lb ed="#P" n="45"/>alicui saltem filio ab alio: vnde ista nullam 
+      solidi<lb ed="#P" n="46" break="no"/>tatem, vel etiam probabilitatem videntur 
+      habe<lb ed="#P" n="47" break="no"/>re: hoc sufficiat de primo. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e656">
+               <lb ed="#P" n="48"/>Nunc restat secundo ponere positionem quam 
+      <lb ed="#P" n="49"/>credo veram. Sciendum est igitur quod in 
+      produ<lb ed="#P" n="50" break="no"/>ctione personarum diuinarum tria sunt 
+      conside<lb ed="#P" n="51" break="no"/>randa: scilicet habitudinem virtutis actiuae ad 
+      a<lb ed="#P" n="52" break="no"/>ctum eliciendum, &amp; suppositum agentis, &amp; 
+      or<lb ed="#P" n="53" break="no"/>dinem emanationum. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e673">
+               <lb ed="#P" n="54"/>Quantum ergo ad primum scilicet secundum 
+      <lb ed="#P" n="55"/>habitud inem virtutis actiue ad actum eliciendum, 
+      <lb ed="#P" n="56"/>non est modus voluntatis in productione 
+      cuiuscun<lb ed="#P" n="57" break="no"/>que personae diuinae, sed tantu modus naturae. 
+      Cu<lb ed="#P" n="58" break="no"/>ius ratio est quia modus voluntatis in hoc differt a 
+      <lb ed="#P" n="59"/>modo naturae in eliciendo actum, quia modus 
+      na<lb ed="#P" n="60" break="no"/>ture est quando principium actiuum naturale non 
+      <lb ed="#P" n="61"/>hibet in potestate suum actu, nec est indifferens 
+      <lb ed="#P" n="62"/>adop posita, sed necessario ex proprietate naturae 
+      a<lb ed="#P" n="63" break="no"/>tentis determinatum ad alterum oppositotum: 
+      <lb ed="#P" n="64"/>unde non est in potestate solis illuminare &amp; non 
+      <lb ed="#P" n="65"/>illuminare, imo est necessario determinatus ad 
+      il<lb ed="#P" n="66" break="no"/>luminandum dummodo adsit illuminabile &amp; nisi 
+      <lb ed="#P" n="67"/>sit aliquid impediens. Agens autem per 
+      volun<lb ed="#P" n="68" break="no"/>tatem prout distinguitur contra naturam habet in 
+      <lb ed="#P" n="69"/>potestate sua agere vel non agere, &amp; est 
+      indiffe<lb ed="#P" n="70" break="no"/>rens ad opposita scilicet ad agendum &amp; non agen¬ 
+      <!--69.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>dum: Sed agens per virtutem spitatiuam non 
+      ha<lb ed="#P" n="72" break="no"/>bet in potestate sua spirare &amp; non spirare, vnde 
+      <lb ed="#P" n="73"/>non est indifferens ad opposita, sed necessario est 
+      <lb ed="#P" n="74"/>determinatum ex suae naturae nroprietate ad 
+      spi<lb ed="#P" n="75" break="no"/>fandum: Ergo in pioductione Spiritus sancti pei 
+      <lb ed="#P" n="76"/>comparationem principii actiui ad actum 
+      elicien<lb ed="#P" n="77" break="no"/>dum, non est modus voluntatis sed modus naturae 
+      <lb ed="#P" n="78"/>tantum: vnde ita naturale est in Diuinis spirare 
+      <lb ed="#P" n="79"/>Spiritum sanctum sicut generare filium. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e736">
+               <lb ed="#P" n="80"/>Si autem consideremus supposita agentia pet 
+      <lb ed="#P" n="81"/>comparationem ad ea inuenitur in productione 
+      <lb ed="#P" n="82"/>Spiritus sancti modus voluntatis &amp; non in 
+      produ<lb ed="#P" n="83" break="no"/>ctione Filii, ita quod vis spiratiua habet modum 
+      <lb ed="#P" n="84"/>voluntatis &amp; Spiritus sanctus habet modum 
+      amo<lb ed="#P" n="85" break="no"/>ris spirati a voluntate: Cuius ratio est quia quod 
+      <lb ed="#P" n="86"/>uliqua duo agentia concurrant ad idem 
+      producen<lb ed="#P" n="87" break="no"/>dum, &amp; sint agentia eiusdem ordinis, &amp; aeque 
+      per<lb ed="#P" n="88" break="no"/>fecte produceret vnum sicut ambo ita quod 
+      necci<lb ed="#P" n="89" break="no"/>tius nec perfectius ambo quam vnum non videtur 
+      <lb ed="#P" n="90"/>accidere in rebus creatis nisi in agentibus ex 
+      volun<lb ed="#P" n="91" break="no"/>tate: duo enim ex amicabili societate possunt 
+      con<lb ed="#P" n="92" break="no"/>uenire ad idem faciendum, ita quod vnus tantum 
+      <lb ed="#P" n="93"/>faceret &amp; ita perfecte sicut ambo, quia per 
+      vo<lb ed="#P" n="94" break="no"/>luntatem moderantur virtutem suam ita quod non 
+      <lb ed="#P" n="95"/>tota virtute agant: Sed Pater &amp; Filius spirant siue 
+      <lb ed="#P" n="96"/>producunt Spiritum sanctum ita quod aeque 
+      per<lb ed="#P" n="97" break="no"/>fecte producit vnus sicut ambo nec perfectius 
+      a<lb ed="#P" n="98" break="no"/>gunt ambo quam alter: Ergo virtus productiua 
+      <lb ed="#P" n="99"/>per quam sic producunt habet modum voluntatis, 
+      <lb ed="#P" n="100"/>quia duo coneorditer spirant vnum amorem. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e784">
+               <lb ed="#P" n="101"/>Si autem attenditur ad ordinem productionum: 
+      <lb ed="#P" n="102"/>licet ibi non sit ordo prioris &amp; posterionis, ibi 
+      ta<lb ed="#P" n="103" break="no"/>men vnus est ex alio &amp; est ordo quo vnus est ab 
+      v<lb ed="#P" n="104" break="no"/>no &amp; tertius a duobus; ita quod de ratione tertii 
+      <lb ed="#P" n="105"/>est quod sit product ab aliquo producto &amp; 
+      sicsal<lb ed="#P" n="106" break="no"/>tem secundum nostrum modum intelligend i productus 
+      <lb ed="#P" n="107"/>per spirationem praesupponit aliam productio 
+      <lb ed="#P" n="108"/>nem terminatam ad aliquam personam a qua 
+      pro<lb ed="#P" n="109" break="no"/>ducitur ipse spiratus: &amp; vlterius sequitur quod 
+      <lb ed="#P" n="110"/>spiratus est ille ad quem emanatio manens intra 
+      <lb ed="#P" n="111"/>naturam intellectualem vltimo terminatur: In 
+      <lb ed="#P" n="112"/>natura autem intellectuali vbi realiter intellectus 
+      <lb ed="#P" n="113"/>differt a voluntate prima eminatio est emanatio 
+      <lb ed="#P" n="114"/>intellectus: sequens autem emanatio &amp; in qua 
+      vl<lb ed="#P" n="115" break="no"/>timo terminatur emanatio manens intra naturam 
+      <lb ed="#P" n="116"/>intellectualem, est emanatio pertinens ad 
+      volun<lb ed="#P" n="117" break="no"/>tatem: nam primo est cognitio boni, deinde est 
+      <lb ed="#P" n="118"/>amor sequens ad cognitionem honi, &amp; ibi sistit 
+      <lb ed="#P" n="119"/>emanatio naturae intellectualis nec intenditultra 
+      <lb ed="#P" n="120"/>intra naturam intellectualem, licet possit vltta 
+      <lb ed="#P" n="121"/>tendere in extra sicut in aliquid exterius 
+      opera<lb ed="#P" n="122" break="no"/>tum: &amp; ideo quantum ad hoc Spiritus sanctus 
+      <lb ed="#P" n="123"/>habet modum amoris procedentis a verbo in quo 
+      <lb ed="#P" n="124"/>relucet bonum diligibile: &amp; haec mihi 
+      vide<lb ed="#P" n="125" break="no"/>tur via Reuerendi doctoris Thomae; quia 
+      ali<lb ed="#P" n="126" break="no"/>quando dicit quod illa emanatio dicitur per 
+      mo<lb ed="#P" n="127" break="no"/>dum voluntatis quae vel praesupponit aliam, &amp; hoc 
+      <lb ed="#P" n="128"/>quoad ordinem emanationum, aliquando vero 
+      di<lb ed="#P" n="129" break="no"/>cit quod ille qui procedit a duobus procedit per 
+      <lb ed="#P" n="130"/>modum voluntatis, &amp; hoc accipiendo istum mo 
+      <lb ed="#P" n="131"/>dum per comparationem ad supposita agentia; 
+      <lb ed="#P" n="132"/>ex his etiam potest patere ratio eorum quae 
+      dicun<lb ed="#P" n="133" break="no"/>tur de emanatione Spiritus sancti: nam 
+      quando<lb ed="#P" n="134" break="no"/>quedicitur quod principium productiuum 
+      Spiri<lb ed="#P" n="135" break="no"/>tus sancti est natura Diuina vt habet modum 
+      vo<lb ed="#P" n="136" break="no"/>luntatis, &amp; hoc verum est per comparationem ad 
+      <lb ed="#P" n="137"/>supposita agentia: dicitur etiam quod voluntas 
+      <lb ed="#P" n="138"/>est principium Spititus sancti non vt voluntas sed 
+      <lb ed="#P" n="139"/>vt natura, quia Spiritus sanctus modo naturae 
+      <lb ed="#P" n="140"/>producitur considerando habitudinem principii 
+      <!--70.xml-->
+      <pb ed="#P" n="70"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>actiui ad actum eliciendum ad quem eliciendum 
+      <lb ed="#P" n="2"/>ex natura sua est necessario determinatum: Et 
+      <lb ed="#P" n="3"/>hoc sufficiat de secundo. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e886">
+               <lb ed="#P" n="4"/>Nunc tertio ponendae sunt difficultates quae sunt 
+      <lb ed="#P" n="5"/>contra ista. Prima est, quia secundum ista 
+      vide<lb ed="#P" n="6" break="no"/>tur quod Filius non sit vere vel proprie verbum;, 
+      <lb ed="#P" n="7"/>vel saltem non magis proprie conueniat ei quod 
+      <lb ed="#P" n="8"/>sit verbum quam Spiritui sancto: quia scilicet 
+      <lb ed="#P" n="9"/>ista productio Filii non magis pertinet ad 
+      intelle<lb ed="#P" n="10" break="no"/>ctum proprie quam productio Spiritus sancti nisi 
+      <lb ed="#P" n="11"/>per quandam similitudinem ad ea quae sunt in 
+      in<lb ed="#P" n="12" break="no"/>tellectu creato: Sed ea quae dicuntur de aliquo 
+      <lb ed="#P" n="13"/>secundum quandam similitudinem non dicuntur 
+      <lb ed="#P" n="14"/>de eo proprie: Ergo esse verbum non conuenit 
+      <lb ed="#P" n="15"/>proprie Filio vel saltem non plus ei conuenit quam 
+      <lb ed="#P" n="16"/>Spiritui sancto. Secunda est, quia quicquid Deo 
+      <lb ed="#P" n="17"/>nunc conuenst conueniret ei circunscripta 
+      omni<lb ed="#P" n="18" break="no"/>creatura: Sed circunscripta creatura intellectuali 
+      <lb ed="#P" n="19"/>non conueniret filio modus ille intellectus plus 
+      <lb ed="#P" n="20"/>quam Spiritui sancto, sed ei conueniret modus 
+      in<lb ed="#P" n="21" break="no"/>tellectus propter similitudinem intellectualem 
+      <lb ed="#P" n="22"/>intellectus creati: Ergo falsum est dicere quod 
+      <lb ed="#P" n="23"/>propter talem similitudinem ei conueniat modus 
+      <lb ed="#P" n="24"/>intellectus plus quam Spiritui sancto. Tertia est 
+      <lb ed="#P" n="25"/>quia secundum dictam positionem sequeretur 
+      <lb ed="#P" n="26"/>quod non posset ostendi quod in diuinis sunt tres 
+      <lb ed="#P" n="27"/>personae nec plures nec pauciores, hoc autem 
+      vi<lb ed="#P" n="28" break="no"/>detur inconueniens: Ergo, &amp;c. Quod autem hoc 
+      <lb ed="#P" n="29"/>sequatur ostenditur sic: quia non sunt nisi 
+      emana<lb ed="#P" n="30" break="no"/>riones manentes intra sicut intelligere &amp; velle nec 
+      <lb ed="#P" n="31"/>est ibi nisi vnum intelligere &amp; vnum velle, &amp; ideo 
+      <lb ed="#P" n="32"/>nec est ibi nisi vna persona producta per actionem 
+      <lb ed="#P" n="33"/>intellectus &amp; alia per actionem voluntatis: nec 
+      <lb ed="#P" n="34"/>peci consequens possunt esse nisi duae personae 
+      <lb ed="#P" n="35"/>productae &amp; vna non producta: Ergo, &amp;c. 
+      Se<lb ed="#P" n="36" break="no"/>cundum autem praemissa ista ratio periret tum 
+      <lb ed="#P" n="37"/>quia secundum praedicta intelligere &amp; amare non 
+      <lb ed="#P" n="38"/>dicunt ipsas productiones, tum quia non videtur 
+      <lb ed="#P" n="39"/>ratio quare tres non producant quartum &amp; 
+      quar<lb ed="#P" n="40" break="no"/>tus, quintum &amp; sic deinceps, si productio Spiritus 
+      <lb ed="#P" n="41"/>sancti non differtin aliquo a productione Filii nisi 
+      <lb ed="#P" n="42"/>quia Filius ab vno &amp; Spiritus sanctus a duobus, 
+      <lb ed="#P" n="43"/>vel nisi quia Filius est a non producto &amp; sic eius 
+      <lb ed="#P" n="44"/>productio non praesupponit aliam, secundum 
+      e<lb ed="#P" n="45" break="no"/>nim ista poterit dici quod quartus distingueretur 
+      <lb ed="#P" n="46"/>ab aliis, quia procederet atribus &amp; quintus, quia 
+      <lb ed="#P" n="47"/>a quatuor, &amp; dicetur quod productio quarti dis. 
+      <lb ed="#P" n="48"/>fert a productione tertii, quia supponit duas 
+      ema<lb ed="#P" n="49" break="no"/>nationes, processio autem tertii non nisi vnam: 
+      <lb ed="#P" n="50"/>videtur ergo quod praemissa non habeant 
+      verita<lb ed="#P" n="51" break="no"/>tem. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e993">
+               <lb ed="#P" n="52"/>Ad primum dicendum quod verbum diuinum 
+      <lb ed="#P" n="53"/>non habet modum intellectus secundum 
+      quan<lb ed="#P" n="54" break="no"/>dam similitudinem, sed secundum veritatem eius 
+      <lb ed="#P" n="55"/>emanatio est intellectualis, &amp; secundum 
+      verita<lb ed="#P" n="56" break="no"/>tem eius emanatio non praesupponit aliam, sicut 
+      <lb ed="#P" n="57"/>emanatio Spiritus sancti praesupponit 
+      emanatio<lb ed="#P" n="58" break="no"/>nem Filii: non ergo dicitur Filius habere modum 
+      <lb ed="#P" n="59"/>intellectus secundum similitudinem tantum &amp; 
+      <lb ed="#P" n="60"/>non secundum rcei proprietatem, imo illud quod 
+      <lb ed="#P" n="61"/>secundum veritatem conuenit emanationi intel 
+      <lb ed="#P" n="62"/>lectus vbi intellectus realiter differt a voluntate 
+      <lb ed="#P" n="63"/>conuenit ita Filio quod non Spiritui sancto, 
+      vide<lb ed="#P" n="64" break="no"/>licet procedere nulla processione alia supposita: 
+      <lb ed="#P" n="65"/>&amp; in hoc habet secundum veritatem modum 
+      in<lb ed="#P" n="66" break="no"/>tellectus quem non habet Spiritus sanctus: habet 
+      <lb ed="#P" n="67"/>etiam alias proprietates verbi quod est 
+      repraesen<lb ed="#P" n="68" break="no"/>tatiuum productum: &amp; intra naturam 
+      intellectua<lb ed="#P" n="69" break="no"/>le in quo non differt a Spiritu sancto, sed in hoc, 
+      <lb ed="#P" n="70"/>quod modo intellectus est productum: sed in hoc 
+      <!--70.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>differt a verbo nostro, quod quantum ad 
+      absolu<lb ed="#P" n="72" break="no"/>tum quod communicatur verbo diuino non minus 
+      <lb ed="#P" n="73"/>communicatur ei illud quod est amoris, quam 
+      <lb ed="#P" n="74"/>illud quod est cognitionis vel repraesentationis: 
+      <lb ed="#P" n="75"/>quod non conuenit verbo nostro propter eius 
+      li<lb ed="#P" n="76" break="no"/>mitationem: nec propier hoc habet minus ratione 
+      <lb ed="#P" n="77"/>verbi quam si tantum hiaberet illudquod 
+      cognitio<lb ed="#P" n="78" break="no"/>nis est: sicut etiam scientia Dei est verem iustitia &amp; 
+      sub<lb ed="#P" n="79" break="no"/>stantia: nec propter hoc minus proprie &amp; vere 
+      di<lb ed="#P" n="80" break="no"/>citur icientia. Ad secundum dicendum quod 
+      cir<lb ed="#P" n="81" break="no"/>conscripto omni intellectu creato &amp; creatura, &amp; 
+      <lb ed="#P" n="82"/>quantum ad existentiam &amp; quantum ad 
+      possibili<lb ed="#P" n="83" break="no"/>tatem essendi; dico quod adhuc conueniret Deo 
+      <lb ed="#P" n="84"/>realiter quicquid ei nunc conuenit quantum ad 
+      <lb ed="#P" n="85"/>ipsam rem in se pertinet, nontamen conueniret 
+      <lb ed="#P" n="86"/>ei sub omni ratione sub qua nunc conuenit: vnde 
+      <lb ed="#P" n="87"/>vt magis dicunt dato quod stante hipothesi 
+      conue<lb ed="#P" n="88" break="no"/>niret Deo res quam nunc dicimus sapientiam, 
+      iu<lb ed="#P" n="89" break="no"/>stitiam &amp; sic de aliis, non tamien maneret 
+      sapien<lb ed="#P" n="90" break="no"/>tia vt habens rationem aliam a substantia vel 
+      iusti<lb ed="#P" n="91" break="no"/>tia, &amp;c. &amp; similiter bene maneret persona pro 
+      <lb ed="#P" n="92"/>cedens ab vno non procedente &amp; persona 
+      proce<lb ed="#P" n="93" break="no"/>dens a duobus quorum alter est productus: sed 
+      <lb ed="#P" n="94"/>stante hipothesi procedere ab vno non plus esset 
+      <lb ed="#P" n="95"/>modus intellectus quam modus voluntatis nec 
+      ra<lb ed="#P" n="96" break="no"/>tio modi intellectus distingueretur a ratione moda 
+      <lb ed="#P" n="97"/>voluntatis. Nec tamen sequitur ex hoc quod 
+      mo<lb ed="#P" n="98" break="no"/>dus intellectus &amp; voluntatis accipiatur in Deo 
+      <lb ed="#P" n="99"/>tantum ad similitudinem ereati intellectus &amp; non 
+      <lb ed="#P" n="100"/>secundum rei proprietatem, imo secundum 
+      ve<lb ed="#P" n="101" break="no"/>ram rei proprietatem: sed verum est quod stante 
+      <lb ed="#P" n="102"/>ista hipothesr in nulla natura creata inuenirentur 
+      <lb ed="#P" n="103"/>secundum proprietatem rei diuersae rationes 
+      in<lb ed="#P" n="104" break="no"/>tellectus &amp; voluntatis: sicut etiam modo 
+      secun<lb ed="#P" n="105" break="no"/>dum proprietatem rei conuenit Deo ratio 
+      sapien<lb ed="#P" n="106" break="no"/>tiae &amp; ratioiustitiae: sed stante hipothesi non 
+      con<lb ed="#P" n="107" break="no"/>uenirent Deo vt rationes distinctae. Ad tertium 
+      <lb ed="#P" n="108"/>dicendum quod illa ratio quae comuniter addu. 
+      <lb ed="#P" n="109"/>citur de velle &amp; intelligere sicut no probat 
+      effica<lb ed="#P" n="110" break="no"/>citer &amp; demonstratiue absolute plures personas 
+      <lb ed="#P" n="111"/>esse in Deo, ita etiam nec probat efficaciter 
+      terna<lb ed="#P" n="112" break="no"/>rium personarum numerum: credo enim quod si 
+      scrip<lb ed="#P" n="113" break="no"/>tura posuisset in Deo pluralitatem personarum 
+      in<lb ed="#P" n="114" break="no"/>determinate non determinando numerum 
+      cer<lb ed="#P" n="115" break="no"/>tum, &amp; indeterminatum posuisset numerum ema 
+      <lb ed="#P" n="116"/>narionum non ponendo certum numcrum, nullus 
+      <lb ed="#P" n="117"/>efficaciter probasset ternarium personarum: 
+      vn<lb ed="#P" n="118" break="no"/>de credo quod si scriptura nullum numeru deter 
+      <lb ed="#P" n="119"/>minasset in personis vel emanationibus, fuissent 
+      <lb ed="#P" n="120"/>multae opiniones de pluralitare earum: &amp; ideo 
+      <lb ed="#P" n="121"/>supposito binario emanationum quae sunt proprie 
+      <lb ed="#P" n="122"/>non intelligere &amp; amare sed dicere &amp; spirare, 
+      <lb ed="#P" n="123"/>potest efficaciter probari ternarius personarum: 
+      <lb ed="#P" n="124"/>supposito enim ternario personarum potest satis 
+      <lb ed="#P" n="125"/>efficaciter probari dualitas emanationum: sed 
+      <lb ed="#P" n="126"/>neutro istorum supposito nunquam per velle &amp; 
+      <lb ed="#P" n="127"/>intelligere probaretur efficaciter ternarius 
+      nume<lb ed="#P" n="128" break="no"/>rus earum, sed tantum persuasiue. Notandum 
+      <lb ed="#P" n="129"/>autem quod supposito quod Deus sit vnus actus 
+      <lb ed="#P" n="130"/>qui est intelligere &amp; velle, &amp; supposito quod 
+      ali<lb ed="#P" n="131" break="no"/>qua persona procedat per modum intellectus &amp; 
+      <lb ed="#P" n="132"/>voluntatis accipiendo modum intellectus &amp; 
+      vo<lb ed="#P" n="133" break="no"/>luntatis sicut modo acceptum est per 
+      compara<lb ed="#P" n="134" break="no"/>tionem ad ordinem emanationum: sequitur quod 
+      <lb ed="#P" n="135"/>sint tres personae &amp; non plures, quia secundum 
+      <lb ed="#P" n="136"/>istam viam illa sola persona procedit per modum 
+      <lb ed="#P" n="137"/>intellectus cuius productio nullam aliam supponit 
+      <lb ed="#P" n="138"/>illa autem non potest esse nisi vna, quia 
+      supponi<lb ed="#P" n="139" break="no"/>mus nunc quod impossibile est in diuinis duas 
+      <lb ed="#P" n="140"/>personas procedere ab aliqua persona ita quod 
+      <!--71.xml-->
+      <pb ed="#P" n="71"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>vna illarum non procedat ab alia: &amp; ideo non po¬ A 
+      <lb ed="#P" n="2"/>test dari nisi vna persona cuius emanatio non 
+      sup<lb ed="#P" n="3" break="no"/>ponat aliam emanationem, siue non est dare nisi 
+      <lb ed="#P" n="4"/>vnam personam quae sit a sola per sona non 
+      pro<lb ed="#P" n="5" break="no"/>ducta; hoc autem est produci per modum intel. 
+      <lb ed="#P" n="6"/>lectus: non potest ibidari aliqua persona 
+      produ<lb ed="#P" n="7" break="no"/>cta per modum intellectus nisi vna. Modus 
+      au<lb ed="#P" n="8" break="no"/>tem voluntatis est produci emanatione quae 
+      sup<lb ed="#P" n="9" break="no"/>ponit aliam ad quam vltimo terminatur emanatio 
+      <lb ed="#P" n="10"/>manens intra naturam intellectualem: hoc autem 
+      <lb ed="#P" n="11"/>non potest conuenire nisi vni personae: quia si 
+      <lb ed="#P" n="12"/>post productionem Filii ponantur plures personae 
+      <lb ed="#P" n="13"/>productae, nulla illarum habebit modum volunta 
+      <lb ed="#P" n="14"/>tis, nam illa quae immediare sequitur post Filium 
+      <lb ed="#P" n="15"/>non habebit quod ad ipsam terminetur vltimo 
+      e<lb ed="#P" n="16" break="no"/>manatio intellectualis, &amp; ideo non habebit totum 
+      <lb ed="#P" n="17"/>quod pertinet ad modum voluntatis. 
+      Simili<lb ed="#P" n="18" break="no"/>ter nec vltima, quia modus voluntatis requirit, 
+      <lb ed="#P" n="19"/>quod sequatur immediate solam emanationem 
+      <lb ed="#P" n="20"/>quae est per modum intellectus: hoc autem non 
+      <lb ed="#P" n="21"/>conuenit vltimae, stante hipotheli, quia 
+      praesup<lb ed="#P" n="22" break="no"/>ponitduas emanationes quarum secunda non 
+      po<lb ed="#P" n="23" break="no"/>test habere modum intellectus. Et sic secundum 
+      <lb ed="#P" n="24"/>modum praeassignatum manente eodem absoluto 
+      <lb ed="#P" n="25"/>non possunt esse nisi duae personae, quarum vna sit 
+      <lb ed="#P" n="26"/>per modum intellectus, &amp; alia per modum 
+      vo<lb ed="#P" n="27" break="no"/>luntatis: &amp; sic sunt duae productae &amp; vna non 
+      <lb ed="#P" n="28"/>producta &amp; per consequens sunt tres &amp; non 
+      plu<lb ed="#P" n="29" break="no"/>res. 
+      </p>
+            <p xml:id="hx2hx3-b21842-d1e1262">
+               <lb ed="#P" n="30"/>Ad rationem ergo primam in contrarium 
+      di<lb ed="#P" n="31" break="no"/>cendum quod illa ratio probat quod in 
+      productio<lb ed="#P" n="32" break="no"/>ne Spiritus sancti non plus est modus voluntatis, 
+      <lb ed="#P" n="33"/>quam in productione Filii attendendo ad variam 
+      <lb ed="#P" n="34"/>habitudinem quam habet vis spiratiua ad 
+      elicien<lb ed="#P" n="35" break="no"/>dum actum spirandi: non autem probat quod ibi 
+      <lb ed="#P" n="36"/>non sit modus voluntatis, attendendo ad supposita 
+      <lb ed="#P" n="37"/>agentis &amp; ad ordinem emanationum. Ad 
+      secun<lb ed="#P" n="38" break="no"/>dum dicendum quod vis spiratiua quandoque 
+      di<lb ed="#P" n="39" break="no"/>citur esse essentia diuina vt est voluntas, &amp; 
+      quan<lb ed="#P" n="40" break="no"/>doque dicitur quod est voluntas vt est natura: quia 
+      <lb ed="#P" n="41"/>comparando productionem Spiritus sancti, ad 
+      <lb ed="#P" n="42"/>productionem Filii dicitur quod natura diuina ibi 
+      <lb ed="#P" n="43"/>vt voluntas est principium agendi ad denotandum 
+      <lb ed="#P" n="44"/>quod sic naturaliter producitur Spiritus sanctus 
+      <lb ed="#P" n="45"/>per comparationem principii passiuiad actum 
+      eli<lb ed="#P" n="46" break="no"/>ciendum, quod tamen est ibi modus voluntatis 
+      <lb ed="#P" n="47"/>per comparationem ad supposita agentia &amp; ad 
+      or<lb ed="#P" n="48" break="no"/>dinem productionum: &amp; quia in primo quod 
+      per<lb ed="#P" n="49" break="no"/>tinet ad modum naturae conuenit Filio, in 
+      secun<lb ed="#P" n="50" break="no"/>do autem quod pertinet ad modum voluntatis 
+      di<lb ed="#P" n="51" break="no"/>stinguitur ab eo, ideo modus voluntatis accipitur 
+      <lb ed="#P" n="52"/>vt magis formale &amp; quasi distinctiuum: 
+      Compa<lb ed="#P" n="53" break="no"/>rando autem productionem Spiritus sancti ad 
+      <lb ed="#P" n="54"/>productionem creaturarum, ideo dicitur quod 
+      ra<lb ed="#P" n="55" break="no"/>tio agendi in productione Spiritus sancti est 
+      vo<lb ed="#P" n="56" break="no"/>luntas vt natura, ad denotandum quod sic est ibi 
+      <lb ed="#P" n="57"/>modus voluntatis per comparationem ad suppo. 
+      <lb ed="#P" n="58"/>sita agentia, &amp; ordinem productionum, quod 
+      <lb ed="#P" n="59"/>tamen est ibi perfectissime modus naturae est 
+      na<lb ed="#P" n="60" break="no"/>turalis productio, per comparationem principii 
+      <lb ed="#P" n="61"/>actiui ad actum eliciendum, &amp; quia in hoc 
+      prae<lb ed="#P" n="62" break="no"/>cipue differt productio Spiritus sancti a 
+      produ<lb ed="#P" n="63" break="no"/>cione creaturarum quibus conuenit produci per 
+      <lb ed="#P" n="64"/>modum vosuntatis per compatationem principli 
+      <lb ed="#P" n="65"/>actiui ad actum eliciendum, quia producuntur 
+      li<lb ed="#P" n="66" break="no"/>bero arbitrio, ideo ponitur modus naturae in 
+      pro<lb ed="#P" n="67" break="no"/>ductione Spiritus sancti, sicut formale &amp; 
+      distincti<lb ed="#P" n="68" break="no"/>uum a modo productionis creaturae. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

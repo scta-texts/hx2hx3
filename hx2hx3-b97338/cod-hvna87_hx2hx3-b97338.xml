@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="288"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b97338"><!-- l3d3q1 -->
+            <head xml:id="hx2hx3-b97338-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b97338-Hd1e101" type="question-title">Utrum beata virgo fuerit sanctificata in instanti creationis animae</head>
+            <p xml:id="hx2hx3-b97338-d1e104">
+               <lb ed="#P" n="125"/>Distinctio tertia 
+      <lb ed="#P" n="126"/>QVAASTIO PRIMA 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e111">
+               <lb ed="#P" n="127"/>SVper tertiam distinctionem quaeritur vtrum 
+      <lb ed="#P" n="128"/>beata virgo fuerit sanctificata in instanti 
+      crea<lb ed="#P" n="129" break="no"/>tionis animae. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e120">
+               <lb ed="#P" n="130"/>Et videtur quod sic, quia quicquid 
+      excellen<lb ed="#P" n="131" break="no"/>tiae sine fidei praeiudicio, &amp; sacre scripturae, &amp; 
+      <!--289.xml-->
+      <pb ed="#P" n="289"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>auctoritate sanctorum potest attribui beatae 
+      vir<lb ed="#P" n="2" break="no"/>gini dicitur attribui ei. Sed ponerequod in instanti 
+      <lb ed="#P" n="3"/>creationis animae fuerit sanctificata: nullo istorum 
+      <lb ed="#P" n="4"/>repugnat. Ergo, &amp;c. Maior videtur 
+      probabi<lb ed="#P" n="5" break="no"/>lis. Minor probatur. Primo quia dato quod 
+      <lb ed="#P" n="6"/>beata virgo fuerit sanctificata in instanti 
+      crtatio<lb ed="#P" n="7" break="no"/>nis animae &amp; non, contraxerit peccatum 
+      origina<lb ed="#P" n="8" break="no"/>le: nullum praeiudicium fit praedictis. Quia 
+      pri<lb ed="#P" n="9" break="no"/>mo potest dici quod fuit liberata a peccaro 
+      ori<lb ed="#P" n="10" break="no"/>ginali &amp; redempta per Christum: quia 
+      incurris<lb ed="#P" n="11" break="no"/>set illud peccatum si gratia Christi non 
+      impedi<lb ed="#P" n="12" break="no"/>uisset. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e160">
+               <lb ed="#P" n="13"/>Secundo quia non est inconueniens (vt 
+      vide<lb ed="#P" n="14" break="no"/>tur (quod si nul fuerit in peccato originali, &amp; 
+      <lb ed="#P" n="15"/>in gratia: imo ne esse hoc vi letur, quia expellens 
+      <lb ed="#P" n="16"/>&amp; expulsum sunt simul. GQratia autem expellit 
+      cul<lb ed="#P" n="17" break="no"/>pam. Ergo, &amp;c. Simul ergo in eodem instanti 
+      <lb ed="#P" n="18"/>creationis naturae potuit beata Virgo incurrere 
+      <lb ed="#P" n="19"/>culpam originalem, &amp; sanctificari per Gra 
+      <lb ed="#P" n="20"/>tiam. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e180">
+               <lb ed="#P" n="21"/>Praeterea beata virgo debuit sanctificari 
+      quan<lb ed="#P" n="22" break="no"/>to citius potuit fieri: &amp; hoc videtur planum. Sed 
+      <lb ed="#P" n="23"/>non fuisset sanctificata quantocitius potuisset 
+      <lb ed="#P" n="24"/>fieri: si non fuisset sanctificata in instanti 
+      creatio<lb ed="#P" n="25" break="no"/>nis animae. Ergo, &amp;c. Probo minorem quia, si 
+      <lb ed="#P" n="26"/>ponatur sinctificari in alio instanri, cum inter 
+      il<lb ed="#P" n="27" break="no"/>lud instans &amp; instans creationis sit date tempus 
+      <lb ed="#P" n="28"/>medium. Prius potuisset sanctificari: cum inter 
+      <lb ed="#P" n="29"/>quodlibet duo instantia sit in infinitum dare 
+      in<lb ed="#P" n="30" break="no"/>stans ante instans. Semper ergo prius potuisset 
+      <lb ed="#P" n="31"/>sanctificari, quam fuerit sanctificita: si ponatur 
+      <lb ed="#P" n="32"/>sanctificata inalio instanti, quam in instanti 
+      crea<lb ed="#P" n="33" break="no"/>tionis animae, 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e211">
+               <lb ed="#P" n="34"/>In contrarium est quia secundum magistrum 
+      <lb ed="#P" n="35"/>inlittera, etiam caro Christi in beata virgine fuit 
+      <lb ed="#P" n="36"/>sub peccaro: quod non potest intelligi nisi de 
+      <lb ed="#P" n="37"/>peccato originali. Ergo beata Virgo in instanti 
+      <lb ed="#P" n="38"/>creationis animae fuit sub originali peccato. Sed 
+      <lb ed="#P" n="39"/>non potuit simul esse sub orig inali peccato &amp; 
+      sanc<lb ed="#P" n="40" break="no"/>tifitari, vt probatur. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e229">
+               <lb ed="#P" n="41"/>Respondeo Dcendum circa istam 
+      questio<lb ed="#P" n="42" break="no"/>nem su t tres opin iones quae omnes sunt falsae, vt 
+      <lb ed="#P" n="43"/>mihi videtur. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e238">
+               <lb ed="#P" n="44"/>Prima opinio est quod non incurrit peccatum 
+      <lb ed="#P" n="45"/>originale. 
+      <lb ed="#P" n="46"/>Secunda quod in eodem instanti in quo 
+      in<lb ed="#P" n="47" break="no"/>cutrit peccatum o igin le, fuit sanctificata. 
+      <lb ed="#P" n="48"/>Tertia quod in solo nstanti fuit in originali 
+      pec<lb ed="#P" n="49" break="no"/>cato. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e254">
+               <lb ed="#P" n="50"/>Prima opoini o est quod beata virgo non fuit 
+      <lb ed="#P" n="51"/>concepta in peccato originali. Ita quod ipsa 
+      nun<lb ed="#P" n="52" break="no"/>quam incurrit peccatum originale: tamen dicitur 
+      <lb ed="#P" n="53"/>liberata per. Christum. Quia nisi fuisset gratia 
+      <lb ed="#P" n="54"/>Christi preueniens, incurrifset: &amp; eorum ratio tac¬ I 
+      <lb ed="#P" n="55"/>ta est in opponendo. Ista opinio non videtur 
+      mi<lb ed="#P" n="56" break="no"/>hi posse stare cum anctoritate sc ipture sacrae, &amp; 
+      <lb ed="#P" n="57"/>dictis communibus sanctorum &amp; doctorum. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e275">
+               <lb ed="#P" n="58"/>Et primo videtur quod non possit stare cum 
+      <lb ed="#P" n="59"/>auctoritate sacrae scripturae. Apostolus adRatio.; 
+      <lb ed="#P" n="60"/>dicit qued peccatum per adum intrauit in mundum: 
+      <lb ed="#P" n="61"/>&amp; per pertatum more fieut poena prerati. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e286">
+               <lb ed="#P" n="62"/>Ex hoc sic arguitur. Mors est poena pro 
+      pec<lb ed="#P" n="63" break="no"/>cato originali. Sed nullus punitur pro peccato 
+      <lb ed="#P" n="64"/>quod non incutrit: quantuncumque fuerit 
+      incur<lb ed="#P" n="65" break="no"/>surus. Ergo qui non incurrit pectatum originale 
+      <lb ed="#P" n="66"/>non de bet moti, quantumcun que esset 
+      incursu<lb ed="#P" n="67" break="no"/>rus: &amp; maxime, vbi non est aliud peccatum 
+      actua<lb ed="#P" n="68" break="no"/>ledignum poena, sicut contingit ainbeata Virgine. 
+      <lb ed="#P" n="69"/>Ergo beata virgo non debuit mori, si non habuit 
+      <lb ed="#P" n="70"/>pect uum otiginale: Constat autem quod ipsa 
+      <!--289.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>debuit mori, &amp; mortua est. Ergo habuit 
+      pecca<lb ed="#P" n="72" break="no"/>tum originale. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e317">
+               <lb ed="#P" n="73"/>Si dicatur quod mora beatae Virginis non fuit 
+      <lb ed="#P" n="74"/>poena peccati praeteriti: sed cautela futuri. Nihu 
+      <lb ed="#P" n="75"/>ess dictum: quia post mortem non sequitur 
+      ali<lb ed="#P" n="76" break="no"/>quod peccatum, cui caurela debeat 
+      adhiberi<lb ed="#P" n="77" break="no"/>stem idem amplius loquens de Adam dicit in que 
+      <lb ed="#P" n="78"/>vmner pertauerunt. Ergo secundum hoc omnes qui 
+      <lb ed="#P" n="79"/>secundum legem communem ex viro &amp; muliere 
+      <lb ed="#P" n="80"/>nati sunt, peccauerunt in Adum. Sed beata 
+      Vir<lb ed="#P" n="81" break="no"/>go sic nata est. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e339">
+               <lb ed="#P" n="82"/>Istud etiam scilicet beatam vVirginem non 
+      ha<lb ed="#P" n="83" break="no"/>buisse peccatum originale, non potest stare cum 
+      <lb ed="#P" n="84"/>dictis sanctorum &amp; doctorum, &amp; sacrae scripturae. 
+      <lb ed="#P" n="85"/>Nam secundum omnes per Christum omnes sunt 
+      <lb ed="#P" n="86"/>redempti: &amp; omnes tam beata Vngo, quam 
+      <lb ed="#P" n="87"/>alij indiguerunt redimi per Christum. Sed redimi 
+      <lb ed="#P" n="88"/>non conuenit nisi illi quod fuit quandoque 
+      obli<lb ed="#P" n="89" break="no"/>gatum. Ergo berta virgo fuit quandoque 
+      obli<lb ed="#P" n="90" break="no"/>gata peccato originali. Impedire enim ne aliquis 
+      <lb ed="#P" n="91"/>obligetur, non est rediniere: imo sic impedite est 
+      <lb ed="#P" n="92"/>vt non indigeat redemptione. Vnde dicere quod 
+      <lb ed="#P" n="93"/>beata Virgo fuit redempta, &amp; non fuerit 
+      obliga<lb ed="#P" n="94" break="no"/>ta: est non vti vocabulo in propria 
+      significatio<lb ed="#P" n="95" break="no"/>ne. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e372">
+               <lb ed="#P" n="96"/>Secunda opinio est quae ponit beatam Virginem 
+      <lb ed="#P" n="97"/>habuisse peccatum originale: &amp; cum hoc fuissoe 
+      <lb ed="#P" n="98"/>sanctificatas in instanti suae conceptionis. Quia 
+      <lb ed="#P" n="99"/>tvt dicunt) simul possunt esse in eodem instanti in 
+      <lb ed="#P" n="100"/>quodam transitu, culpa &amp; Pratia: Ita quod isti 
+      <lb ed="#P" n="101"/>distingunt illud istans infusionis animae beatae 
+      <lb ed="#P" n="102"/>vitginis in tria signa. Primum signum fuit ibi culpa 
+      <lb ed="#P" n="103"/>quam incurrit ex vnione ad corpus. In secundo 
+      <lb ed="#P" n="104"/>fuit Gratia quasi in quodam transitu simul cum 
+      <lb ed="#P" n="105"/>culpa. Sed intertio fuit oratia secundum esse 
+      ha<lb ed="#P" n="106" break="no"/>bituale, &amp; expulsa culpa. Quod autem simul 
+      pos<lb ed="#P" n="107" break="no"/>sit esse, &amp; sit quandoque Cratia &amp; culpa. 
+      Pro<lb ed="#P" n="108" break="no"/>bant per vnam rationemad hanc partem factam. 
+      <lb ed="#P" n="109"/>Quia scilicet oportet esse simul expellens &amp; 
+      ex<lb ed="#P" n="110" break="no"/>pulsum. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e407">
+               <lb ed="#P" n="111"/>Haec autem rositio est impossibilis, quantum 
+      <lb ed="#P" n="112"/>ad positionem: &amp; quantum ad motum ponendi. 
+      <lb ed="#P" n="113"/>Quantum ad id quod principaliter ponitur quod 
+      <lb ed="#P" n="114"/>simul sint cur pa &amp; oratia: faciliter paret. Quia 
+      <lb ed="#P" n="115"/>quicumque ponitquae cumque opposita esse simul, 
+      <lb ed="#P" n="116"/>ronit contradictorio esse simul, quia includunt 
+      <lb ed="#P" n="117"/>contradictionem: vnde nec aliqua sunt opposita 
+      <lb ed="#P" n="118"/>nisi inquantum vnum includit negationem 
+      alte<lb ed="#P" n="119" break="no"/>rius. Sed culpa &amp; Cratia sunt praeuatiue 
+      opposi<lb ed="#P" n="120" break="no"/>ta. Quae quidem oppositio magis accedit ad 
+      af<lb ed="#P" n="121" break="no"/>firmationem, &amp; negationem: quam aliqua 
+      alia<lb ed="#P" n="122" break="no"/>tum. Ergo impossibile est quod sint simul. 
+      <lb ed="#P" n="123"/>Modus etiam ponendi nihil valet. Quia quando 
+      <lb ed="#P" n="124"/>dicunt quod instans diuiditur intria signa, illa 
+      si<lb ed="#P" n="125" break="no"/>gna. Aut differunt re, aut ratione. Si re: ergo 
+      in<lb ed="#P" n="126" break="no"/>stans esset quid diuis ibile in diuersare, quod est 
+      im<lb ed="#P" n="127" break="no"/>possibile: quia instans est quid indiuis ibile. Si 
+      au<lb ed="#P" n="128" break="no"/>tem fuerint diuersa ratione tantum: tunc constat 
+      <lb ed="#P" n="129"/>quod similiter realiter loquendo sint opposita in 
+      <lb ed="#P" n="130"/>eodem. Item cum illa Signa sint vnum indiuis ibile 
+      <lb ed="#P" n="131"/>secundum rem: illudquod est realiter in aliquo 
+      <lb ed="#P" n="132"/>illorum signorum, est realiter in omnibus. Sed 
+      <lb ed="#P" n="133"/>ipsi ponunt Gratiam in altero signo secundum 
+      <lb ed="#P" n="134"/>esse habituale permanens: &amp; in illo Signo non esse 
+      <lb ed="#P" n="135"/>culpam. Ergo in omnibus illis signis secundum 
+      <lb ed="#P" n="136"/>tem loquendo, fuit gratia secundum esse 
+      ha<lb ed="#P" n="137" break="no"/>bituale &amp; manens. &amp; per consequens in numero 
+      <lb ed="#P" n="138"/>illorum signorum fuit culpa: cuius oppositum 
+      po<lb ed="#P" n="139" break="no"/>nunt, quia ponunt culpam in primo signo. Quod 
+      <lb ed="#P" n="140"/>etiam dicitur de transitu frluolum est. Quia ox 
+      <!--290.xml-->
+      <pb ed="#P" n="290"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>posita taritum repugnant in vno indiuisibili quan 
+      <lb ed="#P" n="2"/>tum in mille annis. Et sicut non possunrmanereum 
+      <lb ed="#P" n="3"/>mmpbretita nec esse realiter loquendo secundum 
+      <lb ed="#P" n="4"/>quemcunque transitum. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e491">
+               <lb ed="#P" n="5"/>Si dicatur quod Gratia &amp; culpa non habeno 
+      <lb ed="#P" n="6"/>esse in nunc temporis conrinui proprie, sed, in 
+      <lb ed="#P" n="7"/>nunc temporis discreri, &amp; quod duo nunc 
+      tem<lb ed="#P" n="8" break="no"/>poris discreti possunt coexistere vni nunc 
+      conti<lb ed="#P" n="9" break="no"/>nui. Et ita gratia &amp; culpa non fuerunt in eodem 
+      <lb ed="#P" n="10"/>nune propriae mensurae, scilicet temporis discreti: 
+      <lb ed="#P" n="11"/>sed in eodem nunc extraneae mensurae, scilicet 
+      <lb ed="#P" n="12"/>temporis continui per quandam coexistentiam, 
+      <lb ed="#P" n="13"/>hoc est impossibile, quia licer eidem nunc stanti 
+      <lb ed="#P" n="14"/>possint plura nune sibi succedentia coexistere: 
+      ta<lb ed="#P" n="15" break="no"/>men nunc fluenti impossibile est quandoque duo 
+      <lb ed="#P" n="16"/>nune fluentia habentia successionem, coex isterei 
+      <lb ed="#P" n="17"/>Quia dum primum nunc coexisteret fluenti: aliud 
+      <lb ed="#P" n="18"/>expectaretur in futurum. Sed nunc fluens non 
+      <lb ed="#P" n="19"/>potest aliud expectare in fututum. Ergo 
+      impos<lb ed="#P" n="20" break="no"/>sibile est quod duo nunc sibi succedenti coexit 
+      <lb ed="#P" n="21"/>stant eidem nunc fluenti: quale est nunc 
+      tempo<lb ed="#P" n="22" break="no"/>ilis conrinui. Nunc autem gratiae &amp; nunc culpae 
+      <lb ed="#P" n="23"/>circa idem subiectum oporter esse succedentin: 
+      <lb ed="#P" n="24"/>sitie ponantur esse temporis continui siue diseretit 
+      <lb ed="#P" n="25"/>Et ideo impossibile est quod coexistant eidem 
+      <lb ed="#P" n="26"/>nune temporis continui
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e541">
+               <lb ed="#P" n="27"/>Tertia opinio est, quod beara virgo habuit 
+      <lb ed="#P" n="28"/>peccatum originale in inst anti intusior is animae, 
+      <lb ed="#P" n="29"/>et quod peceatum orig nale fuir si ea rantum in 
+      <lb ed="#P" n="30"/>ilio instanti, &amp; non ante, nec post Nee sequitur 
+      <lb ed="#P" n="31"/>quod sintul tuerit gratia &amp; culpa, quia culpa fuit 
+      <lb ed="#P" n="32"/>tantum in islo instanti: sed gratia fuit in toto 
+      tem<lb ed="#P" n="33" break="no"/>pore sequenti Er quod hoc sit possibile 
+      osten<lb ed="#P" n="34" break="no"/>dunt. Quta fi fabae motae sursum, dum mouetur 
+      <lb ed="#P" n="35"/>oceurreret lapls molaris, faba non posset manere 
+      <lb ed="#P" n="36"/>in illo situ in quo primo contingeret cam lapis 
+      mo<lb ed="#P" n="37" break="no"/>lart, nisi in vno tantum instanti. Nam si esset ibi 
+      <lb ed="#P" n="38"/>in pluribus instantibus, esset in tempore &amp; per 
+      <lb ed="#P" n="39"/>confequens quiesceret, &amp; faceret lapideni 
+      mola<lb ed="#P" n="40" break="no"/>rem ibi quiescere: quod est inconueniens &amp; 
+      im<lb ed="#P" n="41" break="no"/>ptobabile: Sic ergo non est inconueniens qubd 
+      <lb ed="#P" n="42"/>e ilpa originalis fuerit in beata Virgine in vno solo 
+      <lb ed="#P" n="43"/>instanti. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e580">
+               <lb ed="#P" n="44"/>Ista opinio non videtur m: hi prohabilis. 
+      <lb ed="#P" n="45"/>Ad cuius euidentiam est sciendum, quod 
+      ali<lb ed="#P" n="46" break="no"/>quid diettur esse in allquo nunc dupli iter; vno 
+      <lb ed="#P" n="47"/>modo sicut in propria mensur: sicut motum esse 
+      <lb ed="#P" n="48"/>siue mutatum esse, est in nunc temporis 
+      continui<lb ed="#P" n="49" break="no"/>Alio modo potest esse in nunc, non si ut in 
+      men<lb ed="#P" n="50" break="no"/>sura propria fed per quandam coemsteutiam: 
+      si<lb ed="#P" n="51" break="no"/>cuessiicatur quod intelligere Angeli est in nune 
+      <lb ed="#P" n="52"/>in quo generatur ignis, vel aliq tid rale. Modo 
+      si<lb ed="#P" n="53" break="no"/>ue ponatur gratia &amp; culpa esse in nunc remporis 
+      <lb ed="#P" n="54"/>nostri, siue in nune temporis disereti sicut in 
+      pro<lb ed="#P" n="55" break="no"/>prsa mensura: nihil refert quantum ad rationem 
+      <lb ed="#P" n="56"/>quae iam fict. Quia oport et ponere nune 
+      tempo<lb ed="#P" n="57" break="no"/>ris disereti coexistere nunc temporis nostii, vel 
+      <lb ed="#P" n="58"/>vni vel plur ibus. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e615">
+               <lb ed="#P" n="59"/>Ulterius sciendum, quod licet nunc temporia 
+      <lb ed="#P" n="60"/>disereti &amp; illud quod fit in eo, possit coesistere 
+      <lb ed="#P" n="61"/>tempori nostro, tamen ita potest esse in tempore 
+      <lb ed="#P" n="62"/>nostro per coexistentiam quod etiam potest esse, 
+      <lb ed="#P" n="63"/>at est necessario in aliquo nunc remporis nostri 
+      <lb ed="#P" n="64"/>per talem coexistentiam; non sie autem potest est 
+      <lb ed="#P" n="65"/>se motus. Nam motus sic est: in rempore contia 
+      <lb ed="#P" n="66"/>nuo, quod non porest esse in nunc: Vnde 
+      scien<lb ed="#P" n="67" break="no"/>dum quod si illud quod in nunc temporis 
+      dis<lb ed="#P" n="68" break="no"/>oreti coexistit tempori nostro: oportet quod sic 
+      <lb ed="#P" n="69"/>correspondeat nunc temporis nostrl, quod 
+      opor<lb ed="#P" n="70" break="no"/>tear accipere in tempore continuo (quod est tem¬ 
+      <!--290.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>pus nostrum) aliquod nunc cui primo coexistas in 
+      <lb ed="#P" n="72"/>quo per coexistentiam dicatur esse primo. Nam 
+      <lb ed="#P" n="73"/>cum ralu nunc sit indiuisibile, potest coexistere 
+      <lb ed="#P" n="74"/>nunc temporis nostri: nec est dare nunc in 
+      tem<lb ed="#P" n="75" break="no"/>pore nostro cui non eoexistat tale nunc dum haber 
+      <lb ed="#P" n="76"/>esse: Aut ergo oportet quod procedat omne nunc 
+      <lb ed="#P" n="77"/>temporis nostri: aut quod si dare aliquod nunc in 
+      <lb ed="#P" n="78"/>tempore nost ro cui non coc xistat in quo primo sit 
+      <lb ed="#P" n="79"/>per cocxistentiam. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e667">
+               <lb ed="#P" n="80"/>Ex his arguo sic ad propositum. Ex quo 
+      infu<lb ed="#P" n="81" break="no"/>sio gratiae &amp; corruptio, vel recessus culpae est in 
+      <lb ed="#P" n="82"/>indiuisibili: oportet dare aliquod instans in 
+      tem<lb ed="#P" n="83" break="no"/>pore nostro in quo primo fuit gratia in beata 
+      vir<lb ed="#P" n="84" break="no"/>gine &amp; in quo primo non fuit culpa. Aut ergo 
+      il<lb ed="#P" n="85" break="no"/>lud instans est idem cum eo in quo est culpa: aut 
+      <lb ed="#P" n="86"/>aliud, non idem quia tunc gratia &amp; culpa: &amp; esse 
+      <lb ed="#P" n="87"/>&amp; non esse culpae erunt in eodem instanti, quod 
+      <lb ed="#P" n="88"/>est impossibile Oportet ergo quod sit aliud. 
+      <lb ed="#P" n="89"/>Tunc quaero vtrum sit immediatum illi instanti in 
+      <lb ed="#P" n="90"/>quo fuit culpa: aut non. Immediatum esse non 
+      <lb ed="#P" n="91"/>potesti quia in tempore nostro non est dare vnum 
+      <lb ed="#P" n="92"/>instans immediatum alii instanti. Ergo illud 
+      in<lb ed="#P" n="93" break="no"/>stans temporis nostri in quo primo fuit gratia, &amp; 
+      <lb ed="#P" n="94"/>in quo prius habuit culpa non esse: fuit aliud ab 
+      <lb ed="#P" n="95"/>instanti in quo primo fuit culpa. Et per 
+      conse<lb ed="#P" n="96" break="no"/>quens inter illud instans in quo primo fuit culpa, 
+      <lb ed="#P" n="97"/>&amp; instans in quo habuit culpa non esse: fuit 
+      tem<lb ed="#P" n="98" break="no"/>pus medium Sen ex quo culpa incepit esse: 
+      sem<lb ed="#P" n="99" break="no"/>per fuit vsque ad illud temjtus in quo primo 
+      ha<lb ed="#P" n="100" break="no"/>buit non esse Ergo culpa fuit in toto tempore ab 
+      <lb ed="#P" n="101"/>instanti in quo prino fuit vsque ad aliud instans in 
+      <lb ed="#P" n="102"/>quo primo habuit non esse. Et per consequens 
+      <lb ed="#P" n="103"/>non fuit tantum in instanti solo temporis nostri, 
+      <lb ed="#P" n="104"/>siue accipiatur esse in nunc temporis sicut in 
+      pro<lb ed="#P" n="105" break="no"/>Pria mensura, siue accipiatur esse in nunc 
+      tempo<lb ed="#P" n="106" break="no"/>ris per eoexistentiam: &amp; sic dicitur esse in 
+      tempo<lb ed="#P" n="107" break="no"/>re nostro. Sic ergo praedicta positio videtur falsa. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e730">
+               <lb ed="#P" n="108"/>Ad illud autem quod adducitur de faba 
+      ob<lb ed="#P" n="109" break="no"/>uianti lapidi molari: multipliciter respondetur. 
+      <lb ed="#P" n="110"/>Dicunt enim quidam quod illa faba postquam 
+      <lb ed="#P" n="111"/>occurrerit lapidi molari, mouetur per accidens ad 
+      <lb ed="#P" n="112"/>motum lapidis: sed per se quiescit sicut nauta in 
+      <lb ed="#P" n="113"/>nauit Et quia quiescit pe se: quantum est de se 
+      <lb ed="#P" n="114"/>est in eadem dispositione in tempore &amp; in nunc. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e749">
+               <lb ed="#P" n="115"/>Sed istud non valet, quia quantumcunque non 
+      <lb ed="#P" n="116"/>moueatur per se sed per accidens: tamen verum 
+      <lb ed="#P" n="117"/>est dicere quod in illo vbi in quo ei occurtit lapls 
+      <lb ed="#P" n="118"/>molans, non est nisi in nunc. Illi autem qui volunt 
+      <lb ed="#P" n="119"/>probaro quod beata virgo non fuit in originali nisi 
+      <lb ed="#P" n="120"/>in nunc, non curant quallter hoc sit, dummodo 
+      <lb ed="#P" n="121"/>possint inuenire aliquid in eadem dispositione 
+      <lb ed="#P" n="122"/>tantum in nunc: quia a simili poterit idem dici de 
+      <lb ed="#P" n="123"/>peccato originali. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e771">
+               <lb ed="#P" n="124"/>Alii dicunt quod faba vtitur illo vbi in 
+      poten<lb ed="#P" n="125" break="no"/>tia: &amp; ideo non est ibi nisi in nunc. Sicut etiam 
+      <lb ed="#P" n="126"/>mobile dum mouetur in medio spatio, non est nia 
+      <lb ed="#P" n="127"/>si in nunc in spatio sibi aequali: quia illo spatio 
+      vti<lb ed="#P" n="128" break="no"/>tur in potentia. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e784">
+               <lb ed="#P" n="129"/>Hoc autem difficultatem magnam implicat. 
+      <lb ed="#P" n="130"/>Nam Philosophus S Phisicorum vulut quod 
+      <lb ed="#P" n="131"/>impossibile est motum reflexum continuari. Quia 
+      <lb ed="#P" n="132"/>ibi sunt duo motus oppositi: &amp; oppesita non 
+      con<lb ed="#P" n="133" break="no"/>tinuantur, sicut ipse dicit ibidem. Vnde ipse 
+      di<lb ed="#P" n="134" break="no"/>cit, quod dato quod inter motus oppositos non 
+      <lb ed="#P" n="135"/>fit necessarium esse quietem mediam: saltem 
+      <lb ed="#P" n="136"/>oporter quod sint discontinui, &amp; consequenter se 
+      <lb ed="#P" n="137"/>habentes. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e806">
+               <lb ed="#P" n="138"/>Et ideo omissis multis quae de hac materia 
+      di<lb ed="#P" n="139" break="no"/>cuntur, videtur mihi quod causa quare faba vel 
+      <lb ed="#P" n="140"/>quodcunque corpus possit esse in solo instanti in 
+      <!--291.xml-->
+      <pb ed="#P" n="291"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>aliquovbi, sue vaurilio inadu, sue in 
+      poten<lb ed="#P" n="2" break="no"/>tia: est, quia recessus ab ilio vbi non est in 
+      ndiui<lb ed="#P" n="3" break="no"/>sibili: nec est dure primum nunc in quo primo 
+      re<lb ed="#P" n="4" break="no"/>cesserit ab illo vbi. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e830">
+               <lb ed="#P" n="5"/>Vnde sciendum est quod in hiis quae 
+      mouen<lb ed="#P" n="6" break="no"/>tur, &amp; quae per motum acquitunr aliquid, vel 
+      re<lb ed="#P" n="7" break="no"/>cedunt ab alio: aliter est in principio motus, &amp; in 
+      <lb ed="#P" n="8"/>sine. Quia in principio motus est dare vltimum 
+      <lb ed="#P" n="9"/>nunc in quo mobile fuit in toto termino a quo, 
+      <lb ed="#P" n="10"/>scilicet illud nunc in quo incipit motus: sed non 
+      <lb ed="#P" n="11"/>est dare primum in quo recedat ab illo termino, 
+      <lb ed="#P" n="12"/>nec est dare primam partem termini a quo, quam 
+      <lb ed="#P" n="13"/>derelinquat. Quia in qualibet parte dimissa est 
+      <lb ed="#P" n="14"/>in infinitum dare partem ante partem: puta si 
+      di<lb ed="#P" n="15" break="no"/>miserit vnam partem loci, prius dimiserit partem 
+      <lb ed="#P" n="16"/>illius partis, &amp; sic in infinitum. Vnde non est 
+      da<lb ed="#P" n="17" break="no"/>re primam partem quam dimiserit. Sed in vltimo 
+      <lb ed="#P" n="18"/>motus non est dare vltimum nunc, in quo sit sicut 
+      <lb ed="#P" n="19"/>in subiecto a quo, vel secundum partem, vel 
+      se<lb ed="#P" n="20" break="no"/>cundum totum: sed est dare primum nunc in quo 
+      <lb ed="#P" n="21"/>est sub termino ad quem. Quia ergo quodlibet 
+      <lb ed="#P" n="22"/>vbi acquiritur &amp; corrumpitur per motum: ideo 
+      <lb ed="#P" n="23"/>in principio motus non est dare primum nunc in 
+      <lb ed="#P" n="24"/>quo recesserit, quia per motum ab illo vbi 
+      recedi<lb ed="#P" n="25" break="no"/>tur. Et ideo suuin esse potest ibi esse in nunc 
+      tan<lb ed="#P" n="26" break="no"/>tum, &amp; suum non esse in tempore sequenti: nec 
+      <lb ed="#P" n="27"/>pportet dare primum nunc in quo non sit in illo 
+      <lb ed="#P" n="28"/>vbi. Sed de culpa &amp; gratia non est simile. Quia 
+      <lb ed="#P" n="29"/>recessus a culpa oportet quod fiat in instanti: &amp; 
+      <lb ed="#P" n="30"/>acquisitio similiter gratiae. Et ideo oportet dare 
+      <lb ed="#P" n="31"/>primum nunc, in quo primo anima haberet esse 
+      <lb ed="#P" n="32"/>sub gratia, vel in quo recesserit a culpa, vel careat 
+      <lb ed="#P" n="33"/>culpa. Non enim culpa est aliquod quantum per 
+      <lb ed="#P" n="34"/>aecidens, vel per se, a quo possit fieri recessus per 
+      <lb ed="#P" n="35"/>motum &amp; in tempore: &amp; ideo non est simile quod 
+      <lb ed="#P" n="36"/>inducitur pro simili. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e902">
+               <lb ed="#P" n="37"/>Et ideo est quarta opinio quae ponit quod 
+      hex<lb ed="#P" n="38" break="no"/>ta Virgo fuit in peccato originali per aliquam 
+      me<lb ed="#P" n="39" break="no"/>rulam temporis nostri: &amp; quod postea fuit 
+      sancti<lb ed="#P" n="40" break="no"/>ficata. Et quod talem morulam oporteat dare: 
+      <lb ed="#P" n="41"/>concludit ratio supradicta contrae hanc tertiam 
+      <lb ed="#P" n="42"/>opinionem. Quod autem potius antequam exiret 
+      <lb ed="#P" n="43"/>de vtero, fuerit senctificata: sic potest parete, quia 
+      <lb ed="#P" n="44"/>crededum est ei esse datam maiorem gratiam, 
+      <lb ed="#P" n="45"/>quam euicumque sancto. Et ideo cum aliqui 
+      san<lb ed="#P" n="46" break="no"/>cti fuerint sanctificati in vtero: multo plus ipsas 
+      <lb ed="#P" n="47"/>&amp; citius &amp; copiosius. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e929">
+               <lb ed="#P" n="48"/>Habito ergo quod beata virgo fuit 
+      sanctifi<lb ed="#P" n="49" break="no"/>cata quantum ad sanctificationem primam, 
+      vi<lb ed="#P" n="50" break="no"/>dendum est quid in ea sanctificatio vtraque 
+      fece<lb ed="#P" n="51" break="no"/>rit. Et ad hoc breuiter pretermissis multis quae de 
+      <lb ed="#P" n="52"/>hoc dicuntur, dicendum quod modo magis 
+      com<lb ed="#P" n="53" break="no"/>muniter tenetur: quod in prima sanctificatione 
+      <lb ed="#P" n="54"/>fuit fomes ligatus In secunda autem totaliter 
+      ab<lb ed="#P" n="55" break="no"/>latus: &amp; ipsa fuit confirmata vt de caetero non 
+      <lb ed="#P" n="56"/>posset pectare. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e951">
+               <lb ed="#P" n="57"/>Ad cuius euidentiam est sciendum. Primo 
+      <lb ed="#P" n="58"/>a quid importat fomes. Est autem fomes habitualis 
+      <lb ed="#P" n="59"/>me hipario anperituu sensitiui in alaquod delect abile 
+      <lb ed="#P" n="60"/>serpndum sensum prxeter imperium rationte. Quae 
+      <lb ed="#P" n="61"/>quidem inclinatio (vt in secundo dictum est) 
+      <lb ed="#P" n="62"/>posset esse in homine in puris naturalibus 
+      eonsti<lb ed="#P" n="63" break="no"/>tuto; vt si fieret homo miraculose de lapide &amp; 
+      <lb ed="#P" n="64"/>vnum donum supernaturale ei conferretur: &amp;tunc 
+      <lb ed="#P" n="65"/>esset talis inclinatio non culpa vel poena, sed 
+      ran<lb ed="#P" n="66" break="no"/>tum quidam defectus naturalis. sed in 
+      descen<lb ed="#P" n="67" break="no"/>dentihus ab Adim ante bepusmum hahitum in re 
+      <lb ed="#P" n="68"/>vel in voto pertinet ad cuipam originalem: sed 
+      <lb ed="#P" n="69"/>postbaptismum est paena quaedam. Et ista 
+      incli<lb ed="#P" n="70" break="no"/>natio ron necessario addit aliquam rem supra ap¬ 
+      <!--291.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>petitum sensitiuum: licet ista indlinatio posit 
+      es<lb ed="#P" n="72" break="no"/>se maior &amp; minor secundum dispositiones corpo 
+      <lb ed="#P" n="73"/>nis, secundum qus appetitus sensitiuus 
+      disponi<lb ed="#P" n="74" break="no"/>tur ad appetendum diuersimode. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e997">
+               <lb ed="#P" n="75"/>Secundo sciendum quod aliqua potentia vel 
+      <lb ed="#P" n="76"/>inclinatio habitualis ad actum aliquem potest 
+      <lb ed="#P" n="77"/>manere: &amp; tamen non exit, vel potest exire in 
+      <lb ed="#P" n="78"/>actum, quia est ligata, vt si alae alicuius auis 
+      es<lb ed="#P" n="79" break="no"/>sent ligatae, adhuc posset esse quod haberet 
+      po<lb ed="#P" n="80" break="no"/>tentiam volatiuam: &amp; tamen non posset exite in 
+      <lb ed="#P" n="81"/>actum etus. Et secundum hoc potest dici quod 
+      li<lb ed="#P" n="82" break="no"/>cet in beata Virgine remanserit habitualis 
+      ineli<lb ed="#P" n="83" break="no"/>natio apperitus sensitiui in delectabile sensus 
+      <lb ed="#P" n="84"/>(quia si non fuisset copia grane ligantis: 
+      potuisse<lb ed="#P" n="85" break="no"/>quantum fuisset ex parte appetitus sensitiui 
+      incli<lb ed="#P" n="86" break="no"/>nati praeter impetium rat onis in delectabile 
+      sen<lb ed="#P" n="87" break="no"/>sus) tamen illa inclinatio ita fuit ligata per 
+      co<lb ed="#P" n="88" break="no"/>piam gratiae replentis auimam eius, &amp; 
+      praedo<lb ed="#P" n="89" break="no"/>minantis super dictam inclinationem, &amp; per 
+      pro<lb ed="#P" n="90" break="no"/>uidentiam diuinam quae inpediebat ne aliquid 
+      <lb ed="#P" n="91"/>occurreret quod causaret motum illicitum: quod 
+      <lb ed="#P" n="92"/>talis inclinatio non poterat exire in actum, 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e1039">
+               <lb ed="#P" n="93"/>Sed in conceptione filij Dei, ita fuit 
+      sancti<lb ed="#P" n="94" break="no"/>ficata quod per dispositionem virtuosam 
+      forma<lb ed="#P" n="95" break="no"/>liter appetitum sensitirum disponentem: fuit 
+      ab<lb ed="#P" n="96" break="no"/>lata illa inclinatio totaliter quantum ad hoc quod 
+      <lb ed="#P" n="97"/>esset natus aliquis motus insurgere praeter 
+      incli<lb ed="#P" n="98" break="no"/>nationem rationis. Ita quod licet apperitus 
+      sen<lb ed="#P" n="99" break="no"/>sitiuus quantum ad essentiam remanserit, quia 
+      ap<lb ed="#P" n="100" break="no"/>petebat quantum ratio dictabat ea quae essent 
+      <lb ed="#P" n="101"/>conuenientia secundum sensum: non tamen 
+      re<lb ed="#P" n="102" break="no"/>mansit aptitudo vel inclinatio ad aliquem motum 
+      <lb ed="#P" n="103"/>qui esset natus insurgere praeter imperium rationis 
+      <lb ed="#P" n="104"/>secundum quod conuenit apperiui sensitiuo ratio 
+      <lb ed="#P" n="105"/>fomitis. Et ideo dicitur quod in secunda 
+      sancti<lb ed="#P" n="106" break="no"/>ficatione fuit fomes extinctus, siue totaliter 
+      abla<lb ed="#P" n="107" break="no"/>tus. Quia &amp; si remanserit appetititus sensitiuus, 
+      <lb ed="#P" n="108"/>non tamen quantum ad talem inclinationem. Sic 
+      <lb ed="#P" n="109"/>ergo patet de prima sanctificatione beatae 
+      Virgi<lb ed="#P" n="110" break="no"/>nis, quando fuit: &amp; quem effectum habuit prima 
+      <lb ed="#P" n="111"/>&amp; secunda. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e1083">
+               <lb ed="#P" n="112"/>Sciendum vlterius quod communiter tenetur 
+      <lb ed="#P" n="113"/>quod in secunda sanctificatione fuit confirmata 
+      <lb ed="#P" n="114"/>sic quod non poterat ex tunc peccare: quod est 
+      <lb ed="#P" n="115"/>plus quam fomitem extinguere. Quia in Adam in 
+      <lb ed="#P" n="116"/>principio post sui creationem, cilieet ante 
+      pecca<lb ed="#P" n="117" break="no"/>tum non fuit fomes: non tamen fuit confirmatus 
+      <lb ed="#P" n="118"/>quod non posset peccare, sicut probauit euentus 
+      <lb ed="#P" n="119"/>rei. Sed beata Virgo in secunda sanctificatione: 
+      <lb ed="#P" n="120"/>ita fuit plena gratia quod inclinatio gratiae 
+      abstu<lb ed="#P" n="121" break="no"/>lit possibilitatem ad opposita gratiae, scilicet ad 
+      <lb ed="#P" n="122"/>quodcumque peccatum. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e1109">
+               <lb ed="#P" n="123"/>Ad primum ergo, quod opponitur in 
+      contra<lb ed="#P" n="124" break="no"/>rium dicendum, quod ponere beatam Virginem 
+      <lb ed="#P" n="125"/>non habuisse peccatum originale repugnat 
+      aucto<lb ed="#P" n="126" break="no"/>ritati sacrae scripturae &amp; sanctorum: vt supra 
+      di<lb ed="#P" n="127" break="no"/>ctum est. Et quod dicitur in contrarium quod ad 
+      <lb ed="#P" n="128"/>hoc quod debuerit dici redempta, sufficit quod 
+      <lb ed="#P" n="129"/>fuerit impedita a culpa quam incur sura erati 
+      di<lb ed="#P" n="130" break="no"/>cendum quod ostensum est quod non sufficit. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e1130">
+               <lb ed="#P" n="131"/>Ad secundum dicendum, quod illa ratio 
+      pro<lb ed="#P" n="132" break="no"/>cedit ex falsa imaginatione. Quia viderur 
+      imagi<lb ed="#P" n="133" break="no"/>nari quod expelli: sit culpam adhuc manentem 
+      <lb ed="#P" n="134"/>per quendam motum successiue tendere ad non 
+      <lb ed="#P" n="135"/>esse. Et hoc est falsum: imo culpam in aliquo 
+      in<lb ed="#P" n="136" break="no"/>stanti expelli, est ipsam in illo instanti primo non 
+      <lb ed="#P" n="137"/>esse: &amp; causa expellendi, est causa faciendi nune 
+      <lb ed="#P" n="138"/>primio non esse Quando ergo dicitur quod 
+      ex<lb ed="#P" n="139" break="no"/>pellens &amp; expulsum sunt simul, dicendum quod 
+      <lb ed="#P" n="140"/>falsum est luquendo de expellente fornaliter: si¬ 
+      <!--292.xml-->
+      <pb ed="#P" n="292"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cut gratia expellit eulpam. Et quando dicitur 
+      <lb ed="#P" n="2"/>quod imo: quia quod expellitur dum expellitur, 
+      <lb ed="#P" n="3"/>est Dicendum est quod falsum est: imo in illo 
+      <lb ed="#P" n="4"/>nunc dicitur expelli, siue in quo expellitur habet 
+      <lb ed="#P" n="5"/>primo non esse. Primum autem non esse culpae, &amp; 
+      <lb ed="#P" n="6"/>primum esse gratiae sunt simul: sed esse vtriusque 
+      <lb ed="#P" n="7"/>impossibile est esse simul. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e1176">
+               <lb ed="#P" n="8"/>Ad tertium dicendum, quod supposito quod 
+      <lb ed="#P" n="9"/>beata virgo habuerit culpam originalem: 
+      impos<lb ed="#P" n="10" break="no"/>sibile est eam ita cito sanctificari quod non 
+      potue<lb ed="#P" n="11" break="no"/>rit citius sanctificari. Quia stante hypothesi in 
+      in<lb ed="#P" n="12" break="no"/>stanti infusionis animae non potuit sanctificari: 
+      <lb ed="#P" n="13"/>nec etiam in instanti propinquissimo. Quia non 
+      <lb ed="#P" n="14"/>est dare instans propinquissimum alii instanti: ita 
+      <lb ed="#P" n="15"/>quod non possit dari aliud propinquius. Quia hoc 
+      <lb ed="#P" n="16"/>est contra naturam continui, cum esse continui 
+      <lb ed="#P" n="17"/>sit diuisibile in infinitum. 
+      </p>
+            <p xml:id="hx2hx3-b97338-d1e1200">
+               <lb ed="#P" n="18"/>Dicendum ergo ad maiorem quod non opor. 
+      <lb ed="#P" n="19"/>tet quod beata Virgo fuerit sanctificata quam 
+      ci<lb ed="#P" n="20" break="no"/>tius hoc potuit fieri, sic scilicet quod ita cito 
+      fue<lb ed="#P" n="21" break="no"/>rit sanctificata quod non potuerit fieri citius: sed 
+      <lb ed="#P" n="22"/>oportet dare aliquam moram in qua fuit in peccai 
+      <lb ed="#P" n="23"/>to originali, in cuius mora potuisset citius 
+      sanctifi<lb ed="#P" n="24" break="no"/>cari. Quantum aliquis stetit ibi, &amp; quare non 
+      ci<lb ed="#P" n="25" break="no"/>tius, ille nouit qui fuit. Hoc solum sufficiat 
+      sci<lb ed="#P" n="26" break="no"/>re quod diuisio continui in infinitum, facit quod 
+      <lb ed="#P" n="27"/>impossibile fuit eam sanctificari ita cito: quod 
+      <lb ed="#P" n="28"/>citius non potuisset sanct isicari. Et quod 
+      opor<lb ed="#P" n="29" break="no"/>tuit aliquam morulam esse in qua fuit in peccato 
+      <lb ed="#P" n="30"/>originali, quantacumque fuerit illa. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

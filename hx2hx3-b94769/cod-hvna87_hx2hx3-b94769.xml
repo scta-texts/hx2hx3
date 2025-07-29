@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="281"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b94769"><!-- l3d1q1 -->
+            <head xml:id="hx2hx3-b94769-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b94769-Hd1e101" type="question-title">Utrum persona divina possit assumere indifferenter quamcumque naturam creatam in unitate suppositi</head>
+            <p xml:id="hx2hx3-b94769-d1e104">
+      <!--281.xml-->
+               <pb ed="#P" n="281"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>INCIPIT LIBEN 
+      <lb ed="#P" n="2"/>TERTTIVS 
+      <lb ed="#P" n="3"/>DE INCARNATIONE VEREIETHVMANI 
+      <lb ed="#P" n="4"/>SENERIS REPARATIONE. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e122">
+               <lb ed="#P" n="5"/>QVMT VEVTT TCTTVR PLENIVVDO TEMPORTS 
+      <lb ed="#P" n="6"/>(vt ait, Ipostolus) Misit Deus Filium suum factum de muliere, factum sub lege: vr 
+      <lb ed="#P" n="7"/>eor qui sub lege erant redimeret in adoprionem Filiorum Dei. Tempue autem 
+      pleniru<lb ed="#P" n="8" break="no"/>dinus, dicitur tempus graetiae: quod ab aduentu Saluatoris sampsit exordium, hoc est 
+      erm<lb ed="#P" n="9" break="no"/>pur miserendi &amp; anunnae benignitatu, in quo gratia &amp; veritaes per Tesum Christum factae 
+      <lb ed="#P" n="10"/>est. Qratia, quia per charitatem impletur quod in lege praecipiebaetur. Veritaer, quia 
+      <lb ed="#P" n="11"/>per Christi aduentum exhibetur atque perficitur humanae redemptionir sponsie factae ab 
+      <lb ed="#P" n="12"/>untiquo. Filii ergo missio est ipsa incarnaerio. Ed enim missue est quod in forma hominir 
+      <lb ed="#P" n="13"/>munde visipilu apparuit. Deque supra sufficienter dictumt est.
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e144">
+      <!--281.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="14"/>INCIPIT SCRIITTVM 
+      <lb ed="#P" n="15"/>SVPERTERTIVAI LIERVM SENTENTIARVM 
+      <lb ed="#P" n="16"/>subtilissimi Doctoris Magistri HERVEI BRITONIS, Ordinis 
+      Praedi<lb ed="#P" n="17" break="no"/>catorum, sacrae paginae Doctoris eximij quondam eiusdem 
+      <lb ed="#P" n="18"/>ordinis Magistri Generalis. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e163">
+      <!--281.xml-->
+               <cb ed="#P" n="c"/>
+               <lb ed="#P" n="19"/>Distinctio prima. 
+      <lb ed="#P" n="20"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e174">
+               <lb ed="#P" n="21"/>QVERITVR vtrum persona 
+      <lb ed="#P" n="22"/>diuina possit assumere 
+      indiffe<lb ed="#P" n="23" break="no"/>renter quamcumque naturam 
+      <lb ed="#P" n="24"/>creatam in vnitate suppositi. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e185">
+      Et 
+      <lb ed="#P" n="25"/>arguitur primo quod nullam. 
+      <lb ed="#P" n="26"/>Quia in illis in quibus non 
+      diffe<lb ed="#P" n="27" break="no"/>runt natura &amp; suppositum, quae non possunt vniri 
+      <lb ed="#P" n="28"/>in natura, non possunt vniri in persona: &amp; haec 
+      vi<lb ed="#P" n="29" break="no"/>detur plana: quia non videtur quod diff rentia 
+      ra<lb ed="#P" n="30" break="no"/>tionis sufficiat ad hoc quod realiter vnio fiat in 
+      v<lb ed="#P" n="31" break="no"/>no, &amp; non in alio. Sed secundum omnes persona 
+      <lb ed="#P" n="32"/>diuina nullam naturam creatam potest assumere 
+      <lb ed="#P" n="33"/>in vnitate naturae. Ergo nec in vnitate suppositi, 
+      <lb ed="#P" n="34"/>siue personae. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e209">
+               <lb ed="#P" n="35"/>Praeterea omnis natura substantialis creata 
+      <lb ed="#P" n="36"/>cum suo esse constituit suppositum. Sed 
+      supposi<lb ed="#P" n="37" break="no"/>tum creatum non potest assumi in vnitate 
+      perso<lb ed="#P" n="38" break="no"/>nae diuinae. Ergo natura substantialis creata cum 
+      <lb ed="#P" n="39"/>suo esse non potest assumi in vnitate personae 
+      diui<lb ed="#P" n="40" break="no"/>nae. Sed nulla natura substantialis creata potest 
+      <lb ed="#P" n="41"/>esse sine suo proprio esse. Quia siue esse realiter 
+      <lb ed="#P" n="42"/>sit idem cum essentia, siue non; non tamen potest 
+      <!--281.xml-->
+      <cb ed="#P" n="d"/>
+               <lb ed="#P" n="43"/>dici quod esse proprium possit separari ab aliqua 
+      <lb ed="#P" n="44"/>essentia: cum sequatur eam intimius quam 
+      quae<lb ed="#P" n="45" break="no"/>cumque propria passio consequatur suum 
+      subie<lb ed="#P" n="46" break="no"/>ctum. Ergo nulla natura substantialis creata 
+      po<lb ed="#P" n="47" break="no"/>test assumi in vnitate personae diuinae. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e244">
+               <lb ed="#P" n="48"/>Praeterea plus distat persona diuina a quacum 
+      <lb ed="#P" n="49"/>que natura creata: quam quodcumque 
+      supposi<lb ed="#P" n="50" break="no"/>tum creatum a quacumque natura substantiali 
+      <lb ed="#P" n="51"/>creata per quam constituitur. Sed nullum 
+      sup<lb ed="#P" n="52" break="no"/>positum creatum potest assumere in vnitatem 
+      <lb ed="#P" n="53"/>suppositi aliquam naturam substantialem, aliam 
+      <lb ed="#P" n="54"/>ab illa per quam constituitur. Igitur nec persona 
+      <lb ed="#P" n="55"/>diuina potest assumere quamcumque naturam 
+      <lb ed="#P" n="56"/>creatam in vnitate suppositi. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e266">
+               <lb ed="#P" n="57"/>Praeterea saltem videtur quod non possit 
+      assume<lb ed="#P" n="58" break="no"/>re naturam irtationalem. Quia suppositum natu. 
+      <lb ed="#P" n="59"/>rae irrationalis non est persona. Sed si persona 
+      di<lb ed="#P" n="60" break="no"/>uina afsumeret naturam irrationalem: persona 
+      di<lb ed="#P" n="61" break="no"/>uina non esset persona. Sed hoc est impossibile. 
+      <lb ed="#P" n="62"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e283">
+               <lb ed="#P" n="63"/>Praeterea nulla natura est eleuabilis quantum 
+      <lb ed="#P" n="64"/>ad esse scilicet, vt eleuetur ad esse supematurale, 
+      <lb ed="#P" n="65"/>cuius potentia non est eleuabilis ad posse 
+      superna<lb ed="#P" n="66" break="no"/>turaletita scilicet quod possit in aliquam 
+      operatio<lb ed="#P" n="67" break="no"/>nom supernaturalem. Sed natura itrationalis non 
+      <lb ed="#P" n="68"/>habet potentiam eleuabilem. Ergo natura Irrationa¬ 
+      <!--282.xml-->
+      <pb ed="#P" n="282"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>lis non potest eletari ad esse supematurale diuini 
+      <lb ed="#P" n="2"/>suppositi. Minor supponitur. Maior probatur 
+      <lb ed="#P" n="3"/>tripliciter. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e312">
+               <lb ed="#P" n="4"/>Primo, quia quod non potest in minus 
+      nonpo<lb ed="#P" n="5" break="no"/>test in maius. Sed minus est potentiam eleuari ad 
+      <lb ed="#P" n="6"/>operationem supernaturalem, quam naturam 
+      <lb ed="#P" n="7"/>eleuari ad esse supernaturale, secundum quod 
+      po<lb ed="#P" n="8" break="no"/>test haberi ab Augustino super illud ( Verbum 
+      <lb ed="#P" n="9"/>caro factum est) vbi dicit, quod quia Euangelista 
+      <lb ed="#P" n="10"/>praemiserat quod dedit hominibus potestatem 
+      fi<lb ed="#P" n="11" break="no"/>lios Dei fieri: ne homo miraretur &amp; discrederet, 
+      <lb ed="#P" n="12"/>subiunxit quasi maius. Et Verbum caro factum 
+      <lb ed="#P" n="13"/>est. Ex quo videtur quod maius est naturam eleua 
+      <lb ed="#P" n="14"/>ri ad vnitatem suppositi diuini: quam potentiam 
+      <lb ed="#P" n="15"/>eleuari ad operationem supernaturalem. Ergo 
+      <lb ed="#P" n="16"/>nulla natura potest eleuari ad esse diuinae persone, 
+      <lb ed="#P" n="17"/>cuius potentia non est eleuabilis ad posse 
+      superna<lb ed="#P" n="18" break="no"/>turale. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e347">
+               <lb ed="#P" n="19"/>Secundo, probatur eadem Maior, quia 
+      eius<lb ed="#P" n="20" break="no"/>dem rationis est naturam irrationasem posse 
+      assu<lb ed="#P" n="21" break="no"/>mi, &amp; naturam rationalem posse assumi sine 
+      vo<lb ed="#P" n="22" break="no"/>luntare &amp; intellectu actu eleuatis per habitus 
+      <lb ed="#P" n="23"/>supernaturales. Sed natura rationalis non potest 
+      <lb ed="#P" n="24"/>assumi sine potentiis productis actu eleuatis per 
+      ha<lb ed="#P" n="25" break="no"/>bitus supernaturales; alioqumn natura assumpta 
+      <lb ed="#P" n="26"/>pesset peccare: &amp; per consequens Deus per eam 
+      <lb ed="#P" n="27"/>posset peccare, quod est inconueniens. Ergo, 
+      <lb ed="#P" n="28"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e371">
+               <lb ed="#P" n="29"/>Tertio sic, quia sicut se habet esse naturale ad 
+      <lb ed="#P" n="30"/>posse naturale: ita esse supernaturale ad posse 
+      <lb ed="#P" n="31"/>supernaturale. Sed virtute diuina non potest fieri 
+      <lb ed="#P" n="32"/>aliqua natura quae habeat esse naturale: &amp; non 
+      ha<lb ed="#P" n="33" break="no"/>beat aliquod posse naturale, saltem aptitudine. 
+      Er<lb ed="#P" n="34" break="no"/>go nec virtute diuina potest fieri quod alicui 
+      na<lb ed="#P" n="35" break="no"/>turae communicetur esse supernaturale: &amp; non sic 
+      <lb ed="#P" n="36"/>ei communicabile aliquod posse supernaturale. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e391">
+               <lb ed="#P" n="37"/>In oppositum arguitur. Quia illud suppositum 
+      <lb ed="#P" n="38"/>siue persona cuius personalitas est indistincta 
+      in<lb ed="#P" n="39" break="no"/>differenter potest assumere quamcumque 
+      natu<lb ed="#P" n="40" break="no"/>ram: alioquin ratio suae subsistentiae siue 
+      persona<lb ed="#P" n="41" break="no"/>litas esset limitata &amp; finita. Sed personalitas &amp; 
+      <lb ed="#P" n="42"/>subsistentia diuina est infinita. Ergo persona diuina 
+      <lb ed="#P" n="43"/>potest assumere in vnitate suppositi, fiue personae 
+      <lb ed="#P" n="44"/>quamcumque naturam Creatam indifferenter. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e411">
+               <lb ed="#P" n="45"/>Respondeo. Hic sunt duo principaliter 
+      fa<lb ed="#P" n="46" break="no"/>cienda. 
+      <lb ed="#P" n="47"/>Primum est declarare quaedam necessaria ad 
+      <lb ed="#P" n="48"/>propositum. 
+      <lb ed="#P" n="49"/>Secundum est ponere quasdam conclusiones 
+      <lb ed="#P" n="50"/>probandas. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e428">
+               <lb ed="#P" n="51"/>ARTICVLVS PRIMVS. 
+      <lb ed="#P" n="52"/>Qvantum ad primum, declaranda sunt 
+      qua<lb ed="#P" n="53" break="no"/>tuor. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e437">
+               <lb ed="#P" n="54"/>Primum est quomodo differt natura &amp; 
+      sup<lb ed="#P" n="55" break="no"/>positum. Et quia alias diffuse tractaui de hoc, non 
+      <lb ed="#P" n="56"/>intendo hoc diffusius tractare, &amp; narrare 
+      opinio<lb ed="#P" n="57" break="no"/>nes: sed bene intendo ponere quod sentio &amp; quod 
+      <lb ed="#P" n="58"/>alias tetigi. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e450">
+               <lb ed="#P" n="59"/>Ad cuius euidentiam est sciendum, quod 
+      diffe<lb ed="#P" n="60" break="no"/>rentia naturae &amp; suppositi potest attendi, vel 
+      se<lb ed="#P" n="61" break="no"/>cundum differentiam vniuersalis &amp; particularis. 
+      <lb ed="#P" n="62"/>ficut Philosophus dicit quod caelum absolute dicit 
+      <lb ed="#P" n="63"/>formam, sed hoc caelum dicit materiam, &amp; quasi 
+      <lb ed="#P" n="64"/>quid concretum; vel secundum differentiam quam 
+      <lb ed="#P" n="65"/>hiabent in singulari, vt haec humanitas &amp; hic 
+      ho<lb ed="#P" n="66" break="no"/>mo: prima differentia nihil facit ad propositum: 
+      <lb ed="#P" n="67"/>&amp; ideo pr aetermitto. Si autem accipiamus 
+      natu<lb ed="#P" n="68" break="no"/>tam &amp; suppositum in singulati, secundum quod 
+      <!--282.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>faciunt ad propositum nostrum, quia id quod 
+      as<lb ed="#P" n="70" break="no"/>sumitur non est vniuersale; ita quod inesse 
+      vniuer<lb ed="#P" n="71" break="no"/>sali conueniat alicui assumi: differunt quantum 
+      <lb ed="#P" n="72"/>ad modum essendi, &amp; quantum ad modum 
+      si<lb ed="#P" n="73" break="no"/>gnificandi: cui etiam correspondet aliquis modus 
+      <lb ed="#P" n="74"/>essendi ex parte rei. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e492">
+               <lb ed="#P" n="75"/>Primo ergo differunt natura &amp; suppositum 
+      <lb ed="#P" n="76"/>Quia quod ratione naturae non est quod subsistat: 
+      <lb ed="#P" n="77"/>sed quod sit illud quo aliquid est; vel simpliciter, 
+      <lb ed="#P" n="78"/>sieut homo simpliciter est sua humanitate; vel 
+      se<lb ed="#P" n="79" break="no"/>cundum quid, sicut homo est albus albedine. Et ideo 
+      <lb ed="#P" n="80"/>esse naturam conuenit tam substantiae quam 
+      acci<lb ed="#P" n="81" break="no"/>denti: sed esse suppositum soli substantiae 
+      conue<lb ed="#P" n="82" break="no"/>nit Vnde &amp; ratio humanitatis &amp; naturae 
+      huma<lb ed="#P" n="83" break="no"/>nae potest conuenire ipsi naturae humanae; siue 
+      ha<lb ed="#P" n="84" break="no"/>beat esse per se non innixum alteri subsistenti: 
+      si<lb ed="#P" n="85" break="no"/>ue habeat esse in alio cui innitatur vt supposito. 
+      <lb ed="#P" n="86"/>Sed quando alij innititur, non potest ei 
+      conueni<lb ed="#P" n="87" break="no"/>re ratio suppositi humani: nec simpliciter ratio 
+      sup<lb ed="#P" n="88" break="no"/>positi 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e525">
+               <lb ed="#P" n="89"/>Secunda differentia est, quia solum habet 
+      lo<lb ed="#P" n="90" break="no"/>cum indiuinis. Quia suppositum dicit quid 
+      in<lb ed="#P" n="91" break="no"/>communicabile quantum ad id cui conuenit 
+      in<lb ed="#P" n="92" break="no"/>tentio suppositi: puta Socrates vel Plato, Pater &amp; 
+      <lb ed="#P" n="93"/>Filius: sed natura etiam vna numero saltem in 
+      di<lb ed="#P" n="94" break="no"/>uinis est pluribus suppositis communicabilis. 
+      <lb ed="#P" n="95"/>Vnde eadem essentia diuina est Pater &amp; Filius &amp; 
+      <lb ed="#P" n="96"/>Spiritus sanctus: non tamen idem suppositum 
+      nu<lb ed="#P" n="97" break="no"/>mero est Pater &amp; Filius &amp; Spiritus sanctus. Et 
+      <lb ed="#P" n="98"/>hoc est singulare in diuinis. Nam in creaturis 
+      na<lb ed="#P" n="99" break="no"/>tura substantialis completa plurificatur 
+      numera<lb ed="#P" n="100" break="no"/>liter secundum particularitatem suppositorum, &amp; 
+      <lb ed="#P" n="101"/>e conuerso. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e556">
+               <lb ed="#P" n="102"/>Dico autem completam, quia duae nature 
+      sub<lb ed="#P" n="103" break="no"/>stantiales incompletae, puta materia &amp; forma, 
+      pos<lb ed="#P" n="104" break="no"/>sunt esse in eodem supposito creato. Quod autem 
+      <lb ed="#P" n="105"/>dictum est esse incommunicabile: intelligendum 
+      <lb ed="#P" n="106"/>quantum ad communicabilitatem alicuius 
+      praedi<lb ed="#P" n="107" break="no"/>cabilis de multis suppositis. Nam 
+      contradictio<lb ed="#P" n="108" break="no"/>nem implicarer vnum suppositum numero 
+      praedi<lb ed="#P" n="109" break="no"/>cari de pluribus suppositis: nisi supposita 
+      ac<lb ed="#P" n="110" break="no"/>ciperentur aequiuoce. Sed loquendo de 
+      commu<lb ed="#P" n="111" break="no"/>nicatione qua aliquid communicat suum esse 
+      ali<lb ed="#P" n="112" break="no"/>quibusquae in se habet: sicut homo habet in se 
+      prae<lb ed="#P" n="113" break="no"/>tersubstantiam, diuersa accidentia, scilicet 
+      quan<lb ed="#P" n="114" break="no"/>titatem, albedinem, &amp; sic de alijs. Isto modo 
+      <lb ed="#P" n="115"/>magis habet rationem communicabilis 
+      supposi<lb ed="#P" n="116" break="no"/>tum quam natura. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e592">
+               <lb ed="#P" n="117"/>Tertia differentia est poenes modum 
+      signifi<lb ed="#P" n="118" break="no"/>eandi, secundum quod natura significat in abstracto 
+      <lb ed="#P" n="119"/>non signifioaturvt quod est: sedvt quo aliquid est. 
+      <lb ed="#P" n="120"/>Sicut diuinitas est qua aliquis est Deus &amp; 
+      humani<lb ed="#P" n="121" break="no"/>tas est quo aliquis est homo. Suppositum vero quod 
+      <lb ed="#P" n="122"/>significatur per modum concreti: significat vt 
+      <lb ed="#P" n="123"/>quod habet. Vnde ad hoc quod aliquid sit 
+      suppo<lb ed="#P" n="124" break="no"/>situm alicuius naturae, non oportet quod sit illa 
+      <lb ed="#P" n="125"/>natura, vel quod sit constitutum ex ea: sed sufficit 
+      <lb ed="#P" n="126"/>quod habeat illam vt sibi innitentem. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e616">
+               <lb ed="#P" n="127"/>Nec iste modus significandi est vanus. Nam 
+      <lb ed="#P" n="128"/>si natura rerum esset talis, quod vnaquaeque 
+      es<lb ed="#P" n="129" break="no"/>sentia simpliciter esset per se, &amp; nulla earum 
+      ali<lb ed="#P" n="130" break="no"/>quam habitudinem haberet ad aliam. Nec per 
+      <lb ed="#P" n="131"/>compositionem, nec per aliam vnionem, nec per 
+      <lb ed="#P" n="132"/>causalitatem: tunc sufficeret habere nomina 
+      signi<lb ed="#P" n="133" break="no"/>ficantia vnamquamque essentiam, vt quaedam 
+      es<lb ed="#P" n="134" break="no"/>sentia in se est. Sed quia vnaquaeque essentia 
+      ha<lb ed="#P" n="135" break="no"/>bet quod sit essentia quaedam secundum id quod 
+      <lb ed="#P" n="136"/>est, habet habitudinem ad aliam quam habet vt 
+      <lb ed="#P" n="137"/>formam inhaerentem, vel vt subiectum, sicut 
+      sup<lb ed="#P" n="138" break="no"/>positum habet aliquid sibi innixum, etiam sine in¬ 
+      <!--283.xml-->
+      <pb ed="#P" n="283"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>haerentia: oportebit habere nomina nonsolum 
+      si<lb ed="#P" n="2" break="no"/>gnificantia vnamquamque essentiam in se: sed 
+      <lb ed="#P" n="3"/>etiam significantia vnam in habitudine ad aliam, 
+      <lb ed="#P" n="4"/>secundum quod vna est habens aliam. Etsic 
+      signi<lb ed="#P" n="5" break="no"/>ficant nomina concretiua. Vnde licet modus 
+      si<lb ed="#P" n="6" break="no"/>gnificandi concreti &amp; abstracti nihil mutet in ret 
+      <lb ed="#P" n="7"/>mutat tamen veritatem locutionis de re. Nam ad 
+      <lb ed="#P" n="8"/>hoc quod ego loquar de re secundum quod est, 
+      <lb ed="#P" n="9"/>oportet quod ego significem eam modo quo in se 
+      <lb ed="#P" n="10"/>habet esse: &amp; modo quo se habet ad alterum. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e673">
+               <lb ed="#P" n="11"/>Notandum autem quod non quodlibet 
+      con<lb ed="#P" n="12" break="no"/>eretum dicit suppositum: sed concretum 
+      subsi<lb ed="#P" n="13" break="no"/>stens. Non enim quodlibet qualitercumque 
+      ha<lb ed="#P" n="14" break="no"/>bens humanitatem, est homo: sed illud subsistens 
+      <lb ed="#P" n="15"/>quod habet humanitatem in se. Vel per 
+      identita<lb ed="#P" n="16" break="no"/>tem, si idem est in creaturis natura &amp; suppositum: 
+      <lb ed="#P" n="17"/>vel per quoddam innixum. Quia scilicet in eo 
+      <lb ed="#P" n="18"/>sustentatur (vt ita dicam) humanitas: tale 
+      ha<lb ed="#P" n="19" break="no"/>bens humanitatem est homo. Et sic aliquo modo 
+      <lb ed="#P" n="20"/>patet ad primum declarandum. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e697">
+               <lb ed="#P" n="21"/>ARTICVLVS SECVNDVS.
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e702">
+               <lb ed="#P" n="22"/>Qvantum ad secundum, sciendum, quod 
+      <lb ed="#P" n="23"/>quia natura dicit quandam quidditatem 
+      <lb ed="#P" n="24"/>qua aliquid habet esse, vel simpliciter, vel esse 
+      ta<lb ed="#P" n="25" break="no"/>le: ideonon possunt esse vnum in natura, nisi illa 
+      <lb ed="#P" n="26"/>quae sunt vnum in aliqua quidditate, vt quidditas 
+      <lb ed="#P" n="27"/>est. Ea autem quae sunt vnum in quidditate siue 
+      <lb ed="#P" n="28"/>essentia, oportet quod sic se habeant quod vnum 
+      <lb ed="#P" n="29"/>essentialiter sit aliud: vel quod ex ambobus sicut 
+      <lb ed="#P" n="30"/>ex partibus essentialibus resultet, &amp; constituatur 
+      <lb ed="#P" n="31"/>vna quidditas. Sicut ex materia &amp; forma 
+      consti<lb ed="#P" n="32" break="no"/>tuitur vna natura: vel etiam sicut ex partibus 
+      <lb ed="#P" n="33"/>quantitatiuis resultat vna quantitas: sicut ex 
+      duo<lb ed="#P" n="34" break="no"/>bus cubitis resultat bicubitum. Quia vero 
+      suppo<lb ed="#P" n="35" break="no"/>situm dicit habens aliquid; ta tamen quod non 
+      <lb ed="#P" n="36"/>quodlibet habens est suppositum: sed habens 
+      sub<lb ed="#P" n="37" break="no"/>sistens. Ideo ad hoc quod aliqua sint vnum 
+      suppo<lb ed="#P" n="38" break="no"/>situm, non requlritur quod vnum sit essentialiter 
+      <lb ed="#P" n="39"/>alterum: vel quod aliqua natura, vel aliquid per 
+      <lb ed="#P" n="40"/>se resultet ex illis; vel quod vnum habeat 
+      alte<lb ed="#P" n="41" break="no"/>rum vt sibi innixum: sicut homo habet albedinem, 
+      <lb ed="#P" n="42"/>&amp; homo est albedini idem subiecto &amp; supposito. 
+      <lb ed="#P" n="43"/>Sed quod idem subsistens vel suppositum habeat 
+      <lb ed="#P" n="44"/>ambo: sicut albedo &amp; dulcedo hominis, vel 
+      hu<lb ed="#P" n="45" break="no"/>manitas &amp; albedo hominis sunt vnum supposito, 
+      <lb ed="#P" n="46"/>&amp; pertinent ad vnum suppositum. Ideo autem 
+      <lb ed="#P" n="47"/>dixi innixum: quia habere aliquid 
+      qualitercum<lb ed="#P" n="48" break="no"/>que non sufficit ad identitatem suppositi inter 
+      ha<lb ed="#P" n="49" break="no"/>bens &amp; habitum. Quia si aliquis haberet aliquid 
+      <lb ed="#P" n="50"/>vt possessionem, vel vt vestimentum: non propter 
+      <lb ed="#P" n="51"/>hoc sic hiabens &amp; habitum essent vnum supposito. 
+      <lb ed="#P" n="52"/>Sed oportet quod vnum habeat aliud vt innixum 
+      <lb ed="#P" n="53"/>&amp; sustentatum per ipsum, ita quod illud habitum 
+      <lb ed="#P" n="54"/>non habeat proprie rationem eius quod est, vel 
+      <lb ed="#P" n="55"/>quod operatur: sed rationem quo aliquid habens 
+      <lb ed="#P" n="56"/>est tale per ipsum, puta homo vel album: &amp; 
+      ra<lb ed="#P" n="57" break="no"/>tionem eius quo habens aliquid operatur. Et hoc 
+      <lb ed="#P" n="58"/>facile est videre in accidentibus, &amp; partibus 
+      re<lb ed="#P" n="59" break="no"/>rum sensibilium. Albedo enim homins vel 
+      ma<lb ed="#P" n="60" break="no"/>nus sic habentur ab homine, vt sic ei innitantur, 
+      <lb ed="#P" n="61"/>quod eis non conueniat quod sint vel operentur 
+      <lb ed="#P" n="62"/>proprie loquendo: sed homo eis est albus &amp; 
+      man<lb ed="#P" n="63" break="no"/>natus, &amp; homo eis operatur. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e796">
+               <lb ed="#P" n="64"/>Et ex hoc patet, quod ad hoc quod natura 
+      diui<lb ed="#P" n="65" break="no"/>na &amp; humana sint vnitae in supposito, non 
+      requi<lb ed="#P" n="66" break="no"/>ritur quod vna sit alia essentialiter, vel ex ambabua 
+      <lb ed="#P" n="67"/>sicut ex partibus resultet aliquod vnum: sed sufficit 
+      <lb ed="#P" n="68"/>quod vna persona sit habens vtramque, scilicet 
+      <!--283.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>quod vnam habeat per identitatem, scilicet 
+      diui<lb ed="#P" n="70" break="no"/>nam, quae realiter est eadem cum diuino 
+      supposi<lb ed="#P" n="71" break="no"/>to: sed aliam naturam habet innixam, siue vt 
+      su<lb ed="#P" n="72" break="no"/>stentatam per ipsum: quae tamen non est ipsum 
+      <lb ed="#P" n="73"/>suppositum diuinum. Suppositum autem 
+      diui<lb ed="#P" n="74" break="no"/>num &amp; natura sunt vnum supposito: sicut 
+      suppo<lb ed="#P" n="75" break="no"/>sium hominis &amp; illud quod habetur. Et sic patet 
+      <lb ed="#P" n="76"/>de secundo, quomodo sessicet aliqua dicantur 
+      <lb ed="#P" n="77"/>vnum in natura: &amp; quomodo dicantur vnum in 
+      <lb ed="#P" n="78"/>supposito. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e836">
+               <lb ed="#P" n="79"/>ARTICVLVS TERTIVS 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e841">
+               <lb ed="#P" n="80"/>Qvantum ad tertium oportet videre 
+      quomo<lb ed="#P" n="81" break="no"/>do natura humana possit assumi in vniratem 
+      <lb ed="#P" n="82"/>personae diuinae: &amp; non suppositum. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e850">
+               <lb ed="#P" n="83"/>Ad cuius euidentiam est sciendum, quod sicut 
+      <lb ed="#P" n="84"/>dictum est de ratione suppositi, est quod sit 
+      sub<lb ed="#P" n="85" break="no"/>sistens non innixum alij subsistenti cum quo sit 
+      <lb ed="#P" n="86"/>idem supposito: hoc enim implicat 
+      contradictio<lb ed="#P" n="87" break="no"/>nem. Quia sequeretur quod vnum suppositum 
+      <lb ed="#P" n="88"/>esset duo supposita. Quia ex quo ponuntur vnum 
+      <lb ed="#P" n="89"/>supposito: sequeretur quod non esset ibi nisi vnum 
+      <lb ed="#P" n="90"/>suppositum, &amp; ex quo ponerentur duo 
+      subsisten<lb ed="#P" n="91" break="no"/>tia quorum vnum non innititur alteri: essent duo 
+      <lb ed="#P" n="92"/>supposita. De ratione autem naturae non est quod 
+      <lb ed="#P" n="93"/>sit subsistens non innixum alteri: sed de ratione 
+      <lb ed="#P" n="94"/>eius est tantum quod aliquid sit per eam, vel quod 
+      <lb ed="#P" n="95"/>sit habita. Et ideo dato quod secundum cursum 
+      <lb ed="#P" n="96"/>communem, humanits esset idem quod suppositum 
+      <lb ed="#P" n="97"/>human: tamen illa res non posset assumiad 
+      vnita<lb ed="#P" n="98" break="no"/>tem alterius suppositi secundum rationem qua est 
+      <lb ed="#P" n="99"/>suppositum humanum: posset tamen assumi 
+      se<lb ed="#P" n="100" break="no"/>cundum rationem qua est natura humana. Nec 
+      <lb ed="#P" n="101"/>ex hoc quo assumeretur, adderetur ei aliquid 
+      <lb ed="#P" n="102"/>positiuum: sed tolleretur ab ea illud quod est 
+      <lb ed="#P" n="103"/>non inniti alteri. Vnde haberet habitudinem ad 
+      <lb ed="#P" n="104"/>aliquid de nouo, quam excludit ratio supositi. 
+      <lb ed="#P" n="105"/>Vnde sicut subsistems quantitar in sacrameto altaris 
+      <lb ed="#P" n="106"/>non posset vniri alicui subiecto, retinens 
+      ratio<lb ed="#P" n="107" break="no"/>nem quantitutis subsistentis: posset tamen vniri 
+      <lb ed="#P" n="108"/>tetinens absolute rationem quantitatis. Ita etiam 
+      <lb ed="#P" n="109"/>humanitas potest assumi retinens rationem 
+      hu<lb ed="#P" n="110" break="no"/>manitatis: non autem retinens rationem 
+      huma<lb ed="#P" n="111" break="no"/>nisuppositi. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e915">
+               <lb ed="#P" n="112"/>ARTICVLVS QVARTVS. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e920">
+               <lb ed="#P" n="113"/>Qvantum ad quartum, est videre secundum 
+      <lb ed="#P" n="114"/>quem modum natura humana intelligitur 
+      <lb ed="#P" n="115"/>vnita verbo, &amp; innira supposito diuino. Hoc 
+      au<lb ed="#P" n="116" break="no"/>tem sufficienter ab homine impossibile est expli 
+      <lb ed="#P" n="117"/>cari. Inter tamen alios modos magis videtur 
+      ap<lb ed="#P" n="118" break="no"/>propinquare ad istam vnionem, vnio corporis ad 
+      <lb ed="#P" n="119"/>animam non prout respicit animam sicut proprium 
+      <lb ed="#P" n="120"/>subiectum, suam formam: sed prout respicit eam 
+      <lb ed="#P" n="121"/>vt instrumentum naturaliter coniunctum, pet 
+      <lb ed="#P" n="122"/>quod alia aliquo modo operatur, quamuis vna 
+      <lb ed="#P" n="123"/>habitudo non sit sine alia in corpore animato. 
+      <lb ed="#P" n="124"/>Vnde oportet imaginari ibie talem dependentiam 
+      <lb ed="#P" n="125"/>humanitatis ad suppositum diuinum absque hoc 
+      <lb ed="#P" n="126"/>quod vnum habeat proprie rationem partis cum 
+      <lb ed="#P" n="127"/>alio, vel quamcunque compositionem proprie 
+      di<lb ed="#P" n="128" break="no"/>ctam. Ad hanc autem habitudinem 
+      exprimen<lb ed="#P" n="129" break="no"/>dam magis conueniens est (vt dictum est) 
+      habi<lb ed="#P" n="130" break="no"/>tudo instrumenti ad id quod operatur per ipsum: 
+      <lb ed="#P" n="131"/>&amp;maxime quando instrumentum est naturaliter 
+      <lb ed="#P" n="132"/>vnitum. Nam instrumentum non est proprie quod 
+      <lb ed="#P" n="133"/>operatur: sed quo principale agens operatur. 
+      <lb ed="#P" n="134"/>Quando etiam est nauiraliter contunctum, sicut 
+      <!--284.xml-->
+      <pb ed="#P" n="284"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non est quod operatur: ita non conuenit ei ratio 
+      <lb ed="#P" n="2"/>quod est, sed quo aliquid est. Hoc tamen est 
+      re<lb ed="#P" n="3" break="no"/>motum exemplum, quia ad plenum numerum 
+      <lb ed="#P" n="4"/>exemplum potest haberi: alioquin iltud non esset 
+      <lb ed="#P" n="5"/>singulare. Et sic patet aliquo modo quartum 
+      decla<lb ed="#P" n="6" break="no"/>randum. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e990">
+               <lb ed="#P" n="7"/>Notandum autem quod illud quod hic &amp; 
+      ali<lb ed="#P" n="8" break="no"/>bi frequenter dictum est, scilicet quod concretum 
+      <lb ed="#P" n="9"/>non supponit pro forma a qua descendit, siue pro 
+      <lb ed="#P" n="10"/>natura abstracta in recto, sed tantum in obliquo: 
+      <lb ed="#P" n="11"/>non contrariatur ei quod dicitur quod album 
+      so<lb ed="#P" n="12" break="no"/>lam qualitatem significar, vel quod saltem formale 
+      <lb ed="#P" n="13"/>ugnificatum albi est albedo. Quia non oportet 
+      <lb ed="#P" n="14"/>quod semper illud quod importatur 
+      qualitercun<lb ed="#P" n="15" break="no"/>que inrecto, sit principale in significato termini. 
+      <lb ed="#P" n="16"/>Imo quandoque illud quod ex modo significandi 
+      <lb ed="#P" n="17"/>importatur in obliquo: est principale in significato 
+      <lb ed="#P" n="18"/>termini. Cuius ratio est, quia illud dicitur 
+      princi<lb ed="#P" n="19" break="no"/>pale in significato termini aquo significatio 
+      termi<lb ed="#P" n="20" break="no"/>ni habet determinationem &amp; firmationem Nunc 
+      <lb ed="#P" n="21"/>autem ita est quodsignificatio termini concresihabet 
+      <lb ed="#P" n="22"/>firmationem &amp; determinationem a natura 
+      impor<lb ed="#P" n="23" break="no"/>tata in obliquo. Nam ex hoc praecise dicitur 
+      ali<lb ed="#P" n="24" break="no"/>quid album quod habet albedinem: quicquid sit 
+      <lb ed="#P" n="25"/>illud habens. Ideo ex parte habentis non est 
+      de<lb ed="#P" n="26" break="no"/>rerminatio vel fixio: fed ex parte albedinis. Non 
+      <lb ed="#P" n="27"/>enim indifferenter a quocumque habito dicitur 
+      <lb ed="#P" n="28"/>uliquid album, sed tantum ab albedine. Et 
+      simi<lb ed="#P" n="29" break="no"/>liter ab humanitate homo: sed indifferenter 
+      quic<lb ed="#P" n="30" break="no"/>quid est habens albedinem, album est. Sic ergo 
+      <lb ed="#P" n="31"/>dicitur album solam qualitatem significare: 
+      lo<lb ed="#P" n="32" break="no"/>quendo de significato principali &amp; de terminaro, a 
+      <lb ed="#P" n="33"/>quo terminus habet significationem siue fixionem. 
+      <lb ed="#P" n="34"/>Tiabens autem licet aliquid importet extra 
+      albe<lb ed="#P" n="35" break="no"/>dinem: nihil tamen concretum vel fixum &amp; 
+      de<lb ed="#P" n="36" break="no"/>terminatum importat. Et propter hoc dicitur 
+      <lb ed="#P" n="37"/>quod album solam qualitatem significat: licet non 
+      <lb ed="#P" n="38"/>importet eam ex modo significandi nisi in 
+      obli<lb ed="#P" n="39" break="no"/>quo. Et sic patet primum principale: &amp; 
+      decla<lb ed="#P" n="40" break="no"/>ratio quorundam quae praemittenda erant. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1067">
+               <lb ed="#P" n="41"/>Quantum ad secundum principale intendo 
+      <lb ed="#P" n="42"/>probare tres conclusiones. 
+      <lb ed="#P" n="43"/>Primo, quod vnio naturae diuinae &amp; 
+      huma<lb ed="#P" n="44" break="no"/>nae non est facta in natura. 
+      <lb ed="#P" n="45"/>Secundo, quod possibilis est vnio natutae 
+      <lb ed="#P" n="46"/>creatae, &amp; naturae diuinae in supposito, siue 
+      per<lb ed="#P" n="47" break="no"/>sona. 
+      <lb ed="#P" n="48"/>Tertio, quod natura potest assumere 
+      indiffe<lb ed="#P" n="49" break="no"/>renter quamcunque naturam, siue rationalem 
+      na<lb ed="#P" n="50" break="no"/>turam, siue irrationalem. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1091">
+               <lb ed="#P" n="51"/>Prima conclusio satis faciliter potest ostendi 
+      <lb ed="#P" n="52"/>ex dictis. Quia (vt ex dictis patet) illa sola 
+      ha<lb ed="#P" n="53" break="no"/>bent vnitatem in natura quae sic se habent; vel 
+      <lb ed="#P" n="54"/>quod vnum sit essentialiter alterum, sicut 
+      huma<lb ed="#P" n="55" break="no"/>nitas &amp; animalitas; vel quod ex ambobus, sicut ex 
+      <lb ed="#P" n="56"/>per se partibus resultet aliqua vna quidditas. Sed 
+      <lb ed="#P" n="57"/>natura diuina &amp; natura creata nullo modo 
+      isto<lb ed="#P" n="58" break="no"/>rum modorum se possunt habere. Quia natura 
+      <lb ed="#P" n="59"/>diuina non potest esse natura creata essentialiter. 
+      <lb ed="#P" n="60"/>Nec ex ambabus, sicut ex per se partibus potest 
+      <lb ed="#P" n="61"/>aliqua natura resultare: cum sit impossibile 
+      natu<lb ed="#P" n="62" break="no"/>ram diuinam esse partem. Ergo impossibile est 
+      <lb ed="#P" n="63"/>naturam diuinam &amp; creatam vniri in natura. 
+      <lb ed="#P" n="64"/>Secunda conclusio, quia est supra intellectum 
+      <lb ed="#P" n="65"/>viatoris demonstrari non potest: sed aliquo modo 
+      <lb ed="#P" n="66"/>persuaderi potest. Ad hoc autem potest adduci 
+      <lb ed="#P" n="67"/>duplex ratio. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1130">
+               <lb ed="#P" n="68"/>Prima potest sumi ex parte assumptibilis sic. 
+      <lb ed="#P" n="69"/>Quia non minus potestDeus conferre naturae quae 
+      <lb ed="#P" n="70"/>secundum se nata est habere proprium suppofi¬ 
+      <!--284.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>tum quod innitatur alieno supposito: quam 
+      natu<lb ed="#P" n="72" break="no"/>rae inhaerenti alteri, quod possit per se subsistere. 
+      <lb ed="#P" n="73"/>Sed Deus confert naturae inhaerenti alteri ex sua 
+      <lb ed="#P" n="74"/>aptitudine naturali quod per se subsistat: sicut 
+      pa<lb ed="#P" n="75" break="no"/>tet de quantitate in sacramento altaris. Ergo etiam 
+      po<lb ed="#P" n="76" break="no"/>test conferre naturae substantiali creatae quae nata 
+      <lb ed="#P" n="77"/>est habere proprium suppositum: quod 
+      innita<lb ed="#P" n="78" break="no"/>tur alieno supposito. Et per consequens quod 
+      pos<lb ed="#P" n="79" break="no"/>sit assumi in vnitatem alieni suppositi. Et tale 
+      sup<lb ed="#P" n="80" break="no"/>positum non potest esse nisi diuina persona. Ergo 
+      <lb ed="#P" n="81"/>&amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1167">
+               <lb ed="#P" n="82"/>Secunda ratio, potest sumi ex habitudine 
+      assu<lb ed="#P" n="83" break="no"/>mentis ad assumptibile. Quia vnumquodque in 
+      <lb ed="#P" n="84"/>tentum est magis assumptibile ad vnitatem 
+      alte<lb ed="#P" n="85" break="no"/>rius suppositi: quantum est magis imperfectum &amp; 
+      <lb ed="#P" n="86"/>potentiale &amp; dependens: &amp; in tantum magis 
+      po<lb ed="#P" n="87" break="no"/>test assumere; inquantum est magis perfectum &amp; 
+      <lb ed="#P" n="88"/>magis actuale &amp; illimitatum. Sed natura creata 
+      <lb ed="#P" n="89"/>in infinitum est &amp; imperfectior &amp; potentialior, &amp; 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1187">
+               <lb ed="#P" n="90"/>maxime dependens respectu diuinae personae: &amp; 
+      <lb ed="#P" n="91"/>diuina persona est in infinitum &amp; magis perfecta, 
+      <lb ed="#P" n="92"/>&amp; actualis &amp; illimitata respectu naturae creatae. 
+      <lb ed="#P" n="93"/>Ergo quaecumque natura creata potest assumi ad 
+      <lb ed="#P" n="94"/>vnitatem personae diuinae. Imo videtur sequi quod 
+      <lb ed="#P" n="95"/>virtute diuina magis possit quaecunmq; natura creata 
+      <lb ed="#P" n="96"/>quae potest esse sine inhaerentia vniti sapposito 
+      di<lb ed="#P" n="97" break="no"/>uino: quam quaecumque natura creata possit vniri 
+      <lb ed="#P" n="98"/>supposito a se diuiso. Vnde cum constet diuersas 
+      <lb ed="#P" n="99"/>naturas accidentales posse vniri substantiis ereatis 
+      <lb ed="#P" n="100"/>virtute creata in vnitate suppositi; videtur sequi 
+      <lb ed="#P" n="101"/>quod multo fortius virtute diuina natura creata 
+      <lb ed="#P" n="102"/>possit vniri supposito diuino, absque tamen 
+      inhae<lb ed="#P" n="103" break="no"/>rentia aliqua. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1220">
+               <lb ed="#P" n="104"/>Tertiam conclusionem, probo triplici ratione, 
+      <lb ed="#P" n="105"/>scilicet quod natura quaecumque, scilicet tam 
+      ra<lb ed="#P" n="106" break="no"/>tionalis quam irrationalis possit assumi in vnitate 
+      <lb ed="#P" n="107"/>personae diuinae. Et accipio hic irrationale non 
+      <lb ed="#P" n="108"/>tantum prout est differentia animalis prout stat 
+      <lb ed="#P" n="109"/>pro bruto: sed generaliter prout irrationale potest 
+      <lb ed="#P" n="110"/>dici omne illud quod caret intellectu, siue sit 
+      vi<lb ed="#P" n="111" break="no"/>uum siue non. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1241">
+               <lb ed="#P" n="112"/>Prima ratio, qua hoc probatur sumitur ex 
+      par<lb ed="#P" n="113" break="no"/>te assumptibilis in generali: &amp; est talis. Quia 
+      v<lb ed="#P" n="114" break="no"/>nio ad personam, quam omnes confitentur posse 
+      <lb ed="#P" n="115"/>conuenire naturae rationali; aut conuenit ei 
+      fe<lb ed="#P" n="116" break="no"/>cundum potentiam: aut secundum substantiam. 
+      <lb ed="#P" n="117"/>Et si (vt quidam dicunt) in tali natura potentia 
+      <lb ed="#P" n="118"/>sit idem realiter quod talis natura: quaero vtrum 
+      <lb ed="#P" n="119"/>ista vnio conueniat sibi secundum rationem qua 
+      <lb ed="#P" n="120"/>potentia, aut secundum quod potentia 
+      substan<lb ed="#P" n="121" break="no"/>tia, Si secundum rationem potentiae. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1265">
+               <lb ed="#P" n="122"/>Contra, quia vnio quae conuenit alicui cum 
+      ali<lb ed="#P" n="123" break="no"/>quo per potentiam secundum quod potentia, est 
+      <lb ed="#P" n="124"/>vnio per operationem: secundum hoc aliquid 
+      v<lb ed="#P" n="125" break="no"/>nitur alicui vt obiecto, mediante sua operatione. 
+      <lb ed="#P" n="126"/>Sed talis vnio non est vnio in persona de qua 
+      lo<lb ed="#P" n="127" break="no"/>quimur. Ergo vnio de qua loquimur non 
+      eonue<lb ed="#P" n="128" break="no"/>nit naturae rationali secundum quod potentia. 
+      Er<lb ed="#P" n="129" break="no"/>go conuenit ei secundum rationes qua substantia 
+      <lb ed="#P" n="130"/>quedam est: vel secundum quod est quedam 
+      natu<lb ed="#P" n="131" break="no"/>ra non inhaerens actu necessario alteri. Hoc 
+      au<lb ed="#P" n="132" break="no"/>tem potest conuenire aliis substantiis non 
+      rationa<lb ed="#P" n="133" break="no"/>bilibus. Ergo assumi ad vnitatem personae diuinae 
+      <lb ed="#P" n="134"/>potest conuenire irrationalibus. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1296">
+               <lb ed="#P" n="135"/>Si dicatur quod non conuenit ei secundum 
+      po<lb ed="#P" n="136" break="no"/>tentiam, nec secundum quod substantia absolute 
+      <lb ed="#P" n="137"/>sed secundum quod talis substantia. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1305">
+               <lb ed="#P" n="138"/>Contra, si conuenit ei secundum quod est 
+      sub<lb ed="#P" n="139" break="no"/>stantia talis, &amp; non secundum quod est substantia 
+      <lb ed="#P" n="140"/>absolute t aut secundum naturam quae potest esse 
+      <!--285.xml-->
+      <pb ed="#P" n="285"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>absque inhaerentia oportet dare aliquid in natura 
+      <lb ed="#P" n="2"/>rationali quod sit causa huius praeter potentiam per 
+      <lb ed="#P" n="3"/>quam nata est intelligere &amp; velle. Hoc autem 
+      <lb ed="#P" n="4"/>non potest faciliter fingi: nisi dicatur quod 
+      eleua<lb ed="#P" n="5" break="no"/>bilitas potentiae sit causa huius (vt ipsi fingunt) Et 
+      <lb ed="#P" n="6"/>hoc nihil est; tum quia hoc conuenit ei secundum 
+      <lb ed="#P" n="7"/>rationem potentiae (vt dictum est) tum quia illud 
+      <lb ed="#P" n="8"/>quod est ratio huius antecedit potentiam vt 
+      osten<lb ed="#P" n="9" break="no"/>sum est. Posterius aute non ponit necessitatempriori: 
+      <lb ed="#P" n="10"/>&amp; ideo eleuabilitas vel non eleuabilitas potentiae 
+      <lb ed="#P" n="11"/>nihil potest facere quod conueniat in vna persona. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1344">
+               <lb ed="#P" n="12"/>Secunda ratio sumitur ex parte spiritualis 
+      as<lb ed="#P" n="13" break="no"/>sumpti siue innixi, &amp; est talis. Corpus Christi 
+      <lb ed="#P" n="14"/>mortuum in morte Christi mansit vnitum 
+      perso<lb ed="#P" n="15" break="no"/>nae diuinae: &amp; per consequens corpus mortuum est 
+      <lb ed="#P" n="16"/>assumptibile &amp; vnibile. Sed corpus Christi 
+      mor<lb ed="#P" n="17" break="no"/>tuum erat quaedam natura irrationalis &amp; carens 
+      <lb ed="#P" n="18"/>intellectu. Ergo natura irrationalis est vnibilis &amp; 
+      <lb ed="#P" n="19"/>assumptibilis. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1364">
+               <lb ed="#P" n="20"/>Sed ad hoc dicunt alij quod corpus Christi 
+      <lb ed="#P" n="21"/>mortuum non fuit vnibile nisi inquantum habens 
+      <lb ed="#P" n="22"/>habitudinem ad animam rationalem: &amp; sic erat 
+      <lb ed="#P" n="23"/>vnitum vt pars naturae rationalis. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1376">
+               <lb ed="#P" n="24"/>Sed hoc nihil valet. Primo quando aliquid est 
+      ra<lb ed="#P" n="25" break="no"/>tio praecisa alicuius predicati, predicatum non potest 
+      <lb ed="#P" n="26"/>inesse alicui eui non inest actu ratio praedicati: 
+      si<lb ed="#P" n="27" break="no"/>cut impossibile est actu figurari vel figuratum 
+      es<lb ed="#P" n="28" break="no"/>se id cui non inest quantitas quae est ratio 
+      susci<lb ed="#P" n="29" break="no"/>piendi figuram. Non enim sufficit ad hoc quod 
+      <lb ed="#P" n="30"/>aliquid esset figuratum in actu quod possit esse 
+      <lb ed="#P" n="31"/>quantum: vel tantum aptitudine esset quantum. 
+      <lb ed="#P" n="32"/>Sed illud corpus mortuum non erat actu pars 
+      na<lb ed="#P" n="33" break="no"/>turae rationalis: sed tantum aptitudine. Ergo si 
+      <lb ed="#P" n="34"/>esse natura rationalis, vel pars eius sit ratio quare 
+      <lb ed="#P" n="35"/>aliquid possit assumi: impossibile fuisser illud 
+      eor<lb ed="#P" n="36" break="no"/>pus actu fuisse vnitum quando erat mortuum, quia 
+      <lb ed="#P" n="37"/>tunc non erat actu pars naturae rationalis. Nec 
+      va<lb ed="#P" n="38" break="no"/>let dicere quod aliquando fuit actu pars naturae 
+      <lb ed="#P" n="39"/>rationalis. Quia illud quod fuit actu quantum 
+      <lb ed="#P" n="40"/>recedente quantitate, non posset remanere actu 
+      <lb ed="#P" n="41"/>figuratum. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1418">
+               <lb ed="#P" n="42"/>Secundo quia loquendo de potentia absoluta 
+      <lb ed="#P" n="43"/>illud corpus potuisset comburi si fuisset applicatus 
+      <lb ed="#P" n="44"/>sibi ignis, &amp; incinerari. Et constat quod ignis 
+      ge<lb ed="#P" n="45" break="no"/>neratus ex illo, vel etiam cinis fuisset vnitus in 
+      <lb ed="#P" n="46"/>vnitate suppositi diuini. Ita quod Filius Dei 
+      fuis<lb ed="#P" n="47" break="no"/>set ille ignis, sicut potuit dici corpus mortuum: 
+      <lb ed="#P" n="48"/>prout corrumpi stat pro supposito habente 
+      corru<lb ed="#P" n="49" break="no"/>ptionem. Et sic possibile est ignem vniri supposito 
+      <lb ed="#P" n="50"/>diuino: &amp; qua ratione vnus ignis, &amp; alius. Et qua 
+      <lb ed="#P" n="51"/>ratione ignis: eadem ratione alia non viuentia, vel 
+      <lb ed="#P" n="52"/>irrationabilia. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1444">
+               <lb ed="#P" n="53"/>Tertia ratio sumitur ex parte assumentis. Quia 
+      <lb ed="#P" n="54"/>illud cui conuenit posse assumeie alienam 
+      natu<lb ed="#P" n="55" break="no"/>ram substantialem ex infinitate suae personalitatis 
+      <lb ed="#P" n="56"/>siue subsistentiae, potest indifferenter afsumere 
+      <lb ed="#P" n="57"/>quamcunque naturam substantialem, siue sit 
+      ra<lb ed="#P" n="58" break="no"/>tionalis, siue irrationalis. Sed natura diuina ex 
+      <lb ed="#P" n="59"/>infinitate suae personalitatis habet quod possit 
+      as<lb ed="#P" n="60" break="no"/>sumere alicnam naturam substantialem Habere 
+      <lb ed="#P" n="61"/>enim alienam naturam accidentalem per 
+      inhae<lb ed="#P" n="62" break="no"/>rentiam bene conuenit supposito creato. Ergo 
+      <lb ed="#P" n="63"/>persona diuina potest indifferenter assumere 
+      <lb ed="#P" n="64"/>quamcumque substantialem &amp; quamcumque 
+      na<lb ed="#P" n="65" break="no"/>turam quae potest esse absque inhaerentia, modo 
+      <lb ed="#P" n="66"/>quo exponetur. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1477">
+               <lb ed="#P" n="67"/>Si dicatur quod infinitas perfonalitatis est 
+      ra<lb ed="#P" n="68" break="no"/>tio assumendi naturam alienam ex parto 
+      assumen<lb ed="#P" n="69" break="no"/>tis: sed rationabilitas est ratio assumendi passiue 
+      <lb ed="#P" n="70"/>ex parte assumptibilis. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1488">
+      <!--285.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Non valet. Quia cum assumens &amp; assumptum, 
+      <lb ed="#P" n="72"/>&amp; potens assumere &amp; assumptibile per se 
+      refe<lb ed="#P" n="73" break="no"/>rantur adinuicem: si assumpribilitas est limitata 
+      <lb ed="#P" n="74"/>ad determinatam naturam, oportet etiam 
+      poten<lb ed="#P" n="75" break="no"/>tiam assumentis secundum rationem qua est potentia 
+      <lb ed="#P" n="76"/>assumedi actiue esse aliquo modo limitatam: quia 
+      <lb ed="#P" n="77"/>scilicet poterit hoc assumere &amp; non plus vel plura. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1510">
+               <lb ed="#P" n="78"/>Si dicatur quod hoc non potest fieri a Deo, 
+      <lb ed="#P" n="79"/>non quia Deus non potest hoc facere, &amp; est 
+      limi<lb ed="#P" n="80" break="no"/>tata potentia assumendi actiue: sed quia hoc non 
+      <lb ed="#P" n="81"/>potest fieri. Vnde sequitur quod potentia 
+      assu<lb ed="#P" n="82" break="no"/>mendi passiue sit limitata. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1524">
+               <lb ed="#P" n="83"/>Non valet. Nam quando dicitur quod hoc 
+      <lb ed="#P" n="84"/>non potest fieri a Deo, non quia Deus non possit 
+      <lb ed="#P" n="85"/>facere: sed quia hoc non potest fieri. Si proprie 
+      <lb ed="#P" n="86"/>accipiantur locutiones, sunt falsae &amp; impossibiles. 
+      <lb ed="#P" n="87"/>Nam de necessitate posse facere infert posse 
+      fieri<lb ed="#P" n="88" break="no"/>sicut facere infert fieri. Vnde impossibile est 
+      <lb ed="#P" n="89"/>Deum facere aliquid: &amp; illud non posse a Deo 
+      <lb ed="#P" n="90"/>fieri. Vnde sicut contradictoria non possunt a 
+      <lb ed="#P" n="91"/>Deo fieri, nec Deus potest illa facere. Et si 
+      inue<lb ed="#P" n="92" break="no"/>niatur quod contradictoria non possunt a Deo 
+      <lb ed="#P" n="93"/>fieri, non quia Deus non possit facere: 
+      locu<lb ed="#P" n="94" break="no"/>tio est impropria. Et vna negationum potest 
+      acci<lb ed="#P" n="95" break="no"/>pi, non in vi negationis, sed in vi priuationis. vt 
+      <lb ed="#P" n="96"/>sit sensus quod Deum non posse facere contra 
+      di<lb ed="#P" n="97" break="no"/>ctoria, non prouenit ex hoc quod Deus sit 
+      priua<lb ed="#P" n="98" break="no"/>tus aliqua potentia quae nata sit haberi. Et ex hoc 
+      <lb ed="#P" n="99"/>non sequitur si Deus non possit facere illud, 
+      <lb ed="#P" n="100"/>quod Deus non est potens vel minus potens: quia 
+      <lb ed="#P" n="101"/>non potest facere illud. Sic igitur videtur mihi 
+      <lb ed="#P" n="102"/>quod omne illud quod potest esse in rerum 
+      natu<lb ed="#P" n="103" break="no"/>ra absque inhaerentia actuali ad alterum, &amp; 
+      abs<lb ed="#P" n="104" break="no"/>que hoc quod necessarium sit aliud ei inhaerere, 
+      <lb ed="#P" n="105"/>vel ipsum formaliter alio informari: omne tale 
+      <lb ed="#P" n="106"/>potestassumi, siue per miraculum possit sic 
+      habe<lb ed="#P" n="107" break="no"/>re esse, vt quantitas: siue naturaliter, vt substantia 
+      <lb ed="#P" n="108"/>prout substantia stat pro natura, Et ideo accidens 
+      <lb ed="#P" n="109"/>quod de necessitate requirit actualiter inhaerere, 
+      <lb ed="#P" n="110"/>nec prima materia quae requirit necessario 
+      infor<lb ed="#P" n="111" break="no"/>mariformaliter ab alio non posset per se assumi: 
+      <lb ed="#P" n="112"/>sed cum alijs coassumptis possent assumi pura 
+      ma<lb ed="#P" n="113" break="no"/>teria prout assumitur in natura compositi, &amp; 
+      <lb ed="#P" n="114"/>quodcumque accidens positiuum in subiecto. 
+      <lb ed="#P" n="115"/>Quod dico positiuum propter peccatum 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1598">
+               <lb ed="#P" n="116"/>Ad primum ergo in oppositum dicendum, 
+      <lb ed="#P" n="117"/>quod maior esset vera, si in diuinis natura &amp; 
+      sup<lb ed="#P" n="118" break="no"/>positum sicut inter se non dicunt differentiam 
+      rea<lb ed="#P" n="119" break="no"/>lem: ita etiam in habitudine ad tertium non 
+      im<lb ed="#P" n="120" break="no"/>portarent diuersam habitudinem realem. Nune 
+      <lb ed="#P" n="121"/>autem in diuinis, licet natura &amp; suppositum non 
+      <lb ed="#P" n="122"/>differant re, necdicant diuersas res: tamen in 
+      or<lb ed="#P" n="123" break="no"/>dine ad tertium dicunt, siue important aliam &amp; 
+      <lb ed="#P" n="124"/>aliam habitudinem realem. Nam aliud est rem 
+      <lb ed="#P" n="125"/>illam quae est diuinitas &amp; persona diuina, esse 
+      na<lb ed="#P" n="126" break="no"/>turam humanam, &amp; esse suppositum naturae 
+      hu<lb ed="#P" n="127" break="no"/>manae. Nam ad hoc quod res illa dicatur, vel sit 
+      <lb ed="#P" n="128"/>natura humana, oporteret quod esset essentialiter 
+      <lb ed="#P" n="129"/>humanitas: sed ad hoc quod sit suppositum 
+      hu<lb ed="#P" n="130" break="no"/>manum, non requiritur quod illa res diuina sit 
+      hu<lb ed="#P" n="131" break="no"/>manitas: sed quod sit habens humanitatem vt 
+      su<lb ed="#P" n="132" break="no"/>stentatam per ipsam. Aliud autem re est illam 
+      <lb ed="#P" n="133"/>rem quae est diuinitas, &amp; suppositum diuinum 
+      es<lb ed="#P" n="134" break="no"/>se humanitatem &amp; sustentare humanitatem: &amp; 
+      <lb ed="#P" n="135"/>aliud re est ex natura diuina &amp; humana resultare 
+      <lb ed="#P" n="136"/>aliquam naturam vel quidditatem, sicut ex per se 
+      <lb ed="#P" n="137"/>partibus, &amp; illam rem quae est diuinitas &amp; 
+      diui<lb ed="#P" n="138" break="no"/>num suppositum sustentare naturam humanam 
+      <lb ed="#P" n="139"/>quod sufficit ad vnitatem in supposito. Et 
+      exem<lb ed="#P" n="140" break="no"/>plum huius possumus accipere in creaturis. Quia 
+      <!--286.xml-->
+      <pb ed="#P" n="286"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>licet realiter locus sit superficies: realiter tamen 
+      <lb ed="#P" n="2"/>aliud est in re illud esse superficiem alicuius, &amp; 
+      <lb ed="#P" n="3"/>esse locum eiusdem. Impossibile est enim quod 
+      <lb ed="#P" n="4"/>eadem superficies se habeat ad idem corpus 
+      reali<lb ed="#P" n="5" break="no"/>ter vt locus, &amp; vt superficies. Importare ergo 
+      <lb ed="#P" n="6"/>sic diuersa in habitudine ad te tium sufficit ad hoc 
+      <lb ed="#P" n="7"/>quod realiter tiat vnio illius tertii in supposito, &amp; 
+      <lb ed="#P" n="8"/>non in natura. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1679">
+               <lb ed="#P" n="9"/>Ad secundum dicendum, quod natura 
+      substan<lb ed="#P" n="10" break="no"/>tialis creata vna cum suo esse non facit 
+      supposi<lb ed="#P" n="11" break="no"/>tum: vt sic sit cum suo esse quod ipsa cum suo esse 
+      <lb ed="#P" n="12"/>non sit innixa alteri. Vnde sicut ipsa talis natura 
+      <lb ed="#P" n="13"/>quando assumitur quantum ad suam essentiam, 
+      <lb ed="#P" n="14"/>non est quod est, vel ens proprie, sed ineno, scilicet 
+      <lb ed="#P" n="15"/>ens in alio. Ita nec suum esst est simpliciter esse, 
+      <lb ed="#P" n="16"/>siue subsistere: sed inexistere. Ita tamen quod 
+      <lb ed="#P" n="17"/>intelligatur absque inhaerentia ad suppositum 
+      di<lb ed="#P" n="18" break="no"/>uinum. Sicut etiam si quantitas subsistens in 
+      sa<lb ed="#P" n="19" break="no"/>cramento altaris vniretur de nouo subiecto, non 
+      <lb ed="#P" n="20"/>tolleretur ab ea esse quod prius haberer: sed quod 
+      <lb ed="#P" n="21"/>prius erat esse subsistens fieret de nouo inesse, &amp; 
+      <lb ed="#P" n="22"/>inex istere. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1712">
+               <lb ed="#P" n="23"/>Ad tertium dicendum, quod suppositum 
+      di<lb ed="#P" n="24" break="no"/>uinum magis distat a quacun: que natura 
+      substan<lb ed="#P" n="25" break="no"/>tiali creata, quam aliquod suppositum creatum 
+      <lb ed="#P" n="26"/>ab aliqua natura substantiali creata aliena a sua 
+      <lb ed="#P" n="27"/>natura: quantum ad suam distantiam quae 
+      oppo<lb ed="#P" n="28" break="no"/>nitur conuenientiae quae est in aliquo modo 
+      prae<lb ed="#P" n="29" break="no"/>dicabili vniuoco. Quia nihil vniuocum 
+      praedica<lb ed="#P" n="30" break="no"/>tur de Deo &amp; creaturis: sicut praedicatur de 
+      dua<lb ed="#P" n="31" break="no"/>bus substantijs separatis. Tamen quantum ad 
+      <lb ed="#P" n="32"/>proportionem quae requiritur inter assumens &amp; 
+      <lb ed="#P" n="33"/>assumptum, mgis conuenit suppositum diuinum 
+      <lb ed="#P" n="34"/>cum natura substant ali creata: quam aliquod 
+      sup<lb ed="#P" n="35" break="no"/>pesi.um creatum conueniat cum aliqua natura 
+      ex<lb ed="#P" n="36" break="no"/>tranea creata. Si cut etiam minus conueniunt 
+      sub<lb ed="#P" n="37" break="no"/>stantia &amp; accidens in aliquo commuri 
+      praedicabi<lb ed="#P" n="38" break="no"/>li vniuoco, quam duae substantiae adinurcem: sed 
+      <lb ed="#P" n="39"/>quantum ad vnitatem in subiecto magis 
+      conue<lb ed="#P" n="40" break="no"/>niunt substantia &amp; accidens quam duae substantiae 
+      <lb ed="#P" n="41"/>adinuicem. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1756">
+               <lb ed="#P" n="42"/>Ad quartum dicendum, quod illa maior 
+      ha<lb ed="#P" n="43" break="no"/>bet veritatem de illo quod sic est suppositum 
+      natu<lb ed="#P" n="44" break="no"/>rae irrationalis, quod est constiturum in esse 
+      sim<lb ed="#P" n="45" break="no"/>pliciter per naturam irrationalem: sicut 
+      supposi<lb ed="#P" n="46" break="no"/>tum equi vel asini. Non autem habet veritatem 
+      <lb ed="#P" n="47"/>de supposito quod esset vel esse posset suppositum 
+      <lb ed="#P" n="48"/>naturae irrationalis per eius assumptionem ad 
+      sup<lb ed="#P" n="49" break="no"/>positum praeexistens, &amp; iam praehabens esse per 
+      <lb ed="#P" n="50"/>naturam intellectualem: illud enim quod sic esset 
+      <lb ed="#P" n="51"/>suppositum naturae intellectualis, posset esse 
+      per<lb ed="#P" n="52" break="no"/>sona. Posito autem quod persona diuina 
+      assunte<lb ed="#P" n="53" break="no"/>ret naturam irrationalem, eius suppositum non 
+      es<lb ed="#P" n="54" break="no"/>set suppositum naturae irrationalis primo modo: 
+      <lb ed="#P" n="55"/>sed secundo modo. Et ideo ratio non concludit. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1789">
+               <lb ed="#P" n="56"/>Ad quintum dicendum, quod ad illam 
+      ratio<lb ed="#P" n="57" break="no"/>nem potest responderi, &amp; per distinctionem, &amp; 
+      <lb ed="#P" n="58"/>per interemptionem. Perdistinctionem, quia 
+      ele<lb ed="#P" n="59" break="no"/>uabilitas potest dupliciter accipi. Vno modo per 
+      <lb ed="#P" n="60"/>formalem inhaerentiam alicuius formae 
+      supernatu<lb ed="#P" n="61" break="no"/>ralis: vel per hoc quod aliquid eleuatur ad 
+      vnita<lb ed="#P" n="62" break="no"/>tem suppositi supernaturalis absque aliqua forma 
+      <lb ed="#P" n="63"/>supernaturaliter inhiaerente. Modo dico quod si 
+      <lb ed="#P" n="64"/>vnifornniter accipiatur eleuatio ex parte naturae &amp; 
+      <lb ed="#P" n="65"/>potentiae: sequitur quod si essentia siue natura est 
+      <lb ed="#P" n="66"/>cleuabilis, &amp; potentia. Et ideo si aliqua natura 
+      <lb ed="#P" n="67"/>est eleuabilis ad hoc quod sit alicuius suppositi 
+      su<lb ed="#P" n="68" break="no"/>pernaturalis: ita &amp; potentia etiam erit eleuabilis 
+      <lb ed="#P" n="69"/>mediante natura ad hoc quod sit potentia illius 
+      <lb ed="#P" n="70"/>spppositi eperenti per ipsumn. Et sic dico quod 
+      <!--286.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>potentia bruti est eleuabilis, vl etiam potentia 
+      <lb ed="#P" n="72"/>inanimati. Quia sicut ignis natura potest 
+      eleua<lb ed="#P" n="73" break="no"/>ri ad suppositum diuinum, vt Deus sit ignis: ita 
+      <lb ed="#P" n="74"/>etiam potentia calefactiua potest eleuari 
+      median<lb ed="#P" n="75" break="no"/>te natura ignis ad hoc vt sit Dei, vt agentis per 
+      ip<lb ed="#P" n="76" break="no"/>sam: ita quod diuinitas immediate calefaciet per 
+      <lb ed="#P" n="77"/>ipsam. Et similiter si est aliqua natura quae 
+      po<lb ed="#P" n="78" break="no"/>test eleuari formaliter per formam 
+      supernatura<lb ed="#P" n="79" break="no"/>lem inhaerentem, sicut ponitur a qu busdam de 
+      <lb ed="#P" n="80"/>gratia quae est in essentia an mae: ita etiam 
+      pote<lb ed="#P" n="81" break="no"/>rit potentia eleuari ad aliquem habitum 
+      super<lb ed="#P" n="82" break="no"/>naturalem. Sed non oportet si natura eleuatur 
+      <lb ed="#P" n="83"/>non formaliter, sed personaliter, siue 
+      hyposti<lb ed="#P" n="84" break="no"/>tice: quod potentia possit eleuari formaliter, sicut 
+      <lb ed="#P" n="85"/>argumentum procedit. Et ideo non valet. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1862">
+               <lb ed="#P" n="86"/>Poterit etiam responderi per interempuenem 
+      <lb ed="#P" n="87"/>maioris, accipiendo eleuationem potentiae per 
+      <lb ed="#P" n="88"/>eleuationem ad operationem supernaturalem: 
+      <lb ed="#P" n="89"/>prout procedit ratio. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1873">
+               <lb ed="#P" n="90"/>Ad primam probationem potest dici 
+      triplici<lb ed="#P" n="91" break="no"/>ter. Quia non opeatit quod illud quod nonpotest 
+      <lb ed="#P" n="92"/>in minus, non possit in maius; nisi quande vtrim 
+      <lb ed="#P" n="93"/>que est eiusdem rationis &amp; vnum contineatur in 
+      <lb ed="#P" n="94"/>alio: sicut in posse ire stadia tria, includitur paasse 
+      <lb ed="#P" n="95"/>duo ire. Eleuatio autem potentiae ad opera i nem 
+      <lb ed="#P" n="96"/>supernaturalem, &amp; eleuatio naturae ad iupposium 
+      <lb ed="#P" n="97"/>non sic se habent: quia nec sunt eiusdem rationis, 
+      <lb ed="#P" n="98"/>nec vnum includit alterum. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1895">
+               <lb ed="#P" n="99"/>Secundo, potest dici quod licet in natura 
+      ra<lb ed="#P" n="100" break="no"/>tionali minus sit eleuari quantum ad potentiam, 
+      <lb ed="#P" n="101"/>quam quantum ad naturam: non tanten habet 
+      <lb ed="#P" n="102"/>hoc veritatem in natura itrationali Quia in tali 
+      <lb ed="#P" n="103"/>natura essentiam eleuari non includit 
+      contradi<lb ed="#P" n="104" break="no"/>ctionem sicut potentiam eleuari secundum 
+      mo<lb ed="#P" n="105" break="no"/>dum eleuationis quem ipsi intelligunt. Et idco in 
+      <lb ed="#P" n="106"/>tali natura non est minus possib le eleuan 
+      natu<lb ed="#P" n="107" break="no"/>ram quam potentiam: imo magis possibile. Quia 
+      <lb ed="#P" n="108"/>vnum simpliciter est possibile: &amp; aliud mposi, 
+      bi<lb ed="#P" n="109" break="no"/>le. Sicut in igne minus est sursum moueri, quam 
+      <lb ed="#P" n="110"/>generare substantiam: sed in aqua minius est 
+      ge<lb ed="#P" n="111" break="no"/>nerare substantiam &amp; facilius, quam mouen 
+      sur<lb ed="#P" n="112" break="no"/>sum. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1928">
+               <lb ed="#P" n="113"/>Tertio dicendum, quod illud verbum 
+      Au<lb ed="#P" n="114" break="no"/>gustini non est sic accipiendum quasi minus 
+      pos<lb ed="#P" n="115" break="no"/>sibile sit Deo eleuare naturam quam potentiam, 
+      <lb ed="#P" n="116"/>imo aequ liter possibile est. Sed quia maior 
+      di<lb ed="#P" n="117" break="no"/>gnatio Dei extensa est in vno, quam in alio: &amp; 
+      <lb ed="#P" n="118"/>ideo dato primo datur confidentia de secundo. 
+      <lb ed="#P" n="119"/>Sicut cui daretur amplexus regis, daretur fiducia 
+      <lb ed="#P" n="120"/>de aliq uobeneficio: quamuis vnum non sit 
+      diffi<lb ed="#P" n="121" break="no"/>cilius regi quam aliud. Et alicui posset dari 
+      am<lb ed="#P" n="122" break="no"/>plerus regis sicut ligno: qui non esset capax 
+      bene<lb ed="#P" n="123" break="no"/>ficii dati alteri. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1954">
+               <lb ed="#P" n="124"/>Ad secundam probationem dicendum, quod 
+      <lb ed="#P" n="125"/>maior est falsa, loquendo de eleuabilitate 
+      forma<lb ed="#P" n="126" break="no"/>li, vt procedit ratio. Ad probationem dicendum 
+      <lb ed="#P" n="127"/>quod secundum quosdam non plus est 
+      inconue<lb ed="#P" n="128" break="no"/>uiens Deum posse peccare: ita quod peccare vel 
+      <lb ed="#P" n="129"/>posse peccare praedicetur de Deo per extraneam 
+      <lb ed="#P" n="130"/>naturam assumptum, quemadmodum mori vel 
+      <lb ed="#P" n="131"/>comburi. Vel potest securius &amp; conuenientius 
+      <lb ed="#P" n="132"/>dici quod stante hipothesit illius natura nortposset 
+      <lb ed="#P" n="133"/>pcccare. Quia illa natura se haberet ad 
+      supposi<lb ed="#P" n="134" break="no"/>tum diuinum vt instrumentum coniunctuni cui 
+      <lb ed="#P" n="135"/>non conuenit agere (vt dictum est) sed 
+      supposi<lb ed="#P" n="136" break="no"/>tum diuinum ageret per eam. Nec posset ea irein 
+      <lb ed="#P" n="137"/>actum nisi secundum quod mouetur a supposito 
+      <lb ed="#P" n="138"/>diuino ex hoc ipso quod esset iuncta in supposito 
+      <lb ed="#P" n="139"/>diuino, nullo habitu supernaturali existente: &amp; 
+      <lb ed="#P" n="140"/>per consequens non posset peccare. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e1993">
+      <!--287.xml-->
+               <pb ed="#P" n="287"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Ad tertiam probationem dicendum, quod 
+      <lb ed="#P" n="2"/>maior est falsa, accipiendo eleuabilitatem 
+      poten<lb ed="#P" n="3" break="no"/>tiae quantum ad eleuationem formalem, prout 
+      <lb ed="#P" n="4"/>procedit ratio: &amp; eleuationem naturae quantum 
+      <lb ed="#P" n="5"/>ad suppositum tantum. Quia maiorem 
+      connexio<lb ed="#P" n="6" break="no"/>nem habet esse naturale ad posse naturale: quam 
+      <lb ed="#P" n="7"/>eleuabilitas naturae ad esse supernaturalis 
+      suppo<lb ed="#P" n="8" break="no"/>siti ad eleuabilitatem formalem potentiae ad 
+      ha<lb ed="#P" n="9" break="no"/>bitum supernaturalem. Et hoc satis patet ex 
+      di<lb ed="#P" n="10" break="no"/>ctis, quia non sunt in aliquo eiusdem rationis: 
+      si<lb ed="#P" n="11" break="no"/>cut esse &amp; posse naturale. 
+      </p>
+            <p xml:id="hx2hx3-b94769-d1e2027">
+               <lb ed="#P" n="12"/>Quod autem ista ratio penitus nulla sit, &amp; 
+      <lb ed="#P" n="13"/>manifeste falso innitatur. Patet quia sequeretur 
+      <lb ed="#P" n="14"/>secundum hanc rationem ( vt probabo) quod 
+      <lb ed="#P" n="15"/>nullus posset habere potentiam eleuatam 
+      super<lb ed="#P" n="16" break="no"/>naturaliter ad intelligendum &amp; amandum Deum: 
+      <lb ed="#P" n="17"/>nisi esset assumptus ad vnitatem suppositi diuini. 
+      <lb ed="#P" n="18"/>Quod sic patet. Quia magis dependet posse 
+      na<lb ed="#P" n="19" break="no"/>turale ad esse naturale: quam e conuerso. Et per 
+      <lb ed="#P" n="20"/>consequens minus potest esse sine esse naturali: 
+      <lb ed="#P" n="21"/>quam e contrario. Si ergo propter hoc quod Deus 
+      <lb ed="#P" n="22"/>non potest facere esse naturale (vt dicunt) sicut 
+      <lb ed="#P" n="23"/>posse naturale: ideo non potest aliqua creatura 
+      <lb ed="#P" n="24"/>eleuari quantum ad esse, nisi eleuetur quantum 
+      <lb ed="#P" n="25"/>ad posse. Ergo contrario quia multo minus posse 
+      <lb ed="#P" n="26"/>naturale potest esse sine esse naturali: non potest 
+      <lb ed="#P" n="27"/>aliquis actu eleuari quantum ad posse, nisi sit 
+      ele<lb ed="#P" n="28" break="no"/>uatus quantum ad esse in supposito diuino. Nec 
+      <lb ed="#P" n="29"/>sufficeret eleuabilitas naturae. Quia in rerum 
+      na<lb ed="#P" n="30" break="no"/>tura posse naturale nullo modo potest esse sine 
+      es<lb ed="#P" n="31" break="no"/>se naturali sicut esse in actu ipsius naturae. Ergo 
+      <lb ed="#P" n="32"/>nec posse poterit eleuari actu: nisi sit actu natura 
+      <lb ed="#P" n="33"/>eleuata quantum ad esse. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

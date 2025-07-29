@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="23"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-a07363"><!-- l1d2q1 -->
+            <head xml:id="hx2hx3-a07363-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-a07363-Hd1e101" type="question-title">Utrum sit necessarium ponere unum deum</head>
+            <p xml:id="hx2hx3-a07363-d1e104">
+               <lb ed="#P" n="44"/>Distinctio secunda.
+      </p>
+            <p xml:id="hx2hx3-a07363-d1e109">
+               <lb ed="#P" n="45"/>QVAESTIO PRIMA. 
+      <lb ed="#P" n="46"/>Vtrum sit necessarium ponere unum Deum.
+      </p>
+            <p xml:id="hx2hx3-a07363-d1e116">
+               <lb ed="#P" n="47"/>ET arguitur quod non: quia illud est Deus in 
+      <lb ed="#P" n="48"/>quo non differt substantia, virtus &amp; operatio, 
+      <lb ed="#P" n="49"/>sed tales possunt esse plures, argo, &amp;c. Probatio 
+      <lb ed="#P" n="50"/>minoris quia si talia non possent esse plurahoc 
+      ideo<lb ed="#P" n="51" break="no"/>esset quia praeter eorum substantiam requireretur 
+      <lb ed="#P" n="52"/>aliquod additum quo distinguerentur, quod esset 
+      <lb ed="#P" n="53"/>vel virtus vel operatio: Sed hoc non oportet, quia 
+      <lb ed="#P" n="54"/>circumscripto quocunque alio duae species 
+      sub<lb ed="#P" n="55" break="no"/>stantiae, &amp; praecipue in substantus quae sunt 
+      for<lb ed="#P" n="56" break="no"/>mae subsistentes, differunt seipsis formaliter. 
+      Er<lb ed="#P" n="57" break="no"/>o, &amp;c. Idem etiam prius non distinguitur per 
+      po<lb ed="#P" n="58" break="no"/>sterius, sed e conuerso. 
+      </p>
+            <p xml:id="hx2hx3-a07363-d1e146">
+               <lb ed="#P" n="59"/>Praeterea illud est Deus quod est prima causa 
+      <lb ed="#P" n="60"/>non deducta in aliam priorem, sed plura talia 
+      pos<lb ed="#P" n="61" break="no"/>sunt esse: ergo, &amp;c. Probatio minoris, quia si non 
+      <lb ed="#P" n="62"/>possunt aliqua duo esse quorum nulla sit causa, aut 
+      <lb ed="#P" n="63"/>hoc est quia ad distinctionem eorum formalem 
+      re<lb ed="#P" n="64" break="no"/>quiritur quod vnum sit ab alio aut amhoam terrio 
+      <!--23.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>Primum non oportet quia multa sunt distincta 
+      </p>
+            <p xml:id="hx2hx3-a07363-d1e168">
+               <lb ed="#P" n="66"/>quorum vnum non est ab alio: nec secundum 
+      <lb ed="#P" n="67"/>etiam, vt videtur, quia res non 
+      diltingunn<lb ed="#P" n="68" break="no"/>tur formaliter per illud quod est ab eis 
+      diuer<lb ed="#P" n="69" break="no"/>sum per essentiam, sed per suas formas quae seipsis 
+      <lb ed="#P" n="70"/>formaliter differunt: ergo res in nullo differunt 
+      <lb ed="#P" n="71"/>per hoc quod sunt ab alio: ita quod si non esser 
+      <lb ed="#P" n="72"/>ab alio adhuc formaliter differtent. 
+      </p>
+            <p xml:id="hx2hx3-a07363-d1e186">
+               <lb ed="#P" n="73"/>Contra est sancta sersptura &amp; Philosophia. 
+      </p>
+            <p xml:id="hx2hx3-a07363-d1e191">
+               <lb ed="#P" n="74"/>Respondeo quod sit necessario tantum vnus 
+      <lb ed="#P" n="75"/>Deus &amp; non possunt esse plures dij, &amp; 
+      authorita<lb ed="#P" n="76" break="no"/>te sanctae scripturae &amp; ratione probatur. Ad cuius 
+      <lb ed="#P" n="77"/>euidentiam sciendum quod si ponantur plures dis 
+      <lb ed="#P" n="78"/>aut differunt specie ita quod Deus sit nomen 
+      gene<lb ed="#P" n="79" break="no"/>ris conueniens pluribus speciebus, aut differunt 
+      so<lb ed="#P" n="80" break="no"/>lo numero, ita quod Deus sit nomen speciei 
+      spe<lb ed="#P" n="81" break="no"/>cialissimae commune pluribus indiuiduis sicut 
+      <lb ed="#P" n="82"/>conuenit homo sorti &amp; Platoni. Primum non 
+      no<lb ed="#P" n="83" break="no"/>test esse; &amp; hoc satis faciliter probatur tribus 
+      rauo<lb ed="#P" n="84" break="no"/>nibus. Prima sumitur ex praeeminentia suae 
+      nobili<lb ed="#P" n="85" break="no"/>tatis in comparatione ad alia. Secunda ex pleni 
+      <lb ed="#P" n="86"/>tudine suae perfectionis secundum se accepta: 
+      tes<lb ed="#P" n="87" break="no"/>tia ex sua vniuersalitate &amp; primitate in causando. 
+      </p>
+            <p xml:id="hx2hx3-a07363-d1e224">
+               <lb ed="#P" n="88"/>Prima talis est. Illud quod vere est Deus non 
+      po<lb ed="#P" n="89" break="no"/>test conuenire ei quo aliquid est nobilius: ista patet 
+      <lb ed="#P" n="90"/>quia per Deum intelligimus quo nihil nobilius esse 
+      <lb ed="#P" n="91"/>potest, &amp; quod est simpliciter nobilissimum in 
+      en<lb ed="#P" n="92" break="no"/>tibus: sed illud quod conuenit pluribus speciebus 
+      <lb ed="#P" n="93"/>necessario conuenit alicui quo aliquid aliud est 
+      no<lb ed="#P" n="94" break="no"/>bilius: quia impossibile est dare duas species qua. 
+      <lb ed="#P" n="95"/>rum vna non sit magis nobilis &amp; alia minus 
+      nobi<lb ed="#P" n="96" break="no"/>lis, ergo, &amp;c. Si dicatur contra hoc quod 
+      superla<lb ed="#P" n="97" break="no"/>tiuum aliquando atiribuitur toti vni generi: sicut si 
+      <lb ed="#P" n="98"/>dicatur quod substantia immaterialis est 
+      nobilissi<lb ed="#P" n="99" break="no"/>ma: non valet quia quando dicimus quod 
+      sub<lb ed="#P" n="100" break="no"/>stantia immaterialis velaliquid tale est 
+      nobilissi<lb ed="#P" n="101" break="no"/>ma, intentio dicentis est quod nulla alia substantia 
+      <lb ed="#P" n="102"/>ab immateriali est ita nobilis sicut immaterialis: 
+      <lb ed="#P" n="103"/>non autem est intentio eius quod substantia 
+      im<lb ed="#P" n="104" break="no"/>materialis non conueniat nisi ei soli quod est sic 
+      <lb ed="#P" n="105"/>nobilissimum quod eo nullum aliud est nobilius 
+      <lb ed="#P" n="106"/>quia constat quod esse substantiam 
+      immateria<lb ed="#P" n="107" break="no"/>lemconuenit alicui quo inuenitur aliquid nobilius. 
+      <lb ed="#P" n="108"/>Secunda ratio talis est: Deus est illud quod 
+      com<lb ed="#P" n="109" break="no"/>prehendit quicquid est perfectionis simpliciter, 
+      <lb ed="#P" n="110"/>sed pluribus differentibus specie hoc non potest 
+      <lb ed="#P" n="111"/>conuenue: Ergo, &amp;c. Probatio minoris quia 
+      si<lb ed="#P" n="112" break="no"/>sint plures dii specie differentesita quod Deus sit 
+      <lb ed="#P" n="113"/>nomen generis communis pluribus speciebus; 
+      <lb ed="#P" n="114"/>differentiae quibus diuiditur tale genus in suas 
+      spe<lb ed="#P" n="115" break="no"/>cies, aut quaelibet earundicit perfectionem 
+      sim<lb ed="#P" n="116" break="no"/>pliciter, aut neutra, aut quaedam sic &amp; quaedaru 
+      <lb ed="#P" n="117"/>non: Si primo modo, neuter est Deus, quia neutra 
+      <lb ed="#P" n="118"/>species potest habere ambas perfectiones quas 
+      am<lb ed="#P" n="119" break="no"/>bae dicunt differentiae, &amp; per consequens neutra 
+      <lb ed="#P" n="120"/>habet vel habete potest omne illud quod est 
+      sim<lb ed="#P" n="121" break="no"/>pliciter perfectionis. Si secundo modo idem 
+      sequi<lb ed="#P" n="122" break="no"/>tur, quia vtraque species includit perfectionem 
+      di<lb ed="#P" n="123" break="no"/>minutam quae Deo repugnat. Sitertio modo, vunc 
+      <lb ed="#P" n="124"/>illa quae includit differentiam quae non dicit 
+      perfe<lb ed="#P" n="125" break="no"/>ctionem simpliciter non erit Deus sed tantum 
+      al<lb ed="#P" n="126" break="no"/>tera. Istae autem duae rationes ita possunt 
+      conclu<lb ed="#P" n="127" break="no"/>dere quod Deus non sit aliquid commune 
+      analo<lb ed="#P" n="128" break="no"/>fiim plutihus genere vel specie differentibus, quia 
+      <lb ed="#P" n="129"/>omne tale diuiditur in aliqua quae naturam entis 
+      <lb ed="#P" n="130"/>inaequaliter habent, &amp; ideo impossibile est 
+      vtrum<lb ed="#P" n="131" break="no"/>que diuidentium esse nobilissimum, vel 
+      compre<lb ed="#P" n="132" break="no"/>hendere quicquid importat perfectionem 
+      simnli<lb ed="#P" n="133" break="no"/>citer. Tertia ratio talis est: quaecunque differunt 
+      <lb ed="#P" n="134"/>specie vnum est diminntum &amp; imperfectam enti 
+      <!--24.xml-->
+      <pb ed="#P" n="24"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tatem habens respectu alterius, sed quod est ens 
+      <lb ed="#P" n="2"/>diminutum &amp; imperfectum respectu alterius 
+      ne<lb ed="#P" n="3" break="no"/>cessario reducitur ad aliud sicut ad causam suam 
+      <lb ed="#P" n="4"/>finalem, &amp; per consequens oportet quod 
+      reduca<lb ed="#P" n="5" break="no"/>tur in aliud sicut in causam efficientem, quia finis 
+      <lb ed="#P" n="6"/>&amp; efficiens sibi correspondent: Ergo impossibile 
+      <lb ed="#P" n="7"/>est quod sint duo differentia specie quorum 
+      vtrum<lb ed="#P" n="8" break="no"/>que sit prima causa non reducta in aliam. Maior 
+      <lb ed="#P" n="9"/>patet, &amp; minor etiam de facili patet: nam videmus 
+      <lb ed="#P" n="10"/>quod minus perfecta sunt propter magis 
+      perte<lb ed="#P" n="11" break="no"/>cta, vnde etiam &amp; alia inferiora entia sunt propter 
+      <lb ed="#P" n="12"/>hominem, &amp; hoc quodam ordine, nam elementa 
+      <lb ed="#P" n="13"/>sunt propter generationem, &amp; inanimata propter 
+      <lb ed="#P" n="14"/>animata, &amp; animata minus perfecta propter 
+      ani<lb ed="#P" n="15" break="no"/>mata magis perfecta: Ergo oportet ponere quod si 
+      <lb ed="#P" n="16"/>aliquid habet entitatem &amp; imperfectam &amp; 
+      dimi<lb ed="#P" n="17" break="no"/>nutam respectu alterius, oportet quod reducatur adt 
+      <lb ed="#P" n="18"/>illud quod est magis perfectum sicut ad illud 
+      pro<lb ed="#P" n="19" break="no"/>pter quod hoc sit: tamen hoc magis pertractabitur 
+      <lb ed="#P" n="20"/>in secundo: sic ergo non potest esse quod sint duo 
+      <lb ed="#P" n="21"/>Diid fferentes specie. 
+      </p>
+            <p xml:id="hx2hx3-a07363-d1e380">
+               <lb ed="#P" n="22"/>Similiter etiam impossibile est quod sint plures 
+      <lb ed="#P" n="23"/>Dii differentes numero sub vna specie. Et hoc 
+      prr<lb ed="#P" n="24" break="no"/>mo patet si ponatur quod plurificatio numeralis in 
+      <lb ed="#P" n="25"/>eadem specie fit per materiam quantam quae ssi 
+      <lb ed="#P" n="26"/>Deo esse non potest. Secundo hoc patet si ponatur 
+      <lb ed="#P" n="27"/>quod talis pluralitas sit in aliqua natura per noc 
+      <lb ed="#P" n="28"/>quod est in diuersis terminis diuersarum 
+      productio<lb ed="#P" n="29" break="no"/>num qua produeuntur absoluta: quia talis 
+      produ<lb ed="#P" n="30" break="no"/>ctio non potest esse in diuinis. Tertio hoc patet si 
+      <lb ed="#P" n="31"/>ponatur quod ad talem pluralitatem sit necessaria 
+      <lb ed="#P" n="32"/>aliqua potentialitas quae in leo esse non potest, 
+      <lb ed="#P" n="33"/>Quanto quia vel omnes illi essent causa omnium 
+      <lb ed="#P" n="34"/>aliorum aut nullus, aut quidam sic &amp; quidam non: non 
+      <lb ed="#P" n="35"/>omnes quia impossibile est eidldem effectus plures 
+      <lb ed="#P" n="36"/>esse causas sufficientes: quicunque autem est Deus 
+      <lb ed="#P" n="37"/>cum fit vniuersaliter perfectus est per consequens 
+      <lb ed="#P" n="38"/>omnipotens &amp; sufficiens causa omnium. Nec 
+      po<lb ed="#P" n="39" break="no"/>test poni quod nullus, quia oportet Deum esse 
+      <lb ed="#P" n="40"/>primam causam omnium. Nec quidam sic, &amp; 
+      qui<lb ed="#P" n="41" break="no"/>dam non: quia cum omnes sint infinitae virturis, 
+      <lb ed="#P" n="42"/>aequaliter omnes possent esse causa, &amp; fictio esset 
+      <lb ed="#P" n="43"/>ponere quod vni crederent aliit ita quod alij nihsi 
+      <lb ed="#P" n="44"/>agerent. Quinto quia ex parte formae 
+      multiplica<lb ed="#P" n="45" break="no"/>bilis numeraliter non potest acoipi ratio quare eius 
+      <lb ed="#P" n="46"/>indiuidua sint in tanto vel tanto numero, quia tali 
+      <lb ed="#P" n="47"/>formae nullus numerus repugnat finitus vel 
+      infini<lb ed="#P" n="48" break="no"/>tus: sed oportet accipere rationem determinati 
+      <lb ed="#P" n="49"/>numeri in indiuiduis talis naturae ex parte finis &amp; 
+      <lb ed="#P" n="50"/>agentis, vt scilicet sint tot quia agens praeconcepit 
+      <lb ed="#P" n="51"/>tot facere, vel quia propter talem finem 
+      conue<lb ed="#P" n="52" break="no"/>nientius est tot habere quam plures: sed ratio 
+      plu<lb ed="#P" n="53" break="no"/>ralitatis in Diis si dii plures numero ponantur non 
+      <lb ed="#P" n="54"/>potest accipi ex parte finis vel efficientis, vt 
+      scili<lb ed="#P" n="55" break="no"/>cet sint tor propter causam efficientem vel 
+      fina<lb ed="#P" n="56" break="no"/>lem propter quas congruit tot facere nec plures 
+      <lb ed="#P" n="57"/>nec pauciores cum Deus nullam causam habeat: 
+      <lb ed="#P" n="58"/>Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-a07363-d1e464">
+               <lb ed="#P" n="59"/>Ad primum in oppositum dicendum quod 
+      mi<lb ed="#P" n="60" break="no"/>nor, est falsa ad probationem dicendum quod 
+      li<lb ed="#P" n="61" break="no"/>cet vntus vel operatio superaddita essentiae non sit 
+      <lb ed="#P" n="62"/>causa formalis distinctiua ipsitis essentiae, est tamen 
+      <lb ed="#P" n="63"/>sequela causae: quia illud in quo non differt 
+      sub<lb ed="#P" n="64" break="no"/>stantia, virtus &amp; operatio, oportet infinit ae esse 
+      per<lb ed="#P" n="65" break="no"/>fectionis, quod pluribus non potest conuenire vt 
+      <lb ed="#P" n="66"/>ostensum est: &amp; ideo oportet quod si aliqua sint 
+      <lb ed="#P" n="67"/>pltira quod ambo vel alterutrum sit finitae 
+      perfe<lb ed="#P" n="68" break="no"/>ctronis: ad hoc autem sequitur quod in tali, scilicet 
+      <lb ed="#P" n="69"/>in eo quod est hinitum differt substantia, virtus &amp; 
+      <lb ed="#P" n="70"/>operatio: alioquin non esset limitatum ad genus 
+      <lb ed="#P" n="71"/>vel speciem.
+      </p>
+            <p xml:id="hx2hx3-a07363-d1e495">
+      <!--24.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="72"/>Ad secundum dicendum quod similiter 
+      mi<lb ed="#P" n="73" break="no"/>nor est falsa: ad probationem dicendum quod 
+      li<lb ed="#P" n="74" break="no"/>cet relatio effectus ad causam non sit formale 
+      di<lb ed="#P" n="75" break="no"/>stinctiuum ipsius effectus quantum ad id quod est 
+      <lb ed="#P" n="76"/>m eo absolutum, tamen est sequela eius quod est 
+      <lb ed="#P" n="77"/>causa distinctionis: quia ad hoc quod est aliquid 
+      <lb ed="#P" n="78"/>esse limitatae essentiae, sequitur ipsum necessario 
+      <lb ed="#P" n="79"/>habere causam, modo autem non potest esse vt 
+      di<lb ed="#P" n="80" break="no"/>ctum est quod aliqua duo differant nisi ambo vci 
+      <lb ed="#P" n="81"/>alterutrum sit limitatae essentiae. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

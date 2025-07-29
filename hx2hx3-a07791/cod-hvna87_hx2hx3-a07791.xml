@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#HerveusNatalis">Herveus Natalis</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2025-07-29">July 29, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="24"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hx2hx3-a07791"><!-- l1d2q2 -->
+        <head xml:id="hx2hx3-a07791-Hd1e99">Quaestio 2</head>
+        <head xml:id="hx2hx3-a07791-Hd1e101" type="question-title">Utrum deo conveniat pluralitas attributorum</head>
+        <p xml:id="hx2hx3-a07791-d1e104">
+          <lb ed="#P" n="82"/>Distinctio secunda.
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e109">
+          <lb ed="#P" n="83"/>QVAESIIO SECVNDA. 
+          <lb ed="#P" n="84"/>Vtrum Deo conueniat pluralitas 
+          <lb ed="#P" n="85"/>attributorum.
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e118">
+          <lb ed="#P" n="86"/>REspondeo de hoc alibi dictum est, vbi 
+          osten<lb ed="#P" n="87" break="no"/>dum est quod positio illorum qui ponebant 
+          <lb ed="#P" n="88"/>tria pertinere ad perfectionem creaturae quorum 
+          <lb ed="#P" n="89"/>opposita ponebant pertinere ad perfectionem 
+          Di<lb ed="#P" n="90" break="no"/>uinam non est bona: ibi etiam ostensum est in Deo 
+          <lb ed="#P" n="91"/>esse plura attributa ex infinitate Diuinae essentiae: 
+          <lb ed="#P" n="92"/>hoc etiam idem est ostendendum ex causalitate, 
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e137">
+          <lb ed="#P" n="93"/>Ex causalitate autem hoc potest ostendi 
+          dupli<lb ed="#P" n="94" break="no"/>citer vno modo sic: quia Deus est agens primum 
+          <lb ed="#P" n="95"/>&amp; nobilissimum, ideo est agens per intellectum &amp; 
+          <lb ed="#P" n="96"/>voluntatem: &amp; sic sunt ibi duo attributa scilicet 
+          <lb ed="#P" n="97"/>inteslectus &amp; voluntas. Et vlterius quia est 
+          perfe<lb ed="#P" n="98" break="no"/>ctus per intellectum est ibi sapientia &amp; scientia: &amp; 
+          <lb ed="#P" n="99"/>quia voluntas eius habet bonum non extra se ideo 
+          <lb ed="#P" n="100"/>est ibi bonitas: &amp; sicde aliis. Alio modo hoc osten. 
+          <lb ed="#P" n="101"/>ditur ex causalitate sic: quicquid perfectionis est 
+          <lb ed="#P" n="102"/>simpliciter in effectu oportet praeesse in causa, sed 
+          <lb ed="#P" n="103"/>in creaturis inueniutur plura, quae dicunt 
+          simplici<lb ed="#P" n="104" break="no"/>ter perfectionem, puta esse bonum, iustum, 
+          intelli<lb ed="#P" n="105" break="no"/>gentem, &amp; sic de aliis: Ergo oportet talia ponere in 
+          <lb ed="#P" n="106"/>Deo qui est causa omnis creaturae. 
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e170">
+          <lb ed="#P" n="107"/>Sed contra hoc obiicitur sic: quia illud quod 
+          <lb ed="#P" n="108"/>est in effectu praeest in causa non formaliter sed 
+          <lb ed="#P" n="109"/>virtualiter, sicut calor in sole: Ergo ostendere 
+          at<lb ed="#P" n="110" break="no"/>tributa esse in Deo quia sunt in eius effectibus, est 
+          <lb ed="#P" n="111"/>ostendere attributa esse in Deo virtualiter &amp; non 
+          <lb ed="#P" n="112"/>formaliter; &amp; sic Deus non esset formaliter sapiens 
+          <lb ed="#P" n="113"/>sed causaliter vel virtualiter. Ad hoc dicendum 
+          <lb ed="#P" n="114"/>quod cumduplex sit causa, aequiuoca &amp; vniuoca, 
+          <lb ed="#P" n="115"/>loquendo de causa vniuoca non est dubium quod 
+          <lb ed="#P" n="116"/>illud quod est in offectu formaliter est etiam in 
+          cau<lb ed="#P" n="117" break="no"/>sa fommaliter non secundum idem specie sed 
+          secun<lb ed="#P" n="118" break="no"/>dum idem nnmero: Loquendo autem de causa 
+          <lb ed="#P" n="119"/>aequiuoca illud quod dicit persectionem simpliciter 
+          <lb ed="#P" n="120"/>in effectu oportet esse formaliter in causa non 
+          qui<lb ed="#P" n="121" break="no"/>dem secundum idem specie vel numero, sed 
+          secun<lb ed="#P" n="122" break="no"/>dum quandam analogiam: quia si illud quod 
+          sim<lb ed="#P" n="123" break="no"/>pliciter dicit pertectionem non esset formaliter in 
+          <lb ed="#P" n="124"/>causa, &amp; esset in effectu, ellet effectus nobilior sua 
+          <lb ed="#P" n="125"/>causa: sed si accipiatur illud quod est in efrectu 
+          <lb ed="#P" n="126"/>modo quo proprium est ipsi effectui, &amp; modo quo 
+          <lb ed="#P" n="127"/>effectus deficit a causa, non ponetur sic in causa 
+          <lb ed="#P" n="128"/>formaliter sed virtualiter: ideo quia esse dicit 
+          sim<lb ed="#P" n="129" break="no"/>pliciter perfectionem absque modo determinato, 
+          <lb ed="#P" n="130"/>impossibile est fieri effectum entem nisi a causa 
+          en<lb ed="#P" n="131" break="no"/>te, licet ens limitatum possit fieri ab ente 
+          illimita<lb ed="#P" n="132" break="no"/>to: &amp; similiter impossibile est quod fiat natura 
+          in<lb ed="#P" n="133" break="no"/>tellectualis nisi ab eo quod est formaliter 
+          intelle<lb ed="#P" n="134" break="no"/>ctuale, &amp; similiter de consimilibus: quia 
+          perfe<lb ed="#P" n="135" break="no"/>ctius est ens non ente, &amp; intellectuale est 
+          simplici<lb ed="#P" n="136" break="no"/>ter perfectius eo quod caret omni intellectu &amp; sic 
+          <!--25.xml-->
+          <pb ed="#P" n="25"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>de aliis: &amp; ideo quae dicunt perfectionem 
+          simpli<lb ed="#P" n="2" break="no"/>citer inuentam in effectibus arguunt efficaciter 
+          <lb ed="#P" n="3"/>esse formaliter in causa, quia semper in nausis est 
+          <lb ed="#P" n="4"/>aliquid aeque nobile effectibus vel nobilius: 
+          sim<lb ed="#P" n="5" break="no"/>pliciter autem est nobilius esse quam non, bonum 
+          <lb ed="#P" n="6"/>&amp; iustum quam non iustum, &amp; intellipens non 
+          <lb ed="#P" n="7"/>mtelligente: non autem oportet quod essi bquem 
+          <lb ed="#P" n="8"/>sit nobilius quam non bos, licet possit esse nobilius 
+          <lb ed="#P" n="9"/>secundum quid, seilicet quantum ad id quod potese 
+          <lb ed="#P" n="10"/>esse bos, melius est esse boue in actu quam non esse: 
+          <lb ed="#P" n="11"/>sed bene inuenitur aliquidinon bos melius 
+          omni<lb ed="#P" n="12" break="no"/>boue: non sic autem potest inueniri aliquid non 
+          <lb ed="#P" n="13"/>iustum vel non bonum melius omni iusto &amp; bono, 
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e272">
+          <lb ed="#P" n="14"/>Supposito autem quod ista vere &amp; realiter Deo 
+          <lb ed="#P" n="15"/>conueniant restat ostendere vtrum differant ratio 
+          <lb ed="#P" n="16"/>ne. Ad cuius euidentiam primo videndum est quid 
+          <lb ed="#P" n="17"/>importatur nomine rationis quando dicitur aliquid 
+          <lb ed="#P" n="18"/>differre ratione. Secundo ostendendum est in generali 
+          <lb ed="#P" n="19"/>vnde prouenit differentia rationis. Tertio 
+          ostende<lb ed="#P" n="20" break="no"/>tur prout sunt in Deo quod differant ratione. 
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e290">
+          <lb ed="#P" n="21"/>Quantum ad primum sciendum quod ratio 
+          <lb ed="#P" n="22"/>dupliciter dicitur: vno modo dicitur ratio 
+          con<lb ed="#P" n="23" break="no"/>ceptio intellectus de re quam quis vult expresse 
+          <lb ed="#P" n="24"/>intelligere, quae &amp; verbum mentis dicitur, &amp; 
+          dif<lb ed="#P" n="25" break="no"/>ferre ratione sic dicta idem est quod diuersis 
+          con<lb ed="#P" n="26" break="no"/>ceptionibus respondere vt fundamentum 
+          verita<lb ed="#P" n="27" break="no"/>tis: ita quod illud quod respondet talibus 
+          con<lb ed="#P" n="28" break="no"/>ceptionibus dicitur ratione difserre, ipsae autem 
+          <lb ed="#P" n="29"/>conceptiones differunt &amp; sunt diuersae res realiter 
+          <lb ed="#P" n="30"/>differentes. Alio modo dicitur ratio illud 
+          forma<lb ed="#P" n="31" break="no"/>le quod tali conceptioni respondet: sicut dicimus 
+          <lb ed="#P" n="32"/>quod ratio iustitiae consistit in tenendo medium in 
+          <lb ed="#P" n="33"/>eis quae sunt ad alterum: &amp; sic de aliis: &amp; 
+          diuersi<lb ed="#P" n="34" break="no"/>tas rationum sic dictarum non est differentia 
+          di<lb ed="#P" n="35" break="no"/>uersarum conceptionum realiter differentium, sed 
+          <lb ed="#P" n="36"/>est diuersitas habilitatum secundum quas eadem 
+          <lb ed="#P" n="37"/>essentia vel res quantum est ex parte intelligibilis 
+          <lb ed="#P" n="38"/>est nata responderediuersis eonceptionibus &amp; 
+          di<lb ed="#P" n="39" break="no"/>uersis intellectionibus: ita quod secundum hoc 
+          <lb ed="#P" n="40"/>accipiatur dupliciter differentia rationum, vno 
+          <lb ed="#P" n="41"/>modo pro differentia diuerfararum conceptionu 
+          <lb ed="#P" n="42"/>renliter differentium, alio modo pro differentia 
+          <lb ed="#P" n="43"/>habilitatum secundum quas eadem res est nata 
+          res<lb ed="#P" n="44" break="no"/>pondere talibus conceptionibus: &amp; secundum 
+          <lb ed="#P" n="45"/>hoc etiam dicitur diuersimode res habere diuersas 
+          <lb ed="#P" n="46"/>rationes, vno modo quia habet tales diuersas 
+          ha<lb ed="#P" n="47" break="no"/>bilitates, &amp; sic habet rationes sibi formaliter 
+          in<lb ed="#P" n="48" break="no"/>fiaerentes, sicut aliquis habet naturam suam 
+          per<lb ed="#P" n="49" break="no"/>quam respondet imagini suae. Alio modo, quia 
+          <lb ed="#P" n="50"/>habet conceptiones sibi correspondentes, &amp; sic 
+          di<lb ed="#P" n="51" break="no"/>citur habere rationes extra se formaliter existetes 
+          <lb ed="#P" n="52"/>sicut aliquis dicitur habere imaginem; &amp; hoc dico 
+          <lb ed="#P" n="53"/>quantum est de se, licet aliter possit esse: vt quando 
+          <lb ed="#P" n="54"/>aliquis intellectus intelligit seipsum &amp; rei intellectae 
+          <lb ed="#P" n="55"/>inest ipsa coceptio formaliter, sed hoc est per 
+          acci<lb ed="#P" n="56" break="no"/>dens, quia non inquantum intellecta sed inquantum 
+          <lb ed="#P" n="57"/>intelligens: hoc sit dictum quantum ad primum. 
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e373">
+          <lb ed="#P" n="58"/>Quantum ad secundum sciendum quod causa 
+          di<lb ed="#P" n="59" break="no"/>uersitatis rationum quae sunt conceptiones diuersae 
+          <lb ed="#P" n="60"/>realiter differentes, loquendo secundum genus 
+          <lb ed="#P" n="61"/>causae formalis secundum suum. esse reale quod 
+          <lb ed="#P" n="62"/>habent in mente intelligentis subiectiue, non est 
+          <lb ed="#P" n="63"/>quaerenda alia causa suae diuersitatis praeter eas, 
+          <lb ed="#P" n="64"/>quia sicut vna quaeque forma seipsa est talis forma 
+          <lb ed="#P" n="65"/>specifice &amp; realiter &amp; hoc precipue in formis 
+          ab<lb ed="#P" n="66" break="no"/>solutis: ita vnaquaeque talis forma formaliter 
+          seio<lb ed="#P" n="67" break="no"/>sa realiter loquendo differta quocunque alio, sicut 
+          <lb ed="#P" n="68"/>albedo seipsa differt formaliter &amp; realiter a 
+          qua<lb ed="#P" n="69" break="no"/>cunque alia forma. Dieo autem secundum rem: quia 
+          <!--25.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="70"/>licet ita sit quod albedo sit realiter &amp; formaliter 
+          <lb ed="#P" n="71"/>seipsa &amp; non per aliud differt a quocunque alio: 
+          <lb ed="#P" n="72"/>cum hioc tamen dicitur quod albedo inquantum 
+          <lb ed="#P" n="73"/>qualitas differt i quantitate &amp; inquantum color 
+          dif<lb ed="#P" n="74" break="no"/>fert a sapore, &amp; inquantum albedo a nsgredine: ita 
+          <lb ed="#P" n="75"/>quod dicitur differre ab istis per diuersam ratione: 
+          <lb ed="#P" n="76"/>per vnam tamen &amp; eandem rem quae est slbedo. 
+          <lb ed="#P" n="77"/>Si autem quaes atur quare tales plures conceptio. 
+          <lb ed="#P" n="78"/>nes re se ipsis differentes sunt in eodem tespectu 
+          <lb ed="#P" n="79"/>eiusdem rei: Dicendum quod causa huius est deffe 
+          <lb ed="#P" n="80"/>ctus conceptionum respectu ipsius intelligibilis, quia 
+          <lb ed="#P" n="81"/>nulla coceptio ad aequ it totum quod est intelli uibsle 
+          <lb ed="#P" n="82"/>de ipso obiecto: &amp; ideo de eodem formantur 
+          di<lb ed="#P" n="83" break="no"/>uersae conceptionee. Ista autem deficientia 
+          concen<lb ed="#P" n="84" break="no"/>tionis non accipitur secundum nobilitatem in 
+          es<lb ed="#P" n="85" break="no"/>sendo, quasi conceptio sit minus nobilis quam res 
+          <lb ed="#P" n="86"/>intellecta; sed est accipienda secundum 
+          repraesen<lb ed="#P" n="87" break="no"/>tationem, quia scilicet vna conceptione non 
+          reprae<lb ed="#P" n="88" break="no"/>sentatur torum intelligibile quantum ad omne 
+          il<lb ed="#P" n="89" break="no"/>lud quod de eo intelligi potest: de hoc vero non est 
+          <lb ed="#P" n="90"/>magna difficultas videre quomodo scilicet diuersae 
+          <lb ed="#P" n="91"/>conceptiones possunt formaride eodem: de 
+          di<lb ed="#P" n="92" break="no"/>uersitate autem rationum secundo modo didtarum 
+          <lb ed="#P" n="93"/>vnde proueniat est mapna difficultas, vnde scilicet 
+          <lb ed="#P" n="94"/>In eadem re sint diuersae habilitates secundum quas 
+          <lb ed="#P" n="95"/>nata sit respondere diuersis conceptionibus, ita 
+          <lb ed="#P" n="96"/>quod illud quod includit prout respondet vni 
+          con<lb ed="#P" n="97" break="no"/>ceptioni, non includit prout respondet alii: 
+          si<lb ed="#P" n="98" break="no"/>cut si eadem res sit iustitia &amp; scientia, dicitur quod 
+          <lb ed="#P" n="99"/>de ratione eius vnde est iustitia est quod fit illud 
+          <lb ed="#P" n="100"/>quo quis inclinatur ad tenendum medium recta 
+          <lb ed="#P" n="101"/>rationis in his quae sunt ad alterum: secundum vero 
+          <lb ed="#P" n="102"/>quod est scientia est de eius ratione quod per eam 
+          <lb ed="#P" n="103"/>habeatur euidens &amp; certa notitia de re respecti 
+          <lb ed="#P" n="104"/>cuius est. Et sunt de hoc tres opiniones.
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e482">
+          <lb ed="#P" n="105"/>Nam quidandicunt istam diuersitatem 
+          proueni<lb ed="#P" n="106" break="no"/>re ex parte intellectus ita scilicet quod propter 
+          di<lb ed="#P" n="107" break="no"/>uersas conceptiones intellectus de eadem re 
+          dica<lb ed="#P" n="108" break="no"/>tur quod in tali re est diuersitas rationis, ita quod 
+          <lb ed="#P" n="109"/>illa quibus respondet vna conceptio sunt vnum 
+          ra<lb ed="#P" n="110" break="no"/>tione; &amp; sicomnia per comparationem ad 
+          intelle<lb ed="#P" n="111" break="no"/>ctum Diuinum qui vnico verbo concipit omnia, 
+          <lb ed="#P" n="112"/>sunt omnia vnum ratione: e contrario Deus respie. 
+          <lb ed="#P" n="113"/>ctu intellectus creati qui de eo format diuersos 
+          <lb ed="#P" n="114"/>conceptus est plura ratione. Sed istud non potest 
+          <lb ed="#P" n="115"/>stare, quia si illaquae vno actu intelliguntur &amp; 
+          con<lb ed="#P" n="116" break="no"/>cipiuntur ex hoc ipso sunt vnum ratione secundum 
+          <lb ed="#P" n="117"/>illam rationem quae setenet exparte rei intellectey 
+          <lb ed="#P" n="118"/>tunc quando aliqua intelliguntur vno actu 
+          quic<lb ed="#P" n="119" break="no"/>quid est de ratione vnius erit de ratione alterius; 
+          <lb ed="#P" n="120"/>quia illa quae sunt vnum ratione inquantum huius. 
+          <lb ed="#P" n="121"/>modi quit quid est de ratione vnius est etiam de 
+          ra<lb ed="#P" n="122" break="no"/>tione alterius si sunt vnum ratione speciali, &amp; non 
+          <lb ed="#P" n="123"/>solum generali: sed hoc est falsum, quia tune cum 
+          <lb ed="#P" n="124"/>homo &amp; equus vno actu intelligantur saltem a Deo, 
+          <lb ed="#P" n="125"/>illud quod est de ratione hominis esset de ratione 
+          <lb ed="#P" n="126"/>equi &amp; e conuerso, &amp; ita de ratione equi esset quod 
+          <lb ed="#P" n="127"/>esset rationalis, &amp; de ratione hominis quod esset 
+          <lb ed="#P" n="128"/>hinnibilis: &amp; similiter de ratione iustitiae esset quod 
+          <lb ed="#P" n="129"/>esset principium cognoscendi &amp;de ratione scientia 
+          <lb ed="#P" n="130"/>quod esset inclinatio voluntatis ad tenendum me 
+          <lb ed="#P" n="131"/>dium rectae rationis in his quae sunt ad alterum: qua 
+          <lb ed="#P" n="132"/>omnia sunt inconuenientia: item dicimus quod 
+          de<lb ed="#P" n="133" break="no"/>ratione hominis est quod sit animal rationale 
+          mor<lb ed="#P" n="134" break="no"/>tale, &amp; quo d ratio equi est quod sit animal 
+          hinni<lb ed="#P" n="135" break="no"/>bile: sed non potest dici quod ratiosic dicta sit ipsa 
+          <lb ed="#P" n="136"/>conceptio intellectus, imo est conditio rei intelle. 
+          <lb ed="#P" n="137"/>ctae: Ergo diuersitas secundum rationem acceptam 
+          <lb ed="#P" n="138"/>secundo modo non est tantum aecipienda secundu 
+          <!--26.xml-->
+          <pb ed="#P" n="26"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>diuersitatem conceptionum intellectus sed etiam 
+          <lb ed="#P" n="2"/>secundum aliquid ex parte rei intellecta, 
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e570">
+          <lb ed="#P" n="3"/>Alii dicunt quod talis diuersitas rationum 
+          ac<lb ed="#P" n="4" break="no"/>cipitur ex parte rei simplicis in habitudine ad 
+          intel<lb ed="#P" n="5" break="no"/>lectum, non secundum simplicem apptehensionem 
+          <lb ed="#P" n="6"/>rationis cognoscentis: Sed prout negotiatur cuca 
+          <lb ed="#P" n="7"/>eandem rem simplicem iam simplici 
+          apprehensio<lb ed="#P" n="8" break="no"/>necognitam absque aliqua comparatione illius rei 
+          <lb ed="#P" n="9"/>simplicis ad quaecunque diuersa re: &amp; de hoc 
+          po<lb ed="#P" n="10" break="no"/>nunt exemplum de Deode quo infra plenius dice, 
+          <lb ed="#P" n="11"/>tur. Sed hoc non videtur mihi bene dictum quia 
+          <lb ed="#P" n="12"/>secundum quod communiterdicitur ratio vnius 
+          se<lb ed="#P" n="13" break="no"/>cundum quod est vnum simplex ad nihil aliud 
+          co<lb ed="#P" n="14" break="no"/>paratum non videtur esse nisi vna: Ergo tale 
+          secun<lb ed="#P" n="15" break="no"/>dum quod tale non est nisi vnius rationis. Si 
+          dica<lb ed="#P" n="16" break="no"/>tur quod imo, sed hoc habet non ex se sed ex 
+          com<lb ed="#P" n="17" break="no"/>paratione ad intellectum negotiantem. Aut hod 
+          <lb ed="#P" n="18"/>est quia ipsa comparatio ad intellectum cludit in 
+          <lb ed="#P" n="19"/>ratione sua ita quod secundum diuersas 
+          compara<lb ed="#P" n="20" break="no"/>tiones ad talem intellectum diuersificatur 
+          secun<lb ed="#P" n="21" break="no"/>dum rationem: aut hoc est quia intellectus 
+          nego<lb ed="#P" n="22" break="no"/>tians plura inuenit in tali re quam intellectus 
+          sim<lb ed="#P" n="23" break="no"/>pliciter. Primum non potest esse, quia hic non 
+          quae<lb ed="#P" n="24" break="no"/>rimus de ratione intelligendi quae se tenet ex parte 
+          <lb ed="#P" n="25"/>intelligentis sed de ratione intellecta: Sed 
+          compa<lb ed="#P" n="26" break="no"/>ratio rei quae intelligitur ad intellectum 
+          intelli<lb ed="#P" n="27" break="no"/>gentem non se tenet ex parte intellectus in actu 
+          <lb ed="#P" n="28"/>recto, quia talis comparatio non intelligitur 
+          ni<lb ed="#P" n="29" break="no"/>si in actu ressexo quando intellectus considerat se 
+          <lb ed="#P" n="30"/>ex habitudine rei primo intellectae ad ipsum: at. 
+          <lb ed="#P" n="31"/>tributa autem pertinent ad actum rectum &amp; ea 
+          <lb ed="#P" n="32"/>quae in rationibus eorum ponuntur: Ergo, &amp;c, 
+          <lb ed="#P" n="33"/>Secundum etiam non potest esse quia in eo quod 
+          <lb ed="#P" n="34"/>est vnius rationis secundum quod huiusmodi nul. 
+          <lb ed="#P" n="35"/>lus intellectus potest inuenire plura vel 
+          paucio<lb ed="#P" n="36" break="no"/>ra secundum rationem: sicut vnum non porest 
+          <lb ed="#P" n="37"/>esse plura vel pauciora, sed sicut dictum est 
+          v<lb ed="#P" n="38" break="no"/>num omnino simpliciter secundum se acceptum 
+          <lb ed="#P" n="39"/>sine quacunque diuersitate rei non est nisi vnius 
+          <lb ed="#P" n="40"/>rationis: Ergo, &amp;c. 
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e655">
+          <lb ed="#P" n="41"/>Tertia opinio est quod diuersitas rationis sic 
+          <lb ed="#P" n="42"/>dicta est accipienda in habitudine ad diuersa 
+          rea<lb ed="#P" n="43" break="no"/>liter: &amp; hanc opinionem bene intellectam 
+          cre<lb ed="#P" n="44" break="no"/>do veram. Ad cuius euidentiam sciendum quod 
+          <lb ed="#P" n="45"/>diuersitas realis potest facere ad diuersitatem 
+          ra<lb ed="#P" n="46" break="no"/>tionum dupliciter: vno modo quia habitudo ad 
+          <lb ed="#P" n="47"/>illa diuersa re includitur in ipsis rationibus: 
+          si<lb ed="#P" n="48" break="no"/>cut in ratione ideae importatur habitudo ad 
+          idea<lb ed="#P" n="49" break="no"/>tum, &amp; causa importat habitudinem ad 
+          causa<lb ed="#P" n="50" break="no"/>tum. Secundo modo quia quae dicuntur 
+          di<lb ed="#P" n="51" break="no"/>uersa ratione secundum suas rationes 
+          generali<lb ed="#P" n="52" break="no"/>ter aeceptas nata sunt esse sine inuicem, siuc 
+          <lb ed="#P" n="53"/>differre re: propter quod vnum in eo quod 
+          ta<lb ed="#P" n="54" break="no"/>le, non est alterum etiam realiter, sicut 
+          intelle<lb ed="#P" n="55" break="no"/>ctus &amp; voluntas accipiendo voluntatem in eo 
+          <lb ed="#P" n="56"/>quod voluntas &amp; intellectum in eo quod 
+          intel<lb ed="#P" n="57" break="no"/>lectus, nata sunt esse diuersa re quantum est de 
+          <lb ed="#P" n="58"/>se secundum quod sic accepta: vnde etiam 
+          v<lb ed="#P" n="59" break="no"/>nui eorum in eo quod tale non est neccssario 
+          <lb ed="#P" n="60"/>alterum, vnde illud quod est voluntas ex 
+          hoc<lb ed="#P" n="61" break="no"/>quod est voluntas non est necessario intellectus, 
+          <lb ed="#P" n="62"/>imo accidit sibi in eo quod huiusmodi quod sit 
+          <lb ed="#P" n="63"/>intellectus. Vtroque vero istorum modorum 
+          con<lb ed="#P" n="64" break="no"/>uenit aliquid differre ratione ab altero: vel quia 
+          <lb ed="#P" n="65"/>importat habitudinem ad diuersa sicut Deus prout 
+          <lb ed="#P" n="66"/>est idea equi differt a seipso ratione vt est idea 
+          <lb ed="#P" n="67"/>hominis, quia idea importat habitudinem ad 
+          idea<lb ed="#P" n="68" break="no"/>tum, &amp; diuersae ideae ad diuersa ideata; vel quia 
+          <lb ed="#P" n="69"/>illa secundum suam absolutam acceptionem na¬ 
+          <!--26.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="70"/>ta dunt tesse sine inuidem, siue differre re, 
+          sisas<lb ed="#P" n="71" break="no"/>dictum est de voluntate &amp; intellectu, ita quod 
+          <lb ed="#P" n="72"/>dato quod in aliqua natura sint idem re hoc 
+          ac<lb ed="#P" n="73" break="no"/>cidit eis inquantum talia: &amp; sic videtur mihi 
+          <lb ed="#P" n="74"/>quod differentia rationis prout se tenet ex parte 
+          <lb ed="#P" n="75"/>rei intellectae prout respondet conceptioni 
+          intel<lb ed="#P" n="76" break="no"/>lectus siue prout ex parte sua habet habilitatem 
+          <lb ed="#P" n="77"/>vt intollectus iudicet eam non esse eiusdem 
+          ratio<lb ed="#P" n="78" break="no"/>tionis prout sic vel sic accipitur, proueniat vel 
+          <lb ed="#P" n="79"/>propter habitudinem ad diuersa, vel quia illa nata O 
+          <lb ed="#P" n="80"/>sunt esseidiuersa absolute accepta. 
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e748">
+          <lb ed="#P" n="81"/>Sed contra hoc posset obiicii quia illa 
+          diffe<lb ed="#P" n="82" break="no"/>rentia quae est ex parte rei &amp; a re habet ortum vI. S 
+          <lb ed="#P" n="83"/>detur esse differentia realis, sed haec differentia 
+          <lb ed="#P" n="84"/>non dicitur esse realis sed rationis: Ergo, &amp;c. Ad 
+          <lb ed="#P" n="85"/>hoc dicendum quod differt aliqua differre re &amp; 
+          eo<lb ed="#P" n="86" break="no"/>rum differentiam habere ortum are, nam ad hoc 
+          <lb ed="#P" n="87"/>quod aliqua dicantur simpliciter differre re 
+          opor<lb ed="#P" n="88" break="no"/>tet quod sint diuersae res &amp; non solum quod ex 
+          a<lb ed="#P" n="89" break="no"/>liqua reortum habeat talis differentia: licet ergo 
+          <lb ed="#P" n="90"/>talis differentia habeat ortum a re inquantum etiam 
+          <lb ed="#P" n="91"/>istas diuersas rationes non haberet nisi illa diuer, 
+          <lb ed="#P" n="92"/>sitas haberet ortum a re: non tamen dicitur diffe 
+          <lb ed="#P" n="93"/>rentia realis, quia illa quae dicuntur differre 
+          non<lb ed="#P" n="94" break="no"/>sunt diuersae res. Vel potest dicibreuius quod ista 
+          <lb ed="#P" n="95"/>differentia est differentia secundum rem 
+          causali<lb ed="#P" n="96" break="no"/>ter &amp; originaliter, non tamen est secundum rem 
+          <lb ed="#P" n="97"/>formaliter, imo formaliter completur 
+          impera<lb ed="#P" n="98" break="no"/>tione intellectus apprehendentis ea quae sunt in 
+          <lb ed="#P" n="99"/>isto vno in sua generalitate accepta non habere 
+          <lb ed="#P" n="100"/>necessario vnitatem realem: ita quod ex hoc ipso 
+          <lb ed="#P" n="101"/>quod est hoc, sequitur quod non sit illud: vnde 
+          <lb ed="#P" n="102"/>dicet intellectus quod non oportet quod 
+          intelle<lb ed="#P" n="103" break="no"/>ctus ex hoc quod est intellectus sit voluntas, &amp; 
+          <lb ed="#P" n="104"/>per consequens non elt eadem ratio qua aliquid 
+          <lb ed="#P" n="105"/>habet quod sit intellectus &amp; quod sit voluntas. 
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e805">
+          <lb ed="#P" n="106"/>Quantum ad tertium vtrum scilicet ista prout 
+          <lb ed="#P" n="107"/>sunt in Deo differant ratione, Dico quod ly pront 
+          <lb ed="#P" n="108"/>sunt in Deo potest dicere notam causalitatis, vt 
+          <lb ed="#P" n="109"/>sit sensus quod ista prout siunt in Deo id est ex esse 
+          <lb ed="#P" n="110"/>quod habent in Deo sicut ex origine huius 
+          diuer<lb ed="#P" n="111" break="no"/>sitatis, habeant hanc diuersitatem circumscripto 
+          <lb ed="#P" n="112"/>quocunque alio: &amp; sic patet aliquo modo ex dictis 
+          <lb ed="#P" n="113"/>quod prout sunt in Deo secundum iltum sensum 
+          <lb ed="#P" n="114"/>non differunt ratione, &amp; magis infra patebit. Alio 
+          <lb ed="#P" n="115"/>modo potest accipi ly prout sunt in Deo quasi 
+          ma<lb ed="#P" n="116" break="no"/>terialiter vt sit sensus quaerere vtrum voluntas &amp; 
+          <lb ed="#P" n="117"/>intellectus &amp; similia in Deo disserant ratione 
+          <lb ed="#P" n="118"/>a quocunque accipiatur origo istius 
+          distinctio<lb ed="#P" n="119" break="no"/>nis; &amp; sic dicendum est quod prout sunt in 
+          <lb ed="#P" n="120"/>Deo differunt ratione, quia illa quae nata sunt 
+          <lb ed="#P" n="121"/>retdifferre, vel quorum vnum natum est 
+          rea<lb ed="#P" n="122" break="no"/>liter inueniri sine alio, dato quod non e 
+          con<lb ed="#P" n="123" break="no"/>uerso sicut homo &amp; animal, talia quacunque re 
+          <lb ed="#P" n="124"/>vniantur in aliquo semper absolute accepta diffe 
+          <lb ed="#P" n="125"/>runt ratione: sed voluntas &amp; intellectus absolute 
+          <lb ed="#P" n="126"/>accepta sunt huiusmodi: Ergo &amp; in Deo &amp; 
+          in<lb ed="#P" n="127" break="no"/>quocunque inueniuntur differunt ratione ita 
+          <lb ed="#P" n="128"/>quod Deus inquantum iustitia differt a seipso 
+          <lb ed="#P" n="129"/>inquantum sapientia, &amp; sic de aliis, ita quod 
+          <lb ed="#P" n="130"/>si reduplicatio feratur ad Deum sic iustitia &amp; 
+          sa<lb ed="#P" n="131" break="no"/>pientia nec re nec ratione differunt: vnde 
+          iusti<lb ed="#P" n="132" break="no"/>tia in eo quod Deus nec re nec ratione differt 
+          <lb ed="#P" n="133"/>a sapientia in eo quod Deus: sed e conuerso si 
+          <lb ed="#P" n="134"/>Deus accipiatur sine reduplicatione &amp; 
+          fera<lb ed="#P" n="135" break="no"/>tur reduplicatio ad iustitiam &amp; sapientiam; 
+          si<lb ed="#P" n="136" break="no"/>ue per se accipiantur, vt dicatnus iustitia &amp; 
+          sa<lb ed="#P" n="137" break="no"/>pientiain eo quod huiusmodi, siue accipiantur cum 
+          <lb ed="#P" n="138"/>attributione ad Deum dicendo, Deus in eo quod 
+          <!--27.xml-->
+          <pb ed="#P" n="27"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>iustitia &amp; in eo quod sapientia, est ibi semper 
+          dif<lb ed="#P" n="2" break="no"/>ferentia rationis. 
+        </p>
+        <p xml:id="hx2hx3-a07791-d1e890">
+          <lb ed="#P" n="3"/>Vtrum autem istis nominibus vel 
+          conceptioni<lb ed="#P" n="4" break="no"/>bus quis concipimus de Deo dicendo quod est 
+          bo<lb ed="#P" n="5" break="no"/>nitas vel iustitia vel aliquid tale, respondeat res pro 
+          <lb ed="#P" n="6"/>immediato fundamento, dictum est alibi. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

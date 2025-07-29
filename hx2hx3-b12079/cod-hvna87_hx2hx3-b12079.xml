@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#HerveusNatalis">Herveus Natalis</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2025-07-29">July 29, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="37"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hx2hx3-b12079"><!-- l1d3q3 -->
+        <head xml:id="hx2hx3-b12079-Hd1e99">Quaestio 3</head>
+        <head xml:id="hx2hx3-b12079-Hd1e101" type="question-title">Utrum per ea quae facta sunt aliquod trinitatis vestigium</head>
+        <p xml:id="hx2hx3-b12079-d1e104">
+          <lb ed="#P" n="111"/>Nunc restat ostendere vitrum per ea quae 
+          <lb ed="#P" n="112"/>fecta sunt aliquod Trinitatis 
+          vesti<lb ed="#P" n="113" break="no"/>gium, &amp;c. 
+        </p>
+        <p xml:id="hx2hx3-b12079-d1e113">
+          <lb ed="#P" n="114"/>QVAESTIO TERIIA. 
+        </p>
+        <p xml:id="hx2hx3-b12079-d1e118">
+          <lb ed="#P" n="115"/>DE vestigio non videtur esse difficultas nisi 
+          <lb ed="#P" n="116"/>quod quidam faciunt ibi brigam sine 
+          ratio<lb ed="#P" n="117" break="no"/>ne. Dicunt enim ibi quidam quod assignationes 
+          <lb ed="#P" n="118"/>Theologorum non debent reduci ad assignatio 
+          <lb ed="#P" n="119"/>nem Philosophorum, sicut quidam faciunt, 
+          om<lb ed="#P" n="120" break="no"/>nes assignationes reducentes ad hoc quod 
+          par<lb ed="#P" n="121" break="no"/>tes vestigii dicantur principium, medium &amp; finis. 
+          <lb ed="#P" n="122"/>Sed istud parum valet, quia licet Theologi plus 
+          <lb ed="#P" n="123"/>sciant dediuinis quam Philosophi qui non 
+          noue<lb ed="#P" n="124" break="no"/>runt Trinitatem personarum cuius vestigium 
+          <lb ed="#P" n="125"/>quaeritur, sicut Theologi: vnde etiam nec 
+          ter<lb ed="#P" n="126" break="no"/>natium quem ponebant, applicabant ad aliquam 
+          <lb ed="#P" n="127"/>repraesentationem T rinitatis; nihil tamen 
+          prohi<lb ed="#P" n="128" break="no"/>bet aliqua tria inuenta esse a Philosophis quae 
+          <lb ed="#P" n="129"/>conuueniant cuique ternario ab aliis assignato 
+          <lb ed="#P" n="130"/>&amp; non e conuerso; propter quod potest fieri 
+          <lb ed="#P" n="131"/>reductio ad ea sicut ad tria communiora &amp; 
+          <lb ed="#P" n="132"/>priora secundum rationem intelligendi: Et 
+          <lb ed="#P" n="133"/>sic est, quia principium, medium &amp; finis, 
+          <lb ed="#P" n="134"/>conuenit quibusdam tribus aliis assignatis &amp; 
+          <lb ed="#P" n="135"/>non e conuerso. Non enim omnis terminus 
+          <lb ed="#P" n="136"/>qui potest assignari in creatura est subltali¬ 
+          <!--38.xml-->
+          <pb ed="#P" n="38"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>tia, virtus &amp; operatio, vel multa talia quae po¬ 
+          <lb ed="#P" n="2"/>nunt quae non sunt communia cuicunque 
+          terna<lb ed="#P" n="3" break="no"/>rio sicut principium, medium &amp; finis. Vnde illa 
+          <lb ed="#P" n="4"/>obiectio nulla est, quia dato quod assignario 
+          <lb ed="#P" n="5"/>Theologorum magis expresse duceret in 
+          cogni<lb ed="#P" n="6" break="no"/>tionem Trinitatis quam Philosophorum: non 
+          ta<lb ed="#P" n="7" break="no"/>men oportet quod ternarius datus ab eis sit ita 
+          <lb ed="#P" n="8"/>communis per praedicationem, sicut ternarius 
+          <lb ed="#P" n="9"/>datus a Philosophis. Alii autem faciunt viam in 
+          <lb ed="#P" n="10"/>aliis dicentes quod aliqui volentes assignare 
+          par<lb ed="#P" n="11" break="no"/>tes vestigii incidunt in imaginem. Dicunt enim 
+          <lb ed="#P" n="12"/>quidam assignantes partes vestigii in his scilicet, 
+          <lb ed="#P" n="13"/>vnum, pulchrum &amp; ordo, quod vnum reputat 
+          <lb ed="#P" n="14"/>patrem qui est principium non de principio, sicut 
+          <lb ed="#P" n="15"/>vnum est principium numeri non habens 
+          princi<lb ed="#P" n="16" break="no"/>pium ante se; pulchrum autem pertinet ad filium, 
+          <lb ed="#P" n="17"/>quia pulchritudo importat quandam ad 
+          aequatio<lb ed="#P" n="18" break="no"/>nem saltem in imagine quae proprie est in filio: 
+          <lb ed="#P" n="19"/>sed ordo pertinet ad Spiritum sanctum, quia 
+          or<lb ed="#P" n="20" break="no"/>do importat tendentiam ad bonum quod appro. 
+          <lb ed="#P" n="21"/>priatur ad Spiritum sanctum. Contra hoc 
+          obii<lb ed="#P" n="22" break="no"/>ciunt alii, quia vestigium non ducit in 
+          cogni<lb ed="#P" n="23" break="no"/>tionem propriorum, licet ducat in cognitionem 
+          <lb ed="#P" n="24"/>ppropriatorum, quia ducere in cognitionem 
+          pro<lb ed="#P" n="25" break="no"/>priorum est proprium imaginis. Esse principium 
+          <lb ed="#P" n="26"/>non appropriatum patris, sed proprium, &amp; 
+          simi<lb ed="#P" n="27" break="no"/>siter ad aequatio quae est inter imaginem &amp; illud 
+          <lb ed="#P" n="28"/>cuius est, est propria filio ex modo suae 
+          proprie<lb ed="#P" n="29" break="no"/>tatis: Ergo ista assignatio incidit in imaginem. 
+          <lb ed="#P" n="30"/>bed hoc nihil est, qnia vestigium &amp; imago non 
+          <lb ed="#P" n="31"/>differunt in hoc quia vnum respiciat 
+          appropria<lb ed="#P" n="32" break="no"/>ta &amp; aliud propria, quia vestigium vel imago 
+          <lb ed="#P" n="33"/>dicitur respectu Trinitatis personarum quarum 
+          <lb ed="#P" n="34"/>sunt ipsa propria directe; appropriata autem non 
+          <lb ed="#P" n="35"/>pertinent ad eas vt scilicet isti soli vel illi 
+          con<lb ed="#P" n="36" break="no"/>ueniant nisi secundum quandam adaptionem. 
+          <lb ed="#P" n="37"/>Sed in hoc differunt quia vnum eorum scilicet 
+          <lb ed="#P" n="38"/>vestigium magis confuse ducit in cognitionem 
+          <lb ed="#P" n="39"/>personarum quam imago. Vnde Notandum quod 
+          <lb ed="#P" n="40"/>nec vestigium nec imago demonstratiue ducit in 
+          <lb ed="#P" n="41"/>cognitionem propriorum in diuinis, sed tantum 
+          <lb ed="#P" n="42"/>in cognitionem appropriatorum. Sed verum est 
+          <lb ed="#P" n="43"/>quod vestigium magis confuse quam imago hoc 
+          <lb ed="#P" n="44"/>facit Constat enim quod vestigium ducit non 
+          <lb ed="#P" n="45"/>in cognitionem confusam appropriatorum 
+          quan<lb ed="#P" n="46" break="no"/>tum ad id quod sunt, imo in cognitionem 
+          ex<lb ed="#P" n="47" break="no"/>pressam &amp; euidentem. Nam expresse &amp; 
+          eui<lb ed="#P" n="48" break="no"/>denter probantur in Deo ex creaturis potentia, 
+          <lb ed="#P" n="49"/>sapientia &amp; bonitas, vel aliqua talia: &amp; ideo 
+          res<lb ed="#P" n="50" break="no"/>pectu eorum non dicitur proprie vestigium, sed 
+          <lb ed="#P" n="51"/>respectu propriorum in quae per ista venitur 
+          <lb ed="#P" n="52"/>confuse. Talsum ergo assumebant isti scilicet 
+          <lb ed="#P" n="53"/>quod vestigium ducit tantum in appropriata 
+          <lb ed="#P" n="54"/>prout a Theologo accipitur vestigium, ita quod 
+          <lb ed="#P" n="55"/>non in propria, imo vtraque ducunt in 
+          eun<lb ed="#P" n="56" break="no"/>dem, sed vnum magis confuse quam alterum. De 
+          <lb ed="#P" n="57"/>imagine quomodo dicitur imago &amp; respectu 
+          quo<lb ed="#P" n="58" break="no"/>rum obiectorum quia satis facile est, praetermitto. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

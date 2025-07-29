@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="270"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b91358"><!-- l2d28q1 -->
+            <head xml:id="hx2hx3-b91358-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b91358-Hd1e101" type="question-title">Utrum homo possit vitare peccatum mortale sine gratia</head>
+            <p xml:id="hx2hx3-b91358-d1e104">
+               <lb ed="#P" n="60"/>Id vero inconcasse &amp; incunctanter 
+      tenea<lb ed="#P" n="61" break="no"/>tur, liberum arbitrium sine
+      <lb ed="#P" n="62"/>gratia &amp;c. 
+    </p>
+            <p xml:id="hx2hx3-b91358-d1e113">
+               <lb ed="#P" n="63"/>Distinctio <sic>vigesmma secunda</sic>, 
+      <lb ed="#P" n="64"/>QVAESTIO PRIMA.
+    </p>
+            <p xml:id="hx2hx3-b91358-d1e122">
+               <lb ed="#P" n="65"/>Svper vigesimam secundam distinctionem. Que 
+      <lb ed="#P" n="66"/>ritur vtrum homo possit vitare peccatum mor¬ 
+      <!--270.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>tale sine gratia? 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e136">
+               <lb ed="#P" n="68"/>Et arguitur quod sic. Quia nullus incurrit 
+      <lb ed="#P" n="69"/>peccatum mortale nisi habeat in potestate sua 
+      il<lb ed="#P" n="70" break="no"/>lud. Quia plena ratio peccati: qualis est ratio 
+      pec<lb ed="#P" n="71" break="no"/>cati mortalis, non potest esse nisi vbi homo habet 
+      <lb ed="#P" n="72"/>dominium sui actus. Sed illud potest homo vitare 
+      <lb ed="#P" n="73"/>quod est in potestate sua, vt vitet illud. Ergo 
+      ho<lb ed="#P" n="74" break="no"/>mo in quocumque statu potest vitare peccatum 
+      <lb ed="#P" n="75"/>mortale, scilicet &amp; cum gratia: &amp; fine gratia. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e156">
+               <lb ed="#P" n="76"/>Praeterea, quicumque implet omnia 
+      praecep<lb ed="#P" n="77" break="no"/>ta, vitat omne peccatum mortale.: quia omne 
+      pec<lb ed="#P" n="78" break="no"/>catum mortale est contra aliquod praeceptum 
+      <lb ed="#P" n="79"/>Dei. Sed homo sine gratia potest implere omnia 
+      <lb ed="#P" n="80"/>praecepta. Ergo, &amp;c. Probatio minoris. Quia 
+      <lb ed="#P" n="81"/>quicumque dicit Deum praecipere impossibilo 
+      <lb ed="#P" n="82"/>anathema sit. Ergo quilibet potest implere omnia 
+      <lb ed="#P" n="83"/>praecepta, siue sit ingratia, siue non. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e176">
+               <lb ed="#P" n="84"/>Contra, Supra Magister dicit quod 
+      impossi<lb ed="#P" n="85" break="no"/>bile est hominem in statu naturae lapsae vitare 
+      pec<lb ed="#P" n="86" break="no"/>catum etiam mortale: sine gratia. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e185">
+               <lb ed="#P" n="87"/>Respondeo. Primo videndum est, vtrum 
+      <lb ed="#P" n="88"/>homo in peccato mortali existens: possit diu vitare 
+      <lb ed="#P" n="89"/>peccatum mortale: 
+      <lb ed="#P" n="90"/>Secundo videndum est: vtrum possit implero 
+      <lb ed="#P" n="91"/>praecepta: 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e198">
+               <lb ed="#P" n="92"/>ARTICVLVS PRIMVS. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e203">
+               <lb ed="#P" n="93"/>SCiendum ergo quod quantum ad primum, 
+      si<lb ed="#P" n="94" break="no"/>cut communiter dicitur homo in peccato 
+      mor<lb ed="#P" n="95" break="no"/>ali existens vitare peccatum sine graetia, dupliciter 
+      <lb ed="#P" n="96"/>potest intelligi. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e215">
+               <lb ed="#P" n="97"/>Primo modo: vel quantum ad peccatum 
+      com<lb ed="#P" n="98" break="no"/>missum, vt sit sensus quaestionis, vtrum possit 
+      li<lb ed="#P" n="99" break="no"/>berari a peccato iam commisso, sine gratia. Et 
+      <lb ed="#P" n="100"/>isto modo quaestio non est dubia. Quia constat 
+      <lb ed="#P" n="101"/>quod non. Nullus enim liberatur a peccato 
+      mor<lb ed="#P" n="102" break="no"/>tali sine gratia. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e231">
+               <lb ed="#P" n="103"/>Secundo modo potest intelligi quantum ad 
+      <lb ed="#P" n="104"/>peccatum committendum, vt sit sensus 
+      quaestio<lb ed="#P" n="105" break="no"/>nis. Vtrum aliquis existens in peccato mortali, 
+      <lb ed="#P" n="106"/>possit vitare quin commitat aliud peccatum 
+      mor<lb ed="#P" n="107" break="no"/>tale. Et sic intelligitur quaestio. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e244">
+               <lb ed="#P" n="108"/>Talem autem non posse vitare peccatum 
+      mor<lb ed="#P" n="109" break="no"/>tale, tipliciter potest intelligi. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e251">
+               <lb ed="#P" n="110"/>Vno modo quia ex natura sua necessitate 
+      abso<lb ed="#P" n="111" break="no"/>luta, sit determinatus ad malum culpae: sicut lapis 
+      <lb ed="#P" n="112"/>ad descendendum deorsum. Et sic dicere quod 
+      <lb ed="#P" n="113"/>existens in peccato non plus haberet in potestate 
+      <lb ed="#P" n="114"/>viare peccatum mortale, sicut nec la pis vitare 
+      des<lb ed="#P" n="115" break="no"/>cendere deorsum: est erroneum &amp; est 
+      errorMani<lb ed="#P" n="116" break="no"/>cheorum. Quia posuerunt hominem ex natura 
+      <lb ed="#P" n="117"/>necessario determinatum ad culpam: sicut lapis ad 
+      <lb ed="#P" n="118"/>descendendum deorsum. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e273">
+               <lb ed="#P" n="119"/>Secundo modo potest intelligi, quod existens 
+      <lb ed="#P" n="120"/>in peccato mortali, non possit vitare peccatum 
+      <lb ed="#P" n="121"/>mortale: nonquod ex natura determinetur ad hoc, 
+      <lb ed="#P" n="122"/>sed ex inclinatione peccati. Ita tamen, quod sic 
+      <lb ed="#P" n="123"/>ex inclinatione peccati non possit vitare peccatum 
+      <lb ed="#P" n="124"/>etiam in speciali, nec ad horam quamlibet per 
+      de<lb ed="#P" n="125" break="no"/>liberationem veratur incontrarium: &amp; similiter 
+      <lb ed="#P" n="126"/>istud esset erroneum. Quia sic sequeretur quod 
+      <lb ed="#P" n="127"/>priuatus gratia: nullum dominium haberet sui 
+      <lb ed="#P" n="128"/>actus. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e297">
+               <lb ed="#P" n="129"/>Tertio modo potest intelligi, quod existens in 
+      <lb ed="#P" n="130"/>peccato mortali non possit diu vitare quin 
+      com<lb ed="#P" n="131" break="no"/>mittat peccatum mortale hoc, vel illud; licet 
+      <lb ed="#P" n="132"/>quodlibet per se acceptum possit vitare nitendo 
+      <lb ed="#P" n="133"/>determinata contra hoc, vel illud, non sic 
+      intel<lb ed="#P" n="134" break="no"/>ligendo quod necessarium sit ipsum incurrere pec¬ 
+      <!--271.xml-->
+      <pb ed="#P" n="271"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tatum mortale necessitate absoluta: sed ex 
+      suppo<lb ed="#P" n="2" break="no"/>sitione, scilicet supposito, quod non velit 
+      conuer<lb ed="#P" n="3" break="no"/>tere se ad Deum, &amp; recedere a peccato. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e327">
+               <lb ed="#P" n="4"/>Et sic communiter hodie omnes tenent, quod 
+      <lb ed="#P" n="5"/>homo in peccato mortali existens: non potest diu 
+      <lb ed="#P" n="6"/>isto modo vitare aliud peccatum mortale. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e336">
+               <lb ed="#P" n="7"/>Et rationem huius assignant talem. Quia sicut 
+      <lb ed="#P" n="8"/>se habent virtutes inferiores ad rationem, sicut ad 
+      <lb ed="#P" n="9"/>illud a quo regulentur: ita se habet ratio ad 
+      prae<lb ed="#P" n="10" break="no"/>cepta a quibus debet regulari. Sed quamdiu vires 
+      <lb ed="#P" n="11"/>inferiores non sunt ex toto subiecte rationi, 
+      impos<lb ed="#P" n="12" break="no"/>sibile est diu stare quin aliquae inordinationes 
+      in<lb ed="#P" n="13" break="no"/>surgant in viribus inferioribus contra rationem. 
+      <lb ed="#P" n="14"/>Ergo quando ratio &amp; apperitus rationalis non 
+      <lb ed="#P" n="15"/>sunt ex toto subiectae praeceptis diuinis, 
+      impossi<lb ed="#P" n="16" break="no"/>bile est quin insurgant in eis aliquae 
+      inordinatio<lb ed="#P" n="17" break="no"/>nes quae sint contra contra praecepta diuina: &amp; per 
+      <lb ed="#P" n="18"/>consequens impossibile est quin insurgant in eis 
+      <lb ed="#P" n="19"/>inordinationes quae sunt peccata mortalia. Nam 
+      <lb ed="#P" n="20"/>sllud quod est contra praeceptum diuinum: est 
+      pec<lb ed="#P" n="21" break="no"/>catum mortale. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e371">
+               <lb ed="#P" n="22"/>Sed ratio &amp; voluntas illius qui est in peccato, 
+      <lb ed="#P" n="23"/>nec vult recedere ab eo: non sunt ex toto subiecte 
+      <lb ed="#P" n="24"/>praeceptis diuinis. Cum omne peccatum sit 
+      con<lb ed="#P" n="25" break="no"/>tra aliquod praeceptum diuinum. Ergo 
+      impossibi<lb ed="#P" n="26" break="no"/>le est diu stare illum qui est in peccato, quin 
+      se<lb ed="#P" n="27" break="no"/>cundum voluntatem: &amp; rationem incurrat 
+      ali<lb ed="#P" n="28" break="no"/>quam deordinationem, quae sit contra praecepta 
+      <lb ed="#P" n="29"/>diuina. Et per consequens, quin incurrat aliquod 
+      <lb ed="#P" n="30"/>peccatum mortale, hoc scilicet vel illud. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e393">
+               <lb ed="#P" n="31"/>Si dicatur quod licet non possit in talibus 
+      vita<lb ed="#P" n="32" break="no"/>re deordinationem subitam: tamen semper potest 
+      <lb ed="#P" n="33"/>vitare deordinationem quae sola est peccatum 
+      <lb ed="#P" n="34"/>mortale 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e404">
+               <lb ed="#P" n="35"/>Dicendum quod stante hypothesi, quod scilicer qui 
+      <lb ed="#P" n="36"/>nor vult rocedere a peccato, nom potest esse quin 
+      in<lb ed="#P" n="37" break="no"/>talibus incurrat deordinationem deliberatam quae 
+      <lb ed="#P" n="38"/>sufficit ad peccatum mortale: &amp; hoc patet sic. Quia 
+      <lb ed="#P" n="39"/>nd pecca tum mortale sufficit tanta deliberatio, quod 
+      <lb ed="#P" n="40"/>cognoscatur plene illud quod placet, siue in quod 
+      <lb ed="#P" n="41"/>consentitur esse contra praeceptum. Sed illecuius, 
+      vo<lb ed="#P" n="42" break="no"/>luntas hibitualiter adhaeret peccato mortali, nolens 
+      <lb ed="#P" n="43"/>scilicet a peccato recedere: non potest esse diu 
+      <lb ed="#P" n="44"/>quin consentiat in aliqua, aduertens pene talia esse 
+      <lb ed="#P" n="45"/>contra praecepta Dei. Ergo, &amp;c. Maior patet. 
+      <lb ed="#P" n="46"/>Minor probatur. Quia ille qui adhaeret 
+      habituali<lb ed="#P" n="47" break="no"/>ter peccato mortali, non mouetur ad vitandum 
+      ali<lb ed="#P" n="48" break="no"/>quid ex hoc solo quod est contra praeceptum Dei, 
+      <lb ed="#P" n="49"/>vel contra voluntatem Dei quam praeceptum 
+      ex<lb ed="#P" n="50" break="no"/>primit: cum ipse adhaereat ei quod ipse scit esse 
+      <lb ed="#P" n="51"/>contra Dei praeceptum. Sed impossibile est quin 
+      <lb ed="#P" n="52"/>ei qui est in peccato mortali, occurrant multa &amp; 
+      <lb ed="#P" n="53"/>frequenter quae sunt contra praecepta Dei: 
+      con<lb ed="#P" n="54" break="no"/>uenientia malo fini cui adhaeret. Et quod 
+      aduer<lb ed="#P" n="55" break="no"/>tens ea esse contra praecepta Dei, conuertit se ad 
+      <lb ed="#P" n="56"/>deliberandum de aliis per quae potest auelli: puta 
+      <lb ed="#P" n="57"/>de poenis vel praemiis &amp; aliis huiusmodi. Quia 
+      <lb ed="#P" n="58"/>impossibile est hominem esse in vita ista, qui habeat 
+      <lb ed="#P" n="59"/>tam vigilantem deliberationem circa quemlibet 
+      <lb ed="#P" n="60"/>actum occurrentem sibi: de eis etiam quae sunt 
+      <lb ed="#P" n="61"/>contra legem Dei. Ergo impossibile est quod 
+      ho<lb ed="#P" n="62" break="no"/>mo adhaerenis habitualiter peccato mortali: diu 
+      <lb ed="#P" n="63"/>stet quin consentiat in aliquid, aduertens illud 
+      <lb ed="#P" n="64"/>esse contra praeceptumdiuinum. Et sic patet 
+      mi<lb ed="#P" n="65" break="no"/>nor. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e474">
+               <lb ed="#P" n="66"/>Si dicatur contra hoc, quia qua ratione potest 
+      <lb ed="#P" n="67"/>homo resistere per deliberatior em magnam vni 
+      <lb ed="#P" n="68"/>peccato mortali: eadem ratione &amp; multis. Quia 
+      <lb ed="#P" n="69"/>re sistendo primo: fortificatur ad resistendum 
+      se<lb ed="#P" n="70" break="no"/>cundo.
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e488">
+      <!--271.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Dicendum quod licet resistendo primo, 
+      foni<lb ed="#P" n="72" break="no"/>ficetur ad resistendum secundo: non tamen 
+      sequi<lb ed="#P" n="73" break="no"/>tur quod si resistat vni contra quod ad horam 
+      niti<lb ed="#P" n="74" break="no"/>tur, resistat multis quae occurrunt in magno 
+      tem<lb ed="#P" n="75" break="no"/>pore. Quia multa, sunt fortiora ad impellendum 
+      <lb ed="#P" n="76"/>&amp; ad distrahendum mentem hominis: quam 
+      <lb ed="#P" n="77"/>vnum. Et ideo illa multa de facili vincunt illam 
+      <lb ed="#P" n="78"/>fortificationem acquisitam resistendo vni, vd 
+      <lb ed="#P" n="79"/>etiam duobus, vel tribus. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e514">
+               <lb ed="#P" n="80"/>Quantum ad secundum faciliter patet ex 
+      di<lb ed="#P" n="81" break="no"/>ctis. Sicut enim communiter dicitur 
+      implereprs<lb ed="#P" n="82" break="no"/>ceptum: contingit dupliciter. Vno modo quantum 
+      <lb ed="#P" n="83"/>ad intentionem praecipientis: &amp; sic nullus in 
+      pec<lb ed="#P" n="84" break="no"/>cato mortali existens, potest adimplere 
+      praecep<lb ed="#P" n="85" break="no"/>tum diuinium. Quia intentio praecipientis est 
+      in<lb ed="#P" n="86" break="no"/>ducere ad virturem: &amp; quod illud fiat ex 
+      chari<lb ed="#P" n="87" break="no"/>tate ad merendum vitam aeternam. Quod 
+      existen<lb ed="#P" n="88" break="no"/>ti in preccato mortali non potest conuenire. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e536">
+               <lb ed="#P" n="89"/>Alio modo contingit implere praecepum, 
+      sci<lb ed="#P" n="90" break="no"/>licet quod quantum ad fubstantiam actus, &amp; ad 
+      vi<lb ed="#P" n="91" break="no"/>tandum poenam. Et sic existens in peccato 
+      mor<lb ed="#P" n="92" break="no"/>tali, potest implere hoc praeceptum vel illud. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e547">
+               <lb ed="#P" n="93"/>Sed quod stante hypothesi diu stet, non 
+      con<lb ed="#P" n="94" break="no"/>scientiens in aliquid quod sit contra quodcumque 
+      <lb ed="#P" n="95"/>praeceptum Dei, affirmatiuum vel negatiuum, est 
+      <lb ed="#P" n="96"/>impossibile. Sicut vitare diu omnia peceata 
+      mor<lb ed="#P" n="97" break="no"/>
+               <!-- line coord error -->
+               <lb ed="#P" n="98"/>talia. Et vtrumque per eandem rationem patet. 
+      <lb ed="#P" n="99"/>Quia idem est iudicium de vtroque. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e567">
+               <lb ed="#P" n="100"/>Ad primum ergo in oppositum, dicendum 
+      <lb ed="#P" n="101"/>quod illud quod impossibile est hominem vitare 
+      <lb ed="#P" n="102"/>absoluta necessitate: non est ei imputandum. Sed 
+      <lb ed="#P" n="103"/>illud quod impossibile est homini vitare nect 
+      ssita<lb ed="#P" n="104" break="no"/>te quae est ex suppositione, cuius praesuppositionis 
+      <lb ed="#P" n="105"/>ipse est causa: bene est ei imputandum. In 
+      pro<lb ed="#P" n="106" break="no"/>posito autem, non est prima necessitas: sed 
+      secun<lb ed="#P" n="107" break="no"/>da. Quia ex hac suppositione, est impossibile 
+      tn<lb ed="#P" n="108" break="no"/>lem vitare peccatum. Quia supponitur nolle 
+      re<lb ed="#P" n="109" break="no"/>cedere a peccato: cuius ipse est causa. 
+      </p>
+            <p xml:id="hx2hx3-b91358-d1e591">
+               <lb ed="#P" n="110"/>Per idem patet ad secundum. Nam implere 
+      <lb ed="#P" n="111"/>praeceptum non est ei impossibile absolute: sed 
+      <lb ed="#P" n="112"/>ex suppositione praedicta.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

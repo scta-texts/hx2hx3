@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="228"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b76640"><!-- l2d9q1 -->
+            <head xml:id="hx2hx3-b76640-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b76640-Hd1e101" type="question-title">Utrum unus angelus possit illuminare alium</head>
+            <p xml:id="hx2hx3-b76640-d1e104">
+      <!--228.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>Post praedicta si potest cognoscere de 
+      ordini<lb ed="#P" n="71" break="no"/>bus Angelorum, quid scriptura 
+      <lb ed="#P" n="72"/>tradat, &amp;c. 
+    </p>
+            <p xml:id="hx2hx3-b76640-d1e117">
+               <lb ed="#P" n="73"/>Distinctio nona. 
+      <lb ed="#P" n="74"/>QVAESTIO PRIMA.
+    </p>
+            <p xml:id="hx2hx3-b76640-d1e124">
+               <lb ed="#P" n="75"/>Svper nonam distinctionem, quaeritur vtrum 
+      <lb ed="#P" n="76"/>vnus Angelus possit illuminare alium. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e132">
+               <lb ed="#P" n="77"/>Et arguitur quod non. Quia si vnus Angelus 
+      <lb ed="#P" n="78"/>illuminat alium: aut hoc quantum ad lumen 
+      gra<lb ed="#P" n="79" break="no"/>tiae, aut quantum ad lumen naturae: aut quantum 
+      <lb ed="#P" n="80"/>ad lumen gloriae. Sed quantum ad nullum istorum, 
+      <lb ed="#P" n="81"/>vnus Angelus potest illuminare alium, cum 
+      om<lb ed="#P" n="82" break="no"/>nia ista sint per creationem. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e148">
+               <lb ed="#P" n="83"/>Praeterea, si vnus Angelus iluminat alium, aute 
+      <lb ed="#P" n="84"/>hoc est immediatem: aut per medium. Si per 
+      me<lb ed="#P" n="85" break="no"/>dium. Illud medium aut estres corporalis: &amp; hoc 
+      <lb ed="#P" n="86"/>non potest esse. Quia res corporalis non est 
+      sus<lb ed="#P" n="87" break="no"/>ceptiua lumis spiritualis: nec per consequens 
+      po<lb ed="#P" n="88" break="no"/>test esse medium in illuminatione spirituali. Si sit 
+      <lb ed="#P" n="89"/>res spiritualis, oportet quod hoc sit alius Angelus. 
+      <lb ed="#P" n="90"/>Et tunc quaeram de illo, aut illuminatur ab alio 
+      <lb ed="#P" n="91"/>mediate, vel mmedatem: &amp; sic oportebit procedere 
+      <lb ed="#P" n="92"/>in infinitum, nisi ponatur quod Angelus qui alium 
+      <lb ed="#P" n="93"/>illuminat: immediatem illuminet. Sed nec hoc 
+      po<lb ed="#P" n="94" break="no"/>test esse. Quia Angelus ibi est vbi immediate 
+      ope<lb ed="#P" n="95" break="no"/>ratur. Vnus autem Angelus non potest esse in alio: 
+      <lb ed="#P" n="96"/>quia sequeretur quod illaberetur ei. Ergo nullo 
+      <lb ed="#P" n="97"/>modo vnus Angelus potest illuminare alium. 
+      <lb ed="#P" n="98"/>Praeterea, si vnus Angelus illuminat alium. Aut 
+      <lb ed="#P" n="99"/>hoc est quantum ad cognitionem rerum in verbo: 
+      <lb ed="#P" n="100"/>aut quantum ad cognitionem rerum inproprio 
+      ge<lb ed="#P" n="101" break="no"/>nere. Non primo modo. quia nullus beatus 
+      po<lb ed="#P" n="102" break="no"/>test proficere, vel deficere, in visione qua vider 
+      <lb ed="#P" n="103"/>res in verbo. Nec secundo modo. quia quantum 
+      <lb ed="#P" n="104"/>ad cognitionem naturalem, vnus non indiget alio. 
+      <lb ed="#P" n="105"/>Nec etiam illuminationes attenduntur penes 
+      co<lb ed="#P" n="106" break="no"/>gnit onem neturalem, cum sint de his quae 
+      perti<lb ed="#P" n="107" break="no"/>nent ad mysteria diuina in operibus gratiae. 
+      Er<lb ed="#P" n="108" break="no"/>go nullo modo vnus Angelus potest illuminare 
+      <lb ed="#P" n="109"/>vnum alium Angelum. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e209">
+               <lb ed="#P" n="110"/>In contrarium est doctorina. b. Dionisii.
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e214">
+               <lb ed="#P" n="111"/>Respondeo. Hic tria sun facienda. 
+      <lb ed="#P" n="112"/>Primo videndum est quomodo differunt 
+      pur<lb ed="#P" n="113" break="no"/>gare, &amp; illuminare. 
+      <lb ed="#P" n="114"/>Secundo videndum est quomodo vnus 
+      Ange<lb ed="#P" n="115" break="no"/>lus illuminat alium. 
+      <lb ed="#P" n="116"/>Tertio videbitur de quibus. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e230">
+               <lb ed="#P" n="117"/>ARTICVLVS PRIMVS.
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e235">
+               <lb ed="#P" n="118"/>Qvantum ad primum, sciendum est quod in 
+      <lb ed="#P" n="119"/>motione ad cognitionem est considerare 
+      <lb ed="#P" n="120"/>tria, scilicet terminus a quo, terminus ad quem 
+      <lb ed="#P" n="121"/>principaliter intenute: &amp; medium disponens ad 
+      <lb ed="#P" n="122"/>assequemdum terminum ad quem. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e249">
+               <lb ed="#P" n="123"/>Terminus a quo quandoque est error: quando 
+      <lb ed="#P" n="124"/>scilicet aliquis prius opinabatur contrarium 
+      veri<lb ed="#P" n="125" break="no"/>tatis. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e258">
+               <lb ed="#P" n="126"/>Aliquando vero est simplex carentia 
+      cogni<lb ed="#P" n="127" break="no"/>tionis: sicur quando aliquis qui nullam opinionem 
+      <lb ed="#P" n="128"/>habet de opposito vel de proposito. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e267">
+               <lb ed="#P" n="129"/>Modo mn Angelis bonis non potest esse error: 
+      <lb ed="#P" n="130"/>sed nescientia simplex potest esse ineis. Quia non 
+      <lb ed="#P" n="131"/>omnes omnia sciunti 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e276">
+               <lb ed="#P" n="132"/>Terminus autem ad quem principaliter inten¬ 
+      <!--229.xml-->
+      <pb ed="#P" n="229"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tus, est ipsa eognitio secundum quam intelledus 
+      <lb ed="#P" n="2"/>perficitur, sed medium ad hoc disponens vocatur 
+      <lb ed="#P" n="3"/>lumen: extendo nomen luminis ad quodcumque 
+      <lb ed="#P" n="4"/>manifestatiuum veritatis. In Angelis ergo dicitur 
+      <lb ed="#P" n="5"/>purgatio, explusio termini a quo, scilicet explusio 
+      <lb ed="#P" n="6"/>nesciae. Illuminatio dicitur acquisitio medii 
+      prae<lb ed="#P" n="7" break="no"/>dicti. Perficere siue perfectio, vocatur consecutio 
+      <lb ed="#P" n="8"/>cognitionis in qua perficitur intellectus. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e305">
+               <lb ed="#P" n="9"/>ARTICVLVSSECVNDVS.
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e310">
+               <lb ed="#P" n="10"/>Qvantum ad setundum, sciendum est quod 
+      <lb ed="#P" n="11"/>quantum ad modum illuminandi, dicunt 
+      <lb ed="#P" n="12"/>quidam quod vnus dicitur illuminare alium 
+      vigo<lb ed="#P" n="13" break="no"/>rando lumen eius, non quidem quod lumen eius 
+      <lb ed="#P" n="14"/>fiat magis intensum: sed quantum ad 
+      consideran<lb ed="#P" n="15" break="no"/>dum fit magis vnitum: inquantum ostendit 
+      Ange<lb ed="#P" n="16" break="no"/>lus Angelo inferiori determinatum effectum in 
+      <lb ed="#P" n="17"/>causa, scilice: in essentia diuia. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e331">
+               <lb ed="#P" n="18"/>Nam vt dicunt, si Angelus superior solum 
+      di<lb ed="#P" n="19" break="no"/>ceret effectum sciendi, &amp; non ostenderet 
+      ratio<lb ed="#P" n="20" break="no"/>nem eius in Deo: tunc inferior non illuminaretur, 
+      <lb ed="#P" n="21"/>nec ea quae sunt in patria essent nuda &amp; aperta. 
+      <lb ed="#P" n="22"/>sed tantumde sibi dictis haberet credulitatem. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e344">
+               <lb ed="#P" n="23"/>Quomodo autem talis modus illuminandi sit 
+      <lb ed="#P" n="24"/>conueniens: ostendunt per simile. Quia si aliquis 
+      <lb ed="#P" n="25"/>videret eclypsim lunae, &amp; nesciret causam 
+      deter<lb ed="#P" n="26" break="no"/>minate, eius intellectus dispergeretur ad multa vt 
+      <lb ed="#P" n="27"/>inueniret causam huius, &amp; modo cogitaret vtrum 
+      <lb ed="#P" n="28"/>hoc fieret per extinctionem, vel versionem lune: 
+      <lb ed="#P" n="29"/>ita quod habet vnam partem lucidam; &amp; aliam 
+      <lb ed="#P" n="30"/>obscuram. Sed ex hoc mnagis posset eius lumen 
+      vi<lb ed="#P" n="31" break="no"/>dere: si ferretur determinate ad veram causam. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e366">
+               <lb ed="#P" n="32"/>Ille ergo qui determinate vnam causam 
+      pro<lb ed="#P" n="33" break="no"/>poneret sibi, scilicet interpositionem terrae inter 
+      <lb ed="#P" n="34"/>solem &amp; lunam: diceretur confortare intellectum 
+      <lb ed="#P" n="35"/>eius Inquantum facit ipsum considerare de 
+      de<lb ed="#P" n="36" break="no"/>terminata causa, ad quam quando se totum 
+      recol<lb ed="#P" n="37" break="no"/>ligit: magis perfecte potest videre, quam quando 
+      <lb ed="#P" n="38"/>ad diuersa dispergebatur. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e384">
+               <lb ed="#P" n="39"/>Et econuerso potest esse, scilicet quando 
+      ali<lb ed="#P" n="40" break="no"/>quis videt aliquam causam, &amp; nescit quis essectus 
+      <lb ed="#P" n="41"/>in futurum debet sequi: ille qui ostenderet ei 
+      de<lb ed="#P" n="42" break="no"/>terminatum effectum sequentem ex illa causa, 
+      iu<lb ed="#P" n="43" break="no"/>uaret intellectum eius, &amp; faceret ipsum 
+      potentio<lb ed="#P" n="44" break="no"/>rem ad considerandum illud: quam si ferretur in 
+      <lb ed="#P" n="45"/>multa. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e402">
+               <lb ed="#P" n="46"/>Et ita dicunt esse in illuminatione Angeli. Quia 
+      <lb ed="#P" n="47"/>Angelus superior ostendir inferiori alquem 
+      effe<lb ed="#P" n="48" break="no"/>ctum fiendum a Deo, &amp; ostendit illi quomodo 
+      re<lb ed="#P" n="49" break="no"/>lucet in essentia diuina quam quilibet videt nudo: 
+      <lb ed="#P" n="50"/>ita quod sicut dictum est, non facit ipsum 
+      creden<lb ed="#P" n="51" break="no"/>do assentire quod ita est: sed facit ipsum videre in 
+      <lb ed="#P" n="52"/>essentia diuina quomodo ibi relucear. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e420">
+               <lb ed="#P" n="53"/>Iste autem modus non videtur mihi sufficere, 
+      <lb ed="#P" n="54"/>nec verus esse propter duo. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e428">
+               <lb ed="#P" n="55"/>Primo, quia si nihil aliud facit illuminans nisi 
+      <lb ed="#P" n="56"/>ostendere aliquem vnum effectum ei qui dicitur 
+      <lb ed="#P" n="57"/>illumiuari, ex quo attendens ad illum vnum 
+      este<lb ed="#P" n="58" break="no"/>ctum fit potentior ad videndum rationem effectus 
+      <lb ed="#P" n="59"/>illius quam fuisset si spargeretur ad multa: tunc 
+      il<lb ed="#P" n="60" break="no"/>luminatio non differreta simplici locutione 
+      An<lb ed="#P" n="61" break="no"/>gelorum. Quia ostendere quod talis effectus 
+      se<lb ed="#P" n="62" break="no"/>quatur, &amp; non declarare rationem quare debeat 
+      <lb ed="#P" n="63"/>sequi, non est nisi loqui. Secundum autem hanc 
+      <lb ed="#P" n="64"/>opinionem, Angelus superior non facit nisi 
+      osten<lb ed="#P" n="65" break="no"/>dere, &amp; tunc illi cui ostenditur virtute luminis sui 
+      <lb ed="#P" n="66"/>magis ad vnum determinati: incipit vi dere 
+      ratio<lb ed="#P" n="67" break="no"/>nem illius effectus. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e459">
+               <lb ed="#P" n="68"/>Secundo quia videntur ponere quod aliquis 
+      <!--229.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>beatus visione beata possit videre in essentia Dei 
+      <lb ed="#P" n="70"/>plura, quam prius: quod omnino videtur mihil 
+      im<lb ed="#P" n="71" break="no"/>possibile. Quia sicut sepe dictum est. 
+      Siperean<lb ed="#P" n="72" break="no"/>dem visionem in nullo mutatam, videt aliquis 
+      ali<lb ed="#P" n="73" break="no"/>quid de nouo quod prius non videbat nisi in 
+      poten<lb ed="#P" n="74" break="no"/>tia: sequitur quod secundum eandem visionem, est 
+      <lb ed="#P" n="75"/>aliquis in potenria videns, &amp; actu: respectu 
+      eius<lb ed="#P" n="76" break="no"/>dem. Quod videtur omnino impossibde. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e485">
+               <lb ed="#P" n="77"/>Si dicatur quod habet nouam habitudinem 
+      il<lb ed="#P" n="78" break="no"/>la visio ad aliud. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e492">
+               <lb ed="#P" n="79"/>Contra, nunquam acquiritur noua habitudo 
+      <lb ed="#P" n="80"/>nisi facta mutatione secundum aliquid absolutum 
+      <lb ed="#P" n="81"/>in quo absolute facta est illa mutatio. Si dicas, 
+      <lb ed="#P" n="82"/>quod ita est in re intellecta. Quia proponitur de 
+      <lb ed="#P" n="83"/>nouo vel per se, vel per aliquam similitudinem, vel 
+      <lb ed="#P" n="84"/>conceptum eius quod proponit illuminans. Non 
+      <lb ed="#P" n="85"/>valet. Quia aut proponitur ad modum: aut hoc 
+      <lb ed="#P" n="86"/>quod obiectiue sit in prospectu intellectus. Si ad 
+      <lb ed="#P" n="87"/>modum. Ergo mouebit ad suam coguitionem Et 
+      <lb ed="#P" n="88"/>cum secundum eos cognoscatur visione beata quae 
+      <lb ed="#P" n="89"/>prius existebat, &amp; est immutabilis: hoc autem est 
+      <lb ed="#P" n="90"/>valde absurdum. Si dicatur quod proponitur ad 
+      <lb ed="#P" n="91"/>hoc quod obiectiue sit in prospectu intellectus. 
+      <lb ed="#P" n="92"/>Hoc similiter est falsum. Quia quaelibet 
+      intelle<lb ed="#P" n="93" break="no"/>ctio facit illud quod natum est cognosci per eam: 
+      <lb ed="#P" n="94"/>in prospectu intellectus 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e529">
+               <lb ed="#P" n="95"/>Vnde sicut impossibile est aliquid intelligere 
+      <lb ed="#P" n="96"/>&amp; non habere in prospectu suo aliquam rem intel 
+      <lb ed="#P" n="97"/>lectam: ita impossibile est esse talem actum 
+      intel<lb ed="#P" n="98" break="no"/>ligerdi, &amp; non esse in prospectu intellectus, omne 
+      <lb ed="#P" n="99"/>illud cuius est illa intellectio. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e542">
+               <lb ed="#P" n="100"/>Item intelligens dicitur intelligens, &amp; intellectum 
+      <lb ed="#P" n="101"/>dicitur intellectum secundum actum intelligendi. Idem 
+      <lb ed="#P" n="102"/>enim actus intelligendi: intelligentem esse 
+      intelli<lb ed="#P" n="103" break="no"/>gentem denominat, &amp; rem intellectam esse 
+      intelle<lb ed="#P" n="104" break="no"/>ctam. Ergo si realiter sit aliquis de non actu intel 
+      <lb ed="#P" n="105"/>ligente, intelligens aliquam rem: oportet quod 
+      <lb ed="#P" n="106"/>hoc sit propter variationem factam in actu 
+      intelli<lb ed="#P" n="107" break="no"/>gendi, siue per actum intelligendi. Et ideo 
+      prae<lb ed="#P" n="108" break="no"/>dictus modus non videtur mihi verus. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e565">
+               <lb ed="#P" n="109"/>Et ideo aliter est dicendum. 
+      <lb ed="#P" n="110"/>Ad cuius euidentiam, est sciendum quod in 
+      <lb ed="#P" n="111"/>beatis est triplex genus cognitionis. Quaedam est 
+      <lb ed="#P" n="112"/>cognitio naturalis per species concreatas, 
+      secun<lb ed="#P" n="113" break="no"/>dum ponentes ipecies. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e578">
+               <lb ed="#P" n="114"/>Alia, est visio beata quae omnino immutabilis 
+      <lb ed="#P" n="115"/>est: &amp; secundum quam nunquam plura vel 
+      pau<lb ed="#P" n="116" break="no"/>ciora videntur. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e587">
+               <lb ed="#P" n="117"/>Tertia est quaedam cognitio supernaturalis, 
+      <lb ed="#P" n="118"/>secundum quam vnus potest videre visionem 
+      alte<lb ed="#P" n="119" break="no"/>rius, &amp; lumen gloriae alterius. &amp; talia 
+      supernaru<lb ed="#P" n="120" break="no"/>ralia. Secundum quam etiam vnus porest loqui 
+      <lb ed="#P" n="121"/>alteri de eis quae in Deo videt. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e600">
+               <lb ed="#P" n="122"/>Nec tamen faciet eum videre illa in nuda 
+      es<lb ed="#P" n="123" break="no"/>sentia diuina. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e607">
+               <lb ed="#P" n="124"/>Et si dicatur contra hoc, quod sequitur quod 
+      <lb ed="#P" n="125"/>illuminationes proprie non erunt nisi credulitates: 
+      <lb ed="#P" n="126"/>nec erunt aperte &amp; clare. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e616">
+               <lb ed="#P" n="127"/>Ad hoc dico quod imo. Quia licet illuminans 
+      <lb ed="#P" n="128"/>non faciat illuminatum videre illa in essentia 
+      di<lb ed="#P" n="129" break="no"/>uina, poteritramen eum illuminare, ad hoc quod 
+      <lb ed="#P" n="130"/>videat quomodo illa sibi reuelata: congruant eis 
+      <lb ed="#P" n="131"/>quae ipse videt in Deo. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e630">
+               <lb ed="#P" n="132"/>vt verbigratiai Si omnes beati pro salute 
+      hu<lb ed="#P" n="133" break="no"/>mana viderent a principio in Deo Christum 
+      in<lb ed="#P" n="134" break="no"/>carnandum &amp; passurum, quando superior 
+      reue<lb ed="#P" n="135" break="no"/>labat inferiori Chr istum passurum tali tempore, &amp; 
+      <lb ed="#P" n="136"/>in tali loco: puta in medioterrae. Ostendebat cum 
+      <lb ed="#P" n="137"/>hoc quomodo talis modus, &amp; talis locus, &amp; tale 
+      <lb ed="#P" n="138"/>tempues erit congiuum ei qr Per dsrester: 
+      <!--230.xml-->
+      <pb ed="#P" n="230"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non videdo ista in Deo: sed videndo illud quod erat 
+      <lb ed="#P" n="2"/>reuelatum, quam habitudinem habet &amp; 
+      congrui<lb ed="#P" n="3" break="no"/>tatem ad illud quod prius erat in Deo visum. Et 
+      <lb ed="#P" n="4"/>ad istam formaliter loquendo, pertinent 
+      illumina<lb ed="#P" n="5" break="no"/>tiones licet ad hoc cognitio naturalis possit iuuare, 
+      <lb ed="#P" n="6"/>&amp; etiam visio beata. Non quod visio beata se 
+      ex<lb ed="#P" n="7" break="no"/>tendat ad plura vel pauciora: sed quia de eis quae 
+      <lb ed="#P" n="8"/>aliquis videt in visione beata, potest reuelare 
+      al<lb ed="#P" n="9" break="no"/>teri ea quae videt: &amp; etiam ostendere 
+      congruita<lb ed="#P" n="10" break="no"/>tem eorum ad ea quae videt, &amp; ostendere 
+      congrui<lb ed="#P" n="11" break="no"/>tatem eorum ad ea quae fienda sunt. Ita quod illa 
+      <lb ed="#P" n="12"/>cognitio qua cognoscitur talis congruitas ab 
+      illu<lb ed="#P" n="13" break="no"/>minato: sit alia a visione beata. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e682">
+               <lb ed="#P" n="14"/>Notandum etiam, quod quando dicitur 
+      supe<lb ed="#P" n="15" break="no"/>riores illuminantur, vel aliquid de nouo vident 
+      ac<lb ed="#P" n="16" break="no"/>cipiendo immediate a Deo. Non est 
+      intelligen<lb ed="#P" n="17" break="no"/>dum quasi illud nouum videant in Deo relucere 
+      <lb ed="#P" n="18"/>per ipsam visionem beatam: imo illa accipiunt per 
+      <lb ed="#P" n="19"/>modum cuiusdam doctrinae. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e698">
+               <lb ed="#P" n="20"/>Vnde sciendum quod contingit aliquam 
+      co<lb ed="#P" n="21" break="no"/>gnitionem accipere in Deo dupliciter. Vno modo 
+      <lb ed="#P" n="22"/>quia illud videt in essentia diuina sicut in causa 
+      re<lb ed="#P" n="23" break="no"/>lucere, sicut: qui bene cognosceret naturam 
+      hu<lb ed="#P" n="24" break="no"/>manam: videret in ea sicut in causa, proprierates 
+      <lb ed="#P" n="25"/>humanas, puta risibile, disciplinabile. Et sic de 
+      <lb ed="#P" n="26"/>aliis. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e716">
+               <lb ed="#P" n="27"/>Alio modo, quia illud accipit a Deo quasi a 
+      do<lb ed="#P" n="28" break="no"/>cente: non autem quod videat illud relucerein 
+      es<lb ed="#P" n="29" break="no"/>sentia diuina. Primo modo nullus beatus ncipit 
+      <lb ed="#P" n="30"/>de nouo aliquid videre. Quia de his quae relucent 
+      <lb ed="#P" n="31"/>m essentia diuina, non accipiunt de nouo 
+      cogni<lb ed="#P" n="32" break="no"/>tionem a Deo: imo in primo instanti quicquid 
+      <lb ed="#P" n="33"/>vnquam debeant videre relucere in essentia 
+      diui<lb ed="#P" n="34" break="no"/>na vident. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e736">
+               <lb ed="#P" n="35"/>Sed secundo modo possunt a Deo de nouo 
+      <lb ed="#P" n="36"/>cognitionem accipere. Quia ipse potest eis de 
+      <lb ed="#P" n="37"/>nouo aliqua reuelare quasi docendo: non quidem 
+      <lb ed="#P" n="38"/>quod Deus in se formet nouum conceptum quem 
+      <lb ed="#P" n="39"/>Angelus de nouo videat. Sed quia ipse sine 
+      mu<lb ed="#P" n="40" break="no"/>tatione sui, potest formare aliquem conceptum in 
+      <lb ed="#P" n="41"/>mente Angeli per quem noua cogitatione 
+      Ange<lb ed="#P" n="42" break="no"/>lus aliquid videat: quod prius non videbat. Et ista 
+      <lb ed="#P" n="43"/>cognitio non erit visio beata, nec cognitio 
+      natu<lb ed="#P" n="44" break="no"/>ralis: sed erit quaedam cognitio supernaturalis alia 
+      <lb ed="#P" n="45"/>a visione beata, modo quo dictum est. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e762">
+               <lb ed="#P" n="46"/>His permissis, sciendum est, quod triplex 
+      mo<lb ed="#P" n="47" break="no"/>dus ponitur quo vnus Angelus illuminat alium. 
+      <lb ed="#P" n="48"/>Vnus quod Angelus superior qui habet lumen 
+      <lb ed="#P" n="49"/>excellentius quam inferior, intendat siue faciat 
+      lu<lb ed="#P" n="50" break="no"/>men naturale inferioris magis intensum. Sicut 
+      <lb ed="#P" n="51"/>ignis qui est magis calidus quam aer, facit 
+      calo<lb ed="#P" n="52" break="no"/>rem aeris magis intensum: &amp; sic non est 
+      inconue<lb ed="#P" n="53" break="no"/>niens quod vnus possit illuminare alium: &amp; quo 
+      <lb ed="#P" n="54"/>ad cognitionem naturalem, &amp; quo ad 
+      supernatu<lb ed="#P" n="55" break="no"/>ralem: quae non est visio beata cui potest 
+      deserui<lb ed="#P" n="56" break="no"/>re lumen naturale. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e789">
+               <lb ed="#P" n="57"/>Nec quod hic dicitur quod vnus Angelus 
+      po<lb ed="#P" n="58" break="no"/>test illuminare alium quantum ad cognitionem 
+      <lb ed="#P" n="59"/>naturalem, est contra illud quod supra dictum est, 
+      <lb ed="#P" n="60"/>quod illuminationes Angelorum pertinent ad 
+      il<lb ed="#P" n="61" break="no"/>lam cognitionem mediam: quae est 
+      supernatura<lb ed="#P" n="62" break="no"/>lis. Non tamen est visio beata. Quia illud 
+      di<lb ed="#P" n="63" break="no"/>ctum quo dicitur quod illuminationes 
+      Angelo<lb ed="#P" n="64" break="no"/>rum pertinent ad illam cognitionem 
+      supernatu<lb ed="#P" n="65" break="no"/>ralem, intelligendum est de illa illuminatione quae 
+      <lb ed="#P" n="66"/>fit de mysteriis diuinis implendis per Angelos 
+      <lb ed="#P" n="67"/>pertinentibus ad disponendum homines ad ea 
+      <lb ed="#P" n="68"/>quae sunt salutis: &amp; ad impediendum contraria 
+      <lb ed="#P" n="69"/>quae mysteria diuina non pertinent ad 
+      cognitio<lb ed="#P" n="70" break="no"/>nem naeeenr ettr, 
+      <!--230.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>Contra tamen istum modum potest dupliciter 
+      <lb ed="#P" n="72"/>obiici. Vno modo quia videtur difficile, quod 
+      lu<lb ed="#P" n="73" break="no"/>men naturale intendatur a lumine creato: cum 
+      <lb ed="#P" n="74"/>lumen naturale sit per creationem. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e835">
+               <lb ed="#P" n="75"/>Secundum est. Quia potest videri 
+      quibus<lb ed="#P" n="76" break="no"/>dam quod in duobus Angelis non fit lumen 
+      intel<lb ed="#P" n="77" break="no"/>lectuale eiusdem speciei, sicut nec duo Angeli 
+      <lb ed="#P" n="78"/>sunt eiusdem speciei. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e846">
+               <lb ed="#P" n="79"/>Ad primum, ergo potest dici, quod licet lumen 
+      <lb ed="#P" n="80"/>naturale Angeli sit concreatum Angelo, ita quod 
+      <lb ed="#P" n="81"/>nulla creatura possit illud lumen de nouo conferre: 
+      <lb ed="#P" n="82"/>non tamen videtur impossibile illud lumen iam 
+      <lb ed="#P" n="83"/>factum, intendi ab aliquo lumine creato. Sicut 
+      li<lb ed="#P" n="84" break="no"/>cet quantitas non possit esse sine subiecto nisi sola 
+      <lb ed="#P" n="85"/>virtute diuina, facta tamen quantitate sine 
+      subie<lb ed="#P" n="86" break="no"/>cto, posset virtus creata extendere illam 
+      quantita<lb ed="#P" n="87" break="no"/>tem per raritatem sine subiecto, sicut patet de 
+      spe<lb ed="#P" n="88" break="no"/>ciebus sanguinis quae per calorem possunt 
+      rare<lb ed="#P" n="89" break="no"/>fieri. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e872">
+               <lb ed="#P" n="90"/>Ad secundum, potest dici quod non oponet lumen 
+      <lb ed="#P" n="91"/>diuersorum Angelorum esse diuersum speciei, &amp; 
+      <lb ed="#P" n="92"/>tamen lumen vnius habet maiorem efficaciam 
+      <lb ed="#P" n="93"/>quam lumen alterius propter diuersam 
+      conditio<lb ed="#P" n="94" break="no"/>nem subiecti in quo recipitur: sicut patet de 
+      calo<lb ed="#P" n="95" break="no"/>re in igne &amp; aere, &amp; in aliis possibilibus calefieri. 
+      <lb ed="#P" n="96"/>Vel potest dici quod dato quod lumen eorum 
+      dif<lb ed="#P" n="97" break="no"/>ferat specie in diuersis, non tamen est 
+      inconue<lb ed="#P" n="98" break="no"/>niens vnum intendi per aliud, actione aequiuoca: 
+      <lb ed="#P" n="99"/>sicut calor alicuilus posset intendi virtute luminis 
+      <lb ed="#P" n="100"/>solis, in quibus constat quod principium actiuum 
+      <lb ed="#P" n="101"/>intendens, &amp; forma intensa: non sunt eiusdiem 
+      <lb ed="#P" n="102"/>speciei. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e903">
+               <lb ed="#P" n="103"/>Alius modus quo vnus Angelus potest dici 
+      a<lb ed="#P" n="104" break="no"/>lium illuminare est. Quia scilicet superior 
+      Ange<lb ed="#P" n="105" break="no"/>lus, concurrit cum lumine inferioris Angeli: ad 
+      a<lb ed="#P" n="106" break="no"/>gendum in tertium. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e914">
+               <lb ed="#P" n="107"/>Ad cuius euidentiam, sciendum est quod 
+      ali<lb ed="#P" n="108" break="no"/>quid potest dici iuuare aliud in agendo 
+      duplici<lb ed="#P" n="109" break="no"/>ter. Vno modo ex parte ipsius quod perficit 
+      vir<lb ed="#P" n="110" break="no"/>tutem eius actiuuam: sicut diceretur iuuare 
+      a<lb ed="#P" n="111" break="no"/>quam ad calefaciendum: quod magis calefaceret 
+      <lb ed="#P" n="112"/>eam. Alio modo ex parte effectus. quia scilicet 
+      <lb ed="#P" n="113"/>concurrit cum eo ad eundem effectum, agendo 
+      <lb ed="#P" n="114"/>cum eo in quoddam aliud: ex quo dicitur 
+      perfe<lb ed="#P" n="115" break="no"/>ctius agere. Quia ex coniunctione alterius, potest 
+      <lb ed="#P" n="116"/>in effectum perfectiorem. Sicut si aliquis 
+      calefa<lb ed="#P" n="117" break="no"/>ceret aquam quam non perfecte calefaceret, &amp; 
+      <lb ed="#P" n="118"/>adderetur alius ignis, vel aliquid aliud 
+      calefacti<lb ed="#P" n="119" break="no"/>uum quod cum igne primo calefaceret aquam: 
+      <lb ed="#P" n="120"/>diceretur facere illum ignem perfectius 
+      caleface<lb ed="#P" n="121" break="no"/>re, inquantum ex concursu suo cum illo igne, ille 
+      <lb ed="#P" n="122"/>ignis consequitur perfectiorem effectum. Et sic 
+      <lb ed="#P" n="123"/>posset dici aliquo modo, primum ignem fortificari 
+      <lb ed="#P" n="124"/>in agendo. Ita etiam lumen Angeli inferioris 
+      quan<lb ed="#P" n="125" break="no"/>do per ipsum mouet se ad intelligendum, non 
+      pos<lb ed="#P" n="126" break="no"/>set per species suas vel quaecumque apud se 
+      exi<lb ed="#P" n="127" break="no"/>stentia, ita perfecte mouere se: sicut si concurrat 
+      <lb ed="#P" n="128"/>cum eo Angelus superior, proponendo, &amp; 
+      expli<lb ed="#P" n="129" break="no"/>cando per conceptus suos aliqua intelligibilia: per 
+      <lb ed="#P" n="130"/>quos, superior moueat intellectum possibilem 
+      Ah<lb ed="#P" n="131" break="no"/>geli inferioris. Vocando intellectum possibilem 
+      <lb ed="#P" n="132"/>large, intellectum in quo recipitur actus 
+      intelli<lb ed="#P" n="133" break="no"/>gendi sicut in subiecto. Ita quod dicatur 
+      fortifi<lb ed="#P" n="134" break="no"/>care, superior lumen inferioris, non faciendo 
+      ip<lb ed="#P" n="135" break="no"/>sum magis intensum: sed ex parte effectus 
+      inquan<lb ed="#P" n="136" break="no"/>tum concurrens cum virture illius luminis ad 
+      <lb ed="#P" n="137"/>agendum in intellectum possibilem illius Angeli 
+      <lb ed="#P" n="138"/>inferiore, attingit ad essectum magis perfectum 
+      <lb ed="#P" n="139"/>quam si ille superior non moueret intellectum eius. 
+      <lb ed="#P" n="140"/>Et hoc videtur satis probabile. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e991">
+      <!--231.xml-->
+               <pb ed="#P" n="231"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Sed contra hoc posseraliquis dicere quodtune 
+      <lb ed="#P" n="2"/>vnus moueret alium ad intelligendum. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1004">
+               <lb ed="#P" n="3"/>Ad quod ego dico, quod in talibus quae 
+      perti<lb ed="#P" n="4" break="no"/>nent ad illuminationes Angelorum, non est 
+      incon<lb ed="#P" n="5" break="no"/>ueniens quod illud quod est in vno moueat alium 
+      <lb ed="#P" n="6"/>ad cognoscendum: sicut apud nos qualitas 
+      sensi<lb ed="#P" n="7" break="no"/>bilis mouet sensum. Et hocdicit doctor noster vbi 
+      <lb ed="#P" n="8"/>tractat de locutionibus Angelorum articulo 
+      pri<lb ed="#P" n="9" break="no"/>mo in solutionem cuiusdam argumenti. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1022">
+               <lb ed="#P" n="10"/>Tertius modus est quomodo vnus Angelus 
+      <lb ed="#P" n="11"/>potest dici illuminare alium, est inquantum ei 
+      ali<lb ed="#P" n="12" break="no"/>quod intelligibile explicat &amp; explicatum 
+      propo<lb ed="#P" n="13" break="no"/>nit: quod sic explicatum, Angelus inferior capiti 
+      <lb ed="#P" n="14"/>&amp; in eo sic explicato, aliqua intelligit quae per se 
+      <lb ed="#P" n="15"/>non intelligeret. Et hocdicitur illuminatio. Quia 
+      <lb ed="#P" n="16"/>proponitur quasi obiectum illuminatum, ita quod 
+      <lb ed="#P" n="17"/>illuminatio ista ponitur ex parte obiecti 
+      intelligi<lb ed="#P" n="18" break="no"/>bilis, non ex parte ipsius intelligentis inferioris: 
+      <lb ed="#P" n="19"/>nisi inquantum effectum talis principii sic 
+      expli<lb ed="#P" n="20" break="no"/>cati recipit. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1048">
+               <lb ed="#P" n="21"/>Ad cuius euidentiam, est sciendum quod 
+      sem<lb ed="#P" n="22" break="no"/>per virtus causae dicitur manere in effectu. 
+      Quan<lb ed="#P" n="23" break="no"/>do autem Angelus superior per conceptum suum 
+      <lb ed="#P" n="24"/>explicat aliquam veritatem, hoc facit virtute sui 
+      <lb ed="#P" n="25"/>luminis intellectualis: &amp; ideo in tali veritate 
+      ex<lb ed="#P" n="26" break="no"/>plicata, siue in ipso conceptu quo explicatur, 
+      ma<lb ed="#P" n="27" break="no"/>net virtus luminis explicantis, inquantum sic 
+      ex<lb ed="#P" n="28" break="no"/>plicata, virture luminis dicti magis clare potest 
+      vi<lb ed="#P" n="29" break="no"/>dere: &amp; potest mouere intellectum ad magis 
+      cla<lb ed="#P" n="30" break="no"/>re videndum. Et sic dicetur Angelus superior sic 
+      <lb ed="#P" n="31"/>aliquam veritatem per suum conceptum 
+      expli<lb ed="#P" n="32" break="no"/>cans, &amp; quasi eam illuminans: &amp; reddet habisem 
+      <lb ed="#P" n="33"/>ad mouendum Angelum inferiorem ad claram 
+      <lb ed="#P" n="34"/>cognitionem ex parte obiecti, quasi faciendo obie. 
+      <lb ed="#P" n="35"/>ctum lucide illuminare per tale obiectum, 
+      Ange<lb ed="#P" n="36" break="no"/>luni inferiorem. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1085">
+               <lb ed="#P" n="37"/>Licet autem isti modi videantur mihi posse 
+      su<lb ed="#P" n="38" break="no"/>stineri tanquam inter alios probabiliores. Tamen 
+      <lb ed="#P" n="39"/>quis eorum videatur magia probabilis vel etiam 
+      <lb ed="#P" n="40"/>vtrum aliquis eorum sit possibilis reuidenter &amp; 
+      cla<lb ed="#P" n="41" break="no"/>ro non credo posse constare alicui vin statu viae. 
+      <lb ed="#P" n="42"/>Vnde ista accipio quasi quasdam immaginationes 
+      <lb ed="#P" n="43"/>probabiles. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1103">
+               <lb ed="#P" n="44"/>AD primum ergo in oppositum dicendum, 
+      <lb ed="#P" n="45"/>quod ista illuminatio non est creando 
+      ali<lb ed="#P" n="46" break="no"/>quod lumen, vel etiam intendendo lumen 
+      natu<lb ed="#P" n="47" break="no"/>rale iam creatum. Sed sic fieri intensum forte non 
+      <lb ed="#P" n="48"/>esset impossibile: vt deductum est. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1117">
+               <lb ed="#P" n="49"/>Quantum autem ad augmentum luminis 
+      gra<lb ed="#P" n="50" break="no"/>tiaet &amp; gloriae, videtur quod sit per creationem, 
+      si<lb ed="#P" n="51" break="no"/>cut etiam prima eius acceptio: propter quod tales 
+      <lb ed="#P" n="52"/>formae excedunt statum totius naturae. Vel potest 
+      <lb ed="#P" n="53"/>dici secundum duos modos vltimos. Quod 
+      illu<lb ed="#P" n="54" break="no"/>minatio illa, non est causando, vel intendendo 
+      ali<lb ed="#P" n="55" break="no"/>quod lumen: sed sicut expositum est, coneurrena 
+      <lb ed="#P" n="56"/>do cum lumine ad agendum in tertium, vel 
+      propo<lb ed="#P" n="57" break="no"/>nendo conceptum habentem in se vim luminis ad 
+      <lb ed="#P" n="58"/>cognitionem claram habendam de aliquibus quae 
+      <lb ed="#P" n="59"/>alias non cognoscerentur. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1143">
+               <lb ed="#P" n="60"/>Ad secundum dicendum, quod vnus Angelus 
+      <lb ed="#P" n="61"/>alium illuminat immediate: nec tamen sequitur 
+      <lb ed="#P" n="62"/>quod illabatur. Quia substantia spiritualis non 
+      di<lb ed="#P" n="63" break="no"/>ditur esse in aliquo secundum intranetratem situs, 
+      <lb ed="#P" n="64"/>proprie loquendo: sed sicut causa dicitur esse in 
+      <lb ed="#P" n="65"/>effectu. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1159">
+               <lb ed="#P" n="66"/>Nunc autem ita est quod licet effectus vnius 
+      <lb ed="#P" n="67"/>Angeli, sit in alio sicut accidens in subiecto: 
+      nonta<lb ed="#P" n="68" break="no"/>men ille effectus est de intraneitate essentiae 
+      iAn<lb ed="#P" n="69" break="no"/>geli. Et ideo non est intra terminos essentiae modo 
+      <!--231.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>quo competit creaturae spitituali esse intra 
+      termi<lb ed="#P" n="71" break="no"/>nos essentiae suae. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1179">
+               <lb ed="#P" n="72"/>Et hoc est propriae illabi. Quando dicitur quod 
+      <lb ed="#P" n="73"/>Angelus ibi est, vbi operatur. Dicendum est quod 
+      <lb ed="#P" n="74"/>vetum est quod ibi est, sicut causa in effectui &amp; 
+      in<lb ed="#P" n="75" break="no"/>quantum est causa. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1190">
+               <lb ed="#P" n="76"/>Et quando vlterius deducitur quod si vnus 
+      <lb ed="#P" n="77"/>operatur in alio: erit in illo. Dico quod verum est 
+      <lb ed="#P" n="78"/>praecipue si operatur aliquid pertinens ad 
+      intra<lb ed="#P" n="79" break="no"/>neitatem essentiae: sed si operatur aliquod 
+      acci<lb ed="#P" n="80" break="no"/>dens extrinsecum ab essentia sua non 
+      perdiuersi<lb ed="#P" n="81" break="no"/>tatem subiecti, sed per diuersitatem essentiae, non 
+      <lb ed="#P" n="82"/>dicetur simpliciter esse in eo. Sed dicetur esse in 
+      <lb ed="#P" n="83"/>eo quantum ad aliquem effectum diuersum ad 
+      in<lb ed="#P" n="84" break="no"/>traneitate essentiae. Et sic esse in eo, non facit 
+      il<lb ed="#P" n="85" break="no"/>lapsum. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1214">
+               <lb ed="#P" n="86"/>Sicut etiam licet Angelus dicatur esse per 
+      ef<lb ed="#P" n="87" break="no"/>fectum intra corpus: non tamen illabitur proprit 
+      <lb ed="#P" n="88"/>corpori. Quia terminos essentiae non attingit 
+      cre<lb ed="#P" n="89" break="no"/>ando: nec etiam ipsam quantitatem. Nec etiam 
+      <lb ed="#P" n="90"/>contingit in aliquo sibi esse per essentiam: quia 
+      es<lb ed="#P" n="91" break="no"/>sentia sua non est sibi ratio agendi, 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1231">
+               <lb ed="#P" n="92"/>Ad tertium, patet exdictis. Quia illuminatio 
+      <lb ed="#P" n="93"/>non pertinet ad visionem beatam qua vid entur 
+      <lb ed="#P" n="94"/>res in verbo, sic quod illa de nouo videantur 
+      for<lb ed="#P" n="95" break="no"/>maliter illa visione: licet illa visio possit iuuare ad 
+      <lb ed="#P" n="96"/>illam cognitionem qua talia cognoscuntur. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1244">
+               <lb ed="#P" n="97"/>Nec etiam pertinet ad cognitionem rerum in 
+      <lb ed="#P" n="98"/>proprio genere, accipiendo cognitionemterum in 
+      <lb ed="#P" n="99"/>proprio genere cognitionem naturalem: sed 
+      per<lb ed="#P" n="100" break="no"/>tinet ad illam cognitionem supernaturalem de 
+      <lb ed="#P" n="101"/>qua dictum est: quae large posset dici cognitio 
+      re<lb ed="#P" n="102" break="no"/>rum in proprio genere: per oppositum ad hoc 
+      <lb ed="#P" n="103"/>quod estcognoscere in Deo. Isto enim modo etiam 
+      <lb ed="#P" n="104"/>cognitio Prophetica posser dici cognitio rerum in 
+      <lb ed="#P" n="105"/>proprio genere. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1266">
+               <lb ed="#P" n="106"/>ARTICVLVS SCVNDVS. 
+      <lb ed="#P" n="107"/>Qvantum ad secudum, sciendum est quod 
+      se<lb ed="#P" n="108" break="no"/>cundum omnes: illuminationes sunt de 
+      il<lb ed="#P" n="109" break="no"/>lis quae Deus aliquo tempore se factutum 
+      dispo<lb ed="#P" n="110" break="no"/>suit, fior 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1279">
+               <lb ed="#P" n="111"/>Vnde illuminationes non sunt de natura 
+      re<lb ed="#P" n="112" break="no"/>rum secundum se, vt cuius naturae sit homo, vel bos 
+      <lb ed="#P" n="113"/>vel aliquid tale: sed de his quae Deus disposuit vt 
+      <lb ed="#P" n="114"/>de salute bonorum vel de punitione malorum. 
+      Ra<lb ed="#P" n="115" break="no"/>tionem autem huius quidam assignant. Quia vt 
+      <lb ed="#P" n="116"/>dicunt naturae rerum specificae: &amp; rationes rerum 
+      <lb ed="#P" n="117"/>secundum species specialissimas, non solum quae 
+      <lb ed="#P" n="118"/>sunt vel erunt, sed etiam quae Deo qualitercumque 
+      <lb ed="#P" n="119"/>funt possibiles: Deo viso in sua nuda essentia, 
+      vi<lb ed="#P" n="120" break="no"/>dentur de necessitate. Ita quod Deus non posset 
+      <lb ed="#P" n="121"/>se ostendere in nuda essentia, quando omnia haec 
+      <lb ed="#P" n="122"/>videntur in eo: sed quid ipse sit facturus, non 
+      opor<lb ed="#P" n="123" break="no"/>tet videri ipso viso. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1310">
+               <lb ed="#P" n="124"/>Ratio primi secundum omnes, est duplex 
+      pri<lb ed="#P" n="125" break="no"/>mum quia illud cuius ex proprietate suae naturae 
+      <lb ed="#P" n="126"/>Deus est representatiuus: videtur eo viso Sed Deus 
+      <lb ed="#P" n="127"/>ex proprietate suae naturae est repraesentatiuus 
+      <lb ed="#P" n="128"/>omnium, quantum ad suas rationes specificas: ita 
+      <lb ed="#P" n="129"/>quod Deus ex natura sua repraesentat naturam 
+      <lb ed="#P" n="130"/>equi, vel afini vt non possit aliquid esse Deus, &amp; 
+      <lb ed="#P" n="131"/>non sit repraesentatiuus horum, &amp; omnium 
+      alio<lb ed="#P" n="132" break="no"/>rum. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1332">
+               <lb ed="#P" n="133"/>Secunda ratio talis est. Deo viso in sua 
+      essen<lb ed="#P" n="134" break="no"/>tia nuda, qua ratione videtur vnum cuius est per 
+      <lb ed="#P" n="135"/>se repraeseutatiuum, eadem ratione &amp; alia. Ergo 
+      <lb ed="#P" n="136"/>aut videntur omnia auenullum non nullum eree 
+      <lb ed="#P" n="137"/>emnia. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1346">
+      <!--232.xml-->
+               <pb ed="#P" n="232"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Aliis autem non videtur hoc non 
+      solumneces<lb ed="#P" n="2" break="no"/>sarium, sed nec possibile. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1359">
+               <lb ed="#P" n="3"/>Primo quia quanto aliquis intellectus plura 
+      <lb ed="#P" n="4"/>videt in aliqua causa, tanto perfectius 
+      cognos<lb ed="#P" n="5" break="no"/>cit eam: &amp; econuerso. Et hoc verum videtur 
+      <lb ed="#P" n="6"/>quantum ad illa quorum eognitio directe pertinet 
+      <lb ed="#P" n="7"/>ad perfectionem cognoscentis, qualia sunt illa quae 
+      <lb ed="#P" n="8"/>directe pertinent ad rationes rerum specificas, sed 
+      <lb ed="#P" n="9"/>si intellectus ereatus omnes rationes specificas 
+      om<lb ed="#P" n="10" break="no"/>nium specierum existentes &amp; pessibiles existere 
+      <lb ed="#P" n="11"/>videt in essentia diuina, Deus non plura videret 
+      <lb ed="#P" n="12"/>in essentia sua quam creatura quantum ad 
+      ratio<lb ed="#P" n="13" break="no"/>nes specificas rerum quae directe pertinent ad 
+      per<lb ed="#P" n="14" break="no"/>fectionem cognitionis. Ergo Deus non perfectius 
+      <lb ed="#P" n="15"/>cognosceret se quam intellectus beatus creatus: 
+      <lb ed="#P" n="16"/>hoc autem est inconueniens. Ergo, &amp; e. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1392">
+               <lb ed="#P" n="17"/>Secundo, quia cum aliquo modo quantiras 
+      po<lb ed="#P" n="18" break="no"/>tentiae attendatur poenes obicctum possibile, siue 
+      <lb ed="#P" n="19"/>poenes quantitatem obiecti possibilem qui 
+      cognos<lb ed="#P" n="20" break="no"/>cit totum obiectum in quod potest po: entia, 
+      quo<lb ed="#P" n="21" break="no"/>dammodo comprehendit potent a secuncum 
+      ra<lb ed="#P" n="22" break="no"/>tionem qua est potentia. Sed potentia Dei non 
+      <lb ed="#P" n="23"/>solum quantum ad id quod esse quoddam est: sed 
+      <lb ed="#P" n="24"/>quantum ad rationem qua potentia est, non potest 
+      <lb ed="#P" n="25"/>comprehendi. Ergo nectotum obiectum eius 
+      po<lb ed="#P" n="26" break="no"/>test videri. Sed cbicctum eu per se sunt res 
+      om<lb ed="#P" n="27" break="no"/>nes existentes vel pessibiles praecipue quantum ad 
+      <lb ed="#P" n="28"/>species, quia species attenditur principaliter: 
+      in<lb ed="#P" n="29" break="no"/>diuiduum autem intenditur vt conseruetur 
+      spe<lb ed="#P" n="30" break="no"/>cies. Ergo species rerum possibilet, impossibile est 
+      <lb ed="#P" n="31"/>videre ab intellectu crtato. Vnde videtur aluis 
+      <lb ed="#P" n="32"/>quod nullus intellectus creatus possit vide re 
+      om<lb ed="#P" n="33" break="no"/>nes species creabiles quas Deus potest facere 
+      <lb ed="#P" n="34"/>etiam in Deo nudo viso. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1434">
+               <lb ed="#P" n="35"/>Ratio autem secundi secundum eos est, 
+      <lb ed="#P" n="36"/>quia illa quae ex mera volunrate Dei dependent, 
+      <lb ed="#P" n="37"/>non oportet videre in Deo viso: sicut nullo modo 
+      <lb ed="#P" n="38"/>illa quae ex mera voluntate artificis dependent 
+      ne<lb ed="#P" n="39" break="no"/>cesse est scire scita natura artificis Sed ea quae 
+      <lb ed="#P" n="40"/>Deus facturus est, scilicet quod hoc vel illud sit 
+      <lb ed="#P" n="41"/>futurum: ex mera voluntate Dei dependent. Ergo, 
+      <lb ed="#P" n="42"/>&amp;c, 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1454">
+               <lb ed="#P" n="43"/>Sustinendo hanc secundam viam potest 
+      res<lb ed="#P" n="44" break="no"/>pondert ad primas duacrationes primo ad primam 
+      <lb ed="#P" n="45"/>quod ille quae videt Deum non oportet quod 
+      vi<lb ed="#P" n="46" break="no"/>deat omne illud quod Deus ex naturali iua 
+      pro<lb ed="#P" n="47" break="no"/>prietate repraesentat, nisi Deum conprehendat: 
+      si<lb ed="#P" n="48" break="no"/>cut qui cognoscit lucem non oporter quod illa 
+      <lb ed="#P" n="49"/>sciat quorum lux est causa, &amp; quae nata essent 
+      re<lb ed="#P" n="50" break="no"/>lucere in luce sicut in causa, nisi quantum ad 
+      il<lb ed="#P" n="51" break="no"/>lum qui posset eam comprehendere. Nullus 
+      au<lb ed="#P" n="52" break="no"/>tem intellectus creatus comprehendit Deumr 
+      Er<lb ed="#P" n="53" break="no"/>go, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1480">
+               <lb ed="#P" n="54"/>Ad cuius maiorem euidentiam, est sciendum, 
+      <lb ed="#P" n="55"/>quod aliquid non posse intelligi sine alio 
+      duplici<lb ed="#P" n="56" break="no"/>ter potest esse: vel ex parte medii cognoscendi, 
+      <lb ed="#P" n="57"/>quia scilicet medium ex natura sua ita mouet quod 
+      <lb ed="#P" n="58"/>necesstrio simul mouet ad cogno scendum plura: 
+      <lb ed="#P" n="59"/>quorum vnum non est de ratione alterius: sicut si 
+      <lb ed="#P" n="60"/>ex natura rei sit aliquod medsum mouens de 
+      ne<lb ed="#P" n="61" break="no"/>cessitate ad videndum plures partes parietis 
+      qua<lb ed="#P" n="62" break="no"/>tum vna non est de ratione alterius. Alio modo 
+      <lb ed="#P" n="63"/>contingit vnum non intelligi sine alio ex parte 
+      in<lb ed="#P" n="64" break="no"/>telsigibilis, quia scilicet vnumn est de ratione 
+      alte<lb ed="#P" n="65" break="no"/>rius: sicut non potest inrelligi homo non intellecto 
+      <lb ed="#P" n="66"/>animali. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1512">
+               <lb ed="#P" n="67"/>Neutro tamen istorum modorum videtur 
+      ne<lb ed="#P" n="68" break="no"/>cessarium viso Deo, videre omnes species rerum 
+      <lb ed="#P" n="69"/>relucentes in eo. Non ex parte mediu, cum 
+      me<lb ed="#P" n="70" break="no"/>dium videndi sit essentia diuina quae voluntarie 
+      <!--232.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>se praesentat. Vnde non oportet ex parte medn 
+      <lb ed="#P" n="72"/>Deo viso, videre omnia quae relucent in eo: 
+      dum<lb ed="#P" n="73" break="no"/>modo ex parte rei quae intelligitur, non sit hoc 
+      ne<lb ed="#P" n="74" break="no"/>cesfarium. Nec etiam ex parte intelligibilis, quia 
+      <lb ed="#P" n="75"/>quando aliquid intelligitur secundum aliquam 
+      ra<lb ed="#P" n="76" break="no"/>tionem, non oportet quod intelligatur secundum 
+      <lb ed="#P" n="77"/>aliquid quod in illa ratione non includitur: nune 
+      <lb ed="#P" n="78"/>autem non oportet quod ille qui videt Deum, 
+      vi<lb ed="#P" n="79" break="no"/>deat eum secundum rationem qua relucet in eo 
+      <lb ed="#P" n="80"/>haec creatura vel illa. Quia tales rationes 
+      quo<lb ed="#P" n="81" break="no"/>dammodo conueniunt ei per modum quarumdam 
+      <lb ed="#P" n="82"/>proprietatum superadditarum secundum 
+      ratio<lb ed="#P" n="83" break="no"/>nem intelligendi ad subiectum. Vnde sicut 
+      pro<lb ed="#P" n="84" break="no"/>prietas non est necessario de ratione substantiae 
+      <lb ed="#P" n="85"/>citius est proprietas; ita quod ipsa visa necessario 
+      <lb ed="#P" n="86"/>v deatur proprietas: ita eriam nec sequitur quod 
+      <lb ed="#P" n="87"/>necessarium sit quod Deo viso in ratione talis 
+      de<lb ed="#P" n="88" break="no"/>terminatae substantiae, quod videatur quomodo 
+      <lb ed="#P" n="89"/>alia relucent inspeciali in ea: licet forte non 
+      pos<lb ed="#P" n="90" break="no"/>sit videri quando videatur esse iustus &amp; bonus &amp; 
+      <lb ed="#P" n="91"/>causa aliorum in generali, quia magis videntur 
+      <lb ed="#P" n="92"/>includi in ratione suae substantiae secundum quod 
+      <lb ed="#P" n="93"/>nata est mouere intellectum creatum. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1577">
+               <lb ed="#P" n="94"/>Dicendum ergo, quod licet repraesentare 
+      bo<lb ed="#P" n="95" break="no"/>uem &amp; ouem, &amp; sic de omnibus aliis, conueniat 
+      <lb ed="#P" n="96"/>secundum proprietatem suae naturae: non tamen 
+      <lb ed="#P" n="97"/>ita quod ista implicite includantur in ratione 
+      sub<lb ed="#P" n="98" break="no"/>stantiae per modum eius quod se habet vt plus 
+      ra<lb ed="#P" n="99" break="no"/>tionis substantiae: sed qua si per modum accidentis. 
+      <lb ed="#P" n="100"/>Nec secundum illam rationem qua substantia 
+      di<lb ed="#P" n="101" break="no"/>uina potest mouere intellectum creatum 
+      inclu<lb ed="#P" n="102" break="no"/>duntur illa in eius ratione, quod necessarium sit 
+      il<lb ed="#P" n="103" break="no"/>la videre: ipsa visa. 
+      </p>
+            <p xml:id="hx2hx3-b76640-d1e1601">
+               <lb ed="#P" n="104"/>Ad secundum dicendum, quod non oportet 
+      <lb ed="#P" n="105"/>quod qua ratione videat intellectus beatus vnum 
+      <lb ed="#P" n="106"/>in Deo, ea ratione videat alia. Vel propter hoc 
+      <lb ed="#P" n="107"/>quod intellectus beatus. non est ita natus moueri 
+      <lb ed="#P" n="108"/>ad cognitionem vnius, sicut ad cognitionem 
+      alte<lb ed="#P" n="109" break="no"/>rius: sicut non oportet quod in illo mobili in quo 
+      <lb ed="#P" n="110"/>sol essicit formam vermis, vel aliquid aliud 
+      consi<lb ed="#P" n="111" break="no"/>mile, possit efficere omnia alia quae potest. Vel 
+      <lb ed="#P" n="112"/>propter hoc quod Deus est medium voluntarium. 
+      <lb ed="#P" n="113"/>&amp; potest mouere sicut placet ad vnum siue ad 
+      <lb ed="#P" n="114"/>aliud: vt supraostensum est. Non sic est ex 
+      par<lb ed="#P" n="115" break="no"/>te rei intelligibilis, inconueniens enim est eum 
+      co<lb ed="#P" n="116" break="no"/>gnosersecundum vnam rationem, ignoratam aliam. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="84"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b27476"><!-- l1d14q3 -->
+            <head xml:id="hx2hx3-b27476-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-b27476-Hd1e101" type="question-title">Utrum spiritus sanctus detur in omnibus donis suis</head>
+            <p xml:id="hx2hx3-b27476-d1e104">
+               <lb ed="#P" n="86"/>QVAESTIO TERTIA 
+      <lb ed="#P" n="87"/>TErtio quaeritur vtrum Spiritus sanctus detur 
+      <lb ed="#P" n="88"/>in omnibus donis suis. Et arguitur quod sic; 
+      <lb ed="#P" n="89"/>quia ex quolibet eius dono vel effectu in 
+      creatu<lb ed="#P" n="90" break="no"/>ra consurgit noua relatio rationis in Deo: Sed 
+      se<lb ed="#P" n="91" break="no"/>cundum talem nouam relationem dicitur Spiritus 
+      <lb ed="#P" n="92"/>sanctus dari: Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b27476-d1e122">
+               <lb ed="#P" n="93"/>Respondeo, quidam dicunt quod quia Spiritus 
+      <lb ed="#P" n="94"/>sanctus est amor amicitiae, non perfecte amatur a 
+      <lb ed="#P" n="95"/>Spiritu sancto nisi illud ad quod perfecte habetur 
+      <lb ed="#P" n="96"/>amor sicut ad amicum: sed non habetur amor 
+      a<lb ed="#P" n="97" break="no"/>micitiae ad aliquid nisi reamet, sola autem creatu. 
+      <lb ed="#P" n="98"/>ra rationalis habens gratiam &amp; charitatem 
+      perfe<lb ed="#P" n="99" break="no"/>cte reamat Deum amore aniieitiae: ideo in donis 
+      <lb ed="#P" n="100"/>gratum facientibus, quaetalem amicitiam faciunt 
+      <lb ed="#P" n="101"/>datur Spiritus sanctus. Sed istud parum valet. quia 
+      <lb ed="#P" n="102"/>non est de ratione doni quod sit amicus: &amp; ideo 
+      <lb ed="#P" n="103"/>non oportet &amp; quod Spiritus sanctus non sit 
+      do<lb ed="#P" n="104" break="no"/>num nisi illius cuius sit amicus; ira quod hoc 
+      se<lb ed="#P" n="105" break="no"/>quatur ex hoc quod de ratione doni sit &amp; quod sit 
+      <lb ed="#P" n="106"/>amicus. Et ideo potest aliter dici quod illud 
+      da<lb ed="#P" n="107" break="no"/>tur perfecto modo alicui quod aliquo modo sit 
+      <lb ed="#P" n="108"/>pertecte possessio alicuius: Nihil autem est 
+      perfe<lb ed="#P" n="109" break="no"/>cta possessio alicuius, nisi aliquo modo sua 
+      opera<lb ed="#P" n="110" break="no"/>ratione illud attingat. Vnde illud quod datur 
+      ali<lb ed="#P" n="111" break="no"/>cui vt datum exerceat operationem aliquam circa 
+      <lb ed="#P" n="112"/>illum cui datur, &amp; non e conuerso; non dicitur 
+      <lb ed="#P" n="113"/>libi dari simpliciter, sed cum determinatione, 
+      <lb ed="#P" n="114"/>quia scilicet datur incustodem, vel aliquid taset 
+      <lb ed="#P" n="115"/>nec recipiens habet datum simpliciter; sed 
+      secun<lb ed="#P" n="116" break="no"/>dum quid, &amp; cum determinatione: quia scilicet 
+      <lb ed="#P" n="117"/>habet eum in custodem, vel dominum, vel aliquid 
+      <lb ed="#P" n="118"/>tale. Sola autem creatura rationalis &amp; 
+      intelle<lb ed="#P" n="119" break="no"/>ctualis attingit Deum operatione sua, scilicet 
+      a<lb ed="#P" n="120" break="no"/>mando &amp; cognoscendo, &amp; fructum habendo de 
+      <lb ed="#P" n="121"/>eo: &amp; hoc perfecte facit gratia gratum faciens, 
+      <lb ed="#P" n="122"/>quam qui habet, Deum pertecte vt possessionem 
+      <lb ed="#P" n="123"/>habet, qua libere fruitur &amp; beatificetur, vel in re 
+      <lb ed="#P" n="124"/>vel in spe: habere autem per cognitionem 
+      natu<lb ed="#P" n="125" break="no"/>ralem &amp; amorem est habere imperfecte: ideo in 
+      <lb ed="#P" n="126"/>donis gratiae gratum facientis dicitur simpliciter 
+      <lb ed="#P" n="127"/>dari: in aliis autem licet possit dici dari secundum 
+      <lb ed="#P" n="128"/>quid, non tamen simpliciter inhis datur. 
+      </p>
+            <p xml:id="hx2hx3-b27476-d1e203">
+               <lb ed="#P" n="129"/>Ad rationem dicendum, quod non quilibet 
+      <lb ed="#P" n="130"/>respectus nouus importat Spiritum sanctum 
+      sim<lb ed="#P" n="131" break="no"/>pliciter dari: &amp; hoc patet ex dictis. Vtrum autem 
+      <lb ed="#P" n="132"/>Spiritus sanctus detur a sanctis, quia facile est 
+      prae<lb ed="#P" n="133" break="no"/>termitto.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

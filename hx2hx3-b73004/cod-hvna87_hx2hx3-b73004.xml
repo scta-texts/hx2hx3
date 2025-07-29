@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="218"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b73004"><!-- l2d5q2 -->
+            <head xml:id="hx2hx3-b73004-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b73004-Hd1e101" type="question-title">Utrum angelus bonus beatitudinem suam meruerit</head>
+            <p xml:id="hx2hx3-b73004-d1e104">
+               <lb ed="#P" n="42"/>Distinctio quinta. 
+      <lb ed="#P" n="43"/>QVAESTIO SECVNDA. 
+      <lb ed="#P" n="44"/>SEcundo quaeritur vtrum Angelus bonus 
+      bea<lb ed="#P" n="45" break="no"/>titudinem suam meruerit. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e115">
+               <lb ed="#P" n="46"/>Et arguitur <sic>quon</sic> non. Quia aut meruit eam 
+      <lb ed="#P" n="47"/>in primo instanti suae creationis: aut in secundo. 
+      <lb ed="#P" n="48"/>Non in primo, quia sicut in primo instanti non 
+      po<lb ed="#P" n="49" break="no"/>tuit esse demeritum vt omnes tenent: ita nec 
+      meri<lb ed="#P" n="50" break="no"/>tum. Nec in secundo. Quia tunc fuit beatus, &amp; 
+      <lb ed="#P" n="51"/>meritum non est cum beatitudine: cum meritum 
+      <lb ed="#P" n="52"/>comparetur ad beatitudinem, sicut via ad 
+      termi<lb ed="#P" n="53" break="no"/>num. Ergo nullo modo. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e137">
+               <lb ed="#P" n="54"/>In contrarium est quia sicut homo attingit ad 
+      <lb ed="#P" n="55"/>beatitudinem per meritum ita debet esse in 
+      An<lb ed="#P" n="56" break="no"/>gelo. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e147">
+               <lb ed="#P" n="57"/>Respondeo. In ista quaestione duo sunt 
+      vi<lb ed="#P" n="58" break="no"/>denda. 
+      <lb ed="#P" n="59"/>Primo videndum quod Angelus meruerit suam 
+      <lb ed="#P" n="60"/>beatitudinem. 
+      <lb ed="#P" n="61"/>Secundo videndum est quando primum 
+      mer<lb ed="#P" n="62" break="no"/>uit. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e163">
+               <lb ed="#P" n="63"/>Primum potest faciliter ostendi sic. Quia illa quae 
+      <lb ed="#P" n="64"/>nata sunt cooperari ad assecutionem sui finis, con¬ 
+      <!--218.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>ueniens est perducere ad finem mediante sua 
+      ope<lb ed="#P" n="66" break="no"/>ratione. Sed omnis creatura siue rationalis, siue 
+      ir<lb ed="#P" n="67" break="no"/>rationalis nata est cooperari ad assecutionem suifinis 
+      <lb ed="#P" n="68"/>vltimi: qui est beatitudo. Ergo talem creaturam 
+      <lb ed="#P" n="69"/>conueniens est perducere ad beatitudinem 
+      me<lb ed="#P" n="70" break="no"/>diante sua operatione. Sed Angelus non potest 
+      <lb ed="#P" n="71"/>perduci ad beatitudinem mediante sua 
+      operatio<lb ed="#P" n="72" break="no"/>ne, nisi per modum meriti. Non enim beatitudo 
+      <lb ed="#P" n="73"/>est eis naturalis, sicut Deo. Nec etiam beatitudo 
+      <lb ed="#P" n="74"/>est aliquid, quod Angelus possit assequi per suam 
+      <lb ed="#P" n="75"/>operationem quasi per eius operationem 
+      constitu<lb ed="#P" n="76" break="no"/>tam: sicut homo potest assequi scientiam vel 
+      do<lb ed="#P" n="77" break="no"/>minum per suam operationem. Sed oportet quod 
+      <lb ed="#P" n="78"/>si per operationem suam assequatur beatitudinem, 
+      <lb ed="#P" n="79"/>quod hoc sit seruiendo &amp; obsequendo alii scilicet 
+      <lb ed="#P" n="80"/>Deo: ex cuius dono beatitudinem expectet: hoc 
+      <lb ed="#P" n="81"/>autem est mereri, ex seruitio impenso alicui, 
+      expe<lb ed="#P" n="82" break="no"/>ctare aliquod donum ab eo. Et ideo conueniens 
+      <lb ed="#P" n="83"/>est ponere quod Angelus suam beatitudinem 
+      me<lb ed="#P" n="84" break="no"/>ruerit. Et sic patet de primo. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e218">
+               <lb ed="#P" n="85"/>Quantum ad secundum, sciendum quodde 2 
+      <lb ed="#P" n="86"/>hoc est triplex opinio. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e225">
+               <lb ed="#P" n="87"/>Quaedam dicit quod Angelus in eodem 
+      in<lb ed="#P" n="88" break="no"/>stanti meruitbeatitudinem: &amp; simul fuit beatus. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e232">
+               <lb ed="#P" n="89"/>Quidam dicunt, quod in primo instanti 
+      me<lb ed="#P" n="90" break="no"/>ruit beatitudinem: &amp; in secundo beatus fuit. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e239">
+               <lb ed="#P" n="91"/>Alii vero dicunt quod in primo instanti nec 
+      <lb ed="#P" n="92"/>meruerunt, nec demeruerunt, in secundo 
+      qui<lb ed="#P" n="93" break="no"/>dam meruerunt &amp; quidam demeruerunt: &amp; in 
+      <lb ed="#P" n="94"/>tertio illi qui meruerunt fuerunt beati. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e251">
+               <lb ed="#P" n="95"/>Ratio primae opinionis est. Quia cum creatio, 
+      <lb ed="#P" n="96"/>meritum, &amp; beatitudo, sint operationes &amp; 
+      actio<lb ed="#P" n="97" break="no"/>nes instantaneae, plures autem operariones 
+      insta<lb ed="#P" n="98" break="no"/>ntaneaeper ordinem se habentes possunt esse simul 
+      <lb ed="#P" n="99"/>sicut illum inatio lunae a sole, &amp; illuminatio aeris a 
+      <lb ed="#P" n="100"/>luna. Ideo in eodem instanti potuit esse creatio 
+      <lb ed="#P" n="101"/>Angeli, &amp; eius meritum &amp; beatitudo. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e269">
+               <lb ed="#P" n="102"/>Sed hoc non videtur bene dictum. Quia 
+      sta<lb ed="#P" n="103" break="no"/>tus gratiae perfecte, &amp; status gratiae imperfecte, 
+      <lb ed="#P" n="104"/>non possunt esse simul. Quia impossibile est 
+      ei<lb ed="#P" n="105" break="no"/>dem simul inesse gratiam perfectam, &amp; gratiam 
+      <lb ed="#P" n="106"/>imperfectam. Sed status meriti, est status gratiae 
+      <lb ed="#P" n="107"/>imperfecta: prout potest esse in viatore. Quia 
+      <lb ed="#P" n="108"/>meritum habet informari gratia, non 
+      quacum<lb ed="#P" n="109" break="no"/>que: sed imperfecta secundum statum qui est 
+      sta<lb ed="#P" n="110" break="no"/>tus imperfectus respectu patriae. Status autem 
+      <lb ed="#P" n="111"/>beatitudinis est status gratiae perfecte &amp; 
+      consuma<lb ed="#P" n="112" break="no"/>tae: quae vlterius de potentia ordinata crescere 
+      <lb ed="#P" n="113"/>non potest. Ergo impossibile videtur quod 
+      si<lb ed="#P" n="114" break="no"/>mul sit meritum &amp; praemium. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e300">
+               <lb ed="#P" n="115"/>Ratio autem eorum non cogit. Quia 
+      opera<lb ed="#P" n="116" break="no"/>tiones instantanaee in diuersis subiectis, vel etiam 
+      <lb ed="#P" n="117"/>in eodem quando non habent oppositionem: 
+      pos<lb ed="#P" n="118" break="no"/>sunt esse simul. Sed operationes instantanaee que 
+      <lb ed="#P" n="119"/>habent oppositione simul non possunt esse in 
+      eo<lb ed="#P" n="120" break="no"/>dem: alioquin omnes operationes Angelicae 
+      quan<lb ed="#P" n="121" break="no"/>tum saltem ad operationes manentos possunt esse 
+      <lb ed="#P" n="122"/>simul. Meritum autem &amp; beatitudo habent 
+      op<lb ed="#P" n="123" break="no"/>positionem vt dictum est, secundum statum 
+      gra<lb ed="#P" n="124" break="no"/>tiae perfecte &amp; imperfecte. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e324">
+               <lb ed="#P" n="125"/>Ratio alterius oppinionis est. Quia licet in 
+      <lb ed="#P" n="126"/>primo instanti non possit esse demeritum: potest 
+      <lb ed="#P" n="127"/>tamen in primo instanti esse meritum. Quia in 
+      <lb ed="#P" n="128"/>primo instanti creationis, Angeli non habebant 
+      <lb ed="#P" n="129"/>aliquem actum quem non haberent a Deo: quia 
+      <lb ed="#P" n="130"/>agens dans esse rei, dat ei omne illud quod in 
+      pri<lb ed="#P" n="131" break="no"/>mo instanti sui esse habet. Vnde &amp; omnia talia 
+      <lb ed="#P" n="132"/>dicuntur inesse rei, siue a creante, si fiat per 
+      crea<lb ed="#P" n="133" break="no"/>tionem, siue a generante si fiat per generationem. 
+      <lb ed="#P" n="134"/>Sed impossibile est quod a Deo sit demeritum, &amp; 
+      <!--219.xml-->
+      <pb ed="#P" n="219"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>impossibile fuit quod Angelus peccatet siue 
+      de<lb ed="#P" n="2" break="no"/>meretur in primo instanti suae creationis. In 
+      Ange<lb ed="#P" n="3" break="no"/>lis autem, statim post meritum sequitur premium: 
+      <lb ed="#P" n="4"/>&amp; ideo dicunt, quod in primo instanti meruerunt, 
+      <lb ed="#P" n="5"/>&amp; in secundo fuerunt beati. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e366">
+               <lb ed="#P" n="6"/>Sed tunc est difficultas. Quia cum nullus 
+      merea<lb ed="#P" n="7" break="no"/>tur per actum qui est ei ab alio, sed per actum cuius 
+      <lb ed="#P" n="8"/>ipse est causa. Si actus quem habuit Angelus in 
+      <lb ed="#P" n="9"/>instunti suae creationis erat a Deo creante: 
+      sequi<lb ed="#P" n="10" break="no"/>tur quod mon meruit per illum actum: quia non fuit 
+      <lb ed="#P" n="11"/>in potestate sua talis actus. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e382">
+               <lb ed="#P" n="12"/>Et ad hoc, supposito quod actus quo Angelus 
+      <lb ed="#P" n="13"/>intelligit se, &amp; ea quae sunt in ipso, vt sunt 
+      quae<lb ed="#P" n="14" break="no"/>dam proprietates eius, sit a Deo: &amp; quod cum isto 
+      <lb ed="#P" n="15"/>stant alii actus secundum quos mouet se ad 
+      intelli<lb ed="#P" n="16" break="no"/>gendum &amp; volendum hoc vel illud. Posset dici 
+      <lb ed="#P" n="17"/>quod in primo instanti, habuit vnum actum cuius 
+      <lb ed="#P" n="18"/>ipse non erat causa, scilicet primum actum 
+      intelli<lb ed="#P" n="19" break="no"/>gendi, &amp; dilectionem naturalem sui, &amp; simul 
+      in<lb ed="#P" n="20" break="no"/>eodem instanti: hoc supposito, potuit habere 
+      a<lb ed="#P" n="21" break="no"/>lium actum cuius ipse fuit causa: &amp; sic potuit 
+      me<lb ed="#P" n="22" break="no"/>reri in primo instanti. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e409">
+               <lb ed="#P" n="23"/>Sed adhuc videtur esse difficile si tunc habuerit 
+      <lb ed="#P" n="24"/>actum cuius ipse esset Dominus: quare non potuit 
+      <lb ed="#P" n="25"/>demereri sicut mereri. Et ad hoc forte posset dici, 
+      <lb ed="#P" n="26"/>quod omnem actum quem Angelus habuit in 
+      pri<lb ed="#P" n="27" break="no"/>mo instanti, oportuit esse a Deo immediate, vel 
+      <lb ed="#P" n="28"/>mediate. Quia Deus est causa eius cuius 
+      Ange<lb ed="#P" n="29" break="no"/>lus est causa: &amp; quia demeritum non potest esse a 
+      <lb ed="#P" n="30"/>Deo sicut merituma Ideo non est simile. Hoc 
+      au<lb ed="#P" n="31" break="no"/>tem &amp; si sit valde probabile: tamen durante statu 
+      <lb ed="#P" n="32"/>viae, &amp; ante confirmationem liberi arbitrii in 
+      bo<lb ed="#P" n="33" break="no"/>num: videtur mihi difficile quod libero arbitrio 
+      <lb ed="#P" n="34"/>non confirmato in illo instanti in quo potest 
+      mere<lb ed="#P" n="35" break="no"/>ri, quod absolute nullo modo potest demereri: 
+      ta<lb ed="#P" n="36" break="no"/>men nihil do hoc definio. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e442">
+               <lb ed="#P" n="37"/>Responsio tertiae opinionis est: quia Angelus in 
+      <lb ed="#P" n="38"/>primo instanti non habuit dominium sui actus: 
+      <lb ed="#P" n="39"/>quia in illo instanti non habuit actum cuius 
+      ipsees<lb ed="#P" n="40" break="no"/>set causa: sed totum quicquid habebat, ita 
+      habe<lb ed="#P" n="41" break="no"/>bat a creante, quod non a se. Nullus autem 
+      deme<lb ed="#P" n="42" break="no"/>retur, vel meretur non habens dominium sui 
+      a<lb ed="#P" n="43" break="no"/>ctus. Et ideo in primo instanti nec meruit, nec 
+      de<lb ed="#P" n="44" break="no"/>meruit. Sicut etiam homo in volendo bonum in 
+      <lb ed="#P" n="45"/>quod inclinatur natura sua, nec meretur, nec 
+      de<lb ed="#P" n="46" break="no"/>meretur. In secundo autem instanti potuit habere 
+      <lb ed="#P" n="47"/>dominium sui actus, &amp; ideo potuit mereri: &amp; 
+      <lb ed="#P" n="48"/>quidam tunc meruerunt, &amp; quidam demeruerunt. 
+      <lb ed="#P" n="49"/>Et in tertio instantiilli qui meruerunt, fuerunt 
+      bea<lb ed="#P" n="50" break="no"/>ti effecti: &amp; illi qui demeruerunt, damnati. Et ista 
+      <lb ed="#P" n="51"/>videtur planior. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e477">
+               <lb ed="#P" n="52"/>Quarta autem opinio quam ponit Magister, non 
+      <lb ed="#P" n="53"/>videtur posse stare, quod scilicet post suam 
+      glorifi<lb ed="#P" n="54" break="no"/>cationem, beatitudinem merueruntper seruitia 
+      no<lb ed="#P" n="55" break="no"/>bis impensa. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e488">
+               <lb ed="#P" n="56"/>Ad cuius euidentiam, sciendum quod mereri, est 
+      <lb ed="#P" n="57"/>facere debitum propter illud quod non est adhuc 
+      <lb ed="#P" n="58"/>suum, nec per donum alterius, nec aliter. Vnde si 
+      <lb ed="#P" n="59"/>quis daret equum alicui simpliciter, &amp; ille postea 
+      <lb ed="#P" n="60"/>seruiret sibi, non essetproprie meritum, sed 
+      recom<lb ed="#P" n="61" break="no"/>pensatio euiusdam gratitudinis. Sed si diceret, do 
+      <lb ed="#P" n="62"/>tibi istum equum tali pacto quod seruias mihi, &amp; 
+      <lb ed="#P" n="63"/>aliter non: ille cui sic daretur equus, non haberet 
+      <lb ed="#P" n="64"/>dominium in equo, nec equus esset simpliciter eius 
+      <lb ed="#P" n="65"/>nistimpenso seruitio. Nullus autem sit beatus, nisi 
+      <lb ed="#P" n="66"/>cui simpliciter datur beatitudo. Et ideo si qua 
+      ser<lb ed="#P" n="67" break="no"/>uitia exhibent beati Deo, non est meritum 
+      pro<lb ed="#P" n="68" break="no"/>prie, sed est quaedam beatitudo, vel pars 
+      beatitu<lb ed="#P" n="69" break="no"/>dinis, vocando beatitudinem totum illud quod 
+      <lb ed="#P" n="70"/>pertinet ad beatitudiuem ipsius beati. quia ad bea 
+      <!--219.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>titudinem Angelorum pertinet quod prosit &amp; 
+      ser<lb ed="#P" n="72" break="no"/>uiat nobis. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e532">
+               <lb ed="#P" n="73"/>Ad rationem dici potest secundum 
+      primamo<lb ed="#P" n="74" break="no"/>pinionem quam simpliciter non credit veram, &amp; 
+      <lb ed="#P" n="75"/>etiam secundum quam videtur magis probabilis. 
+      <lb ed="#P" n="76"/>Quia in primo instanti meruerunt Angeli suam 
+      <lb ed="#P" n="77"/>beatitudinem. Et quando dicitur, quod tunc non 
+      <lb ed="#P" n="78"/>habuerunt dominium sui actus. Posset dici, quod 
+      <lb ed="#P" n="79"/>imo cum actu naturali, cuius non erat causa, 
+      pote<lb ed="#P" n="80" break="no"/>rant simul habere alium cuius erat causa. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e552">
+               <lb ed="#P" n="81"/>Nec sequitur secundum secundam opinionem, 
+      <lb ed="#P" n="82"/>quod etiam potuerunt demereri: quia non est 
+      simi<lb ed="#P" n="83" break="no"/>lis ratio de merito, &amp; demerito. 
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e562">
+               <lb ed="#P" n="84"/>Secundum autem tertiam esset dicendum, 
+      <lb ed="#P" n="85"/>quod in primo instanti, nec meruerunt, nec 
+      <lb ed="#P" n="86"/>etiam demeruerunt, sed in secundo. Et quando 
+      <lb ed="#P" n="87"/>dicitur, quod tunc fuerunt beati, potest dici quod 
+      <lb ed="#P" n="88"/>non: nec oportet in hoc tenere opinionem 
+      Ma<lb ed="#P" n="89" break="no"/>gistri.
+      </p>
+            <p xml:id="hx2hx3-b73004-d1e578">
+               <lb ed="#P" n="90"/>Praeterea sciri oportet quantum sicut de 
+      ma<lb ed="#P" n="91" break="no"/>ioribus, &amp; minoribur quidam perstiterunti 
+      <lb ed="#P" n="92"/>ita de vtroque gradu quidam corruerunt: 
+      <lb ed="#P" n="93"/>inter quos vnus fuit omnibur aliis 
+      caden<lb ed="#P" n="94" break="no"/>tibus excellentior: nec inter stanter aliqui, 
+      <lb ed="#P" n="95"/>eo fuit dignior: sicut testimontis auctori. 
+      <lb ed="#P" n="96"/>tatum monstratur, &amp;c. Item in Exechiele 
+      <lb ed="#P" n="97"/>legitur: Omnis lapir pretio sus 
+      operimen<lb ed="#P" n="98" break="no"/>tum eius, id est, omnis Angelus quaesi operi. 
+      <lb ed="#P" n="99"/>mentum eius crat. Quia, vt dicit Qreg. 
+      cae<lb ed="#P" n="100" break="no"/>teris clarior fuit. Vnde vocatus Lucifer, 
+      <lb ed="#P" n="101"/>scut restatur Isaiai: Qugmodo, iquit, 
+      <lb ed="#P" n="102"/>de crelo cecidisti Lucifer, &amp;c. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

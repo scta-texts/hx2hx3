@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="271"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b91861"><!-- l2d30q1 -->
+            <head xml:id="hx2hx3-b91861-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b91861-Hd1e101" type="question-title">Utrum aliquod peccatum traducatur per originem a parente in prolem</head>
+            <p xml:id="hx2hx3-b91861-d1e104">
+               <lb ed="#P" n="113"/>In superioribus insinuatam es, sicet ex 
+      par<lb ed="#P" n="114" break="no"/>te: non enim perfecte suffcimus 
+      <lb ed="#P" n="115"/>exponere, &amp;c.
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e113">
+               <lb ed="#P" n="116"/>Distinctio <sic>uigessma tertia</sic>. 
+      <lb ed="#P" n="117"/>QVAESTIO PRIMA. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e122">
+               <lb ed="#P" n="118"/>SVper <scic>vigesimam tertiam</scic> distinctionem. 
+      Quae<lb ed="#P" n="119" break="no"/>ritur vtrum aliquod peccatum, traducatur per 
+      <lb ed="#P" n="120"/>originem, a parente in prolem 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e134">
+               <lb ed="#P" n="121"/>Et arguitur quod non. Quia nulli imputatur 
+      <lb ed="#P" n="122"/>in pecatum: quod non potest vitare. Sed illud 
+      <lb ed="#P" n="123"/>quod quis trahit per originem: non potest 
+      vitare<lb ed="#P" n="124" break="no"/>Ergo nec quod quis contrahit per priginem, est 
+      <lb ed="#P" n="125"/>peccatum. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e147">
+               <lb ed="#P" n="126"/>Praeterea, nullum accidens traducitur non 
+      tra<lb ed="#P" n="127" break="no"/>ducto subiecto. Sed substantia peccati originalis 
+      <lb ed="#P" n="128"/>quod est anima, non traducitur. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e156">
+               <lb ed="#P" n="129"/>Si dicatur quod licet anima non traducatur: 
+      <lb ed="#P" n="130"/>natura tamen humana cuius est pars traducitur. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e163">
+               <lb ed="#P" n="131"/>Contra. Quia traductio naturae humanae 
+      ni<lb ed="#P" n="132" break="no"/>hil facit ad aliquam traductionem peccati, nisi 
+      <lb ed="#P" n="133"/>natura humana traducatur quantum ad partem 
+      <lb ed="#P" n="134"/>illam quae est substantiam peccati originalis. Sed 
+      <lb ed="#P" n="135"/>quantum ad partem illam natura humana, vt 
+      di<lb ed="#P" n="136" break="no"/>dum est non traducitur: quiatunc traduceretur 
+      <!--272.xml-->
+      <pb ed="#P" n="272"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>anima. Ergo adhuc stat quod peccatum 
+      origina<lb ed="#P" n="2" break="no"/>le non traducatur per traductionem naturae 
+      huma<lb ed="#P" n="3" break="no"/>nae. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e192">
+               <lb ed="#P" n="4"/>Praeterea, vnumquodque magis potest 
+      trans<lb ed="#P" n="5" break="no"/>fundere illud quod habet a se, quam illud quod 
+      <lb ed="#P" n="6"/>ub alio. Sed parentes propinqui non 
+      transfun<lb ed="#P" n="7" break="no"/>dunt peocata propria quae habent a seipsis in filios. 
+      <lb ed="#P" n="8"/>Ergo multo minus possunt transfundere peccatum 
+      <lb ed="#P" n="9"/>quod contractum est a primo parente. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e208">
+               <lb ed="#P" n="10"/>Praeterea, anima non contrahit infectionem 
+      <lb ed="#P" n="11"/>peccati originalis, nisi ex vnione ad carnem: sed 
+      <lb ed="#P" n="12"/>ex hoc, non potest peccatum contrahere: cum 
+      cor<lb ed="#P" n="13" break="no"/>pus non possit inficere speciem. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e220">
+               <lb ed="#P" n="14"/>Praeterea si ex tali vnione contraheret anima 
+      <lb ed="#P" n="15"/>peccatum originale, sequeretur quod anima vnita 
+      <lb ed="#P" n="16"/>corpori non posset carere peccato originali: quod 
+      <lb ed="#P" n="17"/>est inconueniens. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e231">
+               <lb ed="#P" n="18"/>Praeterea, filius non habet a parte, nisi 
+      tan<lb ed="#P" n="19" break="no"/>tum materiam primam. Sed prima materia, non 
+      <lb ed="#P" n="20"/>potest esse causa peccati originalis. Ergo filius non 
+      <lb ed="#P" n="21"/>contrahit a parte peccatum originale. Maior est 
+      <lb ed="#P" n="22"/>manifesta. Minor probatur. Quia secundum eos 
+      <lb ed="#P" n="23"/>qui non ponunt nisi vnam formnam subantialem 
+      <lb ed="#P" n="24"/>in eodem, in infusione animae fit resolutio vsque 
+      <lb ed="#P" n="25"/>ad pomam materiam. Sed nihil habet filius a 
+      pa<lb ed="#P" n="26" break="no"/>rre nisi quod manet cum anima. Ergo filius non 
+      <lb ed="#P" n="27"/>habet a patre nisi solam materiam primam. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e255">
+               <lb ed="#P" n="28"/>In contrarium est veritas &amp; auctoritas fidei. 
+      <lb ed="#P" n="29"/>Respondeo. Hic videnda sunt quinque per 
+      <lb ed="#P" n="30"/>ordinem. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e264">
+               <lb ed="#P" n="31"/>primo ostendendum est quod oportet esse 
+      ali<lb ed="#P" n="32" break="no"/>quod peccatum traductum &amp; per orignem. 
+      <lb ed="#P" n="33"/>Secundo ostendere quid sit. 
+      <lb ed="#P" n="34"/>Tertio ostendere quando tradueatur. 
+      <lb ed="#P" n="35"/>Quarto quomodo habeat rationem poenae siuc 
+      <lb ed="#P" n="36"/>culpae. 
+      <lb ed="#P" n="37"/>Quinto in quos habet traduci, &amp; in quos nont 
+      <lb ed="#P" n="38"/>&amp; quaedam alia ostendentur quae solent quaeri de 
+      <lb ed="#P" n="39"/>ista materia, 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e286">
+               <lb ed="#P" n="40"/>ARTICVLVS PRIMVS. 
+      <lb ed="#P" n="41"/>Qvantum ad primum, sciendumquod doctores 
+      <lb ed="#P" n="42"/>probant quod oportet ponere aliquod 
+      pec<lb ed="#P" n="43" break="no"/>catum inductum, &amp; auctoritete nouae legis: &amp; 
+      au<lb ed="#P" n="44" break="no"/>ctoritate Genes. &amp; persuadent ratione. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e299">
+               <lb ed="#P" n="45"/>Auctoritate nouae legis sic. Quia ad Rom. 
+      di<lb ed="#P" n="46" break="no"/>cit quod per vnum hominem intrauit peccatum 
+      <lb ed="#P" n="47"/>in mundum, &amp; per peccatum mors. Ex quo, 
+      ma<lb ed="#P" n="48" break="no"/>nifeste apparet quod peccatum ab Adam transit 
+      <lb ed="#P" n="49"/>in omnes qui moriuntur. Sed constat quod 
+      pec<lb ed="#P" n="50" break="no"/>ratum ab Adam nun transit in omnes qui 
+      moriun<lb ed="#P" n="51" break="no"/>aur per imitationem, fiue habeant peccatum 
+      com<lb ed="#P" n="52" break="no"/>missum actu proprio: siue non. Quia multi 
+      mo<lb ed="#P" n="53" break="no"/>riuntur anteqpam habeant vsum discretionis. 
+      Er<lb ed="#P" n="54" break="no"/>go debet hoc intelligi de peccato aliquo 
+      transdu<lb ed="#P" n="55" break="no"/>cto per generationem. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e326">
+               <lb ed="#P" n="56"/>Auctoritate Genes. hoc probatur sic. Quia ibi 
+      <lb ed="#P" n="57"/>dicitur, quocumque die comederis ex eo morte 
+      mo<lb ed="#P" n="58" break="no"/>rieris, tunc ergo aut hoc intelligitur deractu mortis: 
+      <lb ed="#P" n="59"/>nut de necessitate moriendi. Non potest intelligi 
+      <lb ed="#P" n="60"/>de actu mortis. Quia statim, vt comedit non fuit 
+      <lb ed="#P" n="61"/>mortuus. Ergo intelligitur de necessitate 
+      morien<lb ed="#P" n="62" break="no"/>di. Ergo necessitas moriendi est poena peccati 
+      pri<lb ed="#P" n="63" break="no"/>mi hominis. Sed poena non transit, nisi aliquo 
+      <lb ed="#P" n="64"/>modo transeat peccatum. Ergo in omnes in quos 
+      <lb ed="#P" n="65"/>transit necessitas moriendi, transit peccatum 
+      pri<lb ed="#P" n="66" break="no"/>mi hominis. Sed hoc non potest esse, nisi 
+      accipia<lb ed="#P" n="67" break="no"/>tur de peccato transeunte per originem. Quia 
+      an<lb ed="#P" n="68" break="no"/>te omne peccatum actuale in est homini neces¬ 
+      <!--272.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>sitas moriendi. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e363">
+               <lb ed="#P" n="70"/>Ratio etiam idem persuadet. quia verisimile 
+      <lb ed="#P" n="71"/>est quod Deus statuerit hominem in tali statu in 
+      <lb ed="#P" n="72"/>quo non solum haberet perfectiones que de 
+      neces<lb ed="#P" n="73" break="no"/>sitate consequuntur ex principsis naturae, sed 
+      <lb ed="#P" n="74"/>etiam ea quae animae natura exigit vt conueniens 
+      <lb ed="#P" n="75"/>ad bonum suum perfecte habendum. Sed ad 
+      ha<lb ed="#P" n="76" break="no"/>bendum perfecte bonum suum, natura animae 
+      exi<lb ed="#P" n="77" break="no"/>git imortalitatem corporis: cum ipsa sit 
+      naturali<lb ed="#P" n="78" break="no"/>ter immortalis. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e385">
+               <lb ed="#P" n="79"/>Exigit etiam plenam subiectionem virium 
+      in<lb ed="#P" n="80" break="no"/>feriorum ad rationem, in cuius actu perfecto 
+      con<lb ed="#P" n="81" break="no"/>sistit principale bonum hominis. Ergo probabile, 
+      <lb ed="#P" n="82"/>&amp; conueniens fuit, quod Deus hominem sic 
+      fece<lb ed="#P" n="83" break="no"/>rit quod perpetuo posset manere in vita: &amp; quod 
+      <lb ed="#P" n="84"/>haberet plenam subiectionem virium inferiorum, 
+      <lb ed="#P" n="85"/>respectu superiorum: licet talie de necessitate ex 
+      <lb ed="#P" n="86"/>principiis naturae humanae non necessario 
+      sequan<lb ed="#P" n="87" break="no"/>tur. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e407">
+               <lb ed="#P" n="88"/>ARTICVLVS SECVNDVS. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e412">
+               <lb ed="#P" n="89"/>Qvantum ad secundum, sciendum quod 
+      <lb ed="#P" n="90"/>quidam dicunt peccatum originale esse 
+      <lb ed="#P" n="91"/>quandam morbidam dispositionem, quasi 
+      quan<lb ed="#P" n="92" break="no"/>dam qualiratem corporalem morbidam sicut est 
+      <lb ed="#P" n="93"/>lepra, vel aliquid tale. Et dicunt quod Adam 
+      in<lb ed="#P" n="94" break="no"/>fecit suam naturam tali morbida dispositione: &amp; 
+      <lb ed="#P" n="95"/>ideo oam transfudit in posteros. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e430">
+               <lb ed="#P" n="96"/>Hoc autem est impossibile propter tria.
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e436">
+               <lb ed="#P" n="97"/>Primo, quia sequeretur quod peccatum 
+      ori<lb ed="#P" n="98" break="no"/>ginale non esset in anima sicut in subiecto. cum 
+      ta<lb ed="#P" n="99" break="no"/>tum ponatur, vel in sola essensia animae sicut in 
+      <lb ed="#P" n="100"/>subiecto, vel: saltem in voluntate. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e447">
+               <lb ed="#P" n="101"/>Secundo quia illa qualitas positiua, aut 
+      causa<lb ed="#P" n="102" break="no"/>tur a Deo supernaturaliter, aut a principiis naturae 
+      <lb ed="#P" n="103"/>humanae, aut a peccato primi hominis. Non a Deo. 
+      <lb ed="#P" n="104"/>Qui peccati non est causa. Nec a principii 
+      natu<lb ed="#P" n="105" break="no"/>rae ita quod ex principiis naturae per se, &amp; 
+      necessa<lb ed="#P" n="106" break="no"/>rio causetur. Quia illud quod sequitur per se, &amp; 
+      <lb ed="#P" n="107"/>de necessitare naturam humanam non potest 
+      es<lb ed="#P" n="108" break="no"/>se peccatum. Nec etiam peccatum primi 
+      homi<lb ed="#P" n="109" break="no"/>nis. Quia in quolibet peccato est aliquid 
+      positi<lb ed="#P" n="110" break="no"/>uum, &amp; aliquid priuatiuum: &amp; illud quod in 
+      pec<lb ed="#P" n="111" break="no"/>cato est positiuum, est a Deo. Nec illud quod 
+      <lb ed="#P" n="112"/>causatur a tali positiuo, est vel potest esse. 
+      Pecca<lb ed="#P" n="113" break="no"/>tum: sicut puer qui causatur per actum 
+      fornica<lb ed="#P" n="114" break="no"/>rium, quantum ad illud quod est positiuum in eo; 
+      <lb ed="#P" n="115"/>non est peccatum. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e482">
+               <lb ed="#P" n="116"/>Peccatum autem primi hominis si ponatur 
+      <lb ed="#P" n="117"/>causatalis qualitatis positiuae. Qportet quod sit 
+      <lb ed="#P" n="118"/>causa eius secundum illud quod est pofitiuum in 
+      <lb ed="#P" n="119"/>illo peccato, &amp; non secundum illud quod est 
+      pri<lb ed="#P" n="120" break="no"/>uaaiuum: in quo consistat formalis ratio peccati. 
+      <lb ed="#P" n="121"/>Quia cum illa qualitas si: quid positiuum, 
+      opor<lb ed="#P" n="122" break="no"/>tet quod habeat causam positiuam. Ergo 
+      impos<lb ed="#P" n="123" break="no"/>sibile est ponere quod formaliter loquendo, 
+      pec<lb ed="#P" n="124" break="no"/>catum priginale sit quaedam talis qualitas 
+      positi<lb ed="#P" n="125" break="no"/>ua. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e506">
+               <lb ed="#P" n="126"/>Tertio quia si aliqua mala dispositio deberet esse 
+      <lb ed="#P" n="127"/>peccatum originale, hoc esset inclinatio inordinata 
+      <lb ed="#P" n="128"/>appetitus sensitiui qua natus est moueripraeter 
+      im<lb ed="#P" n="129" break="no"/>perium rationis. Sed hoc non potest esse formaliter, 
+      <lb ed="#P" n="130"/>&amp; primo peccatum originale. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e519">
+               <lb ed="#P" n="131"/>Maior patet. Quia nullus ponit aliam 
+      dispo<lb ed="#P" n="132" break="no"/>sitionem esse peccatum originalo: nisi illam 
+      ma<lb ed="#P" n="133" break="no"/>lam concupiscentiam. Minorem probo, scilicet 
+      <lb ed="#P" n="134"/>quod dicta concupiscentia non sit peccatum 
+      origi<lb ed="#P" n="135" break="no"/>nale, nisi praesupposito alio quodsit formaliter 
+      pec<lb ed="#P" n="136" break="no"/>catum originale. Quia illud quod per se 
+      consequi<lb ed="#P" n="137" break="no"/>tur naturam humanam in puris naturalibus con¬ 
+      <!--273.xml-->
+      <pb ed="#P" n="273"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>stitutam, non potest peccatum esse. Etista patet, 
+      <lb ed="#P" n="2"/>quia auctor naturae humanae est causa omnium 
+      il<lb ed="#P" n="3" break="no"/>lorum quae consequuntur per se naturam 
+      huma<lb ed="#P" n="4" break="no"/>nam, in puris naturalibus constitutam Sed 
+      habi<lb ed="#P" n="5" break="no"/>tualis inclinatio tendendi in delectabile sensus, 
+      <lb ed="#P" n="6"/>inest naturae humanae in puris naturalibus 
+      consti<lb ed="#P" n="7" break="no"/>tutae: quod patet ex hoc, quia ad illud quod inest 
+      <lb ed="#P" n="8"/>alicui ex puris naturalibus, non requiritur donum 
+      <lb ed="#P" n="9"/>supernaturale. Sed ad hoc quodvires inferiores ad 
+      <lb ed="#P" n="10"/>plenum sine quacunque rebellione essent subdite 
+      ra<lb ed="#P" n="11" break="no"/>tioni, erat necessarium donum supernaturale: 
+      sei<lb ed="#P" n="12" break="no"/>licet iustitia originalis. quia ad asiud non 
+      requi<lb ed="#P" n="13" break="no"/>rebatur. Ergo totalis subiectio virium inferiorum 
+      <lb ed="#P" n="14"/>ad rationem, ita quod nullum motum habeant 
+      <lb ed="#P" n="15"/>praeter imperium rationis: non inest homini ex 
+      <lb ed="#P" n="16"/>puris naturalibus. Ex quo apparet minor, scilicet 
+      <lb ed="#P" n="17"/>quod inclinatio habitualis appetitus sensitiui in 
+      <lb ed="#P" n="18"/>obiectum suum praeter imperium rationis, inest 
+      <lb ed="#P" n="19"/>homini in puris naturalibus constituto: &amp; per 
+      con<lb ed="#P" n="20" break="no"/>sequens sequitur quod talis secundum se &amp; 
+      abso<lb ed="#P" n="21" break="no"/>lute accepta non sit formaliter peccatum aliquod, sed 
+      <lb ed="#P" n="22"/>est defectus naturalis. Sed actualis 
+      concupiscen<lb ed="#P" n="23" break="no"/>tia quando est contra rationem, &amp; non refrenatur 
+      <lb ed="#P" n="24"/>a ratione, est peccatum actuale. Et ideo non 
+      vide<lb ed="#P" n="25" break="no"/>tur illa positio vera quae ponit peccatum 
+      origina<lb ed="#P" n="26" break="no"/>le: formaliter esse talem qualitatem positiuam. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e600">
+               <lb ed="#P" n="27"/>Et ideo est alia opinio quae ponit quod 
+      pecca<lb ed="#P" n="28" break="no"/>tum originale, est furmaliter loquendo priuatio 
+      iusti<lb ed="#P" n="29" break="no"/>tiae originalis debitae inesse, &amp; indignitas habendi. 
+      <lb ed="#P" n="30"/>Sed inordinata inclinatio appetitus 
+      sensitiuima<lb ed="#P" n="31" break="no"/>terialiter, dicitur esse peccatum originale. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e614">
+               <lb ed="#P" n="32"/>Ad cuius euidentiam, sciendum quod Adam 
+      <lb ed="#P" n="33"/>acceperat a Deo iustitiam originalem pro se, &amp; 
+      <lb ed="#P" n="34"/>tota posteritate sua: ita quod sicut alia quae 
+      con<lb ed="#P" n="35" break="no"/>sequuntur totam speciem humanam illam 
+      trans<lb ed="#P" n="36" break="no"/>fudisset in posteros, siue dispositiue attingendo 
+      <lb ed="#P" n="37"/>ad eam: siue aliter, &amp; ipse cum tota posteritate 
+      <lb ed="#P" n="38"/>sua, erat obligatus ad habendum eam. quae 
+      qui<lb ed="#P" n="39" break="no"/>dem iustitia originalis, regulabat ita appetitum 
+      <lb ed="#P" n="40"/>sensitiuum quod nullus motus natus erat 
+      insurge<lb ed="#P" n="41" break="no"/>re praeter imperium rationis. Et ideo ex conse 
+      <lb ed="#P" n="42"/>quenti inerat Adae, &amp; posteritati suae, obligatio 
+      <lb ed="#P" n="43"/>&amp; debitum habendi talem ordinationem, &amp; 
+      tran<lb ed="#P" n="44" break="no"/>quillitatem appetitus sensitiui: nec stante 
+      subie<lb ed="#P" n="45" break="no"/>ctione rationis ad Deum, poterat perdi ista 
+      iusti<lb ed="#P" n="46" break="no"/>tia originalis: nec regulatio praedicta appetitus 
+      <lb ed="#P" n="47"/>sensitiui. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e651">
+               <lb ed="#P" n="48"/>Adam autem peccando fecit se indipnum cum 
+      <lb ed="#P" n="49"/>tota posteritate sua habere praedictam iustitiam 
+      <lb ed="#P" n="50"/>originalem; ita quod in tota posteritate sua 
+      in<lb ed="#P" n="51" break="no"/>quantum descendit ab eo remansit debitum 
+      ha<lb ed="#P" n="52" break="no"/>bendi, &amp; indignitatem habendi. Quia indigna 
+      <lb ed="#P" n="53"/>fuit habero. Et secundum istos si Deus faceret 
+      ho<lb ed="#P" n="54" break="no"/>minem de lapide, &amp; dimitteret eum in puris 
+      na<lb ed="#P" n="55" break="no"/>turalibus non esset ad nutum motus appetitus 
+      sen<lb ed="#P" n="56" break="no"/>sitiui, subiectus imperio rationis: nec hoc esset 
+      <lb ed="#P" n="57"/>culpa, nec pena. Sed defectus quidam naturalis, 
+      <lb ed="#P" n="58"/>sicut defectus naturalis esset si talis moreretur, 
+      <lb ed="#P" n="59"/>in tali non esset debitum habendi talem 
+      subie<lb ed="#P" n="60" break="no"/>ctionem. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e682">
+               <lb ed="#P" n="61"/>Et haec positio videtur mihi rationabilior. quia 
+      <lb ed="#P" n="62"/>omne peccatum formaliter consistit in carentia 
+      <lb ed="#P" n="63"/>alicuis debi: tilicet super hoc aliquid addat, vt 
+      ostem<lb ed="#P" n="64" break="no"/>detur post Sed debitum habendi plenam 
+      subie<lb ed="#P" n="65" break="no"/>ctionem appetitus sensitiui sub ratione;ita quod 
+      <lb ed="#P" n="66"/>nihil possit insurgere praeter imperium rationis 
+      <lb ed="#P" n="67"/>non inest alicui: nisi illi cui inest debitum 
+      haben<lb ed="#P" n="68" break="no"/>di illud regulatiuum, quod hanc subiectionem 
+      <lb ed="#P" n="69"/>habet facere: &amp; hoc patet ex dictis. Illud autem 
+      <lb ed="#P" n="70"/>regulatiuum non est aliud quam iustitia origina¬ 
+      <!--273.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>lis. Ergo carentia subiectionis in appetitu sens 
+      <lb ed="#P" n="72"/>tiuo respectu rationis, non est carentia debiti in 
+      <lb ed="#P" n="73"/>esse, nisi praesupposito debito habendi iustitiam 
+      <lb ed="#P" n="74"/>originalem. Et ideo vlterius sequitur quod 
+      prin<lb ed="#P" n="75" break="no"/>cipale &amp; formale in peccato originali, est 
+      caren<lb ed="#P" n="76" break="no"/>tia iustitiae originalis cum debito habendi: &amp; cum 
+      <lb ed="#P" n="77"/>indignitate habendi, modo quo erpositum est. 
+      <lb ed="#P" n="78"/>Sed consequenter &amp; materialiter participar 
+      ratio<lb ed="#P" n="79" break="no"/>nem peccati originalis mnordinatio in illis viribus 
+      <lb ed="#P" n="80"/>scilicet inferioribus, quae debebant per iustiuam 
+      <lb ed="#P" n="81"/>priginalem regulari: &amp; ex hoc quod debebant per 
+      <lb ed="#P" n="82"/>tam regulari. Et haec sufficiant de secundo. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e737">
+               <lb ed="#P" n="83"/>ARTICVLVS TERTIVS.
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e742">
+               <lb ed="#P" n="84"/>Qvantum autem ad tertium sciendum quod 
+      <lb ed="#P" n="85"/>corpora animata quorum generauio est per 
+      <lb ed="#P" n="86"/>semen aliquod, non producunt sibi similia 
+      imme<lb ed="#P" n="87" break="no"/>diate: sicut ignis generat ignem. Sed immediate 
+      <lb ed="#P" n="88"/>imprimunt virtutem suam semini, quod postea 
+      <lb ed="#P" n="89"/>per virtutem impressam a principali agente, quod 
+      <lb ed="#P" n="90"/>est ipsum viuens: agit ad productionem viul 
+      fimi<lb ed="#P" n="91" break="no"/>lis illi a quo semen habuit virturem, 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e762">
+               <lb ed="#P" n="92"/>Et quia virtus principalis agentis transit cum 
+      <lb ed="#P" n="93"/>semine: ideo dicitur illud quod fit sicut ab allquo 
+      <lb ed="#P" n="94"/>viuente mediante semine traduci. Et ideo dicitur 
+      <lb ed="#P" n="95"/>omne illud esse per traductionem, cuus causa est 
+      <lb ed="#P" n="96"/>semen in generatione autem humana semen viri 
+      <lb ed="#P" n="97"/>agit dispositiue ad vnionem anim ae cum corpore. 
+      <lb ed="#P" n="98"/>Quia non est imaginandum quod semen vin 
+      <lb ed="#P" n="99"/>transeat in materiam foetus: imo finaliter 
+      conuen<lb ed="#P" n="100" break="no"/>titur in Spiritus qui diffunduntur per neruos. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e785">
+               <lb ed="#P" n="101"/>Vnde est imaginandum quod semen est causa 
+      <lb ed="#P" n="102"/>dispositionum quae simul introducuntur eum 
+      ani<lb ed="#P" n="103" break="no"/>ma, &amp; manent cum ea: imo simul dum Deus 
+      in<lb ed="#P" n="104" break="no"/>fundit animam semen causat dispositiones ad eam 
+      <lb ed="#P" n="105"/>quae cum eo manent: ita quod praecedentibus 
+      cor<lb ed="#P" n="106" break="no"/>ruptis, semen causat sequenter. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e801">
+               <lb ed="#P" n="107"/>Et quia anima ex hoc contrahit debitum 
+      ha<lb ed="#P" n="108" break="no"/>bendi originalem iustitiam, quia vnitur carni 
+      tra<lb ed="#P" n="109" break="no"/>ductae ab Adam mediate vel immediare: &amp; ex hoc 
+      <lb ed="#P" n="110"/>fit indigna habere. Ideo semen quod est causa 
+      ta<lb ed="#P" n="111" break="no"/>lis vnionis, modo praedicto est causa habendi tale 
+      <lb ed="#P" n="112"/>debitum, &amp; talem indignitatem. quia carentia 
+      <lb ed="#P" n="113"/>iustitiae originalis non habet rationem peccati, 
+      ni<lb ed="#P" n="114" break="no"/>si propter illa duo annera scilicerdebitum habedi, 
+      <lb ed="#P" n="115"/>&amp; quod fit natura indigna habere: quia aliter non 
+      <lb ed="#P" n="116"/>caruisset: ideo dicitur semen esse causam percati 
+      <lb ed="#P" n="117"/>originalis. Et quia omne illud quod a semine 
+      cau<lb ed="#P" n="118" break="no"/>satur inquantum huius est per traductionem: ideo 
+      <lb ed="#P" n="119"/>isto modo dicitur peccatum originale traduci. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e832">
+               <lb ed="#P" n="120"/>ARTICVLVSQVARTVS. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e837">
+               <lb ed="#P" n="121"/>Qvantum ad quartum scilicet quomodo 
+      ha<lb ed="#P" n="122" break="no"/>beat rationem peccati. Seiendum quod ista 
+      <lb ed="#P" n="123"/>se habent per ordinem, carentia absolute dicta, 
+      <lb ed="#P" n="124"/>malum &amp; culpa. Nam carentia absolute dicta 
+      <lb ed="#P" n="125"/>potest esse sine malo, &amp; non econuerso. Nam in 
+      <lb ed="#P" n="126"/>lapide est carentia vitae: nec tamen propter hoc est 
+      <lb ed="#P" n="127"/>res mala. Vnde carentia absolute dicta, importat 
+      <lb ed="#P" n="128"/>negationem alicuius perfectionis. Sed malum 
+      <lb ed="#P" n="129"/>vltra hoc addit, quod illa perfectio sit debita 
+      habe<lb ed="#P" n="130" break="no"/>ri, vel vt finis, vel in ordine ad finem: sicut 
+      dici<lb ed="#P" n="131" break="no"/>mus securim malam, quando caret acumine per 
+      <lb ed="#P" n="132"/>quod scindat. Sed culpa addit super hoc, quod 
+      <lb ed="#P" n="133"/>illud malum sit imputabile ex hoc quod est ab 
+      ali<lb ed="#P" n="134" break="no"/>quo in cuius potestate fuit tale malum vitare, qua 
+      <lb ed="#P" n="135"/>scilicet habuit dominium sui actus. Et ex hot est 
+      <lb ed="#P" n="136"/>imputabiles 
+    </p>
+            <p xml:id="hx2hx3-b91861-d1e874">
+      <!--274.xml-->
+               <pb ed="#P" n="274"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>vlterius sciendum quod non solum defectus 
+      <lb ed="#P" n="2"/>qui est in actu elicito habet rationem imputabilis: 
+      <lb ed="#P" n="3"/>sed etiam defectus, vel actus impuratus, siue 
+      con<lb ed="#P" n="4" break="no"/>sequens ex actu voluntatis interiori. Sicut si 
+      ali<lb ed="#P" n="5" break="no"/>quis moueat gladium ad percutiendum indebite, 
+      <lb ed="#P" n="6"/>motus gladij est malus &amp; imputabilis: &amp; gladius 
+      <lb ed="#P" n="7"/>redditur detestabilis ex hoc quod fuit 
+      instrumen<lb ed="#P" n="8" break="no"/>tum &amp; subiectum talis motus. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e900">
+               <lb ed="#P" n="9"/>Nunc ergo applicando ista ad peceatum 
+      ori<lb ed="#P" n="10" break="no"/>ginale, planum est ex dictis, quod carentia 
+      iusti<lb ed="#P" n="11" break="no"/>tiae originalis est carentia alicuius debiti hiberi in 
+      <lb ed="#P" n="12"/>ordine ad hunc finem: qui est totaliter subiicere 
+      vi<lb ed="#P" n="13" break="no"/>tes inferiores superioribus. Talis etiam defectus 
+      <lb ed="#P" n="14"/>est voluntarius voluntate Adae &amp; imputabilis: 
+      <lb ed="#P" n="15"/>quia in potestate Adae transmittentis istum 
+      defe<lb ed="#P" n="16" break="no"/>ctum fuit transmittere, vel non transmittere. Et 
+      <lb ed="#P" n="17"/>ideo sicut motus inordinatus causatur in gladio, 
+      <lb ed="#P" n="18"/>vel alio instrumento ab ipsa voluntate, est motus 
+      <lb ed="#P" n="19"/>malus imputabilis: ita iste defectus sic descendens 
+      <lb ed="#P" n="20"/>ab Adam in posteros est malis imputabile. Ita 
+      <lb ed="#P" n="21"/>quod habet imputabilitatem ab Adam in cuius 
+      <lb ed="#P" n="22"/>potestate hoc fuit, &amp; ei est imputandum: sicut 
+      il<lb ed="#P" n="23" break="no"/>le qui prohibere potuit. Sed paruulo dicitur 
+      im<lb ed="#P" n="24" break="no"/>putari, nonsicut illi qui debebat reprehendi, quia 
+      <lb ed="#P" n="25"/>non vitauit: sed sicut subiecto defectus 
+      imputabi<lb ed="#P" n="26" break="no"/>lis. Quia ex hoc redditur detestabilis: sicur 
+      gla<lb ed="#P" n="27" break="no"/>dius redditur detestabilis, ex hoc quod fuit 
+      subie<lb ed="#P" n="28" break="no"/>ctum talis motus. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e947">
+               <lb ed="#P" n="29"/>Nec refert vtrum Adam sit vel non sit. Vel 
+      <lb ed="#P" n="30"/>vtrum iste defectus veniat ab A lam in prolem 
+      <lb ed="#P" n="31"/>immediart: vel per multa media. Quia si ego 
+      <lb ed="#P" n="32"/>modo facerem aliquam motionem ex qua se 
+      que<lb ed="#P" n="33" break="no"/>rentur mille millia motionum inordinatarum vna 
+      <lb ed="#P" n="34"/>post aliam: &amp; durarent vsque ad mille millia 
+      anno<lb ed="#P" n="35" break="no"/>rum, omnes essent malae imputabiles. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e965">
+               <lb ed="#P" n="36"/>ARTICVLVS QVINTVS.
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e970">
+               <lb ed="#P" n="37"/>QVantum ad quintum in quos transeat 
+      pec<lb ed="#P" n="38" break="no"/>catum, &amp; in quos, non: &amp; quantum ad alia 
+      <lb ed="#P" n="39"/>quae circa hoc solet quaeri, propono quatuor 
+      con<lb ed="#P" n="40" break="no"/>clusiones. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e981">
+               <lb ed="#P" n="41"/>Prima est quod peccatum originale descendit 
+      <lb ed="#P" n="42"/>in omnes qui descendunt ab Adam secundum 
+      ra<lb ed="#P" n="43" break="no"/>tionem seminalem. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e990">
+               <lb ed="#P" n="44"/>Secunda est quod peccatum originale non 
+      <lb ed="#P" n="45"/>transit in aliquem, qui non descendit ab Adam 
+      se<lb ed="#P" n="46" break="no"/>cundum rationem seminalem. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e999">
+               <lb ed="#P" n="47"/>Tertia est, si Eua peccasset, &amp; Adam non pec. 
+      <lb ed="#P" n="48"/>casset v non transisset peccatum originale in 
+      po<lb ed="#P" n="49" break="no"/>steros. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1009">
+               <lb ed="#P" n="50"/>Quarta est, quod nullum peccatum aliorum 
+      <lb ed="#P" n="51"/>parentum ab Adam, nec aliquod peccatum Adae 
+      <lb ed="#P" n="52"/>nisi primum a transit in posteros. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1018">
+               <lb ed="#P" n="53"/>Ad euidentiam primae rationis, sciendum 
+      <lb ed="#P" n="54"/>quod ille dicitur descendere ab Adam secundum 
+      <lb ed="#P" n="55"/>rationem seminalem qui producitur a virtute 
+      sc<lb ed="#P" n="56" break="no"/>minis descendentis ab Adam mediate vel 
+      imme<lb ed="#P" n="57" break="no"/>diate, cuius sem inis virtute (modo quo expositum 
+      <lb ed="#P" n="58"/>est) vnitur anima materiae scilicet dispositiue. 
+      Il<lb ed="#P" n="59" break="no"/>le autem dicitur descendere ab Adam secundum 
+      <lb ed="#P" n="60"/>corpulentam substantiam, qui habet materiam a 
+      <lb ed="#P" n="61"/>virture digestiua mulieris praeparatam: ita quod 
+      <lb ed="#P" n="62"/>ad organizationem illius imateriae &amp; ad vnionem 
+      <lb ed="#P" n="63"/>animae nihil agit effectiue aliquod semen 
+      descen<lb ed="#P" n="64" break="no"/>dens ab Adam. Et sic Christus descendit ab 
+      <lb ed="#P" n="65"/>Adam. Quia virtus digestiua beatae virginis quae 
+      <lb ed="#P" n="66"/>descendit ab Adam, illum sanguinem purissimum 
+      <lb ed="#P" n="67"/>digessit &amp; praeparauit: de quo postea corpus Christi 
+      <lb ed="#P" n="68"/>virtute Spiritus sancti, &amp; non virtute alicuius fe¬ 
+      <!--274.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>minis formatum est. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1062">
+               <lb ed="#P" n="70"/>Descendere ergo secundum rationem 
+      semi<lb ed="#P" n="71" break="no"/>nalem ab Adam: est produci a virtuteseminis 
+      des<lb ed="#P" n="72" break="no"/>cendentis ab Adam mediate vel immediate. Et 
+      <lb ed="#P" n="73"/>hoc (vt dictum est supra) facit habere debitum 
+      <lb ed="#P" n="74"/>habendi iustitiam originalem, &amp; indignitatem 
+      <lb ed="#P" n="75"/>habendi: &amp; quod homo sit indignus habere. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1078">
+               <lb ed="#P" n="76"/>Ex hoc arguitur sic, quicumque descendit ab 
+      <lb ed="#P" n="77"/>Adam secundum rationem seminalem habet 
+      ca<lb ed="#P" n="78" break="no"/>rentiam iustitiae originalis quam debet habere, &amp; 
+      <lb ed="#P" n="79"/>quam indignus est habere: &amp; hoc patet ex dictis. 
+      <lb ed="#P" n="80"/>Sed ista carentia cum imputabilitate praedicta, 
+      <lb ed="#P" n="81"/>quae semper concomitatur descendentes ab 
+      <lb ed="#P" n="82"/>Alam secundum rationem seminalem: constituit 
+      <lb ed="#P" n="83"/>formaliter rationem peccati originalis. Ergo 
+      om<lb ed="#P" n="84" break="no"/>nes descendentes ab Adam secundum rationem 
+      se<lb ed="#P" n="85" break="no"/>minalem incurrunt necessatio peccatum originale¬ 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1102">
+               <lb ed="#P" n="86"/>Secundam conclusionem probo sic. Quia 
+      nul<lb ed="#P" n="87" break="no"/>lus incurrit peccatum originale nisi cui inest 
+      debi<lb ed="#P" n="88" break="no"/>tum habendi iustitiam originalem. Sed nulli inest 
+      <lb ed="#P" n="89"/>debitum habendi iustitium originalem, nisi illis 
+      <lb ed="#P" n="90"/>qui descendunt ab Adam secundum rationem 
+      se<lb ed="#P" n="91" break="no"/>minalem. Ergo, &amp;c. Maior patet. Minor 
+      pro<lb ed="#P" n="92" break="no"/>batur, quia debitum habendi iustitiam 
+      origina<lb ed="#P" n="93" break="no"/>lem, inest solum illis quibus nata erat transfundi 
+      <lb ed="#P" n="94"/>iustitia originalis ab Adam. Quia transfundere 
+      <lb ed="#P" n="95"/>iustitiam originalem, sicut nec alia quae 
+      conse<lb ed="#P" n="96" break="no"/>quuntur speciem, siue a r atura, siue ex dono Dei: 
+      <lb ed="#P" n="97"/>sibi non conuentebat nisi inquantum agebat 
+      effe<lb ed="#P" n="98" break="no"/>ctiue per virtuten seminis ad introductionem 
+      <lb ed="#P" n="99"/>firmae specificae. Ergo nulli inest debitum 
+      ha<lb ed="#P" n="100" break="no"/>bendi iustitiam originalem: nisi solum illis qui 
+      des<lb ed="#P" n="101" break="no"/>cendunt ab Adam secundum rationem 
+      semina<lb ed="#P" n="102" break="no"/>lem, 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1141">
+               <lb ed="#P" n="103"/>Vnde sicut lapidi prout mouetur ab: aliquo 
+      <lb ed="#P" n="104"/>non habente rationem, non inest debitum non 
+      ca<lb ed="#P" n="105" break="no"/>dendi super caput innocentis: sed bene inest sibi 
+      <lb ed="#P" n="106"/>tale debitum prout mouetur ab aliquo habente 
+      <lb ed="#P" n="107"/>vsum rationis. Ita etiam debitum habendi 
+      iusti<lb ed="#P" n="108" break="no"/>tiam originalem, &amp; ordinationem quam fecisset 
+      <lb ed="#P" n="109"/>in habenre: non inest nisi illis qui producuntur 
+      <lb ed="#P" n="110"/>ab Adam qui hanc potuit transfundere. Et propter 
+      <lb ed="#P" n="111"/>hoc si fieretvirtute diuina homo de lapide non 
+      ha<lb ed="#P" n="112" break="no"/>beret hoc debitum, nisi haberet peccatum 
+      origi<lb ed="#P" n="113" break="no"/>nale: nec etiam generatus a tali. Et ita patet quod 
+      <lb ed="#P" n="114"/>peccatum originale non transit in aliquem qui 
+      <lb ed="#P" n="115"/>non descendit ab Adam secundum rationem se 
+      <lb ed="#P" n="116"/>minalem. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1175">
+               <lb ed="#P" n="117"/>Tertiam conclusionem probo sic. Quia 
+      trans<lb ed="#P" n="118" break="no"/>fundere originalem iustitiam non pertinet ad 
+      per<lb ed="#P" n="119" break="no"/>sonam quae solum habet ministrare materiam: sed 
+      <lb ed="#P" n="120"/>ad illum cuius est inducere formam, &amp; qui habet 
+      <lb ed="#P" n="121"/>agere ad productionem hominis. Sed ad 
+      mulie<lb ed="#P" n="122" break="no"/>rem non pertinet nisi ministrare materiam: ad 
+      se<lb ed="#P" n="123" break="no"/>men autem viri pertinet mouere materiam 
+      mini<lb ed="#P" n="124" break="no"/>stratam ad formam. Ergo transfundere iustitiam 
+      <lb ed="#P" n="125"/>originalem ad solum virum pertinebat. Sed 
+      ma<lb ed="#P" n="126" break="no"/>nente perfecta virtute illius ad quem pertinebat 
+      <lb ed="#P" n="127"/>transfundere iustitiam originalem: fuisset 
+      iusti<lb ed="#P" n="128" break="no"/>tia originalis transfusa. Ergo si Adam non 
+      peccas<lb ed="#P" n="129" break="no"/>set quantumcumque mulier peccasset, Adam 
+      <lb ed="#P" n="130"/>tranffudisset iustitiam originalem: &amp; per conse 
+      <lb ed="#P" n="131"/>quens non transfudisset peccatum originale. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1210">
+               <lb ed="#P" n="132"/>Nec potest dici quod praefuisset 
+      impedimen<lb ed="#P" n="133" break="no"/>tum ex in dispositione materiae ministratae a 
+      mulie<lb ed="#P" n="134" break="no"/>re. Quia ex iustitia originali nulla dispositio inerat 
+      <lb ed="#P" n="135"/>menstruo mulieris, quae requireretur ad 
+      generatio<lb ed="#P" n="136" break="no"/>nem prolis. Et hoc si necesse sit, alias diffusius 
+      <lb ed="#P" n="137"/>ostendetur. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1226">
+               <lb ed="#P" n="138"/>Quartam conclusionem probo sic. quia si pec¬ 
+      <!--275.xml-->
+      <pb ed="#P" n="275"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cata alia a primo peccato primi hominis 
+      tran<lb ed="#P" n="2" break="no"/>seunt in posteros: aut hoc est quia illud 
+      pecca<lb ed="#P" n="3" break="no"/>tum quod fuit in parente: transit in prolem. Et 
+      <lb ed="#P" n="4"/>hoc non potest esse, quia actus non migrant a 
+      sub<lb ed="#P" n="5" break="no"/>iecto in subiectum. Vnde etiam nec isto modo 
+      <lb ed="#P" n="6"/>transit peccatum primi hominis in posteros. Aut 
+      <lb ed="#P" n="7"/>dicunt peccata alia transire: quia sunt causa 
+      alicu<lb ed="#P" n="8" break="no"/>ius mali actus per imitationem. Et hoc non esset 
+      <lb ed="#P" n="9"/>peccatum originale: sed actuale. Aut dicunt 
+      <lb ed="#P" n="10"/>transire, quia tollunt aliquem habitum 
+      regulati<lb ed="#P" n="11" break="no"/>uum hominis ad bene operandum; qui sit natus 
+      <lb ed="#P" n="12"/>transfundi cum natura. Et respectu cuius sit 
+      debi<lb ed="#P" n="13" break="no"/>tum habendi in natura. Et similiter hoc non 
+      po<lb ed="#P" n="14" break="no"/>test esse: quia nunquam fuit aliquis talis habitus 
+      <lb ed="#P" n="15"/>in natura humana, nisi iustitia originalis. Quia 
+      gra<lb ed="#P" n="16" break="no"/>tia &amp; habitus virtutum acquisiti, vel infusi: omnia 
+      <lb ed="#P" n="17"/>sunt personalia, &amp; non nata transfundi cum 
+      na<lb ed="#P" n="18" break="no"/>tura. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1276">
+               <lb ed="#P" n="19"/>Solum ergo illud peccatum potest transire in 
+      <lb ed="#P" n="20"/>posteros per transmissionem alicuius defectus 
+      <lb ed="#P" n="21"/>eius quod debeat inesse: quod Adae abstulit 
+      iusti<lb ed="#P" n="22" break="no"/>tiam originalem. Sed solis primum peccatum eam 
+      <lb ed="#P" n="23"/>potuit auferre: quia statim fuit ablata cum primo 
+      <lb ed="#P" n="24"/>peccato. Ergo nullum aliud peccatum, siue Adae, 
+      <lb ed="#P" n="25"/>siue aliorum potest transire per originem in 
+      poste<lb ed="#P" n="26" break="no"/>ros: nisi primum peccatum Adae. Ita tamen quod 
+      <lb ed="#P" n="27"/>primum peccatum Adae, quod fuit quoddam 
+      pec<lb ed="#P" n="28" break="no"/>catum actuale, dicitur transire in posteros 
+      virtua<lb ed="#P" n="29" break="no"/>liter: inquantum abstulit iustitiam. Sed peccatum 
+      <lb ed="#P" n="30"/>originale Adae quod est causa etiam iustitiae 
+      debi<lb ed="#P" n="31" break="no"/>tae inesse transit a parente in prolem: sicut effectus 
+      <lb ed="#P" n="32"/>agentis dicitur transire ab agente in passo. Et sic 
+      <lb ed="#P" n="33"/>patent quae proponebantur. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1311">
+               <lb ed="#P" n="34"/>Ad primum ergo dicendum quod dictum 
+      pec<lb ed="#P" n="35" break="no"/>catum originale non imputatur paruulo sicut illi 
+      <lb ed="#P" n="36"/>a quo habet imputabilitatem: vel sicut illi qui 
+      de<lb ed="#P" n="37" break="no"/>bebat reprehendi, quia non euitauit: sic enim 
+      so<lb ed="#P" n="38" break="no"/>li Adam est imputandum. Sed large accipiendo 
+      <lb ed="#P" n="39"/>imputari: dicitur ei imputari inquantum efficitur 
+      <lb ed="#P" n="40"/>quodammodo detestabilis ex hoc quod est 
+      subie<lb ed="#P" n="41" break="no"/>ctum mali imputabilis: sicut si reddatur gladius 
+      <lb ed="#P" n="42"/>detestabilis ex hoc quod fuit instrumentum mali 
+      <lb ed="#P" n="43"/>actus. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1335">
+               <lb ed="#P" n="44"/>Ad secundum dicendum, quod licet anima 
+      <lb ed="#P" n="45"/>non traducatur, nec etiam natura humana 
+      tradu<lb ed="#P" n="46" break="no"/>catur quantum ad animam quae est subiectum 
+      <lb ed="#P" n="47"/>peccati originalis: tamen anima rationalis vnitur 
+      <lb ed="#P" n="48"/>carni traductae: &amp; ex hoc incurrit debitum 
+      iusti<lb ed="#P" n="49" break="no"/>tiae originalis. Dicendum ergo ad maiorem quod 
+      <lb ed="#P" n="50"/>ad contrahendum peccatum originale non 
+      opor<lb ed="#P" n="51" break="no"/>tet subiectum eius immediatum quod est anima, 
+      <lb ed="#P" n="52"/>directe traduci: sed sufficit eam traductae carni 
+      <lb ed="#P" n="53"/>vniri. Et per hoc patet ad instantiam sequentem. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1360">
+               <lb ed="#P" n="54"/>Ad tertium dicendum, quod vnumquodque 
+      <lb ed="#P" n="55"/>magis potest transfundere illud quod habet a se, 
+      <lb ed="#P" n="56"/>quam quod habet ab alio. Si vtrumque sit aeque 
+      <lb ed="#P" n="57"/>transfusibile: sed sic non est hoc. Nam alia 
+      pec<lb ed="#P" n="58" break="no"/>cata a primo non sunt nata transfundi, vt 
+      osten<lb ed="#P" n="59" break="no"/>sum est. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1376">
+               <lb ed="#P" n="60"/>Ad quartum dicendum, quod spiritus non 
+      <lb ed="#P" n="61"/>potest infici corporali infectione a carne: tamen 
+      <lb ed="#P" n="62"/>spiritus qui natus est esse forma carnis, potest ex 
+      <lb ed="#P" n="63"/>vnione ad carnem incurrere debitum habendi 
+      ali<lb ed="#P" n="64" break="no"/>quid, quod non incurreret non vnitus. Et sic 
+      di<lb ed="#P" n="65" break="no"/>citur infici a carne, non per aliquod positiuum 
+      im<lb ed="#P" n="66" break="no"/>missum a carne in animam: sed per incurrere tale 
+      <lb ed="#P" n="67"/>debitum. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1396">
+               <lb ed="#P" n="68"/>Ad quintum dicendum, quod licet anima ex 
+      <lb ed="#P" n="69"/>vnione ad carnem incurrat peccatum originale, 
+      <!--275.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="70"/>&amp; debitum habendi iustitiam originalem: non 
+      <lb ed="#P" n="71"/>tamen quamdiu est vnita carni manet istud 
+      debi<lb ed="#P" n="72" break="no"/>tum. Quia tollitur per pratiam recompensantem 
+      <lb ed="#P" n="73"/>in baptismo. Et ideo non manet amplius. 
+      </p>
+            <p xml:id="hx2hx3-b91861-d1e1416">
+               <lb ed="#P" n="74"/>Ad sextum dicendum, quod filius habet a 
+      <lb ed="#P" n="75"/>patre non solum materiam primam: imo vt dictum 
+      <lb ed="#P" n="76"/>est in principali solutione habet a patre totum, 
+      sci<lb ed="#P" n="77" break="no"/>licet materiam &amp; dispositiones accidentales quae 
+      <lb ed="#P" n="78"/>manent cum anima, quae sunt dum anima a Deo 
+      <lb ed="#P" n="79"/>infunditur, quae causantur a virtute seminis Et 
+      <lb ed="#P" n="80"/>etiam ipsam animam habet a patre dispositiue: 
+      in<lb ed="#P" n="81" break="no"/>quantum virtus seminis disponit ad illam. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="134"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b44372"><!-- l1d34q1 -->
+            <head xml:id="hx2hx3-b44372-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b44372-Hd1e101" type="question-title">Utrum persona sit essentia</head>
+            <p xml:id="hx2hx3-b44372-d1e104">
+      <!--134.xml-->
+               <pb ed="#P" n="134"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Praedictus autem adiciendum est, quod 
+      qui<lb ed="#P" n="2" break="no"/>dam peruersi homines, in tantam 
+      presi<lb ed="#P" n="3" break="no"/>uietunt insaniam, &amp;t.
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e120">
+               <lb ed="#P" n="4"/>Distinctio <sic>trigesima secunda</sic>
+               <lb ed="#P" n="5"/>QVAESTIO PRIMA.
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e129">
+               <lb ed="#P" n="6"/>CIrca <sic>trigesimam secundam</sic> distinctionem, 
+      <lb ed="#P" n="7"/>Quaeritur, vtrum persona sit essentia, Et 
+      ar<lb ed="#P" n="8" break="no"/>uitur quod non. Quia de his quae sunt vnum 
+      rea<lb ed="#P" n="9" break="no"/>liter, non potest verificari affirmatio &amp; negatio: in 
+      <lb ed="#P" n="10"/>praedicatis realibus. Dico autem in praedicatis 
+      rea<lb ed="#P" n="11" break="no"/>libus, quia licet in eis quae pertinent ad secundas 
+      <lb ed="#P" n="12"/>intentiones, possint verificari de eis quae sunt vnum 
+      <lb ed="#P" n="13"/>re affirma io, &amp; negatio, sicut homo est species, 
+      <lb ed="#P" n="14"/>vel animal rationale mortale non est species: 
+      ta<lb ed="#P" n="15" break="no"/>men hoc non potest fieri in praedicatis realibus. 
+      <lb ed="#P" n="16"/>Non enim potest dici quod homo sit albus: &amp; quod 
+      <lb ed="#P" n="17"/>animal rationale mortale, non sit albus. Sed in 
+      prae<lb ed="#P" n="18" break="no"/>dicatis realibus, affirmatio &amp; negatio verificatur 
+      <lb ed="#P" n="19"/>de persona &amp; essentia, quia haec est vera persona 
+      <lb ed="#P" n="20"/>Patris est realiter distincta a Filio: quod negatur de 
+      <lb ed="#P" n="21"/>essentia. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e169">
+               <lb ed="#P" n="22"/>Praeterea, qua ratione persona esset essentia, 
+      <lb ed="#P" n="23"/>eadem ratione esset proprietas. Sed hoc est falsum. 
+      <lb ed="#P" n="24"/>Ergo, &amp;c. Probatio minoris. Quia nisi persona 
+      es<lb ed="#P" n="25" break="no"/>set realiter proprietas, plurificatis proprietatibus, 
+      <lb ed="#P" n="26"/>filurificarentur personae, sed hoc est falsum, quia 
+      <lb ed="#P" n="27"/>existentibus quatuor proprietatibus non sunt nisi 
+      <lb ed="#P" n="28"/>tres personae. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e187">
+               <lb ed="#P" n="29"/>In contrarium est magister in littera. 
+      <lb ed="#P" n="30"/>Respondeo. Quaestio qua quaeritur, vtrum 
+      <lb ed="#P" n="31"/>persona sit essentia, potest habere tres difficulta¬ 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e196">
+               <lb ed="#P" n="32"/>Prima est, vt per personam accipiamus 
+      conere<lb ed="#P" n="33" break="no"/>tum, puta Deum vel Patrem: per essentiam, puta 
+      di<lb ed="#P" n="34" break="no"/>ninitatem vel paternitatem. Et si quaeratur vtrum 
+      <lb ed="#P" n="35"/>persona sit essentiar est quaerere, vtrum in diuinis 
+      <lb ed="#P" n="36"/>abstractum sit concretum p Et de hoc dictum fuit, 
+      <lb ed="#P" n="37"/>quando quaerebatur, quomodo differant natura &amp;c 
+      <lb ed="#P" n="38"/>suppositum. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e214">
+               <lb ed="#P" n="39"/>Alia difficultas potest esse, quornodo existente 
+      <lb ed="#P" n="40"/>vna essentia, &amp; existentibus tribus personis 
+      reali<lb ed="#P" n="41" break="no"/>ter distinctis: possit esse quod persona sit 
+      essen<lb ed="#P" n="42" break="no"/>tia: Et de hoc dictum est in quaestione 
+      praeceden<lb ed="#P" n="43" break="no"/>ti. Quia quantum ad hoc, eadem est difficultas 
+      <lb ed="#P" n="44"/>de relationibus &amp; personis. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e230">
+               <lb ed="#P" n="45"/>Tertia difficultas est, quia cum persona 
+      inclu<lb ed="#P" n="46" break="no"/>dat non solum essentiam, sed etiam relationema 
+      <lb ed="#P" n="47"/>quomodo sit eadem cum essentia, quae relationem 
+      <lb ed="#P" n="48"/>non includit: 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e241">
+               <lb ed="#P" n="49"/>Dicunt ergo quidam, quod si relatio 
+      accipia<lb ed="#P" n="50" break="no"/>tur pro vt dicit habitudinem, &amp; essentia vt dicit 
+      <lb ed="#P" n="51"/>absolutum; &amp; per sona vt constituitur ex 
+      vtro<lb ed="#P" n="52" break="no"/>que: sic, nec essentia est relatio vel proprietas: 
+      <lb ed="#P" n="53"/>nec persona est proprietas; nec persona est 
+      proprie<lb ed="#P" n="54" break="no"/>tas vel essentia. Quia nec essentia dicit 
+      habitudi<lb ed="#P" n="55" break="no"/>nem, nec est habitudo; nec habitudo est quid 
+      ab<lb ed="#P" n="56" break="no"/>solutum; nec constitutum ex vtoque: est alterum. 
+      <lb ed="#P" n="57"/>Vnde differunt, non solum secundum rationem: 
+      <lb ed="#P" n="58"/>sed etiam secundum modum realem. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e266">
+               <lb ed="#P" n="59"/>Sed istud non videtur mihi verum. Ad cuius 
+      <lb ed="#P" n="60"/>euidentiam, est sciendum quod in diuinis sunt 
+      <lb ed="#P" n="61"/>plures modi reales, quorum quidam distinguntur 
+      <lb ed="#P" n="62"/>re ad inuicem: sicut paternitas &amp; filiatio. Quidam 
+      <lb ed="#P" n="63"/>autem modi sunt reales qui non distinguntur re ab 
+      <lb ed="#P" n="64"/>inuicem, sicut essentia, &amp; paternitas, vel pater¬ 
+      <!--134.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>nitas, &amp; sapientia, &amp; insticia: &amp; consimilia. Vnde 
+      <lb ed="#P" n="66"/>sciendum est, quod quando dicitur in diuinis esse 
+      <lb ed="#P" n="67"/>plura realia, realitas potest referri, vel ad ea que 
+      di<lb ed="#P" n="68" break="no"/>cuntur plura; vel ad ipsam pluralitarem. Vt 
+      sidi<lb ed="#P" n="69" break="no"/>cam quod in diuinis sunt plures perfectiones 
+      rea<lb ed="#P" n="70" break="no"/>liter, puta sapientia, &amp; iusticia, &amp; sic de aliis 
+      po<lb ed="#P" n="71" break="no"/>test referri realitas ad perfectiones, vt sit sensus, 
+      <lb ed="#P" n="72"/>quod perfectiones quae plures dicuntur, puta 
+      sa<lb ed="#P" n="73" break="no"/>pientia, &amp; iustitia, &amp; sic dealiis: sunt realiter in 
+      di<lb ed="#P" n="74" break="no"/>uinis. Et hic sensus est verus. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e308">
+               <lb ed="#P" n="75"/>Potest etiam referri realitas ad ipsam 
+      plurali<lb ed="#P" n="76" break="no"/>tatem, vt sit sensus, quod pluralitas istarum 
+      per<lb ed="#P" n="77" break="no"/>fectionum quae est sapientia &amp; bonitas: sit realis vel 
+      <lb ed="#P" n="78"/>secundum rem. Et hic sensus in proposito, scilicet 
+      <lb ed="#P" n="79"/>quantum ad sapientiam, &amp; bonitatem, falsus est. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e321">
+               <lb ed="#P" n="80"/>Vlterius, sciendum quod in diuinis nonha. 
+      <lb ed="#P" n="81"/>bent inter se distinctionem realem, nisi illa quae 
+      <lb ed="#P" n="82"/>habent oppositionem relatiuam, sicut alias probae 
+      <lb ed="#P" n="83"/>tum fuit. Quia inter essentiam &amp; proprietatem 
+      <lb ed="#P" n="84"/>non est realis oppositio, ideo realiter essentia est 
+      ip<lb ed="#P" n="85" break="no"/>sa proprietas: essentialiter loquendo. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e337">
+               <lb ed="#P" n="86"/>Vlterius quia persona non includit nisi 
+      essen<lb ed="#P" n="87" break="no"/>tiam &amp; proprietatem, sequitur quod persona non 
+      <lb ed="#P" n="88"/>includit aliquid diuersum re ab essentia. Quia 
+      pro<lb ed="#P" n="89" break="no"/>prietas non disfert re ab ea, nec etiam a 
+      proprie<lb ed="#P" n="90" break="no"/>tate: quia essentia non est diuersa re a proprietate. 
+      <lb ed="#P" n="91"/>Vnde inter proprietatem, &amp; essentiam, &amp; 
+      perso<lb ed="#P" n="92" break="no"/>nam comparata ad inuicem: non est differentia 
+      <lb ed="#P" n="93"/>realis. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e357">
+               <lb ed="#P" n="94"/>Ex his potest ostendi quod realiter persona est 
+      <lb ed="#P" n="95"/>essentia &amp; proprsetas. Quia illa positio quae 
+      de<lb ed="#P" n="96" break="no"/>notat solum vnitatem realem inter praedicatum &amp; 
+      <lb ed="#P" n="97"/>subiectum, veritatem habet in illis in quibus 
+      prae<lb ed="#P" n="98" break="no"/>dicatum &amp; subiectum sunt vnum realiter. Sed, 
+      <lb ed="#P" n="99"/>vt ostensum est, persona, &amp; essentia, &amp; proprie 
+      <lb ed="#P" n="100"/>tas sunt vnum realiter &amp; vna res. Ergo propositio 
+      <lb ed="#P" n="101"/>quae vnum illorum de alio affirmat attendendo 
+      <lb ed="#P" n="102"/>tantum indentitatem realem inter ea: sicut 
+      dicen<lb ed="#P" n="103" break="no"/>do persona est essentia vel proprietas, vel essentia 
+      <lb ed="#P" n="104"/>est proprietas: est vera. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e383">
+               <lb ed="#P" n="105"/>Notandum tamen est, quod licet essentia &amp; 
+      <lb ed="#P" n="106"/>proprietas inter se non habeant differentiam rea. 
+      <lb ed="#P" n="107"/>lem, sed sunt vna res simpliciter: tamen vnumn 
+      eo<lb ed="#P" n="108" break="no"/>rum dicit oppositionem ad aliquid, ad quod 
+      nul<lb ed="#P" n="109" break="no"/>sam oppositionem dicit aliud: vt vnus importat 
+      <lb ed="#P" n="110"/>distinctionem realem ab aliquo, a quo aliud 
+      <lb ed="#P" n="111"/>nullam distinctionem realem importat. Sicut 
+      <lb ed="#P" n="112"/>paternitas, importat oppositionem ad Filium, 
+      <lb ed="#P" n="113"/>&amp; importat distinctionem realem ab eo, a quo 
+      <lb ed="#P" n="114"/>nullam distinctionem realem importat 
+      essen<lb ed="#P" n="115" break="no"/>tia. Et ideo illae propositiones quae non solum 
+      <lb ed="#P" n="116"/>denotant vnitatem inter essentiam &amp; 
+      proprieta<lb ed="#P" n="117" break="no"/>tem, sed important etiam distinctionem elsentiae, 
+      <lb ed="#P" n="118"/>siue circa essentiam respectu altenus 
+      proprie<lb ed="#P" n="119" break="no"/>tatis, &amp; propositiones quae denotant proprietatem 
+      <lb ed="#P" n="120"/>absolui a tali oppositione &amp; distinctione: sunt 
+      fal<lb ed="#P" n="121" break="no"/>sae omnes. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e423">
+               <lb ed="#P" n="122"/>Et ideo non dicimus quod essentia dicat 
+      habitu<lb ed="#P" n="123" break="no"/>dinem ad Patre, nec etiam communiter forte esset 
+      <lb ed="#P" n="124"/>conoedendum quod essentia sit habitudo ad 
+      Pa<lb ed="#P" n="125" break="no"/>trem vel Filium formali praedicatione: 
+      nedenote<lb ed="#P" n="126" break="no"/>tur essentia se habere ad Filium vt ei oppositum, 
+      <lb ed="#P" n="127"/>&amp; ab eo distinctum. Tamen ista est vera, 
+      essen<lb ed="#P" n="128" break="no"/>tia est illa res quae est habitudo ad Filium, vel quae 
+      <lb ed="#P" n="129"/>habet habitudinem ad Filium. Quia ex hoc non 
+      <lb ed="#P" n="130"/>ponitur circa essentiam distinctio a Filio: sed 
+      in<lb ed="#P" n="131" break="no"/>dentitas ponitur inter essentiam &amp; illam rem quae 
+      <lb ed="#P" n="132"/>distinguitur a Filio. Similiter, si dicatur quod 
+      pa<lb ed="#P" n="133" break="no"/>ternitas est aliquid absolutum, falsum est. Quia 
+      <lb ed="#P" n="134"/>denotatur non tantum identitas inter patemita¬ 
+      <!--135.xml-->
+      <pb ed="#P" n="135"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tem &amp; rem absolutam quae est essentia: sed etiam 
+      <lb ed="#P" n="2"/>denotatur quod paternitas caret oppositione 
+      rela<lb ed="#P" n="3" break="no"/>tiua. Sed haec est vera, scilicet quod paternitas est 
+      <lb ed="#P" n="4"/>illa res quae est absoluta. Quia haec absolutio non 
+      <lb ed="#P" n="5"/>importatur circa paternitatem: sed circa illam 
+      <lb ed="#P" n="6"/>rem quae est eadem cum paternitate secundum 
+      <lb ed="#P" n="7"/>rem. Tum, quia sicut dictum est supra, licet haeo 
+      <lb ed="#P" n="8"/>sit vera, essentia est ipsum generare: non tamen est 
+      <lb ed="#P" n="9"/>vera ista, essentia generat. Quia in hoc quod est 
+      <lb ed="#P" n="10"/>essentia generat, vltra identitatem realem quae 
+      <lb ed="#P" n="11"/>est inter essentiam &amp; actum generandi: importa 
+      <lb ed="#P" n="12"/>tur quod essentia habcat Filium vt a se distinctum. 
+      <lb ed="#P" n="13"/>llli ergo qui dicunt proprietatem &amp; essentiam 
+      dif<lb ed="#P" n="14" break="no"/>ferre secundum modum realem, si intelligant 
+      <lb ed="#P" n="15"/>modum realtm positiuum, secundum quem vnn 
+      <lb ed="#P" n="16"/>numero realiter se habeat per additionem ad aliud 
+      <lb ed="#P" n="17"/>&amp; faciat differentiam realem, posituam inter ipsa 
+      <lb ed="#P" n="18"/>ad inuicem comparata falsum est. Quia tunc esset 
+      <lb ed="#P" n="19"/>compositio in diuinis. Si autem intelligatur minus 
+      <lb ed="#P" n="20"/>proprie, per modum realem modum secundum 
+      <lb ed="#P" n="21"/>quem vnum eorum dicitur distingui ab aliquo a 
+      <lb ed="#P" n="22"/>quo aliud non distinguitur: sic potest concedi, 
+      <lb ed="#P" n="23"/>quod secundum talem modum negatiuum 
+      incom<lb ed="#P" n="24" break="no"/>paratione ad tertium differunt: inquantum vnum 
+      <lb ed="#P" n="25"/>eorum, realiter est distinctum ab aliquo, a quo 
+      a<lb ed="#P" n="26" break="no"/>liud non est distinctum: sed realiter vnum. Et 
+      quan<lb ed="#P" n="27" break="no"/>tum ad hoc quod est vnius non attribuitur alteria 
+      <lb ed="#P" n="28"/>sicut non attribuitur essentiae, distingui, nec 
+      pro<lb ed="#P" n="29" break="no"/>prietati attribuitur commune, vel absolutum esse. 
+      <lb ed="#P" n="30"/>Et per hoc patet ad rationem eorum, quia licet 
+      <lb ed="#P" n="31"/>concedatur quod essentia sit proprietas, non tame 
+      <lb ed="#P" n="32"/>ita conceditur quod sit habitudo, ne denotetur 
+      ha<lb ed="#P" n="33" break="no"/>bere oppositionem ad Filium: bene tamen est 
+      il<lb ed="#P" n="34" break="no"/>lud quod habet oppositionem ad Filium. Similiter, 
+      <lb ed="#P" n="35"/>licet proprietas sit essentia, non tamen conceditur 
+      <lb ed="#P" n="36"/>quod proprietas sit absoluta: sed bene, est illa res 
+      <lb ed="#P" n="37"/>quae est absoluta. Vnde si absolutum acciperetur 
+      <lb ed="#P" n="38"/>substantiue, ita quod supponeret pro essentia, 
+      ab<lb ed="#P" n="39" break="no"/>solutum praedicaretur de proprietate: dicendo 
+      <lb ed="#P" n="40"/>quod proprietas est ipsum absolutum, id est ipsa 
+      <lb ed="#P" n="41"/>res quae est absoluta. Ita quod absolutum non 
+      po<lb ed="#P" n="42" break="no"/>neretur circa proprietatem, sed circa illam rem. 
+      <lb ed="#P" n="43"/>scilicet ellentiam, quae est eademcum Illa. Quod 
+      <lb ed="#P" n="44"/>autem dicitur quod constitutum non est 
+      consti<lb ed="#P" n="45" break="no"/>tuentia. Verum est loquendo de partibus 
+      con<lb ed="#P" n="46" break="no"/>stitutiuis quae sunt diuersae per essentiam: sicut 
+      <lb ed="#P" n="47"/>compositum non est materia vel forma. Sed de 
+      <lb ed="#P" n="48"/>partibus quae constituunt rationem alicuius, &amp; 
+      <lb ed="#P" n="49"/>differunt tantum secundum trationem, sicut 
+      ani<lb ed="#P" n="50" break="no"/>mal &amp; rationale constituunt hominem: est falsum. 
+      <lb ed="#P" n="51"/>Nunc autem essentia &amp; proprietas non 
+      consti<lb ed="#P" n="52" break="no"/>tuunt personam sicut diuersae partes secundum 
+      <lb ed="#P" n="53"/>rem, cum ipsa persona sit relatio subsistens: sed 
+      <lb ed="#P" n="54"/>sunt diuersa secundum rationem tantum: ita 
+      <lb ed="#P" n="55"/>quod rationem vtriusque includat persona. 
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e579">
+               <lb ed="#P" n="56"/>Ad primum ergo in oppositum, potest dici quod 
+      <lb ed="#P" n="57"/>illa propositio, non habet veritatem nisi in illis quae 
+      <lb ed="#P" n="58"/>nec re, nec ratione differunt: sic non est persona 
+      <lb ed="#P" n="59"/>nec essentia. Vel potest diei quod illa propositio 
+      <lb ed="#P" n="60"/>habet veritatem in illis quae sunt naturae finite: in 
+      <lb ed="#P" n="61"/>quibus vnum re, non potest esse plura aliqua 
+      rea<lb ed="#P" n="62" break="no"/>liter: sed in illis in quibus propter infinitater 
+      <lb ed="#P" n="63"/>suam, vnum re absoluta potest esse quaedam 
+      plu<lb ed="#P" n="64" break="no"/>ra, scilicet plura relata realiter distincta: potest 
+      <lb ed="#P" n="65"/>asfirmatio, &amp; negatio verificari, secundum 
+      distin<lb ed="#P" n="66" break="no"/>gdi, &amp; non distingui, de his quae sunt vnum 
+      re<lb ed="#P" n="67" break="no"/>Ita, quod vnum eorum distinguatur ab aliquo, &amp; 
+      <lb ed="#P" n="68"/>aliud non disfinguatur ab eo: non contradicit.
+      </p>
+            <p xml:id="hx2hx3-b44372-d1e610">
+               <lb ed="#P" n="69"/>Ad secundum, dicendum quod minor est 
+      fal<lb ed="#P" n="70" break="no"/>sa. Ad probationem, dicendum primo quod illa 
+      <!--135.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>maior in diuinis non est vniuersaliter vera, scilicet 
+      <lb ed="#P" n="72"/>quod eorum quae sunt vnum re; plurificato vno: 
+      <lb ed="#P" n="73"/>plurificatur realiter alterum. Dato etiam, quod 
+      <lb ed="#P" n="74"/>concedatur de persona &amp; pronrietate quod 
+      nluri<lb ed="#P" n="75" break="no"/>ficato vno re: plurificaretur realiter &amp; alterum: 
+      <lb ed="#P" n="76"/>dicendum quod proptietates non sic plurificantur 
+      <lb ed="#P" n="77"/>realiter: scilicet quod sint quatuor res diuer se: nam 
+      <lb ed="#P" n="78"/>sicut supra patuit, communis spiratio non facit 
+      di<lb ed="#P" n="79" break="no"/>uersitatem realem cum paternitate &amp; filiatione: 
+      <lb ed="#P" n="80"/>ita quod inter se communis spirauo, &amp; 
+      paterni<lb ed="#P" n="81" break="no"/>tas, &amp; filiatio: habeant diuer sitatem. Quemodo 
+      <lb ed="#P" n="82"/>autem sunt quatuor proprietates reales, &amp; non 
+      <lb ed="#P" n="83"/>sunt quatuor res: dictum est supra. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

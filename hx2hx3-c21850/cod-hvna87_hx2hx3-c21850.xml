@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-c21850"><!-- l4d14q2 -->
+            <head xml:id="hx2hx3-c21850-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-c21850-Hd1e101" type="question-title">Utrum poenitentia habeat durare usque in finem</head>
+            <p xml:id="hx2hx3-c21850-d1e104">
+               <lb ed="#P" n="38"/>QVAESTIO SECNDA.
+      </p>
+            <p xml:id="hx2hx3-c21850-d1e109">
+               <lb ed="#P" n="39"/>SEcundo quaeritur. Vtrum poenitentia habeat 
+      <lb ed="#P" n="40"/>durare vsque in finem. 
+      </p>
+            <p xml:id="hx2hx3-c21850-d1e116">
+               <lb ed="#P" n="41"/>Ad hoc dicendum, quod differt quaerere vtrum 
+      <lb ed="#P" n="42"/>poenitentia habeat durare vsque in finem, &amp; 
+      quae<lb ed="#P" n="43" break="no"/>rere vtrum si poenitentia interrumpatur possit 
+      <lb ed="#P" n="44"/>iterati &amp; restaurari. Si primo modo quaeratur, 
+      di<lb ed="#P" n="45" break="no"/>cendum, quod non: quia quod aliquid duret in 
+      <lb ed="#P" n="46"/>posterum non potest contingere nisi vno istorum 
+      <lb ed="#P" n="47"/>modorum, aut quia aliquid cius quod est de 
+      ra<lb ed="#P" n="48" break="no"/>tione sua in posterum ex pectatur: sicut de ratione 
+      <lb ed="#P" n="49"/>anni est, quod habeat mensem post mensem, aut 
+      <lb ed="#P" n="50"/>quia in subiecto suo immobiliter recipitur. Primo 
+      <lb ed="#P" n="51"/>modo non potest dici poenitentia durare in 
+      poste<lb ed="#P" n="52" break="no"/>rum, quia permanentia non expectant aliquid in 
+      <lb ed="#P" n="53"/>posterum quod sit de ratione sua ino sunt tota 
+      si<lb ed="#P" n="54" break="no"/>mula sicut domus &amp; homo &amp; similia. Sed 
+      poeni<lb ed="#P" n="55" break="no"/>tentia est qualitas permanens quia est habitus vt 
+      <lb ed="#P" n="56"/>dictum est. Ergo, &amp;c. Nec secundo modo, quia 
+      <lb ed="#P" n="57"/>in libero arbitrio non confirmato nihil recipitur 
+      <lb ed="#P" n="58"/>immobiliter. Sed liberum arbitrium in hac vita 
+      <lb ed="#P" n="59"/>non est confirmatum. Ergo, &amp;c. Et sic patet, 
+      <lb ed="#P" n="60"/>quod poenitentia non potest durare vsque in 
+      fi<lb ed="#P" n="61" break="no"/>nem. 
+      </p>
+            <p xml:id="hx2hx3-c21850-d1e165">
+               <lb ed="#P" n="62"/>Si autem quaestio quaerat secundo modo, vtrum 
+      <lb ed="#P" n="63"/>si poenitentia interrumpatur possit iterari. 
+      Di<lb ed="#P" n="64" break="no"/>cendum quod sic, quia si non posset esse, hoc 
+      es<lb ed="#P" n="65" break="no"/>set vel quia homo non posset habere displicentiam 
+      <lb ed="#P" n="66"/>de peccato suo, quod non potest esse: quia 
+      du<lb ed="#P" n="67" break="no"/>rante vita liberum arbitrium non se habet 
+      immo<lb ed="#P" n="68" break="no"/>biliter in bono vel in malo. Et ideo potest sibi 
+      <lb ed="#P" n="69"/>displicere malum vel peccatum. vel quia Deus 
+      <lb ed="#P" n="70"/>nollet ipsum recipere ad misericordiam, quod 
+      si<lb ed="#P" n="71" break="no"/>militer non potest esse, quia hoc est contra 
+      mise<lb ed="#P" n="72" break="no"/>ricordiam Dei: quia Deus quantum est de se 
+      sem<lb ed="#P" n="73" break="no"/>per est paratus ad misericordiam dum tamen 
+      ho<lb ed="#P" n="74" break="no"/>mo faciat, quod in se est. Quam nobis concedat 
+      <lb ed="#P" n="75"/>ipse qui est alpha, &amp; omega, &amp; trinus, &amp; vnus. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

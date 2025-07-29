@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="54"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b17604"><!-- l1d6q2 -->
+            <head xml:id="hx2hx3-b17604-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b17604-Hd1e101" type="question-title">Utrum filius procedat per modum artis</head>
+            <p xml:id="hx2hx3-b17604-d1e104">
+               <lb ed="#P" n="106"/>QVAESTIO SECVNDA. 
+      <lb ed="#P" n="107"/>Vtrum filius procedat per modum artis 
+      </p>
+            <p xml:id="hx2hx3-b17604-d1e111">
+               <lb ed="#P" n="108"/>REspondeo: licet ipsa cognitio agendorum 
+      <lb ed="#P" n="109"/>siue faciendorum posset dici ars, &amp; sic ars 
+      <lb ed="#P" n="110"/>esset essentiale in diuinis sicut cognitio, tamen 
+      <lb ed="#P" n="111"/>magis stricte loquendo nominando non habitum 
+      <lb ed="#P" n="112"/>nec cognitionem agendorum, sed conceptionem 
+      <lb ed="#P" n="113"/>vel verbum in quo relucent sicut in conceptu 
+      <lb ed="#P" n="114"/>artificis ipsa factibilia: sic ars conuenit soli filio 
+      si<lb ed="#P" n="115" break="no"/>cut &amp; verbum. Ergo hoc supposito ad questionem. 
+      <lb ed="#P" n="116"/>dicendum quod N artis, potest accipi in 
+      habitu<lb ed="#P" n="117" break="no"/>dine principii eius quod procedit, vt sit sensus 
+      <lb ed="#P" n="118"/>quaerere vtrum filius procedat sicut illud cuius 
+      <lb ed="#P" n="119"/>principium effectiuum est ars. Et tunc dicendum 
+      <lb ed="#P" n="120"/>quod non, quia tunc filius esset factibilis: &amp; non 
+      <lb ed="#P" n="121"/>esset ais, sed esfectus artis, quae sunt vt de se pater, 
+      <lb ed="#P" n="122"/>falsa &amp; impossibilia. Potest etiam construi ly 
+      ar<lb ed="#P" n="123" break="no"/>tis, non in habitudine principii, sed in habitudine 
+      <lb ed="#P" n="124"/>procedentis; vt sit sensus quaestionis, vtrum 
+      scili<lb ed="#P" n="125" break="no"/>cet filius procedat vt ars. Et tunc dicendum quod 
+      <lb ed="#P" n="126"/>sic, quia ipse est ars Patris sicut &amp; verbum Patris, 
+      <lb ed="#P" n="127"/>vt patet ex dictis. Vtrum autem Pater genuerit 
+      <lb ed="#P" n="128"/>filium voluntate vel natura, &amp; vtrum alia persona 
+      <lb ed="#P" n="129"/>producatur in diuinis voluntate, tractabitur intra 
+      <lb ed="#P" n="130"/>quando agetur de procelsione Spiritus sancti.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

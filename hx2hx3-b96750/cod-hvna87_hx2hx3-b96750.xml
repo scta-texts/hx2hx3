@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="287"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b96750"><!-- l3d1q2 -->
+            <head xml:id="hx2hx3-b96750-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b96750-Hd1e101" type="question-title">Utrum tres personae possint assumere unam naturam</head>
+            <p xml:id="hx2hx3-b96750-d1e104">
+               <lb ed="#P" n="34"/>Vtrum Pater vel Spiritus sanctus 
+      potue<lb ed="#P" n="35" break="no"/>rit incarnari, vel possit. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e111">
+               <lb ed="#P" n="36"/>Si vero quaeritur vtrum Pater vel Spiritus 
+      <lb ed="#P" n="37"/>sanctus incarnari potuerit, vel etiam 
+      <lb ed="#P" n="38"/>modo possit; sane responderi potest, &amp; 
+      <lb ed="#P" n="39"/>potuisse olim, &amp; posse nunc carnem 
+      su<lb ed="#P" n="40" break="no"/>mere, &amp; hominem fieri tam Patrem 
+      <lb ed="#P" n="41"/>quam Spiritum sanctam. Sicut enim 
+      Fi<lb ed="#P" n="42" break="no"/>lius homo factus est: ita Pater &amp; 
+      Spi<lb ed="#P" n="43" break="no"/>ritus sanctus potuit, &amp; potest, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e131">
+               <lb ed="#P" n="44"/>QVAESTIO SECVNDA. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e137">
+               <lb ed="#P" n="45"/>Secundo quaeritur vtrum tres personae possint 
+      <lb ed="#P" n="46"/>assumere vnam naturam: &amp; videtur quod non 
+      <lb ed="#P" n="47"/>Quia assumptio de terminari ad vnitatem 
+      perso<lb ed="#P" n="48" break="no"/>nae. Sed si tres personae assumerent vnam naturam,  
+      <lb ed="#P" n="49"/>illa assumptio non terminaretur ad vnitatem 
+      per<lb ed="#P" n="50" break="no"/>sonae: cum ponatur non vna persona, sed tres 
+      per<lb ed="#P" n="51" break="no"/>sonas assumere Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e155">
+               <lb ed="#P" n="52"/>Praeterea si tres personae assumetent vnam 
+      hu<lb ed="#P" n="53" break="no"/>manitatem; aut deberent dici tres hoimnes: aut 
+      <lb ed="#P" n="54"/>vnus homo Non tres homines: cum non sit ibi 
+      <lb ed="#P" n="55"/>nisi vnum corpus &amp; vna anima, ex quibus non 
+      vi<lb ed="#P" n="56" break="no"/>detur posse esse nisi vnus homo. Nec etiam 
+      po<lb ed="#P" n="57" break="no"/>tetunt dici vnus homo. Quia quaelibet persona 
+      <lb ed="#P" n="58"/>esset ille homo: &amp; sic ille esset Pater &amp; Filius. Et 
+      <lb ed="#P" n="59"/>cum illud quod praedicatur de homine illo, esset 
+      <lb ed="#P" n="60"/>persona assumens: sequeretur quod pater &amp; 
+      Fi<lb ed="#P" n="61" break="no"/>lius &amp; Spiritus sanctus praedicaretur de illo 
+      homi<lb ed="#P" n="62" break="no"/>ne. Hoc autem est impossibile. Ergo nullo 
+      mo<lb ed="#P" n="63" break="no"/>do potest fieri. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e184">
+               <lb ed="#P" n="64"/>Praeterea eadem ratione qua plures persona 
+      <!--287.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>possunt assumere vnam naturam: eadem ratione 
+      <lb ed="#P" n="66"/>vna persona posset assumere plures naturas. Sed 
+      <lb ed="#P" n="67"/>hoc est impossibile (vt probabo). Ergo, &amp;c 
+      <lb ed="#P" n="68"/>Probatio minoris. Quia si vna persona 
+      assume<lb ed="#P" n="69" break="no"/>ret plures naturas id, est plures humanitates, illa 
+      <lb ed="#P" n="70"/>persona, aut esset vnus homo, aut plures. Non 
+      <lb ed="#P" n="71"/>vnus homo: cum sint ibi plures humanitates. Nec 
+      <lb ed="#P" n="72"/>plures homines: cum ibi non sit nisi vnum 
+      suppo<lb ed="#P" n="73" break="no"/>situm habens vtramque humanitatem, &amp; vnus 
+      <lb ed="#P" n="74"/>illorum hominum esset alius. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e215">
+               <lb ed="#P" n="75"/>Contra, illae personae quorum est vnum esse, 
+      <lb ed="#P" n="76"/>possunt: assumere vnam naturam. Sed trium 
+      per<lb ed="#P" n="77" break="no"/>sonarum est vnum esse. Ergo. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e224">
+               <lb ed="#P" n="78"/>Respondeo. Primo videndum est vtrum tres 
+      <lb ed="#P" n="79"/>personae possint assumere vnam naturam. 
+      <lb ed="#P" n="80"/>Secundo e conuerso vtrum vna persona possit 
+      <lb ed="#P" n="81"/>assumere plures naturas. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e235">
+               <lb ed="#P" n="82"/>ARTICVLVS PRIMVS
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e241">
+               <lb ed="#P" n="83"/>QVantum ad primum dixerunt quidam quod 
+      <lb ed="#P" n="84"/>plures personae non poterant assumere 
+      <lb ed="#P" n="85"/>vnam naturam. Quia nulla vna essentia vel 
+      na<lb ed="#P" n="86" break="no"/>tura potest esse in pluribus suppositis nisi sit 
+      infi<lb ed="#P" n="87" break="no"/>nita. Sed nulla natura creata est infinita. Ergo, 
+      <lb ed="#P" n="88"/>&amp;c. Minor patet Maiorem declarant. Nam 
+      <lb ed="#P" n="89"/>esse in pluribus suppositis videtur conuenire 
+      natu<lb ed="#P" n="90" break="no"/>rae diuinae ex sua infinitate. Vnde non videtur hoc 
+      <lb ed="#P" n="91"/>conuenite nisi naturae infinitae. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e263">
+               <lb ed="#P" n="92"/>Quicquid autem sit de veritate quaestionis 
+      <lb ed="#P" n="93"/>non videtur ista ratio multum cogate. Nam 
+      dif<lb ed="#P" n="94" break="no"/>fert esse diuersa supposita: &amp; differt esse in 
+      pluri<lb ed="#P" n="95" break="no"/>bus suppositis. Nunc autem duina essentia non 
+      <lb ed="#P" n="96"/>solum est in pluribus suppositis: sed enim est 
+      plu<lb ed="#P" n="97" break="no"/>ra supposita, praesupposita oppositione relatiua. 
+      <lb ed="#P" n="98"/>Ex hoc ergo solo quod aliqua natura esset in 
+      plu<lb ed="#P" n="99" break="no"/>ribus suppositis, non habetetur quod esset 
+      infini<lb ed="#P" n="100" break="no"/>ta natura: nisi cum hoc esset plura suppesita. 
+      Vn<lb ed="#P" n="101" break="no"/>de quod ipsa vna sola manens sit plura supposita, 
+      <lb ed="#P" n="102"/>prouenit ex eius infinitate: sed natura creata 
+      fi<lb ed="#P" n="103" break="no"/>ponatur esse in pluribus suppositis diuinis, non 
+      ta<lb ed="#P" n="104" break="no"/>men ponitur esse illa. Et ideo non oportet quod 
+      <lb ed="#P" n="105"/>si natura creata est in pluribus suppositis diuinis, 
+      <lb ed="#P" n="106"/>quod sint infinita. Sicut etiam si vnum 
+      supposi<lb ed="#P" n="107" break="no"/>tum creatum habet multas naturas saltem 
+      acci<lb ed="#P" n="108" break="no"/>dentales, non sequitur quod sit infinitum: sed si 
+      <lb ed="#P" n="109"/>essentialiter possent versari de eo omnia quae 
+      <lb ed="#P" n="110"/>accidentaliter eminunt, puta si esset per essentiam 
+      <lb ed="#P" n="111"/>iustitia; scientia, potentia, &amp; sic de alii. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e309">
+               <lb ed="#P" n="112"/>Aliter etiam potest dici ad hoc scilicet quod 
+      <lb ed="#P" n="113"/>natura existens in pluribus suppositis est infinita, 
+      <lb ed="#P" n="114"/>verum est quando illa plura supposita constituuntur 
+      <lb ed="#P" n="115"/>per eam: sicut per essentiam diuinam 
+      constituun<lb ed="#P" n="116" break="no"/>tur omnia supposita diuina adiunctis relationibus 
+      <lb ed="#P" n="117"/>eo modo quo conuenit supposito diuino 
+      consti<lb ed="#P" n="118" break="no"/>tui. Sed natura quae est in pluribus suppositis, quae 
+      <lb ed="#P" n="119"/>non constituuntur per eam; non oportet quod sit 
+      <lb ed="#P" n="120"/>infinita: &amp; sic vna natura creata posset esse in 
+      plu<lb ed="#P" n="121" break="no"/>ribus personis diuinis. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e333">
+               <lb ed="#P" n="122"/>Et ideo dicunt alii quod personae tres diuinae 
+      <lb ed="#P" n="123"/>possent assumere eandem naturam numero. Et 
+      <lb ed="#P" n="124"/>hoc declarant duplici ratione. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e342">
+               <lb ed="#P" n="125"/>Prima talis est. In ista assumptione cum tota 
+      <lb ed="#P" n="126"/>ratio facti sit potentia facientis: potestas 
+      assump<lb ed="#P" n="127" break="no"/>tionis praecipue est attendenda ex conditione 
+      sup<lb ed="#P" n="128" break="no"/>positi assumentis. Sed conditio suppositi diuini 
+      <lb ed="#P" n="129"/>assumentis est quod prima supposita diuina 
+      pos<lb ed="#P" n="130" break="no"/>sint habere vnam naturam: sicut patet de natura 
+      <lb ed="#P" n="131"/>diuina quae in eis est vna. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e360">
+               <lb ed="#P" n="132"/>Si dicitur quod conditio personarum 
+      diuini<lb ed="#P" n="133" break="no"/>rum talis est quod possunt habere vnam naturam 
+      <!--288.xml-->
+      <pb ed="#P" n="288"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non quamcunque: sed infinitam, vt natura 
+      diui<lb ed="#P" n="2" break="no"/>na. Non valet. Quia non requiritur infinitas 
+      <lb ed="#P" n="3"/>essentiae ad hoc quod sit in pluribus suppositis: 
+      <lb ed="#P" n="4"/>sed ad hoc quod sit plura supposita. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e383">
+               <lb ed="#P" n="5"/>Secunda ratio talis est. Illud quod non habet 
+      <lb ed="#P" n="6"/>vnitatem numeralem vel pluralitatem a 
+      supposi<lb ed="#P" n="7" break="no"/>to, manente vnitate eius numerali: indifferenter 
+      <lb ed="#P" n="8"/>potest esse in vno &amp; in pluribus suppositis. Sed 
+      <lb ed="#P" n="9"/>natura assumpta non habet vnitatem numeralem 
+      <lb ed="#P" n="10"/>formaliter loquendo a supposito assumente: sed 
+      <lb ed="#P" n="11"/>ab indiuisione sua secundum quantitatem. Vndo 
+      <lb ed="#P" n="12"/>etiam secundum omnes, vna persona porest 
+      ha<lb ed="#P" n="13" break="no"/>bere plures numero Ergo vna natura numero 
+      po<lb ed="#P" n="14" break="no"/>test assumi a pluribus personis. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e407">
+               <lb ed="#P" n="15"/>ARTICVLVS SECVNDVS. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e412">
+               <lb ed="#P" n="16"/>&amp; eisdem etiam rationibus potest faciliter 
+      <lb ed="#P" n="17"/>oprobari secundum scilicet quod vna persona 
+      <lb ed="#P" n="18"/>potest assumere parres naturas. Quia conditio 
+      <lb ed="#P" n="19"/>personae assumentis est posse habere plures 
+      natu<lb ed="#P" n="20" break="no"/>ras substantiales: sicut patet de diuina natura &amp; 
+      <lb ed="#P" n="21"/>humana in Chrsto. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e428">
+               <lb ed="#P" n="22"/>Si dicatur quod verum est de naturis 
+      differen<lb ed="#P" n="23" break="no"/>tibus genere vel specie, sicut sunt diuina &amp; 
+      hu<lb ed="#P" n="24" break="no"/>mana: sed non de naturis differentibus solo 
+      nu<lb ed="#P" n="25" break="no"/>mtro. Ibi hoc excluditur per secundam rationem. 
+      <lb ed="#P" n="26"/>Quia illud cuius vnitas vel pluralitas formaliter 
+      <lb ed="#P" n="27"/>loquendo non est a supposito: in eo possunt 
+      in<lb ed="#P" n="28" break="no"/>differenter esse plura, vel vnum in eodem 
+      suppo<lb ed="#P" n="29" break="no"/>sito. Sed diuersae naturae assimptae: vcl alia 
+      quae<lb ed="#P" n="30" break="no"/>cumque substantiae materiales sunt huiusmodiquia 
+      <lb ed="#P" n="31"/>earum vnitas vel pluralitas est per diuisitinem 
+      <lb ed="#P" n="32"/>quantitatis. Er ideo indifferenter possunt ssumi 
+      <lb ed="#P" n="33"/>plures na urae numero: vel vna ab eodem 
+      suppo<lb ed="#P" n="34" break="no"/>sito diuino. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e459">
+               <lb ed="#P" n="35"/>Ad primum ergo in oppositum dicendum, 
+      <lb ed="#P" n="36"/>quod assumptionem terminari ad vnitatem supe 
+      <lb ed="#P" n="37"/>positi contingit dupliciter. Vno modo quod vnum 
+      <lb ed="#P" n="38"/>suppositum tantum sit adquod natura creata 
+      assu<lb ed="#P" n="39" break="no"/>matur. Et isto modo non oportet quod assumptio 
+      <lb ed="#P" n="40"/>terminetur ad vnitatem tuppe siti. Alio modo 
+      <lb ed="#P" n="41"/>porest intelligi quoda ssumprio terminetur ad 
+      vni<lb ed="#P" n="42" break="no"/>tatem suppositi Quia scilicet termtinatur ad hoc 
+      <lb ed="#P" n="43"/>quod vnum &amp; idem sit supi ositum naturae 
+      assu<lb ed="#P" n="44" break="no"/>mentis &amp; naturae assumptae: &amp; sic terminatur 
+      as<lb ed="#P" n="45" break="no"/>sumptum ad vnitatem suppositi. Et sic etiam 
+      es<lb ed="#P" n="46" break="no"/>set in proposito stante hyi othesi. Nam vnum &amp; 
+      <lb ed="#P" n="47"/>idem esset suppositum naturae diumae &amp; naturae 
+      <lb ed="#P" n="48"/>a ssumptae. Nam quaelibet diuina periona esset 
+      <lb ed="#P" n="49"/>vnum &amp; idem suppositum habens vtramque 
+      na<lb ed="#P" n="50" break="no"/>turam. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e496">
+               <lb ed="#P" n="51"/>Ad secundum dicendum, quod de hoc vtrum 
+      <lb ed="#P" n="52"/>debcant dici vnus homo, vel tres hon ines: sunt 
+      <lb ed="#P" n="53"/>diuersae opiniones. Nam quidam dicunt quod cum 
+      <lb ed="#P" n="54"/>homo supponat pro subsistente habente naturam 
+      <lb ed="#P" n="55"/>humanam, cum ibi sint tria: talia essent tres 
+      ho<lb ed="#P" n="56" break="no"/>mines. Nec obstat quod sit ibi vna humanitas. 
+      <lb ed="#P" n="57"/>Quia homo non supponit pro humanitate: sed 
+      <lb ed="#P" n="58"/>pro subsistente habente humanttatem. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e517">
+               <lb ed="#P" n="59"/>Alij dicunt quod deberent dici vnus homo. 
+      <lb ed="#P" n="60"/>Quia terminus substam iuus habet (vt dicunt) 
+      vni<lb ed="#P" n="61" break="no"/>tatem &amp; pluralitatem a forma imporrata per tera 
+      <lb ed="#P" n="62"/>minum. Ist autem licet habeant 
+      contradictio<lb ed="#P" n="63" break="no"/>nem in verbis, non tamen contiadicunt rebus: 
+      <lb ed="#P" n="64"/>nam formaliter loquendo aliquo modo possint 
+      di<lb ed="#P" n="65" break="no"/>ci vnus ho mo: quia essent aliquo modo vnum in 
+      <lb ed="#P" n="66"/>habendo hominem. Sed accipiendo termittum 
+      <lb ed="#P" n="67"/>directe pro eo pro quo supponit in recto: essent 
+      <lb ed="#P" n="68"/>tres homines, non obstante vnitate humanitatis. 
+      <!--288.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>Nec tamen ex hoc sequitur quod sint similiter tres 
+      <lb ed="#P" n="70"/>dii. Quia diuina essentia est subsistens &amp; potest 
+      <lb ed="#P" n="71"/>dici Deus: &amp; ideo Deus potest supponere pro 
+      di<lb ed="#P" n="72" break="no"/>uina essentia. Non sic homo potest supponere pro 
+      <lb ed="#P" n="73"/>humanitate assumpta. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e556">
+               <lb ed="#P" n="74"/>Ponendo ergo quod sint tres homines, potest 
+      <lb ed="#P" n="75"/>responderi ad illud quod dicitur in oppositum 
+      <lb ed="#P" n="76"/>quod vnitas humanitatis non obstat (vt dictum 
+      <lb ed="#P" n="77"/>est). Quia homo non supponit pro humanitate in 
+      <lb ed="#P" n="78"/>recto: sed pro subsistente habente 
+      humanita<lb ed="#P" n="79" break="no"/>tem. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e572">
+               <lb ed="#P" n="80"/>Ponendo autem quod aliquo modo sit vnus 
+      <lb ed="#P" n="81"/>homo, quia sunt aliquo modo vnum in habendo 
+      <lb ed="#P" n="82"/>humanitatem: potest responderi ad illud quod 
+      <lb ed="#P" n="83"/>obiicitur in oppositum, quod quicquid 
+      praedica<lb ed="#P" n="84" break="no"/>retur de illo homine quantum ad ea que pertinent 
+      <lb ed="#P" n="85"/>ad naturam humanam, praedicaretur tie qualibet 
+      <lb ed="#P" n="86"/>persona scilicet homo risibilis niobilis, &amp; sic de 
+      <lb ed="#P" n="87"/>aliis: sed non oporteret quod quicquid 
+      praedica<lb ed="#P" n="88" break="no"/>retur de illo homine ratione alicuius personae 
+      prae<lb ed="#P" n="89" break="no"/>dicaretur ne qualibet persona. Et ideo non 
+      opor<lb ed="#P" n="90" break="no"/>tet quod Pater sit Filius, &amp; e conuerso, situt nec 
+      <lb ed="#P" n="91"/>etiam modo quontam Pater &amp; Filius sunt vnus 
+      <lb ed="#P" n="92"/>Deus, sequitur quod Pater sit Filius. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e603">
+               <lb ed="#P" n="93"/>Ad tertium dicendum quod stante 
+      hypo<lb ed="#P" n="94" break="no"/>rhesi quod vna persona haberet plures 
+      humanita<lb ed="#P" n="95" break="no"/>tes: posset dici personaliter, siue hyportatiee 
+      lo<lb ed="#P" n="96" break="no"/>quendo quod illa persona esset vnus homo. Nec 
+      <lb ed="#P" n="97"/>obstaret pluralitas humanitatis. Quia homo non 
+      <lb ed="#P" n="98"/>suppontt in recto pro humanitate: sed pro 
+      subsi<lb ed="#P" n="99" break="no"/>stente habente humanitatem. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e621">
+               <lb ed="#P" n="100"/>Quod autem obiicitur quod sequeretur quod 
+      <lb ed="#P" n="101"/>duo homines essent, quorumvnus esset alius. 
+      Di<lb ed="#P" n="102" break="no"/>cendum quod accipiendo sic duo homines: quod 
+      <lb ed="#P" n="103"/>vnus homo esser alius. Quia quantum ad 
+      perso<lb ed="#P" n="104" break="no"/>nam quae haberet vtramque humanitatem, essent 
+      <lb ed="#P" n="105"/>vnum: &amp; vnum habens ambas hmanitates. 
+      Sran<lb ed="#P" n="106" break="no"/>te enim hypothesi persona illa non posset dici. Ita 
+      <lb ed="#P" n="107"/>proprie duo homines sicut Socrates &amp; Plato: sed 
+      <lb ed="#P" n="108"/>aliquo modo scilicet in habendo plutes 
+      humani<lb ed="#P" n="109" break="no"/>tares dicerentur duo homines, quasi aliquid 
+      ha<lb ed="#P" n="110" break="no"/>bens duas humanitates. Ita quod plur. ficatio non 
+      <lb ed="#P" n="111"/>intelligeretur in supposito habente pro duo homo 
+      <lb ed="#P" n="112"/>directe supponit in recto: sed in na ura habita. 
+      <lb ed="#P" n="113"/>Quo autem homines sic dicti rat one suppositi 
+      ha<lb ed="#P" n="114" break="no"/>bentis sunt vnus homo: &amp; per consequens vnus 
+      <lb ed="#P" n="115"/>illorum est alius 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e658">
+               <lb ed="#P" n="116"/>De carne quars vertum assumpssie quulo 
+      <lb ed="#P" n="117"/>ante furrit: &amp; qualit assumpta sit. 
+      </p>
+            <p xml:id="hx2hx3-b96750-d1e666">
+               <lb ed="#P" n="118"/>Quaeritur etiam de carne Verbi, an priuo 
+      <lb ed="#P" n="119"/>quam concrperetur obliguta fuerit Peccator 
+      <lb ed="#P" n="120"/>&amp; an talir suerit assumpra a Verbo. Saue 
+      <lb ed="#P" n="121"/>ici potest, &amp; credi oportert iuxta sanctorum 
+      <lb ed="#P" n="122"/>ertefationus connenientiam ipsam: prase 
+      <lb ed="#P" n="123"/>Pecrate fuisse olnoxiam sicut reliqna Vir. 
+      <lb ed="#P" n="124"/>ginu care &amp;s. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="54"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b17423"><!-- l1d6q1 -->
+            <head xml:id="hx2hx3-b17423-Hd1e99">Quaestio 1</head>
+            <head xml:id="hx2hx3-b17423-Hd1e101" type="question-title">Utrum pater genuerit filium de necessitate</head>
+            <p xml:id="hx2hx3-b17423-d1e104">
+               <lb ed="#P" n="32"/>Praeterea quaeri solet vtrum Fater 
+      genue<lb ed="#P" n="33" break="no"/>tit Filium voluntate, an necessitate: 
+      <lb ed="#P" n="34"/>de hoc Crosius ad Augusti: &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b17423-d1e113">
+               <lb ed="#P" n="35"/>Distinctio sexta. 
+      <lb ed="#P" n="36"/>QVESTIO PRIMA. 
+      <lb ed="#P" n="37"/>Vtrum Pater genuerit Filium de necessitate:
+      </p>
+            <p xml:id="hx2hx3-b17423-d1e122">
+               <lb ed="#P" n="38"/>DIcunt quidam quod quaestio potest quaerere 
+      <lb ed="#P" n="39"/>vtrum Pater genuerit Filium necessitare; vel 
+      <lb ed="#P" n="40"/>utrum de necessitate. Si ergo quaeratur vtrum Pater 
+      <lb ed="#P" n="41"/>genuerit Filium de necessitate, sensus est, vtrum 
+      <lb ed="#P" n="42"/>genuerit eum necessario. Nam praepositio cum suo 
+      <lb ed="#P" n="43"/>eausali aequipollet aduerbio. Et quaerendo in isto 
+      <lb ed="#P" n="44"/>sensu distinguunt, quia si Nv necessario determinet 
+      <lb ed="#P" n="45"/>verbum, genuerit, in habitudine ad filium, est 
+      ve<lb ed="#P" n="46" break="no"/>ra: &amp; est sensus, Pater necessario genuit filium, id 
+      <lb ed="#P" n="47"/>est, necessarium fuit filio generari a Patre, quia 
+      ali<lb ed="#P" n="48" break="no"/>ter non esset nisi fuisset genitus a Patre. Si autem 
+      <lb ed="#P" n="49"/>determinet lv genuit in habitudine ad Patrem 
+      si<lb ed="#P" n="50" break="no"/>cut dicunt, est falsa: &amp; est sensus, Pater genuit 
+      ne<lb ed="#P" n="51" break="no"/>cessitate, id est, ab ali quo necessitatus. Ista posi, 
+      <lb ed="#P" n="52"/>tio peccat in tribus. Primo quia non videtur quod 
+      <lb ed="#P" n="53"/>generare de necessitate plus importet quam 
+      gene<lb ed="#P" n="54" break="no"/>rate necessario, quia quid quid fit necessitate fit 
+      <lb ed="#P" n="55"/>necessario. Et quidquid sit de distinctione in se, 
+      <lb ed="#P" n="56"/>haec intentio quaestionis est vtrum Pater genueriti 
+      <lb ed="#P" n="57"/>filium necessatio. Secundo deficit in expositione 
+      <lb ed="#P" n="58"/>quam facit quando dicit quod Pater genuit neces 
+      <lb ed="#P" n="59"/>satio, secundum quod ly necessario determinat li 
+      <lb ed="#P" n="60"/>genuerit in habitudine ad filium sub hoc sensu 
+      <lb ed="#P" n="61"/>quia scilicet necessarium fuit filio generari a Patre: 
+      <lb ed="#P" n="62"/>sed ex suppositione scilicet si debuit esse. 
+      Secun<lb ed="#P" n="63" break="no"/>dum quem modum etiam necessarium est creatu¬ 
+      <!--54.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>ram ereari, quia non potest esse nisi creetum. Nune 
+      <lb ed="#P" n="65"/>autem filium generari est absolute necessarium &amp; 
+      <lb ed="#P" n="66"/>sine aliqua suppositione. Ita non solum est vera 
+      <lb ed="#P" n="67"/>ista conditionalis quod si Filius debeat esse, 
+      neces<lb ed="#P" n="68" break="no"/>se est ipsum generari sed etiam absolute necesse est 
+      <lb ed="#P" n="69"/>ipsum &amp; esse &amp; generari. Tertio deficit quando 
+      <lb ed="#P" n="70"/>dicit quod si Ny necessario determinet ly genuit in 
+      <lb ed="#P" n="71"/>habitudine ad Patrem, quod sit falsa. Quia 
+      quae<lb ed="#P" n="72" break="no"/>ro vtium absolute sit necessarium Patrem 
+      genera<lb ed="#P" n="73" break="no"/>re aut non: Si non est: absolute necessarium 
+      Pa<lb ed="#P" n="74" break="no"/>trem generare: Ergo non necessario genuit. Sed 
+      <lb ed="#P" n="75"/>non nece sse &amp; possibile aequipollent: Ergo 
+      pos<lb ed="#P" n="76" break="no"/>sibile est Patrem non generare Filium, &amp; per 
+      <lb ed="#P" n="77"/>consequens contingenter generat, quod est 
+      absur<lb ed="#P" n="78" break="no"/>dum. Si autem absolute sit necessarium habeo 
+      pro<lb ed="#P" n="79" break="no"/>positum, quia Pater necessario genuit, secundum 
+      <lb ed="#P" n="80"/>quod ly necessario determinat ly genuit in 
+      habi<lb ed="#P" n="81" break="no"/>tudine ad Patrem. Quod autem dicitur quod 
+      i<lb ed="#P" n="82" break="no"/>dem esset ac si diceretur quod necessitatus 
+      gene<lb ed="#P" n="83" break="no"/>raret: dicendum quod falsum est. Nam 
+      necessa<lb ed="#P" n="84" break="no"/>rio agere vel esse vel aliquid tale, non est ide quod 
+      <lb ed="#P" n="85"/>esse necessitatus ad agendum: sed idem quod 
+      ha<lb ed="#P" n="86" break="no"/>bere habitudinem necessariam ad actum illum. 
+      <lb ed="#P" n="87"/>Quod quidem potest esse, &amp; per hoc quod 
+      neces<lb ed="#P" n="88" break="no"/>sitatur ab alia causa, &amp; per hoc quod hanc 
+      ne<lb ed="#P" n="89" break="no"/>cessitatem habet a seipso, non ab aliqua causa 
+      ne<lb ed="#P" n="90" break="no"/>cessitatus Et ideo sicut alii dicunt Dicendum quod 
+      <lb ed="#P" n="91"/>licet in Deo non habeat locum necessitas 
+      Co<lb ed="#P" n="92" break="no"/>actionis cum sit prima causa, nec necessitas ex 
+      <lb ed="#P" n="93"/>suppositione finis cum sit vltimus finis, nec habeat 
+      <lb ed="#P" n="94"/>alium finem propter quem fit; nec etiam 
+      quaecun<lb ed="#P" n="95" break="no"/>que necessitas absoluta cuius sit dare aliam 
+      cau<lb ed="#P" n="96" break="no"/>sam: est tamen ibi necessitas absolnta 
+      immutabili<lb ed="#P" n="97" break="no"/>tatis cuius nulla est alia causa secundum quam 
+      <lb ed="#P" n="98"/>Deus non potest esse aliter quam sit quia scilicet 
+      <lb ed="#P" n="99"/>non potest non esse Deus &amp; non esse tuinus &amp; vnus 
+      <lb ed="#P" n="100"/>&amp; non generare, &amp; sic de aliis quae naturaliter 
+      <lb ed="#P" n="101"/>conueniunt Deo. Et tali necessitate Pater genuit 
+      <lb ed="#P" n="102"/>Filium. Contra tamen Arrianos inueniuntur 
+      ali<lb ed="#P" n="103" break="no"/>qui sancti dixisse quod non generatur filius 
+      neces<lb ed="#P" n="104" break="no"/>sitate non vt tollerent talem necessitatem 
+      immu<lb ed="#P" n="105" break="no"/>tabilitatis, sed necessitatem coactionis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

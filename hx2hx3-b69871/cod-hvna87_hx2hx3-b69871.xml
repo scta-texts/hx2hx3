@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="209"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b69871"><!-- l2d3q2 -->
+            <head xml:id="hx2hx3-b69871-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b69871-Hd1e101" type="question-title">Utrum possint esse plures angeli differentes in eadem specie</head>
+            <p xml:id="hx2hx3-b69871-d1e104">
+               <lb ed="#P" n="49"/>Disinctio tertia. 
+      <lb ed="#P" n="50"/>QVAESTIO SECVNDA. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e111">
+               <lb ed="#P" n="51"/>SEcundo quaeritur, vtrum possint esse plures 
+      <lb ed="#P" n="52"/>Angeli differentes in eadem specie. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e118">
+               <lb ed="#P" n="53"/>Et arguitur quod sic: quia secundum 
+      Porphy<lb ed="#P" n="54" break="no"/>rium: De ratione speciei est, quod praedicetur de 
+      <lb ed="#P" n="55"/>pluribus differentibus numero in eo quod quid 
+      <lb ed="#P" n="56"/>actu vel aptitudine. Sed illud quod praedicatur de 
+      <lb ed="#P" n="57"/>pluribus differentibus numero in eo quod quid, 
+      <lb ed="#P" n="58"/>potest habere diuersa sub se de quibus praedicetur. 
+      <lb ed="#P" n="59"/>Ergo quaelibet species tam in Angelis, quam in aliis 
+      <lb ed="#P" n="60"/>potest habere plura indiuidua sub se. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e139">
+               <lb ed="#P" n="61"/>Item animae separatae non sunt compositae ex 
+      <lb ed="#P" n="62"/>materia &amp; forma, nec actu coniunguntur 
+      mate<lb ed="#P" n="63" break="no"/>riae, &amp; tamen sunt plures animae separatae. Ergo 
+      <lb ed="#P" n="64"/>non est inconueniens quod forma separata, qualis 
+      <lb ed="#P" n="65"/>est Angelus plurificetur numero sub eadem 
+      spe<lb ed="#P" n="66" break="no"/>cie. 
+      <!--209.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>Item de hoc est articulus qui dicit, quod Deus, 
+      <lb ed="#P" n="68"/>non posset facere plures intelligentias separatas in 
+      <lb ed="#P" n="69"/>eadem specie, quia non est in eis materia: 
+      ex<lb ed="#P" n="70" break="no"/>ror. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e168">
+               <lb ed="#P" n="71"/>Contra. In Angelis non potest esse distinctio 
+      <lb ed="#P" n="72"/>nisi secundum formam, cum sint formae 
+      subsi<lb ed="#P" n="73" break="no"/>stentes. Sed talis distinctio est specifica. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e177">
+               <lb ed="#P" n="74"/>Respondeo. Inhac quaestione tria sunt 
+      facien<lb ed="#P" n="75" break="no"/>da. Primo, videndum est vbi est disficultas primae 
+      <lb ed="#P" n="76"/>rationis. Secundo ponendae sunt opiniones. 
+      Tei<lb ed="#P" n="77" break="no"/>tio soluentur rationes. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e188">
+               <lb ed="#P" n="78"/>ARTICVLVS PRIMVS
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e193">
+               <lb ed="#P" n="79"/>Quantum ad primum, sciendum est quod 
+      di<lb ed="#P" n="80" break="no"/>uisio generis in species vniuersalei, speciei in 
+      indi<lb ed="#P" n="81" break="no"/>uidua, non est diuisio secundum rem, sed 
+      secun<lb ed="#P" n="82" break="no"/>dum rationem: quia ibi illud quod diuiditur non 
+      <lb ed="#P" n="83"/>est vnum secundum rem, sed secundum rationem 
+      <lb ed="#P" n="84"/>intelligendi: quando enim vnum lignum 
+      scindi<lb ed="#P" n="85" break="no"/>tur secundum rem, vnum lignum diuiditur in duo 
+      <lb ed="#P" n="86"/>ligna quae erant ante partes integrales ligni diuisit 
+      <lb ed="#P" n="87"/>Et quando lignum in communi diuiditur in hoc 
+      li<lb ed="#P" n="88" break="no"/>gnum &amp; illud, non accipitur aliquod vnum 
+      li<lb ed="#P" n="89" break="no"/>gnum numero quod sit vnum re: sed vnum 
+      ratio<lb ed="#P" n="90" break="no"/>ne: quia indistincte intelligimus, diuiditur in 
+      li<lb ed="#P" n="91" break="no"/>gna particularia sicut in partes subiectiuas quae 
+      <lb ed="#P" n="92"/>non sunt partes secundum rem, sed secundum 
+      ra<lb ed="#P" n="93" break="no"/>tionem. Non autem sic in partes integrales. Er 
+      <lb ed="#P" n="94"/>ideo ad hoc quod plura indiuidua differant in 
+      ea<lb ed="#P" n="95" break="no"/>dem specie, non oportet ponere in illa natura 
+      diui<lb ed="#P" n="96" break="no"/>sionem realem alicuius vnius quod diuiditur 
+      rea<lb ed="#P" n="97" break="no"/>liter in multa. Rursum non videtur necessarium, 
+      <lb ed="#P" n="98"/>quod si aliquid distinguitur ab alio per formam 
+      <lb ed="#P" n="99"/>quod distinguatur ab eo specie. Nam aliquid 
+      po<lb ed="#P" n="100" break="no"/>test distingui ab alio per formam dupliciter. Vno 
+      <lb ed="#P" n="101"/>modo quod distinguatur per formam, secundum 
+      absolu<lb ed="#P" n="102" break="no"/>tam rationem formae, prout est talis forma specifica, 
+      <lb ed="#P" n="103"/>&amp; quod distinguitur per formam ab alio, necesse 
+      <lb ed="#P" n="104"/>estdifferre ab eo specie. Alio modo potest aliquid 
+      <lb ed="#P" n="105"/>differre per formam ab alia non secundum 
+      abso<lb ed="#P" n="106" break="no"/>lutam rationem formae, sed secundum quod haec 
+      <lb ed="#P" n="107"/>forma. Et sic differunt numero duae quantitates: 
+      <lb ed="#P" n="108"/>separatae enim a materia vel realiter virtute 
+      diui<lb ed="#P" n="109" break="no"/>na, vel per intellectum abstrahentem 
+      mathema<lb ed="#P" n="110" break="no"/>tica a naturalibus, adhuc differrent numero, &amp; il. 
+      <lb ed="#P" n="111"/>la differentia esset per formam quae est quantitas: 
+      <lb ed="#P" n="112"/>quia quantitas est quaedam forma. Et sic etiam 
+      dif<lb ed="#P" n="113" break="no"/>ferunt animae separatae, quia non potest dici quod. 
+      <lb ed="#P" n="114"/>tunc actu differant per aliquid diuersum ab 
+      essen<lb ed="#P" n="115" break="no"/>tia sua: quia tunc materiae non coniunguntur. Nec 
+      <lb ed="#P" n="116"/>etiam relatio ad materiam sufficit, cum relatio sit 
+      <lb ed="#P" n="117"/>posterior relato, &amp; magis habeat indiuiduari per 
+      <lb ed="#P" n="118"/>suum subiectum quam econuerso. Et sic videtur 
+      <lb ed="#P" n="119"/>quod non sit sufficiens causa quod aliqua differant 
+      <lb ed="#P" n="120"/>specie, nisi quia differunt per formam. Item etiam 
+      <lb ed="#P" n="121"/>propter hoc quia omnia conueniunt in natura 
+      spe<lb ed="#P" n="122" break="no"/>ciei non videtur necessarium quod natura speciei 
+      <lb ed="#P" n="123"/>non sit causa distinguens indiuidua secundum 
+      <lb ed="#P" n="124"/>rem. Quia licet illud in quo aliqua conueniunt 
+      rea<lb ed="#P" n="125" break="no"/>liter, &amp; sicut in vno secundum rem, non possit ea 
+      <lb ed="#P" n="126"/>distinguere secundum rem; non tamen videtur 
+      ne<lb ed="#P" n="127" break="no"/>cessarium, quod illud in quo aliqua conueniunt 
+      se<lb ed="#P" n="128" break="no"/>cundum rationem, quod per illud non 
+      distin<lb ed="#P" n="129" break="no"/>guantur secundum rem; imo oppositum videtur 
+      <lb ed="#P" n="130"/>necessarium: quia cum in quolibet indiuiduo 
+      eius<lb ed="#P" n="131" break="no"/>dem speciei inueniatur illud quod est principium 
+      <lb ed="#P" n="132"/>distinctiuum aliorum, alioquin in illo, in quo 
+      <lb ed="#P" n="133"/>non esset, non esset distinctum: oportet quod 
+      indi<lb ed="#P" n="134" break="no"/>uidua conuentmnt secundum vnitatem tatione in 
+      <!--210.xml-->
+      <pb ed="#P" n="210"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>eo quod est distinctiuum indiuiduorum. Cum 
+      er<lb ed="#P" n="2" break="no"/>go indiuidua non conueniant in forma nisi 
+      secun<lb ed="#P" n="3" break="no"/>dum vnitatem rationis, non videtur necessarium, 
+      <lb ed="#P" n="4"/>quod indiuidua ciusdem specier non possint 
+      distin<lb ed="#P" n="5" break="no"/>gur per formam, circumse ipta quantitate, &amp; 
+      qua<lb ed="#P" n="6" break="no"/>cunque materia. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e336">
+               <lb ed="#P" n="7"/>Ulterius sciendum quod licet diuisio generis 
+      <lb ed="#P" n="8"/>in species, vel speciei in ind u dua non sit diuisio 
+      <lb ed="#P" n="9"/>secundum rem, quantum ad hoc quod sit ib dare 
+      <lb ed="#P" n="10"/>vnum: secundum rem, qua separatione partium 
+      <lb ed="#P" n="11"/>diuidatur: tamen partes subiectiuae in quas 
+      diuidi<lb ed="#P" n="12" break="no"/>tur genus vel species, sunt realiter diuersae &amp; 
+      <lb ed="#P" n="13"/>distinctae, &amp; ideo oportet quod habeant aliquod 
+      <lb ed="#P" n="14"/>reale in se per quod realiter vnum est diuersum ab 
+      <lb ed="#P" n="15"/>alio: sicuthomo realiter differt a bruto pen animam 
+      <lb ed="#P" n="16"/>rationalem. Et sic oportet ponere in Socrate 
+      ali<lb ed="#P" n="17" break="no"/>quid reale per quod realiter d ffert a Platone 
+      quic<lb ed="#P" n="18" break="no"/>quid sit illud, siue illud sit sua foma, siue aliquid 
+      <lb ed="#P" n="19"/>aliud. Sed quia, vt ex dictis videtur, difficile est 
+      vi<lb ed="#P" n="20" break="no"/>dete quin ista dist nctio possit esse per formam: 
+      dif<lb ed="#P" n="21" break="no"/>ficultatem videtur habere illa positio quae dicit, 
+      <lb ed="#P" n="22"/>impossibile esse plures Angelos in eadem specie 
+      <lb ed="#P" n="23"/>esse. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e376">
+               <lb ed="#P" n="24"/>ARTICVLVS SECVNDVS. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e381">
+               <lb ed="#P" n="25"/>Qvantum ad secundum sciendum, quod 
+      <lb ed="#P" n="26"/>quidam ex praedictis, &amp; quibusdam aliis 
+      <lb ed="#P" n="27"/>mou, dicunt quod in omni specie cuiuscunque 
+      <lb ed="#P" n="28"/>naturae creatae, possunt esse plura differentia 
+      nu<lb ed="#P" n="29" break="no"/>mero. Illud autem per quod distinguitur, est, vt 
+      <lb ed="#P" n="30"/>dicunt, non ipsa forma secundum se: sed hoc quod 
+      <lb ed="#P" n="31"/>est esse indistinctum in se, quod importat 
+      nega<lb ed="#P" n="32" break="no"/>tionem diuisionis sn seipso, &amp; esse distinctum ab 
+      <lb ed="#P" n="33"/>alio quid importat negarionem secundum quam &amp; 
+      <lb ed="#P" n="34"/>hoc non est illud: quaequidem, vt dicunt, duplex 
+      <lb ed="#P" n="35"/>negatio distinguit vnum ab alio. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e407">
+               <lb ed="#P" n="36"/>Sed istud nihil est dictu: quia nogatio pura non 
+      <lb ed="#P" n="37"/>potest distinguere positiuum a positiuo. Licet enim 
+      <lb ed="#P" n="38"/>negatio possit d stinguere purum negatiuum a 
+      po<lb ed="#P" n="39" break="no"/>sitiuo: tamen negatio non potest distinguere 
+      posi<lb ed="#P" n="40" break="no"/>tiuum a posit iuo: imo negatio qua negatur 
+      posi<lb ed="#P" n="41" break="no"/>tiuum a pasitiuo, oportet fundari super aliquod 
+      po<lb ed="#P" n="42" break="no"/>sitiuum,e quod positiuum distinguatur b alio. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e425">
+               <lb ed="#P" n="43"/>Alia opinio est quae dicit, quod in Angelis 
+      impos<lb ed="#P" n="44" break="no"/>sibile est plures esse in eadem specie. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e432">
+               <lb ed="#P" n="45"/>Ad cuius euidentiam est sciendum, quod licet 
+      <lb ed="#P" n="46"/>differentia quae est per formam, quando illa 
+      diffe<lb ed="#P" n="47" break="no"/>rentia non accipitur secundum absolutam 
+      ratio<lb ed="#P" n="48" break="no"/>nem formae, sed secundum quod haec forma non 
+      <lb ed="#P" n="49"/>faciat differentiam specificam, sed numeralem: 
+      <lb ed="#P" n="50"/>sicut differunt animae separatae, &amp; quantitates 
+      se<lb ed="#P" n="51" break="no"/>paratae: tamen illae quae differunt performam 
+      se<lb ed="#P" n="52" break="no"/>cundum rationem absolutam formae specificae, 
+      o<lb ed="#P" n="53" break="no"/>portet quod d fferant specifice. Illud enim a quo 
+      <lb ed="#P" n="54"/>differt linea, in eo quod linea absoluta, oportet 
+      <lb ed="#P" n="55"/>esse nonlineam. Si ergo est aliqu forma 
+      separa<lb ed="#P" n="56" break="no"/>ta quae non possit differre ab alia nisi secundum 
+      <lb ed="#P" n="57"/>absolutam rationem formae, oportet quod differat 
+      <lb ed="#P" n="58"/>ab omni eo a quo d ffert specifice: &amp; per 
+      conse<lb ed="#P" n="59" break="no"/>quens impossibile est inuenire in ea plura eiusdem 
+      <lb ed="#P" n="60"/>speciei. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e469">
+               <lb ed="#P" n="61"/>Sic autem videtur esse in Angelis. Nam cum 
+      <lb ed="#P" n="62"/>omnis forma sub se habens multa, habeat 
+      quan<lb ed="#P" n="63" break="no"/>dam latitudinem: forma autem duplicem 
+      latitu<lb ed="#P" n="64" break="no"/>dinem pessit habere: vnam secundum diuersos 
+      gra<lb ed="#P" n="65" break="no"/>dus formales: quorum vnus secundum se est 
+      no<lb ed="#P" n="66" break="no"/>bilior &amp; perfectior altero. Et hoc est latitudo 
+      ge<lb ed="#P" n="67" break="no"/>neris, sub quo sunt diuersi gradus formales 
+      speci<lb ed="#P" n="68" break="no"/>fice differentes. Aliam vero secundum plurifica¬ 
+      <!--210.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>tionem numeralem in eodem gradu. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e496">
+               <lb ed="#P" n="70"/>Prima conuenit farmis secundum suam 
+      ratio<lb ed="#P" n="71" break="no"/>nem specificam absolurte acceptam. Secunda 
+      au<lb ed="#P" n="72" break="no"/>tem latitudo non potest conuenire fo mis 
+      secun<lb ed="#P" n="73" break="no"/>dum suam rationem absolutam. Nam, sicut 
+      di<lb ed="#P" n="74" break="no"/>ctum est, quae secundum absolutam rationen, 
+      for<lb ed="#P" n="75" break="no"/>mae specificae differunt, oportet differre specie Et 
+      <lb ed="#P" n="76"/>ideo, oportet quod forma in qua talis latitudo 
+      in<lb ed="#P" n="77" break="no"/>uenitur, importet aliquid in sua ratione per quod 
+      <lb ed="#P" n="78"/>conueniat sibi talis latitudo, quae sit aliud ab 
+      abso<lb ed="#P" n="79" break="no"/>luta ratione formae. Et quia sic plurificari, 
+      vide<lb ed="#P" n="80" break="no"/>tur importare quandam potentialitatem &amp; 
+      imper<lb ed="#P" n="81" break="no"/>fectionem: quia forma quae est actus purus, non 
+      <lb ed="#P" n="82"/>potest plurificari. Qporter quod illud quod 
+      inclu<lb ed="#P" n="83" break="no"/>ditur in ratione talis formae, vt est plurificibilis, 
+      <lb ed="#P" n="84"/>importet aliquam potentialitatem &amp; 
+      imperfectio<lb ed="#P" n="85" break="no"/>nem. In formis autem non videtur quod possit esse 
+      <lb ed="#P" n="86"/>imperfectio, nisi vel secundum quod vna est in 
+      gra<lb ed="#P" n="87" break="no"/>du formali ii feriori quam alia: quod ad 
+      differen<lb ed="#P" n="88" break="no"/>tiam pertinet, vel secundum quod nata est habere 
+      <lb ed="#P" n="89"/>rationem partis alicuius totius: non solum 
+      secun<lb ed="#P" n="90" break="no"/>dum rationem, quod etiam conuenit formae 
+      se<lb ed="#P" n="91" break="no"/>cundum absolutam rationem formae specificae, 
+      in<lb ed="#P" n="92" break="no"/>quantum species sunt partes subiectiue ipsius 
+      gene<lb ed="#P" n="93" break="no"/>ris: sed etiam secundum rem, vel sicut forma 
+      acci<lb ed="#P" n="94" break="no"/>dentalis est pars compositi accidentalis ex forma 
+      <lb ed="#P" n="95"/>accidentali &amp; subiecto: vel sicut quantitas minor 
+      <lb ed="#P" n="96"/>quae nata est esse pars moioris quantitatis in toto 
+      <lb ed="#P" n="97"/>quantitatiuo. vel forma substanti lis quae informat 
+      <lb ed="#P" n="98"/>materiam, &amp; est pars substantiae compositae. Hoc 
+      <lb ed="#P" n="99"/>autem non sic inte ligitur quasi forme sic 
+      plurifi<lb ed="#P" n="100" break="no"/>catae sint necessario partes secundum rem speciei 
+      <lb ed="#P" n="101"/>communis praedicantis de eis: ita quod forma cum 
+      <lb ed="#P" n="102"/>alio cum quo constituit aliquod totum reale, 
+      con<lb ed="#P" n="103" break="no"/>tineatur sub specie sicut partes subiectiuae: sed 
+      <lb ed="#P" n="104"/>quia ad hoc quod tales formae plur ficentur sub 
+      <lb ed="#P" n="105"/>specie, oportet quod habeat illam 
+      potentialita<lb ed="#P" n="106" break="no"/>tem quae facit partem realem. Vnde &amp; ista 
+      poten<lb ed="#P" n="107" break="no"/>tialitas per quam anima per essentiam suam nata 
+      <lb ed="#P" n="108"/>est esse pars compositi, dat ei quandam 
+      latitudi<lb ed="#P" n="109" break="no"/>nem plurifi. ationis secundum eundem gradum, 
+      <lb ed="#P" n="110"/>non obstante quod actu non informet materiam. 
+      <lb ed="#P" n="111"/>Et quia essenti: Angeli non est pars alicuius totius, 
+      <lb ed="#P" n="112"/>nec nata est esse: ideo in forma Angeli non potest 
+      <lb ed="#P" n="113"/>accipi differentia nisi secundum absolutam 
+      ratio<lb ed="#P" n="114" break="no"/>nem formae. Et ideo secundum illos de secundae 
+      o<lb ed="#P" n="115" break="no"/>pinione, in eis vnus non potest differre ab alio nisi 
+      <lb ed="#P" n="116"/>specifice, propter quod mn vna specie non 
+      pos<lb ed="#P" n="117" break="no"/>sunt esse plures. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e603">
+               <lb ed="#P" n="118"/>Sed contra hoc potest obiici: quia natura 
+      An<lb ed="#P" n="119" break="no"/>geli, saltem potest esse pars compositi ex 
+      substan<lb ed="#P" n="120" break="no"/>tia &amp; accidente. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e612">
+               <lb ed="#P" n="121"/>Ad hoc dicendum, quod illa potentialitas quae 
+      <lb ed="#P" n="122"/>facit dictam latitudinem, requirit quod forma 
+      <lb ed="#P" n="123"/>habens dictam latitudinem ita sit pars, quod 
+      per<lb ed="#P" n="124" break="no"/>fectio sui generis, vel suae speciei dependeat ex 
+      <lb ed="#P" n="125"/>ila partialitate: nune autem ratio accidentis fpecifica 
+      <lb ed="#P" n="126"/>dependet ex proprio subiecto, &amp; non econuerso. 
+      <lb ed="#P" n="127"/>Anima etiamsine eo cuius est pars, non habet 
+      ratio<lb ed="#P" n="128" break="no"/>nem speciei completae non sic est de esse Angeli. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e632">
+               <lb ed="#P" n="129"/>Sustinendo ergo istam secundam opinionem, 
+      <lb ed="#P" n="130"/>posset dici ad primum, quod Verbum Porphirii 
+      <lb ed="#P" n="131"/>est intelligendum de speciebus rerum sensibilium 
+      <lb ed="#P" n="132"/>nobis notarum, non autem de spititualibus. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e643">
+               <lb ed="#P" n="133"/>Ad secundum patet ex dictis.
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e648">
+               <lb ed="#P" n="134"/>Ad tertium potest dici, vel quod Dominus 
+      <lb ed="#P" n="135"/>Episcopus intellexerit dicere, quod Deus hoc 
+      <lb ed="#P" n="136"/>non posset facere, ita quod hoc esset ex 
+      impoten<lb ed="#P" n="137" break="no"/>tia Dei, esset erroneum. Non autem quod sit 
+      erro<lb ed="#P" n="138" break="no"/>neum iunpliciter, hoc a Deo non posse fieri: sicut 
+      <!--211.xml-->
+      <pb ed="#P" n="211"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>etiam Augustinus de filio Dei loquens dicit. Non 
+      <lb ed="#P" n="2"/>enim non potuit generare: sed non oportuit: cum 
+      <lb ed="#P" n="3"/>tamen impossibile sit filium generare. Vnde ibi, 
+      <lb ed="#P" n="4"/>non enim non potuit pro eo quod est quod filium 
+      <lb ed="#P" n="5"/>generare: non ex inpotentia vel defectu potentiae 
+      <lb ed="#P" n="6"/>m filio fuit. 
+      </p>
+            <p xml:id="hx2hx3-b69871-d1e682">
+               <lb ed="#P" n="7"/>Vel potest dici, &amp; forte melius, quod artieulus 
+      <lb ed="#P" n="8"/>est intelligendus sic, quod dicere quod Deus non 
+      <lb ed="#P" n="9"/>posset facere plures Angelos in eadem specie, sit 
+      <lb ed="#P" n="10"/>error, ponendo propter causam quae sequitur: ita 
+      <lb ed="#P" n="11"/>quod dicere quod propter hanc causam Deus non 
+      <lb ed="#P" n="12"/>posset facere plures Angelos: quia non est in eis 
+      <lb ed="#P" n="13"/>materia, esset error. Quia sequeretur quod non 
+      <lb ed="#P" n="14"/>esse possunt plures animae separatae cum in eis non 
+      <lb ed="#P" n="15"/>sit materia: non autem quin impossibile sit 
+      simpli<lb ed="#P" n="16" break="no"/>citer quacumque virture quod sint duo Angeli 
+      e<lb ed="#P" n="17" break="no"/>iusdem speciei. Et si sic intellexit: bene quidem. 
+      <lb ed="#P" n="18"/>Si autem aliter, quicquid esset contrarium eius 
+      <lb ed="#P" n="19"/>intentioni: habeatur per nondicto. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

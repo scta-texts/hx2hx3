@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="226"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b75779"><!-- l2d8q3 -->
+            <head xml:id="hx2hx3-b75779-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-b75779-Hd1e101" type="question-title">Utrum angelus naturaliter possit videre cogitationes</head>
+            <p xml:id="hx2hx3-b75779-d1e104">
+               <lb ed="#P" n="11"/>QVASTIO TERT1A. 
+      <lb ed="#P" n="12"/>TErtio quaeritur, vtrum Angelus naturaliter 
+      <lb ed="#P" n="13"/>possit videre cogitationes cordium. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e113">
+               <lb ed="#P" n="14"/>Et arguitur quod non. Quia quod est proprium 
+      <lb ed="#P" n="15"/>Dei, non conuenit Angelo. Sed videre 
+      cogitatio<lb ed="#P" n="16" break="no"/>nes cordium est proprium Dei: quia dicit Hiero. 
+      <lb ed="#P" n="17"/>nymus 1y. Prauum est cor hominis, &amp; 
+      inscrutabi<lb ed="#P" n="18" break="no"/>le, quis cognoscet illud, ego Dominus scrutans cor 
+      <lb ed="#P" n="19"/>&amp; probans renes. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e129">
+               <lb ed="#P" n="20"/>Praeterea, si Angelus naturaliter posset videre 
+      <lb ed="#P" n="21"/>cogitationem cordis, tunc Angelus damnatus 
+      pos<lb ed="#P" n="22" break="no"/>set videre visionem beatam quae est in intellectu 
+      <lb ed="#P" n="23"/>creato. Sed hoc est inconueniens. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e141">
+               <lb ed="#P" n="24"/>Contra. Sicut se habet sensus ad sensibilia eita 
+      <lb ed="#P" n="25"/>intellectus ad intelligibilia. Sed sensus potest 
+      co<lb ed="#P" n="26" break="no"/>gnoscere omnia sensibilia. Ergo intellectus, 
+      sal<lb ed="#P" n="27" break="no"/>tem ille qui non dependet a sensu, potest videre 
+      <lb ed="#P" n="28"/>omnia intelligibilia. Sed cogitationes intellectus 
+      <lb ed="#P" n="29"/>sunt quaedam res intelligibiles. Ergo intellectus 
+      se<lb ed="#P" n="30" break="no"/>paratus potest ea videre. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e159">
+               <lb ed="#P" n="31"/>Respondeo. Primo distinguendum est de 
+      co<lb ed="#P" n="32" break="no"/>gnitione alicuius Nam aliquid potest videri 
+      dupli<lb ed="#P" n="33" break="no"/>citer, scilicet inse, vel in suo effectu. Modo 
+      om<lb ed="#P" n="34" break="no"/>nes concedunt quod Angelus potest videre 
+      eogita<lb ed="#P" n="35" break="no"/>tione, codium, siue mentium in suo effectu quia 
+      <lb ed="#P" n="36"/>hic cor accipimus pro mente. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e175">
+               <lb ed="#P" n="37"/>Vnde secundum impressiones passionum quae 
+      <lb ed="#P" n="38"/>redundant vel in corpus quantum ad passiones 
+      na<lb ed="#P" n="39" break="no"/>turales, vel in imaginatione ex eis quae mens 
+      ho<lb ed="#P" n="40" break="no"/>minis cogitat, potest videre eum cogirare hoc vel 
+      <lb ed="#P" n="41"/>illud secundum exigentiam illius effectus: vt si 
+      vi<lb ed="#P" n="42" break="no"/>det euin frigescere, potest videre quod timet, &amp; 
+      <lb ed="#P" n="43"/>sic de aliis. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e193">
+               <lb ed="#P" n="44"/>Et quia in hoc omnes concordant, &amp; istum 
+      mo<lb ed="#P" n="45" break="no"/>dum satis diffuse tractant, ideo praetermitto. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e200">
+               <lb ed="#P" n="46"/>Quantum ad cognoscendum cogitationes in se. 
+      <lb ed="#P" n="47"/>Dico, quod cogitatio potest comparari ad tria, 
+      <lb ed="#P" n="48"/>scilicet ad intellectum quem informat, &amp; ad 
+      vo<lb ed="#P" n="49" break="no"/>luntatem quam inclinat, &amp; ad rem quam 
+      reprae<lb ed="#P" n="50" break="no"/>sentat. Si cogitatio comparetur ad intellectum 
+      <lb ed="#P" n="51"/>quem informat. Quaerere vtrum Angelus possit 
+      <lb ed="#P" n="52"/>naturaliter videre cogitationem alterius, est 
+      quae<lb ed="#P" n="53" break="no"/>rere, vtrum quando intelligit homo, Angelus 
+      vi<lb ed="#P" n="54" break="no"/>deat ipsum esse in actu intelligendi: ita quod 
+      vi<lb ed="#P" n="55" break="no"/>deat eius cogitationem in eius intellectu 
+      existen<lb ed="#P" n="56" break="no"/>tentem. Et quamuis aliqui teneant quod non. 
+      Ta<lb ed="#P" n="57" break="no"/>men mihi videtur quod sic. Quia vnus Angelus 
+      po<lb ed="#P" n="58" break="no"/>test videre cogitationem alterius, &amp; similiter 
+      co<lb ed="#P" n="59" break="no"/>gitationem hominis: &amp; hoc ad praesens ostenditur 
+      <lb ed="#P" n="60"/>duplici ratione. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e235">
+               <lb ed="#P" n="61"/>Prima talis est. Quod aliqua potentia 
+      cognos<lb ed="#P" n="62" break="no"/>citiua non possit in aliquod cognoscibile, vel 
+      pro<lb ed="#P" n="63" break="no"/>uenit ex defectu potentiae, sicut visus infectus non 
+      <lb ed="#P" n="64"/>potest videre aliquando aliquod visibile quod 
+      vi<lb ed="#P" n="65" break="no"/>deret si non esset visus infectus. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e249">
+               <lb ed="#P" n="66"/>vel ratione obiecti. Sed intellectus Angeli 
+      neu<lb ed="#P" n="67" break="no"/>tro istorum modorum impeditur a cognoscendo 
+      <lb ed="#P" n="68"/>sgitationem alterius. Ergo &amp;e: Maior patetudi¬ 
+      <!--226.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>nor probatur, &amp; primo quantum ad 
+      impedimen<lb ed="#P" n="70" break="no"/>tum potentia, pateti Quia potentia intellectiua 
+      <lb ed="#P" n="71"/>cum non sit in organo, non est susceptiua 
+      disposi<lb ed="#P" n="72" break="no"/>tionis impedientis, &amp; praecipue potentia 
+      suscepti<lb ed="#P" n="73" break="no"/>ua substantiae separatae. Nec etiam est impedimem. 
+      <lb ed="#P" n="74"/>tum ex parte formalis rationis obiecti. Quia po 
+      <lb ed="#P" n="75"/>tentia intellectiua Angeli se extendit sicut ad suum 
+      <lb ed="#P" n="76"/>obiectum formale ad omne ens naturale, 
+      distin<lb ed="#P" n="77" break="no"/>guendo naturale eontra supernaturale. Sed talis 
+      <lb ed="#P" n="78"/>cogitatio est quaedam res naturalis &amp; naturaliter 
+      <lb ed="#P" n="79"/>intelligibilis: aliter nec ille in quo esset, posset, 
+      <lb ed="#P" n="80"/>cognoscere eam. Ergo ralis cogitatio cadit sub 
+      <lb ed="#P" n="81"/>formali obiecto intellectus Angelici. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e291">
+               <lb ed="#P" n="82"/>Item etiam, vt videtur mihi, quodcunque 
+      ac<lb ed="#P" n="83" break="no"/>cidens spirituale est obiectum magis 
+      proportiona<lb ed="#P" n="84" break="no"/>tum intellectui Angeli, quam quodcunque 
+      acci<lb ed="#P" n="85" break="no"/>dens corporale. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e302">
+               <lb ed="#P" n="86"/>vnde si videt naturaliter vt per se obiecta, &amp; 
+      <lb ed="#P" n="87"/>proportionata accidentia corporalia, etiam ipsas 
+      o<lb ed="#P" n="88" break="no"/>perationes fantasiae, &amp; aliorum corporalium: 
+      mul<lb ed="#P" n="89" break="no"/>to plus potest videre operationes intellectus. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e313">
+               <lb ed="#P" n="90"/>Secunda ratio principalis est: quia omnes 
+      con<lb ed="#P" n="91" break="no"/>cedunt, quod vnus Angelus naturaliter videt 
+      spe<lb ed="#P" n="92" break="no"/>cies intelligibiles alterius. Sed actus intelligendi 
+      <lb ed="#P" n="93"/>est magis actuale, &amp; per consequens magis 
+      intelli<lb ed="#P" n="94" break="no"/>gibile quam species. Ergo qua ratione videt 
+      spe<lb ed="#P" n="95" break="no"/>ciem, eadem rationo videt etiam actum 
+      intelligen<lb ed="#P" n="96" break="no"/>di: nisi dicatur, quod propter excessum sui actus, 
+      <lb ed="#P" n="97"/>sit: proportionatus intellectui creato, sicut est de 
+      <lb ed="#P" n="98"/>Deo, quod falsum est. Alioquin a nullo intellectu 
+      <lb ed="#P" n="99"/>creato, etiam ab illo in quo est, non posset 
+      vi<lb ed="#P" n="100" break="no"/>deri. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e339">
+               <lb ed="#P" n="101"/>Si autem comparetur ad voluntatem quam 
+      in<lb ed="#P" n="102" break="no"/>clinat. Sic quaerere, vtrum vnus Angelus videat 
+      na<lb ed="#P" n="103" break="no"/>turaliter cogitationem alterius, est quaerere, vtrum 
+      <lb ed="#P" n="104"/>videat afficici &amp; esse in actu volendi, siue afficiatur 
+      <lb ed="#P" n="105"/>ad rem cogitatam, siue ad ipsam cogitationem. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e352">
+               <lb ed="#P" n="106"/>Et quantum ad hoc videtur mihi, quod 
+      quan<lb ed="#P" n="107" break="no"/>tum ad substantiam actus volendi, vnus Angelus 
+      <lb ed="#P" n="108"/>videat cogitationem alterius, id est, videt ipsum 
+      <lb ed="#P" n="109"/>velle, siue velit id quod cogitar, siue velit ipsam 
+      co<lb ed="#P" n="110" break="no"/>gitationem. Sed aliquo modo ordo affectionis ad 
+      <lb ed="#P" n="111"/>illud ad quod afficitur, potest ipsum latere: vt si 
+      ali<lb ed="#P" n="112" break="no"/>quis cogitet de aliquo in ordine ad plura: quia 
+      plu<lb ed="#P" n="113" break="no"/>ra possunt videri in ordine ad aliquod vnum, puta 
+      <lb ed="#P" n="114"/>cogitat de domo pulchra, &amp; lata, &amp; lucrosa, vel 
+      <lb ed="#P" n="115"/>cogitat de subuertendo luxuriosum, &amp; 
+      homici<lb ed="#P" n="116" break="no"/>dam, vel aliquid tale: potest tamen ignorare 
+      ratio<lb ed="#P" n="117" break="no"/>ne cuius de istis pluribus magis afficiatur. vel si 
+      <lb ed="#P" n="118"/>ratione omnium afficitur potest ignorare ratione 
+      <lb ed="#P" n="119"/>cuius magis afficitur. Quia forte talia modicum 
+      <lb ed="#P" n="120"/>veritatem faciunt in actu volendi, &amp; maxime si 
+      <lb ed="#P" n="121"/>idem actus volendi specie quantum ad speciem 
+      <lb ed="#P" n="122"/>naturae possit esse a diuersis volitis, sicut a causa ae 
+      <lb ed="#P" n="123"/>quiuoca, sicut calor idem specie potest causari ab 
+      <lb ed="#P" n="124"/>igne, &amp; a sole. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e397">
+               <lb ed="#P" n="125"/>Quod autem substantiam actus volendi videat: 
+      <lb ed="#P" n="126"/>eo modo videtur posse probari, sicut dictum est de 
+      <lb ed="#P" n="127"/>actu intelligendi. Ratio autem quare quantum ad 
+      <lb ed="#P" n="128"/>aliquid possit latere modo quo praedictum est, vel 
+      <lb ed="#P" n="129"/>alio, est quia pauca possumus scire pro certo de 
+      An<lb ed="#P" n="130" break="no"/>gelis, vt infra ponetur, scilicet ostenso, quod 
+      co<lb ed="#P" n="131" break="no"/>gnitio ad illud quod repraesentat, possit sciri, vel 
+      la<lb ed="#P" n="132" break="no"/>tere, de quo statim dicendum est. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e417">
+               <lb ed="#P" n="133"/>Si autem quaeratur de cogitatione quantum ad 
+      <lb ed="#P" n="134"/>illud quod repraesentat, vtrum vnus Angelus 
+      vi<lb ed="#P" n="135" break="no"/>deat cogitationem alterius idem est ac si quaeratur, 
+      <lb ed="#P" n="136"/>vtrum vnus videat de quo cogitat alius. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e428">
+               <lb ed="#P" n="137"/>Ad hoc dicunt quidam, quod quia Angelus per 
+      <lb ed="#P" n="138"/>msenis speciem, &amp; per vnum conceptum numero, 
+      <!--227.xml-->
+      <pb ed="#P" n="227"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>potest videre nunc hoc, nunc illud, puta per 
+      spe<lb ed="#P" n="2" break="no"/>ciem volucrum, &amp; per vnum &amp; eundem 
+      conce<lb ed="#P" n="3" break="no"/>ptum potest intelligere nunc miluum, nunc 
+      vulte<lb ed="#P" n="4" break="no"/>rem.
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e450">
+               <lb ed="#P" n="5"/>Vnde etiam homo, vel Angelus per eadem 
+      spe<lb ed="#P" n="6" break="no"/>cem, &amp; per eundem conceptum, potest 
+      intellige<lb ed="#P" n="7" break="no"/>re opposita puta, cutuum, &amp; rectum i 
+      affirmatio<lb ed="#P" n="8" break="no"/>nem &amp; negationem. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e461">
+               <lb ed="#P" n="9"/>Ideo dicunt quod licet vnus Angelus videat 
+      <lb ed="#P" n="10"/>alium Angelum cogitare de volucribus in 
+      genera<lb ed="#P" n="11" break="no"/>li: quin vtitur specie volucrum: non tamen sciet 
+      <lb ed="#P" n="12"/>in speciali vtrum cogitet de vulture an de alia aue. 
+      <lb ed="#P" n="13"/>Dato etiam quod videat Angelum vel hominem 
+      <lb ed="#P" n="14"/>cogitare de aliquo in speciali, puta de homine 
+      al<lb ed="#P" n="15" break="no"/>bedo: nescit tamen vtrum cogitet affitmatiue vel 
+      <lb ed="#P" n="16"/>negatiue. Puta vtrum cogitet hominem album, 
+      <lb ed="#P" n="17"/>vel non album 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e483">
+               <lb ed="#P" n="18"/>Et si videt cogitationem de fuga, nesciet vtrum 
+      <lb ed="#P" n="19"/>cogitet de fuga affirmatiue cogitando fugere: 
+      <lb ed="#P" n="20"/>aut negatiue cogitando non fugere. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e493">
+               <lb ed="#P" n="21"/>Ista autem non videntur mihi vera. Quia si 
+      in<lb ed="#P" n="22" break="no"/>telligunt quod per vnum conceptum numero 
+      An<lb ed="#P" n="23" break="no"/>gelus possit intelligere nunc vulturem per se, ita 
+      <lb ed="#P" n="24"/>quod non miluum: nunc miluum per se. Ita quod 
+      <lb ed="#P" n="25"/>non vulturem: hoc est modo impossibile. Quia 
+      <lb ed="#P" n="26"/>illud quod est tantum in potentia intelligens 
+      ali<lb ed="#P" n="27" break="no"/>quid, imnpossibile est quod efficiatur actu 
+      intelli<lb ed="#P" n="28" break="no"/>gens nulla mut atione facta in ipso secundum 
+      in<lb ed="#P" n="29" break="no"/>tellectum. Et quod est actu prius intelligens 
+      ali<lb ed="#P" n="30" break="no"/>quid, fiat actu post non intelligens illud, nulla 
+      <lb ed="#P" n="31"/>mutatione facta in ipso secundum intellectum: 
+      vi<lb ed="#P" n="32" break="no"/>detur mihi ominino impossibile. Quia tunc se 
+      <lb ed="#P" n="33"/>queretur quod secundum eandem dispositionem 
+      <lb ed="#P" n="34"/>conueniret eidem esse in potentia &amp; in actu, non 
+      <lb ed="#P" n="35"/>accipiendo vnum virtualiter, &amp; aliud formali er: &amp; 
+      <lb ed="#P" n="36"/>imo actipiendo vtrumque formaliter. Quia 
+      for<lb ed="#P" n="37" break="no"/>maliter loquendo nunc esset intelligens, &amp; post 
+      <lb ed="#P" n="38"/>non intelligens respectu eiusdem: nulla mutatione 
+      <lb ed="#P" n="39"/>facta in ipfo. Si autem dicatur quod est ibi noua 
+      <lb ed="#P" n="40"/>mutatio. Quia est noua relatio illius conceptus ad 
+      <lb ed="#P" n="41"/>aliam rem. Nihil est, qui quero super quod absolutum 
+      <lb ed="#P" n="42"/>riouum, fundatur ista relatio noua. Non super rem 
+      <lb ed="#P" n="43"/>intellectam: quia ponitur se vniformiter habere. 
+      <lb ed="#P" n="44"/>Nec ex parte intellectus: quia in eodem actu 
+      in<lb ed="#P" n="45" break="no"/>telligendi ponitur manere. Si autem intelligatur, 
+      <lb ed="#P" n="46"/>quod eodem conceptu numero non potest 
+      intelli<lb ed="#P" n="47" break="no"/>gi nunc vultur, nunc miluus, sed eadem specie: &amp; 
+      <lb ed="#P" n="48"/>ideo Angelus videns illum conceptum potest 
+      vide<lb ed="#P" n="49" break="no"/>re ad quid refert. Adhuc hoc non valet. Primo, 
+      <lb ed="#P" n="50"/>quia non est verisimile, quod quando diuersa 
+      spe<lb ed="#P" n="51" break="no"/>cie considerantur diuersis conceptibus vt 
+      princi<lb ed="#P" n="52" break="no"/>palia obiecta: quod vterque conceptus sit vnus 
+      <lb ed="#P" n="53"/>specie, cum actus distinguantur secundum 
+      distin<lb ed="#P" n="54" break="no"/>ctionem per se obiectorum. Secus autem esset, si 
+      <lb ed="#P" n="55"/>cognoscerentur vt secundaria obiecta. Vel si 
+      am<lb ed="#P" n="56" break="no"/>bo simul considerentur vno actu numero. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e574">
+               <lb ed="#P" n="57"/>Secundo quia si diuersis actibus numero 
+      opor<lb ed="#P" n="58" break="no"/>tet ea considerare, non videtur etiam imaginabile 
+      <lb ed="#P" n="59"/>quin aliqua diss imilitudo sit inter tales duos 
+      con<lb ed="#P" n="60" break="no"/>ceptus, ratione cuius poss it vnus discerni ab alio. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e585">
+               <lb ed="#P" n="61"/>Quod autem dicitur, quod per eundem 
+      conce<lb ed="#P" n="62" break="no"/>ptum cognoscitur affirmatio, &amp; negatio. Si 
+      intelli<lb ed="#P" n="63" break="no"/>gatur hoc, quod per eundem conceptum quid 
+      si<lb ed="#P" n="64" break="no"/>gnifieatur per affirmationem, &amp; quid par 
+      nega<lb ed="#P" n="65" break="no"/>tionem, puta quid importat hoc quod est 
+      fuge<lb ed="#P" n="66" break="no"/>re, &amp; quid importat hoc quod est nonfugere. 
+      Vi<lb ed="#P" n="67" break="no"/>detur mihi falsum, accipiendo quod eodem 
+      con<lb ed="#P" n="68" break="no"/>ceptu intelligatur quodlibet istorum per se, ita 
+      <lb ed="#P" n="69"/>quod primo vnum, &amp; postea aliud. quia sequere 
+      <lb ed="#P" n="70"/>tur idem quodprius dictum est, seilicet quod ali¬ 
+      <!--227.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>quis in potentia intelligens, efficeretur actu 
+      intelli<lb ed="#P" n="72" break="no"/>gens in nullo mutatus, quod est absurdum. Et 
+      <lb ed="#P" n="73"/>hoc si ponatur idem conceptus numero, sicut ipsr 
+      <lb ed="#P" n="74"/>ponunt. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e622">
+               <lb ed="#P" n="75"/>Si autem ponatur idem specie, adhue non 
+      vide<lb ed="#P" n="76" break="no"/>tur mihi quod conceptus quo quodlibet istorum 
+      <lb ed="#P" n="77"/>per se consideratur vt per se obiectum, vel saltem 
+      <lb ed="#P" n="78"/>tem, sicut dictum est de aliis intelligibilibus, quin 
+      <lb ed="#P" n="79"/>aliqua distinctio &amp; differentia realis esset inter istos 
+      <lb ed="#P" n="80"/>conceptus quibus possent distingui. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e638">
+               <lb ed="#P" n="81"/>Si autem intelligatur quod conceptus, vel 
+      as<lb ed="#P" n="82" break="no"/>sensus quo iudicatur aliquid esse faciendum, &amp; 
+      as<lb ed="#P" n="83" break="no"/>sensus quo iudicatur non esse faciendum, non sit 
+      <lb ed="#P" n="84"/>vnus conceptus numero, vel specie, hoc omnino 
+      <lb ed="#P" n="85"/>est impossibile. Nam secundum Phylosophum in 
+      <lb ed="#P" n="86"/>secudo per y hermeniaa extimatio qua quis ex timat 
+      <lb ed="#P" n="87"/>aliquid esse honum, &amp; extimatio fiue epinie qua alit 
+      <lb ed="#P" n="88"/>quias opinatur ilud idem non esse tonum: sunt 
+      ceptra<lb ed="#P" n="89" break="no"/>riae, ita quod existimara sunt contradicteria: sed 
+      <lb ed="#P" n="90"/>ipse opiniones siue extimariones sunt contrariae. 
+      Con<lb ed="#P" n="91" break="no"/>traria autem non sunt eiusdem specie. Ergo, &amp;c. 
+      <lb ed="#P" n="92"/>Vnde etiam in quarto metaphysicae probat 
+      phylo<lb ed="#P" n="93" break="no"/>sophus quod impossibile est quod aliquis 
+      opine<lb ed="#P" n="94" break="no"/>tur idem esse, &amp; non esse simul: quia tunc 
+      contra<lb ed="#P" n="95" break="no"/>ria simul inessent eidem, quod est impossiibile. Ex 
+      <lb ed="#P" n="96"/>hoc pobat quod nullus potest mente concipere 
+      <lb ed="#P" n="97"/>oppositum primi principii: quantumcumque ore 
+      <lb ed="#P" n="98"/>proferat eius oppositum. Vnde dicta positio 
+      vi<lb ed="#P" n="99" break="no"/>detur impossibilis. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e682">
+               <lb ed="#P" n="100"/>Et ideo aliter videtur dicendum, quod cum 
+      <lb ed="#P" n="101"/>ita sit quod vnus Angelus vno aspectu poss it 
+      vide<lb ed="#P" n="102" break="no"/>re multa relata ad vnum, puta vnam ciuitatem cum 
+      <lb ed="#P" n="103"/>omnibus hominibus existentibus: alius Angelun 
+      <lb ed="#P" n="104"/>potest videre de quo, sicut de obiecto princinali 
+      <lb ed="#P" n="105"/>considerat, cum ab eo operatio fortiatur speciem. 
+      <lb ed="#P" n="106"/>Non tamen oportet quod videat tam clare, sed 
+      <lb ed="#P" n="107"/>tantum, vel tantum gradum sicut ille alius cogitat, &amp; 
+      vi<lb ed="#P" n="108" break="no"/>det illa: nec ad quod illorum magis attendat. Et 
+      <lb ed="#P" n="109"/>sic de multis aliis. Nam in speciali qualiter 
+      cogi<lb ed="#P" n="110" break="no"/>tatio vnius potest latere alterum: non possumus 
+      ex<lb ed="#P" n="111" break="no"/>plicare in statu vie. Vnde saltem quantum ad 
+      se<lb ed="#P" n="112" break="no"/>cundaria obiecta, quae simul capiunt: non potest 
+      <lb ed="#P" n="113"/>videre quare, quid &amp; quantum ille alius cogitet. Et 
+      <lb ed="#P" n="114"/>ratio, huius potest esse ista. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e718">
+               <lb ed="#P" n="115"/>Ad cuius euidentiam est sciendum, quod dato 
+      <lb ed="#P" n="116"/>quod Angelus non moueatur a rebus ad 
+      cognos<lb ed="#P" n="117" break="no"/>cendum, sed a suis speciebus: tamen quantum 
+      <lb ed="#P" n="118"/>ad hoc similiter se habebit quod quanto species 
+      <lb ed="#P" n="119"/>magis distat a re repraesentata, minus 
+      repraesenta<lb ed="#P" n="120" break="no"/>bit illam. Et ideo quando species existens in 
+      men<lb ed="#P" n="121" break="no"/>te vnius Angeli, representat quid alius 
+      cogitatiten<lb ed="#P" n="122" break="no"/>dit in rem medianie cognitione. Quod non facit 
+      <lb ed="#P" n="123"/>ille qui rem illam immediate repraesentat. Sicut 
+      <lb ed="#P" n="124"/>etiam mobile quod magis distat a primo motore: 
+      <lb ed="#P" n="125"/>minus recipit impressionem eius. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e744">
+               <lb ed="#P" n="126"/>Potest ergo sic formari ratio. i Quia quanto 
+      mo<lb ed="#P" n="127" break="no"/>bile magis distat a primo motore, tanto minus 
+      per<lb ed="#P" n="128" break="no"/>fecte recipit impressionem primi mouentis. Sed 
+      <lb ed="#P" n="129"/>Angelus cogitans quid alius cogitat, se habet sicut 
+      <lb ed="#P" n="130"/>remotum mobile ad rem quam alius eogitat, &amp; 
+      il<lb ed="#P" n="131" break="no"/>le cogitans se habet sicut propinquum &amp; 
+      imme<lb ed="#P" n="132" break="no"/>diatum. Ergo ille qui videt quid alius cogitat, 
+      in<lb ed="#P" n="133" break="no"/>quantum respicit quid alius cogitat, minus 
+      perfe<lb ed="#P" n="134" break="no"/>cte mouetur &amp; recipit motionem rei cogitate ab 
+      <lb ed="#P" n="135"/>alto. Et per consequensiminus potest videre quid 
+      <lb ed="#P" n="136"/>ille cogitat, quim ille alius qui cogitat. Itaque 
+      <lb ed="#P" n="137"/>inquantum attendit quid alius cogitat: minus 
+      po<lb ed="#P" n="138" break="no"/>test videre vt sic, rem illam cogitatam quantum ad 
+      <lb ed="#P" n="139"/>hoc quod sciat quid ille eogirat, quam ille alius 
+      to<lb ed="#P" n="140" break="no"/>gitant
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e779">
+      <!--228.xml-->
+               <pb ed="#P" n="228"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Dico autem vt sic Quia si vellet attendere non 
+      <lb ed="#P" n="2"/>quid ille cogitat, sed vellet attenderet ad illam 
+      <lb ed="#P" n="3"/>rem secundum quam alius ponitur cogitaretiam 
+      <lb ed="#P" n="4"/>tenderet in eam immediate, &amp; non mediante 
+      co<lb ed="#P" n="5" break="no"/>gitatione alterius: &amp; posset eam vel minus, vel 
+      ma<lb ed="#P" n="6" break="no"/>gis clare videre: secundum quod esset maioris, vel 
+      <lb ed="#P" n="7"/>minoris perspieacitatis. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e803">
+               <lb ed="#P" n="8"/>Notandum etiam, quod quantum etiam ad 
+      <lb ed="#P" n="9"/>praedicta, quanto Angeli sunt superiores, tanto 
+      mi<lb ed="#P" n="10" break="no"/>nus inferiores possunt videre praedicta: in 
+      cogita<lb ed="#P" n="11" break="no"/>tionibus eorum. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e814">
+               <lb ed="#P" n="12"/>Si dicatur contra praedicta, quod quando 
+      An<lb ed="#P" n="13" break="no"/>gelus per vnum conceptum simul cognoscit multa 
+      <lb ed="#P" n="14"/>in ordine ad aliquid vnum, magis vel minus afficia. 
+      <lb ed="#P" n="15"/>tur ad hoc quam ad illud; faciet tantam 
+      differen<lb ed="#P" n="16" break="no"/>tiam quod poterit discerni vnus conceptus ab 
+      <lb ed="#P" n="17"/>alio. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e830">
+               <lb ed="#P" n="18"/>Et ad hoc oportet dicere primo, quod verum 
+      <lb ed="#P" n="19"/>est si illa differentia acciperetur cirea obiecta 
+      <lb ed="#P" n="20"/>principalia, &amp; primo &amp; per se: non autem 
+      opor<lb ed="#P" n="21" break="no"/>tet quod hoc habeat veritatem quando est 
+      diuersi<lb ed="#P" n="22" break="no"/>tas in obiectis secundariis. Secundo potest dici 
+      <lb ed="#P" n="23"/>quod licet illa diuersitas conceptuum qui 
+      necessa<lb ed="#P" n="24" break="no"/>rio sunt diuersi nec possunt esse simul, possit 
+      co<lb ed="#P" n="25" break="no"/>gnosci ab Angelo, &amp; ex hoc etiam possit cognosci 
+      <lb ed="#P" n="26"/>quid in speciali cognoscitur per vnum, &amp; quid per 
+      <lb ed="#P" n="27"/>alium: tamen diuersitas rationis quae potest esse 
+      <lb ed="#P" n="28"/>in eodem actu respectu diuersorum cognitorum 
+      <lb ed="#P" n="29"/>simul per ipsum secundum quod magis respicit 
+      <lb ed="#P" n="30"/>vnum, quam aliud, non potest de facili discerni 
+      <lb ed="#P" n="31"/>ab alio vidente ipsum conceptum. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e864">
+               <lb ed="#P" n="32"/>Posset etiam obici contra praedicta pro priore 
+      <lb ed="#P" n="33"/>opinione, quod idem conceptus specie non 
+      diuersi<lb ed="#P" n="34" break="no"/>ficatus nisi solo numero, potest esse in diuersis 
+      ob<lb ed="#P" n="35" break="no"/>iectis sicut a causa aequiuoca: sicut etiam fuit 
+      ta<lb ed="#P" n="36" break="no"/>ctum supra in hac quaestione, quod idem velle 
+      <lb ed="#P" n="37"/>specie posset esse a diuersis obiectis specie, sicut a 
+      <lb ed="#P" n="38"/>causa aequiuoca. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e882">
+               <lb ed="#P" n="39"/>Et ad hoc potest dici, quod licet diuersae 
+      cau<lb ed="#P" n="40" break="no"/>sae efficientes specie vel genere. Possint efficere 
+      <lb ed="#P" n="41"/>idem intelligere specie, sicut Deus &amp; creatura 
+      <lb ed="#P" n="42"/>possent facere idem intelligere specie: quia Deus 
+      <lb ed="#P" n="43"/>potest quicquid potest facere creatura. Tamen 
+      <lb ed="#P" n="44"/>non videtur quod idem velle &amp; intelligere specie, 
+      <lb ed="#P" n="45"/>terminotur ad diuersa primo &amp; per se obiecta 
+      <lb ed="#P" n="46"/>formali ratione differentia: licet hoc forte 
+      dese<lb ed="#P" n="47" break="no"/>cundariis obiectis possit sustineri. Vnde &amp; sub 
+      <lb ed="#P" n="48"/>dubio dixi illud quod dixi, de actu voluntatis. 
+      Vn<lb ed="#P" n="49" break="no"/>de illa latentia cognitionis, videtur atrendenda 
+      <lb ed="#P" n="50"/>essepenes habitudinem eiusdem actus ad diuersa 
+      <lb ed="#P" n="51"/>obi ecta secundaria: quorum habitudo ad plenum 
+      <lb ed="#P" n="52"/>non potest videri visa ipsa cogitatione. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e915">
+               <lb ed="#P" n="53"/>Ad primum ergo in oppositum, dicendum quod 
+      <lb ed="#P" n="54"/>videre plene &amp; persecte cogitationem alicuius 
+      si<lb ed="#P" n="55" break="no"/>cut ipse, &amp; clarius quam ipse qui cogitat, est 
+      pro<lb ed="#P" n="56" break="no"/>prium solius Dei: sed non oportet quod sit 
+      pro<lb ed="#P" n="57" break="no"/>Prium solius Dei; videre quomodocumque 
+      cogi<lb ed="#P" n="58" break="no"/>tationes. 
+      </p>
+            <p xml:id="hx2hx3-b75779-d1e931">
+               <lb ed="#P" n="59"/>Ad secundum dicendum, quod ex hoc non 
+      <lb ed="#P" n="60"/>sequitur quod Angelus damnatus videat visionem 
+      <lb ed="#P" n="61"/>beatam existentem in Angelo bono. Quia nec 
+      <lb ed="#P" n="62"/>visiobeata, nec lumen gloriae, nec talia 
+      superna<lb ed="#P" n="63" break="no"/>turalia: sunt obiecta proportionata cuicumque 
+      in<lb ed="#P" n="64" break="no"/>tellectui creato in puris naturalibus existenti. 
+      Vn<lb ed="#P" n="65" break="no"/>de &amp; illam ratienem qua quidam nituntur 
+      <lb ed="#P" n="66"/>probare quod visio beata non fiat per 
+      speciem<lb ed="#P" n="67" break="no"/>Quia Angelus damnatus videret illam speciem: 
+      <lb ed="#P" n="68"/>reputo non valere. Licet credam non esse ibi 
+      spe<lb ed="#P" n="69" break="no"/>ciem propter alias rationes. Quas alias tetigi.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

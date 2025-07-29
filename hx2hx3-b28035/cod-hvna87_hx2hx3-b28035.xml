@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaesito 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaesito 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="86"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b28035"><!-- l1d15q2 -->
+            <head xml:id="hx2hx3-b28035-Hd1e99">Quaesito 2</head>
+            <head xml:id="hx2hx3-b28035-Hd1e101" type="question-title">Utrum persona aliqua possit mittere se vel personam non productam a se</head>
+            <p xml:id="hx2hx3-b28035-d1e104">
+               <lb ed="#P" n="39"/>QVAESTIO SECVNDA
+      </p>
+            <p xml:id="hx2hx3-b28035-d1e109">
+               <lb ed="#P" n="40"/>IVxta hoc quaeritur vtrum persona, aliqua 
+      pos<lb ed="#P" n="41" break="no"/>sit mittere se, vel personam non productam 
+      <lb ed="#P" n="42"/>a se. 
+      </p>
+            <p xml:id="hx2hx3-b28035-d1e118">
+               <lb ed="#P" n="43"/>Respondeo, credo quod persona possit dici 
+      <lb ed="#P" n="44"/>mittere se large loquendo ita quod mittere non 
+      <lb ed="#P" n="45"/>importet dare auctoritatem misso, sed mittere sit 
+      <lb ed="#P" n="46"/>facere ad hoc quod persona sit non a se, sed ah 
+      <lb ed="#P" n="47"/>alio; in aliquo nouo modo, quo modo prius non 
+      <lb ed="#P" n="48"/>erat. Et hoc quidam satis pulchre declarant, quia 
+      <lb ed="#P" n="49"/>licet ad hoc quod aliquod coniunctum conueniat 
+      <lb ed="#P" n="50"/>alicui, opprtet quod quelibet pats ei conueniat; 
+      <lb ed="#P" n="51"/>non sit ibi determinatio diminuens, sicut ad hoc 
+      <lb ed="#P" n="52"/>quod Socrates sit homo albus, oportet quod sit 
+      <lb ed="#P" n="53"/>homo, &amp; quod sit albus; non tamen ad hoc quod 
+      <lb ed="#P" n="54"/>dicatur vere aliquis facere aliquod compositum. 
+      <lb ed="#P" n="55"/>requiritur quod faciat illud quantum ad 
+      vtram<lb ed="#P" n="56" break="no"/>que partem: sed quantum ad alteram tantum. 
+      <lb ed="#P" n="57"/>Sicut ad hoc quod aliquis dicatur vere facere 
+      pa<lb ed="#P" n="58" break="no"/>sietem album, non oportet quod faciat parietem, 
+      <lb ed="#P" n="59"/>&amp; quod faciat album: sed sufficit ad hoc quod 
+      <lb ed="#P" n="60"/>dato quod non faciat parietem iam factum; faciat 
+      <lb ed="#P" n="61"/>esse album: Cum ergo personam mitti importet 
+      <lb ed="#P" n="62"/>quoddam aggregatum siue coniunctum, quorum 
+      <lb ed="#P" n="63"/>vnum est aeternum scilicet esse ab alio: &amp; aliud 
+      <lb ed="#P" n="64"/>quoddam temporale scilicet esse nouo modo in 
+      <lb ed="#P" n="65"/>aliquo: ad hoc quod mitti conueniat personae, 
+      o<lb ed="#P" n="66" break="no"/>portet quod vtrumque sibi conueniat: scilicel 
+      <lb ed="#P" n="67"/>quod sit ab alio, &amp; quod sit nouo modo in aliquo. 
+      <lb ed="#P" n="68"/>Sed ad hoc quod dicatur vere aliqua persona mit¬ 
+      <!--86.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>tere, prout mittere est facere personam esse ab alio 
+      <lb ed="#P" n="70"/>nouo modo in aliquo.: non oportet quod faciat, 
+      <lb ed="#P" n="71"/>vel quod sit principium illius aggregati quantum 
+      <lb ed="#P" n="72"/>ad vtrumque: sed sufficit quod faciat ipsam per. 
+      <lb ed="#P" n="73"/>sonam missam, esse nouo modo in aliquo 
+      facien<lb ed="#P" n="74" break="no"/>do nouum effectum, ex quo consurgit noua 
+      rela<lb ed="#P" n="75" break="no"/>tio in persona missa. Et ideo accipiendo mittere, 
+      <lb ed="#P" n="76"/>facere personam esse ab alia in aliqua creatura; 
+      <lb ed="#P" n="77"/>persona potest mittere seipsam, &amp; hoc est mittere 
+      <lb ed="#P" n="78"/>large, scilicet facere ad hoc quod sit ab alia 
+      perso<lb ed="#P" n="79" break="no"/>na in creatura. Sed si ita stricte acciperetur 
+      mit<lb ed="#P" n="80" break="no"/>tere quod scilicet idem esse quod facere personam 
+      <lb ed="#P" n="81"/>a se existentem, vel ortam esse nouo modo in alio. 
+      <lb ed="#P" n="82"/>persona non posset mittere se. Quod autem 
+      ho<lb ed="#P" n="83" break="no"/>rum sit magis proprie dictum vel vtrum vtrumque 
+      <lb ed="#P" n="84"/>sit proprie mittere praetermitto quia hoc est 
+      ma<lb ed="#P" n="85" break="no"/>gis ostendere de verbis quam de rebus. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

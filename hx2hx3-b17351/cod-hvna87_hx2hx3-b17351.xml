@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="54"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b17351"><!-- l1d5q3 -->
+            <head xml:id="hx2hx3-b17351-Hd1e99">Quaestio 3</head>
+            <head xml:id="hx2hx3-b17351-Hd1e101" type="question-title">
+      Utrum Filius Dei sit de nihilo vel de aliquo
+    </head>
+            <p xml:id="hx2hx3-b17351-d1e104">
+               <lb ed="#P" n="5"/>QVAESTIO TERITI. 
+      <lb ed="#P" n="6"/>Vtrum Filius Dei sit de nihilo vel de 
+      <lb ed="#P" n="7"/>aliquo. 
+      </p>
+            <p xml:id="hx2hx3-b17351-d1e113">
+               <lb ed="#P" n="8"/>REspondeo dicendum quod filius non debet 
+      <lb ed="#P" n="9"/>dici ex nihilo. Cuius ratio est, quia illi 
+      pro<lb ed="#P" n="10" break="no"/>prie conuenit esse de nihilo vel produci de nihilo, 
+      <lb ed="#P" n="11"/>in quo non est aliquid quod non sit productum, 
+      <lb ed="#P" n="12"/>sic quod actu fuerit quandoque nihil quod ipsum 
+      <lb ed="#P" n="13"/>fuit, vel terminatum fuit quandoque esse nihil vel 
+      <lb ed="#P" n="14"/>omnino non ens, Sed hoc non conuenit Filio: 
+      <lb ed="#P" n="15"/>quia eius substantia non est producta nec nata 
+      <lb ed="#P" n="16"/>quandoque fuisse nihil. Vnde quandoque esse ex 
+      <lb ed="#P" n="17"/>nihilo importat nihil habere nec absolutum nec 
+      <lb ed="#P" n="18"/>relatum, non productum &amp; non dependens ab 
+      <lb ed="#P" n="19"/>alio substantialiter diuerso: propter quod Filio 
+      <lb ed="#P" n="20"/>Dei proprie non conuenit esse vel produci de nul, 
+      <lb ed="#P" n="21"/>lo, nec tamen sequitur quod sit proprie de 
+      aliquo<lb ed="#P" n="22" break="no"/>sicut de materia, sed est de aliquo sicut de 
+      prin<lb ed="#P" n="23" break="no"/>cipio substantiali. Vnde dicitur esse de 
+      substan<lb ed="#P" n="24" break="no"/>tia Patris, non iolum quia est de Patre qui est 
+      sub<lb ed="#P" n="25" break="no"/>stantia, quia tunc ly de importaret tantum 
+      habi<lb ed="#P" n="26" break="no"/>tudinem principii actiui quod est ipsum 
+      supposi<lb ed="#P" n="27" break="no"/>tum agens. Sed lv de importat habitudinem 
+      prin<lb ed="#P" n="28" break="no"/>pii consustaniialis, nam substantia Patris prout est 
+      <lb ed="#P" n="29"/>Patris est etiam principium Filii: Et ideo ly de 
+      im<lb ed="#P" n="30" break="no"/>portat habitudinem principii quod est 
+      consub<lb ed="#P" n="31" break="no"/>stantiale &amp; increatum Filio. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

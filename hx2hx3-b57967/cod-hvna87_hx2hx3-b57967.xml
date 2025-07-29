@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="173"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b57967"><!-- l1d44q2 -->
+            <head xml:id="hx2hx3-b57967-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b57967-Hd1e101" type="question-title">Utrum impossibilia creaturae sint deo possibilia</head>
+            <p xml:id="hx2hx3-b57967-d1e104">
+               <lb ed="#P" n="90"/>QVAESTIO SECVNDA. 
+      <lb ed="#P" n="91"/>VTrum impossibilia creaturae sint Deo 
+      possi<lb ed="#P" n="92" break="no"/>bilia. 
+      </p>
+            <p xml:id="hx2hx3-b57967-d1e113">
+               <lb ed="#P" n="93"/>Et arguitur quod non. Quia si illud quod 
+      ma<lb ed="#P" n="94" break="no"/>gis videtur inesse non inest: nec illud quod minus. 
+      <lb ed="#P" n="95"/>bed magis videtur Deum posse ea qua: sunt 
+      possi<lb ed="#P" n="96" break="no"/>bilia creaturae quam illa quae sunt ei impolsihilia. 
+      <lb ed="#P" n="97"/>Ergo si non potest possibilia creaturae multo 
+      mi<lb ed="#P" n="98" break="no"/>nus potest impossibilia creaturae. Sed nen potest 
+      <lb ed="#P" n="99"/>omnia poss ibilia creaturae. Quia non potest 
+      cur<lb ed="#P" n="100" break="no"/>rere nec commedere. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b57967-d1e133">
+               <lb ed="#P" n="101"/>Contra. Virginem parere est impossibile 
+      crea<lb ed="#P" n="102" break="no"/>turae actiue loquendo: quia creatura hoc non 
+      po<lb ed="#P" n="103" break="no"/>test facere. Sed Deus hoc potest facere. Ergo, &amp;c. 
+      </p>
+            <p xml:id="hx2hx3-b57967-d1e143">
+               <lb ed="#P" n="104"/>Respondeo,. Sciendum est primo, quod 
+      loqui<lb ed="#P" n="105" break="no"/>mur de possibili quod est obiectum potentiae 
+      acti<lb ed="#P" n="106" break="no"/>uae. Quia Deus nihil potest pati: quia hoc esset 
+      <lb ed="#P" n="107"/>imperfectionis. Est ergo sensus quaestionis, vtrum 
+      <lb ed="#P" n="108"/>potentia Dei sit aliquid fecundum quod est im. 
+      <lb ed="#P" n="109"/>possibile creaturae. 
+      </p>
+            <p xml:id="hx2hx3-b57967-d1e159">
+               <lb ed="#P" n="110"/>Secundo sciendum est, quod ista questio absolute 
+      <lb ed="#P" n="111"/>vt queritur, non habet dubium apud Catholicos: nec 
+      <lb ed="#P" n="112"/>etiam apud Philosophos quin scilicet ab oluteloquem, 
+      <lb ed="#P" n="113"/>do aliquid sit possibile Deo quod est omnino 
+      im<lb ed="#P" n="114" break="no"/>possibile creaturae. Hoc autem faciliter potest 
+      de<lb ed="#P" n="115" break="no"/>monstrari sic. Quia illae potentiae quae sic se habent 
+      <lb ed="#P" n="116"/>quod ad illud ad quod vna eaium se non potest 
+      ex<lb ed="#P" n="117" break="no"/>tendere, alia potest se extendere illud quod est 
+      im<lb ed="#P" n="118" break="no"/>possibile vni, est poss ibile alteri: &amp; hoc pat et. Quia 
+      <lb ed="#P" n="119"/>illud dicitur possibile vnicuique potentie ad quoo 
+      <lb ed="#P" n="120"/>attingere potest. Sed potentia creaturae non potest 
+      <lb ed="#P" n="121"/>attingere omne illud ad quod attingere potcit 
+      <lb ed="#P" n="122"/>potentia. Et hoc similiter patet. Quia potentia 
+      di<lb ed="#P" n="123" break="no"/>uina attingere potest omnem creaturm: sed hoc 
+      <lb ed="#P" n="124"/>non potest creatura alioquin esset effectiua suitergo 
+      <lb ed="#P" n="125"/>aliquid est impois ibile creaturae quod est Deo 
+      pos<lb ed="#P" n="126" break="no"/>fibile 
+      </p>
+            <p xml:id="hx2hx3-b57967-d1e198">
+               <lb ed="#P" n="127"/>Tertio. Circa hoc est sciendum quod in hoc 
+      <lb ed="#P" n="128"/>est diuersitas inter Philosophos &amp; fideles. Quia in 
+      <lb ed="#P" n="129"/>hiis quae fiunt, ael fieri nata sunt mediante 
+      crea<lb ed="#P" n="130" break="no"/>tura sicut est in generationibus &amp; niotionibus 
+      re<lb ed="#P" n="131" break="no"/>rum corporalium, posuit Philosophus Deum non 
+      <lb ed="#P" n="132"/>posse aliquid facere quodest impossibile creaturae, 
+      <lb ed="#P" n="133"/>cuius motiuum videtur esse: quia visum fuir ei quod 
+      <lb ed="#P" n="134"/>nihil procedit de nouo ab aliquo omnino 
+      immobi<lb ed="#P" n="135" break="no"/>li. Effectus autem qui fiunt hic inferius meniartte 
+      <lb ed="#P" n="136"/>virtute coeli tota die corrumpuntur &amp; renouan. 
+      <lb ed="#P" n="137"/>tur etiam infinities, &amp; sic omnino non vidit quod 
+      <lb ed="#P" n="138"/>possent fieri a causa immobili immediate sicut elt 
+      <lb ed="#P" n="139"/>Deus. Et ideo omnia ista reducit in aliquod mobi¬ 
+      <!--174.xml-->
+      <pb ed="#P" n="174"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>le quod mouetur motu perpetuo. Quod quidem 
+      <lb ed="#P" n="2"/>mobile, quia semper manet in eadem dispositione 
+      <lb ed="#P" n="3"/>quantum ad intrinseca, potest semper se habere 
+      <lb ed="#P" n="4"/>vniforomiter ad suum motorem recipiendo ab eo 
+      <lb ed="#P" n="5"/>motum perpetuum. Quia vero aliter&amp; aliter se habet 
+      <lb ed="#P" n="6"/>secundum situm, &amp; totum, potest esse causa 
+      no<lb ed="#P" n="7" break="no"/>uitatum hic existentium. 
+      </p>
+            <p xml:id="hx2hx3-b57967-d1e250">
+               <lb ed="#P" n="8"/>Potest ergo formari ratio quae mouit 
+      phyloso<lb ed="#P" n="9" break="no"/>phum sic. Quando aliquod agens agit mediante 
+      <lb ed="#P" n="10"/>instrumento sibi necessario ad agendum, sicut car 
+      <lb ed="#P" n="11"/>pentario necessaria est securis ad secandum dura 
+      <lb ed="#P" n="12"/>ineis quae nata sunt fieri a tali agente mediante 
+      <lb ed="#P" n="13"/>instrumento. Quod est impossibule instrumento 
+      <lb ed="#P" n="14"/>vt instrumento, est etiam impossibile principali 
+      a<lb ed="#P" n="15" break="no"/>genti. Sicut sectio illa quae est impssibilis securi, 
+      <lb ed="#P" n="16"/>est impossibilis carpentario: supposito quod non 
+      <lb ed="#P" n="17"/>possit secari nisi mediante securi. Sed secundum 
+      <lb ed="#P" n="18"/>Phvlosophum Deus efficit ista inferiora mediante 
+      <lb ed="#P" n="19"/>motu coeli, vel coelo moto sicut mediante 
+      instru<lb ed="#P" n="20" break="no"/>mento necessario: quia non videbat quod nouus 
+      <lb ed="#P" n="21"/>effectus immediate in Deum posset reduci. Ergo 
+      <lb ed="#P" n="22"/>secundum eum, Deus non potest facere in his quae 
+      <lb ed="#P" n="23"/>facit mediante creatura, vel quae, nata sunt fieri 
+      <lb ed="#P" n="24"/>mediante creatura: quod est impossibile ereature. 
+      <lb ed="#P" n="25"/>Sed fideles ponunt quod etiam en talibus, multa 
+      <lb ed="#P" n="26"/>possibilia Deo sunt, quae sunt impossibilia creature, 
+      <lb ed="#P" n="27"/>Scui partus virg nis, &amp; facere de tritico immediate 
+      <lb ed="#P" n="28"/>virtulum, &amp; multa talia: &amp; hoc est rationabile. 
+      </p>
+            <p xml:id="hx2hx3-b57967-d1e298">
+               <lb ed="#P" n="29"/>Ad cuius euidentiam sciendum est quod 
+      se<lb ed="#P" n="30" break="no"/>cundum fidem ponimus, quod licet Deus non pos 
+      <lb ed="#P" n="31"/>sit facere effectum causae formalis, nisi mediante 
+      <lb ed="#P" n="32"/>ipsa sorma, sicut non potest facere album 
+      formali<lb ed="#P" n="33" break="no"/>ter nisi mediante albedine quae est causa albedinis 
+      <lb ed="#P" n="34"/>albi, in eo quod album: potest tamen facere 
+      im<lb ed="#P" n="35" break="no"/>mediate sine causa media, quicquid facit 
+      me<lb ed="#P" n="36" break="no"/>diante causa efficiente secundum quod efficiens 
+      <lb ed="#P" n="37"/>est. Sed si in effectiua importetur causalitas 
+      effe<lb ed="#P" n="38" break="no"/>ctiua simul, &amp; materialis, sicut in hoc quod est 
+      cur<lb ed="#P" n="39" break="no"/>rere: non potest Deus sic esse causa. Quia nullus 
+      <lb ed="#P" n="40"/>effectus potest esse causa materialis, vel formalis 
+      <lb ed="#P" n="41"/>intra, quia hoc importat partem esse rei factae, &amp; 
+      <lb ed="#P" n="42"/>importat imperfectionem &amp; dependentiam ab 
+      a<lb ed="#P" n="43" break="no"/>lio, quod Deo non potest conuenire. Sed quiequid 
+      <lb ed="#P" n="44"/>esficit mediante aliqua causa effectiua, potest 
+      im<lb ed="#P" n="45" break="no"/>mediate agere, &amp; plura potest agere: quae agent, 
+      <lb ed="#P" n="46"/>creato mediante quo agit, sunt impossibilia. 
+      Qu<lb ed="#P" n="47" break="no"/>ius ratio est. Quia quod illud quod aliquod agens 
+      <lb ed="#P" n="48"/>agit mediante alio, non possit immediate agere, 
+      <lb ed="#P" n="49"/>prouenit ex eius imperfectione &amp; limitatione. 
+      Si<lb ed="#P" n="50" break="no"/>cut quod carpentarius non possit secare nisi 
+      me<lb ed="#P" n="51" break="no"/>diante securi. Hoc est quia in eo non est 
+      omni<lb ed="#P" n="52" break="no"/>moda virtus secandi: sed tamen potest aliquid ad 
+      <lb ed="#P" n="53"/>secandum scilicet per instrumentum securis, cuius 
+      <lb ed="#P" n="54"/>durities vincit duritiem lignorum. Deus autem 
+      <lb ed="#P" n="55"/>est omnimode illimitatus, &amp; illimitatae virtutis. Et 
+      <lb ed="#P" n="56"/>ideo illud quod facit mediante aliqua causa 
+      cffo<lb ed="#P" n="57" break="no"/>ctiua, potest agere immediate: ita quod 
+      dummo<lb ed="#P" n="58" break="no"/>do eum agere non importet pati, vel aliquid quod 
+      <lb ed="#P" n="59"/>sit impei fectionis: totum potest immediate omne 
+      <lb ed="#P" n="60"/>illud quod non includit contradictionem. Et 
+      a<lb ed="#P" n="61" break="no"/>lio modo potest facere, quam agant agentia 
+      crea<lb ed="#P" n="62" break="no"/>ta mediantibus quibus agant. Et ideo etiam in 
+      <lb ed="#P" n="63"/>his quaenata sunt fieri per agentia creata potest 
+      <lb ed="#P" n="64"/>multa propter istam illimitationem, quae sunt 
+      im<lb ed="#P" n="65" break="no"/>possihilia creaturae. 
+      </p>
+            <p xml:id="hx2hx3-b57967-d1e381">
+               <lb ed="#P" n="66"/>Ad rationem in oppositum, dicendum ad 
+      ma<lb ed="#P" n="67" break="no"/>iorem quod quicquid possibile est creaturae, 
+      effe<lb ed="#P" n="68" break="no"/>ctiue absolute, &amp; non importando 
+      imperfectio<lb ed="#P" n="69" break="no"/>nem, est possibile Deo. Dum autem arguitur de 
+      <lb ed="#P" n="70"/>currendo &amp; consimilibus. Dicendum est, quod 
+      <!--174.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="71"/>ista non potest. Quia in istis cum agere includitur 
+      <lb ed="#P" n="72"/>pati quia curtens non solum est causa cffectiua 
+      ip<lb ed="#P" n="73" break="no"/>sius cursus: imocum hoc est subiectum eiusdem. 
+      <lb ed="#P" n="74"/>Sed bene Deus potest facerecursum in alio. Non 
+      <lb ed="#P" n="75"/>potest etiam peccare: quia hoc importat 
+      imper<lb ed="#P" n="76" break="no"/>fectionem. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

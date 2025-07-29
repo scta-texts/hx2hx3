@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#HerveusNatalis">Herveus Natalis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2025-07-29">July 29, 2025</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2025-07-29" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="90"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="hx2hx3-b29436"><!-- l1d17q2 -->
+            <head xml:id="hx2hx3-b29436-Hd1e99">Quaestio 2</head>
+            <head xml:id="hx2hx3-b29436-Hd1e101" type="question-title">Utrum charitas sit accidens</head>
+            <p xml:id="hx2hx3-b29436-d1e104">
+               <lb ed="#P" n="41"/>QVAESTIOSEOVNDA 
+      <lb ed="#P" n="42"/>SEcundo, quaeritur vtrum charitas sit accidens. 
+      <lb ed="#P" n="43"/>Et videtur quod non: cum non oriatur ex 
+      prin<lb ed="#P" n="44" break="no"/>eipiis subiecti: accidens autem videtur oriri ex 
+      <lb ed="#P" n="45"/>principiis subiecti, quia materia cum forma causa 
+      <lb ed="#P" n="46"/>est omnium quae sunt in ea. 
+      </p>
+            <p xml:id="hx2hx3-b29436-d1e120">
+               <lb ed="#P" n="47"/>Contra adest &amp; abest praeter subiecti 
+      corruptio<lb ed="#P" n="48" break="no"/>nem. 
+      </p>
+            <p xml:id="hx2hx3-b29436-d1e127">
+               <lb ed="#P" n="49"/>Respondeo, primo est ponenda positio vera 
+      <lb ed="#P" n="50"/>ostendens charitatem esse accidens, per hoc quod 
+      <lb ed="#P" n="51"/>aduenit post completum esse animae in esse natu. 
+      <lb ed="#P" n="52"/>rali, vt patet de se &amp; per inhaerentiam: tale 
+      au<lb ed="#P" n="53" break="no"/>tem est accidens: Ergo, &amp;c. Illud enim quod 
+      ad<lb ed="#P" n="54" break="no"/>uenit per inhaerentiam squod dico ad differentiam 
+      <lb ed="#P" n="55"/>vestis aduenientis non per inhaerentiam: &amp; etiam 
+      <lb ed="#P" n="56"/>ad differentiam naturae humanae quae sic 
+      assumi<lb ed="#P" n="57" break="no"/>tur ad vnitatem suppositi diuini, quod tamen non 
+      <lb ed="#P" n="58"/>per inhaerentiam) Et post completum esse sub. 
+      <lb ed="#P" n="59"/>stantiale rei (quod dico propter formam 
+      substan<lb ed="#P" n="60" break="no"/>tlalem) tale quid necessario est accidens. 
+      </p>
+            <p xml:id="hx2hx3-b29436-d1e157">
+               <lb ed="#P" n="61"/>Secundo, ponenda positio iudicio meo nimis 
+      <lb ed="#P" n="62"/>friuola, quae dicit quod istud dictum, licet sit 
+      ve<lb ed="#P" n="63" break="no"/>rum, non tamen est ratione firmatum: &amp; ideo 
+      <lb ed="#P" n="64"/>aliter dicendum est vt dicunt: scilicet quod quia 
+      <lb ed="#P" n="65"/>nulla creatura est sua virtus: cum charitas sit 
+      vir<lb ed="#P" n="66" break="no"/>tus animae, non potest esse substantia animae: &amp; 
+      <lb ed="#P" n="67"/>ideo est accidens. Quod autem nulla creatura sit 
+      <lb ed="#P" n="68"/>sua virtus, probant: quia omnit creatura agit in 
+      <!--90.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="69"/>virtute alterius, &amp; per consequens habet virtutem 
+      <lb ed="#P" n="70"/>participatam, nec est sua virtus. Tertio, ponendi 
+      <lb ed="#P" n="71"/>sunt defectus huius positionis. Primus defectus est 
+      <lb ed="#P" n="72"/>quia dicit primum dictum non esse ratione 
+      firma<lb ed="#P" n="73" break="no"/>tum, aut hoc est, quia nulla ratio adducitur, aut 
+      <lb ed="#P" n="74"/>quia ratio adducta non valet. Non primum, quia 
+      <lb ed="#P" n="75"/>constat quod ad illud dictum adducitur ratio qua 
+      <lb ed="#P" n="76"/>dicitur, omne quod aduenit per inhaerentiam 
+      a<lb ed="#P" n="77" break="no"/>licui post suum completum esse &amp;c. Nec 
+      secun<lb ed="#P" n="78" break="no"/>dum, quia si illa ratio nulla est, aut hoc ideo est 
+      <lb ed="#P" n="79"/>quia maior aut minor est falsa vel ineuidens, aut 
+      <lb ed="#P" n="80"/>quia consequentia nulla. Primum non potest esse 
+      <lb ed="#P" n="81"/>quia maior fundatur supra ratione proprissima ac. 
+      <lb ed="#P" n="82"/>cidentis: vnde ibi praedicatur deffinitio, si 
+      deffi<lb ed="#P" n="83" break="no"/>nitio conueniret accidenti de diffinito. Et si non 
+      <lb ed="#P" n="84"/>praedicetur deffinitio de deffinito, saltem 
+      praedi<lb ed="#P" n="85" break="no"/>catur proprissima ratio de eo cuius est ratio, 
+      <lb ed="#P" n="86"/>quando dicitur quod accidens est illud quod ad. 
+      <lb ed="#P" n="87"/>uenit &amp;c. Minor etiam est manifesta ex 
+      suprandi<lb ed="#P" n="88" break="no"/>ctis: qusa supra ostensum est quod charitas qua 
+      <lb ed="#P" n="89"/>diligimus Deum non est Spiritus Sanctus, sed 
+      a<lb ed="#P" n="90" break="no"/>liquid formaliter inhaerens voluntati. Concessis 
+      <lb ed="#P" n="91"/>futem duabus dictis propositionibus manifeste 
+      <lb ed="#P" n="92"/>potest apparere cuilibet quod ibi est bona 
+      conse<lb ed="#P" n="93" break="no"/>quentia. Non potest ergo dici rationabiliter illud 
+      <lb ed="#P" n="94"/>dictum non esse ratione firmatum, imo sic dicere 
+      <lb ed="#P" n="95"/>est manifeste contradicere veritati, nullam 
+      ratio<lb ed="#P" n="96" break="no"/>nem contradicendi assignando. 
+      </p>
+            <p xml:id="hx2hx3-b29436-d1e242">
+               <lb ed="#P" n="97"/>Secundo deficit improperando qubd charitas 
+      <lb ed="#P" n="98"/>sit accidens: puio dato quod nulla creatura sit sua 
+      <lb ed="#P" n="99"/>virus, loquendo de creatura completa quae est 
+      <lb ed="#P" n="100"/>suppositum completum, quod tamen forma 
+      sub<lb ed="#P" n="101" break="no"/>stantialis non sit virtus actiua etiam illius cuius est 
+      <lb ed="#P" n="102"/>forma &amp; immediatum principium quo habens 
+      ip<lb ed="#P" n="103" break="no"/>sam agit, negatur a multis. Et dato quod esset 
+      ve<lb ed="#P" n="104" break="no"/>rum quod illud quo creatura immediate operatur 
+      <lb ed="#P" n="105"/>non sit eius substantia: non tamen ratio ad hoc in 
+      <lb ed="#P" n="106"/>ducta hoc probat: quia quando dicitur quod 
+      om<lb ed="#P" n="107" break="no"/>nis creatura agit in virtute alterius, ly alterius 
+      po<lb ed="#P" n="108" break="no"/>test dicere causam extrinsecam efficientem, vt sit 
+      <lb ed="#P" n="109"/>sensus quod omnis creatura agit per virtutem 
+      <lb ed="#P" n="110"/>communicatam ei ab alio a se virtutem effectiue 
+      <lb ed="#P" n="111"/>communicando, &amp; ex hoc non sequitur quod sux 
+      <lb ed="#P" n="112"/>virtus non sit aliquid suae eslentiae, sed quod non 
+      <lb ed="#P" n="113"/>sit illa causa a qua virtus illa effectiue 
+      communi<lb ed="#P" n="114" break="no"/>catur, vel potest accipi lv alterius pro forma 
+      inhae<lb ed="#P" n="115" break="no"/>rente &amp; intrinsece, vt sit sensus quod omnis 
+      crea<lb ed="#P" n="116" break="no"/>tura agit in virtute alterius, id est per virtutem sibi 
+      <lb ed="#P" n="117"/>inhaerentem quae sit res alia a se siue substantia sua 
+      <lb ed="#P" n="118"/>Et sic multi negarent quod agere in virtute alte, 
+      <lb ed="#P" n="119"/>rius conueniat substantiae creatae. Et si dicatur 
+      <lb ed="#P" n="120"/>quod ex quo habet virtutem ab alio, opportet 
+      <lb ed="#P" n="121"/>quod virtus sua sit ab eo participata, &amp; sic 
+      creatu<lb ed="#P" n="122" break="no"/>ra non erit sua virtus, &amp; per consequens virtus eiurt 
+      <lb ed="#P" n="123"/>non erit accidens. Istud nihil valet, primo, quia 
+      <lb ed="#P" n="124"/>etiam creatura suam essentiam a Deo sicut a 
+      cau<lb ed="#P" n="125" break="no"/>sa efficiente participat, nec potest dici quod sua 
+      <lb ed="#P" n="126"/>essentia differat ab ipsa sicut quoddam additum 
+      <lb ed="#P" n="127"/>ad ipsam. Item etiam creetura composita non est 
+      <lb ed="#P" n="128"/>sua forma substantialis, nec tamen sequitur quod 
+      <lb ed="#P" n="129"/>sua forma sit accidens: ita dato quod creatura ex 
+      <lb ed="#P" n="130"/>hoc quod habet virtutem participatam a Deo non 
+      <lb ed="#P" n="131"/>sit sua virtus, non tamen sequitur quod sua virtus 
+      <lb ed="#P" n="132"/>sit accidens. Vnde licet ita sit quod principium 
+      <lb ed="#P" n="133"/>actiuum immediatum, vel virtus creaturae non sit 
+      <lb ed="#P" n="134"/>eius substantia, sed sit aliqua qualitas superaddita, 
+      <lb ed="#P" n="135"/>sicut credo verum esse: praedicta tamen deductio 
+      <lb ed="#P" n="136"/>hoc non probat. Vnde ex praemissis posser satis 
+      o<lb ed="#P" n="137" break="no"/>stendi istam secundam positionem esse multum 
+      <lb ed="#P" n="138"/>irrationabilem, quia repudiare positionem, vel 
+      <!--91.xml-->
+      <pb ed="#P" n="91"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ratione vtentem principiis per se notis, &amp; ab 
+      om<lb ed="#P" n="2" break="no"/>nibus communiter concessis &amp; vti principiis 
+      du<lb ed="#P" n="3" break="no"/>biis in quibus magni sibi contradicunt est valde 
+      ir<lb ed="#P" n="4" break="no"/>rationabile: sic est in proposito positio ista, sicut 
+      <lb ed="#P" n="5"/>paret intuenti, ergo de. 
+      </p>
+            <p xml:id="hx2hx3-b29436-d1e353">
+               <lb ed="#P" n="6"/>Ad rationem dicendum quod non omne 
+      acci<lb ed="#P" n="7" break="no"/>dens oritur ex principiis subiecti effectiue: licet 
+      <lb ed="#P" n="8"/>omne accidens oriatur aliquo modo a subiecto 
+      ma<lb ed="#P" n="9" break="no"/>terialiter, in quantum ad suum esse requirit 
+      subie<lb ed="#P" n="10" break="no"/>ctum in quo substentetur &amp; subsistat. Et sic etiam 
+      <lb ed="#P" n="11"/>charitas hab et ortnm sic largo modo dictum a 
+      sub<lb ed="#P" n="12" break="no"/>iecto. Quod autem non omne accidens oriatur ex 
+      <lb ed="#P" n="13"/>principus subiecti effectiue patet: quia illud quod 
+      <lb ed="#P" n="14"/>re pugnat principiis subiecti non causatur ex ipsis 
+      <lb ed="#P" n="15"/>effectiue: sed accidentia violenta sicut est calor in 
+      <lb ed="#P" n="16"/>aqua repuguant principiis subiecti in quo sunt: 
+      <lb ed="#P" n="17"/>ergo &amp;c. Sed contra hocdicunt quidam quod imo: 
+      <lb ed="#P" n="18"/>quia tilia oriuntur ex principiis subiecti cum 
+      edu<lb ed="#P" n="19" break="no"/>cantur de potentia materiae. Sed sicdicentes 
+      nes<lb ed="#P" n="20" break="no"/>ciunt quid est educi de potentia materiae: Nam 
+      <lb ed="#P" n="21"/>educi de potentia materiae non est oriri effectiue a 
+      <lb ed="#P" n="22"/>potentia materiae, cum potentia materiae non sit 
+      <lb ed="#P" n="23"/>actiua, sed passiua, vt ipsimet dicunt. Etideo talia 
+      <lb ed="#P" n="24"/>educi de potentia materiae nil facit ad propositum 
+      <lb ed="#P" n="25"/>quo dicitur talia non oriri essectiue a principiis 
+      <lb ed="#P" n="26"/>subiecti in quo sunt. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

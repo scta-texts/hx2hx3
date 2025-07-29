@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#HerveusNatalis">Herveus Natalis</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2025-07-29">July 29, 2025</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-hvna87">Paris 1647</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2025-07-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="41"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hx2hx3-b13122"><!-- l1d3q5 -->
+        <head xml:id="hx2hx3-b13122-Hd1e99">Quaestio 5</head>
+        <head xml:id="hx2hx3-b13122-Hd1e101" type="question-title">Utrum potentiae animae originentur ab ipsa anima</head>
+        <p xml:id="hx2hx3-b13122-d1e104">
+          <lb ed="#P" n="4"/>QVAESTIO QVINTA 
+          <lb ed="#P" n="5"/>Quinto quaeritur vtrum potentiae animae 
+          <lb ed="#P" n="6"/>originentur ab ipsa anima
+        </p>
+        <p xml:id="hx2hx3-b13122-d1e113">
+          <lb ed="#P" n="7"/>ET videtur quod non, quia impossibile est 
+          <lb ed="#P" n="8"/>quod idem sit principium actiuum &amp; 
+          passi<lb ed="#P" n="9" break="no"/>uum &amp; susceptiuum eius. Sed anima est 
+          suscep<lb ed="#P" n="10" break="no"/>tiua suarum potentiarum: Ergo &amp;c. 
+        </p>
+        <p xml:id="hx2hx3-b13122-d1e124">
+          <lb ed="#P" n="11"/>Contra, subiectum est causa per se suarum 
+          pas<lb ed="#P" n="12" break="no"/>sionum. Sed anima est subiectum suarum poten 
+          <lb ed="#P" n="13"/>tiarum: Ergo, &amp;c. 
+        </p>
+        <p xml:id="hx2hx3-b13122-d1e134">
+          <lb ed="#P" n="14"/>Respondeo: de ista quaestione est magna 
+          con<lb ed="#P" n="15" break="no"/>trouersia, quia quidam dicunt quod idem subiecto 
+          <lb ed="#P" n="16"/>impossibile est se habere actiue respectu eiusdem 
+          <lb ed="#P" n="17"/>quantumcunque ponantur pluta ibi essentialiter 
+          <lb ed="#P" n="18"/>differentia. Vnde secundum eos impossibile est 
+          <lb ed="#P" n="19"/>quod aliquid per illud quod est subiectum, quod 
+          <lb ed="#P" n="20"/>per illud sit causa actiua respectu eiusdem 
+          Vlte<lb ed="#P" n="21" break="no"/>rius dicunt quod illud quod est idem subiecto 
+          <lb ed="#P" n="22"/>quantumcunque habeat plura essentialiter 
+          diffe<lb ed="#P" n="23" break="no"/>rentia, impossibile est quod per vnum illorum se 
+          <lb ed="#P" n="24"/>habeat actiue &amp; per aliud passiue respectu 
+          eius<lb ed="#P" n="25" break="no"/>dem. Licet autem multae rationes iadducantur ad 
+          <lb ed="#P" n="26"/>probandum primum, potissima tamen &amp; quasi 
+          <lb ed="#P" n="27"/>fundamentum aliarum est ista, quia sic sequeretur 
+          <lb ed="#P" n="28"/>quod idem secundum idem esset in actu &amp; in 
+          po<lb ed="#P" n="29" break="no"/>tentia respectu eiusdem. Et si dicatur quod esse in 
+          <lb ed="#P" n="30"/>actu virtuali &amp; in potentia formali respectu 
+          eius<lb ed="#P" n="31" break="no"/>dem non est inconueniens. Tunc addunt quod 
+          <lb ed="#P" n="32"/>idem faceret se in actu, ita quod diceretur quod 
+          <lb ed="#P" n="33"/>lignum combureret se per potentiam per quam 
+          <lb ed="#P" n="34"/>respicit combustionem, &amp; sic de aliis. Ista etiam 
+          <lb ed="#P" n="35"/>ratio potest sic fortificari, quia subiectum 
+          reci<lb ed="#P" n="36" break="no"/>piens actum non solum est in potentia respectu 
+          <lb ed="#P" n="37"/>formae vel actus secundum quam recipit, sed 
+          <lb ed="#P" n="38"/>etiam respectu virtutis actiuae vel agentis a quo 
+          <lb ed="#P" n="39"/>transmutatur. Videtur enim quod calefactibile 
+          <lb ed="#P" n="40"/>est in potentia passiua ad recipiendum calorem a 
+          <lb ed="#P" n="41"/>tali agente, &amp; sic potentia receptiua passiue &amp; 
+          <lb ed="#P" n="42"/>formam &amp; agens respicit. Ergo sicut ex hoc quod 
+          <lb ed="#P" n="43"/>passiue respicit formam quam recipit, sequitur 
+          <lb ed="#P" n="44"/>quod impossibile est quod sit forma quam recipit: 
+          <lb ed="#P" n="45"/>ita ex hoc quod passiue respicit virtutem actiuam 
+          <lb ed="#P" n="46"/>a qua effectiue ad actum reducitur, videtur 
+          impos<lb ed="#P" n="47" break="no"/>sibile quod sit virtus actiua quae se faciat effectiue 
+          <lb ed="#P" n="48"/>esse in actu. Sequeretur etiam quod oppositi 
+          res<lb ed="#P" n="49" break="no"/>pectus possent fundari in eadem essentia simplici 
+          <lb ed="#P" n="50"/>scilicet respectu mouentis &amp; moti, quod videtur 
+          <lb ed="#P" n="51"/>proprium solius essentiae diuinae propter suam 
+          in<lb ed="#P" n="52" break="no"/>finitatem. Vlterus rationes istas extendunt isti ad 
+          <lb ed="#P" n="53"/>secundum membrum, scilicet quod etiam idem 
+          sub<lb ed="#P" n="54" break="no"/>iecto in quo non sunt diuersae partes situ &amp; 
+          subie<lb ed="#P" n="55" break="no"/>cto distinctae non potest mouere vel reducere 
+          sei<lb ed="#P" n="56" break="no"/>psum in actum quantumcunque sint in eo diuersa 
+          <lb ed="#P" n="57"/>aliqua essentialiter, quia secundum eos forma non 
+          <lb ed="#P" n="58"/>agit, sed totum aggregatum. Ergo totum 
+          secun<lb ed="#P" n="59" break="no"/>dum totum, est quod agit, &amp; totum secundum 
+          <lb ed="#P" n="60"/>totum, est quod patitur; &amp; sic si idem subiecto 
+          <lb ed="#P" n="61"/>esset agens &amp; passum, quantumcunque 
+          poneren<lb ed="#P" n="62" break="no"/>tur ibi plura essentialiter differentia, adhuc staret 
+          <lb ed="#P" n="63"/>quod idem &amp; secundum idem esset in actu &amp; in 
+          <lb ed="#P" n="64"/>potentia. Sequeretur etiam quod eidem &amp; 
+          secun<lb ed="#P" n="65" break="no"/>dum idem inessent oppositi respectus. In his 
+          prin<lb ed="#P" n="66" break="no"/>cipaliter stat vigor rationum quae inducuntur ad 
+          <lb ed="#P" n="67"/>partem istam. 
+        </p>
+        <p xml:id="hx2hx3-b13122-d1e254">
+          <lb ed="#P" n="68"/>Aliis autem videtur contrarium. Et isti 
+          diuidun<lb ed="#P" n="69" break="no"/>tur in tres nartes. Quidam enim ponunt quod non 
+          <!--41.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="70"/>solum eadem essentia potest esse causa effectiua 
+          a<lb ed="#P" n="71" break="no"/>licuius actus &amp; potentia receptiua eiusdem, imo 
+          <lb ed="#P" n="72"/>dicunt quod etiam ipsamer potentia passiua pel 
+          <lb ed="#P" n="73"/>quam aliquid est in potemnmtia ad hoc quod sit in actu, 
+          <lb ed="#P" n="74"/>est principium actiuum faciens seipsum esse inactu 
+          <lb ed="#P" n="75"/>nulla re noua eausata, nisi res vocetut modus. 
+          Hu<lb ed="#P" n="76" break="no"/>ius positionis squam valde irrationabilem puto lmodum, 
+          <lb ed="#P" n="77"/>motiuum, &amp; declarationem dimitto vsque ad 
+          se<lb ed="#P" n="78" break="no"/>cundum libtum, quando agetur de rationibus 
+          se<lb ed="#P" n="79" break="no"/>minalibus, quoniam vt patet, ibi habet locum. 
+        </p>
+        <p xml:id="hx2hx3-b13122-d1e287">
+          <lb ed="#P" n="80"/>Alii dicunt quod idem per essentiam non potest 
+          <lb ed="#P" n="81"/>esse potentia passiua &amp; actus acquisitus, sed hene 
+          <lb ed="#P" n="82"/>ponunt quod idem per essentia potest esse princi 
+          <lb ed="#P" n="83"/>pium effectiuum &amp; susceptiuum respectu eiusdem, 
+          <lb ed="#P" n="84"/>actus, &amp; hoc dicunt praecipue de voluntate &amp; de 
+          <lb ed="#P" n="85"/>subiecto respectu suarum passionum. Ad ponendum 
+          <lb ed="#P" n="86"/>hoc de voluntate mouentur, quia videtur eis quod 
+          <lb ed="#P" n="87"/>aliter tolleretur libertas voluntatis, de quo traclare 
+          <lb ed="#P" n="88"/>differo ad tractatum de liberio arbitrio. Ad ponen 
+          <lb ed="#P" n="89"/>dum autem hoc, de subiecto respectu passionum, 
+          <lb ed="#P" n="90"/>mouentur ex dicto eommuni quo dicitur quod 
+          <lb ed="#P" n="91"/>proprium subiectum est causa propriae passionis, 
+          <lb ed="#P" n="92"/>de quo dicto statim aliquid dicetur. 
+        </p>
+        <p xml:id="hx2hx3-b13122-d1e318">
+          <lb ed="#P" n="93"/>Alii vero sunt qui ponunt quodidem subiecto, 
+          se<lb ed="#P" n="94" break="no"/>cundum tamen diuersa per essentiam potest se 
+          re<lb ed="#P" n="95" break="no"/>ducere in actum quo prius carebat. Sicut si pona. 
+          <lb ed="#P" n="96"/>tur quod aliquis per intellectum agentem &amp; 
+          spe<lb ed="#P" n="97" break="no"/>ciem actiue &amp; per intellectum possibilem passiue 
+          <lb ed="#P" n="98"/>se reducat in actum intelligendi. Sed idem per es 
+          <lb ed="#P" n="99"/>sentiam non videtur eis esse principium actiuum &amp; 
+          <lb ed="#P" n="100"/>passiuum respectu alicuius actus quo prius careret, 
+          <lb ed="#P" n="101"/>&amp; secundum quem de nouo passum reducatur in 
+          <lb ed="#P" n="102"/>actum secundum quandam mutationem, vel 
+          quan<lb ed="#P" n="103" break="no"/>tumcunque: tamen dicunt quod quandoque 
+          prin<lb ed="#P" n="104" break="no"/>cipium originas per modum cuiusdam 
+          resultatio<lb ed="#P" n="105" break="no"/>nis, sicut color resultat ex lumine, &amp; principium 
+          <lb ed="#P" n="106"/>susceptiuum potest esse idem per essentiam 
+          respe<lb ed="#P" n="107" break="no"/>ctu actus de necessitate consequentis subiectum: 
+          <lb ed="#P" n="108"/>ita quod non sit principium eius per modum 
+          trani<lb ed="#P" n="109" break="no"/>mutationis &amp; reducentis de nouo in actum, quia 
+          <lb ed="#P" n="110"/>isto modo generans est principium proprietatum 
+          <lb ed="#P" n="111"/>consequentium subiectum generatum. ded subie 
+          <lb ed="#P" n="112"/>ctum dicitur principium earum in quantum 
+          con<lb ed="#P" n="113" break="no"/>sequuntur de necessitate ad ipsum vt er eo ex quo 
+          <lb ed="#P" n="114"/>resultant, &amp; per quandam resultantiam 
+          originan<lb ed="#P" n="115" break="no"/>tur. Quod autem idem subiecto, secundum tamen 
+          <lb ed="#P" n="116"/>diuersa per essentiam possit se reducere de 
+          poten<lb ed="#P" n="117" break="no"/>tia ad actum videtur. Primo, quia aliter homo 
+          fa<lb ed="#P" n="118" break="no"/>ctus in actu intelligendi aliquid, non posset se 
+          re<lb ed="#P" n="119" break="no"/>ducere in actum intelligendi alia consequentia, 
+          cu<lb ed="#P" n="120" break="no"/>ius contrarium experimentum docet. Et si dicatur 
+          <lb ed="#P" n="121"/>quod in tali reductione non idem est subiecto 
+          mo<lb ed="#P" n="122" break="no"/>uens &amp; motum, quia aliquis factus in actu 
+          in<lb ed="#P" n="123" break="no"/>telligendi aliquid per intellectum &amp; volunta. 
+          <lb ed="#P" n="124"/>tem, mouet phantasma, a quo postea 
+          moue<lb ed="#P" n="125" break="no"/>tur intellectus. Non videtur hoc valere, quia 
+          <lb ed="#P" n="126"/>licet intellectus &amp; phantasma non concurrant in 
+          <lb ed="#P" n="127"/>idem subiectum quod est torum coniunctum, 
+          <lb ed="#P" n="128"/>quia subiectum intellectus est sola anima, 
+          subie<lb ed="#P" n="129" break="no"/>ctum vero phantasiae est compositum ex anima &amp; 
+          <lb ed="#P" n="130"/>corpore; tamen concurrunt in idem subiecto 
+          quan<lb ed="#P" n="131" break="no"/>tum ad essentiam animae quae sola est subiectum 
+          <lb ed="#P" n="132"/>intellectusi; ipsa vero cum alio est subiectum 
+          <lb ed="#P" n="133"/>phantasiae: Nec distinguuntur intellectus &amp; 
+          phan<lb ed="#P" n="134" break="no"/>tasia situ &amp; subiecto, sicut volunt illi qui ponunt 
+          <lb ed="#P" n="135"/>idem subiecto non mouere seipsum: sed nec oporter 
+          <lb ed="#P" n="136"/>partem mouentem &amp; par tem motam distingui. Vnde 
+          <lb ed="#P" n="137"/>si poneretur vnus Angelus tantum factus a Deo, 
+          im<lb ed="#P" n="138" break="no"/>possibile esset quod med iate vel immediate 
+          redu<lb ed="#P" n="139" break="no"/>ceret se de potentia in actum, si idem fubiecto non 
+          <!--42.xml-->
+          <pb ed="#P" n="42"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>posset se reducere de potentia in actum, quia stante 
+          <lb ed="#P" n="2"/>hvpothesi non esset date aliquid distinctum 
+          sub<lb ed="#P" n="3" break="no"/>iecto ab eo in quo posset agere vt ab eo postea 
+          mo<lb ed="#P" n="4" break="no"/>ueretur, &amp; sic nec mereri nec demereri posset, 
+          <lb ed="#P" n="5"/>quod videtur inconueniens: item ipsi ponunt 
+          <lb ed="#P" n="6"/>quod habens liberum arbitrium per voluntatem 
+          <lb ed="#P" n="7"/>&amp; intellectum potest se sistere, quod non videtur 
+          <lb ed="#P" n="8"/>posse esse, nisi habens liberum arbitrium posset se 
+          <lb ed="#P" n="9"/>reducere de porentia in actum. 
+        </p>
+        <p xml:id="hx2hx3-b13122-d1e448">
+          <lb ed="#P" n="10"/>Ad rationes autem aliorum faciliter 
+          res<lb ed="#P" n="11" break="no"/>pondent, &amp; primo ad primam: nam non 
+          se<lb ed="#P" n="12" break="no"/>quitur ex dicta ratione quod idem sit mouens 
+          <lb ed="#P" n="13"/>&amp; motum &amp; in actu &amp; in potentia, imo 
+          secun<lb ed="#P" n="14" break="no"/>dum diuersa, &amp; quando dicunt quod imo, quia 
+          <lb ed="#P" n="15"/>forma non agit sed compositum, non videtur valere 
+          <lb ed="#P" n="16"/>Quia aliud est aliquid esse, quod agit vel 
+          pati<lb ed="#P" n="17" break="no"/>tur &amp; esse ratione agendi vel patiendi, secundu qua 
+          <lb ed="#P" n="18"/>aliquid agit vel patitur: licet ergo sit aggregatum 
+          <lb ed="#P" n="19"/>quod agit vel patitur, non tamen aggregatum est 
+          <lb ed="#P" n="20"/>id secundum quod agit vel patitur, sed hoc est 
+          <lb ed="#P" n="21"/>aliquod principium actiuum vel passiuum quod 
+          <lb ed="#P" n="22"/>est ratio agendi vel patiendi in aggregato; 
+          alio<lb ed="#P" n="23" break="no"/>quin sequeretur quod etiam idem supposito, 
+          se<lb ed="#P" n="24" break="no"/>cundum quascunque partes diuersas non posset 
+          <lb ed="#P" n="25"/>mouere seipsum, quia sicut forma non est quod 
+          a<lb ed="#P" n="26" break="no"/>git proprie vel quod patitur, ita nec pars 
+          quaecun<lb ed="#P" n="27" break="no"/>que quantitatiua vel organica est proprse quoo 
+          <lb ed="#P" n="28"/>agit vel patitur. Si ergo sicut idem est quod agit 
+          <lb ed="#P" n="29"/>&amp; quod patitur esset idem &amp; illud secundu quod 
+          <lb ed="#P" n="30"/>agens agit &amp; patiens patitur, sequeretur quod si 
+          <lb ed="#P" n="31"/>idem supposito moueret se, quod moueret &amp; 
+          mo<lb ed="#P" n="32" break="no"/>uerretur secundum idem: quod manifeste apparet 
+          <lb ed="#P" n="33"/>esse falsum in animalibus. Ad aliud dicunt quod 
+          <lb ed="#P" n="34"/>respectus. mouentis &amp; moti non sunt oppositi, nec 
+          <lb ed="#P" n="35"/>incompossibiles circaidem subiecto, &amp; supposito 
+          <lb ed="#P" n="36"/>sed sunt oppositi &amp; incompossibiles circa eandem 
+          <lb ed="#P" n="37"/>essentiam simplscem nullam realem distinctionem 
+          <lb ed="#P" n="38"/>suppositorum vel aliorum realiter differentium 
+          <lb ed="#P" n="39"/>habentem: vnde in Deo bene fundantur 
+          respe<lb ed="#P" n="40" break="no"/>ctus producentis &amp; producti in eadem essentia 
+          <lb ed="#P" n="41"/>simplici propter infinitatem suan cum cuius 
+          vni<lb ed="#P" n="42" break="no"/>tate stat distinctio realis plurium suppositorum, 
+          <lb ed="#P" n="43"/>sed in nulla essentia creata hoc potest esse, &amp; hoc 
+          <lb ed="#P" n="44"/>ad praesens videtur istud probabilius. Quantum 
+          <lb ed="#P" n="45"/>autem ad secundum quod subiectum habeat 
+          ali<lb ed="#P" n="46" break="no"/>quam causalitatem effectiuam super suas proprias 
+          <lb ed="#P" n="47"/>passiones videtur mihii esse difficilius: quia si 
+          pona<lb ed="#P" n="48" break="no"/>tur quod subiectum sitcausa effectiua sui propril 
+          <lb ed="#P" n="49"/>accidentis, sequitur quod idem sit ratio agendi 
+          <lb ed="#P" n="50"/>effectiue &amp; ratio patiendi, &amp; quod idem &amp; 
+          secun<lb ed="#P" n="51" break="no"/>dum idem agat &amp; patiatur, &amp; sit in potentia &amp; 
+          <lb ed="#P" n="52"/>in actu: &amp; si dicatur quod non, quia ratio agendi 
+          <lb ed="#P" n="53"/>dicta accidentia est forma, sed ratio patiendi 
+          ma<lb ed="#P" n="54" break="no"/>teria: non valet. Primo quia materia non recipit 
+          <lb ed="#P" n="55"/>accidens aliquod nisi mediante forma 
+          substantia<lb ed="#P" n="56" break="no"/>li, &amp; sic forma substantialis quae ponitur ratio 
+          a<lb ed="#P" n="57" break="no"/>gendi est prima ratio suscipiendi: vel dato quod 
+          <lb ed="#P" n="58"/>hoc non concederetur de omnibus sicut de 
+          quan<lb ed="#P" n="59" break="no"/>titate, hoc tamen conceditur de accidentibus 
+          pro<lb ed="#P" n="60" break="no"/>priis speciei quae consequuntur rem ex parte 
+          for<lb ed="#P" n="61" break="no"/>mae: vel saltem sequeretur quod in anima &amp; 
+          sub<lb ed="#P" n="62" break="no"/>stantiis separatis quae non habent substantiam 
+          <lb ed="#P" n="63"/>compositam ex pluribus, esset idem per essentiam 
+          <lb ed="#P" n="64"/>&amp; principium actiuum &amp; principium passiuum 
+          <lb ed="#P" n="65"/>respectu eiusdem si subiectum est causa effectiua 
+          <lb ed="#P" n="66"/>suorum propriorum &amp; per se accidentium: hoc 
+          <lb ed="#P" n="67"/>autem est inconueniens, ideo &amp;c. Si autem 
+          pona<lb ed="#P" n="68" break="no"/>tur quod subiectum nullam causalitatem habet 
+          <lb ed="#P" n="69"/>effectiuamrespectu suorum propriorum &amp; per se 
+          <lb ed="#P" n="70"/>accidentium, sed tantum est passiuum &amp; tantum 
+          <!--42.xml-->
+          <cb ed="#P" n="b"/>
+          <lb ed="#P" n="71"/>receptiuum, cum illud quod tantum est 
+          suscepti<lb ed="#P" n="72" break="no"/>uium non imponat necessitatem essendi ei 
+          respe<lb ed="#P" n="73" break="no"/>ctu cuius est tale, sequitur quod propria passio non 
+          <lb ed="#P" n="74"/>de necessitatesequeretur subiectum sicut nec alia 
+          <lb ed="#P" n="75"/>accidentia quae respiciunt tantum in quo sunt vl 
+          <lb ed="#P" n="76"/>receptiuum, nec sequuntur necessario ad illud 
+          <lb ed="#P" n="77"/>quod sic est receptiuum tantum: Et si dicatur 
+          <lb ed="#P" n="78"/>quod subiectum non imponit ei necessitatem 
+          es<lb ed="#P" n="79" break="no"/>sendi, sed generans quiesimul vtrumque 
+          produ<lb ed="#P" n="80" break="no"/>cit. Non videtur hoc sufficere, quia si subiectum 
+          <lb ed="#P" n="81"/>nullam necessitatem essendi imponit passioni, 
+          <lb ed="#P" n="82"/>tunc quantum est de se non habet necessariam 
+          <lb ed="#P" n="83"/>habitudinem ad propriam passionem &amp; posset 
+          <lb ed="#P" n="84"/>esse sine ea, &amp; si non potest esse sine ea passione 
+          <lb ed="#P" n="85"/>propter hoc quod generans semper generat 
+          v<lb ed="#P" n="86" break="no"/>trumque, his tamen per comparationem ad 
+          sub<lb ed="#P" n="87" break="no"/>lectum videtur esse per accidens. Item difficile 
+          <lb ed="#P" n="88"/>videtur quomodo propriae qualitates dicantur 
+          a<lb ed="#P" n="89" break="no"/>gere vt instrumenta formarum substantialium si 
+          <lb ed="#P" n="90"/>non sunt ab eis effectiue aliquo modo, vel si non 
+          <lb ed="#P" n="91"/>recipiunt aliquam virtutem ab eis. Non potest 
+          <lb ed="#P" n="92"/>autem dici quod qualitates tales recipiant a 
+          for<lb ed="#P" n="93" break="no"/>mis substantialibus virtutem aliquam differentem 
+          <lb ed="#P" n="94"/>realiter ab eis: &amp; ideo videtur quod si tales 
+          qua<lb ed="#P" n="95" break="no"/>litates agunt vt instrumentum formarum 
+          substan<lb ed="#P" n="96" break="no"/>tialium, quod formae substantiales habeant 
+          ali<lb ed="#P" n="97" break="no"/>quam causalitatem effectiuam super eas. Non 
+          <lb ed="#P" n="98"/>potest autem dici quod dictae qualitates non 
+          a<lb ed="#P" n="99" break="no"/>gant vt instrumentum formarum substantialium 
+          <lb ed="#P" n="100"/>cum agant ad productionem formarum 
+          substan<lb ed="#P" n="101" break="no"/>tialium, quod non possent facere nisi agerent vt 
+          <lb ed="#P" n="102"/>instrumentum formarum substantialium, vnde 
+          <lb ed="#P" n="103"/>videtur quod difficile sit sustinere quancunque 
+          <lb ed="#P" n="104"/>partem: posset autem dici ad hoc quod sicut non 
+          <lb ed="#P" n="105"/>solum illud per quod subiectum subest formae, si 
+          <lb ed="#P" n="106"/>cut per quantitatem subest aliquid figurae, dicitur 
+          <lb ed="#P" n="107"/>principium passiuum, vel passiue se habere ad 
+          <lb ed="#P" n="108"/>formam, imo &amp; id per quod disponitur tale 
+          prin<lb ed="#P" n="109" break="no"/>cipium passiuum ad recipiendum formam dicitur 
+          <lb ed="#P" n="110"/>passiue se habere ad effectum sicut mollities cerae 
+          <lb ed="#P" n="111"/>se habet ad figuram communem eius. licet 
+          mol<lb ed="#P" n="112" break="no"/>lities non sit illud in quo recipitur figura sicut in 
+          <lb ed="#P" n="113"/>ratione suscipiendi: licet enim aliquo modo 
+          dis<lb ed="#P" n="114" break="no"/>positiue sit ratio suscipiendi, non tamen est ratio 
+          <lb ed="#P" n="115"/>susceptiua in qua sit susceptio figurae: Sic etiam 
+          <lb ed="#P" n="116"/>oportet quod quodammodo dicatur quasi 
+          cffecti<lb ed="#P" n="117" break="no"/>ue principium originans illud post quod quodam 
+          <lb ed="#P" n="118"/>ordine &amp; quadam necessaria connexione 
+          produ<lb ed="#P" n="119" break="no"/>citur aliquid. Sicut si aliquod totum continuum 
+          <lb ed="#P" n="120"/>moueatur ab aliquo, constat quod totus motus &amp; 
+          <lb ed="#P" n="121"/>quaelibet pars eiusdema motore extrinseco qui to 
+          <lb ed="#P" n="122"/>tum continuum mouet, &amp; a solo illo est totus 
+          mo<lb ed="#P" n="123" break="no"/>tus effectiue, sicut a communicante esse motus 
+          ef<lb ed="#P" n="124" break="no"/>fectiue toti motui, vel mobili mediante motu; 
+          <lb ed="#P" n="125"/>tamen quia cum quodam ordine naturae virtus 
+          <lb ed="#P" n="126"/>motoris per prius attingit partem motus qui est in 
+          <lb ed="#P" n="127"/>Purte mobilis sibi propinquiore, motus remnotioris 
+          <lb ed="#P" n="128"/>partis secundum quandam connexionem &amp; 
+          con<lb ed="#P" n="129" break="no"/>sequentiam naturalem dicetur originari a motu 
+          <lb ed="#P" n="130"/>propinquioris partis, &amp; maxime si propiriquior 
+          <lb ed="#P" n="131"/>mobilis pars esset nata recipere immediate a 
+          mo<lb ed="#P" n="132" break="no"/>tore plusquam aliae patres; sicut si figeretur 
+          cla<lb ed="#P" n="133" break="no"/>uus in aliquo ligno &amp; aliquis non posset illud 
+          tra<lb ed="#P" n="134" break="no"/>here nisi capiendo ipsum per clauum illum, licet 
+          <lb ed="#P" n="135"/>ille lolus esfectiue communicaret toti 
+          mobilito<lb ed="#P" n="136" break="no"/>tum motum, tamen large &amp; secundum quandam 
+          <lb ed="#P" n="137"/>reductionem ad genus causae efficientis motus 
+          a<lb ed="#P" n="138" break="no"/>liarum partium post clauum diceretur originari vel 
+          <lb ed="#P" n="139"/>etiam erumpere a motu claui vel alicuius alterius 
+          <lb ed="#P" n="140"/>partis per quam posset capi. Ita etiam cum ex sub¬ 
+          <!--43.xml-->
+          <pb ed="#P" n="43"/>
+          <cb ed="#P" n="a"/>
+          <lb ed="#P" n="1"/>iecto &amp; propria passione fiat vnum per se 
+          secun<lb ed="#P" n="2" break="no"/>do modo dicendi per se, licet non sit vnum per 
+          <lb ed="#P" n="3"/>se priiuo modo dicendi per se, imo per oppositum 
+          <lb ed="#P" n="4"/>ad primum modum dicendi per se: omne 
+          com<lb ed="#P" n="5" break="no"/>posilum ex pluribus accidentibus dicitum vnum 
+          <lb ed="#P" n="6"/>per accidens omnis talis tale quod est dicto modo 
+          <lb ed="#P" n="7"/>per se vnum vna pars, puta subiectum, proprie &amp; 
+          <lb ed="#P" n="8"/>stricte loquendo de causa efficiente, non est causa 
+          <lb ed="#P" n="9"/>alterius partis, imo generans vel creans si a solo 
+          <lb ed="#P" n="10"/>Deo sit, solum est causa efficiens pioprie vtriusque 
+          <lb ed="#P" n="11"/>partis &amp; totius. Potest tamen dici vna pars 
+          secun<lb ed="#P" n="12" break="no"/>dum quandam reductionem ad genus causae 
+          effi<lb ed="#P" n="13" break="no"/>cientis or iginari vel erumpere ab altera, in 
+          quan<lb ed="#P" n="14" break="no"/>tum virtus agentis non attingit partem 
+          posterio<lb ed="#P" n="15" break="no"/>rem nisi mediante priore propter connexionem 
+          <lb ed="#P" n="16"/>naturalem eorum: ita quod iste ordo non tantum 
+          <lb ed="#P" n="17"/>attenditur secundum hoc quod subiectum 
+          requi<lb ed="#P" n="18" break="no"/>ritur vt susceptiuum passionis, &amp; solum pro 
+          <lb ed="#P" n="19"/>tanto dicatur agens causare passionem mediante 
+          <lb ed="#P" n="20"/>subiecto, quia si etiam ab alio agente fieret tam 
+          <lb ed="#P" n="21"/>subiectum quam passio, adhuc iste ordo remane 
+          <lb ed="#P" n="22"/>ret, vel etiam si subiectum prius tempore fieret 
+          <lb ed="#P" n="23"/>&amp; sic non plus originaliter dependeret passio a 
+          <lb ed="#P" n="24"/>subiecto quam quodcunque aliud accidens 
+          com<lb ed="#P" n="25" break="no"/>mune, quod non videtur rationabile: sed iste 
+          or<lb ed="#P" n="26" break="no"/>do sic est intelligendus quod generans nunquam 
+          <lb ed="#P" n="27"/>natus est efficere passionem nec eam attingere 
+          ef<lb ed="#P" n="28" break="no"/>fectiue nisi prius attigendo subiectum post quod 
+          <lb ed="#P" n="29"/>secundum ordinem efficientia generantis exterio 
+          <lb ed="#P" n="30"/>ris attingit passionem, sicut dictum est de motu 
+          <lb ed="#P" n="31"/>prioris partis mobilis respectu motus posterioris 
+          <lb ed="#P" n="32"/>partis. Et quia sic originari non importat 
+          causalita<lb ed="#P" n="33" break="no"/>tem effectiuam proprie dictam in originante 
+          res<lb ed="#P" n="34" break="no"/>pectu sicoriginati, ideonoe oportet quod ex hoc 
+          <lb ed="#P" n="35"/>ponatur idem secundum idem esse virtutem 
+          ef<lb ed="#P" n="36" break="no"/>fectiuam &amp; principium susceptiuum eiusdem: non 
+          <lb ed="#P" n="37"/>oportet etiam quod subiectum imponat 
+          necessita<lb ed="#P" n="38" break="no"/>tem essendi passioni, sicut eausa proprie efficiens 
+          <lb ed="#P" n="39"/>passionem. Sicut nec etiam motus primae partis 
+          <lb ed="#P" n="40"/>mobilis sic imponit necessitatem motui secundae 
+          <lb ed="#P" n="41"/>partis, sed necessariam habet connexionem cum 
+          <lb ed="#P" n="42"/>passione, sicut habent partes motus diuersarum 
+          <lb ed="#P" n="43"/>partium eiusdem mobilis, quia efficientia agentis 
+          <lb ed="#P" n="44"/>extrinseci non est nata pertingere passionem nisi 
+          <lb ed="#P" n="45"/>praesupposita attentione subiecti: nec potest at 
+          <lb ed="#P" n="46"/>tingere subiectum nisi consequenter ordine 
+          natu<lb ed="#P" n="47" break="no"/>rae attingendo passionem, propter talem vnitatem 
+          <lb ed="#P" n="48"/>quam per se sic habent &amp; connexionem quam non 
+          <lb ed="#P" n="49"/>habent alia accidentia: talis etiam connexio 
+          suffi<lb ed="#P" n="50" break="no"/>cit ad hoc quod vnum agat in virtute alterius. Est 
+          <lb ed="#P" n="51"/>etiam cum hoc notandum quod dictae qualitates 
+          <lb ed="#P" n="52"/>non solum agunt in virtute formarum 
+          substantia<lb ed="#P" n="53" break="no"/>lium suorum subiectorum, sed etiam in virtute 
+          <lb ed="#P" n="54"/>formarum agentium vniuersalium omnia inferiora 
+          <lb ed="#P" n="55"/>conseruantium cum suis qualitatibus. Iterum 
+          e<lb ed="#P" n="56" break="no"/>tiam aliqua forma disponitur ad agendum sic vel 
+          <lb ed="#P" n="57"/>aliter ex dispositione cuiconiungitur, dato quod 
+          <lb ed="#P" n="58"/>originem non trahat ab ea sicut a causa efficientes 
+          <lb ed="#P" n="59"/>sicut patet quod aliter agit calor cum est in 
+          humi<lb ed="#P" n="60" break="no"/>do &amp; cum est in sicco, licet siccitas vel humiditas 
+          <lb ed="#P" n="61"/>non sint in aliquo causa effectiua caloris: sicetiam 
+          <lb ed="#P" n="62"/>dato quod forma substantialis non haberet 
+          causa<lb ed="#P" n="63" break="no"/>litatem effectiuam respectu suae qualitatis actiuae, 
+          <lb ed="#P" n="64"/>tamen qualitas actiua ex coniunctione ad talem 
+          <lb ed="#P" n="65"/>formam vel talem potest agere sic vel aliter vt 
+          pos<lb ed="#P" n="66" break="no"/>sit dici instrumentum formae substantialis in 
+          agen<lb ed="#P" n="67" break="no"/>do, vnde &amp; calor in sicco magis desiccar quam in 
+          <lb ed="#P" n="68"/>humido: hoc autem dico dubitatiue, &amp; quasi 
+          <lb ed="#P" n="69"/>dando materiam cogitandi. Ex dictis patet ad 
+          ra<lb ed="#P" n="70" break="no"/>tiones.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
