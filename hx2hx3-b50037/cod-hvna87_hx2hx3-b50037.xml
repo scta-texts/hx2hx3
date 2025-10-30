@@ -199,8 +199,8 @@
       <lb ed="#P" n="41"/>certam scientiam. Sed ille qui cognoscit effectum 
       <lb ed="#P" n="42"/>in sua causa necessaria, cognoscit eum secundum 
       <lb ed="#P" n="43"/>illam dispositionem secundum quam impossibile 
-      <lb ed="#P" n="44"/>est eum se aliter habere, quia respectu causae ne 
-      <lb ed="#P" n="45"/>cessariae non potest effectus aliter se habere quam 
+      <lb ed="#P" n="44"/>est eum se aliter habere, quia respectu causae 
+      ne<lb ed="#P" n="45" break="no"/>cessariae non potest effectus aliter se habere quam 
       <lb ed="#P" n="46"/>vt eueniet: ideo, &amp;c. 
       </p>
             <p xml:id="hx2hx3-b50037-d1e399">
@@ -260,8 +260,8 @@
       <lb ed="#P" n="94"/>habet de ea certam scientiam. 
       </p>
             <p xml:id="hx2hx3-b50037-d1e516">
-               <lb ed="#P" n="95"/>Tertia conclusio est, quod ille qui cognoscit con 
-      <lb ed="#P" n="96"/>tingens in sua existentia actuali, potest de eo 
+               <lb ed="#P" n="95"/>Tertia conclusio est, quod ille qui cognoscit 
+      con<lb ed="#P" n="96" break="no"/>tingens in sua existentia actuali, potest de eo 
       ha<lb ed="#P" n="97" break="no"/>bere certitudinem. Quia ille qui cognoscit rem 
       <lb ed="#P" n="98"/>aliquam secundum illam dispositionem secundum 
       <lb ed="#P" n="99"/>quam imposssibile est aliter se habere, habet de 

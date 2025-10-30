@@ -76,8 +76,8 @@
       <!--128.xml-->
       <pb ed="#P" n="128"/>
                <cb ed="#P" n="a"/>
-               <lb ed="#P" n="1"/>pium Patri &amp; Filio quo diligunt se essentiali dile¬ A 
-      <lb ed="#P" n="2"/>ctione, vel quo spirent: quia tunc esset principium 
+               <lb ed="#P" n="1"/>pium Patri &amp; Filio quo diligunt se essentiali dile¬ 
+      A<lb ed="#P" n="2" break="no"/>ctione, vel quo spirent: quia tunc esset principium 
       <lb ed="#P" n="3"/>sui ipsius. Ergo, &amp;c. 
       </p>
             <p xml:id="hx2hx3-b42262-d1e160">
@@ -260,8 +260,8 @@
       denomi<lb ed="#P" n="7" break="no"/>nans, sicut repraesentatum denominatur a 
       reprae<lb ed="#P" n="8" break="no"/>sentante formaliter. Propter quod ista est vera, 
       <lb ed="#P" n="9"/>Pater dicit verbo, ita quod verbo construatur in 
-      <lb ed="#P" n="10"/>habitudine quasi effectus formalis, &amp; denomina 
-      <lb ed="#P" n="11"/>tur non vt principium actus dicendi, sed vt 
+      <lb ed="#P" n="10"/>habitudine quasi effectus formalis, &amp; 
+      denomina<lb ed="#P" n="11" break="no"/>tur non vt principium actus dicendi, sed vt 
       forma<lb ed="#P" n="12" break="no"/>le principium respectu repraesentatorum: non 
       in<lb ed="#P" n="13" break="no"/>haerendo, sed denominando. Ita etiam, diligere 
       <lb ed="#P" n="14"/>notionale tendit in aliquid vltra amorem 
