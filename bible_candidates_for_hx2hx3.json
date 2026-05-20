@@ -3,13 +3,17 @@
     "hx2hx3-a07791-d1e373": [
       {
         "candidate_id": "hebr5_1",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "false positive \u2014 philosophical paragraph about rationes; no Heb 5:1 content"
       }
     ],
     "hx2hx3-a07791-d1e482": [
       {
         "candidate_id": "hebr5_1",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "false positive \u2014 philosophical paragraph about rationes; no Heb 5:1 content"
       }
     ]
   },
@@ -17,7 +21,9 @@
     "hx2hx3-a08596-d1e237": [
       {
         "candidate_id": "ap10_6",
-        "intersectionCount": 3
+        "intersectionCount": 3,
+        "status": "not_found",
+        "note": "false positive \u2014 paragraph discusses divine attributes (intellectus/voluntas); no Apocalypse content"
       }
     ]
   },
@@ -25,7 +31,9 @@
     "hx2hx3-a10300-d1e104": [
       {
         "candidate_id": "rom1_20",
-        "intersectionCount": 4
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'Apostolus ait' citation; verbatim (abbreviated with &c.)"
       }
     ]
   },
@@ -33,11 +41,15 @@
     "hx2hx3-b11132-d1e131": [
       {
         "candidate_id": "ps13_1",
-        "intersectionCount": 5
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "explicit 'spal.' citation; verbatim; encoded as ps13_1 (Ps 52 is a duplicate psalm)"
       },
       {
         "candidate_id": "ps52_1",
-        "intersectionCount": 5
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "quote encoded as ps13_1 \u2014 Ps 13 and Ps 52 are duplicate psalms with identical incipit; ps13_1 is the primary"
       }
     ]
   },
@@ -45,7 +57,9 @@
     "hx2hx3-b18744-d1e139": [
       {
         "candidate_id": "ex3_14",
-        "intersectionCount": 3
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit 'Exod. tertio' citation; partial quote 'qui est misit me ad vos'"
       }
     ]
   },
@@ -53,13 +67,17 @@
     "hx2hx3-b54750-d1e133": [
       {
         "candidate_id": "ps144_3",
-        "intersectionCount": 6
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "explicit 'in Psalmis' citation; verbatim quote"
       }
     ],
     "hx2hx3-b54750-d1e240": [
       {
         "candidate_id": "hebr5_1",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "false positive \u2014 paragraph about divine infinity/genus/species; no Heb 5:1 content"
       }
     ]
   },
@@ -67,11 +85,15 @@
     "hx2hx3-b75779-d1e113": [
       {
         "candidate_id": "ier17_9",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "encoded as part of multi-verse quote ier17_9+ier17_10"
       },
       {
         "candidate_id": "ier17_10",
-        "intersectionCount": 4
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "attributed to Hieronymus; text spans Jer 17:9-10; encoded with both verses"
       }
     ]
   },
@@ -79,7 +101,9 @@
     "hx2hx3-b80515-d1e196": [
       {
         "candidate_id": "gen1_1",
-        "intersectionCount": 4
+        "intersectionCount": 4,
+        "status": "encoded",
+        "note": "explicit 'Genes.1.' citation; verbatim"
       }
     ]
   },
@@ -87,7 +111,9 @@
     "hx2hx3-b82963-d1e552": [
       {
         "candidate_id": "Isam9_19",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "false positive \u2014 paragraph about celestial influence on forms; no 1Sam content"
       }
     ]
   },
@@ -95,7 +121,9 @@
     "hx2hx3-b83894-d1e1261": [
       {
         "candidate_id": "IIcor12_3",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "false positive \u2014 paragraph about souls/forms; no 2Cor 12:3 content"
       }
     ]
   },
@@ -103,7 +131,9 @@
     "hx2hx3-b91861-d1e326": [
       {
         "candidate_id": "gen2_17",
-        "intersectionCount": 3
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit 'Auctoritate Genes.' citation; partial quote from verse"
       }
     ]
   },
@@ -111,17 +141,23 @@
     "hx2hx3-b94769-d1e122": [
       {
         "candidate_id": "gal4_5",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "encoded",
+        "note": "encoded as part of multi-verse Gal 4:4-5 quote"
       },
       {
         "candidate_id": "gal4_4",
-        "intersectionCount": 3
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit 'vt ait Apostolus' citation; spans Gal 4:4-5; encoded as multi-verse"
       }
     ],
     "hx2hx3-b94769-d1e312": [
       {
         "candidate_id": "io1_14",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "'Verbum caro factum est' appears only as parenthetical reference to Augustine's commentary locus, not a direct biblical quotation"
       }
     ]
   },
@@ -129,7 +165,9 @@
     "hx2hx3-c01614-d1e555": [
       {
         "candidate_id": "rom9_5",
-        "intersectionCount": 6
+        "intersectionCount": 6,
+        "status": "encoded",
+        "note": "doxological closing phrase; no explicit citation but verbatim"
       }
     ]
   },
@@ -137,7 +175,9 @@
     "hx2hx3-c02106-d1e137": [
       {
         "candidate_id": "hebr9_13",
-        "intersectionCount": 3
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit 'vt ait Apostolus' citation; close paraphrase of Heb 9:13"
       }
     ]
   },
@@ -145,7 +185,9 @@
     "hx2hx3-c06572-d1e339": [
       {
         "candidate_id": "hebr5_1",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "false positive \u2014 long paragraph on old law precepts; no Heb 5:1 content"
       }
     ]
   },
@@ -153,19 +195,25 @@
     "hx2hx3-c08339-d1e131": [
       {
         "candidate_id": "mt28_19",
-        "intersectionCount": 5
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "paragraph discusses the liturgical baptismal formula; no direct citation of Matthew"
       }
     ],
     "hx2hx3-c08339-d1e180": [
       {
         "candidate_id": "mt28_19",
-        "intersectionCount": 5
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "paragraph discusses the liturgical baptismal formula; no direct citation of Matthew"
       }
     ],
     "hx2hx3-c08339-d1e233": [
       {
         "candidate_id": "mt28_19",
-        "intersectionCount": 5
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "paragraph discusses the liturgical baptismal formula; no direct citation of Matthew"
       }
     ]
   },
@@ -173,7 +221,9 @@
     "hx2hx3-c11700-d1e159": [
       {
         "candidate_id": "lc5_24",
-        "intersectionCount": 5
+        "intersectionCount": 5,
+        "status": "encoded",
+        "note": "MS cites 'Matth.' but text matches Luke 5:24 more closely ('sciatis quia' vs Mt's 'sciatis autem quoniam'); parallel passage"
       }
     ]
   },
@@ -181,17 +231,23 @@
     "hx2hx3-c13287-d1e377": [
       {
         "candidate_id": "hebr1_9",
-        "intersectionCount": 3
+        "intersectionCount": 3,
+        "status": "not_found",
+        "note": "text cites 'psal.' directly; Heb 1:9 quotes same Psalm but is not the cited source"
       },
       {
         "candidate_id": "ps44_8",
-        "intersectionCount": 3
+        "intersectionCount": 3,
+        "status": "encoded",
+        "note": "explicit 'iuxta illud psal.' citation; verbatim"
       }
     ],
     "hx2hx3-c13287-d1e521": [
       {
         "candidate_id": "mt28_19",
-        "intersectionCount": 5
+        "intersectionCount": 5,
+        "status": "not_found",
+        "note": "paragraph discusses confirmation formula; trinitarian phrase is the sacramental form, not a Matthew citation"
       }
     ]
   },
@@ -199,35 +255,49 @@
     "hx2hx3-c14339-d1e104": [
       {
         "candidate_id": "lc22_19",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "sacramental formula 'Hoc est Corpus meum' cited without attribution marker; not a marked biblical quotation"
       }
     ],
     "hx2hx3-c14339-d1e141": [
       {
         "candidate_id": "lc24_30",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "parallel passage; MS explicitly cites 'Matth.' \u2014 mt26_26 already encoded; mark/lc parallels are false positives"
       },
       {
         "candidate_id": "mc14_22",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "parallel passage; MS explicitly cites 'Matth.' \u2014 mt26_26 already encoded; mark/lc parallels are false positives"
       },
       {
         "candidate_id": "mt26_26",
-        "intersectionCount": 8
+        "intersectionCount": 8,
+        "status": "encoded",
+        "note": "explicit Matth. citation; full verse quoted"
       }
     ],
     "hx2hx3-c14339-d1e823": [
       {
         "candidate_id": "lc24_30",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "paragraph is analytical commentary on Matt 26:26 sequence; phrases woven into argument, not marked quotation"
       },
       {
         "candidate_id": "mt15_36",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "paragraph is analytical commentary on Matt 26:26 sequence; phrases woven into argument, not marked quotation"
       },
       {
         "candidate_id": "mt26_26",
-        "intersectionCount": 2
+        "intersectionCount": 2,
+        "status": "not_found",
+        "note": "paragraph is analytical commentary on Matt 26:26 sequence; phrases woven into argument, not marked quotation"
       }
     ]
   },
@@ -235,7 +305,9 @@
     "hx2hx3-c16279-d1e434": [
       {
         "candidate_id": "mt15_17",
-        "intersectionCount": 4
+        "intersectionCount": 4,
+        "status": "not_found",
+        "note": "phrase used as argumentative premise without citation marker; allusion not a marked quotation"
       }
     ]
   },
@@ -243,7 +315,9 @@
     "hx2hx3-c16825-d1e400": [
       {
         "candidate_id": "io6_56",
-        "intersectionCount": 7
+        "intersectionCount": 7,
+        "status": "encoded",
+        "note": "explicit 'lo. &.' (John 6) citation; full verse quoted"
       }
     ]
   }
