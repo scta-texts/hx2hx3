@@ -1,4 +1,64 @@
 {
+  "hx2hx3-a00003": {
+    "hx2hx3-a00003-d1e142": [
+      {
+        "candidate_id": "mt22_31",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'dictum est a Deo' only"
+      }
+    ],
+    "hx2hx3-a00003-d1e381": [
+      {
+        "candidate_id": "Iio3_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae sunt' only"
+      }
+    ]
+  },
+  "hx2hx3-a02906": {
+    "hx2hx3-a02906-d1e1038": [
+      {
+        "candidate_id": "act4_21",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Deum in eo quod' only"
+      },
+      {
+        "candidate_id": "ier26_14",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'rectum est' only"
+      }
+    ]
+  },
+  "hx2hx3-a05647": {
+    "hx2hx3-a05647-d1e512": [
+      {
+        "candidate_id": "sap11_25",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia que sunt' only"
+      }
+    ],
+    "hx2hx3-a05647-d1e1425": [
+      {
+        "candidate_id": "lc12_18",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae nata sunt' only"
+      }
+    ],
+    "hx2hx3-a05647-d1e1510": [
+      {
+        "candidate_id": "act4_21",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Deum in eo quod' only"
+      }
+    ]
+  },
   "hx2hx3-a07791": {
     "hx2hx3-a07791-d1e373": [
       {
@@ -15,10 +75,24 @@
         "status": "not_found",
         "note": "false positive \u2014 philosophical paragraph about rationes; no Heb 5:1 content"
       }
+    ],
+    "hx2hx3-a07791-d1e570": [
+      {
+        "candidate_id": "ap10_6",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae in' only"
+      }
     ]
   },
   "hx2hx3-a08596": {
     "hx2hx3-a08596-d1e237": [
+      {
+        "candidate_id": "act17_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quae in eo sunt' only"
+      },
       {
         "candidate_id": "ap10_6",
         "intersectionCount": 3,
@@ -40,6 +114,18 @@
   "hx2hx3-b11132": {
     "hx2hx3-b11132-d1e131": [
       {
+        "candidate_id": "ps9_27",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in corde suo' only"
+      },
+      {
+        "candidate_id": "ps9_34",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in corde suo' only"
+      },
+      {
         "candidate_id": "ps13_1",
         "intersectionCount": 5,
         "status": "encoded",
@@ -51,10 +137,100 @@
         "status": "not_found",
         "note": "quote encoded as ps13_1 \u2014 Ps 13 and Ps 52 are duplicate psalms with identical incipit; ps13_1 is the primary"
       }
+    ],
+    "hx2hx3-b11132-d1e310": [
+      {
+        "candidate_id": "deut22_20",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'si verum est quod' only"
+      },
+      {
+        "candidate_id": "hebr9_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'de quibus non est' only"
+      }
+    ]
+  },
+  "hx2hx3-b12283": {
+    "hx2hx3-b12283-d1e701": [
+      {
+        "candidate_id": "Iio2_8",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quod est' only"
+      }
+    ]
+  },
+  "hx2hx3-b15348": {
+    "hx2hx3-b15348-d1e426": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ]
+  },
+  "hx2hx3-b16673": {
+    "hx2hx3-b16673-d1e117": [
+      {
+        "candidate_id": "ier8_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in ea' only"
+      }
+    ]
+  },
+  "hx2hx3-b17351": {
+    "hx2hx3-b17351-d1e113": [
+      {
+        "candidate_id": "zac9_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quo non est' only"
+      }
     ]
   },
   "hx2hx3-b18744": {
     "hx2hx3-b18744-d1e139": [
+      {
+        "candidate_id": "ex3_13",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote Ex 3:14 already encoded"
+      },
+      {
+        "candidate_id": "ex3_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote Ex 3:14 already encoded"
+      },
+      {
+        "candidate_id": "ier42_21",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote Ex 3:14 already encoded"
+      },
+      {
+        "candidate_id": "zac4_9",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote Ex 3:14 already encoded"
+      },
+      {
+        "candidate_id": "zac6_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote Ex 3:14 already encoded"
+      },
       {
         "candidate_id": "ex3_14",
         "intersectionCount": 3,
@@ -63,13 +239,769 @@
       }
     ]
   },
+  "hx2hx3-b19854": {
+    "hx2hx3-b19854-d1e805": [
+      {
+        "candidate_id": "sap16_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non per hoc quod' only"
+      }
+    ],
+    "hx2hx3-b19854-d1e910": [
+      {
+        "candidate_id": "ier12_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quia nullus est qui' only"
+      }
+    ]
+  },
+  "hx2hx3-b23095": {
+    "hx2hx3-b23095-d1e252": [
+      {
+        "candidate_id": "IIchr34_27",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'his quae dicta sunt' only"
+      },
+      {
+        "candidate_id": "lc1_45",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae dicta sunt' only"
+      },
+      {
+        "candidate_id": "ps121_1",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'his quae dicta sunt' only"
+      }
+    ]
+  },
+  "hx2hx3-b23547": {
+    "hx2hx3-b23547-d1e231": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ],
+    "hx2hx3-b23547-d1e1344": [
+      {
+        "candidate_id": "ps145_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      },
+      {
+        "candidate_id": "tob6_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      }
+    ]
+  },
+  "hx2hx3-b24861": {
+    "hx2hx3-b24861-d1e285": [
+      {
+        "candidate_id": "IIchr34_27",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'his quae dicta sunt' only"
+      },
+      {
+        "candidate_id": "mt28_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Spiritus sancti' only"
+      },
+      {
+        "candidate_id": "ps121_1",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'his quae dicta sunt' only"
+      }
+    ]
+  },
+  "hx2hx3-b25614": {
+    "hx2hx3-b25614-d1e151": [
+      {
+        "candidate_id": "io15_26",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "'Ioannis 16' citation (actually Jn 15:26); verbatim"
+      }
+    ]
+  },
+  "hx2hx3-b26958": {
+    "hx2hx3-b26958-d1e361": [
+      {
+        "candidate_id": "lc2_20",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sicut dictum est ad' only"
+      }
+    ]
+  },
+  "hx2hx3-b27596": {
+    "hx2hx3-b27596-d1e152": [
+      {
+        "candidate_id": "io15_26",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "'Ioannis 16' citation (actually Jn 15:26); verbatim, abbreviated with &c."
+      }
+    ],
+    "hx2hx3-b27596-d1e217": [
+      {
+        "candidate_id": "ier22_12",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in loco ad quem' only"
+      },
+      {
+        "candidate_id": "ier42_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in loco ad quem' only"
+      }
+    ]
+  },
+  "hx2hx3-b28157": {
+    "hx2hx3-b28157-d1e144": [
+      {
+        "candidate_id": "ap14_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quod est in' only"
+      },
+      {
+        "candidate_id": "ps72_25",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est in' only"
+      }
+    ],
+    "hx2hx3-b28157-d1e226": [
+      {
+        "candidate_id": "deut3_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'vel in' only"
+      },
+      {
+        "candidate_id": "is59_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est, quia non est' only"
+      },
+      {
+        "candidate_id": "rom3_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est, quia non est' only"
+      }
+    ],
+    "hx2hx3-b28157-d1e281": [
+      {
+        "candidate_id": "ier20_9",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est in corde meo' only"
+      },
+      {
+        "candidate_id": "neh7_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in corde meo. Et' only"
+      },
+      {
+        "candidate_id": "prov24_32",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in corde meo. Et' only"
+      }
+    ]
+  },
+  "hx2hx3-b28580": {
+    "hx2hx3-b28580-d1e715": [
+      {
+        "candidate_id": "ier33_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et hoc est quod' only"
+      }
+    ]
+  },
+  "hx2hx3-b30271": {
+    "hx2hx3-b30271-d1e580": [
+      {
+        "candidate_id": "Ireg2_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in omnibus in quibus' only"
+      },
+      {
+        "candidate_id": "esd3_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in omnibus in quibus' only"
+      },
+      {
+        "candidate_id": "num22_18",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'vel plus vel minus' only"
+      }
+    ]
+  },
+  "hx2hx3-b31539": {
+    "hx2hx3-b31539-d1e349": [
+      {
+        "candidate_id": "Imac10_72",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quia non potest stare' only"
+      }
+    ]
+  },
+  "hx2hx3-b32309": {
+    "hx2hx3-b32309-d1e220": [
+      {
+        "candidate_id": "iob24_25",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quod si non est' only"
+      },
+      {
+        "candidate_id": "ps145_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      },
+      {
+        "candidate_id": "tob6_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      }
+    ]
+  },
+  "hx2hx3-b33375": {
+    "hx2hx3-b33375-d1e148": [
+      {
+        "candidate_id": "zac9_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quo non est' only"
+      }
+    ],
+    "hx2hx3-b33375-d1e220": [
+      {
+        "candidate_id": "Isam14_6",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'pro nobis: quia non' only"
+      }
+    ]
+  },
+  "hx2hx3-b34395": {
+    "hx2hx3-b34395-d1e364": [
+      {
+        "candidate_id": "IIcor8_12",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'secundum id quod habet' only"
+      }
+    ]
+  },
+  "hx2hx3-b35072": {
+    "hx2hx3-b35072-d1e453": [
+      {
+        "candidate_id": "hebr4_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sicut supra dictum est' only"
+      }
+    ],
+    "hx2hx3-b35072-d1e504": [
+      {
+        "candidate_id": "act4_12",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in alio' only"
+      }
+    ]
+  },
+  "hx2hx3-b35726": {
+    "hx2hx3-b35726-d1e306": [
+      {
+        "candidate_id": "phil3_13",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Ea vero quae sunt' only"
+      }
+    ],
+    "hx2hx3-b35726-d1e451": [
+      {
+        "candidate_id": "Ireg8_60",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est Deus. Et' only"
+      },
+      {
+        "candidate_id": "deut4_35",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est Deus. Et' only"
+      },
+      {
+        "candidate_id": "is45_14",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est Deus. Et' only"
+      }
+    ]
+  },
+  "hx2hx3-b36631": {
+    "hx2hx3-b36631-d1e406": [
+      {
+        "candidate_id": "Icor11_28",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sic de' only"
+      }
+    ],
+    "hx2hx3-b36631-d1e641": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ]
+  },
+  "hx2hx3-b37519": {
+    "hx2hx3-b37519-d1e822": [
+      {
+        "candidate_id": "hebr8_1",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'super ea quae dicuntur' only"
+      }
+    ],
+    "hx2hx3-b37519-d1e1070": [
+      {
+        "candidate_id": "ps145_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      },
+      {
+        "candidate_id": "tob6_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      }
+    ]
+  },
+  "hx2hx3-b38744": {
+    "hx2hx3-b38744-d1e505": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ]
+  },
+  "hx2hx3-b39737": {
+    "hx2hx3-b39737-d1e203": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ]
+  },
+  "hx2hx3-b40430": {
+    "hx2hx3-b40430-d1e588": [
+      {
+        "candidate_id": "Imac10_82",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sunt ab eo' only"
+      },
+      {
+        "candidate_id": "ier33_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et hoc est quod' only"
+      },
+      {
+        "candidate_id": "nah1_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sunt ab eo' only"
+      }
+    ]
+  },
+  "hx2hx3-b42262": {
+    "hx2hx3-b42262-d1e380": [
+      {
+        "candidate_id": "Ith1_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in Spiritu sancto' only"
+      },
+      {
+        "candidate_id": "lc3_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in Spiritu sancto' only"
+      },
+      {
+        "candidate_id": "mt3_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in Spiritu sancto' only"
+      }
+    ],
+    "hx2hx3-b42262-d1e724": [
+      {
+        "candidate_id": "mt28_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Filii. Et' only"
+      }
+    ]
+  },
+  "hx2hx3-b44372": {
+    "hx2hx3-b44372-d1e423": [
+      {
+        "candidate_id": "lc22_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Quia ex hoc non' only"
+      }
+    ]
+  },
+  "hx2hx3-b45307": {
+    "hx2hx3-b45307-d1e152": [
+      {
+        "candidate_id": "Iio2_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in: eo non est' only"
+      },
+      {
+        "candidate_id": "Iio3_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in: eo non est' only"
+      }
+    ],
+    "hx2hx3-b45307-d1e178": [
+      {
+        "candidate_id": "Iio2_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in eo non est' only"
+      },
+      {
+        "candidate_id": "Iio3_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in eo non est' only"
+      }
+    ],
+    "hx2hx3-b45307-d1e464": [
+      {
+        "candidate_id": "Iio3_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae sunt' only"
+      }
+    ],
+    "hx2hx3-b45307-d1e979": [
+      {
+        "candidate_id": "io13_32",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est in eo' only"
+      },
+      {
+        "candidate_id": "os7_9",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sunt in eo. Et' only"
+      }
+    ]
+  },
+  "hx2hx3-b46409": {
+    "hx2hx3-b46409-d1e396": [
+      {
+        "candidate_id": "gen9_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est inter Deum' only"
+      }
+    ],
+    "hx2hx3-b46409-d1e1738": [
+      {
+        "candidate_id": "lc1_45",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae dicta sunt' only"
+      }
+    ]
+  },
+  "hx2hx3-b48073": {
+    "hx2hx3-b48073-d1e364": [
+      {
+        "candidate_id": "gen29_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in loco' only"
+      }
+    ],
+    "hx2hx3-b48073-d1e506": [
+      {
+        "candidate_id": "gen29_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in loco' only"
+      }
+    ],
+    "hx2hx3-b48073-d1e686": [
+      {
+        "candidate_id": "ios7_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in eodem loco' only"
+      },
+      {
+        "candidate_id": "num9_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in eodem loco' only"
+      }
+    ],
+    "hx2hx3-b48073-d1e724": [
+      {
+        "candidate_id": "gen1_30",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in terra' only"
+      }
+    ],
+    "hx2hx3-b48073-d1e742": [
+      {
+        "candidate_id": "gen29_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in loco' only"
+      }
+    ],
+    "hx2hx3-b48073-d1e767": [
+      {
+        "candidate_id": "ps145_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      },
+      {
+        "candidate_id": "tob6_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      }
+    ],
+    "hx2hx3-b48073-d1e841": [
+      {
+        "candidate_id": "gen29_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in loco' only"
+      }
+    ],
+    "hx2hx3-b48073-d1e1595": [
+      {
+        "candidate_id": "IImac1_33",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in loco in quo' only"
+      },
+      {
+        "candidate_id": "Ireg13_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in loco in quo' only"
+      },
+      {
+        "candidate_id": "ez21_30",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in loco in quo' only"
+      },
+      {
+        "candidate_id": "gen21_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'loco in quo est' only"
+      },
+      {
+        "candidate_id": "lev1_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in loco in quo' only"
+      }
+    ]
+  },
+  "hx2hx3-b50037": {
+    "hx2hx3-b50037-d1e163": [
+      {
+        "candidate_id": "Icor6_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'a Deo' only"
+      }
+    ],
+    "hx2hx3-b50037-d1e315": [
+      {
+        "candidate_id": "dan5_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in se' only"
+      }
+    ],
+    "hx2hx3-b50037-d1e685": [
+      {
+        "candidate_id": "mic4_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'vsque in aeternum' only"
+      },
+      {
+        "candidate_id": "ps48_20",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'vsque in aeternum' only"
+      },
+      {
+        "candidate_id": "ps102_17",
+        "intersectionCount": 3,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'vsque in aeternum' only"
+      }
+    ]
+  },
+  "hx2hx3-b51379": {
+    "hx2hx3-b51379-d1e398": [
+      {
+        "candidate_id": "lc22_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quia ex hoc non' only"
+      }
+    ]
+  },
+  "hx2hx3-b51901": {
+    "hx2hx3-b51901-d1e377": [
+      {
+        "candidate_id": "IIreg20_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
+      {
+        "candidate_id": "IIreg20_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
+      {
+        "candidate_id": "Isam9_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      }
+    ]
+  },
+  "hx2hx3-b52550": {
+    "hx2hx3-b52550-d1e824": [
+      {
+        "candidate_id": "ier33_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'hoc est quod' only"
+      }
+    ]
+  },
+  "hx2hx3-b53904": {
+    "hx2hx3-b53904-d1e574": [
+      {
+        "candidate_id": "Iio2_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in eo non est' only"
+      },
+      {
+        "candidate_id": "Iio3_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in eo non est' only"
+      }
+    ]
+  },
   "hx2hx3-b54750": {
     "hx2hx3-b54750-d1e133": [
+      {
+        "candidate_id": "Ichr16_25",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote Ps 144:3 already encoded"
+      },
       {
         "candidate_id": "ps144_3",
         "intersectionCount": 6,
         "status": "encoded",
         "note": "explicit 'in Psalmis' citation; verbatim quote"
+      }
+    ],
+    "hx2hx3-b54750-d1e142": [
+      {
+        "candidate_id": "Iio3_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae sunt' only"
       }
     ],
     "hx2hx3-b54750-d1e240": [
@@ -78,6 +1010,510 @@
         "intersectionCount": 2,
         "status": "not_found",
         "note": "false positive \u2014 paragraph about divine infinity/genus/species; no Heb 5:1 content"
+      }
+    ]
+  },
+  "hx2hx3-b55320": {
+    "hx2hx3-b55320-d1e999": [
+      {
+        "candidate_id": "IIreg1_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est Deus in' only"
+      },
+      {
+        "candidate_id": "ps9_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est Deus in' only"
+      }
+    ]
+  },
+  "hx2hx3-b56419": {
+    "hx2hx3-b56419-d1e143": [
+      {
+        "candidate_id": "gen1_31",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "'super illud Genesis' via Augustine; near-verbatim"
+      }
+    ],
+    "hx2hx3-b56419-d1e747": [
+      {
+        "candidate_id": "IIcor4_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non ex' only"
+      }
+    ],
+    "hx2hx3-b56419-d1e1334": [
+      {
+        "candidate_id": "prov30_12",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'tamen non est' only"
+      }
+    ],
+    "hx2hx3-b56419-d1e1410": [
+      {
+        "candidate_id": "ps145_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      },
+      {
+        "candidate_id": "tob6_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      }
+    ]
+  },
+  "hx2hx3-b57967": {
+    "hx2hx3-b57967-d1e298": [
+      {
+        "candidate_id": "Iio2_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in eo non est' only"
+      },
+      {
+        "candidate_id": "Iio3_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in eo non est' only"
+      }
+    ]
+  },
+  "hx2hx3-b58284": {
+    "hx2hx3-b58284-d1e133": [
+      {
+        "candidate_id": "zac9_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quo non est' only"
+      }
+    ],
+    "hx2hx3-b58284-d1e332": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ]
+  },
+  "hx2hx3-b59210": {
+    "hx2hx3-b59210-d1e614": [
+      {
+        "candidate_id": "IIreg20_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'nihil est quod non' only"
+      }
+    ],
+    "hx2hx3-b59210-d1e643": [
+      {
+        "candidate_id": "IIreg20_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'nihil est quod non' only"
+      }
+    ]
+  },
+  "hx2hx3-b61067": {
+    "hx2hx3-b61067-d1e1083": [
+      {
+        "candidate_id": "act24_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ad Deum' only"
+      },
+      {
+        "candidate_id": "ap12_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ad Deum' only"
+      }
+    ],
+    "hx2hx3-b61067-d1e1182": [
+      {
+        "candidate_id": "ex9_4",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'his quae pertinent ad' only"
+      }
+    ],
+    "hx2hx3-b61067-d1e1369": [
+      {
+        "candidate_id": "Ith1_8",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quae est ad Deum' only"
+      }
+    ],
+    "hx2hx3-b61067-d1e1395": [
+      {
+        "candidate_id": "ex9_4",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'his quae pertinent ad' only"
+      }
+    ]
+  },
+  "hx2hx3-b62502": {
+    "hx2hx3-b62502-d1e172": [
+      {
+        "candidate_id": "hebr5_1",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in his quae sunt' only"
+      }
+    ],
+    "hx2hx3-b62502-d1e816": [
+      {
+        "candidate_id": "IIreg20_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'nihil est quod non' only"
+      }
+    ]
+  },
+  "hx2hx3-b63662": {
+    "hx2hx3-b63662-d1e437": [
+      {
+        "candidate_id": "ap22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'de his quae' only"
+      },
+      {
+        "candidate_id": "ier10_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'de his quae' only"
+      },
+      {
+        "candidate_id": "lc2_18",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'de his quae' only"
+      },
+      {
+        "candidate_id": "sap13_1",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'de his quae' only"
+      }
+    ],
+    "hx2hx3-b63662-d1e1224": [
+      {
+        "candidate_id": "dan5_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in se' only"
+      }
+    ],
+    "hx2hx3-b63662-d1e1567": [
+      {
+        "candidate_id": "bar6_70",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'eodem modo' only"
+      }
+    ]
+  },
+  "hx2hx3-b65466": {
+    "hx2hx3-b65466-d1e912": [
+      {
+        "candidate_id": "IIreg20_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia, quae sunt in' only"
+      },
+      {
+        "candidate_id": "IIreg20_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia, quae sunt in' only"
+      },
+      {
+        "candidate_id": "Isam9_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia, quae sunt in' only"
+      }
+    ],
+    "hx2hx3-b65466-d1e1605": [
+      {
+        "candidate_id": "Iio3_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est de Deo' only"
+      },
+      {
+        "candidate_id": "ier33_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et hoc est quod' only"
+      }
+    ]
+  },
+  "hx2hx3-b67097": {
+    "hx2hx3-b67097-d1e215": [
+      {
+        "candidate_id": "is33_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quo nulla est' only"
+      }
+    ],
+    "hx2hx3-b67097-d1e998": [
+      {
+        "candidate_id": "ex19_2",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sunt in eodem loco' only"
+      }
+    ],
+    "hx2hx3-b67097-d1e1285": [
+      {
+        "candidate_id": "io11_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eo' only"
+      },
+      {
+        "candidate_id": "is1_6",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eo' only"
+      },
+      {
+        "candidate_id": "sir40_27",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eo' only"
+      }
+    ]
+  },
+  "hx2hx3-b68319": {
+    "hx2hx3-b68319-d1e571": [
+      {
+        "candidate_id": "iudic16_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ab illo in quo' only"
+      }
+    ]
+  },
+  "hx2hx3-b69119": {
+    "hx2hx3-b69119-d1e241": [
+      {
+        "candidate_id": "Isam17_12",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'supra dictum est de' only"
+      },
+      {
+        "candidate_id": "hebr4_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sicut supra dictum est' only"
+      }
+    ]
+  },
+  "hx2hx3-b69486": {
+    "hx2hx3-b69486-d1e449": [
+      {
+        "candidate_id": "zac9_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quo non est' only"
+      }
+    ]
+  },
+  "hx2hx3-b69871": {
+    "hx2hx3-b69871-d1e139": [
+      {
+        "candidate_id": "cant6_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      },
+      {
+        "candidate_id": "ier44_2",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      },
+      {
+        "candidate_id": "os8_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      },
+      {
+        "candidate_id": "prov8_8",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      }
+    ],
+    "hx2hx3-b69871-d1e682": [
+      {
+        "candidate_id": "cant6_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      },
+      {
+        "candidate_id": "ier44_2",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      },
+      {
+        "candidate_id": "os8_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      },
+      {
+        "candidate_id": "prov8_8",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      }
+    ]
+  },
+  "hx2hx3-b70488": {
+    "hx2hx3-b70488-d1e135": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ],
+    "hx2hx3-b70488-d1e260": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ]
+  },
+  "hx2hx3-b70907": {
+    "hx2hx3-b70907-d1e628": [
+      {
+        "candidate_id": "dan5_29",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est de eo quod' only"
+      }
+    ],
+    "hx2hx3-b70907-d1e797": [
+      {
+        "candidate_id": "IIsam7_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Quia non est similis' only"
+      }
+    ],
+    "hx2hx3-b70907-d1e861": [
+      {
+        "candidate_id": "ps145_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      },
+      {
+        "candidate_id": "tob6_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      }
+    ],
+    "hx2hx3-b70907-d1e1247": [
+      {
+        "candidate_id": "Iio3_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae sunt' only"
+      }
+    ]
+  },
+  "hx2hx3-b72261": {
+    "hx2hx3-b72261-d1e365": [
+      {
+        "candidate_id": "lc12_18",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae nata sunt' only"
+      }
+    ]
+  },
+  "hx2hx3-b73004": {
+    "hx2hx3-b73004-d1e382": [
+      {
+        "candidate_id": "Iio3_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae sunt' only"
+      }
+    ],
+    "hx2hx3-b73004-d1e552": [
+      {
+        "candidate_id": "IIsam7_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quia non est similis' only"
+      }
+    ]
+  },
+  "hx2hx3-b73659": {
+    "hx2hx3-b73659-d1e279": [
+      {
+        "candidate_id": "gen32_30",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Deum facie ad faciem' only"
+      }
+    ]
+  },
+  "hx2hx3-b74008": {
+    "hx2hx3-b74008-d1e476": [
+      {
+        "candidate_id": "deut20_13",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod in ea' only"
+      },
+      {
+        "candidate_id": "is2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'super omne quod' only"
       }
     ]
   },
@@ -95,10 +1531,112 @@
         "status": "encoded",
         "note": "attributed to Hieronymus; text spans Jer 17:9-10; encoded with both verses"
       }
+    ],
+    "hx2hx3-b75779-d1e313": [
+      {
+        "candidate_id": "iudic16_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ab illo in quo' only"
+      }
+    ]
+  },
+  "hx2hx3-b76640": {
+    "hx2hx3-b76640-d1e148": [
+      {
+        "candidate_id": "ex9_4",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'his quae pertinent ad' only"
+      }
+    ],
+    "hx2hx3-b76640-d1e1577": [
+      {
+        "candidate_id": "deut14_4",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quod' only"
+      }
+    ]
+  },
+  "hx2hx3-b79189": {
+    "hx2hx3-b79189-d1e224": [
+      {
+        "candidate_id": "hebr4_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sicut supra dictum est' only"
+      }
+    ],
+    "hx2hx3-b79189-d1e868": [
+      {
+        "candidate_id": "IIchr6_14",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est' only"
+      },
+      {
+        "candidate_id": "dan6_28",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in terra' only"
+      },
+      {
+        "candidate_id": "ioel2_30",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in terra' only"
+      },
+      {
+        "candidate_id": "mt28_18",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in terra' only"
+      },
+      {
+        "candidate_id": "mt6_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in terra' only"
+      },
+      {
+        "candidate_id": "ps112_6",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in terra' only"
+      }
+    ],
+    "hx2hx3-b79189-d1e1146": [
+      {
+        "candidate_id": "ex20_4",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quae est in' only"
+      }
     ]
   },
   "hx2hx3-b80515": {
+    "hx2hx3-b80515-d1e144": [
+      {
+        "candidate_id": "is41_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'eo quod non est' only"
+      },
+      {
+        "candidate_id": "ps108_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'eo quod non est' only"
+      }
+    ],
     "hx2hx3-b80515-d1e196": [
+      {
+        "candidate_id": "gen2_4",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote is Gen 1:1, already encoded"
+      },
       {
         "candidate_id": "gen1_1",
         "intersectionCount": 4,
@@ -107,8 +1645,64 @@
       }
     ]
   },
+  "hx2hx3-b81865": {
+    "hx2hx3-b81865-d1e104": [
+      {
+        "candidate_id": "gen1_6",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "Lombard lemma quoting Gen 1:6; garbled OCR but verbatim"
+      }
+    ]
+  },
   "hx2hx3-b82963": {
+    "hx2hx3-b82963-d1e303": [
+      {
+        "candidate_id": "IIreg20_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
+      {
+        "candidate_id": "IIreg20_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
+      {
+        "candidate_id": "Isam9_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      }
+    ],
+    "hx2hx3-b82963-d1e423": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ],
     "hx2hx3-b82963-d1e552": [
+      {
+        "candidate_id": "IIreg20_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
+      {
+        "candidate_id": "IIreg20_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
       {
         "candidate_id": "Isam9_19",
         "intersectionCount": 2,
@@ -118,6 +1712,14 @@
     ]
   },
   "hx2hx3-b83894": {
+    "hx2hx3-b83894-d1e764": [
+      {
+        "candidate_id": "Ichr21_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in me' only"
+      }
+    ],
     "hx2hx3-b83894-d1e1261": [
       {
         "candidate_id": "IIcor12_3",
@@ -127,7 +1729,69 @@
       }
     ]
   },
+  "hx2hx3-b85147": {
+    "hx2hx3-b85147-d1e917": [
+      {
+        "candidate_id": "IIreg20_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
+      {
+        "candidate_id": "IIreg20_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
+      {
+        "candidate_id": "Isam9_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
+      {
+        "candidate_id": "os7_9",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sunt in eo' only"
+      }
+    ]
+  },
+  "hx2hx3-b86109": {
+    "hx2hx3-b86109-d1e1298": [
+      {
+        "candidate_id": "ps145_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      },
+      {
+        "candidate_id": "tob6_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      }
+    ]
+  },
+  "hx2hx3-b89594": {
+    "hx2hx3-b89594-d1e476": [
+      {
+        "candidate_id": "hebr4_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'sicut supra dictum est' only"
+      }
+    ]
+  },
   "hx2hx3-b91861": {
+    "hx2hx3-b91861-d1e299": [
+      {
+        "candidate_id": "rom5_12",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "explicit 'ad Rom.' citation; paraphrase"
+      }
+    ],
     "hx2hx3-b91861-d1e326": [
       {
         "candidate_id": "gen2_17",
@@ -135,10 +1799,110 @@
         "status": "encoded",
         "note": "explicit 'Auctoritate Genes.' citation; partial quote from verse"
       }
+    ],
+    "hx2hx3-b91861-d1e447": [
+      {
+        "candidate_id": "Iio2_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in eo; non est' only"
+      },
+      {
+        "candidate_id": "Iio3_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in eo; non est' only"
+      }
+    ]
+  },
+  "hx2hx3-b93201": {
+    "hx2hx3-b93201-d1e221": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ],
+    "hx2hx3-b93201-d1e864": [
+      {
+        "candidate_id": "lc22_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Quia ex hoc non' only"
+      }
+    ]
+  },
+  "hx2hx3-b94168": {
+    "hx2hx3-b94168-d1e261": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Omne quod est in' only"
+      }
+    ],
+    "hx2hx3-b94168-d1e307": [
+      {
+        "candidate_id": "cant6_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      },
+      {
+        "candidate_id": "ier44_2",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      },
+      {
+        "candidate_id": "os8_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      },
+      {
+        "candidate_id": "prov8_8",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est in eis' only"
+      }
+    ],
+    "hx2hx3-b94168-d1e439": [
+      {
+        "candidate_id": "mt1_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'id quod dictum est' only"
+      }
     ]
   },
   "hx2hx3-b94769": {
     "hx2hx3-b94769-d1e122": [
+      {
+        "candidate_id": "Icor9_21",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote is Gal 4:4-5, already encoded"
+      },
+      {
+        "candidate_id": "io3_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote is Gal 4:4-5, already encoded"
+      },
       {
         "candidate_id": "gal4_5",
         "intersectionCount": 2,
@@ -154,15 +1918,145 @@
     ],
     "hx2hx3-b94769-d1e312": [
       {
+        "candidate_id": "io1_12",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "attributed to 'Euangelista' via Augustine; paraphrase ('hominibus' for 'eis')"
+      },
+      {
         "candidate_id": "io1_14",
         "intersectionCount": 2,
         "status": "not_found",
         "note": "'Verbum caro factum est' appears only as parenthetical reference to Augustine's commentary locus, not a direct biblical quotation"
       }
+    ],
+    "hx2hx3-b94769-d1e1789": [
+      {
+        "candidate_id": "IItim2_1",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'gratia quae est in' only"
+      }
+    ],
+    "hx2hx3-b94769-d1e1993": [
+      {
+        "candidate_id": "iob21_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quia non sunt in' only"
+      }
+    ]
+  },
+  "hx2hx3-b97338": {
+    "hx2hx3-b97338-d1e730": [
+      {
+        "candidate_id": "IIreg4_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in tempore' only"
+      }
+    ]
+  },
+  "hx2hx3-b98873": {
+    "hx2hx3-b98873-d1e426": [
+      {
+        "candidate_id": "Ireg8_9",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est aliud nisi' only"
+      },
+      {
+        "candidate_id": "gal1_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non est aliud nisi' only"
+      }
+    ],
+    "hx2hx3-b98873-d1e509": [
+      {
+        "candidate_id": "IIreg20_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
+      {
+        "candidate_id": "IIreg20_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      },
+      {
+        "candidate_id": "Isam9_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omnia quae sunt in' only"
+      }
+    ],
+    "hx2hx3-b98873-d1e787": [
+      {
+        "candidate_id": "Icor4_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in Christo: sed non' only"
+      }
+    ]
+  },
+  "hx2hx3-b99938": {
+    "hx2hx3-b99938-d1e279": [
+      {
+        "candidate_id": "sap16_7",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'non per hoc quod' only"
+      }
+    ],
+    "hx2hx3-b99938-d1e407": [
+      {
+        "candidate_id": "zac9_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quo non est' only"
+      }
+    ],
+    "hx2hx3-b99938-d1e458": [
+      {
+        "candidate_id": "io5_9",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'factus est homo' only"
+      }
+    ],
+    "hx2hx3-b99938-d1e672": [
+      {
+        "candidate_id": "prov23_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'eius in quo est' only"
+      }
+    ],
+    "hx2hx3-b99938-d1e899": [
+      {
+        "candidate_id": "qoh5_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'haec est' only"
+      }
     ]
   },
   "hx2hx3-c01614": {
     "hx2hx3-c01614-d1e555": [
+      {
+        "candidate_id": "ier12_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quia nullus est qui' only"
+      },
+      {
+        "candidate_id": "rom1_25",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote is Rom 9:5, already encoded"
+      },
       {
         "candidate_id": "rom9_5",
         "intersectionCount": 6,
@@ -181,13 +2075,103 @@
       }
     ]
   },
+  "hx2hx3-c04228": {
+    "hx2hx3-c04228-d1e116": [
+      {
+        "candidate_id": "ap1_4",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ab eo qui est' only"
+      }
+    ]
+  },
+  "hx2hx3-c04541": {
+    "hx2hx3-c04541-d1e407": [
+      {
+        "candidate_id": "ier33_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et hoc est quod' only"
+      }
+    ],
+    "hx2hx3-c04541-d1e444": [
+      {
+        "candidate_id": "lc22_37",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae sunt de' only"
+      }
+    ]
+  },
+  "hx2hx3-c05573": {
+    "hx2hx3-c05573-d1e369": [
+      {
+        "candidate_id": "ap22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'de his quae' only"
+      },
+      {
+        "candidate_id": "ier10_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'de his quae' only"
+      },
+      {
+        "candidate_id": "lc2_18",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'de his quae' only"
+      },
+      {
+        "candidate_id": "sap13_1",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'de his quae' only"
+      }
+    ]
+  },
+  "hx2hx3-c06134": {
+    "hx2hx3-c06134-d1e244": [
+      {
+        "candidate_id": "iudic19_12",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'quae non est de' only"
+      }
+    ]
+  },
   "hx2hx3-c06572": {
+    "hx2hx3-c06572-d1e230": [
+      {
+        "candidate_id": "ier33_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et hoc est quod' only"
+      }
+    ],
     "hx2hx3-c06572-d1e339": [
+      {
+        "candidate_id": "ex9_4",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'his quae pertinent ad' only"
+      },
       {
         "candidate_id": "hebr5_1",
         "intersectionCount": 2,
         "status": "not_found",
         "note": "false positive \u2014 long paragraph on old law precepts; no Heb 5:1 content"
+      }
+    ]
+  },
+  "hx2hx3-c07529": {
+    "hx2hx3-c07529-d1e248": [
+      {
+        "candidate_id": "ex20_4",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'eorum quae sunt in' only"
       }
     ]
   },
@@ -217,13 +2201,79 @@
       }
     ]
   },
+  "hx2hx3-c09288": {
+    "hx2hx3-c09288-d1e384": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne quod est in' only"
+      }
+    ]
+  },
+  "hx2hx3-c10476": {
+    "hx2hx3-c10476-d1e211": [
+      {
+        "candidate_id": "lc22_37",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae sunt de' only"
+      }
+    ]
+  },
+  "hx2hx3-c11133": {
+    "hx2hx3-c11133-d1e232": [
+      {
+        "candidate_id": "lc22_37",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae sunt de' only"
+      }
+    ],
+    "hx2hx3-c11133-d1e527": [
+      {
+        "candidate_id": "rom3_8",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "maxim 'non sunt facienda mala ut veniant bona'; only 'mala ut veniant bona' tagged"
+      }
+    ]
+  },
   "hx2hx3-c11700": {
     "hx2hx3-c11700-d1e159": [
+      {
+        "candidate_id": "mc2_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 already encoded as lc5_24 in earlier pass (Matth. cited, wording closest to Lk)"
+      },
+      {
+        "candidate_id": "mt9_6",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 already encoded as lc5_24 in earlier pass (Matth. cited, wording closest to Lk)"
+      },
       {
         "candidate_id": "lc5_24",
         "intersectionCount": 5,
         "status": "encoded",
         "note": "MS cites 'Matth.' but text matches Luke 5:24 more closely ('sciatis quia' vs Mt's 'sciatis autem quoniam'); parallel passage"
+      }
+    ]
+  },
+  "hx2hx3-c12195": {
+    "hx2hx3-c12195-d1e318": [
+      {
+        "candidate_id": "rom3_8",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "maxim 'non sunt facienda mala ut veniant bona'; only 'mala ut veniant bona' tagged"
       }
     ]
   },
@@ -254,13 +2304,69 @@
   "hx2hx3-c14339": {
     "hx2hx3-c14339-d1e104": [
       {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "synoptic parallel; encoded as mt26_26"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "synoptic parallel; encoded as mt26_26"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "Lombard: words of institution; Mt chosen among synoptic parallels"
+      },
+      {
         "candidate_id": "lc22_19",
         "intersectionCount": 2,
         "status": "not_found",
         "note": "sacramental formula 'Hoc est Corpus meum' cited without attribution marker; not a marked biblical quotation"
       }
     ],
+    "hx2hx3-c14339-d1e124": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
+    ],
     "hx2hx3-c14339-d1e141": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote Mt 26:26 already encoded"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 actual quote Mt 26:26 already encoded"
+      },
       {
         "candidate_id": "lc24_30",
         "intersectionCount": 2,
@@ -280,7 +2386,157 @@
         "note": "explicit Matth. citation; full verse quoted"
       }
     ],
+    "hx2hx3-c14339-d1e229": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
+    ],
+    "hx2hx3-c14339-d1e271": [
+      {
+        "candidate_id": "io6_56",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "explicit 'Io.' citation; verbatim ('cato' = caro)"
+      }
+    ],
+    "hx2hx3-c14339-d1e312": [
+      {
+        "candidate_id": "ps145_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      },
+      {
+        "candidate_id": "tob6_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      }
+    ],
+    "hx2hx3-c14339-d1e538": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
+    ],
+    "hx2hx3-c14339-d1e621": [
+      {
+        "candidate_id": "ps145_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      },
+      {
+        "candidate_id": "tob6_17",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in quibus non est' only"
+      }
+    ],
+    "hx2hx3-c14339-d1e708": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "hebr12_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
+    ],
     "hx2hx3-c14339-d1e823": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase only; paragraph analyses Mt 26:26 (see mt26_26 note)"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase only; paragraph analyses Mt 26:26 (see mt26_26 note)"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase only; paragraph analyses Mt 26:26 (see mt26_26 note)"
+      },
+      {
+        "candidate_id": "mc6_41",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase only; paragraph analyses Mt 26:26 (see mt26_26 note)"
+      },
+      {
+        "candidate_id": "mt14_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase only; paragraph analyses Mt 26:26 (see mt26_26 note)"
+      },
       {
         "candidate_id": "lc24_30",
         "intersectionCount": 2,
@@ -299,10 +2555,190 @@
         "status": "not_found",
         "note": "paragraph is analytical commentary on Matt 26:26 sequence; phrases woven into argument, not marked quotation"
       }
+    ],
+    "hx2hx3-c14339-d1e877": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "synoptic parallel; encoded as mt26_26"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "synoptic parallel; encoded as mt26_26"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "synoptic parallel; encoded as mt26_26"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "'Christus dixit ista verba'; Mt chosen among synoptic parallels"
+      }
+    ],
+    "hx2hx3-c14339-d1e1050": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
+    ]
+  },
+  "hx2hx3-c15469": {
+    "hx2hx3-c15469-d1e127": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
+    ],
+    "hx2hx3-c15469-d1e269": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
+    ],
+    "hx2hx3-c15469-d1e315": [
+      {
+        "candidate_id": "rom2_15",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'inter se inuicem' only"
+      }
+    ]
+  },
+  "hx2hx3-c15728": {
+    "hx2hx3-c15728-d1e116": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
+    ],
+    "hx2hx3-c15728-d1e137": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
     ]
   },
   "hx2hx3-c16279": {
     "hx2hx3-c16279-d1e434": [
+      {
+        "candidate_id": "dan5_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'in se' only"
+      },
       {
         "candidate_id": "mt15_17",
         "intersectionCount": 4,
@@ -312,12 +2748,247 @@
     ]
   },
   "hx2hx3-c16825": {
+    "hx2hx3-c16825-d1e115": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "synoptic parallel; encoded as mt26_26"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "synoptic parallel; encoded as mt26_26"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "synoptic parallel; encoded as mt26_26"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "encoded",
+        "note": "words of institution attributed to Christ; Mt chosen among synoptic parallels"
+      },
+      {
+        "candidate_id": "Icor10_4",
+        "intersectionCount": 0,
+        "manually_found": true,
+        "status": "encoded",
+        "note": "'petra autem erat Christus' quoted as the heretics' analogy"
+      }
+    ],
+    "hx2hx3-c16825-d1e167": [
+      {
+        "candidate_id": "IIchr6_14",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et' only"
+      },
+      {
+        "candidate_id": "dan6_28",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et' only"
+      },
+      {
+        "candidate_id": "ioel2_30",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et' only"
+      },
+      {
+        "candidate_id": "mt28_18",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et' only"
+      },
+      {
+        "candidate_id": "mt6_10",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et' only"
+      },
+      {
+        "candidate_id": "ps112_6",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et' only"
+      }
+    ],
     "hx2hx3-c16825-d1e400": [
       {
         "candidate_id": "io6_56",
         "intersectionCount": 7,
         "status": "encoded",
         "note": "explicit 'lo. &.' (John 6) citation; full verse quoted"
+      }
+    ],
+    "hx2hx3-c16825-d1e845": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
+    ],
+    "hx2hx3-c16825-d1e1063": [
+      {
+        "candidate_id": "Icor11_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "lc22_19",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mc14_22",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      },
+      {
+        "candidate_id": "mt26_26",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "sacramental formula discussed as a formula, not cited as scripture"
+      }
+    ],
+    "hx2hx3-c16825-d1e1199": [
+      {
+        "candidate_id": "IIsam7_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne, quod est in' only"
+      },
+      {
+        "candidate_id": "Iio2_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'omne, quod est in' only"
+      },
+      {
+        "candidate_id": "prov23_3",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'eius in quo est' only"
+      }
+    ]
+  },
+  "hx2hx3-c19150": {
+    "hx2hx3-c19150-d1e201": [
+      {
+        "candidate_id": "ier33_16",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Et hoc est quod' only"
+      }
+    ]
+  },
+  "hx2hx3-c19443": {
+    "hx2hx3-c19443-d1e471": [
+      {
+        "candidate_id": "lc22_37",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'ea quae sunt de' only"
+      }
+    ]
+  },
+  "hx2hx3-c20355": {
+    "hx2hx3-c20355-d1e395": [
+      {
+        "candidate_id": "mt27_45",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'vsque ad horam nonam' only"
+      }
+    ]
+  },
+  "hx2hx3-c20778": {
+    "hx2hx3-c20778-d1e163": [
+      {
+        "candidate_id": "Icor15_57",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Dominum nostrum Iesum Christum' only"
+      },
+      {
+        "candidate_id": "Ith5_9",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Dominum nostrum Iesum Christum' only"
+      },
+      {
+        "candidate_id": "act20_21",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Dominum nostrum Iesum Christum' only"
+      },
+      {
+        "candidate_id": "eph6_24",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Dominum nostrum Iesum Christum' only"
+      },
+      {
+        "candidate_id": "iud1_4",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Dominum nostrum Iesum Christum' only"
+      },
+      {
+        "candidate_id": "rom15_30",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Dominum nostrum Iesum Christum' only"
+      },
+      {
+        "candidate_id": "rom5_1",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Dominum nostrum Iesum Christum' only"
+      },
+      {
+        "candidate_id": "rom5_11",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'Dominum nostrum Iesum Christum' only"
+      }
+    ],
+    "hx2hx3-c20778-d1e248": [
+      {
+        "candidate_id": "sir30_5",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'est in illo in' only"
+      }
+    ]
+  },
+  "hx2hx3-c21133": {
+    "hx2hx3-c21133-d1e662": [
+      {
+        "candidate_id": "mc13_25",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'virtutes quae sunt in' only"
+      }
+    ]
+  },
+  "hx2hx3-c21850": {
+    "hx2hx3-c21850-d1e116": [
+      {
+        "candidate_id": "is13_20",
+        "intersectionCount": 1,
+        "status": "not_found",
+        "note": "false positive \u2014 common phrase 'vsque in finem' only"
       }
     ]
   }
