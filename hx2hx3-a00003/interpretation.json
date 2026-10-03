@@ -1,0 +1,1008 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:00:11Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "2f3d649",
+    "generation_method": "hierarchical",
+    "source_file": "cod-hvna87_hx2hx3-a00003.xml",
+    "description": "LLM-generated interpretative layer for the corresponding SCTA XML source."
+  },
+  "hx2hx3-a00003": {
+    "summary": "The first question of the prologue asks whether theology is a science. After four opening arguments for its scientific status and a sed contra (theology proceeds from belief), Hervaeus sorts current opinions into three: theology as science strictly, theology as subalternate science properly, and theology as science only broadly. He refutes three ways of defending the first: deriving theology from natural common conceptions and metaphysics; arguing that a mixed syllogism with one evident premise yields knowledge; and positing a supernatural light beyond faith that makes the articles evident. His main lever is that premises cause the conclusion's evidence, so the conclusion follows the weaker premise, and that science removes the need to assent on authority. He also rejects the view that subalternate science works from believed principles, holding instead that its principles are evident 'quia'. His own view is that theology is a science only broadly: it gives exegetical skill, certain knowledge of consequences, and manuductive evidence, and it is subalternated to the knowledge of the blessed on the side of the knower, not the object. He then answers the opening arguments, including that wayfarer's and heavenly theology differ in species through their different lights.",
+    "claims": [
+      "Theology is not a science properly so called, whether simple or subalternate.",
+      "Theology is a science in a broad sense and is subalternated to the knowledge of the blessed on the side of the knower.",
+      "The articles of faith cannot be demonstrated from naturally known principles.",
+      "A conclusion drawn from one evident and one believed premise is only believed.",
+      "Science excludes the need to assent on authority, so no light making the articles evident can coexist with the need for faith.",
+      "Subalternate sciences know their principles evidently 'quia', not by belief.",
+      "Theology of the way and theology of the fatherland differ in species."
+    ],
+    "concepts": [
+      "theology as science",
+      "subalternation",
+      "evidence",
+      "faith",
+      "mixed syllogism",
+      "lumen supra fidem",
+      "manuductive evidence",
+      "specification of habits",
+      "quia and propter quid"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-a00003-d1e104",
+        "hx2hx3-a00003-d1e123",
+        "hx2hx3-a00003-d1e132",
+        "hx2hx3-a00003-d1e142",
+        "hx2hx3-a00003-d1e181",
+        "hx2hx3-a00003-d1e201",
+        "hx2hx3-a00003-d1e214",
+        "hx2hx3-a00003-d1e227",
+        "hx2hx3-a00003-d1e234",
+        "hx2hx3-a00003-d1e261",
+        "hx2hx3-a00003-d1e283",
+        "hx2hx3-a00003-d1e320",
+        "hx2hx3-a00003-d1e359",
+        "hx2hx3-a00003-d1e381",
+        "hx2hx3-a00003-d1e464",
+        "hx2hx3-a00003-d1e478",
+        "hx2hx3-a00003-d1e515",
+        "hx2hx3-a00003-d1e541",
+        "hx2hx3-a00003-d1e567",
+        "hx2hx3-a00003-d1e602",
+        "hx2hx3-a00003-d1e626",
+        "hx2hx3-a00003-d1e647",
+        "hx2hx3-a00003-d1e710",
+        "hx2hx3-a00003-d1e736",
+        "hx2hx3-a00003-d1e765",
+        "hx2hx3-a00003-d1e785",
+        "hx2hx3-a00003-d1e805",
+        "hx2hx3-a00003-d1e830",
+        "hx2hx3-a00003-d1e852",
+        "hx2hx3-a00003-d1e876",
+        "hx2hx3-a00003-d1e894",
+        "hx2hx3-a00003-d1e1107",
+        "hx2hx3-a00003-d1e1229",
+        "hx2hx3-a00003-d1e1282",
+        "hx2hx3-a00003-d1e1330",
+        "hx2hx3-a00003-d1e1380",
+        "hx2hx3-a00003-d1e1428",
+        "hx2hx3-a00003-d1e1485",
+        "hx2hx3-a00003-d1e1516",
+        "hx2hx3-a00003-d1e1567",
+        "hx2hx3-a00003-d1e1604",
+        "hx2hx3-a00003-d1e1663",
+        "hx2hx3-a00003-d1e1702",
+        "hx2hx3-a00003-d1e1752"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e104": {
+    "summary": "Title rubric of the printed edition (garbled by OCR), naming the work as Hervaeus Natalis's commentary on the Sentences, styled 'most acute doctor' and Master General of the Dominicans, and advertising a newly emended edition. It frames the whole work rather than making any argument.",
+    "claims": [],
+    "concepts": [
+      "title rubric",
+      "edition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e123"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e123": {
+    "summary": "Incipit of Peter Lombard's prologue to the Sentences ('Cupientes aliquid de penuria ac tenuitate nostra...'), quoted as the lemma that Hervaeus's prologue questions comment on. It marks the start of the prologue section.",
+    "claims": [],
+    "concepts": [
+      "Lombard's prologue",
+      "lemma"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e104",
+        "hx2hx3-a00003-d1e132"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e132": {
+    "summary": "Rubric announcing the first question of the prologue.",
+    "claims": [],
+    "concepts": [
+      "rubric"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e142"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e142": {
+    "summary": "First opening argument that theology is a science: the believer aided by faith can do at least as much as a damned intellect in its natural state; since the demons, who 'believe and tremble' (James 2), believe only from evidence, they have scientific knowledge that theological truths are spoken by God, and what God speaks is certainly true. Hence the believer can have scientific knowledge of theological matters.",
+    "claims": [
+      "What is known to be spoken by God is known to be true.",
+      "The demons' belief rests on evidence and so amounts to knowledge that the articles are spoken by God."
+    ],
+    "concepts": [
+      "theology as science",
+      "faith",
+      "evidence",
+      "demons' belief",
+      "divine testimony"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e227",
+        "hx2hx3-a00003-d1e1604"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e181": {
+    "summary": "Second opening argument: a habit can be had from things believed if imperfect cognition does not conflict with it; science properly speaking tolerates imperfect cognition, because a subject imperfectly known has the character of object, and only when perfectly known the character of end.",
+    "claims": [
+      "Imperfect cognition does not conflict with science properly so called."
+    ],
+    "concepts": [
+      "science",
+      "imperfect cognition",
+      "object",
+      "end"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e1663"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e201": {
+    "summary": "Third opening argument: no one can resolve arguments against a thing without knowing it; but theologians can resolve all arguments against the articles of faith and know that they resolve them well; so they have science of the articles.",
+    "claims": [
+      "Ability to refute objections against a thing implies knowledge of it."
+    ],
+    "concepts": [
+      "solution of objections",
+      "science",
+      "articles of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e1702"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e214": {
+    "summary": "Fourth opening argument: the theology of the wayfarer and the theology of the blessed are the same habit in species because they share the same formal object, which specifies habits; the theology of the blessed is science properly speaking; so is ours.",
+    "claims": [
+      "Habits are specified by their formal object.",
+      "Wayfarer's and heavenly theology have the same formal object."
+    ],
+    "concepts": [
+      "theologia viae",
+      "theologia patriae",
+      "formal object",
+      "specification of habits"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e1752"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e227": {
+    "summary": "Argument sed contra: theology does not proceed from self-evident principles but from things believed, so it is not a science.",
+    "claims": [
+      "Theology proceeds from believed, not self-evident, principles.",
+      "A discipline that does not proceed from self-evident principles is not science."
+    ],
+    "concepts": [
+      "self-evident principles",
+      "credibilia",
+      "science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e234"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e234": {
+    "summary": "Hervaeus opens his response by reducing the many opinions to three: theology is science strictly speaking; theology is a subalternate science properly so called (for those who deny that subalternate science is science strictly); or theology is neither, but can broadly be called a subalternate science. This maps the structure of the rest of the question.",
+    "claims": [
+      "The opinions on theology's scientific status reduce to three positions."
+    ],
+    "concepts": [
+      "theology as science",
+      "subalternate science",
+      "doxographical division"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e261",
+        "hx2hx3-a00003-d1e1380",
+        "hx2hx3-a00003-d1e1516"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e261": {
+    "summary": "Introduces the first variant of the first position: theology is science strictly because it proceeds from self-evident common conceptions and from what metaphysics proves through them (e.g. divine simplicity), the articles of faith not being its principles. Three supporting arguments are announced.",
+    "claims": [
+      "(Reported view) Theology's principles are naturally known common conceptions, not the articles."
+    ],
+    "concepts": [
+      "common conceptions",
+      "metaphysics",
+      "principles of theology",
+      "divine simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e234",
+        "hx2hx3-a00003-d1e283"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e283": {
+    "summary": "Gives the three supporting arguments for the first variant: posterior things are proved through prior ones and being is prior in understanding to God; from divine simplicity one proves that persons are distinguished by relations; and since every operation terminates in a product and God has two operations, intellect and will, one can prove two productions, Word and Spirit, and so the three persons from naturally known principles.",
+    "claims": [
+      "(Reported view) The Trinity can be demonstrated from naturally known principles."
+    ],
+    "concepts": [
+      "priority of being",
+      "divine simplicity",
+      "relations",
+      "processions",
+      "intellect and will",
+      "natural knowledge of Trinity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e261",
+        "hx2hx3-a00003-d1e381",
+        "hx2hx3-a00003-d1e515",
+        "hx2hx3-a00003-d1e541"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e320": {
+    "summary": "Hervaeus refutes the first variant: what can be efficaciously proved from self-evident principles alone does not exceed natural light, but the Trinity and Incarnation do exceed it, as shown by the philosophers' failure to reach them and by the need for revelation.",
+    "claims": [
+      "The articles of faith exceed the power of natural reason.",
+      "What philosophers could not reach and what requires revelation cannot be proved from natural principles alone."
+    ],
+    "concepts": [
+      "natural light",
+      "revelation",
+      "articles of faith",
+      "limits of philosophy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e261",
+        "hx2hx3-a00003-d1e283"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e359": {
+    "summary": "Blocks an escape: if one says the articles are added to the self-evident principles without being principles, this fails, because both premises cause the conclusion's being inferred and known; so the article assumed alongside a self-evident proposition is itself a principle of the theological conclusion.",
+    "claims": [
+      "Every premise in a syllogism is a cause of the conclusion's being known.",
+      "An article assumed as premise functions as a principle of theological conclusions."
+    ],
+    "concepts": [
+      "syllogism",
+      "premises as causes",
+      "principles",
+      "articles of faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e320"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e381": {
+    "summary": "Reply to the first supporting argument (priority of being): posterior things can be proved through prior ones only regarding properties belonging per se to the more common term (one, true, good); proper attributes of a lower term (risibility of man, trinity of God) cannot be derived from the higher. So propositions about being in general can prove transcendental properties of God but not that God is triune.",
+    "claims": [
+      "Properties proper to an inferior cannot be demonstrated through a superior term.",
+      "From being one can prove transcendental attributes of God but not the Trinity."
+    ],
+    "concepts": [
+      "priority",
+      "transcendentals",
+      "proper attributes",
+      "demonstration",
+      "being",
+      "Trinity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e283"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e464": {
+    "summary": "Reports an alternative reply to the priority argument: being is not prior in reason to God, because God, though not common by predication, is common by attribution.",
+    "claims": [
+      "(Reported view) God is common by attribution and so being is not prior to God in reason."
+    ],
+    "concepts": [
+      "commonness by attribution",
+      "analogy",
+      "priority of being"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e283",
+        "hx2hx3-a00003-d1e478"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e478": {
+    "summary": "Rejects that alternative: what is more common by predication is always prior in understanding, since it can be conceived without the less common but not conversely ('this is God, therefore being' but not conversely). Being and God mutually entail each other only as second adjacent ('being exists' / 'God exists') because of universal causality, since nothing can exist without God conserving it.",
+    "claims": [
+      "What is more common by predication is prior in understanding.",
+      "God implies being but being does not imply God as third adjacent.",
+      "Existence of any being implies God's existence because of divine conservation."
+    ],
+    "concepts": [
+      "priority in understanding",
+      "predication",
+      "second and third adjacent",
+      "divine conservation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e464"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e515": {
+    "summary": "Reply to the second supporting argument: the inference that persons are distinguished by relations does not come from naturally known principles alone but from one naturally knowable proposition (God is simple) together with one held only by faith (there is a plurality of persons).",
+    "claims": [
+      "The proof that the divine persons are distinguished by relations requires a premise held by faith."
+    ],
+    "concepts": [
+      "divine simplicity",
+      "plurality of persons",
+      "relations",
+      "mixed syllogism"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e283"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e541": {
+    "summary": "Reply to the third supporting argument: it proves too much, since understanding and willing are really one in God and would yield only one product. The major holds only for operations passing into something really distinct from the agent in essence or supposit, which divine understanding and willing need not be.",
+    "claims": [
+      "Arguing to productions from operations would yield only one divine product.",
+      "Only transient operations necessarily terminate in a really distinct product."
+    ],
+    "concepts": [
+      "immanent and transient operation",
+      "intellect and will in God",
+      "processions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e283"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e567": {
+    "summary": "States the second variant of the first position: theology is science strictly because it argues from one universally self-evident proposition and one believed proposition (e.g. every man has true flesh; the Son of God is man); since the power of a cause remains in its effect, the force of the evident premise remains in the conclusion, which is therefore known.",
+    "claims": [
+      "(Reported view) A conclusion from one evident and one believed premise is scientifically known."
+    ],
+    "concepts": [
+      "mixed syllogism",
+      "virtus causae",
+      "evident premise",
+      "believed premise"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e602",
+        "hx2hx3-a00003-d1e710"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e602": {
+    "summary": "First refutation of the second variant: just as a conclusion is 'in quod quid est' only if both premises are, evidence in the conclusion requires evidence in both premises.",
+    "claims": [
+      "Evidence of the conclusion requires evidence of both premises."
+    ],
+    "concepts": [
+      "evidence",
+      "premises",
+      "modal syllogistic analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e567"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e626": {
+    "summary": "Second refutation: as a necessary cause applied through a contingent cause yields a contingent effect, so an evident proposition joined to an unevident one yields an unevident conclusion.",
+    "claims": [
+      "An evident premise joined to an unevident premise yields an unevident conclusion."
+    ],
+    "concepts": [
+      "evidence",
+      "necessity and contingency",
+      "causal analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e567"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e647": {
+    "summary": "Hervaeus explains the principle underlying the refutation: premises are causes of inferring and making known the conclusion, so the conclusion follows the weaker premise in what pertains to inference and notification (negative, particular, unevident). Truth is different because premises are not the cause of truth, so a true conclusion can follow from false premises.",
+    "claims": [
+      "The conclusion follows the weaker premise in all respects in which the premises cause the conclusion.",
+      "If either premise is unevident, the conclusion is unevident unless known otherwise.",
+      "A true conclusion can follow from false premises because truth of premises is not a cause in inferring."
+    ],
+    "concepts": [
+      "peiorem sequitur semper conclusio",
+      "evidence",
+      "causality of premises",
+      "truth"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e602",
+        "hx2hx3-a00003-d1e626"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e710": {
+    "summary": "Reply to the argument from the power of the cause: the power of the evident premise remains in the effect only in the way it is applied, namely so that the conclusion follows; applied together with a believed premise, the conclusion is only believed, as with a necessary and a contingent premise.",
+    "claims": [
+      "The evident premise secures the consequence, not the evidence, of a conclusion drawn with a believed premise."
+    ],
+    "concepts": [
+      "virtus causae",
+      "mixed syllogism",
+      "belief"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e567"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e736": {
+    "summary": "States the third variant of the first position, held by weighty defenders: besides the light of faith a supernatural light is infused into some perfect men in which the articles become evident enough for science proper, without being so clear as to void faith. Hervaeus will present the position, its defences, his refutation, and replies.",
+    "claims": [
+      "(Reported view) An additional supernatural light makes the articles evident to some believers while faith remains."
+    ],
+    "concepts": [
+      "lumen supra fidem",
+      "infused light",
+      "evidence",
+      "faith and science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e765",
+        "hx2hx3-a00003-d1e785",
+        "hx2hx3-a00003-d1e805"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e765": {
+    "summary": "First proof of the 'added light' view: God provides his Church with perfect men illuminated above the common state of the faithful to defend the faith, which requires a supernatural light beyond faith giving evidence.",
+    "claims": [
+      "(Reported view) Illumination beyond the ordinary faithful requires a light beyond faith."
+    ],
+    "concepts": [
+      "Church",
+      "illuminated doctors",
+      "defence of faith",
+      "supernatural light"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e736",
+        "hx2hx3-a00003-d1e1229"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e785": {
+    "summary": "Second proof that such a scientific light does not conflict with faith: the obscurity of faith conflicts with science of believables no more than the obscurity of phantasms conflicts with science of sensibles, which is certain nonetheless.",
+    "claims": [
+      "(Reported view) Obscurity in the medium does not prevent certain science."
+    ],
+    "concepts": [
+      "phantasm",
+      "obscurity",
+      "certainty",
+      "faith and science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e736",
+        "hx2hx3-a00003-d1e1282"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e805": {
+    "summary": "Third proof: evident and unevident are no more opposed than clear and obscure, and the blessed have both clear knowledge of things in the Word and obscure knowledge of them in their own nature; so one person can have faith and science of the same thing.",
+    "claims": [
+      "(Reported view) Clear and obscure cognition of the same thing can coexist."
+    ],
+    "concepts": [
+      "cognition in the Word",
+      "morning and evening knowledge",
+      "clear and obscure cognition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e736",
+        "hx2hx3-a00003-d1e1330"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e830": {
+    "summary": "Presents two objections that the defenders of the added light must answer: evidence and lack of evidence are opposed and cannot coexist about the same thing; and faith and science are no less opposed than faith and opinion, which the defenders themselves deny can coexist.",
+    "claims": [
+      "Evidence and inevidence cannot be in the same subject about the same object.",
+      "Faith is opposed to science at least as much as to opinion."
+    ],
+    "concepts": [
+      "opposition",
+      "faith and opinion",
+      "evidence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e852",
+        "hx2hx3-a00003-d1e876"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e852": {
+    "summary": "The defenders' answer to the first objection: they distinguish evidence of vision (seeing the thing nakedly present) from evidence of understanding (knowing an absent thing through rational discourse); the inevidence of faith excludes only the former, and the latter suffices for science.",
+    "claims": [
+      "(Reported view) Faith excludes only evidence of vision, not evidence of understanding."
+    ],
+    "concepts": [
+      "evidentia visionis",
+      "evidentia intelligentiae",
+      "discursive knowledge"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e830",
+        "hx2hx3-a00003-d1e1107"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e876": {
+    "summary": "The defenders' answer to the second objection: faith and opinion are contradictorily opposed (firm vs. not firm adherence), whereas faith and science are contrarily opposed as obscure and clear, and remitted contraries can coexist.",
+    "claims": [
+      "(Reported view) Faith and opinion are contradictories; faith and science contraries.",
+      "(Reported view) Remitted contraries can be simultaneously present."
+    ],
+    "concepts": [
+      "contradictory and contrary opposition",
+      "remitted contraries",
+      "firmness of assent"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e830",
+        "hx2hx3-a00003-d1e1107"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e894": {
+    "summary": "Hervaeus's central refutation of the added-light view. Granting that the habit of faith might remain with science (as in Paul's rapture), the need to assent by faith cannot remain with science. Three arguments: science is a habit veridical of itself, so its possessor needs no authority (supported from Aristotle, Ethics VI); the added light either suffices to move assent without authority, or is superfluous; and the light either does not presuppose faith or depends on it in a way that would make faith a habit of principles and the light a habit of conclusions more evident than its principles, which is absurd. Nor is faith needed for merit, since science removes the difficulty of assent.",
+    "claims": [
+      "Science properly so called removes the necessity of assenting on authority.",
+      "Whoever assents only on another's authority does not of himself have infallibility.",
+      "An added light either removes the need for faith or is superfluous.",
+      "A conclusion cannot be more evident than its principles.",
+      "Faith is not necessary for merit where science is present."
+    ],
+    "concepts": [
+      "necessity of faith",
+      "authority",
+      "veridical habit",
+      "infused light",
+      "merit",
+      "Pauline rapture",
+      "habit of principles and conclusions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e736",
+        "hx2hx3-a00003-d1e1107"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1107": {
+    "summary": "Hervaeus rejects the defenders' replies. The distinction of evidence of vision and of understanding fails on every reading of 'vision' (bodily vision, beatific vision, or non-discursive apprehension). Faith and opinion are not contradictories, since some beings have neither, though every opposition includes a contradiction. Remitted contraries cannot coexist in their specific natures, for then one could be intensified to exclude the other; and if they yield a mean, the subject has neither faith nor science, as red is neither white nor black.",
+    "claims": [
+      "The distinction between evidence of vision and of understanding cannot save the coexistence of faith and science.",
+      "Faith and opinion are not contradictories but positive opposites.",
+      "Contrary forms cannot coexist in the same subject in any degree.",
+      "A mean between faith and science would be neither."
+    ],
+    "concepts": [
+      "evidence of vision",
+      "evidence of understanding",
+      "contradiction",
+      "contrariety",
+      "intension and remission of forms"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e852",
+        "hx2hx3-a00003-d1e876"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1229": {
+    "summary": "Reply to the first proof (illuminated men in the Church): 'light' properly means what illumines the intellect (faith, agent intellect), broadly any manifesting habit, acquired or infused. Hervaeus denies a proper light above faith, but grants that some have the light of faith more abundantly, or have better manuductive evidence through study or infusion, short of science proper.",
+    "claims": [
+      "There is no light proper above the light of faith in wayfarers.",
+      "Some believers have greater, non-scientific, manuductive evidence."
+    ],
+    "concepts": [
+      "lumen",
+      "illumination",
+      "intensification of faith",
+      "manuductio"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e765"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1282": {
+    "summary": "Reply to the second proof (phantasms): Hervaeus rejects a reply of others and argues instead that certain science cannot coexist with an uncertain phantasm; all certain science must be reduced to certain phantasms, as uncertain images of the sun's size are corrected by others, though certain phantasms need the intellect's comparing power.",
+    "claims": [
+      "Certain science requires certain phantasms.",
+      "Uncertain phantasms must be reduced to certain ones for science."
+    ],
+    "concepts": [
+      "phantasm",
+      "certainty",
+      "reduction of knowledge",
+      "intellect"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e785"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1330": {
+    "summary": "Reply to the third proof (the blessed): the clear knowledge in the Word and the less clear knowledge of things in themselves have different formal objects (divine essence vs. created things), unlike faith and science of the same formal object. Moreover, even granting coexistence of the habits, the blessed do not need another cognition to assent to what they see in the Word.",
+    "claims": [
+      "Cognition in the Word and in the proper genus differ in formal object.",
+      "Faith and science would concern the same formal object, unlike the two cognitions of the blessed."
+    ],
+    "concepts": [
+      "cognition in the Word",
+      "formal object",
+      "beatific knowledge"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e805"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1380": {
+    "summary": "Presents the second principal position: theology is not science strictly but is subalternate science properly, since subalternate science argues from believed principles. Its proof: a subalternate science cannot use its principles as self-evident or as demonstrated (else it would not be distinct), so as believed, though believing the demonstrator rather than a mere man. Hervaeus signals disagreement.",
+    "claims": [
+      "(Reported view) A subalternate science uses its principles as believed."
+    ],
+    "concepts": [
+      "subalternate science",
+      "believed principles",
+      "perspective and geometry"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e234",
+        "hx2hx3-a00003-d1e1428",
+        "hx2hx3-a00003-d1e1485"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1428": {
+    "summary": "Refutes the second position: a habit that assents only on another's word is not science, so subalternate science would be science only equivocally; inventors of sciences do not take principles on belief; it would be absurd for inventor and disciple to have different kinds of science; believing someone 'as demonstrator' is useless without seeing the demonstration; and common reputation differs from one man's word only in degree of opinion.",
+    "claims": [
+      "Subalternate sciences possess evidence of their principles.",
+      "Belief in authority yields at most firmer or weaker opinion, not science."
+    ],
+    "concepts": [
+      "subalternate science",
+      "invention of sciences",
+      "authority",
+      "opinion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e1380"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1485": {
+    "summary": "Answers the dilemma behind the second position: a subalternate science uses its principles as self-evident with respect to the fact (quia), e.g. by sense in perspective, though not with respect to the reasoned fact (propter quid), which is proved in the higher science.",
+    "claims": [
+      "Subalternate principles are known 'quia' though demonstrated 'propter quid' only in the subalternating science."
+    ],
+    "concepts": [
+      "quia and propter quid",
+      "subalternation",
+      "perspective",
+      "sense evidence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e1380"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1516": {
+    "summary": "Hervaeus's own position: theology is neither science strictly nor subalternate science properly, since both require evident principles, but it is broadly a science and more a subalternate science than otherwise. The theologian knows how to expound Scripture, resolve apparent contradictions, has certain knowledge of consequences (if the Son is man, he has a soul), and has non-scientific manuductive evidence from creaturely likenesses.",
+    "claims": [
+      "Theology is not science properly so called.",
+      "Theology is a science in a broad sense.",
+      "The theologian has certain knowledge of consequences and manuductive evidence."
+    ],
+    "concepts": [
+      "theology as science broadly",
+      "manuductive evidence",
+      "exegesis",
+      "consequences",
+      "subalternation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e234",
+        "hx2hx3-a00003-d1e1567"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1567": {
+    "summary": "Explains broad subalternation: one science may be subalternated to another on the side of the knowable (perspective to geometry, subalternation proper) or on the side of the knower, when someone sees nothing except what another tells him. In the latter way faith, and so our theology, is subalternated to the science of the blessed, since purely theological matters cannot be found by human investigation.",
+    "claims": [
+      "Subalternation can be from the side of the object or from the side of the knower.",
+      "Our theology is subalternated to the knowledge of the blessed on the side of the knower."
+    ],
+    "concepts": [
+      "subalternation ex parte scibilis",
+      "subalternation ex parte scientis",
+      "scientia beatorum",
+      "faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e1516"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1604": {
+    "summary": "Reply to the first opening argument. Hervaeus rejects the view that we can know scripture is God's word without knowing it is true, since God cannot lie. The damned, though inferior in merit and readiness, have evidence about some things (their punishments) the wayfarer lacks; and demons believe not from scientific evidence but by conjecture from signs, as unbelievers may.",
+    "claims": [
+      "To know something is spoken by God is to know it is true.",
+      "The damned may have evidence about some matters the faithful lack.",
+      "Demons believe from conjecture based on signs, not from scientific evidence."
+    ],
+    "concepts": [
+      "demons' faith",
+      "divine veracity",
+      "conjecture",
+      "signs"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e142"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1663": {
+    "summary": "Reply to the second opening argument: the subject of a science, whether perfectly or imperfectly known, has the character of object, and when perfectly known it is also end. End is twofold: the thing attained and its attainment (money and possession); cognition of the object is the end as attainment, and every cognition has an object.",
+    "claims": [
+      "The subject of a science always has the character of object.",
+      "End is twofold: the thing attained and the attainment."
+    ],
+    "concepts": [
+      "object",
+      "end",
+      "finis cuius and finis quo",
+      "subject of science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e181"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1702": {
+    "summary": "Reply to the third opening argument: arguments against faith can fail in form or in matter. Formal flaws can be known by logic (the Sophistical Refutations); but a material reply (e.g. that one essence can be three supposits in God) is held by faith only. When doctors say objections against the faith are soluble, this is known by faith, not science.",
+    "claims": [
+      "Formal defects of objections can be known scientifically.",
+      "Material refutation of objections against the faith rests on faith.",
+      "That all objections against the faith are soluble is known only by faith."
+    ],
+    "concepts": [
+      "solution of objections",
+      "formal and material fallacy",
+      "logic",
+      "faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e201"
+      ]
+    }
+  },
+  "hx2hx3-a00003-d1e1752": {
+    "summary": "Reply to the fourth opening argument: wayfarer's theology and heavenly theology are not the same habit in species, as the light of faith and the light of glory differ. Habits are the same in species when formal object, light, and medium are the same; with the same formal object but different light or medium they may differ, as God's vision and the blessed's vision of God share an object but differ (uncreated vs. created). Sciences differ by lights and media, not only objects.",
+    "claims": [
+      "Theology of the way and theology of heaven differ in species.",
+      "Habits are specified by formal object, light, and medium together.",
+      "God's self-vision and the blessed's vision of God share a formal object but differ in species."
+    ],
+    "concepts": [
+      "specification of habits",
+      "lumen fidei",
+      "lumen gloriae",
+      "medium of cognition",
+      "beatific vision"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a00003-d1e214"
+      ]
+    }
+  }
+}

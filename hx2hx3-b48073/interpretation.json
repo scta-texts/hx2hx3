@@ -1,0 +1,1202 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:06:05Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "2f3d649",
+    "generation_method": "hierarchical",
+    "source_file": "cod-hvna87_hx2hx3-b48073.xml",
+    "description": "LLM-generated interpretative layer for the corresponding SCTA XML source."
+  },
+  "hx2hx3-b48073": {
+    "summary": "This question, placed in Book I distinction 37 (the edition's rubric reads 'distinction 35'), asks whether an angel moves locally, against opening arguments that an indivisible, unquantified being can neither traverse nor skip the intervening medium, nor move in time or in an instant. Article 1 asks how an angel is in place. Hervaeus rejects the philosophers' view that intelligences are bound to the celestial spheres, the view that an angel is in place by its essence (condemned at Paris), and the view that its essence is the subject of nearness and distance, since 'where' and position require quantity. He adopts the view that an angel is in place only as cause in its immediate effect, i.e. as mover in a body moved, with immediacy understood causally, not positionally. Defending this against six difficulties, he holds that an angel acts through a determinate act of free choice, not natural necessity. It can be in place in three ways: by remote potency, by divine deputation (penal or delightful), and by actual motion. Only the first two are meant by the condemned article against an angel being 'nowhere'. An angel can move many things only as ordered to one; two angels moving one body is superfluous but not contradictory; and the sun is not simply in what it affects. Articles 2 to 4 conclude that an angel moves locally by successively relating as mover to bodies in different places (unlike the omnipresent God). Its motion is continuous or discrete depending on whether it moves a body through space or switches between bodies. It passes the medium in continuous motion but need not in discrete motion, and it always moves in time, continuous or discrete, never in an instant. Discrete time is a succession of its indivisible acts, and the replies resolve the opening paradoxes through immediately successive 'nows'.",
+    "claims": [
+      "An angel is in place only as a cause in its immediate effect, i.e. as mover in a body moved.",
+      "Where and position require quantity, so an angel's essence is not the subject of nearness and distance.",
+      "Angels move bodies by free choice through a determinate act of will, not by natural necessity.",
+      "An angel is in place by remote potency, by divine deputation, or by actual motion, and can naturally be 'nowhere' only in the last sense.",
+      "An angel can move many bodies at once only as ordered to one thing.",
+      "An angel moves locally by successively being related as mover to bodies in different places.",
+      "An angel passes through the medium in continuous motion but need not in discrete motion.",
+      "An angel always moves in time, continuous or discrete, never in an instant."
+    ],
+    "concepts": [
+      "angelic location",
+      "presence by causality",
+      "local motion of angels",
+      "ubi and situs",
+      "angelus nusquam",
+      "Condemnation of 1277",
+      "continuous and discrete time",
+      "transitus medii",
+      "free choice",
+      "definitive presence"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-b48073-d1e106",
+        "hx2hx3-b48073-d1e115",
+        "hx2hx3-b48073-d1e127",
+        "hx2hx3-b48073-d1e138",
+        "hx2hx3-b48073-d1e167",
+        "hx2hx3-b48073-d1e202",
+        "hx2hx3-b48073-d1e231",
+        "hx2hx3-b48073-d1e236",
+        "hx2hx3-b48073-d1e253",
+        "hx2hx3-b48073-d1e279",
+        "hx2hx3-b48073-d1e286",
+        "hx2hx3-b48073-d1e299",
+        "hx2hx3-b48073-d1e308",
+        "hx2hx3-b48073-d1e317",
+        "hx2hx3-b48073-d1e364",
+        "hx2hx3-b48073-d1e451",
+        "hx2hx3-b48073-d1e506",
+        "hx2hx3-b48073-d1e563",
+        "hx2hx3-b48073-d1e598",
+        "hx2hx3-b48073-d1e631",
+        "hx2hx3-b48073-d1e654",
+        "hx2hx3-b48073-d1e670",
+        "hx2hx3-b48073-d1e686",
+        "hx2hx3-b48073-d1e702",
+        "hx2hx3-b48073-d1e724",
+        "hx2hx3-b48073-d1e742",
+        "hx2hx3-b48073-d1e767",
+        "hx2hx3-b48073-d1e815",
+        "hx2hx3-b48073-d1e841",
+        "hx2hx3-b48073-d1e1045",
+        "hx2hx3-b48073-d1e1167",
+        "hx2hx3-b48073-d1e1174",
+        "hx2hx3-b48073-d1e1186",
+        "hx2hx3-b48073-d1e1221",
+        "hx2hx3-b48073-d1e1258",
+        "hx2hx3-b48073-d1e1269",
+        "hx2hx3-b48073-d1e1300",
+        "hx2hx3-b48073-d1e1344",
+        "hx2hx3-b48073-d1e1419",
+        "hx2hx3-b48073-d1e1437",
+        "hx2hx3-b48073-d1e1457",
+        "hx2hx3-b48073-d1e1492",
+        "hx2hx3-b48073-d1e1497",
+        "hx2hx3-b48073-d1e1504",
+        "hx2hx3-b48073-d1e1525",
+        "hx2hx3-b48073-d1e1569",
+        "hx2hx3-b48073-d1e1595",
+        "hx2hx3-b48073-d1e1689",
+        "hx2hx3-b48073-d1e1694",
+        "hx2hx3-b48073-d1e1781",
+        "hx2hx3-b48073-d1e1852",
+        "hx2hx3-b48073-d1e1865",
+        "hx2hx3-b48073-d1e1933",
+        "hx2hx3-b48073-d1e1981",
+        "hx2hx3-b48073-d1e2023"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e106": {
+    "summary": "Rubric from the printed edition headed 'Distinctio trigesima quinta, Quaestio prima'. The numeral differs from the EDF placement of this question in distinction 37, where Lombard treats God's presence in things and the location of created spirits.",
+    "claims": [],
+    "concepts": [
+      "rubric",
+      "distinction numbering"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e115"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e115": {
+    "summary": "States the question for this distinction: whether an angel moves locally.",
+    "claims": [],
+    "concepts": [
+      "local motion of angels",
+      "question statement"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e127",
+        "hx2hx3-b48073-d1e236"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e127": {
+    "summary": "Sets up the opening argument against angelic local motion with a hypothesis: an angel moves from place a to place b, two immediately adjacent places, so that leaving the first it is at once in the second.",
+    "claims": [],
+    "concepts": [
+      "angelic motion",
+      "thought experiment"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e138",
+        "hx2hx3-b48073-d1e167"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e138": {
+    "summary": "First horn of the opening argument: if the angel passes through the medium, it passes infinitely many intermediate points (between any two points in place there are infinitely many). It cannot do so continuously, since continuity of motion depends on the continuity of the mobile and an angel is not quantified, nor discretely, since infinitely many things can be traversed only by continuous motion.",
+    "claims": [
+      "(Objection) Between any two points there are infinitely many intermediates.",
+      "(Objection) Continuity of motion depends on continuity of the mobile."
+    ],
+    "concepts": [
+      "medium",
+      "infinite divisibility",
+      "continuous and discrete motion",
+      "angelic indivisibility"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e127",
+        "hx2hx3-b48073-d1e1981"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e167": {
+    "summary": "Second horn: the angel cannot move without passing the medium either. While moving it is not wholly in a or b (then there is no motion), nor partly in each (being indivisible), so it must be in the medium; since that was excluded, it cannot move at all.",
+    "claims": [
+      "(Objection) A mobile wholly at a terminus is not in motion.",
+      "(Objection) An indivisible thing cannot be partly in two places."
+    ],
+    "concepts": [
+      "termini of motion",
+      "indivisibility",
+      "medium"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e138",
+        "hx2hx3-b48073-d1e1981"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e202": {
+    "summary": "Second opening argument: angelic motion is neither instantaneous (motion cannot be in an instant) nor in time, since during the time between two adjacent places the angel would be wholly in a, wholly in b, or partly in both, and each is excluded.",
+    "claims": [
+      "(Objection) Motion cannot be in an instant.",
+      "(Objection) An indivisible mobile cannot be in transit between adjacent places over time."
+    ],
+    "concepts": [
+      "instant and time",
+      "angelic motion",
+      "indivisibility"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e2023"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e231": {
+    "summary": "Sed contra: the Master (Peter Lombard) in the text.",
+    "claims": [
+      "(Contra) Lombard's text supports angelic local motion."
+    ],
+    "concepts": [
+      "authority of the Master"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e115"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e236": {
+    "summary": "Divides the response into four articles: how an angel is in place; whether it moves locally; whether it passes through the medium; whether it moves in time or in an instant.",
+    "claims": [],
+    "concepts": [
+      "structure of response"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e253",
+        "hx2hx3-b48073-d1e1497",
+        "hx2hx3-b48073-d1e1694",
+        "hx2hx3-b48073-d1e1852"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e253": {
+    "summary": "Article 1 begins with a first opinion of certain philosophers: angels move the heavenly bodies and are so determined to that motion that they can move nothing else immediately, so they are in the celestial bodies by operation and cannot be elsewhere, move locally, or act on lower things.",
+    "claims": [
+      "(Reported view) Intelligences are bound to move particular heavenly bodies and are present only there."
+    ],
+    "concepts": [
+      "intelligences",
+      "celestial movers",
+      "philosophers",
+      "angelic presence by operation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e236",
+        "hx2hx3-b48073-d1e279"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e279": {
+    "summary": "Judges the philosophers' opinion erroneous and so to be set aside.",
+    "claims": [
+      "The philosophers' view that angels are bound to celestial motion is erroneous."
+    ],
+    "concepts": [
+      "error",
+      "philosophical intelligences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e253"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e286": {
+    "summary": "Adds that the philosophers' view is also irrational: whatever an intellectual nature does outside itself, through intellect and will, it does by free choice, and what is done by free choice can be done or not done.",
+    "claims": [
+      "What an intellectual nature does externally it does by free choice.",
+      "What is done by free choice can fail to be done."
+    ],
+    "concepts": [
+      "free choice",
+      "intellect and will",
+      "intellectual nature"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e253",
+        "hx2hx3-b48073-d1e299"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e299": {
+    "summary": "Concludes that intelligences are not, by their nature, necessarily bound to any determinate motion of a body.",
+    "claims": [
+      "Intelligences are not by nature necessitated to move a particular body."
+    ],
+    "concepts": [
+      "freedom of angels",
+      "celestial motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e286"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e308": {
+    "summary": "Second opinion: an angel is in place through its essence, so that its essence is its reason for being in place.",
+    "claims": [
+      "(Reported view) An angel's essence is the reason for its being in place."
+    ],
+    "concepts": [
+      "presence by essence",
+      "angelic location"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e317"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e317": {
+    "summary": "Refutes the second opinion: being in place by essence would be either by contact of bulk, making its essence quantity, or by contact of power, making its essence its motive power, which is false since its essence alone does not suffice to move without an added act of understanding and willing. A material substance, which would be a better candidate, is in place by its quantity, not its substance. The view was also condemned in the articles of the Bishop of Paris.",
+    "claims": [
+      "An angel's essence is neither quantity nor its motive power.",
+      "Even material substance is in place by quantity, not by substance.",
+      "The view that angels are in place by essence was condemned at Paris."
+    ],
+    "concepts": [
+      "contactus quantitatis",
+      "contactus virtutis",
+      "essence and power",
+      "Condemnation of 1277"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e308"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e364": {
+    "summary": "Third opinion: the angel is not in place by its essence as reason, but in place as to its essence, its essence being the subject of nearness and distance (since mover and moved must be together). With a protest that he speaks tentatively and retracts anything contrary to the Paris articles, Hervaeus reports the objection of others: whatever is in something as subject needs a ratio susceptiva for it; the proper receptive ratio of 'where' and position is quantity of bulk, which angels lack. Saying angelic 'where' is of another ratio makes the dispute merely verbal.",
+    "claims": [
+      "(Reported view) The angel's essence is the subject of nearness and distance.",
+      "Every accident requires a proper receptive principle in its subject.",
+      "The proper receptive principle of where and position is quantity.",
+      "An equivocal angelic 'where' makes the dispute merely verbal."
+    ],
+    "concepts": [
+      "ubi",
+      "situs",
+      "ratio susceptiva",
+      "quantity",
+      "Condemnation of 1277",
+      "propinquitas et distantia"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e308",
+        "hx2hx3-b48073-d1e451"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e451": {
+    "summary": "Further argument: if the angel is situated in place 'through' its power or operation, this 'through' denotes either a passive principle, which is impossible since neither its power nor its immanent operation is quantified, or an active principle, which is insufficient since a passive principle is also required for being a subject of position. Nor can a transient operation in another make it the subject of position, since something can be the real subject of something only by what inheres in it, though it can be denominated extrinsically.",
+    "claims": [
+      "Neither an angel's power nor its immanent operation can be a passive principle of position.",
+      "Being a real subject requires an intrinsic inhering principle, while extrinsic denomination does not."
+    ],
+    "concepts": [
+      "active and passive principle",
+      "immanent and transient operation",
+      "extrinsic denomination",
+      "situs"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e364"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e506": {
+    "summary": "A third argument: what is in place as subject of nearness is understood to be near before it acts, so being in place is prior to moving, contrary to those who place the angel by operation. Hence a fourth opinion: an angel is in place not by essence nor by anything that is the subject of nearness or distance, but by being in a located body as a cause is in its immediate effect, i.e. by having the relation of mover to moved, with no situational nearness or distance to any body.",
+    "claims": [
+      "If being in place were a positional relation, it would be prior to operating.",
+      "An angel is in place as a cause is in its immediate effect, by relation of mover to moved.",
+      "An angel has no positional nearness or distance to any body."
+    ],
+    "concepts": [
+      "presence by causality",
+      "mover and moved",
+      "causa in effectu",
+      "angelic location"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e451",
+        "hx2hx3-b48073-d1e563"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e563": {
+    "summary": "Clarifies 'immediate cause': immediacy here is in the order of causality, not of position, as when fire rarefies water by heat, or an angel moves to a form only by means of local motion. Being in place is having the relation of immediate mover, in causal order, to a body that is in place.",
+    "claims": [
+      "The immediacy of an angel's presence is causal, not positional."
+    ],
+    "concepts": [
+      "order of causality",
+      "order of position",
+      "immediacy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e506"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e598": {
+    "summary": "Supports the fourth opinion: a thing relates to place either by positional application or by moving and being moved; the angel cannot do the former, so it relates to place only by moving (habitually or actually). It is not properly in place but as mover in moved, cause in effect, or conversely (if a body could act on a spirit). Difficulties are then announced.",
+    "claims": [
+      "Since angels lack positional relation, they relate to place only by moving, habitually or actually."
+    ],
+    "concepts": [
+      "mover in moved",
+      "habitual and actual relation",
+      "angelic location"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e506",
+        "hx2hx3-b48073-d1e631"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e631": {
+    "summary": "First difficulty against the fourth opinion: if the angel is no nearer to one body than another, why does it move one rather than another, and how does it 'apply itself' to a body? Application seems to require being sometimes near, sometimes distant, and so being a subject of nearness and distance.",
+    "claims": [
+      "(Objection) Applying oneself to move a body seems to require nearness."
+    ],
+    "concepts": [
+      "application of power",
+      "nearness and distance"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e742",
+        "hx2hx3-b48073-d1e767"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e654": {
+    "summary": "Second difficulty: if the angel is in place only by moving something, it could cease to move and so be nowhere, which seems false and contrary to the condemned article that an angel is nowhere.",
+    "claims": [
+      "(Objection) An angel cannot be nowhere."
+    ],
+    "concepts": [
+      "angelus nusquam",
+      "Condemnation of 1277"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e841",
+        "hx2hx3-b48073-d1e1167"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e670": {
+    "summary": "Third difficulty: if the angel is neither near nor far from anything, it could move bodies in widely separate places (east and west) at once, and so be in many places at once, which is unfitting.",
+    "claims": [
+      "(Objection) One angel cannot be in many places at once."
+    ],
+    "concepts": [
+      "multilocation",
+      "angelic location"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1258",
+        "hx2hx3-b48073-d1e1300"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e686": {
+    "summary": "Fourth difficulty: several angels can move the same body, so on this view two angels would be in the same place at once, which is unfitting.",
+    "claims": [
+      "(Objection) Two angels cannot be in the same place."
+    ],
+    "concepts": [
+      "co-location of angels"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1344",
+        "hx2hx3-b48073-d1e1419"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e702": {
+    "summary": "Fifth difficulty: according to some masters, plausibly, the separated soul cannot move anything, since its motive power is organic and does not remain; so on this view it would be nowhere, neither in heaven nor hell, which is erroneous.",
+    "claims": [
+      "(Objection) The separated soul is in some place.",
+      "(Reported view) The separated soul cannot move bodies since its motive power is organic."
+    ],
+    "concepts": [
+      "separated soul",
+      "organic powers",
+      "location of souls",
+      "heaven and hell"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1437"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e724": {
+    "summary": "Sixth difficulty: if moving or producing something in a place suffices for being there, the sun and heavenly bodies, which alter and produce effects in the earth and elements, would be in those places, which seems false.",
+    "claims": [
+      "(Objection) A cause that acts on a place is not thereby in that place."
+    ],
+    "concepts": [
+      "celestial causality",
+      "presence by causality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1457"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e742": {
+    "summary": "Reply to the first difficulty begins: on the view that an angel is in place only by operating on a body, it cannot first approach the body positionally before acting; otherwise being in place would ground operating rather than the reverse.",
+    "claims": [
+      "On the operation view, the angel does not first approach a body positionally."
+    ],
+    "concepts": [
+      "application",
+      "priority of presence and operation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e631",
+        "hx2hx3-b48073-d1e767"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e767": {
+    "summary": "Continues: in bodies whose powers are quantified accidentally, action requires positional approach besides a proportion of active to passive power (as for heating). Where there is no quantity or position, only the proportion of active to passive principle is needed. So an angel moving a quantified body needs only the proportion between its motive power and the body's capacity, not positional order.",
+    "claims": [
+      "Bodily action requires positional approach in addition to proportion of active and passive powers.",
+      "Angelic action on bodies requires only proportion of motive power to passive capacity."
+    ],
+    "concepts": [
+      "proportion of active and passive power",
+      "positional approach",
+      "angelic causality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e742"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e815": {
+    "summary": "Objection to this reply: if only the proportion of powers is required, and that always remains, the angel would always be moving, and there is no reason it should move one body rather than another within its power.",
+    "claims": [
+      "(Objection) A permanent proportion of powers would entail continuous motion."
+    ],
+    "concepts": [
+      "proportion of powers",
+      "determination of action"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e767",
+        "hx2hx3-b48073-d1e841"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e841": {
+    "summary": "Hervaeus answers: the complete active principle is not the will as power but the act of choosing to move this body determinately, which is not always present, so the angel does not always move, and moves only what it chooses. Willing something need not make it able to effect it, since the effect must be proportioned to the vigor of the act, as I will to move my eye. If there is an executive power, it acts only by command of will. On the second difficulty, some hold the angel is in place only by operation yet never nowhere, since it always operates by 'applying its power to place', to keep the universe connected by contact of power. Hervaeus calls this frivolous: angels move by free choice, not natural necessity, since moving bodies is not their ultimate end (they would be blessed if no body existed), so on the operation-only view an angel could be nowhere, and denying this would make its will naturally necessitated.",
+    "claims": [
+      "An angel's moving principle is a determinate act of choice, not the bare power of will.",
+      "Not everything an angel wills can it effect; the effect must be proportioned to the act's vigor.",
+      "Angels move bodies by free choice, not natural necessity.",
+      "Moving bodies is not the angels' ultimate end.",
+      "If presence is only by operation, an angel could naturally be nowhere."
+    ],
+    "concepts": [
+      "act of will",
+      "executive power",
+      "free choice",
+      "proportion of will and effect",
+      "connexio universi",
+      "angelus nusquam"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e815",
+        "hx2hx3-b48073-d1e654",
+        "hx2hx3-b48073-d1e1045"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1045": {
+    "summary": "Refutes the claim that angels always perform some operation on bodies other than moving them: such an operation posits either nothing, or something in the angel (only willing or understanding), or in the body (only local motion is possible immediately), or in both (one accident in two subjects). 'Application of power' cannot be local motion (absurd for a spirit) and nothing else can be specified. The connection of the universe requires only habitual contact of power (aptitude to move and be moved), and even actual contact would suffice through a lowest angel moving bodies and receiving influence from higher angels, as higher bodies connect to earth through intermediate ones.",
+    "claims": [
+      "An angel's operation on a body can only be moving it.",
+      "The connection of the universe requires only habitual contact of power.",
+      "Spiritual creation could be connected to bodies through one lowest angel."
+    ],
+    "concepts": [
+      "applicatio virtutis",
+      "connexio universi",
+      "contactus virtutis habitualis",
+      "angelic hierarchy",
+      "illumination"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e841"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1167": {
+    "summary": "Hervaeus's own answer to the 'nowhere' difficulty begins: an angel can be in place in three ways.",
+    "claims": [],
+    "concepts": [
+      "modes of angelic presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1174",
+        "hx2hx3-b48073-d1e1186",
+        "hx2hx3-b48073-d1e1221"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1174": {
+    "summary": "First way: in remote potency only, since the angel has in itself the means to move a body, being able to move itself to will, upon which motion follows.",
+    "claims": [
+      "An angel is in place in remote potency by its ability to will motion."
+    ],
+    "concepts": [
+      "remote potency",
+      "angelic presence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1167"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1186": {
+    "summary": "Second way: by deputation or presidency, as one living in Paris is said to be bailiff in Poitou. If this is imposed by divine power against the angel's will it is afflictive; if according to its will, delightful.",
+    "claims": [
+      "An angel can be in a place by divine deputation or presidency.",
+      "Deputation against the will is penal, according to the will delightful."
+    ],
+    "concepts": [
+      "deputatio",
+      "praesidentia",
+      "punishment of demons",
+      "bailiff analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1167",
+        "hx2hx3-b48073-d1e1437"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1221": {
+    "summary": "Third way: by actual motion, when it actually moves executing its will or deputation. To say an angel is nowhere in opposition to the first or second way is erroneous, since it removes all relation to place or the angels' pains and delights, and this is how the condemned article should be understood. But that an angel can naturally be nowhere as regards actual motion is not error, though by divine power angels could be made always to move.",
+    "claims": [
+      "To deny that angels are anywhere in the first two senses is erroneous.",
+      "An angel can naturally be nowhere as regards actual motion.",
+      "The condemned article concerns presence by potency or deputation."
+    ],
+    "concepts": [
+      "angelus nusquam",
+      "actual motion",
+      "Condemnation of 1277",
+      "interpretation of articles"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1167",
+        "hx2hx3-b48073-d1e654"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1258": {
+    "summary": "Reports a reply to the third difficulty: an angel cannot move two bodies in different places because the limitation of its power requires a limited, undivided action.",
+    "claims": [
+      "(Reported view) Limited power prevents an angel from acting in two places."
+    ],
+    "concepts": [
+      "limitation of power",
+      "multilocation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e670"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1269": {
+    "summary": "Rejects that reply: limitation of power determines a body to position only in corporeal agents. An angel's power is limited by genus, species, and vigor, which limits how much and how many it can do, but not to one place as long as its effects do not exceed its power.",
+    "claims": [
+      "Angelic power is limited by genus, species, and vigor, not by place."
+    ],
+    "concepts": [
+      "limitation of power",
+      "corporeal and spiritual agents"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1258"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1300": {
+    "summary": "Hervaeus's answer: an angel cannot move many things as many, but can move many as one, ordered to one end, e.g. overturning a house or bringing two distant stones together. The reason is that it moves only by a determinate act of will, which requires knowing what it moves, and it cannot understand or will many as many at once; so moving many in order to one it is present in all of them.",
+    "claims": [
+      "An angel can move many things only as ordered to one.",
+      "An angel cannot understand or will many things as many at once.",
+      "Universal willing does not suffice for motion."
+    ],
+    "concepts": [
+      "unity of act",
+      "many as one",
+      "angelic intellect",
+      "multilocation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e670",
+        "hx2hx3-b48073-d1e1269"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1344": {
+    "summary": "Reply to the fourth difficulty: some say several angels cannot be in one place because one would have to penetrate (illabi) the other. Hervaeus rejects this: since an angel is in a body only as mover in moved, several angels in one body would mean only that effects of several angels are in it, which is not obviously impossible, and does not imply penetration. Illapsus means being cause of all a thing's entity and reaching all its interiority, which no angel does to another even when illuminating it.",
+    "claims": [
+      "Several angels being in one body means only that effects of several are there.",
+      "Illapsus means causing the whole entity of a thing, which only God does.",
+      "An illuminating angel does not penetrate the angel illuminated."
+    ],
+    "concepts": [
+      "illapsus",
+      "co-location of angels",
+      "illumination",
+      "presence by causality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e686"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1419": {
+    "summary": "Gives the more probable answer: since one angel suffices to move a body to which it applies itself, positing two movers would be superfluous and ridiculous, so it is unfitting, but it does not appear contradictory.",
+    "claims": [
+      "Two angels moving the same body is superfluous but not contradictory."
+    ],
+    "concepts": [
+      "superfluity",
+      "co-location of angels",
+      "possibility"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1344",
+        "hx2hx3-b48073-d1e686"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1437": {
+    "summary": "Reply to the fifth difficulty (separated soul): this belongs to Book IV, but for now, though the separated soul cannot naturally act on bodies, it can by divine power; and that spirits are deputed and confined to a body is by divine power, not the natural course of things.",
+    "claims": [
+      "The separated soul can act on bodies by divine power.",
+      "Confinement of spirits to bodies is by divine power."
+    ],
+    "concepts": [
+      "separated soul",
+      "divine power",
+      "confinement of spirits"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e702",
+        "hx2hx3-b48073-d1e1186"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1457": {
+    "summary": "Reply to the sixth difficulty: the sun is not said to be in lower things because it does not act on them immediately even in causal order, and because it has another mode of being, as located in place, so it is in them only with the qualification 'as cause in effect'. The angel acts immediately on the body and has no other mode of being in it than as mover in moved, so it is said simply to be there. This concludes the first article.",
+    "claims": [
+      "The sun is not simply in what it affects because its action is mediated and it has its own place.",
+      "An angel is simply in the body it moves immediately."
+    ],
+    "concepts": [
+      "immediate causality",
+      "celestial causality",
+      "presence secundum quid and simpliciter"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e724"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1492": {
+    "summary": "Heading for the second article.",
+    "claims": [],
+    "concepts": [
+      "article heading"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1497"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1497": {
+    "summary": "States the second article: whether an angel moves locally.",
+    "claims": [],
+    "concepts": [
+      "local motion of angels"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1504"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1504": {
+    "summary": "Distinguishes two senses of local motion: being successively the subject of different 'wheres' in different positions, which does not belong to an angel; and having relation successively to different places, being in different bodies in different places as mover in moved successively, which does.",
+    "claims": [
+      "An angel does not move locally as successive subject of different positions.",
+      "An angel moves locally by successively relating as mover to bodies in different places."
+    ],
+    "concepts": [
+      "local motion",
+      "ubi",
+      "successive relation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1497",
+        "hx2hx3-b48073-d1e1525"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1525": {
+    "summary": "Explains: an angel is in place definitively, here and not there, because its power is finite in vigor and cannot extend to all bodies at once, nor to many unless ordered to one. God operates in every creature always, since nothing can exist without his operation, so he is everywhere and cannot newly be where he was not, and so cannot move locally. An angel can newly be where it was not, so it can move locally in this way.",
+    "claims": [
+      "An angel is in place definitively because its power is finite.",
+      "God is everywhere by his conserving operation and so cannot move locally.",
+      "Being able newly to be somewhere makes local motion possible."
+    ],
+    "concepts": [
+      "definitive presence",
+      "divine omnipresence",
+      "finite power",
+      "conservation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1504",
+        "hx2hx3-b48073-d1e1569"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1569": {
+    "summary": "Formulates the argument: as what occupies a determinate place can occupy different places successively and so move locally, so what is in a determinate place as cause in effect, not operating everywhere, can be in different places successively and move locally; the angel is so in place definitively; therefore it can move locally.",
+    "claims": [
+      "What is in a determinate place as cause can move locally by successively being in different places.",
+      "An angel can move locally."
+    ],
+    "concepts": [
+      "analogy of occupation and causal presence",
+      "definitive presence",
+      "local motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1525"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1595": {
+    "summary": "Explains continuous and discrete angelic motion: moving a whole in place (a wheel) is not the angel's local motion; moving one whole, leaving it, and moving another elsewhere is discrete local motion; moving a body continuously through space is continuous motion of the angel, not because a successive act is in the angel, but because the successive motion in the body mediates its relation to the whole space. He rejects the view that an angel moves when carrying but not when pushing a body, since that imagines the angel as positionally in place; being in place is the mover-moved relation, so an angel moving a body continuously through space necessarily moves locally through it.",
+    "claims": [
+      "An angel moving a body in its place does not itself move locally.",
+      "Angelic motion is discrete when it successively moves different bodies.",
+      "Angelic motion is continuous through the successive motion of the body it moves.",
+      "An angel moving a body through space necessarily moves locally, whether carrying or pushing."
+    ],
+    "concepts": [
+      "continuous and discrete motion",
+      "extrinsic succession",
+      "carrying and pushing",
+      "mover-moved relation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1569",
+        "hx2hx3-b48073-d1e1781"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1689": {
+    "summary": "Heading for the third article.",
+    "claims": [],
+    "concepts": [
+      "article heading"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1694"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1694": {
+    "summary": "Third article: whether an angel necessarily passes through the medium. Some say yes, arguing that as wood, not of itself determined to a place, cannot once placed move elsewhere without passing the medium, so an angel once placed. Hervaeus denies the necessity: a body must pass the medium because it is determined positionally to one extreme and so mediately ordered to the other. An angel has no positional nearness or distance and need not first move what is near; the analogy with wood fails because wood is a subject of position.",
+    "claims": [
+      "A body must traverse the medium because of its positional determination.",
+      "An angel, lacking position, need not traverse the medium.",
+      "The analogy between a placed body and a placed angel fails."
+    ],
+    "concepts": [
+      "transitus medii",
+      "position",
+      "angelic motion",
+      "analogy of wood"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1689",
+        "hx2hx3-b48073-d1e1781"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1781": {
+    "summary": "Hervaeus's answer: an angel can move passing through the medium if it wills, or not. In continuous motion, moving a body through space, it necessarily passes the medium as its mobile does. In discrete motion it need not, as when it stops moving one body and moves another distant one. In discrete motion it can pass through a determinate intermediate place, but not through all possible intermediate points, since that would require infinitely many discrete acts and terminating instants, which is impossible.",
+    "claims": [
+      "An angel can move with or without passing through the medium.",
+      "In continuous motion an angel necessarily passes through the medium.",
+      "In discrete motion an angel cannot pass through all possible intermediate points, since that would require actually infinite discrete motions."
+    ],
+    "concepts": [
+      "transitus medii",
+      "continuous and discrete motion",
+      "actual infinity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1694",
+        "hx2hx3-b48073-d1e1595"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1852": {
+    "summary": "Fourth article: whether an angel moves in time or in an instant. Hervaeus states that it cannot move in an instant.",
+    "claims": [
+      "An angel cannot move in an instant."
+    ],
+    "concepts": [
+      "time and instant",
+      "angelic motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1865",
+        "hx2hx3-b48073-d1e1933"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1865": {
+    "summary": "Distinguishes two kinds of succession: within one numerically identical act through its degrees in being or essence, which makes continuous time; and of distinct incompossible indivisible acts, like an angel's distinct cognitions (one cannot understand two things with different species at once), which makes discrete time, constituted by their succession as two is constituted by units. In discrete time each 'now' is a part and enduring, and so cannot coexist with our time, whereas in continuous time the now is not a part.",
+    "claims": [
+      "Succession within one act through degrees makes continuous time.",
+      "Succession of incompossible indivisible acts makes discrete time.",
+      "In discrete time each now is a part; in continuous time it is not.",
+      "An angel cannot understand two things with different species at once."
+    ],
+    "concepts": [
+      "continuous and discrete time",
+      "angelic cognition",
+      "nunc stans",
+      "succession"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1852",
+        "hx2hx3-b48073-d1e1933"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1933": {
+    "summary": "Notes that one thing can succeed another so that one is in continuous time and the other at its terminating instant, as fire's form arises at the last instant of air's time. Then proves the angel moves in time, continuous or discrete: whatever moves or changes is otherwise now than before according to incompossible terms, and now and before cannot be in an indivisible now. Even 'instantaneous' changes like the introduction of substantial form are annexed to motion and are changes only relative to something incompossible that they succeed.",
+    "claims": [
+      "Whatever moves or changes does so in time, not in an instant.",
+      "Instantaneous changes are changes only relative to a preceding incompossible state.",
+      "Every motion has incompossible termini."
+    ],
+    "concepts": [
+      "instantaneous change",
+      "substantial generation",
+      "time",
+      "incompossible termini"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e1852",
+        "hx2hx3-b48073-d1e1865"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e1981": {
+    "summary": "Reply to the first opening argument: an angel can move with or without passing the medium. In discrete motion without passing the medium, its time is a succession of two nows: in one it is wholly in a, in the next wholly in b, with no time between, so it is neither in a only, b only, nor partly in each, but successively wholly in each.",
+    "claims": [
+      "In discrete motion an angel is wholly in a in one now and wholly in b in the immediately succeeding now."
+    ],
+    "concepts": [
+      "discrete time",
+      "successive nows",
+      "termini of motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e138",
+        "hx2hx3-b48073-d1e167"
+      ]
+    }
+  },
+  "hx2hx3-b48073-d1e2023": {
+    "summary": "Reply to the second opening argument: an angel moves in time, continuous or discrete. In continuous motion it is related to its mobile through the motion, partly in both termini according to the mobile; in discrete motion it is wholly in a in one now and wholly in b in another, the two nows composing discrete time with no intermediate time required.",
+    "claims": [
+      "Angelic motion occurs in continuous or discrete time.",
+      "Discrete time is composed of immediately successive nows."
+    ],
+    "concepts": [
+      "discrete time",
+      "continuous motion",
+      "angelic motion"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-b48073",
+        "hx2hx3-b48073-d1e202"
+      ]
+    }
+  }
+}

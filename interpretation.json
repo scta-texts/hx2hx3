@@ -1,0 +1,141 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:06:47Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-ancestors-v1",
+    "source_commit": "2f3d649",
+    "generation_method": "hierarchical",
+    "scope": "Ancestor (above-item) interpretations for hx2hx3 (Hervaeus Natalis, Commentary on the Sentences). Currently covers Book I Prologue and Book I d.37 and their ancestors (Liber 1, whole work), the latter two partially.",
+    "description": "LLM-generated interpretative layer for structural ancestors defined in the EDF."
+  },
+  "hx2hx3-d1e56": {
+    "summary": "Hervaeus's prologue to Book I is a seven-question treatise on the nature of theology. It first settles theology's epistemic status (q.1): theology is not a science in the strict sense, whether simple or subalternate, because its principles are not evident. Mixed syllogisms with one believed premise yield only belief, and no special light making the articles evident can coexist with the need for faith. Theology is a science only broadly, subalternated on the side of the knower to the knowledge of the blessed. Qq.2-4 develop a theory of the practical/speculative distinction. A science is practical when it effectively causes its object through a commanded act. The distinction is immediately by attaining operations and radically by objects, and a science is named from its proper intrinsic end, not from users' intentions or extrinsic ends. Hence theology is named from the end it reaches in this life rather than from heavenly vision (q.3), and it is principally speculative and secondarily practical, not 'affective' (q.4). This is because its one object, God as God, grounds both contemplation and action done for God's sake, and knowledge is essentially nobler than love in this life. Qq.5-7 address theology's unity, subalternation, and subject. Theology is one science through the unity of its primary formal object (q.5). It is subalternated only to the knowledge of the blessed, as faith to vision, and neither depends on nor subalternates metaphysics or the human sciences (q.6). Its subject is God absolutely as God, the divine substance grounding the attributes, not God as glorifier or redeemer (q.7). Throughout, Hervaeus argues against rival positions, including those positing a supernatural light beyond faith, an affective theology, and a theology defined by salvific attributes. He relies on a consistent apparatus: evidence of premises as cause of the conclusion's evidence, quia versus propter quid, formal versus secondary objects, and elicited versus commanded acts.",
+    "claims": [
+      "Theology is not a science properly so called but is a science broadly, subalternated to the knowledge of the blessed on the side of the knower.",
+      "A conclusion drawn from a believed premise is only believed, and science excludes the necessity of assenting on authority.",
+      "Practical and speculative are distinguished immediately by attaining operations and radically by objects.",
+      "Theology is named from its proper intrinsic end in this life, not from heavenly beatitude.",
+      "Theology is principally speculative and secondarily practical, and is not an affective science.",
+      "Theology is one science through the unity of its primary formal object, God as God.",
+      "Theology is neither subalternated to nor subalternating the human sciences, including metaphysics.",
+      "The subject of theology is God absolutely as God, i.e. the divine substance, not God under an attributive ratio such as glorifier."
+    ],
+    "concepts": [
+      "theology as science",
+      "subalternation",
+      "evidence",
+      "faith",
+      "practical and speculative science",
+      "end of a science",
+      "unity of science",
+      "subject of theology",
+      "God as God",
+      "lumen gloriae",
+      "metaphysics and theology"
+    ],
+    "_metadata": {
+      "level": "prologus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-a00003",
+        "hx2hx3-a01698",
+        "hx2hx3-a02492",
+        "hx2hx3-a02906",
+        "hx2hx3-a04083",
+        "hx2hx3-a04373",
+        "hx2hx3-a05647"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-03T00:06:47Z",
+      "source_commit": "2f3d649",
+      "source_structure": "~/Projects/scta/scta-projectfiles/hx2hx3.xml"
+    }
+  },
+  "hx2hx3-d1e1285": {
+    "summary": "Hervaeus's commentary on Book I distinction 37 has one question, whether an angel moves locally. He builds an account of angelic place on which an angel is in place only causally, as mover in the body it immediately moves, not by essence and not as a subject of position, since 'where' and position require quantity. He rejects the philosophers' binding of intelligences to the spheres and the views condemned at Paris. He argues that angels move bodies by free, determinate acts of will. He reinterprets the condemned proposition that an angel can be 'nowhere' by distinguishing presence by remote potency, by divine deputation, and by actual motion. He then argues that an angel moves locally by successively relating to bodies in different places, continuously or discretely. It traverses the medium only in continuous motion and always moves in time, never in an instant, where discrete time is a succession of indivisible angelic acts. The distinction-level picture therefore rests on a single question and centres on angelic location and motion rather than on divine omnipresence, the other theme of Lombard's distinction.",
+    "claims": [
+      "An angel is in place only as a cause in its immediate effect.",
+      "Angels move bodies by free choice, not natural necessity.",
+      "An angel can naturally be 'nowhere' only in the sense of not actually moving anything.",
+      "An angel moves locally, in continuous or discrete time, but never in an instant."
+    ],
+    "concepts": [
+      "angelic location",
+      "presence by causality",
+      "local motion of angels",
+      "angelus nusquam",
+      "Condemnation of 1277",
+      "continuous and discrete time"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-b48073"
+      ],
+      "partial": false,
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-03T00:06:47Z",
+      "source_commit": "2f3d649",
+      "source_structure": "~/Projects/scta/scta-projectfiles/hx2hx3.xml"
+    }
+  },
+  "hx2hx3-d1e052": {
+    "summary": "Partial summary of Book I, resting only on the Prologue and distinction 37 (2 of 44 direct child divisions). The other 42 distinctions are not yet interpreted, so this cannot describe Book I as a whole. On this basis, Book I opens with Hervaeus's methodological account of theology: a science only in a broad sense, subalternated to the knowledge of the blessed, one through its formal object God as God, and principally speculative though secondarily practical. In distinction 37 he applies a similarly analytic approach to angelic place and motion, arguing that angels are present only causally, as movers of bodies, and move in continuous or discrete time but never instantaneously. Common to both is reasoning by formal objects and causal relations rather than spatial or affective models, and careful positioning against condemned or rival views.",
+    "claims": [
+      "(On the covered sections) Theology is a science only broadly, principally speculative, with God as God as its subject.",
+      "(On the covered sections) Angels are in place only as causes of motion in bodies."
+    ],
+    "concepts": [
+      "theology as science",
+      "subject of theology",
+      "practical and speculative science",
+      "angelic location",
+      "local motion of angels"
+    ],
+    "_metadata": {
+      "level": "liber",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-d1e56",
+        "hx2hx3-d1e1285"
+      ],
+      "partial": true,
+      "coverage": "2 of 44 direct children have interpretations",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-03T00:06:47Z",
+      "source_commit": "2f3d649",
+      "source_structure": "~/Projects/scta/scta-projectfiles/hx2hx3.xml"
+    }
+  },
+  "hx2hx3": {
+    "summary": "Partial summary of Hervaeus Natalis's Commentary on the Sentences, resting only on Book I (1 of 4 direct child books), which is itself partial (only the Prologue and distinction 37 are interpreted). Books II-IV and most of Book I are not covered. What is covered shows a commentary that begins with a sustained account of theology as a broadly scientific, principally speculative discipline whose subject is God as God and which is subalternated to the knowledge of the blessed, and that elsewhere treats questions such as angelic location and motion with a causal, non-spatial account of spiritual presence.",
+    "claims": [
+      "(On the covered sections) Hervaeus treats theology as a science only broadly, principally speculative, with God as God as its subject."
+    ],
+    "concepts": [
+      "theology as science",
+      "subject of theology",
+      "angelic location"
+    ],
+    "_metadata": {
+      "level": "work",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-d1e052"
+      ],
+      "partial": true,
+      "coverage": "1 of 4 direct children have interpretations (and that child is partial)",
+      "model": "claude-opus-5-5",
+      "prompt_version": "interpretation-ancestors-v1",
+      "generated_at": "2026-10-03T00:06:47Z",
+      "source_commit": "2f3d649",
+      "source_structure": "~/Projects/scta/scta-projectfiles/hx2hx3.xml"
+    }
+  }
+}

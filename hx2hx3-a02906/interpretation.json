@@ -1,0 +1,451 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:02:08Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "2f3d649",
+    "generation_method": "hierarchical",
+    "source_file": "cod-hvna87_hx2hx3-a02906.xml",
+    "description": "LLM-generated interpretative layer for the corresponding SCTA XML source."
+  },
+  "hx2hx3-a02906": {
+    "summary": "The fourth prologue question asks whether theology is speculative or practical. Hervaeus first sets out what makes a science practical: it effectively causes its object through a commanded act that is principally intended, whereas a science that attains its object only by its elicited act of consideration is speculative. He shows that every science must be speculative, practical, or both. He then reviews four opinions. The 'affective' view, that theology is neither speculative nor practical, is refuted at length: a science aimed at producing love would have love, not God, as principal object, and would in fact be practical. The view that theology is principally practical fails for the same reason. The view that it is equally both, unified only by its extrinsic end of beatitude, is corrected. Hervaeus's own position is that theology is principally speculative and secondarily practical, yet strictly one science, because its one primary object, God as God, is a sufficient reason both for contemplation and for doing good for God's sake regardless of any benefit. In replies he reads Augustine and Paul on charity narrowly and argues that knowledge is essentially nobler than love in this life, even if love is more meritorious.",
+    "claims": [
+      "A science is practical when it effectively causes its object through a principally intended commanded act.",
+      "Every science is speculative, practical, or both.",
+      "Theology is not an 'affective' science distinct from practical and speculative.",
+      "Theology is principally speculative and secondarily practical.",
+      "Theology is one science because its one formal object, God as God, grounds consideration of both speculables and operables.",
+      "Good works are to be done for God's sake and not principally for the benefit of eternal life.",
+      "Knowledge is essentially nobler than love in this life, though love is more meritorious."
+    ],
+    "concepts": [
+      "practical and speculative science",
+      "affective theology",
+      "commanded act",
+      "unity of science",
+      "God as God",
+      "charity",
+      "love and knowledge"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-a02906-d1e104",
+        "hx2hx3-a02906-d1e113",
+        "hx2hx3-a02906-d1e148",
+        "hx2hx3-a02906-d1e188",
+        "hx2hx3-a02906-d1e284",
+        "hx2hx3-a02906-d1e445",
+        "hx2hx3-a02906-d1e469",
+        "hx2hx3-a02906-d1e573",
+        "hx2hx3-a02906-d1e610",
+        "hx2hx3-a02906-d1e655",
+        "hx2hx3-a02906-d1e779",
+        "hx2hx3-a02906-d1e801",
+        "hx2hx3-a02906-d1e918",
+        "hx2hx3-a02906-d1e990",
+        "hx2hx3-a02906-d1e1038",
+        "hx2hx3-a02906-d1e1159",
+        "hx2hx3-a02906-d1e1179",
+        "hx2hx3-a02906-d1e1190"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e104": {
+    "summary": "Rubric restating the question: whether theology is speculative or practical.",
+    "claims": [],
+    "concepts": [
+      "rubric"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e113"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e113": {
+    "summary": "Opening argument that theology is practical: an affective science, like moral science, is practical, and theology is affective. This is supported by Augustine (whatever is in Scripture concerns charity), by the Apostle (the end of the precept is charity), and by reason (in this life love of God is better than enigmatic knowledge, and the better thing is the principal end).",
+    "claims": [
+      "An affective science is practical.",
+      "Charity is the principal end of theology.",
+      "In this life love of God is better than knowledge of him."
+    ],
+    "concepts": [
+      "affective science",
+      "charity",
+      "love and knowledge",
+      "end of theology"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e1159",
+        "hx2hx3-a02906-d1e1179",
+        "hx2hx3-a02906-d1e1190"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e148": {
+    "summary": "Sed contra: every practical science has as its per se object something operable through it, and theology's primary object is not operable. Hervaeus then outlines his response in three parts: what makes a science practical or speculative with respect to operation (the radical distinction by objects having been settled), that every science is necessarily speculative or practical, and the opinions on the question.",
+    "claims": [
+      "Theology's primary per se object is not operable by it.",
+      "(Plan) The response will treat the basis of the distinction, its exhaustiveness, and the opinions."
+    ],
+    "concepts": [
+      "operable object",
+      "practical science",
+      "structure of response"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e188",
+        "hx2hx3-a02906-d1e284",
+        "hx2hx3-a02906-d1e445"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e188": {
+    "summary": "First part: a science is named from the operation by which it attains its object. If only by its elicited act (considering), it is speculative. 'Ordered to work' must mean ordered to a commanded operation by which science effectively causes its object, simply (house-building) or by cooperating with nature (medicine), whether the commanded operation is the object itself (lyre-playing) or the means to it (giving a potion).",
+    "claims": [
+      "A science that attains its object only by its elicited act is speculative.",
+      "A practical science causes its object through a commanded operation.",
+      "Medicine is practical though it only cooperates with nature."
+    ],
+    "concepts": [
+      "elicited and commanded act",
+      "opus",
+      "practical science",
+      "medicine"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e148",
+        "hx2hx3-a02906-d1e284"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e284": {
+    "summary": "Second part: an act can relate to a science antecedently (love moving one to study), objectively (considering love or celestial influence), consequently but unintended (bodily emaciation, delight), or as an effect principally intended (healing for medicine); only the last, a commanded act, names a science. Hence, both from acts and from objects, every science is speculative, practical, or both: practical if its object is operable through that very science (heaven and earth are makeable by God but not by our science).",
+    "claims": [
+      "Only a principally intended commanded act denominates a science practical.",
+      "Every science is speculative, practical, or both.",
+      "A science is practical only if its object is operable through that science itself."
+    ],
+    "concepts": [
+      "antecedent, objective, and consequent acts",
+      "commanded act",
+      "exhaustive division",
+      "operabile per ipsam scientiam"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e188",
+        "hx2hx3-a02906-d1e445"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e445": {
+    "summary": "Third part: of four opinions, the first holds that theology is neither speculative nor practical in its principal end but affective, using the opening arguments, and arguing that practical and speculative belong to the intellect while affective belongs to the will.",
+    "claims": [
+      "(Reported view) Theology is affective and neither speculative nor practical."
+    ],
+    "concepts": [
+      "affective science",
+      "intellect and will",
+      "four opinions"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e113",
+        "hx2hx3-a02906-d1e469",
+        "hx2hx3-a02906-d1e573"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e469": {
+    "summary": "Refutes the claim that theology is affective. A science could be affective because acquired from love (then every science sought from love of truth would be affective), because it considers affection (then it would be speculative and God not its main object), or because it is principally ordered to producing affection (then affection would be its principal object and God not). None works.",
+    "claims": [
+      "Theology is not affective in any coherent sense.",
+      "A science principally ordered to producing X has X as principal object.",
+      "If God is theology's principal object, producing affection cannot be its principal intention."
+    ],
+    "concepts": [
+      "affective science",
+      "principal object",
+      "love of truth",
+      "God as subject of theology"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e445"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e573": {
+    "summary": "Refutes the claim that theology is neither speculative nor practical: generally, every science is one or the other; specially, if theology were affective by being ordered to produce affection, it would cause its object and thus be practical.",
+    "claims": [
+      "A science ordered to effecting affection would be practical."
+    ],
+    "concepts": [
+      "exhaustive division",
+      "practical science",
+      "affection"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e284",
+        "hx2hx3-a02906-d1e445"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e610": {
+    "summary": "Presents four counterarguments by the defenders of the affective view: even if theology aims at affection, its principal object is God as lovable; theology is only a partial, disposing cause of affection, so not practical; it considers how we are made good by another (God), not by ourselves; and as moral science is 'active' rather than 'factive', theology is 'affective' rather than practical.",
+    "claims": [
+      "(Reported view) Theology's object is God as lovable, causing affection.",
+      "(Reported view) A merely partial cause of its object is not practical.",
+      "(Reported view) Considering how God makes us good is not practical."
+    ],
+    "concepts": [
+      "God as lovable",
+      "partial causality",
+      "grace",
+      "active and factive"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e573",
+        "hx2hx3-a02906-d1e655"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e655": {
+    "summary": "Rebuts the four counterarguments: a science principally intending to produce affection must take producing affection as its principal consideration, otherwise it is speculative; practical science need only be a contributing cause principally ordered to its object, as medicine cooperates with nature; considering how God makes us good, without our cooperation, is purely speculative; and 'active' contrasts with 'factive', not with 'practical', so 'affective' would be practical too. Finally, the science causing affection is in the intellect, as bridle-making is, even if affection is in the will.",
+    "claims": [
+      "Practical science need not be a sufficient cause of its object.",
+      "Considering how God makes us good is speculative.",
+      "Active and affective sciences are species of practical science.",
+      "A science causing affection resides in the intellect."
+    ],
+    "concepts": [
+      "concausality",
+      "medicine",
+      "grace",
+      "active and factive",
+      "intellect as seat of science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e610",
+        "hx2hx3-a02906-d1e445"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e779": {
+    "summary": "Second opinion: theology is principally practical because principally ordered to the love of God. Rejected: then love or something operable by us would be its principal object, which is false. Its motive is answered later with the opening arguments.",
+    "claims": [
+      "Theology is not principally practical.",
+      "The principal object of theology is not something operable by us."
+    ],
+    "concepts": [
+      "love of God",
+      "practical theology",
+      "principal object"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e469",
+        "hx2hx3-a02906-d1e1159"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e801": {
+    "summary": "Third opinion: theology is simply practical and simply speculative, though more principally speculative. It is principally practical because even without speculative knowledge of God we would need to know how to act meritoriously, and the Christian theologian should intend good action as much as the moral philosopher; principally speculative because even without practical knowledge we would need knowledge of God to pass to the vision of heaven. Since its objects differ in ratio, theology is not simply one science but bound together by the extrinsic end of beatitude; speculation is more principal because closer to vision.",
+    "claims": [
+      "(Reported view) Theology has two principal objects and two principal ends.",
+      "(Reported view) Theology is one science only by ordering to beatitude.",
+      "(Reported view) Speculation is more principal as closer to vision."
+    ],
+    "concepts": [
+      "unity of science",
+      "double principal end",
+      "merit",
+      "beatitude",
+      "speculation and praxis"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e918",
+        "hx2hx3-a02906-d1e1038"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e918": {
+    "summary": "Fourth opinion, Hervaeus's own: theology is speculative and practical, principally speculative and secondarily practical, yet simply one science. Speculative because it reaches God only by considering; practical because it secondarily has operables it aims to bring about; principally speculative because the operation regarding the primary per se object (God as God) is speculation, while praxis regards secondary objects. The proof of unity begins here and continues.",
+    "claims": [
+      "Theology is both speculative and practical.",
+      "Theology is principally speculative and secondarily practical.",
+      "Theology's primary per se object is God as God."
+    ],
+    "concepts": [
+      "theology speculative and practical",
+      "primary and secondary object",
+      "God as God",
+      "unity of theology"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e990",
+        "hx2hx3-a02906-d1e1038"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e990": {
+    "summary": "Continuing the proof of unity: unity of science comes from unity of formal object rather than from ordering of one end to another; even if moral philosophy were for metaphysical speculation, they would not be one science, because universal being is no reason why anything should be done. In human sciences no object is a reason for acting, since speculative objects are universals.",
+    "claims": [
+      "Unity of a science derives from unity of formal object.",
+      "No object of a human speculative science is a reason for action."
+    ],
+    "concepts": [
+      "unity of science",
+      "formal object",
+      "metaphysics and moral philosophy",
+      "ratio considerandi"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e918"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e1038": {
+    "summary": "Completes the argument: good action is to be done not only for the advantage of vision but for God himself and his honor, so God as God is a sufficient reason for considering operables; hence theology, with one primary object that grounds both speculables and operables, is one science that is both speculative and practical. Against the third opinion, praxis is not for the speculation of the way, but both operation and operable are for the speculated object, so speculation is principal; neither eternal life as advantage nor any benefit is the principal reason for acting well, but God; theology has one principal object.",
+    "claims": [
+      "God as God is the reason for doing good, apart from any advantage.",
+      "Theology is one science because its one object grounds consideration of operables.",
+      "Theology does not have diverse principal objects."
+    ],
+    "concepts": [
+      "God as ratio operandi",
+      "honor of God",
+      "unity of science",
+      "eternal life",
+      "disinterested love"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e918",
+        "hx2hx3-a02906-d1e990",
+        "hx2hx3-a02906-d1e801"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e1159": {
+    "summary": "Reply to the first proof of the opening argument: Augustine does not mean that charity is theology's principal end, but that for one who cannot reach theology's perfection, charity, which includes knowledge working through love, suffices for salvation.",
+    "claims": [
+      "Augustine's dictum concerns sufficiency for salvation, not the principal end of theology."
+    ],
+    "concepts": [
+      "charity",
+      "Augustine",
+      "salvation",
+      "faith working through love"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e113"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e1179": {
+    "summary": "Reply to the second proof: the Apostle says charity is the end of the precept, not of all theology, which does not consist only in precepts.",
+    "claims": [
+      "Charity is the end of the precept, not of the whole of theology."
+    ],
+    "concepts": [
+      "end of the precept",
+      "charity",
+      "scope of theology"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e113"
+      ]
+    }
+  },
+  "hx2hx3-a02906-d1e1190": {
+    "summary": "Reply to the third proof: love in this life is better meritoriously and as useful good, but knowledge is essentially better, as a gold coin is essentially better than a cheaper royal coin that is more useful. Even if love is simply better, what theology contributes to love (direction, admonition) is less noble than knowledge. Alternatively, as hand-movement is not the end of a science because the motive power is natural, so love, a habit created by God, is not theology's end, though acting from charity, especially contemplating God's majesty, can be.",
+    "claims": [
+      "Knowledge is essentially nobler than love in this life, though love is more meritorious.",
+      "Theology contributes to love only by direction and admonition.",
+      "The habit of charity is from God and not an end of theology."
+    ],
+    "concepts": [
+      "love and knowledge",
+      "merit",
+      "bonum utile",
+      "contemplation",
+      "charity as infused"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02906",
+        "hx2hx3-a02906-d1e113"
+      ]
+    }
+  }
+}

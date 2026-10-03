@@ -1,0 +1,537 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:00:56Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "2f3d649",
+    "generation_method": "hierarchical",
+    "source_file": "cod-hvna87_hx2hx3-a01698.xml",
+    "description": "LLM-generated interpretative layer for the corresponding SCTA XML source."
+  },
+  "hx2hx3-a01698": {
+    "summary": "The second prologue question asks whether speculative and practical knowledge are distinguished by their objects. Against the opinion that the division is accidental and taken from ends, Hervaeus argues that it must be essential and so, by the opponents' own principles, by objects. Distinguishing per se from per accidens ends and end-as-thing from end-as-attainment, he holds that a science is practical when, through a commanded act, it efficiently causes its object. Practical and speculative are therefore distinguished immediately by their attaining operations (speculating vs. effecting) but radically by their objects, since acts are specified by objects. The user's intention is irrelevant. In replies he separates formal objects of habits from those of powers, explains that the practical object is prior in intention, and limits diversification to primary, per se objects, so that shared material objects and universal or definitional treatment do not make a practical science speculative.",
+    "claims": [
+      "The practical/speculative distinction is essential, not accidental.",
+      "A science is practical when it efficiently causes its object through a commanded act.",
+      "Practical and speculative are immediately distinguished by their attaining operations and radically by their objects.",
+      "The intention of the user does not determine whether a science is practical.",
+      "Only primary per se formal objects diversify sciences."
+    ],
+    "concepts": [
+      "practical and speculative science",
+      "formal object",
+      "finis operis and finis operantis",
+      "end as thing and as attainment",
+      "elicited and commanded act",
+      "distinction of sciences"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-a01698-d1e104",
+        "hx2hx3-a01698-d1e113",
+        "hx2hx3-a01698-d1e131",
+        "hx2hx3-a01698-d1e143",
+        "hx2hx3-a01698-d1e156",
+        "hx2hx3-a01698-d1e189",
+        "hx2hx3-a01698-d1e222",
+        "hx2hx3-a01698-d1e238",
+        "hx2hx3-a01698-d1e269",
+        "hx2hx3-a01698-d1e309",
+        "hx2hx3-a01698-d1e335",
+        "hx2hx3-a01698-d1e385",
+        "hx2hx3-a01698-d1e442",
+        "hx2hx3-a01698-d1e455",
+        "hx2hx3-a01698-d1e464",
+        "hx2hx3-a01698-d1e496",
+        "hx2hx3-a01698-d1e531",
+        "hx2hx3-a01698-d1e573",
+        "hx2hx3-a01698-d1e612",
+        "hx2hx3-a01698-d1e649",
+        "hx2hx3-a01698-d1e675",
+        "hx2hx3-a01698-d1e696",
+        "hx2hx3-a01698-d1e772",
+        "hx2hx3-a01698-d1e857"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e104": {
+    "summary": "Rubric restating the question: whether speculative and practical are distinguished by their objects.",
+    "claims": [],
+    "concepts": [
+      "rubric"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e113"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e113": {
+    "summary": "First opening argument against distinction by objects: it would have to be by material objects, which do not distinguish, or by formal objects, whose distinction yields distinct powers; but practical and speculative belong to the same power.",
+    "claims": [
+      "Distinct formal objects distinguish powers.",
+      "Practical and speculative belong to one power."
+    ],
+    "concepts": [
+      "formal and material object",
+      "powers of the soul",
+      "practical and speculative"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e612"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e131": {
+    "summary": "Second opening argument: the prior is not distinguished by the posterior, and the object of practical science is posterior to it as its effect.",
+    "claims": [
+      "The object of practical science is its effect and so posterior to it."
+    ],
+    "concepts": [
+      "priority",
+      "practical science",
+      "object as effect"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e649"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e143": {
+    "summary": "Third opening argument: nothing acts unless first moved by the end; practical science, as efficient cause of its object, regards its end before its object, so it is distinguished by end rather than object.",
+    "claims": [
+      "Practical science is moved by its end before it regards its object."
+    ],
+    "concepts": [
+      "final cause",
+      "practical science",
+      "end and object"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e675"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e156": {
+    "summary": "Fourth opening argument: practical and speculative sciences often consider the same thing (moral and natural philosophy both treat powers of the soul; engineer and geometer both treat straight lines and right angles; De anima III says the speculative intellect becomes practical by extension), which would be impossible if objects distinguished them.",
+    "claims": [
+      "Practical and speculative sciences consider the same things."
+    ],
+    "concepts": [
+      "shared objects",
+      "moral philosophy",
+      "geometry",
+      "extension of speculative intellect"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e696"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e189": {
+    "summary": "Fifth opening argument: whoever considers an operable thing in a way in which it is not operable is speculative; anything operable can be considered universally, and nothing is operable in the universal; so every operable admits both practical and speculative science.",
+    "claims": [
+      "Nothing is operable in the universal.",
+      "Any operable can be considered speculatively."
+    ],
+    "concepts": [
+      "operabile",
+      "universal consideration",
+      "mode of consideration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e772"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e222": {
+    "summary": "Sixth opening argument: considering an operable by dividing and defining is speculative, and every operable can be so considered; therefore there can be speculative science of any operable.",
+    "claims": [
+      "Definitional and divisional consideration is speculative."
+    ],
+    "concepts": [
+      "definition",
+      "division",
+      "speculative science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e857"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e238": {
+    "summary": "Reports an opinion that sciences are distinguished in three ways: essentially by objects, by subjects (habit vs. act), and by ends; the practical/speculative division is by ends and only accidental, like dividing man into vicious and virtuous. Hervaeus announces two arguments against it.",
+    "claims": [
+      "(Reported view) The practical/speculative distinction is accidental and taken from ends, not objects."
+    ],
+    "concepts": [
+      "distinction of sciences",
+      "accidental division",
+      "end"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e269",
+        "hx2hx3-a01698-d1e309"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e269": {
+    "summary": "First argument against the reported opinion: if the division were accidental, the same science could be now practical, now speculative (moral philosophy speculative at times), and the division would not fall under art. If it is essential, then by the opponents' own principle it is by objects; and even per se accidents are distinguished by the cause of the per se distinction of subjects.",
+    "claims": [
+      "The practical/speculative division is not accidental.",
+      "An essential division of sciences is by objects."
+    ],
+    "concepts": [
+      "essential and accidental division",
+      "per se accidents",
+      "moral philosophy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e238"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e309": {
+    "summary": "Second argument: as in other causal genera, sciences have per se and proper final causes from which they are denominated and by which they are per se distinguished; practical and speculative are such ends; so the distinction is per se and essential, hence, on the opponents' view, by objects.",
+    "claims": [
+      "Sciences have per se ends by which they are essentially distinguished.",
+      "Practical and speculative are per se ends of sciences."
+    ],
+    "concepts": [
+      "final cause",
+      "per se end",
+      "essential distinction"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e238"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e335": {
+    "summary": "Hervaeus begins his own answer with distinctions of end: per se end (to which a thing is ordered by nature, as dwelling for a house; finis operis) versus per accidens end (imposed by the user, as display; finis operantis); and, within per se ends, the end that is the thing and the end that is its attainment (money vs. its possession).",
+    "claims": [
+      "Per se ends must be distinguished from ends imposed by users.",
+      "The end as thing differs from the end as attainment."
+    ],
+    "concepts": [
+      "finis operis",
+      "finis operantis",
+      "finis cuius and finis quo",
+      "per se and per accidens end"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e385",
+        "hx2hx3-a01698-d1e531"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e385": {
+    "summary": "Lays down three suppositions: the ends of sciences as attainments are their operations reaching their objects, since habits dispose the intellect to reach objects readily; the object is the end as thing; and a science is practical not because it causes some operation (all do) but because it efficiently causes its object, having besides its elicited act a commanded act that either is its object (lyre-playing) or causes it (building).",
+    "claims": [
+      "The end-as-attainment of a science is its operation upon its object.",
+      "The object is the end-as-thing of a science.",
+      "A science is practical when it is efficient cause of its object through a commanded act."
+    ],
+    "concepts": [
+      "elicited and commanded act",
+      "efficient causality of science",
+      "habit",
+      "practical science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e335",
+        "hx2hx3-a01698-d1e442"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e442": {
+    "summary": "States the first conclusion: practical and speculative are immediately distinguished by ends that are attainments, i.e. the operations by which they reach their objects.",
+    "claims": [
+      "Practical and speculative are immediately distinguished by their attaining operations."
+    ],
+    "concepts": [
+      "immediate distinction",
+      "end as attainment"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e464"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e455": {
+    "summary": "States the second conclusion: the distinction is taken primordially and radically from objects, which are ends as things.",
+    "claims": [
+      "Practical and speculative are radically distinguished by their objects."
+    ],
+    "concepts": [
+      "radical distinction",
+      "object as end"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e496"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e464": {
+    "summary": "Proves the first conclusion: speculative is named from the elicited act of considering, practical from the commanded act by which science effects its object; these acts are attainments of the object (as known vs. as effected), so the distinction is immediately by ends-as-attainments, from which the sciences are denominated.",
+    "claims": [
+      "Speculation attains the object as known; commanded operation attains it as effected."
+    ],
+    "concepts": [
+      "denomination from end",
+      "elicited and commanded act",
+      "attainment"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e442",
+        "hx2hx3-a01698-d1e385"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e496": {
+    "summary": "Proves the second conclusion: attainments of objects are divided per se by the conditions of the objects, since objects are apt by nature to be reached in one way or another; so the distinction is radically by objects, in accord with the common dictum that sciences are distinguished by acts and acts by objects.",
+    "claims": [
+      "Acts are distinguished by objects.",
+      "The practical/speculative distinction is radically by objects."
+    ],
+    "concepts": [
+      "acts specified by objects",
+      "object conditions",
+      "distinction of sciences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e455"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e531": {
+    "summary": "Removes an objection that the relevant operations are those intended by the user: that concerns per accidens ends, which would make theology 'lucrative' or 'episcopative'. The relevant end is the per se end, operating regarding operables and speculating regarding speculables, so a science of operables as such is always practical whatever the user intends.",
+    "claims": [
+      "The user's intention does not make a science practical or speculative.",
+      "Science of operables as such is practical."
+    ],
+    "concepts": [
+      "finis operantis",
+      "intention of user",
+      "per se end"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e335"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e573": {
+    "summary": "Shows that the opponents end in the same position: they admit that a science of the operable as operable is practical, and that considering an operable not as operable does not take it as formal object; so speculative science cannot have the operable as formal object nor practical the non-operable, hence they are necessarily distinguished by objects.",
+    "claims": [
+      "Only a consideration of the operable as operable has the operable as formal object.",
+      "Practical and speculative are necessarily distinguished by objects."
+    ],
+    "concepts": [
+      "formal object",
+      "operabile",
+      "reductio of opponents"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e238"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e612": {
+    "summary": "Reply to the first argument: practical and speculative are distinguished by the formal objects of the habits, which do not diversify powers because they are not formal objects of the intellectual power as such; as natural and mathematical objects differ for the sciences while falling under being in general, the intellect's one formal object.",
+    "claims": [
+      "Formal objects of habits need not be formal objects of powers.",
+      "Being in general is the formal object of the intellect."
+    ],
+    "concepts": [
+      "formal object of habit",
+      "formal object of power",
+      "ens commune"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e113"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e649": {
+    "summary": "Reply to the second argument: the object of practical science is posterior in extramental being but prior in intention and representation, since the house is first represented in imagination, from a similar thing seen or from thinking how to shelter from rain and wind.",
+    "claims": [
+      "The object of practical science is prior in intention and representation."
+    ],
+    "concepts": [
+      "intention",
+      "phantasm",
+      "exemplar",
+      "priority"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e131"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e675": {
+    "summary": "Reply to the third argument: the object is the science's end as thing, though not as attainment; each science tends to reach its object by its act, by knowing or by effecting.",
+    "claims": [
+      "The object of a science is its end as thing."
+    ],
+    "concepts": [
+      "end as thing",
+      "object",
+      "attainment"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e143"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e696": {
+    "summary": "Reply to the fourth argument: only formal, primary, per se objects diversify sciences; metaphysician and theologian both consider God as first cause but are different sciences; the engineer and moralist consider lines and powers of the soul only materially and secondarily. 'Extension' of the speculative intellect means that one with a practical science can consider speculatively, without intent to operate, while the science remains practical.",
+    "claims": [
+      "Only primary and per se formal objects diversify sciences.",
+      "Metaphysics and theology differ though both consider God as first cause.",
+      "The holder of a practical science can consider speculatively without the science ceasing to be practical."
+    ],
+    "concepts": [
+      "per se object",
+      "metaphysics and theology",
+      "extension of intellect",
+      "actual vs. habitual consideration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e156"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e772": {
+    "summary": "Reply to the fifth argument: distinguishes the 'mode' of considering on the side of the knower (which need not be operable; universal practical principles like 'harm no one' belong to practical science) from a real mode in the thing that is not operable (man not as curable), which yields speculative consideration. A science treating all operables in general according to genus and difference would be speculative.",
+    "claims": [
+      "Universal consideration on the side of the knower does not make a science speculative.",
+      "Natural law principles are practical though universal.",
+      "Considering a thing under a non-operable real aspect is speculative."
+    ],
+    "concepts": [
+      "mode of knower vs. mode of thing",
+      "universal practical principles",
+      "natural law",
+      "operabile"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e189"
+      ]
+    }
+  },
+  "hx2hx3-a01698-d1e857": {
+    "summary": "Reply to the sixth argument: a general art of defining artifacts would be speculative, but a science that defines a particular operable (health, house) is practical, since, per Aristotle Metaphysics VII, practical science begins from the definition, as medicine starts from what health is.",
+    "claims": [
+      "Practical science begins from the definition of its operable.",
+      "Definition of a particular operable does not make a science speculative."
+    ],
+    "concepts": [
+      "definition",
+      "practical science",
+      "medicine",
+      "quod quid est"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a01698",
+        "hx2hx3-a01698-d1e222"
+      ]
+    }
+  }
+}

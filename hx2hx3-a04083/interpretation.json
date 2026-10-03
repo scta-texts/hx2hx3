@@ -1,0 +1,208 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:02:28Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "2f3d649",
+    "generation_method": "hierarchical",
+    "source_file": "cod-hvna87_hx2hx3-a04083.xml",
+    "description": "LLM-generated interpretative layer for the corresponding SCTA XML source."
+  },
+  "hx2hx3-a04083": {
+    "summary": "The fifth prologue question asks whether theology is one science, given that it treats both God and creatures. Hervaeus rejects the view that theology is one because it imitates the divine and angelic way of knowing many things through a single species: in this life we know only through abstracted species, faith acts as a light rather than a species, and no created intellect knows all genera through one species. He grounds theology's unity in the unity of its primary formal object, God as God, just as a power is one through its primary object, and he denies that this begs the question. Theology reaches creatures in their own natures because everything is ordered to God specifically, not only generally, and because its light participates in the divine light. God is not a common analogical ratio shared with creatures but the reason for considering them, so treating creatures under their own rationes as secondary objects does not divide the science.",
+    "claims": [
+      "Theology is one science by the unity of its primary formal object, God as God.",
+      "Theology's unity cannot be grounded in an imitation of the angelic mode of knowing by one species.",
+      "God is the ratio considerandi of creatures in theology, not a common analogical ratio.",
+      "Secondary objects considered under their own rationes do not multiply a science."
+    ],
+    "concepts": [
+      "unity of science",
+      "formal object",
+      "God as God",
+      "mode of knowing",
+      "species",
+      "lumen fidei",
+      "ratio considerandi",
+      "attribution"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-a04083-d1e104",
+        "hx2hx3-a04083-d1e111",
+        "hx2hx3-a04083-d1e131",
+        "hx2hx3-a04083-d1e139",
+        "hx2hx3-a04083-d1e183",
+        "hx2hx3-a04083-d1e257",
+        "hx2hx3-a04083-d1e299",
+        "hx2hx3-a04083-d1e328"
+      ]
+    }
+  },
+  "hx2hx3-a04083-d1e104": {
+    "summary": "Rubric restating the question: whether theology is one science.",
+    "claims": [],
+    "concepts": [
+      "rubric"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04083",
+        "hx2hx3-a04083-d1e111"
+      ]
+    }
+  },
+  "hx2hx3-a04083-d1e111": {
+    "summary": "Opening argument that theology is not one science: it considers God and creatures, objects of different ratio. If it considers them under one ratio, that could only be an analogical common ratio, and then it would not consider them in their specific natures, which it does.",
+    "claims": [
+      "God and creatures agree only in an analogical ratio.",
+      "Considering things under a common ratio excludes considering them specifically."
+    ],
+    "concepts": [
+      "unity of science",
+      "God and creatures",
+      "analogy",
+      "ratio formalis"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04083",
+        "hx2hx3-a04083-d1e328"
+      ]
+    }
+  },
+  "hx2hx3-a04083-d1e131": {
+    "summary": "Sed contra: what has one formal object is one science.",
+    "claims": [
+      "A science with one formal object is one."
+    ],
+    "concepts": [
+      "formal object",
+      "unity of science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04083",
+        "hx2hx3-a04083-d1e257"
+      ]
+    }
+  },
+  "hx2hx3-a04083-d1e139": {
+    "summary": "Reports a view that theology is one because it imitates the divine and angelic mode of knowing, in which one means (one species) makes a thing known both generally and specifically, so sciences need not multiply with things; as an angel knows animal in general and all animals specifically by one species.",
+    "claims": [
+      "(Reported view) Theology is one because it follows the divine and angelic mode of knowing by one species."
+    ],
+    "concepts": [
+      "mode of knowing",
+      "angelic species",
+      "divine knowledge",
+      "unity of science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04083",
+        "hx2hx3-a04083-d1e183"
+      ]
+    }
+  },
+  "hx2hx3-a04083-d1e183": {
+    "summary": "Hervaeus rejects that view: we share with God's knowledge the object (God as God) but not the mode of knowing on the side of the medium or species, since in this life we have only species abstracted from sensibles, and faith functions as a light, not a species. Moreover, no created intellect knows all genera of being through one species, so separated intellects too have some diversity of habits. And grounding theology's unity in its object is precisely what the opponents reject.",
+    "claims": [
+      "We share with divine knowledge the object, not the mode or medium of knowing.",
+      "In this life we know only through species abstracted from sensibles.",
+      "Faith is like a light, not a species.",
+      "No created intellect knows all genera of being through one species."
+    ],
+    "concepts": [
+      "abstraction",
+      "species",
+      "lumen fidei",
+      "angelic cognition",
+      "unity of object"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04083",
+        "hx2hx3-a04083-d1e139"
+      ]
+    }
+  },
+  "hx2hx3-a04083-d1e257": {
+    "summary": "Hervaeus's own answer: theology is one by the unity of its formal object. As a power is one through one primary per se object however many its secondary objects, so is a science; theology's primary object is God as God, other things being considered secondarily. Against the charge of begging the question, proving one unity by another (effect's unity by the cause's) is demonstration, not circularity, provided it is not the same unity.",
+    "claims": [
+      "Theology is one science because its primary formal object, God as God, is one.",
+      "A science, like a power, is one through its primary per se object.",
+      "Proving one unity by a different unity is not begging the question."
+    ],
+    "concepts": [
+      "unity of science",
+      "formal object",
+      "God as God",
+      "petitio principii",
+      "primary and secondary object"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04083",
+        "hx2hx3-a04083-d1e131",
+        "hx2hx3-a04083-d1e139"
+      ]
+    }
+  },
+  "hx2hx3-a04083-d1e299": {
+    "summary": "Explains how one science can extend to so many things specifically: by reason of its object, to which all things are attributed not only generally (as to common being) but specifically in their proper natures; and by reason of its light, a participation in the divine light, since the higher the light the more can be known by one means.",
+    "claims": [
+      "All things are attributed to God in their proper natures, not only generally.",
+      "The higher the light, the more can be known through one means."
+    ],
+    "concepts": [
+      "attribution",
+      "participation in divine light",
+      "scope of theology"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04083",
+        "hx2hx3-a04083-d1e257"
+      ]
+    }
+  },
+  "hx2hx3-a04083-d1e328": {
+    "summary": "Reply to the opening argument: theology considers everything under one primary per se ratio, God as God, and others secondarily. God and creatures are not considered under one analogical common ratio; rather one is the reason for considering the other, as color is the reason for seeing quantity. Considering creatures under their own distinct rationes does not multiply the science, as sight knows white and black as such without their being its primary objects.",
+    "claims": [
+      "God is the ratio considerandi of creatures in theology, not an analogical common ratio.",
+      "Secondary per se objects known under their own rationes do not multiply a science or power."
+    ],
+    "concepts": [
+      "ratio considerandi",
+      "analogy",
+      "primary and secondary object",
+      "sight and color"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04083",
+        "hx2hx3-a04083-d1e111"
+      ]
+    }
+  }
+}

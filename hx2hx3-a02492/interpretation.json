@@ -1,0 +1,411 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:01:25Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "2f3d649",
+    "generation_method": "hierarchical",
+    "source_file": "cod-hvna87_hx2hx3-a02492.xml",
+    "description": "LLM-generated interpretative layer for the corresponding SCTA XML source."
+  },
+  "hx2hx3-a02492": {
+    "summary": "The third prologue question asks whether theology should be named practical or speculative from its end in this life or from its end in heaven. Against arguments that theology's principal end is heavenly beatitude, Hervaeus holds that it is named from its proper, intrinsic end attained in this life, so that it is speculative by the speculation of the way. He distinguishes proper ends from common ends (by predication or by causality) and defines an intrinsic end as one falling within the science's own causality. He then argues that heavenly vision is the proper end of the light of glory, the highest habit of the created intellect, and so cannot be proper to the wayfarer's theology. It lies beyond that theology's causality, is neither elicited nor commanded by it, cannot be produced by any habit of the way, and cannot coexist with faith. The replies restrict denomination from the principal end to proper intrinsic ends and place beatitude as the end common by causality to all good habits of the way.",
+    "claims": [
+      "Theology of the way is denominated from its proper intrinsic end attained in this life, not from heavenly beatitude.",
+      "Heavenly vision is the proper end of the light of glory.",
+      "A science is denominated only from an end within its causality, elicited or commanded by it.",
+      "Beatitude is the end common by causality to all good habits of the way."
+    ],
+    "concepts": [
+      "denomination from end",
+      "intrinsic and extrinsic end",
+      "common end by causality",
+      "lumen gloriae",
+      "visio Dei",
+      "theology as speculative",
+      "status viae"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-a02492-d1e104",
+        "hx2hx3-a02492-d1e113",
+        "hx2hx3-a02492-d1e126",
+        "hx2hx3-a02492-d1e140",
+        "hx2hx3-a02492-d1e164",
+        "hx2hx3-a02492-d1e173",
+        "hx2hx3-a02492-d1e191",
+        "hx2hx3-a02492-d1e228",
+        "hx2hx3-a02492-d1e298",
+        "hx2hx3-a02492-d1e341",
+        "hx2hx3-a02492-d1e365",
+        "hx2hx3-a02492-d1e381",
+        "hx2hx3-a02492-d1e401",
+        "hx2hx3-a02492-d1e425",
+        "hx2hx3-a02492-d1e438",
+        "hx2hx3-a02492-d1e468",
+        "hx2hx3-a02492-d1e477",
+        "hx2hx3-a02492-d1e490"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e104": {
+    "summary": "Rubric restating the question: whether this science (theology) should be named practical or speculative from the end attained in this life or in heaven.",
+    "claims": [],
+    "concepts": [
+      "rubric"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e113"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e113": {
+    "summary": "First opening argument: each thing is named from its principally intended end, and theology principally intends the state of heavenly beatitude; so it should be named from that end.",
+    "claims": [
+      "Things are named from their principally intended end.",
+      "Theology principally intends heavenly beatitude."
+    ],
+    "concepts": [
+      "denomination from end",
+      "beatitude",
+      "principal intention"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e438",
+        "hx2hx3-a02492-d1e468"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e126": {
+    "summary": "Second opening argument: the wayfarer's state as such excludes reaching the end and term; theology is the wayfarer's science; so its end cannot be attained in this life.",
+    "claims": [
+      "The state of the wayfarer excludes attaining the end."
+    ],
+    "concepts": [
+      "status viae",
+      "end",
+      "wayfarer's science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e477"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e140": {
+    "summary": "Third opening argument: in ordered habits the ultimate end belongs properly to the highest habit, as ruling the community belongs to politics; heavenly beatitude is the ultimate end of all human acts and sciences; theology is the highest human science; so beatitude is its proper end.",
+    "claims": [
+      "The ultimate end of ordered habits is proper to the highest habit.",
+      "Theology is the highest human science."
+    ],
+    "concepts": [
+      "ordered habits",
+      "architectonic science",
+      "beatitude",
+      "politics analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e490"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e164": {
+    "summary": "Sed contra: no science is named from an extrinsic end, and heavenly beatitude is extrinsic to the wayfarer's theology.",
+    "claims": [
+      "No science is denominated from an extrinsic end.",
+      "Beatitude is an extrinsic end of the theology of the way."
+    ],
+    "concepts": [
+      "extrinsic end",
+      "denomination"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e173"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e173": {
+    "summary": "Hervaeus's thesis: although theology could more plausibly be named from heavenly beatitude than bridle-making from riding, it should be named from its proper intrinsic end attained in this life; it is speculative by reason of the speculation of the way, not of heaven.",
+    "claims": [
+      "Theology is denominated from the end attainable in this life.",
+      "Theology is speculative by wayfarer's speculation, not heavenly vision."
+    ],
+    "concepts": [
+      "proper and intrinsic end",
+      "theology as speculative",
+      "speculation of the way"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e191",
+        "hx2hx3-a02492-d1e228",
+        "hx2hx3-a02492-d1e298"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e191": {
+    "summary": "First clarification: among per se ends that are attainments, some are proper (dwelling for a house), some common. Common ends are either common by predication (speculation for all speculative sciences) or common by causality (good government for all practical sciences), and the latter names only the highest practical science, not riding or warfare.",
+    "claims": [
+      "An end common by causality denominates only the highest science in an order."
+    ],
+    "concepts": [
+      "proper and common end",
+      "common by predication",
+      "common by causality",
+      "architectonic science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e173",
+        "hx2hx3-a02492-d1e298"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e228": {
+    "summary": "Second clarification: an end can be intrinsic to a science in three senses: identical in essence (impossible); in the same power (speculation for speculative sciences); or within the science's causal power, directly reached by it (praxis for practical sciences, the bridle for bridle-making). The last is meant. An extrinsic end is one the science reaches only remotely by disposing to another habit, as moral science disposes to speculation.",
+    "claims": [
+      "The intrinsic end of a science is one reached directly by its causality.",
+      "An extrinsic end is reached only remotely through another habit."
+    ],
+    "concepts": [
+      "intrinsic and extrinsic end",
+      "causality of science",
+      "praxis",
+      "moral science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e173",
+        "hx2hx3-a02492-d1e365"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e298": {
+    "summary": "First proof: in ordered habits the end common by causality names only the highest habit; the highest habit of the created intellect is the light of glory; its proper end is the vision of God by essence; so heavenly vision is the proper end of the light of glory, not of the wayfarer's theology.",
+    "claims": [
+      "The light of glory is the highest habit of the created intellect.",
+      "Vision of God by essence is the proper end of the light of glory."
+    ],
+    "concepts": [
+      "lumen gloriae",
+      "visio Dei per essentiam",
+      "ordered habits",
+      "common end by causality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e191",
+        "hx2hx3-a02492-d1e173"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e341": {
+    "summary": "Second proof: one operation cannot be the proper denominating end of diverse habits of the same genus (as metaphysics and geometry cannot share a proper end); heavenly vision is the proper end of the light of glory; so it cannot be the proper end of the wayfarer's theology.",
+    "claims": [
+      "Distinct intellectual habits cannot share a proper denominating end."
+    ],
+    "concepts": [
+      "proper end",
+      "distinction of habits",
+      "lumen gloriae"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e298"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e365": {
+    "summary": "Third proof: only the intrinsic end, contained within the science's causality, names a science; heavenly vision lies beyond the causality of the wayfarer's theology.",
+    "claims": [
+      "Heavenly vision lies outside the causality of the theology of the way."
+    ],
+    "concepts": [
+      "intrinsic end",
+      "causality of science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e228"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e381": {
+    "summary": "Fourth proof, confirming the third: a science is named only from an operation it elicits or commands, by which it attains its object; the wayfarer's theology neither elicits nor commands heavenly vision.",
+    "claims": [
+      "A science is named only from an operation it elicits or commands."
+    ],
+    "concepts": [
+      "elicited and commanded operation",
+      "denomination"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e365"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e401": {
+    "summary": "Fifth proof: heavenly speculation is vision, and no habit of the way is a habit of seeing God. Nor can theology be called speculative because it disposes meritoriously to heavenly speculation, since the moral virtues also do so without being speculative habits.",
+    "claims": [
+      "No habit of the way is a habit of seeing God.",
+      "Disposing to vision by merit does not make a habit speculative."
+    ],
+    "concepts": [
+      "visio",
+      "merit",
+      "moral virtues",
+      "speculative habit"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e173"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e425": {
+    "summary": "Sixth proof: a habit remains together with the operation from which it is named; but the wayfarer's theology, at least in its foundation in faith, does not remain with heavenly vision.",
+    "claims": [
+      "A habit coexists with its denominating operation.",
+      "Faith does not remain with heavenly vision."
+    ],
+    "concepts": [
+      "faith and vision",
+      "denomination",
+      "habit and operation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e173"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e438": {
+    "summary": "Reply to the first opening argument: a science is not always named from the principally intended end unless it is proper and intrinsic. Bridle-making as such intends riding more than the bridle, against those who say otherwise because the bridle-maker cares little for riding; as a man needing money he cares about pay, but not as bridle-maker.",
+    "claims": [
+      "A science's principal intended end may be extrinsic and so not denominating.",
+      "The bridle-maker as such intends riding more than the bridle."
+    ],
+    "concepts": [
+      "principal intention",
+      "bridle-making",
+      "finis operis and finis operantis"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e113",
+        "hx2hx3-a02492-d1e468"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e468": {
+    "summary": "Concludes the first reply: denomination from the more principal end holds only if that end is proper and intrinsic.",
+    "claims": [
+      "Denomination from the principal end holds only for proper intrinsic ends."
+    ],
+    "concepts": [
+      "denomination",
+      "proper intrinsic end"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e438"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e477": {
+    "summary": "Reply to the second opening argument: the wayfarer's state excludes reaching the ultimate end but not an end suited to that state; otherwise no habit of the way could be named from any end.",
+    "claims": [
+      "The state of the way can reach ends proportioned to it."
+    ],
+    "concepts": [
+      "status viae",
+      "proportionate end"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e126"
+      ]
+    }
+  },
+  "hx2hx3-a02492-d1e490": {
+    "summary": "Reply to the third opening argument: above the wayfarer's theology there is a nobler habit, not in this life but in heaven, the light of glory or habit of glory, whose proper end is heavenly beatitude; beatitude is the end common by causality to all good habits and operations of the way.",
+    "claims": [
+      "The light of glory is superior to the theology of the way.",
+      "Heavenly beatitude is a common end by causality of all good habits of the way."
+    ],
+    "concepts": [
+      "lumen gloriae",
+      "habitus gloriae",
+      "common end by causality",
+      "beatitude"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a02492",
+        "hx2hx3-a02492-d1e140",
+        "hx2hx3-a02492-d1e298"
+      ]
+    }
+  }
+}

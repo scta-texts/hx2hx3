@@ -1,0 +1,651 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:04:23Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "2f3d649",
+    "generation_method": "hierarchical",
+    "source_file": "cod-hvna87_hx2hx3-a05647.xml",
+    "description": "LLM-generated interpretative layer for the corresponding SCTA XML source."
+  },
+  "hx2hx3-a05647": {
+    "summary": "The seventh and last prologue question asks whether God is the subject of theology under a special ratio (as redeemer or glorifier) or absolutely as God. Hervaeus first explains in what sense God is the subject of theology. He rejects the explanation drawn from the subject/matter analogy in nature, partly because it wrongly makes the agent intellect's light less essential than the object, and prefers the explanation by comparison of object to power: the primary object is called subject because it is the subject term of the science's conclusions. He then argues against the view that God is the subject under an attributive ratio such as glorifier. The subject is God as God, in the sense of the divine substance that grounds the attributes as substance grounds per se accidents. His proofs: only this ratio grounds everything treated in theology, including the Trinity and creation; God is subject of the articles under this one fundamental ratio; 'glorifier' is a predicate proved of God; the blessed see God's substance, not an attribute; and any attributive ratio is either equally infinite or makes something created the formal object. His replies hold that a finite science can know the infinite finitely; that knowing God does not mean knowing all that shines in him; that a science's external end need not be its formal object; that demonstrable truths about God belong to an annexed habit, since theology's mode is to argue from belief; and that theology differs from metaphysics by formal object (God as God vs. being as being) and by light. The closing paragraph introduces Lombard's text for distinction 1.",
+    "claims": [
+      "God is the subject of theology because he is the subject term of its conclusions, its primary object.",
+      "The subject of theology is God absolutely as God, i.e. under the ratio of the divine substance, not as glorifier or redeemer.",
+      "Attributes such as glorifier are predicates proved of God in theology, not its formal subject.",
+      "The principal object of beatific vision is the divine substance itself.",
+      "The infinite can be known finitely by a finite science.",
+      "Theology's distinctive mode of knowing is to argue from revealed and believed premises.",
+      "Metaphysics and theology differ in formal object (being as being vs. God as God) and in light."
+    ],
+    "concepts": [
+      "subject of theology",
+      "Deus sub ratione Deitatis",
+      "glorificator",
+      "divine substance and attributes",
+      "infinity",
+      "beatific vision",
+      "formal object",
+      "metaphysics and theology",
+      "mode of knowing"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-a05647-d1e104",
+        "hx2hx3-a05647-d1e115",
+        "hx2hx3-a05647-d1e133",
+        "hx2hx3-a05647-d1e156",
+        "hx2hx3-a05647-d1e165",
+        "hx2hx3-a05647-d1e176",
+        "hx2hx3-a05647-d1e192",
+        "hx2hx3-a05647-d1e244",
+        "hx2hx3-a05647-d1e441",
+        "hx2hx3-a05647-d1e492",
+        "hx2hx3-a05647-d1e512",
+        "hx2hx3-a05647-d1e818",
+        "hx2hx3-a05647-d1e842",
+        "hx2hx3-a05647-d1e944",
+        "hx2hx3-a05647-d1e988",
+        "hx2hx3-a05647-d1e1061",
+        "hx2hx3-a05647-d1e1120",
+        "hx2hx3-a05647-d1e1157",
+        "hx2hx3-a05647-d1e1242",
+        "hx2hx3-a05647-d1e1288",
+        "hx2hx3-a05647-d1e1330",
+        "hx2hx3-a05647-d1e1425",
+        "hx2hx3-a05647-d1e1510",
+        "hx2hx3-a05647-d1e1593",
+        "hx2hx3-a05647-d1e1626",
+        "hx2hx3-a05647-d1e1650",
+        "hx2hx3-a05647-d1e1702",
+        "hx2hx3-a05647-d1e1714"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e104": {
+    "summary": "Rubric restating the question: whether God is the subject of theology under a special ratio and not absolutely as God.",
+    "claims": [],
+    "concepts": [
+      "rubric"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e115"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e115": {
+    "summary": "First opening argument: a special science must concern a special object under a special ratio; theology is a special science, since there cannot be two real common sciences; so God is its subject under a special ratio, not absolutely as God.",
+    "claims": [
+      "(Objection) A special science concerns its object under a special ratio.",
+      "(Objection) There cannot be two common real sciences."
+    ],
+    "concepts": [
+      "special and common science",
+      "ratio formalis",
+      "subject of theology"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e1626"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e133": {
+    "summary": "Second opening argument: if theology considered God absolutely as God, it would consider him under every ratio, including the metaphysician's; but two sciences cannot consider the same thing under the same ratio.",
+    "claims": [
+      "(Objection) Two sciences cannot consider the same thing under the same ratio."
+    ],
+    "concepts": [
+      "metaphysics and theology",
+      "ratio considerandi",
+      "distinction of sciences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e1650"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e156": {
+    "summary": "Sed contra, in the opposite direction: God cannot be the subject of any science, since he has no properties (passiones) that could be demonstrated of him.",
+    "claims": [
+      "(Objection) A subject must have demonstrable passiones, and God has none."
+    ],
+    "concepts": [
+      "passiones",
+      "demonstration",
+      "God as subject"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e1702"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e165": {
+    "summary": "Sets out the plan: first, that God is the subject of this science; second, under what ratio he is its subject.",
+    "claims": [],
+    "concepts": [
+      "structure of response",
+      "subject of theology"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e176",
+        "hx2hx3-a05647-d1e492"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e176": {
+    "summary": "On the first point all agree in the conclusion but explain it differently: some by comparing a science's subject with subject versus matter in natural things, others by comparing object to power in cognitive powers.",
+    "claims": [],
+    "concepts": [
+      "subject of science",
+      "doxography",
+      "object and power"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e192",
+        "hx2hx3-a05647-d1e441"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e192": {
+    "summary": "Reports the first explanation: as in nature matter has no actuality while a subject has substantial actuality but is in potency to accidents, so in a science what is introduced for the sake of another is 'matter', while the primary object, which distinguishes sciences, includes the science's essential actuality and is in potency only to the accidental actuality of the intellectual light. Since God is theology's primary object, he is its subject.",
+    "claims": [
+      "(Reported view) The primary object gives a science its essential actuality and is thus its subject.",
+      "(Reported view) The light of the intellect gives only accidental actuality to science."
+    ],
+    "concepts": [
+      "subject and matter",
+      "actuality",
+      "primary object",
+      "lumen intellectus"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e176",
+        "hx2hx3-a05647-d1e244"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e244": {
+    "summary": "Criticises that explanation on three counts: it addresses why the primary object is called 'subject' rather than whether and how God is primary object; its natural analogy fails, since the object includes the science's act as a cause includes an effect, not as a part, and secondary objects include their substantial forms as much as primary ones, while the object receives act from the light before moving the intellect; and it falsely holds that the agent intellect's light is less essential than the object, whereas a universal cause (like the heavens for an ass) is no less essential than a particular one, and object and light cause one and the same actuality.",
+    "claims": [
+      "The primary object includes the act of science as a cause includes its effect, not as a part.",
+      "The light of the agent intellect is no less essential to science than the object.",
+      "Object and light cause the same actuality as particular and universal causes."
+    ],
+    "concepts": [
+      "universal and particular cause",
+      "agent intellect",
+      "object as moving cause",
+      "subject analogy"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e192"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e441": {
+    "summary": "Prefers the second explanation: a science is a disposition of a power to a determinate object, as the power relates to its object in full range. The primary object is called 'subject' not by analogy with real substance underlying accidents but because it is the subject of the propositions and conclusions of the science, of which predicates are proved; any analogy with substance and accident holds between subject and predicate.",
+    "claims": [
+      "Science is a disposition of a power determining it to a determinate object.",
+      "The primary object is called subject because it is the subject term of the science's conclusions."
+    ],
+    "concepts": [
+      "subject of science",
+      "object and power",
+      "subject and predicate",
+      "demonstration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e176",
+        "hx2hx3-a05647-d1e244"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e492": {
+    "summary": "Plan for the second point: present the opinion that God is the subject under a special ratio with its arguments; present the opinion that God is the subject absolutely as God with its arguments; then answer the first opinion's arguments.",
+    "claims": [],
+    "concepts": [
+      "structure of response"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e512",
+        "hx2hx3-a05647-d1e1242"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e512": {
+    "summary": "Presents the first opinion (God as subject under the special ratio of redeemer or glorifier) with three arguments beyond the opening ones: the infinite as infinite cannot be the subject of a finite science; whoever considers God as God would consider everything that is or can be, while theology by Augustine concerns only what nourishes saving faith; and a science whose end is salvation and glory considers its object as saving and glorifying. A fourth, stronger argument: if theology concerned God as God, one habit would be both scientific and credal, since some divine attributes are demonstrable (unity, simplicity) and others only believed (Trinity, Incarnation). Hervaeus then presents the second opinion: the ratio of knowing on the knower's side is revealability or belief in revealed things, which marks a general mode of knowing rather than specifying a science. On the object's side he holds, more truly, that the subject is God absolutely as God. He rejects two readings of this (an aggregate of all divine rationes, or something common to all divine knowledge), since every science must prove properties of its subject. He adopts a third: God as God means God under the ratio of the divine substance, which grounds the attributes (just, good, glorifier) that relate to it, in our mode of understanding, as per se accidents to substance. He announces proofs from the nature of the thing, from the adversaries' own statements, and by showing they cannot avoid the problem they raise.",
+    "claims": [
+      "(Reported view) God is subject of theology as redeemer or glorifier.",
+      "The ratio cognoscendi of theology on the knower's side is belief in revealed truths.",
+      "Diversity in mode of knowing does not specify sciences by their proper objects.",
+      "The subject of theology is God absolutely as God, i.e. under the ratio of the divine substance.",
+      "Divine attributes relate to the divine substance in our understanding as per se accidents to their subject."
+    ],
+    "concepts": [
+      "Deus sub ratione Deitatis",
+      "glorificator",
+      "redemptor",
+      "revealability",
+      "ratio ex parte scientis and ex parte obiecti",
+      "divine substance and attributes",
+      "scibile and credibile"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e492",
+        "hx2hx3-a05647-d1e818",
+        "hx2hx3-a05647-d1e1242"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e818": {
+    "summary": "First argument from the nature of the thing (from the scope of the subject): a subject's formal ratio must contain fundamentally everything treated per se in the science, so all is reduced to it as first foundation; but no attributive ratio such as glorifier does this for theology. Proof of the major begins here and continues in the next paragraph.",
+    "claims": [
+      "The formal ratio of the subject must be the foundation of all that is treated per se in a science.",
+      "No attributive ratio like 'glorifier' founds everything treated in theology."
+    ],
+    "concepts": [
+      "ambitus subiecti",
+      "formal ratio of subject",
+      "attributive ratio"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e512",
+        "hx2hx3-a05647-d1e842"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e842": {
+    "summary": "Proves the premises: per Aristotle, a science extends its consideration only as far as its subject requires (the physician treats flesh and nerve only as subjects of health; the moralist treats the powers of the soul only as moral matter). No attributive ratio founds all of theology: theology treats what is like substance in God, to which attributes are reduced; it treats what belongs to God in himself, which grounds relations ad extra like glorifier and redeemer. Otherwise Sentences books I and II would exceed theology's bounds. The reply that the Trinity is treated for the sake of the incarnate Son fails, since that would not justify so principal and exquisite a treatment.",
+    "claims": [
+      "A science treats things only so far as its subject requires.",
+      "What belongs to God in himself grounds what belongs to him by relation to creatures.",
+      "If glorifier were the subject, treatises on God and creation would exceed theology's bounds."
+    ],
+    "concepts": [
+      "scope of science",
+      "relations ad extra",
+      "Trinity",
+      "Sentences books I-II",
+      "glorificator"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e818"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e944": {
+    "summary": "Second argument (from the subject's relation to principles): a thing is subject of a science and of its principles (premises taken without discourse) under the same formal ratio, since what is concluded of the subject is inferred through the ratio under which it appears in a premise. But God is not subject of the articles (triune, Father, Son, Spirit, creator) under any determinate attributive ratio such as glorifier.",
+    "claims": [
+      "A thing is subject of a science and of its principles under the same formal ratio.",
+      "God is not subject of the articles under the ratio of glorifier or any attributive ratio."
+    ],
+    "concepts": [
+      "principles as premises",
+      "articles of faith",
+      "formal ratio of subject"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e818",
+        "hx2hx3-a05647-d1e988"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e988": {
+    "summary": "Answers two objections to the second argument: some subjects (being as being, God) have no principles, but this confuses principles of being with principles of knowing (premises); and God is not triune and one under the same ratio, but he is subject of all the articles under one fundamental ratio, the divine substance as supreme substance, as man is docile and political through the one ratio of intellectual nature.",
+    "claims": [
+      "The relevant principles are principles of knowing, not principles of being.",
+      "God is subject of all the articles under the one fundamental ratio of divine substance."
+    ],
+    "concepts": [
+      "principia essendi and cognoscendi",
+      "Trinity and unity",
+      "fundamental ratio",
+      "intellectual nature"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e944"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1061": {
+    "summary": "Third argument (from the subject's relation to its properties): a science asks things of its subject but does not inquire about it as a predicate to be proved of something else, as natural philosophy presupposes mobile being. Theology asks whether God is glorifier, as it asks whether he is wise or omnipotent, so glorifier is a predicate proved of God, not the formal subject.",
+    "claims": [
+      "What a science proves as a predicate of something is not its formal subject.",
+      "In theology 'glorifier' is a predicate proved of God, like wisdom or omnipotence."
+    ],
+    "concepts": [
+      "subject and passio",
+      "predicate",
+      "glorificator",
+      "natural philosophy and mobile being"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e818"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1120": {
+    "summary": "Proof from the adversaries' own statements: they hold God is the object of our science and of the blessed's science under the same ratio; but the blessed see God not under an attributive ratio, since in intuitive cognition the thing moves the intellect according to its real mode of being. The principal object of beatific vision is the divine substance as a nature whose entity founds all the attributes.",
+    "claims": [
+      "In intuitive cognition the object is the thing in its real mode of being, not under a determinate ratio.",
+      "The principal object of beatific vision is the divine substance as founding all attributes."
+    ],
+    "concepts": [
+      "intuitive cognition",
+      "beatific vision",
+      "divine substance",
+      "same object for viae and patriae"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e512"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1157": {
+    "summary": "Shows that the adversaries cannot avoid the problem they raise (infinity of the object): 'God as glorifier' reduplicates either the divine power of glorifying (which as divine is infinite), or the created effect of glory (making a creature the formal object of theology and beatitude, absurd), or God's glorifying action, which is either identical with the essence (infinite again) or created (absurd again); and taking it as terminated in the creature either leaves the object infinite or makes something created more formal in it than something divine.",
+    "claims": [
+      "Every divine attribute as divine is infinite like God.",
+      "A creature cannot be the formal object, or part of the object, of beatitude."
+    ],
+    "concepts": [
+      "infinity",
+      "glorifying power",
+      "created effect",
+      "reduplication",
+      "beatific object"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e512",
+        "hx2hx3-a05647-d1e1242"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1242": {
+    "summary": "Begins the replies to the first opinion with the infinity argument: 'infinite' signifies formally a privation of limit and materially the nature in which it is founded (like an unlimited line), whereas 'God' signifies formally the divine nature, with lack of limitation as a consequent property.",
+    "claims": [
+      "'Infinite' signifies formally a privation of limit and materially the nature founding it.",
+      "'God' signifies formally the divine nature, with infinity as consequent property."
+    ],
+    "concepts": [
+      "infinity",
+      "privation",
+      "formal and material signification",
+      "divine nature"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e512",
+        "hx2hx3-a05647-d1e1288"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1288": {
+    "summary": "Applies this: it is false that the infinite, as the privation of limit, cannot be known by finite science, since the same science knows a habit and its opposite privation. Even the infinite as the nature founding it can be known finitely, especially God's infinity of actuality that is not bounded by any genus or species, finitely on the side of the knower.",
+    "claims": [
+      "The same science knows a habit and its privation.",
+      "God's infinite actuality can be known finitely by a finite knower."
+    ],
+    "concepts": [
+      "infinity",
+      "habit and privation",
+      "finite knowledge of the infinite",
+      "unbounded actuality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e1242"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1330": {
+    "summary": "Answers an objection that the object as moving cause would make the science infinite: an efficient cause necessitates its effect's form only virtually, not formally (otherwise God could make only God). Rejects the reply of others that infinity is a ratio annexed rather than formal, since the infinite divine nature is the formal object of the finite beatific vision. On specific unity from the object, holds this is true only other things being equal on the side of knower and medium, as the adversaries concede of wayfarer's and heavenly science.",
+    "claims": [
+      "An efficient cause contains its effect virtually, not formally.",
+      "The infinite divine nature is the formal object of finite beatific vision.",
+      "Specific unity of science from the object holds only with the same knower-side conditions and medium."
+    ],
+    "concepts": [
+      "efficient causality",
+      "virtual containment",
+      "beatific vision",
+      "specification of science",
+      "lumen and medium"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e1288",
+        "hx2hx3-a05647-d1e1242"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1425": {
+    "summary": "Reply to the second argument (that considering God as God would mean considering all things): one who knows a medium in which things shine forth need not know them all specifically unless he comprehends it fully; neither the blessed nor, still less, we do. Having something as merely a medium of knowing differs from having it as the thing known; God, whose form the essence is, sees perfectly what shines in it, but we have God as object known rather than as medium, though knowing him is a reason for considering other things.",
+    "claims": [
+      "Knowing a medium does not entail knowing all it represents unless one comprehends it.",
+      "Having something as known object differs from having it as medium of knowing.",
+      "Only God sees perfectly everything that shines in the divine essence."
+    ],
+    "concepts": [
+      "speculum aeternum",
+      "comprehension",
+      "medium cognoscendi",
+      "object known",
+      "beatific knowledge of creatures"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e512"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1510": {
+    "summary": "Reply to the third argument (from salvation as end): a science's relation to an external end need not be the formal ratio of its object, as the bridle's form, not its relation to riding, is the bridle-making art's object. Considering God as God and as triune is ordered to meriting glory as much as considering him as savior. In speculative sciences the end is never the formal object (except as the thing attained), while in practical sciences a commanded operation can be the formal object; an elicited act can never be the principal object of its own habit.",
+    "claims": [
+      "A science's external end need not be the formal ratio of its object.",
+      "In speculative sciences the end is not the formal object.",
+      "An elicited act cannot be the principal object of the habit that elicits it."
+    ],
+    "concepts": [
+      "external end",
+      "formal object",
+      "bridle-making",
+      "speculative and practical science",
+      "elicited and commanded act"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e512"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1593": {
+    "summary": "Reply to the fourth argument (one habit scientific and credal): it does not follow, because what is demonstratively known belongs neither to faith nor opinion, not by reason of the subject but of the mode of knowing; theology's mode is to argue from believed things. Just as opinions within metaphysics or physics belong to an annexed habit by reason of matter, demonstrable truths about God belong to a different habit from theology.",
+    "claims": [
+      "Habits are distinguished here by mode of knowing, not by subject.",
+      "Theology's mode is to argue from believed premises.",
+      "Demonstrable truths about God fall under a habit annexed to theology, not theology itself."
+    ],
+    "concepts": [
+      "scientific and credal habit",
+      "mode of knowing",
+      "annexed habit",
+      "demonstrable truths about God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e512"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1626": {
+    "summary": "Reply to the first opening argument: though God as God is not one attributive ratio, it is still a special ratio of a special being relative to analogical being, since God as God is special by predication relative to being as being. The argument wrongly treats 'God' as considered under the ratio of being common to God and creatures.",
+    "claims": [
+      "God as God is a special ratio relative to being as being.",
+      "Theology is a special science because God as God is special relative to analogical being."
+    ],
+    "concepts": [
+      "special science",
+      "ens analogum",
+      "God as God"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e115"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1650": {
+    "summary": "Reply to the second opening argument: on its proponents' own view, sciences of way and fatherland, and so too metaphysics and theology, can differ by light rather than object. Moreover, only identity of formal object makes one science; metaphysician and theologian both treat God as first cause of all caused beings, but this is not the formal object of either: metaphysics' is being as being, theology's God as God.",
+    "claims": [
+      "Sciences can differ by light even with the same object.",
+      "Only identity of formal object makes the same science.",
+      "The formal object of metaphysics is being as being; of theology, God as God."
+    ],
+    "concepts": [
+      "metaphysics and theology",
+      "formal object",
+      "lumen",
+      "God as first cause"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e133"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1702": {
+    "summary": "Reply to the sed contra (God has no passiones): in a science that knows the fact (quia), the subject need not have properties really distinct from itself.",
+    "claims": [
+      "In a quia science the subject need not have really distinct passiones."
+    ],
+    "concepts": [
+      "passiones",
+      "quia science",
+      "divine simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647",
+        "hx2hx3-a05647-d1e156"
+      ]
+    }
+  },
+  "hx2hx3-a05647-d1e1714": {
+    "summary": "Lemma from Lombard's text opening Book I, distinction 1 (Augustine: some things are to be enjoyed, others used), marking the transition from the prologue questions to the commentary on distinction 1.",
+    "claims": [],
+    "concepts": [
+      "frui and uti",
+      "lemma",
+      "Lombard's Sentences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a05647"
+      ]
+    }
+  }
+}

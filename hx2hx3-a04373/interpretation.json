@@ -1,0 +1,448 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:03:12Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "2f3d649",
+    "generation_method": "hierarchical",
+    "source_file": "cod-hvna87_hx2hx3-a04373.xml",
+    "description": "LLM-generated interpretative layer for the corresponding SCTA XML source."
+  },
+  "hx2hx3-a04373": {
+    "summary": "The sixth prologue question asks whether theology is subalternated to any science. Hervaeus first analyses subalternation as one science depending on another for perfect knowledge of its principles. On the side of the knowable, there is no subalternation between species and genus, but there is between a 'part in mode' and its whole (perspective to geometry) and between things ordered as means to end (bridle-making to horsemanship). On the side of the knower, there is subalternation when one person sees what another only believes, but this is a subalternation of faith to science. This yields the three standard modes: subject under subject, end under end, mode under mode. Applying this, theology is subalternated to the knowledge of the blessed in the third mode, as faith to vision. It is not subalternated to metaphysics or any human science, since it takes metaphysical truths as revealed and metaphysics gives causes of knowing, not of being, for divine attributes. Nor does it subalternate the human sciences, which reach God as first cause and end by reason and order their subjects to ends known by demonstration, not to the believed end. A final note confirms that a subalternate science must know its principles evidently 'quia', otherwise it is only a habit of belief.",
+    "claims": [
+      "Subalternation is the dependence of one science on another for knowledge of its principles, on the side of the knowable or of the knower.",
+      "Theology is subalternated to the knowledge of the blessed only on the side of the knower, as faith to science.",
+      "Theology is not subalternated to metaphysics or any human science.",
+      "Theology does not subalternate the human sciences.",
+      "A subalternate science must know its principles evidently 'quia'."
+    ],
+    "concepts": [
+      "subalternation",
+      "scientia beatorum",
+      "pars in modo",
+      "quia and propter quid",
+      "metaphysics and theology",
+      "human sciences",
+      "faith and vision"
+    ],
+    "_metadata": {
+      "level": "question",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "hx2hx3-a04373-d1e104",
+        "hx2hx3-a04373-d1e113",
+        "hx2hx3-a04373-d1e133",
+        "hx2hx3-a04373-d1e143",
+        "hx2hx3-a04373-d1e152",
+        "hx2hx3-a04373-d1e157",
+        "hx2hx3-a04373-d1e517",
+        "hx2hx3-a04373-d1e530",
+        "hx2hx3-a04373-d1e539",
+        "hx2hx3-a04373-d1e599",
+        "hx2hx3-a04373-d1e654",
+        "hx2hx3-a04373-d1e687",
+        "hx2hx3-a04373-d1e791",
+        "hx2hx3-a04373-d1e817",
+        "hx2hx3-a04373-d1e993",
+        "hx2hx3-a04373-d1e1187",
+        "hx2hx3-a04373-d1e1198",
+        "hx2hx3-a04373-d1e1220",
+        "hx2hx3-a04373-d1e1268"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e104": {
+    "summary": "Rubric restating the question: whether theology is subalternated to any science.",
+    "claims": [],
+    "concepts": [
+      "rubric"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e113"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e113": {
+    "summary": "Opening arguments for subalternation: theology takes its principles from the science of the blessed; it uses as principles what metaphysics proves (that God is one); and its procedure is secured by the common principles that metaphysics treats (non-contradiction).",
+    "claims": [
+      "(Objection) Theology receives principles from the knowledge of the blessed and from metaphysics."
+    ],
+    "concepts": [
+      "subalternation",
+      "scientia beatorum",
+      "metaphysics",
+      "first principles"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e1187",
+        "hx2hx3-a04373-d1e1198",
+        "hx2hx3-a04373-d1e1220"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e133": {
+    "summary": "Sed contra: theology considers the best thing in the whole range of beings, so all other sciences are subalternated to it, and it to none.",
+    "claims": [
+      "(Contra) A science of the highest being subalternates all others."
+    ],
+    "concepts": [
+      "optimum",
+      "architectonic science"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e1268"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e143": {
+    "summary": "Begins laying out the plan of the response: two things are to be explained, first what 'subalternation' means and in how many ways it occurs; second (sentence continues in the next paragraph).",
+    "claims": [],
+    "concepts": [
+      "structure of response",
+      "subalternation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e152",
+        "hx2hx3-a04373-d1e157"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e152": {
+    "summary": "Completes the plan sentence begun in the previous paragraph: the second task is to apply these distinctions to the present question.",
+    "claims": [],
+    "concepts": [
+      "structure of response"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e143",
+        "hx2hx3-a04373-d1e517"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e157": {
+    "summary": "Long analysis of subalternation. It denotes one science's dependence on another for perfect knowledge of its principles, either on the side of the knowable or on the side of the knower. On the knowable side: if one subject includes another as species includes genus (man/animal), there is no subalternation, since what belongs to a species by its difference cannot be proved through the genus either propter quid or quia; but if as 'part in mode' (visual line/line), the higher science gives the propter quid of the lower's quia (geometry for perspective), though perspective can give a remote propter quid. Subalternation also occurs between diverse things related causally, as bridle-making to horsemanship by final cause. On the knower's side, when one knows evidently what another only believes, this is subalternation of faith, not of science, to science. Hence the three common modes: subject under subject, end under end, mode under mode.",
+    "claims": [
+      "Subalternation is the dependence of one science on another for knowledge of its principles.",
+      "There is no subalternation between a science of a species and a science of its genus.",
+      "A subject that is a 'part in mode' of another can be subalternated to it.",
+      "Subalternation can occur between diverse things ordered as end and means.",
+      "Subalternation on the side of the knower is of faith to science, not science to science.",
+      "There are three modes: subject under subject, end under end, mode under mode."
+    ],
+    "concepts": [
+      "subalternation",
+      "pars in modo",
+      "genus and species",
+      "quia and propter quid",
+      "perspective and geometry",
+      "bridle-making and horsemanship",
+      "ex parte scibilis",
+      "ex parte scientis"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e143",
+        "hx2hx3-a04373-d1e517"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e517": {
+    "summary": "Turns to the application, dividing it into three questions: whether theology is subalternated to the science of the blessed; whether to any human science; whether it subalternates other human sciences to itself.",
+    "claims": [],
+    "concepts": [
+      "structure of response",
+      "scientia beatorum",
+      "human sciences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e530",
+        "hx2hx3-a04373-d1e791",
+        "hx2hx3-a04373-d1e993"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e530": {
+    "summary": "Notes the two positions on the first question: some deny and some affirm that theology is subalternated to the knowledge of the blessed.",
+    "claims": [],
+    "concepts": [
+      "doxography",
+      "scientia beatorum"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e539"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e539": {
+    "summary": "Gives the deniers' arguments: the subalternating science must give the propter quid, but theology's matters have no cause; what lies on the knower's side is accidental; and an obscure knowledge (owl) need not be subalternated to a clear one (eagle) of the same thing. Hervaeus nonetheless affirms a kind of subalternation: the wayfarer, whose state excludes seeing these things in themselves, necessarily depends on those who have evidence of them, but this is a dependence of faith on science on the side of the knower.",
+    "claims": [
+      "The wayfarer's knowledge of supernatural truths necessarily depends on the knowledge of the blessed.",
+      "This dependence is a subalternation of faith to science on the side of the knower."
+    ],
+    "concepts": [
+      "scientia beatorum",
+      "faith",
+      "dependence",
+      "owl and eagle"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e530",
+        "hx2hx3-a04373-d1e599"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e599": {
+    "summary": "Replies to the deniers: the propter quid requirement holds for subalternation on the side of the knowable, not the knower; diversity on the side of the knower is not accidental when one knower's condition allows seeing and another's excludes it by nature, so dependence is per se; and when obscure knowledge depends on clear knowledge, it is subalternated, unlike in the owl-eagle example.",
+    "claims": [
+      "The propter quid requirement applies only to subalternation on the side of the knowable.",
+      "Diversity arising from the knowers' natural conditions is per se, not accidental."
+    ],
+    "concepts": [
+      "subalternation ex parte scientis",
+      "propter quid",
+      "per se dependence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e539"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e654": {
+    "summary": "Raises three objections against subalternation to the blessed: the subalternate's principles should be posterior to the subalternant's; subalternant and subalternate are compossible, but the knowledge of way and of heaven are not; and if there is subalternation, it seems to be by end under end, not just by mode of the knower.",
+    "claims": [
+      "(Objection) Subalternant and subalternate must be compossible.",
+      "(Objection) Theology seems subalternated by final cause."
+    ],
+    "concepts": [
+      "compossibility",
+      "priority of principles",
+      "end under end"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e687"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e687": {
+    "summary": "Answers: in subalternation on the knower's side it suffices that the subalternant's mode of knowing be prior and higher, as evidence is prior to assent on testimony (though in the believer who comes to vision, believing precedes seeing). Faith and vision are incompossible regarding the same thing, so they are in different subjects or at different times. Against some, the speculation of the way is theology's proper intrinsic end; subalternation by final cause requires end under end on the side of the knowable (riding as end of the bridle), not merely one science's end helping another's, since a science gives the cause of its object, not of itself.",
+    "claims": [
+      "In subalternation by the knower, the subalternant's mode of knowing must be prior and higher.",
+      "Faith and vision of the same thing cannot coexist in the same subject at the same time.",
+      "Subalternation by final cause requires an ordering of the knowables, not of the sciences' acts."
+    ],
+    "concepts": [
+      "priority of mode of knowing",
+      "incompossibility of faith and vision",
+      "end under end",
+      "finis proprius intrinsecus"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e654"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e791": {
+    "summary": "Answers the second question: theology is not subalternated to any human science in any mode, since its subject is not a part in mode of theirs, no human science's subject or end is the final cause of theology's subject, and what theology holds by faith is evident in no human science.",
+    "claims": [
+      "Theology is not subalternated to any human science."
+    ],
+    "concepts": [
+      "human sciences",
+      "subalternation",
+      "modes of subalternation"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e157",
+        "hx2hx3-a04373-d1e817"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e817": {
+    "summary": "Answers objections from metaphysics: theology uses metaphysical results (God one and simple) as suppositions but takes them as revealed, not as proved, so does not depend on metaphysics. Metaphysics does not give the propter quid of theology's knowable, since proving pure actuality from God's being first principle gives a cause of knowing, not of being. Metaphysical principles are prior only by commonness, which does not suffice for subalternation. Though natural philosophy can explain why Christ needed food, subalternation concerns the principal object (the Incarnation and Redemption), and theology gives the higher cause, namely that it befitted him for our restoration, treating such knowledge as instrumental.",
+    "claims": [
+      "Theology takes metaphysical truths as revealed, not as proved.",
+      "Metaphysical demonstrations of divine attributes give causes of knowing, not causes of being.",
+      "Priority by commonness does not suffice for subalternation.",
+      "Subalternation concerns the principal object of a science.",
+      "Theology treats natural knowledge as an instrumental servant."
+    ],
+    "concepts": [
+      "metaphysics and theology",
+      "causa essendi and causa cognoscendi",
+      "priority by commonness",
+      "Incarnation",
+      "Redemption",
+      "ancilla"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e791",
+        "hx2hx3-a04373-d1e1198"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e993": {
+    "summary": "Third question: some say theology subalternates other sciences because it uses their results and gives the cause of what they determine (God's will). Hervaeus denies it under each mode: no human subject is a part in mode of God; theology lacks clear evidence of what others believe; and even the final-cause mode fails, because human sciences can find the propter quid regarding God by reason (philosophers prove God first cause, acting by intellect and will, ultimate end, though they hold he wills naturally); subalternation requires the subalternant to make the cause evident; theology gives only remote causes; and human practical sciences order action to the demonstrated end of human life and the universe's natural order to God, not to the believed end. A science's using results of another does not subalternate it.",
+    "claims": [
+      "Theology does not subalternate the human sciences.",
+      "Philosophers can prove that God is first efficient and final cause.",
+      "Subalternation requires the subalternant to make the cause evident.",
+      "Using another science's results does not make it subalternate."
+    ],
+    "concepts": [
+      "subalternation",
+      "architectonic theology",
+      "philosophers on God",
+      "natural ordering to God",
+      "ancillary use of sciences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e517",
+        "hx2hx3-a04373-d1e157"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e1187": {
+    "summary": "Reply to the first opening argument: theology is subalternated to the knowledge of the blessed as faith is to science, by the third mode.",
+    "claims": [
+      "Theology is subalternated to the knowledge of the blessed in the third mode."
+    ],
+    "concepts": [
+      "scientia beatorum",
+      "subalternation ex parte scientis"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e113",
+        "hx2hx3-a04373-d1e539"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e1198": {
+    "summary": "Reply to the second: theology uses metaphysical results not as proved there but as revealed; even if it took something from metaphysics, it would be subalternated only if this gave the propter quid of its principles, the articles, which is impossible.",
+    "claims": [
+      "Theology accepts metaphysical results as revealed.",
+      "Nothing in metaphysics gives the propter quid of the articles."
+    ],
+    "concepts": [
+      "metaphysics",
+      "articles of faith",
+      "propter quid"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e113",
+        "hx2hx3-a04373-d1e817"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e1220": {
+    "summary": "Reply to the third: all sciences presuppose metaphysical first principles, but these are principles of knowing or inferring, not of being, and do not suffice without proper principles; so they do not subalternate. Other sciences' principles reduce to metaphysical ones as prior in commonness, not as proving them ('man is white' to 'substance is qualified').",
+    "claims": [
+      "Common first principles are principles of knowing, not of being.",
+      "Reduction by commonness is not subalternation."
+    ],
+    "concepts": [
+      "first principles",
+      "principles of knowing",
+      "reduction by commonness"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e113"
+      ]
+    }
+  },
+  "hx2hx3-a04373-d1e1268": {
+    "summary": "Reply to the sed contra: considering the best being does not suffice to subalternate other sciences unless they consider their matter as ordered to it as the higher science considers it. A general note: a subalternate science must have non-discursive evidence of its principles at least 'quia', since every science resolves into unproved principles; otherwise it is a credal habit. So where subalternation is on the side of the knowable, the subalternant gives the propter quid of what the subalternate knows 'quia' without its help, confirming the earlier answer in question 1.",
+    "claims": [
+      "A subalternate science has non-discursive evidence of its principles quia.",
+      "Without such evidence a habit is credal, not scientific.",
+      "The subalternant gives the propter quid of principles the subalternate knows quia by itself."
+    ],
+    "concepts": [
+      "evidence of principles",
+      "quia and propter quid",
+      "subalternation",
+      "credal habit"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "hx2hx3-a04373",
+        "hx2hx3-a04373-d1e133",
+        "hx2hx3-a04373-d1e157"
+      ]
+    }
+  }
+}
